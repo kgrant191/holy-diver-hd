@@ -1,0 +1,18 @@
+{
+  "changed_vs_previous_candidate": [
+    "EntranceScene.png",
+    "README.txt"
+  ],
+  "changed_vs_main_0_0_1": [
+    "EntranceScene.png",
+    "README.txt",
+    "Title_HD.png",
+    "Title_Intro_HD.png"
+  ],
+  "unchanged_vs_main": 67,
+  "runtime_bytes_match_tested_pack": true,
+  "editable_layers_reconstruct_pack": true,
+  "local_archive_entries": 71,
+  "local_archive_nested_zip": false,
+  "local_archive_root_contains_hires_txt": true
+}

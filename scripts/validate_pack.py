@@ -35,12 +35,23 @@ assert len(imgs)==28
 assert counts['tile']==2231
 assert counts['background']==48
 assert counts['condition']==204
-# The approved entrance/title assets and its exact audio patch are retained.
+# Preserve approved assets outside the explicitly requested title/ledge repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
 arm_atlases={'Randy_Entrance_2x.png','Randy_Equipped_2x.png'}
+repaired_backgrounds={'Title_HD.png','Title_Intro_HD.png','EntranceScene.png'}
 for p in baseline.glob('*.png'):
- if p.name not in arm_atlases:assert p.read_bytes()==(pack/p.name).read_bytes(),p.name
+ if p.name in repaired_backgrounds:
+  before=np.array(Image.open(p).convert('RGBA'));after=np.array(Image.open(pack/p.name).convert('RGBA'))
+  assert before.shape==after.shape,p.name
+  allowed=np.zeros(before.shape[:2],dtype=bool)
+  if p.name.startswith('Title_'):allowed[390:452,100:412]=True
+  else:
+   allowed[192:236,0:128]=True
+   allowed[544:588,0:160]=True
+  assert np.any(before!=after),p.name+' repair missing'
+  assert not np.any(np.any(before!=after,axis=2)&~allowed),p.name+' changed outside repair'
+ elif p.name not in arm_atlases:assert p.read_bytes()==(pack/p.name).read_bytes(),p.name
  else:
   expected=Image.open(p).convert('RGBA')
   patch=Image.open(root/'art/randy_arm_patch.png').convert('RGBA')
@@ -62,7 +73,7 @@ assert not re.search(r'<tile>25,(?:6[C-F]|7[0-3]),FF301116,',content)
 assert content.count('<patch>')==1
 assert len(re.findall(r'\[pauseScreen&pauseMagicRow&pausedPalette\]<tile>26,097[5-8],0F172737,',content))==4
 for asset in (Path(__file__).resolve().parents[1]/'rollback/bracelet_v14').glob('*.png'):
- if asset.name not in arm_atlases:assert asset.read_bytes()==(pack/asset.name).read_bytes(),asset.name
+ if asset.name not in arm_atlases|repaired_backgrounds:assert asset.read_bytes()==(pack/asset.name).read_bytes(),asset.name
 assert 'cryptBatPhase' not in content
 assert len(re.findall(r'<tile>26,7[4-7],FF160636,',content))==4
 assert len(re.findall(r'\[randyDefeated\]<tile>',content))==64

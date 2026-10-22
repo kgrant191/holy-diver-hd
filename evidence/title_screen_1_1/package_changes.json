@@ -1,0 +1,26 @@
+{
+  "baseline_version": "0.0.1",
+  "candidate_version": "0.0.2",
+  "unchanged_files": 67,
+  "changed_files": {
+    "EntranceScene.png": {
+      "before": "82f112b1b6e1760b8c380597055d14e3422e8ca9eeb424b7d0e94da6441d9319",
+      "after": "3c649666f705e661deb7a4eb54a83403f7a2b615a667a3a2b8cc5d9976021a58"
+    },
+    "README.txt": {
+      "before": "7e535f89565681a5804ced452e0e2b8af4dbeae2b56d109beeecc411a909ad65",
+      "after": "b3d25cdec4f3eb51ea766ce61480954a1d26d392155331b0503df2f3c16908e3"
+    },
+    "Title_HD.png": {
+      "before": "3ded583c1ce95c536d2623af7d16e268d0e5c31a868ef6014165194c34741d4c",
+      "after": "33009cde1f9407c45661f26ed0da39c1db897c8bfbe7ea9969c5d220843461d7"
+    },
+    "Title_Intro_HD.png": {
+      "before": "7646e20eca1c58697ead1b132ef100ce29eca7e27a38516b100deca6ca6e894e",
+      "after": "d4323cfa39004ba4f4a4d6b2e7f27c59eb8fad086c2d48972ea931bca32bcf61"
+    }
+  },
+  "hires_rules_changed": false,
+  "sprite_atlases_changed": false,
+  "audio_patch_changed": false
+}

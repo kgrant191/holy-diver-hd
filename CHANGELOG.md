@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.2 — approved 2026-10-22
+
+- Reconstructed the title-prompt background, removing the former patch seam and rectangular plaque. The original gold PRESS START letters appear after the first Start press.
+- Rebuilt the two entrance shelf caps continuously from the left edge to their native fall boundaries: upper HD X0–128 at Y192, lower X0–160 at Y544. Full traversals from the supplied save states replace the earlier, incorrect rightward extensions.
+- Actions artifacts now contain the installable pack files directly; one extraction exposes hires.txt instead of another ZIP.
+- Preserved all sprite atlases, tile rules, collision, input timing and audio patch bytes.
+
 ## 0.0.1 — 2026-10-22
 
 - Initial repository development version, based on approved historical v15.1 artwork.

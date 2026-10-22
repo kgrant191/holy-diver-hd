@@ -1,11 +1,16 @@
-HOLY DIVER HD 0.0.1 — DEVELOPMENT BUILD
-Approved artwork baseline: historical v15.1 (Randy arm repair, deaths and stage cards).
+HOLY DIVER HD 0.0.2 — APPROVED DEVELOPMENT BUILD
+Approved 2026-10-22: title and ledge corrections on the historical v15.1 artwork baseline.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
+
+0.0.2 removes the rectangular title-prompt outline in both title states and
+aligns both entrance shelves from the far-left standing area to the native fall edge.
+The first Start reveals PRESS START; the second Start begins play.
 
 1. Back up your current HD-pack folder.
 2. Extract every file in this ZIP into the folder matching your ROM name.
    Example: Mesen/HdPacks/Holy_Diver_(Tr)/
    hires.txt must be directly in that folder, without another nested folder.
+   The Actions artifact needs one extraction; it contains the pack files directly.
 3. Enable NES HD packs. Fully close the ROM and reopen it to reload the pack.
 4. Start a new game to see the stage introduction, or load your existing state.
 
