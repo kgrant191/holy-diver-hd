@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.2 — review candidate
+## 0.0.2 — approved 2026-10-22
 
 - Reconstructed the title-prompt background, removing the former patch seam and rectangular plaque. The original gold PRESS START letters appear after the first Start press.
 - Rebuilt the two entrance shelf caps continuously from the left edge to their native fall boundaries: upper HD X0–128 at Y192, lower X0–160 at Y544. Full traversals from the supplied save states replace the earlier, incorrect rightward extensions.

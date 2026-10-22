@@ -1,4 +1,6 @@
-# 0.0.2 candidate — corrected ledge boundaries and single-extraction artifact
+# 0.0.2 approved — corrected ledge boundaries and single-extraction artifact
+
+Approved by the user in chat on 2026-10-22. Approval changes documentation only; all runtime assets retain the tested bytes.
 
 The first candidate extended the shelves too far right and did not provide a continuous visible surface at the far left. Its stationary-pose check confused Randy's sprite overhang with the collision span. That visual conclusion is superseded by the full-traversal tests below; historical captures in evidence/title_screen_1_1 retain the earlier geometry.
 

@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Development version: 0.0.2 (review candidate). Approved baseline: 0.0.1 / historical v15.1.**
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved development version: 0.0.2.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 Includes the entrance and screen-2 overhaul, shared Randy/weapon art, bracelet pickup and pause icon, defeat effects, and stage/lives cards. The rest of the game remains work in progress.
 

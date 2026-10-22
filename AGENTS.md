@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Preserve approved behavior
 
-- Current development version: see VERSION (initially 0.0.1). Imported approved artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
+- Current approved development version: 0.0.2 (see VERSION and STATUS.md). Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
 - Preserve the title sequence: clean splash, first Start reveals PRESS START, second Start starts play. Preserve the exact Entrance_SFX_Priority.ips bytes.
 - Randy's normal/Twin Fire art is shared across matching native identities. Fix shared assets/mappings where appropriate instead of adding needless room-specific copies.
 - The red winged-skull drop is a bracelet. Its collected Start/pause-menu icon must use the same bracelet artwork.

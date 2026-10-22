@@ -1,5 +1,5 @@
-HOLY DIVER HD 0.0.2 — DEVELOPMENT REVIEW BUILD
-Approved artwork baseline: historical v15.1 (Randy arm repair, deaths and stage cards).
+HOLY DIVER HD 0.0.2 — APPROVED DEVELOPMENT BUILD
+Approved 2026-10-22: title and ledge corrections on the historical v15.1 artwork baseline.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
 
 0.0.2 removes the rectangular title-prompt outline in both title states and
