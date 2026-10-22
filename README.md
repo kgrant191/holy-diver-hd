@@ -1,0 +1,51 @@
+# Holy Diver HD
+
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved baseline: v15.1.**
+
+Includes the entrance and screen-2 overhaul, shared Randy/weapon art, bracelet pickup and pause icon, defeat effects, and stage/lives cards. The rest of the game remains work in progress.
+
+![Randy arm repair in actual Mesen captures](evidence/arm_repair/Holy_Diver_v15_Comparison.png)
+
+## Build
+
+Use Python 3.12:
+
+```sh
+python -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+python build.py
+python scripts/verify_release.py
+```
+
+On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
+
+Output: `build/Holy_Diver_HD_v15_1.zip`, containing `build/Holy_Diver_(Tr)/`. GitHub Actions builds and retains an installable ZIP artifact after successful validation.
+
+## Install
+
+Extract the ZIP directly into the Mesen HD-pack folder matching the ROM filename, for example `Mesen/HdPacks/Holy_Diver_(Tr)/`. hires.txt must be directly inside that folder. Enable NES HD packs and fully close/reopen the ROM.
+
+Supported translated ROM SHA-1: `fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac`. Tested with MesenCE 2.2.1. Supply the ROM and emulator separately; neither is included. See INSTALL.txt for the original pack instructions.
+
+## Project files
+
+| Path | Purpose |
+| --- | --- |
+| AGENTS.md | Instructions for future coding-agent sessions |
+| STATUS.md | Approved work, known limits and next task |
+| CHANGELOG.md | Release history |
+| art/ | Source images, registered sprites, metadata and font license |
+| scripts/ | Builders, validators, Lua replay templates and capture tools |
+| rollback/ | Exact older pack inputs used by the current build |
+| evidence/ | Compact live reports/captures and approved pack hashes |
+| docs/ | Art direction, testing setup, repository workflow and prior notes |
+| test_states/ | Tracked setup guide; ignored local emulator inputs |
+
+## Continuing work
+
+Start against this repository and read AGENTS.md and STATUS.md. Use a focused branch, test affected visuals in Mesen, and keep main at the approved version. Update status and changelog when work is accepted.
+
+CI checks mappings, tile bounds, conditional ordering, approved asset hashes and the audio patch. It does not replace live emulator testing. Read docs/TESTING.md.
+
+Historical rollback inputs are retained for reproducibility. Future Git commits provide additional version history. See docs/REPOSITORY_WORKFLOW.md and NOTICE.md.
