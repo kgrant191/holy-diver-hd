@@ -17,11 +17,16 @@
         244
       ],
       "target": [
-        84,
+        0,
         192,
-        160,
+        128,
         236
-      ]
+      ],
+      "native_surface": {
+        "left": 0,
+        "right_exclusive": 64,
+        "y": 96
+      }
     },
     {
       "name": "lower",
@@ -32,11 +37,16 @@
         596
       ],
       "target": [
-        116,
+        0,
         544,
-        192,
+        160,
         588
-      ]
+      ],
+      "native_surface": {
+        "left": 0,
+        "right_exclusive": 80,
+        "y": 272
+      }
     }
   ],
   "native_collision_modified": false

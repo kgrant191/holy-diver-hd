@@ -47,15 +47,18 @@ for name, image in [('Title_Intro_HD.png', intro), ('Title_HD.png', ready)]:
     image.save(art / name)
     image.save(pack / name)
 
-# Controller-only probes held Randy at both edges in stationary poses.
-# Extend the visible shelf caps by 16 NES pixels (32 HD pixels) to support
-# the complete boot silhouettes at those native standing positions.
+# Full traversals of the user's upper/lower savestates establish the native
+# collision spans: X0..64 and X0..80 at Y96 and Y272. A standing sprite can
+# overhang the collision edge; its complete OAM footprint is not solid ground.
+# Register continuous caps from the left screen edge to those exact boundaries.
 source = Image.open(art / 'generated/ledge_extensions_0_0_2_generated.png').convert('RGBA')
 source = source.resize((512, 960), Image.Resampling.LANCZOS)
 overlay = Image.new('RGBA', (512, 960))
 specs = [
-    {'name': 'upper', 'source': [84, 192, 190, 244], 'target': [84, 192, 160, 236]},
-    {'name': 'lower', 'source': [116, 544, 210, 596], 'target': [116, 544, 192, 588]},
+    {'name': 'upper', 'source': [84, 192, 190, 244], 'target': [0, 192, 128, 236],
+     'native_surface': {'left': 0, 'right_exclusive': 64, 'y': 96}},
+    {'name': 'lower', 'source': [116, 544, 210, 596], 'target': [0, 544, 160, 588],
+     'native_surface': {'left': 0, 'right_exclusive': 80, 'y': 272}},
 ]
 for spec in specs:
     patch = source.crop(spec['source'])
@@ -73,10 +76,10 @@ for spec in specs:
     x0, y0, x1, y1 = spec['target']
     patch = Image.fromarray(rgba).resize((x1-x0, y1-y0), Image.Resampling.LANCZOS)
     rgba = np.array(patch)
-    # Blend into the existing rock inside the wall; keep the walking ridge crisp.
-    fade_x = np.minimum(1, np.arange(patch.width) / 7)
+    # Keep the ridge continuous through the left edge. Fade only the underside
+    # into the existing cliff; fading X would recreate the missing left cap.
     fade_y = np.minimum(1, (patch.height-1-np.arange(patch.height)) / 7)
-    rgba[:, :, 3] = np.rint(rgba[:, :, 3] * fade_x[None, :] * fade_y[:, None]).astype('uint8')
+    rgba[:, :, 3] = np.rint(rgba[:, :, 3] * fade_y[:, None]).astype('uint8')
     overlay.alpha_composite(Image.fromarray(rgba), (x0, y0))
 overlay.save(art / 'layers/11_ledge_extensions.png')
 scene = Image.open(seed / 'EntranceScene.png').convert('RGBA')
@@ -108,4 +111,4 @@ metadata = {'title_repair_region': [100, 390, 412, 452],
             'title_state_logic': 'unchanged: first Start reveals prompt; second starts play',
             'ledge_registration': specs, 'native_collision_modified': False}
 (art / 'title_ledge_registration.json').write_text(json.dumps(metadata, indent=2)+'\n')
-print('Registered seamless title states and two collision-aligned ledge extensions.')
+print('Registered seamless title states and two full-width collision-aligned ledge caps.')

@@ -1,12 +1,18 @@
-# 0.0.2 candidate — title prompt and entrance ledges
+# 0.0.2 candidate — corrected ledge boundaries and single-extraction artifact
 
-Tested in MesenCE 2.2.1 against the approved 0.0.1 pack using only controller input. Fresh start and reset preserve the native first-Start prompt reveal and second-Start transition. Both rocky shelves support the visible boots at stationary edge positions facing left and right. Walking off the edges follows the original game behavior.
+The first candidate extended the shelves too far right and did not provide a continuous visible surface at the far left. Its stationary-pose check confused Randy's sprite overhang with the collision span. That visual conclusion is superseded by the full-traversal tests below; historical captures in evidence/title_screen_1_1 retain the earlier geometry.
 
-Five paired replays cover 6,440 frames per build and 1,610 snapshots of each memory type. RAM, PPU memory, OAM, and APU writes match exactly. Recorded PCM matches over every shared captured sample. All final WAV captures have finalized headers. The final runs used an isolated emulator folder; installed pack hashes were checked before and after each replay so workspace synchronization could not contaminate baseline evidence.
+The revised shelf caps span HD X0–128 at Y192 (upper) and X0–160 at Y544 (lower). Using the user's two supplied states, each replay holds left for 120 frames, settles at the left stop, then pulses right two frames out of eight through the edge. Actual screenshots were inspected at the left stop, across the span, immediately before falling, and during descent. The caps support the far-left standing pose and end before the falling character. Native sprite overhang is preserved.
 
-Only EntranceScene.png, Title_HD.png, Title_Intro_HD.png and README.txt differ from 0.0.1. All 67 other pack files, including sprite atlases, hires.txt and the exact audio IPS, are byte-identical. The validator checks that all background changes stay inside the title prompt and two shelf repair regions. Editable ORA layers reconstruct the installed scene exactly.
+Two paired MesenCE 2.2.1 replays cover 920 frames per build. All 920 samples of each memory type (RAM, PPU, OAM), APU writes, and 1,469,580 common PCM bytes per case match exactly. The first downward frame remains 353 for the upper shelf and 417 for the lower. Only controller input is used; no RAM writes. Installed pack hashes were checked before/after each run in the isolated emulator directory. The replayed pack differs from the final build only in README.txt, subsequently updated for the one-extraction instructions; all runtime bytes are the tested bytes.
 
-Evidence: evidence/title_screen_1_1/verification.json, package_changes.json, six full live captures and comparison.png. The comparison contains cropped, nearest-neighbor enlargements of actual paired emulator captures. Reproduce with scripts/run_title_ledge_qa.py, scripts/verify_title_ledge_qa.py and scripts/export_title_ledge_preview.py.
+Evidence: evidence/ledge_boundaries/verification.json, comparison.png, four full captures, and before/after installed manifests. The comparison uses unretouched, nearest-neighbor crops of paired emulator screenshots. Reproduce using scripts/run_ledge_boundary_qa.py, scripts/verify_ledge_boundary_qa.py and scripts/export_ledge_boundary_preview.py.
+
+The title backgrounds and title rules are byte-identical to the first 0.0.2 candidate. Its fresh/reset title checks remain valid: clean splash, first Start reveals PRESS START, second Start begins play, and unchanged stage cards. The original five-case report contains 6,440 frames per build and 1,610 paired samples; its title checks and behavior comparisons remain valid, but its claim that the old shelf geometry was visually correct does not.
+
+Against approved 0.0.1, only EntranceScene.png, Title_HD.png, Title_Intro_HD.png and README.txt differ; all other 67 pack files are byte-identical. The validator restricts background changes to the prompt footprint and the two corrected shelf rectangles. Editable ORA layers reconstruct the installed scene exactly.
+
+Actions now uploads build/Holy_Diver_(Tr)/ directly. GitHub wraps those files in the downloaded artifact ZIP; hires.txt, PNGs and the remaining assets are at its root, with no inner ZIP. The separate local build ZIP retains the same single-extraction layout.
 
 ---
 

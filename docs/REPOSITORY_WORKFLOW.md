@@ -20,7 +20,7 @@ Historical v12–v15.1 build names remain unchanged in original assets and evide
 
 GitHub integration access does not automatically authenticate shell git commands. Use the authorized GitHub tools when shell credentials are absent. Never store account tokens in the repo.
 
-Build ZIPs are excluded from commits. CI produces downloadable artifacts for testing, including PR builds. Artifacts have 30-day retention and can be rebuilt from source. Publishing release tags or GitHub Releases is a separate step requiring an explicit user request; there is no automatic release publishing. Version 1.0.0 is reserved for the completed, tested game pack.
+Build ZIPs are excluded from commits. CI produces downloadable artifacts for testing, including PR builds. Upload the extracted pack directory, not the locally built ZIP: GitHub creates the outer artifact ZIP, so its root must contain hires.txt and the pack assets directly. Artifacts have 30-day retention and can be rebuilt from source. Publishing release tags or GitHub Releases is a separate step requiring an explicit user request; there is no automatic release publishing. Version 1.0.0 is reserved for the completed, tested game pack.
 
 Rollback folders remain because current build and validation scripts read them. Git deduplicates unchanged file content. Migrate those dependencies deliberately before removing old snapshots.
 

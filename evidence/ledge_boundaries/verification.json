@@ -1,0 +1,83 @@
+{
+  "emulator": "MesenCE 2.2.1",
+  "ram_writes": false,
+  "route": "left frames 10-129; right two frames in eight from 160-439; otherwise neutral",
+  "cases": {
+    "upper": {
+      "emulated_frames": 460,
+      "state_sha256": "d08a41d3da8a51b72116fe18bf46822ce986eca5ddf68283fd73b20f2d47a3cd",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "changed_installed_files": [
+        "EntranceScene.png"
+      ],
+      "ram_identical_samples": 460,
+      "ppu_identical_samples": 460,
+      "oam_identical_samples": 460,
+      "apu_sha256": "23befde08df93f24a7e54f5a7566bf888faf5ff57993a37c37fa1bf7f2994e1b",
+      "identical_pcm_bytes": 1469580,
+      "leftmost_hold": {
+        "sprite_left": 7,
+        "sprite_right_exclusive": 31,
+        "world_feet_y": 96,
+        "camera_y": 0
+      },
+      "first_falling_frame": 353,
+      "last_grounded_frame": 352,
+      "first_falling_position": {
+        "sprite_left": 63,
+        "sprite_right_exclusive": 87,
+        "world_feet_y": 97,
+        "camera_y": 0
+      },
+      "native_surface": {
+        "left": 0,
+        "right_exclusive": 64,
+        "y": 96
+      },
+      "hd_surface": {
+        "left": 0,
+        "right_exclusive": 128,
+        "y": 192
+      }
+    },
+    "lower": {
+      "emulated_frames": 460,
+      "state_sha256": "c73a4837f13507e0e054d667bd4d514e4eccd9d132bc9db2cfc0efd11067f9b4",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "changed_installed_files": [
+        "EntranceScene.png"
+      ],
+      "ram_identical_samples": 460,
+      "ppu_identical_samples": 460,
+      "oam_identical_samples": 460,
+      "apu_sha256": "a7394244778747be4de6a8308377cc1d7777f1a37a621f3897671d5900241622",
+      "identical_pcm_bytes": 1469580,
+      "leftmost_hold": {
+        "sprite_left": 7,
+        "sprite_right_exclusive": 31,
+        "world_feet_y": 272,
+        "camera_y": 113
+      },
+      "first_falling_frame": 417,
+      "last_grounded_frame": 416,
+      "first_falling_position": {
+        "sprite_left": 79,
+        "sprite_right_exclusive": 103,
+        "world_feet_y": 273,
+        "camera_y": 113
+      },
+      "native_surface": {
+        "left": 0,
+        "right_exclusive": 80,
+        "y": 272
+      },
+      "hd_surface": {
+        "left": 0,
+        "right_exclusive": 160,
+        "y": 544
+      }
+    }
+  },
+  "total_emulated_frames_per_build": 920,
+  "paired_samples_per_memory_type": 920
+}

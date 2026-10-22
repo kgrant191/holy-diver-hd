@@ -15,6 +15,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 - Python 3.12; install requirements.txt. Run `python build.py` and `python scripts/verify_release.py` against the approved pack manifest.
 - For visual changes run relevant live Mesen replays and inspect actual captures in both directions and affected palettes. Atlas mockups alone are not evidence of runtime correctness.
+- For platform artwork, test the complete span, far-left stop, and slow walk-off at the right edge. A grounded sprite can overhang collision tiles; do not extend solid artwork to the full OAM or boot silhouette.
 - Perform routine emulator testing here when inputs/tools are available; do not ask the user to perform it instead.
 - Only one Mesen process at a time. Do not replace its pack or overwrite the audio-capture library during a run.
 - The first screenshot after loading a state can be empty. endFrame OAM can describe the next pose; screenshots are authoritative for visual claims.
@@ -26,6 +27,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 - Keep main as the approved baseline. Use focused branches for later changes unless the user directs otherwise. Preserve unrelated work.
 - Use this chat for bugs, priorities and approvals. Do not introduce GitHub Issues or a TASKS.md backlog unless requested. Push changes on the requested branch and open a PR for review; merge only after user approval.
 - Actions artifacts are development test builds. Publish release tags or GitHub Releases only when explicitly requested; reserve the completed release for 1.0.0.
+- Upload the extracted pack contents to Actions artifacts, never a ZIP inside the artifact ZIP. One extraction must expose hires.txt and the installable assets.
 - Follow semantic versioning in docs/REPOSITORY_WORKFLOW.md. Keep VERSION, INSTALL.txt, README.md, STATUS.md, CHANGELOG.md and approved pack hashes consistent when approving a new version. Reserve 1.0.0 for the completed, tested game pack.
 - Commit source art, mappings, scripts, compact evidence and notes. Exclude ROMs, emulator binaries, savestates, credentials, raw frame dumps and build archives.
 - Local test-input names/checksums are in test_states/README.md; input bytes are ignored by Git.

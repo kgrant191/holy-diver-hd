@@ -4,7 +4,7 @@
 
 Use Python 3.12 and requirements.txt. Run `python build.py`, then `python scripts/verify_release.py`. The latter compares every built file against evidence/approved-pack-sha256.json. The original evidence/v15.1-pack-sha256.json remains as the historical import reference: version 0.0.1 changes only README.txt, and all 70 runtime files match exactly. The DejaVu font/license are bundled in art/fonts/.
 
-CI runs these commands and retains the ZIP. Older builders remain for provenance; build.py is the current entry point.
+CI runs these commands and uploads the extracted pack files as a downloadable artifact. Older builders remain for provenance; build.py is the current entry point.
 
 ## Live inputs and setup
 
@@ -47,4 +47,19 @@ python scripts/verify_title_ledge_qa.py --before work/title_screen_1_1/before --
 python scripts/export_title_ledge_preview.py --before work/title_screen_1_1/before --after work/title_screen_1_1/after --out evidence/title_screen_1_1/comparison.png
 ```
 
-Inspect title captures 0240/0420 and reset captures 1140/1320. Inspect upper ledge frame 0840 and lower ledge frame 1200 in each direction. The verifier confirms 41-frame stationary intervals at native world Y96/Y272; these avoid mistaking the brief fall delay after leaving an edge for a stable standing position. The shelf caps end at HD X160/X192 to support the boot silhouettes at the native standing limits.
+Inspect title captures 0240/0420 and reset captures 1140/1320. The stationary ledge tests above are historical behavior checks only: a grounded sprite can overhang the collision boundary. They did not establish the correct visible platform span and must not replace the full traversal below.
+
+## Full ledge boundary replay (revised 0.0.2)
+
+The user supplied Holy_Diver_HD_1(2).mss (upper) and Holy_Diver_HD_2(1).mss (lower); hashes are in test_states/README.md. Retain the previous candidate's pack and run each version sequentially in the isolated emulator folder:
+
+```sh
+python scripts/run_ledge_boundary_qa.py --mesen /path/to/Mesen --rom '/path/to/Holy_Diver_(Tr).nes' --pack /path/to/previous-pack --upper-state '/path/to/Holy_Diver_HD_1(2).mss' --lower-state '/path/to/Holy_Diver_HD_2(1).mss' --out work/ledge_boundaries/before
+python scripts/run_ledge_boundary_qa.py --mesen /path/to/Mesen --rom '/path/to/Holy_Diver_(Tr).nes' --pack 'build/Holy_Diver_(Tr)' --upper-state '/path/to/Holy_Diver_HD_1(2).mss' --lower-state '/path/to/Holy_Diver_HD_2(1).mss' --out work/ledge_boundaries/after
+python scripts/verify_ledge_boundary_qa.py --before work/ledge_boundaries/before --after work/ledge_boundaries/after --out evidence/ledge_boundaries/verification.json
+python scripts/export_ledge_boundary_preview.py --before work/ledge_boundaries/before --after work/ledge_boundaries/after --out evidence/ledge_boundaries
+```
+
+Each case runs 460 frames: left 10–129, neutral through 159, then right two frames per eight through 439. Verify the settled left stop at 132–159 and the full slow traverse. Upper first fall: frame 353; lower: 417. Inspect both sides of those transitions, not just the stationary pose. Artwork spans HD X0–128/Y192 and X0–160/Y544; do not add 32 pixels for the full boot/OAM width.
+
+Artifact check: download the current Actions artifact and inspect its ZIP directory. hires.txt must be at the archive root, all 71 pack files must be present, and no .zip entry may exist. One extraction into the ROM-matching pack folder must be sufficient.

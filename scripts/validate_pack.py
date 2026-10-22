@@ -47,8 +47,8 @@ for p in baseline.glob('*.png'):
   allowed=np.zeros(before.shape[:2],dtype=bool)
   if p.name.startswith('Title_'):allowed[390:452,100:412]=True
   else:
-   allowed[192:236,84:160]=True
-   allowed[544:588,116:192]=True
+   allowed[192:236,0:128]=True
+   allowed[544:588,0:160]=True
   assert np.any(before!=after),p.name+' repair missing'
   assert not np.any(np.any(before!=after,axis=2)&~allowed),p.name+' changed outside repair'
  elif p.name not in arm_atlases:assert p.read_bytes()==(pack/p.name).read_bytes(),p.name

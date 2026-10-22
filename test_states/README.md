@@ -12,3 +12,12 @@ Restore these files from the previously delivered `Holy_Diver_v15_Sources_and_Ro
 | `room2/Holy_Diver_HD_2.mss` | `6d53c75313f68f4db097f12d153692568c2d461590ed724aa421fe582431c22c` |
 | `room2/Holy_Diver_HD_3.mss` | `28abaae9aac96966dd20f9fbecd5ae7d47e2356afd09c1ca874f12de32005956` |
 | `room2/Holy_Diver_HD_4.mss` | `b5936b0b0fc3e818b48b503df49945b8f888ad9b8aaccabb35ef8e5c0867dc77` |
+
+## User-supplied ledge boundary states (2026-10-22)
+
+Pass these locally with --upper-state/--lower-state to run_ledge_boundary_qa.py. State bytes remain excluded from Git.
+
+| Input | SHA-256 |
+| --- | --- |
+| Holy_Diver_HD_1(2).mss — upper ledge | d08a41d3da8a51b72116fe18bf46822ce986eca5ddf68283fd73b20f2d47a3cd |
+| Holy_Diver_HD_2(1).mss — lower ledge | c73a4837f13507e0e054d667bd4d514e4eccd9d132bc9db2cfc0efd11067f9b4 |

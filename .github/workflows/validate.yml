@@ -32,6 +32,8 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: Holy-Diver-HD-v${{ steps.version.outputs.value }}
-          path: build/Holy_Diver_HD_v${{ steps.version.outputs.value }}.zip
+          # GitHub packages artifacts as ZIPs. Upload the contents directly so
+          # downloading/extracting once exposes hires.txt and the pack assets.
+          path: build/Holy_Diver_(Tr)/
           if-no-files-found: error
           retention-days: 30

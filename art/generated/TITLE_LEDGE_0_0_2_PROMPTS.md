@@ -19,3 +19,11 @@ Output: art/generated/ledge_extensions_0_0_2_generated.png.
 Prompt: Extend only the two horizontal gold-lit rock ledges from the left wall. The upper shelf at y192 extends from x128 to x160, and the lower shelf at y544 from x160 to x192, using the supplied 512×960 scene coordinates. Keep their tops level at the original heights. Use solid orange-gold shelf caps, craggy undersides and deep purple crevices that join the existing wall. Preserve the cliff away from these ledges, all five tree branches, moon, distant castle background, columns and floor. No character, text or annotations.
 
 The generated edges were registered into the exact target rectangles documented in art/title_ledge_registration.json. art/layers/11_ledge_extensions.png is a separate editable layer. The ORA source and installed scene are rebuilt together. Controller-only probes checked stationary edge positions before acceptance testing; native collision data is not changed.
+
+## Ledge boundary correction after user feedback
+
+The initial rightward-extension registration was rejected: it omitted the far-left cap and drew solid-looking rock beyond the fall point. The retained generated rock source is reused; no new generated asset was added. A new image-generation attempt failed before producing an image, so the correction uses the existing editable source.
+
+scripts/build_title_ledge_fixes.py now registers that rock artwork over the full native spans: upper target [0,192,128,236], lower [0,544,160,588]. The left edge has no alpha fade, keeping the walking ridge continuous. Only the underside fades into the existing cliff. All pixels outside those rectangles remain the approved baseline. The source rock crop coordinates are unchanged; registration metadata and ORA are rebuilt together.
+
+Full left-stop-to-right-fall replays of the two user-supplied states supersede the earlier stationary-footprint inference. The platform ends at native X64/X80, not at the complete sprite silhouette. See evidence/ledge_boundaries/verification.json.
