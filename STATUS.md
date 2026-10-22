@@ -1,6 +1,12 @@
 # Current status
 
-Updated: 2026-10-22 (UTC).
+Updated: 2026-10-22 (America/New_York).
+
+## Current review candidate
+
+0.0.2 on branch `fix/title-screen-1-1`, awaiting user review. It repairs the title prompt background in both Start states and extends the two entrance rock ledges to cover the measured grounded range. main remains at approved 0.0.1 until the PR is accepted. No GitHub Release is being published.
+
+Candidate verification: 6,440 frames per build and 1,610 paired RAM/PPU/OAM samples match 0.0.1 exactly. APU writes and common captured PCM also match. Live captures cover fresh/reset title states and stable upper/lower shelf positions facing both directions. Only three background PNGs and the pack README change; 67 package files remain byte-identical. See evidence/title_screen_1_1/verification.json, package_changes.json and comparison.png.
 
 ## Approved baseline
 

@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Development version: 0.0.1. Approved artwork baseline: historical v15.1.**
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Development version: 0.0.2 (review candidate). Approved baseline: 0.0.1 / historical v15.1.**
 
 Includes the entrance and screen-2 overhaul, shared Randy/weapon art, bracelet pickup and pause icon, defeat effects, and stage/lives cards. The rest of the game remains work in progress.
 
@@ -20,7 +20,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output: `build/Holy_Diver_HD_v0.0.1.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions builds and retains an installable ZIP artifact after successful validation.
+Output: `build/Holy_Diver_HD_v0.0.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions builds and retains an installable ZIP artifact after successful validation. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

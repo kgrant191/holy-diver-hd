@@ -2,6 +2,8 @@
 
 Repository: kgrant191/holy-diver-hd. main starts at development version 0.0.1 using the approved historical v15.1 artwork. Use temporary branches for later screen or character work and merge accepted changes into main. Keep release changes in CHANGELOG.md and current state in STATUS.md.
 
+Use the active chat for bug reports, task priorities, feedback and approval. GitHub Issues and a TASKS.md backlog are not part of the current workflow. Prepare each requested change on a focused branch, test it, and open a PR with evidence and an Actions artifact. Revise the same branch for feedback. The user can merge or explicitly authorize the assistant to merge after approval. A proposed version on a branch is a review candidate until accepted.
+
 ## Semantic versioning
 
 VERSION is the build's source of truth. Start at 0.0.1 while the game pack is in development:
@@ -18,7 +20,7 @@ Historical v12–v15.1 build names remain unchanged in original assets and evide
 
 GitHub integration access does not automatically authenticate shell git commands. Use the authorized GitHub tools when shell credentials are absent. Never store account tokens in the repo.
 
-Build ZIPs are excluded from commits. CI produces a downloadable artifact. Releases/tags can be added for accepted versions when requested; this import does not configure automatic release publishing.
+Build ZIPs are excluded from commits. CI produces downloadable artifacts for testing, including PR builds. Artifacts have 30-day retention and can be rebuilt from source. Publishing release tags or GitHub Releases is a separate step requiring an explicit user request; there is no automatic release publishing. Version 1.0.0 is reserved for the completed, tested game pack.
 
 Rollback folders remain because current build and validation scripts read them. Git deduplicates unchanged file content. Migrate those dependencies deliberately before removing old snapshots.
 

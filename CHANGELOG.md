@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.2 — review candidate
+
+- Reconstructed the title-prompt background, removing the former patch seam and rectangular plaque. The original gold PRESS START letters appear after the first Start press.
+- Extended the two entrance cliff shelves by 32 HD pixels to cover the native grounded positions at their edges.
+- Preserved all sprite atlases, tile rules, collision, input timing and audio patch bytes.
+
 ## 0.0.1 — 2026-10-22
 
 - Initial repository development version, based on approved historical v15.1 artwork.

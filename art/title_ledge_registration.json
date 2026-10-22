@@ -1,0 +1,43 @@
+{
+  "title_repair_region": [
+    100,
+    390,
+    412,
+    452
+  ],
+  "ready_prompt": "original gold letters, no rectangular plaque",
+  "title_state_logic": "unchanged: first Start reveals prompt; second starts play",
+  "ledge_registration": [
+    {
+      "name": "upper",
+      "source": [
+        84,
+        192,
+        190,
+        244
+      ],
+      "target": [
+        84,
+        192,
+        160,
+        236
+      ]
+    },
+    {
+      "name": "lower",
+      "source": [
+        116,
+        544,
+        210,
+        596
+      ],
+      "target": [
+        116,
+        544,
+        192,
+        588
+      ]
+    }
+  ],
+  "native_collision_modified": false
+}

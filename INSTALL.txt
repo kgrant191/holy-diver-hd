@@ -1,6 +1,10 @@
-HOLY DIVER HD 0.0.1 — DEVELOPMENT BUILD
+HOLY DIVER HD 0.0.2 — DEVELOPMENT REVIEW BUILD
 Approved artwork baseline: historical v15.1 (Randy arm repair, deaths and stage cards).
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
+
+0.0.2 removes the rectangular title-prompt outline in both title states and
+extends the two entrance rock shelves to cover the measured standing range.
+The first Start reveals PRESS START; the second Start begins play.
 
 1. Back up your current HD-pack folder.
 2. Extract every file in this ZIP into the folder matching your ROM name.

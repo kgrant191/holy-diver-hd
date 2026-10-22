@@ -1,4 +1,4 @@
-"""Verify every installed file against the approved development build."""
+"""Verify every installed file against the reviewed expected build manifest."""
 from pathlib import Path
 import hashlib, json
 root = Path(__file__).resolve().parents[1]
@@ -11,4 +11,4 @@ extra = sorted(actual.keys() - expected.keys())
 changed = sorted(k for k in expected.keys() & actual.keys() if expected[k] != actual[k])
 if missing or extra or changed:
     raise SystemExit(json.dumps({'missing': missing, 'extra': extra, 'changed': changed}, indent=2))
-print(f'Approved {version}: all {len(expected)} pack files match SHA-256 exactly.')
+print(f'Expected {version}: all {len(expected)} pack files match SHA-256 exactly.')

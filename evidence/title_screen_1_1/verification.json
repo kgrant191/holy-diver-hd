@@ -1,0 +1,145 @@
+{
+  "emulator": "MesenCE 2.2.1",
+  "controller_only": true,
+  "ram_writes": false,
+  "cases": {
+    "title": {
+      "emulated_frames": 1800,
+      "installed_pack_hashes_verified": true,
+      "ram_identical_samples": 450,
+      "ppu_identical_samples": 450,
+      "oam_identical_samples": 450,
+      "apu_sha256": "684ae3286441d5e4e779f0354ce97f99a293d75bdd15a4aed8eee458067d7f76",
+      "identical_pcm_bytes": 5749992,
+      "audio_capture_header_unfinalized": {
+        "before": false,
+        "after": false
+      },
+      "native_title_ready_states": {
+        "240": 64,
+        "420": 1,
+        "1140": 64,
+        "1320": 1
+      },
+      "stage_cards_unchanged": true
+    },
+    "upper_right": {
+      "emulated_frames": 1000,
+      "installed_pack_hashes_verified": true,
+      "ram_identical_samples": 250,
+      "ppu_identical_samples": 250,
+      "oam_identical_samples": 250,
+      "apu_sha256": "717f4050945c6ea3d4a1f218d0d976f5b61dcbb208b758184157685671387810",
+      "identical_pcm_bytes": 3194472,
+      "audio_capture_header_unfinalized": {
+        "before": false,
+        "after": false
+      },
+      "checkpoint_frame": 840,
+      "native_world_surface_y": 96,
+      "hd_world_surface_y": 192,
+      "stationary_samples": [
+        820,
+        824,
+        828,
+        832,
+        836,
+        840,
+        844,
+        848,
+        852,
+        856,
+        860
+      ]
+    },
+    "upper_left": {
+      "emulated_frames": 1000,
+      "installed_pack_hashes_verified": true,
+      "ram_identical_samples": 250,
+      "ppu_identical_samples": 250,
+      "oam_identical_samples": 250,
+      "apu_sha256": "717f4050945c6ea3d4a1f218d0d976f5b61dcbb208b758184157685671387810",
+      "identical_pcm_bytes": 3194472,
+      "audio_capture_header_unfinalized": {
+        "before": false,
+        "after": false
+      },
+      "checkpoint_frame": 840,
+      "native_world_surface_y": 96,
+      "hd_world_surface_y": 192,
+      "stationary_samples": [
+        820,
+        824,
+        828,
+        832,
+        836,
+        840,
+        844,
+        848,
+        852,
+        856,
+        860
+      ]
+    },
+    "lower_right": {
+      "emulated_frames": 1320,
+      "installed_pack_hashes_verified": true,
+      "ram_identical_samples": 330,
+      "ppu_identical_samples": 330,
+      "oam_identical_samples": 330,
+      "apu_sha256": "d01ba739b8ef36909e118d2623e03ba586ed3f2035425bf9009262ba079f420f",
+      "identical_pcm_bytes": 4216788,
+      "audio_capture_header_unfinalized": {
+        "before": false,
+        "after": false
+      },
+      "checkpoint_frame": 1200,
+      "native_world_surface_y": 272,
+      "hd_world_surface_y": 544,
+      "stationary_samples": [
+        1180,
+        1184,
+        1188,
+        1192,
+        1196,
+        1200,
+        1204,
+        1208,
+        1212,
+        1216,
+        1220
+      ]
+    },
+    "lower_left": {
+      "emulated_frames": 1320,
+      "installed_pack_hashes_verified": true,
+      "ram_identical_samples": 330,
+      "ppu_identical_samples": 330,
+      "oam_identical_samples": 330,
+      "apu_sha256": "d01ba739b8ef36909e118d2623e03ba586ed3f2035425bf9009262ba079f420f",
+      "identical_pcm_bytes": 4216788,
+      "audio_capture_header_unfinalized": {
+        "before": false,
+        "after": false
+      },
+      "checkpoint_frame": 1200,
+      "native_world_surface_y": 272,
+      "hd_world_surface_y": 544,
+      "stationary_samples": [
+        1180,
+        1184,
+        1188,
+        1192,
+        1196,
+        1200,
+        1204,
+        1208,
+        1212,
+        1216,
+        1220
+      ]
+    }
+  },
+  "total_emulated_frames_per_build": 6440,
+  "paired_state_samples": 1610
+}

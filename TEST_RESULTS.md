@@ -1,3 +1,15 @@
+# 0.0.2 candidate — title prompt and entrance ledges
+
+Tested in MesenCE 2.2.1 against the approved 0.0.1 pack using only controller input. Fresh start and reset preserve the native first-Start prompt reveal and second-Start transition. Both rocky shelves support the visible boots at stationary edge positions facing left and right. Walking off the edges follows the original game behavior.
+
+Five paired replays cover 6,440 frames per build and 1,610 snapshots of each memory type. RAM, PPU memory, OAM, and APU writes match exactly. Recorded PCM matches over every shared captured sample. All final WAV captures have finalized headers. The final runs used an isolated emulator folder; installed pack hashes were checked before and after each replay so workspace synchronization could not contaminate baseline evidence.
+
+Only EntranceScene.png, Title_HD.png, Title_Intro_HD.png and README.txt differ from 0.0.1. All 67 other pack files, including sprite atlases, hires.txt and the exact audio IPS, are byte-identical. The validator checks that all background changes stay inside the title prompt and two shelf repair regions. Editable ORA layers reconstruct the installed scene exactly.
+
+Evidence: evidence/title_screen_1_1/verification.json, package_changes.json, six full live captures and comparison.png. The comparison contains cropped, nearest-neighbor enlargements of actual paired emulator captures. Reproduce with scripts/run_title_ledge_qa.py, scripts/verify_title_ledge_qa.py and scripts/export_title_ledge_preview.py.
+
+---
+
 # v15.1 — Randy rear arm repair
 
 The approved source art ended the rear arm at the cape in five poses. A generated
