@@ -1,0 +1,13 @@
+{
+  "atlas": "Bracelet_2x.png",
+  "native_chr_tiles": [
+    "0978",
+    "0977",
+    "0976",
+    "0975"
+  ],
+  "native_palette": "0F172737",
+  "scope": "pauseScreen&pauseMagicRow&pausedPalette",
+  "source": "same approved gameplay bracelet, no new image",
+  "position": "native item slot, only present after collection"
+}

@@ -1,0 +1,21 @@
+{
+  "normal": {
+    "paired_replay_even_frames_match": true,
+    "all_frame_screenshots": 719,
+    "audio_duration_seconds": 11.980270833333334
+  },
+  "enemy": {
+    "paired_replay_even_frames_match": true,
+    "all_frame_screenshots": 359,
+    "audio_duration_seconds": 5.990145833333333
+  },
+  "approved_hd_randy_frozen_frames_identical": [
+    77,
+    81,
+    99,
+    131,
+    171,
+    211,
+    249
+  ]
+}

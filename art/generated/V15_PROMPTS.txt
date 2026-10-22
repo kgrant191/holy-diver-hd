@@ -1,0 +1,20 @@
+Built-in image-generation tool; project source assets.
+
+DEATH RINGS — death_rings_generated.png
+Transparent two-frame sprite sheet for a gothic 16-bit action game's shared
+enemy and hero defeat effect. Exactly two sequential frames side by side:
+a compact ivory-hot gold/amber fire ring and a larger expanding, thinner broken
+ring with crisp sparks. Fully transparent centers, no solid explosion disk,
+no faces, symbols, text or background. Match premium SNES pixel-art clusters
+with dark blue edge accents. Register the first into a 48x48 footprint with an
+empty central 16x16 square; the second into 64x64 with an empty central 32x32
+square and empty 16x16 corners. Preserve the native eight-sprite layout.
+
+INTERMISSION — intermission_generated.png
+Text-free Gothic stage-introduction/lives background, displayed 512x480.
+Dark navy, antique gold and moonlit cathedral aesthetic. Symmetric gilded arch,
+fine tracery, subtle stone columns outside the large quiet dark center, a faint
+cathedral silhouette in blue haze below. Reserve the center for dynamic text
+and keep the upper-left health display area dark. No lettering, numbers, logo,
+characters, faces, item icons or central flames. Opaque background. The game's
+live stage/life text is rendered separately by the pack builder.

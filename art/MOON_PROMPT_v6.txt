@@ -1,0 +1,7 @@
+Built-in image_gen tool, edit mode, opaque background.
+Reference/edit target: v5 art/layers/00_distant_ruins.png.
+
+Use case: precise-object-edit. Asset type: background artwork for a 2D Holy Diver SNES/GBA-quality game HD pack. Edit target: the attached tall dark-blue Gothic castle background, native artwork dimensions 512x960. Add ONE distant realistic full moon to the upper-right sky at approximately native x390, y154, diameter about 66 native pixels. It must clearly read as Earth's moon: a flat pale ivory/silver lunar disk with recognizable gray craters and maria, subtle muted light through blue atmospheric haze; no jewel highlight, no spherical glass shading, no cyan orb, no gold, no branches or ring, no magical energy. VERY IMPORTANT depth: the moon is BEHIND the existing castle towers and arches in the upper-right area, and existing dark foreground castle masonry must visibly occlude part of its disk; do not paint the moon on top of castle masonry. Preserve the existing castle shapes and their positions, the tall aspect ratio, dark moody blue palette, and the professionally crafted detailed pixel-art / 16-bit game atmosphere. Make only this moon addition in the upper-right region (native x330-440, y105-200); keep the rest of the background unchanged. No character, no UI, no text, no wall or tree foreground. Return the full tall background.
+
+The result was extracted into art/layers/05_moon_behind_castles.png, preserving
+existing background pixels outside the lunar disk. See scripts/register_art.py.

@@ -1,0 +1,30 @@
+{
+  "target_rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "scope": "Entrance track $1E pulse priorities plus conditional thunder $26 pulse-1 exclusion",
+  "edits": [
+    {
+      "file_offset_hex": "012D8A",
+      "before_hex": "C0",
+      "after_hex": "C3"
+    },
+    {
+      "file_offset_hex": "012D95",
+      "before_hex": "C4",
+      "after_hex": "C7"
+    },
+    {
+      "file_offset_hex": "012099",
+      "before_hex": "B93001",
+      "after_hex": "202AFD"
+    },
+    {
+      "file_offset_hex": "01FD3A",
+      "before_hex": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+      "after_hex": "B93001302D488A48A5E5D023AD3301301EAABD4001F018BDB801C91ED011B93001AABDB801C926D00668AA68A9FF6068AA6860"
+    }
+  ],
+  "original_rom_file_modified": false,
+  "replacement_audio": false,
+  "v10_v11_compatible_save_state": true,
+  "pre_v10_states_require_migration_or_fresh_start": true
+}

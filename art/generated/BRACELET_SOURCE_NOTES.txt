@@ -1,0 +1,1 @@
+Generated for v14: one polished gothic 16-bit pickup, readable at 32x32. Oval gold cuff, transparent open center, ruby on front, ivory highlights and amber shadows. No skull, face or wings. Registered to a 30x22 visible extent inside the native 32x32 HD tile footprint. Binary alpha and 32-color registration are deterministic in scripts/build_v14_fixes.py.

@@ -1,0 +1,18 @@
+{
+  "bracelet_tiles": [
+    "74",
+    "75",
+    "76",
+    "77"
+  ],
+  "bracelet_palette": "FF160636",
+  "bracelet_size": [
+    30,
+    22
+  ],
+  "animation": "static pickup; native motion retained",
+  "death_fallback_rules": 64,
+  "death_gate": "native health $0440 == 0",
+  "fallback_source": "unchanged approved normal/Twin Fire player atlases",
+  "preserved": "specific pose rules retain priority"
+}

@@ -1,0 +1,37 @@
+name: Build and validate HD pack
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install build dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Build and validate mappings
+        run: python build.py
+      - name: Verify approved pack bytes
+        run: python scripts/verify_release.py
+      - name: Read development version
+        id: version
+        run: echo "value=$(cat VERSION)" >> "$GITHUB_OUTPUT"
+      - name: Retain installable pack
+        uses: actions/upload-artifact@v7
+        with:
+          name: Holy-Diver-HD-v${{ steps.version.outputs.value }}
+          path: build/Holy_Diver_HD_v${{ steps.version.outputs.value }}.zip
+          if-no-files-found: error
+          retention-days: 30

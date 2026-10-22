@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved baseline: v15.1.**
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Development version: 0.0.1. Approved artwork baseline: historical v15.1.**
 
 Includes the entrance and screen-2 overhaul, shared Randy/weapon art, bracelet pickup and pause icon, defeat effects, and stage/lives cards. The rest of the game remains work in progress.
 
@@ -20,7 +20,11 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output: `build/Holy_Diver_HD_v15_1.zip`, containing `build/Holy_Diver_(Tr)/`. GitHub Actions builds and retains an installable ZIP artifact after successful validation.
+Output: `build/Holy_Diver_HD_v0.0.1.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions builds and retains an installable ZIP artifact after successful validation.
+
+## Versioning
+
+Development starts at **0.0.1**. Increment the patch for compatible fixes or small visual polish (0.0.2), and the minor for new screens or substantial features (0.1.0). Reserve **1.0.0** for the completed, tested game pack. After 1.0.0, major versions indicate breaking compatibility changes. Historical v12–v15.1 labels remain in provenance and evidence; they are not semantic releases.
 
 ## Install
 
@@ -34,7 +38,8 @@ Supported translated ROM SHA-1: `fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac`. Test
 | --- | --- |
 | AGENTS.md | Instructions for future coding-agent sessions |
 | STATUS.md | Approved work, known limits and next task |
-| CHANGELOG.md | Release history |
+| CHANGELOG.md | Development version and release history |
+| VERSION | Current semantic version used by the build |
 | art/ | Source images, registered sprites, metadata and font license |
 | scripts/ | Builders, validators, Lua replay templates and capture tools |
 | rollback/ | Exact older pack inputs used by the current build |

@@ -1,0 +1,7 @@
+v11 generated assets: transparent backgrounds; based on approved Randy and weapon sheets.
+
+Randy: two equal cells, one row, same overhead casting release pose facing right. Long black hair, ivory robe normal / cobalt silver-trim robe equipped, brown boots, dark trousers. Narrow full-body silhouette, feet planted, right arm overhead with open palm facing upward. SNES/GBA pixel-art shading matching the approved reference sheets. No embedded projectile, floor shadow, labels or effects. Register each to native 16x40-pixel nine-sprite footprint at 2x, with top four pixels of clearance.
+
+Projectiles: four columns, two rows, four animation frames per color. Bright rounded white core leading upward, ragged flame trails downward. Amber/gold/red normal row, cobalt/cyan blue equipped row. Transparent gutters, crisp pixel clusters, no text or blur. Register each to 12x16 pixels centered within the original 16x16 HD tile.
+
+Registration is mechanical slicing, resampling, color quantization and binary-alpha cleanup. Existing artwork is unchanged.

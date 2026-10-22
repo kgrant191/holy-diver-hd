@@ -1,0 +1,6 @@
+{
+  "broadened_rules": 244,
+  "preserved": "CHR indices, palettes, native pose signatures, animation frame ranges and all approved PNGs",
+  "ui_protection": "Native CHR bank/palette identities and existing earlier menu rules",
+  "later_gameplay_coverage": "Rules apply throughout gameplay for known normal/Twin Fire palettes; later forms and new palettes require coverage testing."
+}

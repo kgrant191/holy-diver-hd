@@ -1,0 +1,144 @@
+{
+  "version": "15.1",
+  "method": "Built-in imagegen precise-object-edit, then extracted elbow/forearm/fist and registered into existing native sprite footprints. No pixels outside these cutouts changed.",
+  "generated_source": "art/generated/randy_arm_repair_generated.png",
+  "prompt": "Complete only the missing rear forearm and clenched hand beneath the left shoulder pad, bending inward across the cape. Dark slate wrist guard and warm skin matching the forward arm. Preserve face, costume, pose, framing, and transparency.",
+  "cutout_polygon_source_pixels": [
+    [
+      220,
+      450
+    ],
+    [
+      235,
+      430
+    ],
+    [
+      262,
+      437
+    ],
+    [
+      289,
+      446
+    ],
+    [
+      310,
+      457
+    ],
+    [
+      345,
+      461
+    ],
+    [
+      400,
+      459
+    ],
+    [
+      444,
+      449
+    ],
+    [
+      464,
+      429
+    ],
+    [
+      493,
+      426
+    ],
+    [
+      521,
+      439
+    ],
+    [
+      540,
+      456
+    ],
+    [
+      545,
+      480
+    ],
+    [
+      538,
+      501
+    ],
+    [
+      524,
+      519
+    ],
+    [
+      490,
+      527
+    ],
+    [
+      466,
+      524
+    ],
+    [
+      454,
+      544
+    ],
+    [
+      430,
+      554
+    ],
+    [
+      389,
+      558
+    ],
+    [
+      345,
+      557
+    ],
+    [
+      311,
+      552
+    ],
+    [
+      285,
+      548
+    ],
+    [
+      251,
+      543
+    ],
+    [
+      235,
+      524
+    ],
+    [
+      232,
+      502
+    ],
+    [
+      221,
+      487
+    ]
+  ],
+  "registered_cutout_bbox": [
+    11,
+    22,
+    28,
+    28
+  ],
+  "pose_positions": {
+    "0": [
+      11,
+      21
+    ],
+    "4": [
+      27,
+      19
+    ],
+    "6": [
+      10,
+      20
+    ],
+    "8": [
+      9,
+      17
+    ],
+    "9": [
+      10,
+      18
+    ]
+  }
+}

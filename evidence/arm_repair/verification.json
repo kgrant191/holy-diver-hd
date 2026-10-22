@@ -1,0 +1,74 @@
+{
+  "arms_normal": {
+    "ram_identical_frames": 240,
+    "ppu_identical_frames": 240,
+    "oam_identical_frames": 240,
+    "apu.tsv_identical": true,
+    "commands.tsv_identical": true,
+    "pcm_identical_bytes": 1533476,
+    "changed_render_frames": 205,
+    "observed_repaired_poses": [
+      "idle right",
+      "cast right",
+      "airborne idle right",
+      "airborne cast right",
+      "idle left",
+      "cast left",
+      "airborne idle left",
+      "airborne cast left"
+    ],
+    "unchanged_run_and_upward_samples": [
+      312,
+      340,
+      400
+    ]
+  },
+  "arms_twin": {
+    "ram_identical_frames": 240,
+    "ppu_identical_frames": 240,
+    "oam_identical_frames": 240,
+    "apu.tsv_identical": true,
+    "commands.tsv_identical": true,
+    "pcm_identical_bytes": 1533476,
+    "changed_render_frames": 205,
+    "observed_repaired_poses": [
+      "idle right",
+      "cast right",
+      "airborne idle right",
+      "airborne cast right",
+      "idle left",
+      "cast left",
+      "airborne idle left",
+      "airborne cast left"
+    ],
+    "unchanged_run_and_upward_samples": [
+      312,
+      340,
+      400
+    ]
+  },
+  "room2_enemy": {
+    "ram_identical_frames": 359,
+    "ppu_identical_frames": 359,
+    "oam_identical_frames": 359,
+    "apu.tsv_identical": true,
+    "commands.tsv_identical": true,
+    "pcm_identical_bytes": 1150108,
+    "changed_render_frames": 224
+  },
+  "room2_death": {
+    "ram_identical_frames": 719,
+    "ppu_identical_frames": 719,
+    "oam_identical_frames": 719,
+    "apu.tsv_identical": true,
+    "commands.tsv_identical": true,
+    "pcm_identical_bytes": 2300212,
+    "changed_render_frames": 360,
+    "repaired_death_frozen_hero_frame": 77,
+    "unchanged_explosion_and_lives_samples": [
+      78,
+      82,
+      280
+    ]
+  }
+}

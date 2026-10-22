@@ -1,0 +1,13 @@
+{
+  "intro": "Title_Intro_HD.png",
+  "ready": "Title_HD.png",
+  "ready_condition": "RAM $04AF == $01; native first Start press",
+  "generated_patch_rectangle": [
+    127,
+    406,
+    386,
+    448
+  ],
+  "feather_radius": 1.2,
+  "inputs_or_game_state_modified": false
+}

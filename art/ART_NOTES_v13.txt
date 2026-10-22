@@ -1,0 +1,26 @@
+v13 generated art and registration notes
+
+Generated through the image generation tool, with native screen-2 captures and
+approved art used as visual references. These are design briefs, not verbatim
+prompt transcripts.
+
+crypt_background_generated.png: dark blue gothic ossuary panorama, tall arches,
+skull niches and warm wall torches; no foreground platforms, characters or UI.
+Registered as a 512-native-pixel repeat at 2x scale; blended outer edges and
+extended by half a screen to accommodate Mesen's horizontal scroll wrap.
+
+crypt_terrain_generated.png: transparent 4x2 kit of limestone blocks, inset
+stonework, warm rock foundations, skull chandelier, skull step and rib bridge.
+Measured/cropped into 32x32 HD metatiles; square blocks opaque, bone silhouettes
+transparent. Native tile positions and collision edges remain authoritative.
+
+crypt_enemies_generated.png: gold-robed flying sorcerer with staff, two cloak
+phases; red-hooded walker, two steps; winged skull, two phases; ruby heart and
+blue magic pickup. Unequal generated source cells are explicitly registered in
+scripts/build_room2_entities.py and art/room2/entity_registration.json.
+
+crypt_impact_generated.png: ivory/gold magical puff with crisp pixel clusters.
+Registered into the game's eight outer tiles around an empty center; native
+positions and animation timing are retained.
+
+All approved v12 player, title, UI, entrance and weapon source art is unchanged.

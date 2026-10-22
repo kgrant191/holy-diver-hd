@@ -1,0 +1,129 @@
+{
+  "effect_phases": [
+    {
+      "phase": 0,
+      "size": [
+        48,
+        48
+      ],
+      "layout": [
+        [
+          100,
+          0,
+          0
+        ],
+        [
+          101,
+          8,
+          0
+        ],
+        [
+          102,
+          16,
+          0
+        ],
+        [
+          103,
+          0,
+          8
+        ],
+        [
+          104,
+          16,
+          8
+        ],
+        [
+          105,
+          0,
+          16
+        ],
+        [
+          106,
+          8,
+          16
+        ],
+        [
+          107,
+          16,
+          16
+        ]
+      ]
+    },
+    {
+      "phase": 1,
+      "size": [
+        64,
+        64
+      ],
+      "layout": [
+        [
+          108,
+          8,
+          0
+        ],
+        [
+          109,
+          16,
+          0
+        ],
+        [
+          110,
+          0,
+          8
+        ],
+        [
+          111,
+          24,
+          8
+        ],
+        [
+          112,
+          0,
+          16
+        ],
+        [
+          113,
+          24,
+          16
+        ],
+        [
+          114,
+          8,
+          24
+        ],
+        [
+          115,
+          16,
+          24
+        ]
+      ]
+    }
+  ],
+  "effect_palette": "FF301116",
+  "effect_scope": "shared native CHR tiles, independent of room palette",
+  "stage_names": [
+    "CURSED CHAPEL",
+    "HELL OF ENTRAILS",
+    "POISON MOSS LAND",
+    "GOLDEN TEMPLE",
+    "DEMONIC PALACE",
+    "BLACK SLAYER"
+  ],
+  "stage_name_source": "translated ROM text table at file offsets 0x1b3f8\u20130x1b4e8",
+  "lives_range": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hud_source": "unchanged approved Screen_UI_2x.png gameplay cells",
+  "new_rule_count": 610,
+  "new_conditions": 42,
+  "new_background_rules": 28
+}

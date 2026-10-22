@@ -1,0 +1,7 @@
+Built-in image generation. Transparent output. Single new lightning overlay.
+
+Use case: stylized-concept. Asset type: transparent pixel-art lightning overlay for a polished SNES/GBA gothic action-game title screen. Create ONE isolated tall, narrow, organically forked lightning strike, on a genuinely transparent background. Electric ivory-white core, ice-blue and subtle lavender edging, restrained luminous halo. Hand-crafted crisp pixel clusters, high-quality gothic 16-bit promotional pixel art, thin branching arcs and a strong readable central zigzag. Main bolt enters from the upper center, bends organically down toward the lower right. A few finer forks split left and right, tapering naturally. Tall vertical silhouette around 1:3 width to height, fill most of canvas height with clear transparent margins. The bolt will be downsampled to about 80x260 pixels and placed in a dark castle sky. No landscape, no clouds, no people, no text, no border, no opaque black backdrop, no checkerboard painted into the image. Preserve real transparency and soften only the very narrow outer glow.
+
+Generated source: art/generated/lightning_generated.png
+Registration, light masks and animation: scripts/build_lightning.py
+Approved title illustration is preserved unchanged beneath the effect.
