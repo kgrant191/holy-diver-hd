@@ -1,0 +1,16 @@
+{
+  "initial_candidate_path": "work/screen2_1_review/final-cave/walk_right",
+  "frame": 403,
+  "room": "10 (next room)",
+  "native_ram_ppu_oam": "byte-identical to baseline",
+  "candidate_frame_403_equals_candidate_frame_402": true,
+  "candidate_frame_402_equals_baseline_frame_402": true,
+  "all_other_next_room_frames": "identical in initial comparison",
+  "cause": "unconfirmed screenshot/render timing; no runtime bytes changed before complete route repeat",
+  "initial_403_sha256": "b2408333607444867d3306b24d57f968406302a62be93944b9064ce25f386575",
+  "baseline_403_sha256": "3d9c1f9456052c771c9c3880ccd20bd1a31a5684ef571b822c333f8f8e959f69",
+  "repeat_path": "work/screen2_1_review/cave-repeat/walk_right",
+  "unchanged_installed_manifest": true,
+  "repeated_403_matches_baseline": true,
+  "repeat_next_room_differences": []
+}

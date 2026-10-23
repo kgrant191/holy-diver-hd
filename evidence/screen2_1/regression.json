@@ -1,0 +1,69 @@
+{
+  "baseline": "0.3.5",
+  "candidate": "0.4.0",
+  "controller_only": true,
+  "capture_interval_frames": 2,
+  "cases": {
+    "boss_fire": {
+      "emulated_frames": 400,
+      "state_sha256": "4457b7dd6df58b8b2fb4d1c0478082a123ddfe724984b6ea46bfff0ced7a02f3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "start=frame>=10 and frame<14,b=frame>=30 and frame%20<3,down=frame>=30 and frame<150",
+      "ram_identical_samples": 200,
+      "ppu_identical_samples": 200,
+      "oam_identical_samples": 200,
+      "apu_sha256": "4453a0dd2420a0684468aeb316feb1d6864ba5da8c86e1b76d68f70d1741b16d",
+      "identical_pcm_bytes": 1277896,
+      "shutdown_tail_difference_bytes": 0,
+      "identical_screenshots": 200,
+      "changed_screenshots": 0,
+      "exact_previous_scene_screenshots": 200,
+      "rooms": {
+        "04": 6,
+        "08": 194
+      }
+    },
+    "blizzard_reward": {
+      "emulated_frames": 1850,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<790,a=frame>=722 and frame<750",
+      "ram_identical_samples": 925,
+      "ppu_identical_samples": 925,
+      "oam_identical_samples": 925,
+      "apu_sha256": "044877dd27607dfd3ad79b57d92398b03f8a69f84897a07d9caa9e44cfe126fd",
+      "identical_pcm_bytes": 5910268,
+      "shutdown_tail_difference_bytes": 0,
+      "identical_screenshots": 863,
+      "changed_screenshots": 62,
+      "exact_previous_scene_screenshots": 859,
+      "rooms": {
+        "08": 310,
+        "04": 550,
+        "18": 65
+      }
+    },
+    "recovery_item": {
+      "emulated_frames": 220,
+      "state_sha256": "107b73207b47bfdcad7da2f503065d9899206c9549c434fb51e8b1585abfe54a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "right=frame>=10 and frame<90",
+      "ram_identical_samples": 110,
+      "ppu_identical_samples": 110,
+      "oam_identical_samples": 110,
+      "apu_sha256": "fdae8e168b92b142ef157265299275efbc2d22ba0748a7a073cae582a5ae821d",
+      "identical_pcm_bytes": 702844,
+      "shutdown_tail_difference_bytes": 3196,
+      "identical_screenshots": 110,
+      "changed_screenshots": 0,
+      "exact_previous_scene_screenshots": 110,
+      "rooms": {
+        "10": 8,
+        "04": 102
+      }
+    }
+  },
+  "total_frames_per_build": 2470,
+  "paired_samples_per_memory_type": 1235,
+  "exact_previous_scene_screenshots": 1169
+}

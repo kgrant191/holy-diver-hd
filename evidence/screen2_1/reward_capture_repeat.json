@@ -1,0 +1,13 @@
+{
+  "frame": 1248,
+  "case": "blizzard_reward",
+  "initial_capture_differences_outside_room": [
+    1248
+  ],
+  "repeat_uses_identical_candidate_pack": true,
+  "repeat_exact_previous_scene_screenshots": 859,
+  "baseline_png_sha256": "bb337c339625573884295328359fff8134a8851b42b19826fe21296953eb8791",
+  "initial_candidate_png_sha256": "3de286da2d5bbab9a0c6cae6ac617fdc60db3d791388aa331a732529865f480d",
+  "repeat_candidate_png_sha256": "bb337c339625573884295328359fff8134a8851b42b19826fe21296953eb8791",
+  "note": "One initial candidate capture had a black field with white Randy during the existing reward fade. The earlier candidate and the final full replay match the white baseline frame. Native state/APU matched in every run. Cause is unconfirmed; no artwork or test assertion was changed to pass the repeat."
+}

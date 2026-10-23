@@ -1,8 +1,13 @@
-HOLY DIVER HD 0.3.5 — APPROVED DEVELOPMENT BUILD
-First boss, Blizzard chamber and recovery pickups. Approved 2026-10-23.
+HOLY DIVER HD 0.4.1 — APPROVED DEVELOPMENT BUILD
+Stage 2, screen 1 and cave/enemy repairs. Approved by the user on 2026-10-23.
 
-0.3.5 adds HD red HP and blue Magic flasks, preserving their native pickup
-effects and the confirmed Randy standing-leg correction.
+Adds the volcanic Gothic exterior, native gold platforms, lava/Blizzard ice,
+new flying and tumbling enemies, breakable gold blocks and the exit cliff.
+Shared Randy, HUD, recovery items and defeat effects retain approved artwork.
+Blizzard's full freeze/thaw palette cycle and black flashes remain native.
+
+0.3.5 added the approved red HP and blue Magic flasks, preserving their native
+pickup effects and the confirmed Randy standing-leg correction.
 
 0.3.4 corrects the disconnected knee/shin introduced in 0.3.3. Randy's
 standing forward leg now uses one continuous thigh, knee, shin and boot.
@@ -18,7 +23,7 @@ The pack applies this rendering option automatically; no setting change is neede
 0.3.0 adds the horned boss, both firing postures, native hit/death flashes,
 organ hall, bell chamber, Blizzard pickup and spell announcement. Shared
 Randy/HUD sprites remain HD in the announcement and Stage 2 arrival.
-Stage 2 scenery and enemies remain future work.
+Later rooms and stages remain work in progress.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
 
 0.2.1 replaces the sideways 1-up with a front-facing doll in both colors,
@@ -68,3 +73,5 @@ FE2FCD0AD334D792DB16535D09F3AB9FB2BEA3AC
 The ROM on disk is never edited. The existing IPS is applied in memory.
 Tested with MesenCE 2.2.1. ROM and emulator are not distributed.
 Exact approved v15, v14.1 and earlier rollbacks are retained in the source repository.
+
+0.4.1 approved repairs: cave opening stays dark from first reveal; brown winged demons face their travel direction and drop downward arrows; pink-shell/red-lobe organisms replace the rejected face-like rocks. Native gameplay/audio remain unchanged.

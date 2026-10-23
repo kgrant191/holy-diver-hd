@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.4.1 — approved 2026-10-23
+
+- Keep the cave opening dark from its first visible columns, using the left jamb with a screen-boundary guard; the far wall no longer has to be onscreen.
+- Replace backward-facing hooded flyers with brown winged demons. Native unflipped sprites move left; mirrored sprites move right. Keep the shared body stable during wingbeats and use the same downward arrow for held and falling states.
+- Replace the rejected face-like rocks with three faceless pink-shell/crimson-lobe pulsing poses matching the original anatomy.
+- Preserve native gameplay, animation cadence, audio and previous artwork. Only the Stage 2 tile atlas, mappings and installed README change from 0.4.0. The user approved the full exterior feature and repairs on feature/screen-2-1.
+- Final paired verification passes 6,460 frames per build, preserving native memory/audio and bounding visual changes to enemies and the doorway. The one duplicated next-room capture is documented; the complete unchanged-pack repeat passes.
+
+- Approval bookkeeping changes only the installed README; all 81 runtime files retain the reviewed hashes. Source push, PR, Actions artifact verification and merge remain pending. No release tag is created.
+
+## 0.4.0 — Stage 2 screen 1 review candidate (2026-10-23)
+
+- Add the volcanic Gothic exterior, gold terrain, native lava pulse and Blizzard ice/thaw cycle.
+- Add flying imps and their projectile, three tumbling lava-creature poses, Blizzard crystal, breakable gold blocks and exit cliff.
+- Reuse approved small drops and 1-up figurines through exact bank aliases; preserve existing large flasks, Randy, HUD and defeat rings.
+- Gate the panorama on a rendered sky tile so native Blizzard black frames remain black.
+- Preserve all 78 previous runtime files other than mapping/install text; keep main at approved 0.3.5.
+
+
 ## 0.3.5 — approved 2026-10-23
 
 - Added the large HP and Magic recovery pickups: a ruby-red rounded flask and a cobalt faceted vial with antique brass trim, fitted to the native 8×16 sprite footprint.
