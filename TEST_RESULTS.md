@@ -1,3 +1,29 @@
+# 0.3.1 review candidate — fireball and Blizzard menu repair
+
+The repair passes 7,460 frames per build and 5,930 paired RAM/PPU/OAM samples per type in MesenCE 2.2.1. All native memory and APU writes match 0.3.0 exactly. All common PCM bytes match; two boss/menu routes have one 3,196-byte shutdown-tail difference. All four earlier-room routes have equal-length identical audio.
+
+The boss/menu routes cover 4,100 frames. Fireball halves remain complete in both directions; combat image changes stay inside native sprite rectangles. The complete defeat/pickup/Stage 2/menu route changes only Blizzard's R/D cells, including both spell selections and resume; its other 2,003 valid screenshots stay identical.
+
+Earlier regression covers 3,360 frames: 1,431 screenshots stay identical. The other 39 nave screenshots change only native sprite pixels on scanlines exceeding the eight-sprite limit. Title, crypt and tree screenshots all remain exact. No game-RAM writes, ROM changes or gameplay/audio edits were made. Mesen's supported sprite-limit removal applies throughout this pack.
+
+The pack still has 78 root files and no nested ZIP. Relative to 0.3.0, only hires.txt, README.txt and two formerly empty glyph cells in Boss_Tiles_2x.png change. Main remains approved 0.2.1. See `docs/BOSS1_REVIEW.md`, `evidence/boss1_review/verification.json`, `regression.json`, `package.json` and the live comparisons.
+
+---
+
+# 0.3.0 review candidate — first boss and Blizzard chamber
+
+Eight controller-only MesenCE 2.2.1 routes cover 7,670 frames per build, with a screenshot and RAM/PPU/OAM sample every frame. All native memory samples and APU writes match approved 0.2.1 exactly. Every common PCM byte matches; the left-platform route has one 3,196-byte shutdown-buffer difference. All other boss routes have equal-length identical audio.
+
+All six boss poses were observed in both directions, including crouched and standing fire, plus the normal and white hit palettes. All 36 native disappearance counts were observed; the final boss tile disappears after frame 300. The reward platform spans native X96–160 at Y160. Left/right walk-offs begin at frames 1102/859 in their respective routes; both leave the collectible intact. The center route's final pickup sprite is frame 812, spell announcement starts at 1335, and Stage 2 card starts at 1529. The 184 stable Stage 2 card screenshots remain identical to the approved pack.
+
+Earlier-room regression adds 3,360 frames per build and 1,830 paired samples per memory type. All 1,470 title/crypt/nave/tree screenshots and APU events are identical. Common PCM is byte-identical; the tree route has one 3,192-byte shutdown-buffer difference. The other three regression cases have equal-length identical audio.
+
+Total: 11,030 frames per build and 9,500 paired samples per memory type. The capture harness never writes game RAM. Installed pack hashes are checked before and after each process. Failed exploratory/capture attempts were repeated and are excluded from these final reports.
+
+The built ZIP has exactly 78 expected files at its root, with every SHA-256 matching the candidate manifest and no nested ZIP. The actual GitHub Actions artifact check remains pending the user's bundle push and review PR. Main is still approved 0.2.1. See `evidence/boss1/verification.json`, `regression.json`, `platform_edges.json`, `package.json`, `comparison.png` and `docs/BOSS1.md`.
+
+---
+
 # 0.0.2 approved — corrected ledge boundaries and single-extraction artifact
 
 Approved by the user in chat on 2026-10-22. Approval changes documentation only; all runtime assets retain the tested bytes.

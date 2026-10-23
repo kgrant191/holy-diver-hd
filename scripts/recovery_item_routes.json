@@ -1,0 +1,32 @@
+{
+  "hp_collect": {
+    "state": 1,
+    "frames": 300,
+    "input": "left=frame>=10 and frame<45,a=frame>=10 and frame<13"
+  },
+  "magic_collect": {
+    "state": 2,
+    "frames": 300,
+    "input": "right=frame>=60 and frame<105"
+  },
+  "hp_normal_collect": {
+    "state": 1,
+    "frames": 240,
+    "input": "select=frame>=5 and frame<8,left=frame>=10 and frame<45,a=frame>=10 and frame<13"
+  },
+  "magic_twin_collect": {
+    "state": 2,
+    "frames": 240,
+    "input": "select=frame>=5 and frame<8,right=frame>=60 and frame<105"
+  },
+  "hp_drop": {
+    "state": 1,
+    "frames": 120,
+    "input": "left=false"
+  },
+  "magic_drop": {
+    "state": 2,
+    "frames": 120,
+    "input": "left=false"
+  }
+}

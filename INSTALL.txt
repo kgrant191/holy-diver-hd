@@ -1,5 +1,24 @@
-HOLY DIVER HD 0.2.1 — APPROVED DEVELOPMENT BUILD
-Screen 1-4 tree court, approved by the user on 2026-10-23.
+HOLY DIVER HD 0.3.5 — APPROVED DEVELOPMENT BUILD
+First boss, Blizzard chamber and recovery pickups. Approved 2026-10-23.
+
+0.3.5 adds HD red HP and blue Magic flasks, preserving their native pickup
+effects and the confirmed Randy standing-leg correction.
+
+0.3.4 corrects the disconnected knee/shin introduced in 0.3.3. Randy's
+standing forward leg now uses one continuous thigh, knee, shin and boot.
+Crouching and other poses retain their existing artwork.
+
+0.3.2 fills the entire scrolling Blizzard backdrop and keeps Randy's HD
+silhouette throughout the white/gray fade before the spell announcement.
+
+0.3.1 uses Mesen's sprite-limit removal to keep the boss fireball complete,
+and matches the Blizzard menu's R/D letters to the existing HD font.
+The pack applies this rendering option automatically; no setting change is needed.
+
+0.3.0 adds the horned boss, both firing postures, native hit/death flashes,
+organ hall, bell chamber, Blizzard pickup and spell announcement. Shared
+Randy/HUD sprites remain HD in the announcement and Stage 2 arrival.
+Stage 2 scenery and enemies remain future work.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
 
 0.2.1 replaces the sideways 1-up with a front-facing doll in both colors,
@@ -32,7 +51,8 @@ and Randy deaths. The stage-name and remaining-lives cards use a Gothic frame,
 larger lettering and the game's current stage/life values. The post-death HUD
 uses the approved HD health and magic graphics. The stage names use the exact
 wording found in the supported translated ROM. Counts zero through nine are
-mapped, with three and two directly verified in the live replay.
+mapped, with four, three and two directly verified in live replay.
+The Stage 2 card is also verified through the Blizzard transition.
 
 v15.1 completes Randy's rear forearm and hand in idle, jumping, and horizontal
 casting poses, for both the normal and Twin Fire costumes. Existing sprite

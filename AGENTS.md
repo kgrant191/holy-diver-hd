@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Preserve approved behavior
 
-- Current approved development version: 0.2.1, accepted in chat on 2026-10-23; see STATUS.md for approval and verification. Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
+- Current approved development version: 0.3.5, accepted in chat on 2026-10-23; see STATUS.md for approval and verification. Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
 - Preserve the title sequence: clean splash, first Start reveals PRESS START, second Start starts play. Preserve the exact Entrance_SFX_Priority.ips bytes.
 - Randy's normal/Twin Fire art is shared across matching native identities. Fix shared assets/mappings where appropriate instead of adding needless room-specific copies.
 - The red winged-skull drop is a bracelet. Its collected Start/pause-menu icon must use the same bracelet artwork.
@@ -15,11 +15,12 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 - Python 3.12; install requirements.txt. Run `python build.py` and `python scripts/verify_release.py` against the approved pack manifest.
 - For visual changes run relevant live Mesen replays and inspect actual captures in both directions and affected palettes. Atlas mockups alone are not evidence of runtime correctness.
+- For limb repairs, inspect the whole joint and silhouette against a clear backdrop. Alpha connectivity and pixel-exact rendering alone missed the rejected 0.3.3 knee/shin break; register adjoining limb sections together and check their outline across tile boundaries.
 - For platform artwork, test the complete span, far-left stop, and slow walk-off at the right edge. A grounded sprite can overhang collision tiles; do not extend solid artwork to the full OAM or boot silhouette.
 - Perform routine emulator testing here when inputs/tools are available; do not ask the user to perform it instead.
 - Only one Mesen process at a time. Do not replace its pack or overwrite the audio-capture library during a run.
 - The first screenshot after loading a state can be empty. endFrame OAM can describe the next pose; screenshots are authoritative for visual claims.
-- Report coverage precisely. Stage cards 2–6 are mapped but have not been verified in live play.
+- Report coverage precisely. Stage cards 1–2 are verified in live play; cards 3–6 remain mapped but untested.
 - Review and document intentionally changed files before updating expected hashes; do not weaken validation merely to make it pass.
 
 ## Repository workflow

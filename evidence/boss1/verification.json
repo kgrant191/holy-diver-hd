@@ -1,0 +1,286 @@
+{
+  "emulator": "MesenCE 2.2.1",
+  "baseline": "0.2.1",
+  "candidate": "0.3.0",
+  "ram_writes": false,
+  "cases": {
+    "entry": {
+      "emulated_frames": 520,
+      "state_sha256": "52dd9e7cd675fda2a2cf243ff798b997a1dd9b2ec49e7c8f6079808d4e61bc19",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=10 and frame<160",
+      "ram_identical_samples": 520,
+      "ppu_identical_samples": 520,
+      "oam_identical_samples": 520,
+      "apu_sha256": "32136c14d31d65bf8c29fdd279440ac8d34f6d98d71f1f179e5147a2c41612ee",
+      "identical_pcm_bytes": 1661264,
+      "before_pcm_bytes": 1661264,
+      "after_pcm_bytes": 1661264,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 519,
+      "boss_poses": [
+        "compact_left",
+        "compact_right",
+        "crouching_fire_left",
+        "stand_left",
+        "stand_right",
+        "standing_fire_left",
+        "step_a_left",
+        "step_a_right",
+        "step_b_right"
+      ]
+    },
+    "crouch": {
+      "emulated_frames": 650,
+      "state_sha256": "4457b7dd6df58b8b2fb4d1c0478082a123ddfe724984b6ea46bfff0ced7a02f3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "start=frame>=10 and frame<14,down=frame>=30",
+      "ram_identical_samples": 650,
+      "ppu_identical_samples": 650,
+      "oam_identical_samples": 650,
+      "apu_sha256": "1c93678ebdbf3e4aa3c7cbea5de143ee241885d13d006de3d7c869178d064ce4",
+      "identical_pcm_bytes": 2076584,
+      "before_pcm_bytes": 2076584,
+      "after_pcm_bytes": 2076584,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 556,
+      "boss_poses": [
+        "compact_left",
+        "compact_right",
+        "crouching_fire_left",
+        "crouching_fire_right",
+        "stand_left",
+        "stand_right",
+        "standing_fire_left",
+        "step_a_left",
+        "step_a_right",
+        "step_b_left"
+      ]
+    },
+    "hit": {
+      "emulated_frames": 650,
+      "state_sha256": "4457b7dd6df58b8b2fb4d1c0478082a123ddfe724984b6ea46bfff0ced7a02f3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "start=frame>=10 and frame<14,b=frame>=30 and frame%20<3,down=frame>=30 and frame<150",
+      "ram_identical_samples": 650,
+      "ppu_identical_samples": 650,
+      "oam_identical_samples": 650,
+      "apu_sha256": "ffe649199295eca339bdd005c97c0ee412d8c9243a7392651727c759a0f2c57d",
+      "identical_pcm_bytes": 2076584,
+      "before_pcm_bytes": 2076584,
+      "after_pcm_bytes": 2076584,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 556,
+      "boss_poses": [
+        "compact_left",
+        "compact_right",
+        "crouching_fire_left",
+        "crouching_fire_right",
+        "stand_left",
+        "stand_right",
+        "standing_fire_left",
+        "step_a_left",
+        "step_a_right",
+        "step_b_left"
+      ]
+    },
+    "pickup": {
+      "emulated_frames": 1850,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<790,a=frame>=722 and frame<750",
+      "ram_identical_samples": 1850,
+      "ppu_identical_samples": 1850,
+      "oam_identical_samples": 1850,
+      "apu_sha256": "044877dd27607dfd3ad79b57d92398b03f8a69f84897a07d9caa9e44cfe126fd",
+      "identical_pcm_bytes": 5910268,
+      "before_pcm_bytes": 5910268,
+      "after_pcm_bytes": 5910268,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 1617,
+      "boss_poses": [
+        "stand_right"
+      ],
+      "death_disappearance": {
+        "initial_tiles": 36,
+        "final_tile_frame": 300,
+        "all_native_tile_counts_observed": true
+      },
+      "last_pickup_sprite_frame": 812,
+      "spell_message_first_frame": 1335,
+      "stage2_card_first_frame": 1529,
+      "unchanged_stage2_card_screenshots": 184
+    },
+    "chamber_floor": {
+      "emulated_frames": 1300,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<1000,right=frame>=1000",
+      "ram_identical_samples": 1300,
+      "ppu_identical_samples": 1300,
+      "oam_identical_samples": 1300,
+      "apu_sha256": "6deb40e2971e41dbd8760e3d7e1f87086da10913aeb792f6b3af5b0d810ee57e",
+      "identical_pcm_bytes": 4153160,
+      "before_pcm_bytes": 4153160,
+      "after_pcm_bytes": 4153160,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 1299,
+      "boss_poses": [
+        "stand_right"
+      ],
+      "death_disappearance": {
+        "initial_tiles": 36,
+        "final_tile_frame": 300,
+        "all_native_tile_counts_observed": true
+      },
+      "pickup_left_uncollected": true
+    },
+    "platform_edge": {
+      "emulated_frames": 1000,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<775,a=frame>=722 and frame<750,right=frame>=830 and frame<860",
+      "ram_identical_samples": 1000,
+      "ppu_identical_samples": 1000,
+      "oam_identical_samples": 1000,
+      "apu_sha256": "caf1b4e8e9e4b3d4f26640b5c203f4932252fc59ef0129011ba0e7ed0ed0ad59",
+      "identical_pcm_bytes": 3194740,
+      "before_pcm_bytes": 3194740,
+      "after_pcm_bytes": 3194740,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 999,
+      "boss_poses": [
+        "stand_right"
+      ],
+      "death_disappearance": {
+        "initial_tiles": 36,
+        "final_tile_frame": 300,
+        "all_native_tile_counts_observed": true
+      },
+      "pickup_left_uncollected": true
+    },
+    "platform_left": {
+      "emulated_frames": 1200,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=(frame>=380 and frame<950)or(frame>=1080 and frame<1120),right=frame>=950 and frame<1032,a=frame>=982 and frame<1010",
+      "ram_identical_samples": 1200,
+      "ppu_identical_samples": 1200,
+      "oam_identical_samples": 1200,
+      "apu_sha256": "9ef91a723d12c8657f2505e22265c5278041273630c88cb6152ad0136c58bef0",
+      "identical_pcm_bytes": 3833688,
+      "before_pcm_bytes": 3836884,
+      "after_pcm_bytes": 3833688,
+      "shutdown_tail_difference_bytes": 3196,
+      "changed_screenshots": 1199,
+      "boss_poses": [
+        "stand_right"
+      ],
+      "death_disappearance": {
+        "initial_tiles": 36,
+        "final_tile_frame": 300,
+        "all_native_tile_counts_observed": true
+      },
+      "pickup_left_uncollected": true
+    },
+    "right_shot": {
+      "emulated_frames": 500,
+      "state_sha256": "4457b7dd6df58b8b2fb4d1c0478082a123ddfe724984b6ea46bfff0ced7a02f3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "start=frame>=10 and frame<14,right=frame>=250 and frame<280,a=frame>=370 and frame<398",
+      "ram_identical_samples": 500,
+      "ppu_identical_samples": 500,
+      "oam_identical_samples": 500,
+      "apu_sha256": "d46575bc889cf03eb667a9b2ac5451c272887a5c09331e744ed97215df36cd8a",
+      "identical_pcm_bytes": 1600568,
+      "before_pcm_bytes": 1600568,
+      "after_pcm_bytes": 1600568,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 483,
+      "boss_poses": [
+        "compact_left",
+        "compact_right",
+        "crouching_fire_left",
+        "crouching_fire_right",
+        "stand_left",
+        "stand_right",
+        "standing_fire_left",
+        "standing_fire_right",
+        "step_a_left",
+        "step_a_right",
+        "step_b_left",
+        "step_b_right"
+      ]
+    }
+  },
+  "boss_pose_examples": {
+    "step_b_right": {
+      "case": "entry",
+      "memory_frame": 192
+    },
+    "step_a_right": {
+      "case": "entry",
+      "memory_frame": 195
+    },
+    "compact_right": {
+      "case": "entry",
+      "memory_frame": 224
+    },
+    "stand_right": {
+      "case": "entry",
+      "memory_frame": 294
+    },
+    "step_a_left": {
+      "case": "entry",
+      "memory_frame": 295
+    },
+    "stand_left": {
+      "case": "entry",
+      "memory_frame": 300
+    },
+    "compact_left": {
+      "case": "entry",
+      "memory_frame": 400
+    },
+    "crouching_fire_left": {
+      "case": "entry",
+      "memory_frame": 416
+    },
+    "standing_fire_left": {
+      "case": "entry",
+      "memory_frame": 480
+    },
+    "step_b_left": {
+      "case": "crouch",
+      "memory_frame": 151
+    },
+    "crouching_fire_right": {
+      "case": "crouch",
+      "memory_frame": 366
+    },
+    "standing_fire_right": {
+      "case": "right_shot",
+      "memory_frame": 398
+    }
+  },
+  "boss_palette_examples": {
+    "FF1C0B36": {
+      "case": "entry",
+      "memory_frame": 181
+    },
+    "FF102030": {
+      "case": "hit",
+      "memory_frame": 284
+    }
+  },
+  "projectile_tiles": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "total_frames_per_build": 7670,
+  "capture_interval_frames": 1,
+  "unchanged_approved_runtime_files": 73,
+  "pack_files": 78
+}

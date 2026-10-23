@@ -1,0 +1,42 @@
+{
+  "entry": {
+    "state": 1,
+    "frames": 520,
+    "input": "left=frame>=10 and frame<160"
+  },
+  "crouch": {
+    "state": 2,
+    "frames": 650,
+    "input": "start=frame>=10 and frame<14,down=frame>=30"
+  },
+  "hit": {
+    "state": 2,
+    "frames": 650,
+    "input": "start=frame>=10 and frame<14,b=frame>=30 and frame%20<3,down=frame>=30 and frame<150"
+  },
+  "pickup": {
+    "state": 3,
+    "frames": 1850,
+    "input": "left=frame>=380 and frame<790,a=frame>=722 and frame<750"
+  },
+  "chamber_floor": {
+    "state": 3,
+    "frames": 1300,
+    "input": "left=frame>=380 and frame<1000,right=frame>=1000"
+  },
+  "platform_edge": {
+    "state": 3,
+    "frames": 1000,
+    "input": "left=frame>=380 and frame<775,a=frame>=722 and frame<750,right=frame>=830 and frame<860"
+  },
+  "platform_left": {
+    "state": 3,
+    "frames": 1200,
+    "input": "left=(frame>=380 and frame<950)or(frame>=1080 and frame<1120),right=frame>=950 and frame<1032,a=frame>=982 and frame<1010"
+  },
+  "right_shot": {
+    "state": 2,
+    "frames": 500,
+    "input": "start=frame>=10 and frame<14,right=frame>=250 and frame<280,a=frame>=370 and frame<398"
+  }
+}

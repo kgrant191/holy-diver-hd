@@ -100,3 +100,33 @@ See [SCREEN1_4.md](SCREEN1_4.md) for the supplied-state routes, actual pickup/ed
 See [SCREEN1_4_REVIEW.md](SCREEN1_4_REVIEW.md). Pair the same five routes against 0.2.0 and pass `--baseline 0.2.0` to the verifier; the original default retains the initial screen-addition checks. Run `verify_screen1_4_review_assets.py` for the strict pixel/file change boundary. The current candidate has 75 root files and three changed files relative to 0.2.0. Earlier reports and manifests remain historical evidence.
 
 0.2.1 was approved in chat on 2026-10-23. Its original live runs are pinned to `0.2.1-reviewed-pack-sha256.json`. Approval changes only README.txt; all 74 runtime hashes remain identical. No additional emulator run is needed for that text-only change. Rebuild and verify the approved manifest and archive, then check the actual Actions artifact from PR #3.
+
+## First boss and Blizzard transition (0.3.0 candidate)
+
+See [BOSS1.md](BOSS1.md) and `scripts/boss1_routes.json`. Eight controller-only routes cover 7,670 frames per build at one-frame capture intervals. They cover every boss pose in both directions, both hit palettes, all 36 disappearance counts, both reward-platform edges, floor boundaries, pickup/ascent/announcement and Stage 2 arrival. The approved Stage 2 card remains exact. `verify_boss1_qa.py` requires identical native RAM/PPU/OAM and APU events, with byte-identical common PCM and at most one shutdown buffer of audio-tail difference.
+
+`boss1_regression_routes.json` adds nave/tree-court replays to the existing title/crypt checks. `verify_boss1_regression.py` requires identical screenshots and native memory/audio across all four earlier cases. The candidate's expected manifest contains 78 root pack files. Main remains approved 0.2.1; the actual Actions artifact must be checked after the user pushes the bundle and the review PR is opened.
+
+## Boss fireball and Blizzard menu review repair (0.3.1 candidate)
+
+See [BOSS1_REVIEW.md](BOSS1_REVIEW.md). `boss1_review_routes.json` adds the post-pickup pause menu, both spell selections and resume to three combat routes. `verify_boss1_review.py` checks all native memory/audio, limits combat differences to native sprite rectangles, limits menu differences to the two letter cells, and confirms the prior mapping text and artwork are preserved.
+
+The supported sprite-limit option affects rendering throughout the pack. Repeat the title/crypt/nave/tree routes and use `verify_boss1_review_regression.py`; only nave sprite pixels on overflowing scanlines may differ. Earlier exact-image verification scripts remain for the original feature's historical evidence. Current repair coverage totals 7,460 frames per build. The 78-file Actions artifact still requires verification after the user's push.
+
+## Blizzard ascent/fade repair (0.3.2 candidate)
+
+See [BOSS1_TRANSITION.md](BOSS1_TRANSITION.md). `boss1_transition_routes.json` covers normal/left-facing and Twin Fire/right-facing pickups through Stage 2, menu selections and resume, plus the corrected fireball regression. `verify_boss1_transition.py` requires 5,500 identical paired samples per RAM/PPU/OAM type, identical APU/common PCM, exact prior artwork/mappings outside the specified additions, unchanged foreground, and the same HD silhouette through all three final fade steps. The pack contains 79 root files. The actual Actions artifact remains pending the user’s push and review PR.
+
+## Standing boot repair (rejected 0.3.3 candidate)
+
+See [RANDY_FOOT.md](RANDY_FOOT.md). `randy_foot_routes.json` tests normal/Twin Fire standing in both directions, crouching and crouched casts, running, jumps and casts, then replays both Blizzard transitions and the corrected fireball. The historical verifier passed its pixel bounds and native memory/audio checks but missed the broken knee/shin outline. The user rejected the result.
+
+## Connected standing leg (0.3.4 candidate)
+
+See [RANDY_LEG.md](RANDY_LEG.md). `randy_leg_routes.json` adds two clear-background routes to the preceding five cases, totaling 6,940 frames per build. `verify_randy_leg.py` detects the rejected knee contour, requires a connected and gradual replacement outline, checks the complete leg in both directions/costumes, and verifies the idle knee mapping when the outer hand is offscreen. All image changes must stay inside the idle forward leg; every other pose and all native memory/APU/common PCM must remain exact. Inspect the unretouched live close-ups; numerical checks do not replace visual review. The 79-file artifact still requires actual Actions verification after the user's push.
+
+## HP and Magic recovery flasks (approved 0.3.5)
+
+See [RECOVERY_ITEMS.md](RECOVERY_ITEMS.md). Six controller-only routes cover both supplied pickups, collection in normal/Twin Fire costumes, and neutral drop/expiry behavior. `verify_recovery_items.py` requires exact paired native memory/APU/common PCM, changes confined to the four native item tiles, and exact images after collection or expiry. HP collection raises 5→6; Magic raises 10→50, in both costumes. All existing art and mapping text stay exact. Base-bank items are live-tested; identical later-bank copies are mapped without claiming live coverage. Actions run 40004314865 verified all 80 expected hashes and uploaded 80 files. The user downloaded artifact 12523247888 and confirmed its flat 80-file layout, hires.txt at the root and no nested ZIP before authorizing PR #4's merge. Independent assistant extraction was unavailable because the local execution environment failed; record the user's archive-layout check separately from CI's pre-upload hash verification.
+
+Approval changes only the installed README.txt. All 79 other pack hashes remain identical to `evidence/0.3.5-reviewed-pack-sha256.json`; `evidence/approved-pack-sha256.json` records the new README hash. Rebuild and verify that manifest in Actions. The existing live evidence remains valid for the unchanged runtime art and mappings.

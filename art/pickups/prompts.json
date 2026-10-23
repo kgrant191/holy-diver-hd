@@ -1,0 +1,14 @@
+{
+  "tool": "built-in imagegen",
+  "use_case": "stylized-concept",
+  "date": "2026-10-23",
+  "prompts": {
+    "hp": "Use case: stylized-concept. Asset type: one transparent collectible sprite for a Gothic side-scrolling pixel-art HD pack. Create ONE upright red health-restoring potion flask. Native target after registration is only 16 pixels wide by 32 pixels tall, so make a very clear tall narrow silhouette with height twice its width: short cork and antique brass collar, narrow neck, rounded pear-shaped ruby-red glass body, flat small brass base. Dark crimson shadows, saturated red liquid, one ivory highlight on upper left, restrained antique gold trim matching the reference heart icon. Keep the RED liquid prominent. Reference image is only a material/palette/style guide, do not depict a heart icon. Frontal orthographic game sprite, strong deliberate pixel clusters, crisp edges, readable at tiny size, SNES/GBA-quality detail. The whole flask fits in frame with generous transparent margin. No scenery, no labels or lettering, no particles, no external glow, no shadow or floor. True transparent background.",
+    "magic": "Use case: stylized-concept. Asset type: one transparent collectible sprite for a Gothic side-scrolling pixel-art HD pack. Create ONE upright blue magic-restoring potion vial. Native target after registration is only 16 pixels wide by 32 pixels tall, so make a very clear tall narrow silhouette with height twice its width: short cork and antique brass collar, narrow neck, faceted straight-sided deep cobalt glass body with clipped lower corners and small brass base. Deep navy shadows, saturated blue liquid, bright cyan reflection and one ivory highlight on upper left, restrained antique gold trim matching a dark Gothic game. Keep the BLUE liquid prominent. Reference image is only a material/palette/style guide, do not depict a round crystal. Frontal orthographic game sprite, strong deliberate pixel clusters, crisp edges, readable at tiny size, SNES/GBA-quality detail. The whole vial fits in frame with generous transparent margin. No scenery, no labels or lettering, no particles, no external glow, no shadow or floor. True transparent background."
+  },
+  "reference_assets": {
+    "hp": "art/room2/heart_hd.png",
+    "magic": "art/room2/magic_hd.png"
+  },
+  "reference_preparation": "Existing icons enlarged 12x with nearest-neighbor sampling for material/color reference only."
+}

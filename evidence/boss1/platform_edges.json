@@ -1,0 +1,18 @@
+{
+  "platform_left": {
+    "first_downward_oam_frame": 1102,
+    "native_platform_x": [
+      96,
+      160
+    ],
+    "native_platform_y": 160
+  },
+  "platform_edge": {
+    "first_downward_oam_frame": 859,
+    "native_platform_x": [
+      96,
+      160
+    ],
+    "native_platform_y": 160
+  }
+}

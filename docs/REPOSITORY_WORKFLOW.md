@@ -1,6 +1,6 @@
 # Repository workflow
 
-Repository: kgrant191/holy-diver-hd. Approved development version 0.2.1 adds screen 1-4 through PR #3, following approved 0.1.1, following the 0.0.2 title/ledge corrections and initial 0.0.1 import of historical v15.1 artwork. Use temporary branches for later screen or character work and merge accepted changes into main. Keep release changes in CHANGELOG.md and current state in STATUS.md.
+Repository: kgrant191/holy-diver-hd. Approved development version 0.3.5 adds the first boss, Blizzard chamber and recovery pickups through PR #4, following screen 1-4 in 0.2.1 (PR #3), screen 1-3 in 0.1.1 (PR #2), the 0.0.2 title/ledge corrections and the initial 0.0.1 import of historical v15.1 artwork. Use temporary branches for later screen or character work and merge accepted changes into main. Keep release changes in CHANGELOG.md and current state in STATUS.md.
 
 Use the active chat for bug reports, task priorities, feedback and approval. GitHub Issues and a TASKS.md backlog are not part of the current workflow. Prepare each requested change on a focused branch, test it, and open a PR with evidence and an Actions artifact. Revise the same branch for feedback. The user can merge or explicitly authorize the assistant to merge after approval. A proposed version on a branch is a review candidate until accepted.
 

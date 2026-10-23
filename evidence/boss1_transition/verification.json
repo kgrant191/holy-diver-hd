@@ -1,0 +1,178 @@
+{
+  "baseline": "0.3.1",
+  "candidate": "0.3.2",
+  "emulator": "MesenCE 2.2.1",
+  "ram_writes": false,
+  "pack_files": 79,
+  "changed_existing_files": [
+    "Boss_Tiles_2x.png",
+    "README.txt",
+    "hires.txt"
+  ],
+  "added_files": [
+    "Blizzard_Ascent_Background.png"
+  ],
+  "unchanged_existing_files": 75,
+  "prior_atlas_cells_preserved": 563,
+  "new_atlas_cells": 113,
+  "added_tile_rules": 435,
+  "added_conditions": 243,
+  "prior_rules_preserved_except_bell_backdrop": true,
+  "backdrop_is_exact_threefold_repeat": true,
+  "cases": {
+    "menu_blizzard": {
+      "frames": 2300,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<790,a=frame>=722 and frame<750,start=(frame>=1830 and frame<1834)or(frame>=2130 and frame<2134),down=frame>=1960 and frame<1964,up=frame>=2040 and frame<2044",
+      "ram_identical_samples": 2300,
+      "ppu_identical_samples": 2300,
+      "oam_identical_samples": 2300,
+      "apu_sha256": "b865058a733580bf3c9a7e83170c2dada2c35d31dc74f95f106bd5c06a76fa46",
+      "identical_pcm_bytes": 7347900,
+      "before_pcm_bytes": 7347900,
+      "after_pcm_bytes": 7347900,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 276,
+      "unchanged_screenshots": 2023,
+      "empty_load_captures": [
+        1
+      ],
+      "backdrop_only_screenshots": 252,
+      "backdrop_changed_range": [
+        624,
+        1221
+      ],
+      "fade_frames": {
+        "202020": [
+          1303,
+          1304,
+          1305,
+          1306,
+          1307,
+          1308,
+          1309,
+          1310
+        ],
+        "101010": [
+          1311,
+          1312,
+          1313,
+          1314,
+          1315,
+          1316,
+          1317,
+          1318
+        ],
+        "000000": [
+          1319,
+          1320,
+          1321,
+          1322,
+          1323,
+          1324,
+          1325,
+          1326
+        ]
+      },
+      "pickup_palette": "300036",
+      "observed_player_flip_bits": [
+        64
+      ],
+      "changes_confined_to": "previously empty bell backdrop and Randy fade silhouette"
+    },
+    "reverse_blizzard": {
+      "frames": 2550,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<950,right=frame>=950 and frame<1080,a=frame>=982 and frame<1010,select=frame>=700 and frame<704,start=(frame>=2060 and frame<2064)or(frame>=2360 and frame<2364),down=frame>=2190 and frame<2194,up=frame>=2270 and frame<2274",
+      "ram_identical_samples": 2550,
+      "ppu_identical_samples": 2550,
+      "oam_identical_samples": 2550,
+      "apu_sha256": "0c610426a336b4c1221b7549f0e6bce60e36130fc1605aed317c89d5bf6e4c4e",
+      "identical_pcm_bytes": 8146584,
+      "before_pcm_bytes": 8146584,
+      "after_pcm_bytes": 8146584,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 276,
+      "unchanged_screenshots": 2273,
+      "empty_load_captures": [
+        1
+      ],
+      "backdrop_only_screenshots": 252,
+      "backdrop_changed_range": [
+        624,
+        1485
+      ],
+      "fade_frames": {
+        "202020": [
+          1567,
+          1568,
+          1569,
+          1570,
+          1571,
+          1572,
+          1573,
+          1574
+        ],
+        "101010": [
+          1575,
+          1576,
+          1577,
+          1578,
+          1579,
+          1580,
+          1581,
+          1582
+        ],
+        "000000": [
+          1583,
+          1584,
+          1585,
+          1586,
+          1587,
+          1588,
+          1589,
+          1590
+        ]
+      },
+      "pickup_palette": "221136",
+      "observed_player_flip_bits": [
+        0,
+        64
+      ],
+      "changes_confined_to": "previously empty bell backdrop and Randy fade silhouette"
+    },
+    "crouch": {
+      "frames": 650,
+      "state_sha256": "4457b7dd6df58b8b2fb4d1c0478082a123ddfe724984b6ea46bfff0ced7a02f3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "start=frame>=10 and frame<14,down=frame>=30",
+      "ram_identical_samples": 650,
+      "ppu_identical_samples": 650,
+      "oam_identical_samples": 650,
+      "apu_sha256": "1c93678ebdbf3e4aa3c7cbea5de143ee241885d13d006de3d7c869178d064ce4",
+      "identical_pcm_bytes": 2076584,
+      "before_pcm_bytes": 2076584,
+      "after_pcm_bytes": 2079776,
+      "shutdown_tail_difference_bytes": 3192,
+      "changed_screenshots": 0,
+      "unchanged_screenshots": 649,
+      "empty_load_captures": [
+        1
+      ],
+      "backdrop_only_screenshots": 0,
+      "backdrop_changed_range": [],
+      "fade_frames": {
+        "202020": [],
+        "101010": [],
+        "000000": []
+      },
+      "pickup_palette": null,
+      "observed_player_flip_bits": [],
+      "changes_confined_to": "previously empty bell backdrop and Randy fade silhouette"
+    }
+  },
+  "total_frames_per_build": 5500,
+  "native_memory_and_audio_preserved": true
+}

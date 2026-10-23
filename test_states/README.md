@@ -35,3 +35,22 @@ Pass these with --state1, --state2 and --state3 to run_screen1_3_qa.py. These us
 ## Fourth section state (2026-10-23)
 
 Pass `Holy_Diver_HD_1(4).mss` with `--state` to `run_screen1_4_qa.py`. SHA-256: `de4fedc63dc4a411a1ae944329e33e8d954acefccc7265760b77f32199c61899`. The supplied bytes remain ignored by Git.
+
+## First boss states (2026-10-23)
+
+Pass these with `--state1`, `--state2`, `--state3` to `run_boss1_qa.py`. State 2 is paused; the recorded route resumes it with Start. State 3 begins the native defeat sequence. Input bytes remain ignored.
+
+| Input | SHA-256 |
+| --- | --- |
+| Holy_Diver_HD_1(5).mss | 52dd9e7cd675fda2a2cf243ff798b997a1dd9b2ec49e7c8f6079808d4e61bc19 |
+| Holy_Diver_HD_2(3).mss | 4457b7dd6df58b8b2fb4d1c0478082a123ddfe724984b6ea46bfff0ced7a02f3 |
+| Holy_Diver_HD_3(2).mss | f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c |
+
+## Large recovery item states (2026-10-23)
+
+Use `recovery_item_routes.json` with `run_boss1_qa.py`. Pass the red HP file as `--state1` and the blue Magic file as `--state2`; these routes do not use state3. State bytes remain ignored by Git.
+
+| Input | SHA-256 |
+| --- | --- |
+| Holy_Diver_HD_2(4).mss — red HP flask, health 5 | 107b73207b47bfdcad7da2f503065d9899206c9549c434fb51e8b1585abfe54a |
+| Holy_Diver_HD_3(3).mss — blue Magic flask, 10 magic | ad96f70a06f1f0412dcfea1c614b680dcf8f0c652e0f21acedbce71365debea1 |

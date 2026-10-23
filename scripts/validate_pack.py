@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==30
-assert counts['tile']==2566
-assert counts['background']==50
-assert counts['condition']==277
+assert len(imgs)==32
+assert counts['tile']==5063
+assert counts['background']==54
+assert counts['condition']==1362
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -61,14 +61,57 @@ for p in baseline.glob('*.png'):
   for phase in range(2):
    sprite=Image.open(root/f'art/review_fixes/randy_{mode}_{phase}.png').convert('RGBA')
    expected.paste(sprite,((phase+2)*64,128))
+  foot=json.loads((root/'art/randy_foot/registration.json').read_text())
+  assert foot['target_pose']==0 and foot['target_rectangle']==[16,32,32,64]
+  boot=Image.open(root/'art/randy_foot'/foot['patches'][p.name]).convert('RGBA')
+  assert boot.size==(16,32)
+  expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
 # Both additions own marked sections. Removing these must recover the exact
 # approved mapping file, including ordering and whitespace.
-previous_rules=re.sub(r'^# BEGIN SCREEN1_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_4 \1\n','',content,flags=re.M|re.S)
+approved_rules=re.sub(r'^# BEGIN RECOVERY_ITEMS (IMAGES|MAPPINGS)\n.*?^# END RECOVERY_ITEMS \1\n','',content,flags=re.M|re.S)
+approved_rules=re.sub(r'^# BEGIN BOSS1 (IMAGES|CONDITIONS|MAPPINGS|ALIASES|OPTIONS)\n.*?^# END BOSS1 \1\n','',approved_rules,flags=re.M|re.S)
+approved_rules=re.sub(r'^# BEGIN STANDING_LEG CONDITIONS\n.*?^# END STANDING_LEG CONDITIONS\n','',approved_rules,flags=re.M|re.S)
+approved_rules=approved_rules.replace('[standingLegNormal]<tile>18,07,','[randySig8]<tile>18,07,').replace('[standingLegTwin]<tile>19,07,','[randyEquippedSig8]<tile>19,07,')
+approved_021=json.loads((root/'evidence/0.2.1-pack-sha256.json').read_text())
+assert hashlib.sha256(approved_rules.encode()).hexdigest()==approved_021['hires.txt']
+for name,digest in approved_021.items():
+ if name not in {'README.txt','hires.txt'}|arm_atlases:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.2.1 bytes changed'
+boss=json.loads((root/'art/boss1/registration.json').read_text())
+assert boss['tile_rules']==2433 and boss['conditions']==1083 and boss['background_rules']==4
+assert boss['shared_bank_aliases']==758 and not boss['collision_modified'] and not boss['existing_rules_modified']
+assert boss['global_sprite_limit_changed']
+assert [line for line in lines if line.startswith('<options>')]==['<options>disableSpriteLimit']
+assert '<addition>' not in content
+assert boss['menu_glyphs']=={'0964':'R','0965':'D'}
+assert boss['pre_announcement_fade']=={'FF202020':255,'FF101010':173,'FF000000':102}
+wall=np.array(Image.open(pack/'Nave_Background.png').convert('RGB'))
+ascent=np.array(Image.open(pack/'Blizzard_Ascent_Background.png').convert('RGB'))
+assert ascent.shape==(wall.shape[0]*3,wall.shape[1],3)
+assert all(np.array_equal(ascent[i*wall.shape[0]:(i+1)*wall.shape[0]],wall) for i in range(3))
+for identity in boss['menu_glyphs']:
+ assert sum(f'[pauseScreen&pauseMagicRow&pausedPalette]<tile>30,{identity},0F072830,' in line for line in lines)==1
+assert imgs[30]=='Boss_Tiles_2x.png'
+assert imgs[31]=='Recovery_Items_2x.png'
+prior=json.loads((root/'evidence/0.3.4-pack-sha256.json').read_text())
+for name,digest in prior.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' confirmed 0.3.4 art changed'
+without_items=re.sub(r'^# BEGIN RECOVERY_ITEMS (IMAGES|MAPPINGS)\n.*?^# END RECOVERY_ITEMS \1\n','',content,flags=re.M|re.S)
+assert hashlib.sha256(without_items.encode()).hexdigest()==prior['hires.txt']
+items=json.loads((root/'art/pickups/registration.json').read_text())
+assert items['tile_rules']==64 and not items['native_geometry_changed'] and not items['existing_rules_modified']
+item_atlas=Image.open(pack/'Recovery_Items_2x.png').convert('RGBA')
+assert item_atlas.size==(32,32)
+assert not np.any(np.array(item_atlas)[:8,:,3])
+for i,name in enumerate(['hp','magic']):
+ assert np.array_equal(np.array(item_atlas)[:,i*16:(i+1)*16],np.array(Image.open(root/f'art/pickups/{name}_flask.png').convert('RGBA')))
+previous_rules=re.sub(r'^# BEGIN SCREEN1_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_4 \1\n','',approved_rules,flags=re.M|re.S)
 approved_011=json.loads((root/'evidence/0.1.1-pack-sha256.json').read_text())
 assert hashlib.sha256(previous_rules.encode()).hexdigest()==approved_011['hires.txt']
 for name,digest in approved_011.items():
- if name not in {'README.txt','hires.txt'}:
+ if name not in {'README.txt','hires.txt'}|arm_atlases:
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.1.1 bytes changed'
 tree=json.loads((root/'art/screen1_4/registration.json').read_text())
 assert tree['tile_rules']==198 and tree['new_atlas_cells']==150 and tree['shared_enemy_rules']==48
@@ -115,7 +158,8 @@ for asset in (Path(__file__).resolve().parents[1]/'rollback/bracelet_v14').glob(
  if asset.name not in arm_atlases|repaired_backgrounds:assert asset.read_bytes()==(pack/asset.name).read_bytes(),asset.name
 assert 'cryptBatPhase' not in content
 assert len(re.findall(r'<tile>26,7[4-7],FF160636,',content))==4
-assert len(re.findall(r'\[randyDefeated\]<tile>',content))==64
+assert len(re.findall(r'\[randyDefeated\]<tile>',approved_rules))==64
+assert len(re.findall(r'\[randyDefeated\]<tile>',content))==192
 assert '<condition>randyDefeated,memoryCheckConstant,0440,==,00' in content
 assert not re.search(r'<tile>25,7[4-7],FF160636,',content)
 result={'supported_rom_sha1':sha.lower(),'scale':2,'atlas_count':len(imgs),**counts,'references_and_bounds_valid':True,'conditional_priority_valid':True,'rom_patch_bytes':56,'patch_scope':'entrance priorities and conditional thunder masking','replacement_audio':False}

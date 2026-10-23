@@ -1,0 +1,113 @@
+{
+  "generated_source": "art/generated/randy_standing_boot_generated.png",
+  "method": "Register the existing generated forward leg as one continuous hip/knee/shin/boot piece; quantize to each existing costume palette.",
+  "source_polygon": [
+    [
+      550,
+      670
+    ],
+    [
+      650,
+      670
+    ],
+    [
+      770,
+      810
+    ],
+    [
+      770,
+      900
+    ],
+    [
+      740,
+      930
+    ],
+    [
+      740,
+      1110
+    ],
+    [
+      835,
+      1170
+    ],
+    [
+      835,
+      1255
+    ],
+    [
+      602,
+      1255
+    ],
+    [
+      602,
+      1130
+    ],
+    [
+      630,
+      1100
+    ],
+    [
+      608,
+      1060
+    ],
+    [
+      590,
+      1010
+    ],
+    [
+      590,
+      965
+    ],
+    [
+      610,
+      940
+    ],
+    [
+      610,
+      900
+    ],
+    [
+      575,
+      865
+    ],
+    [
+      550,
+      840
+    ]
+  ],
+  "source_crop": [
+    550,
+    670,
+    840,
+    1255
+  ],
+  "target_pose": 0,
+  "target_rectangle": [
+    16,
+    32,
+    32,
+    64
+  ],
+  "patches": {
+    "Randy_Entrance_2x.png": "boot_0.png",
+    "Randy_Equipped_2x.png": "boot_1.png"
+  },
+  "prompt": "Repair only the standing forward boot with a complete compact toe; fit below-knee pixels within native x<32, retain the original body and transparent background.",
+  "palette_rectangle": [
+    16,
+    32,
+    32,
+    64
+  ],
+  "rejected_version": "0.3.3 isolated boot broke the knee/shin join",
+  "standing_leg_signatures": {
+    "standingLegNormal": [
+      "04",
+      "FF300036"
+    ],
+    "standingLegTwin": [
+      "04",
+      "FF221136"
+    ]
+  }
+}

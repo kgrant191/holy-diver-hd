@@ -1,0 +1,336 @@
+{
+  "baseline": "0.3.3",
+  "candidate": "0.3.4",
+  "emulator": "MesenCE 2.2.1",
+  "ram_writes": false,
+  "pack_files": 79,
+  "changed_files": [
+    "Boss_Tiles_2x.png",
+    "README.txt",
+    "Randy_Entrance_2x.png",
+    "Randy_Equipped_2x.png",
+    "hires.txt"
+  ],
+  "unchanged_files": 74,
+  "new_conditions": 14,
+  "updated_standing_tile_scopes": 14,
+  "other_mappings_identical": true,
+  "knee_contour_regression_checked": true,
+  "changed_atlas_pixels": {
+    "Randy_Entrance_2x.png": 314,
+    "Randy_Equipped_2x.png": 348,
+    "Boss_Tiles_2x.png": 256
+  },
+  "changed_pose": 0,
+  "changed_pose_rectangle": [
+    16,
+    32,
+    32,
+    64
+  ],
+  "other_pose_pixels_identical": true,
+  "cases": {
+    "normal": {
+      "frames": 480,
+      "state_sha256": "d08a41d3da8a51b72116fe18bf46822ce986eca5ddf68283fd73b20f2d47a3cd",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "select=false,left=(frame>=10 and frame<80)or(frame>=180 and frame<182),right=(frame>=100 and frame<102)or(frame>=300 and frame<320),down=(frame>=50 and frame<75)or(frame>=150 and frame<175)or(frame>=250 and frame<275),a=(frame>=210 and frame<220)or(frame>=350 and frame<360),b=(frame>=60 and frame<63)or(frame>=130 and frame<133)or(frame>=160 and frame<163)or(frame>=230 and frame<233)or(frame>=260 and frame<263)or(frame>=290 and frame<293),up=frame>=285 and frame<300",
+      "ram_identical_samples": 480,
+      "ppu_identical_samples": 480,
+      "oam_identical_samples": 480,
+      "apu_sha256": "e203e8190b94e4db6c680da0f502009181d678af8d767ed559415586d8960a60",
+      "identical_pcm_bytes": 1533476,
+      "before_pcm_bytes": 1533476,
+      "after_pcm_bytes": 1533476,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 248,
+      "unchanged_screenshots": 231,
+      "empty_load_captures": [
+        1
+      ],
+      "changed_frame_range": [
+        2,
+        480
+      ],
+      "observed_repaired_flip_bits": [
+        0,
+        64
+      ],
+      "pixel_exact_leg_frames": 248,
+      "pixel_exact_leg_examples": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "unchanged_crouch_frames": 75,
+      "unchanged_other_pose_frames": 231,
+      "changes_confined_to": "standing forward leg"
+    },
+    "twin": {
+      "frames": 480,
+      "state_sha256": "d08a41d3da8a51b72116fe18bf46822ce986eca5ddf68283fd73b20f2d47a3cd",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "select=frame>=5 and frame<8,left=(frame>=10 and frame<80)or(frame>=180 and frame<182),right=(frame>=100 and frame<102)or(frame>=300 and frame<320),down=(frame>=50 and frame<75)or(frame>=150 and frame<175)or(frame>=250 and frame<275),a=(frame>=210 and frame<220)or(frame>=350 and frame<360),b=(frame>=60 and frame<63)or(frame>=130 and frame<133)or(frame>=160 and frame<163)or(frame>=230 and frame<233)or(frame>=260 and frame<263)or(frame>=290 and frame<293),up=frame>=285 and frame<300",
+      "ram_identical_samples": 480,
+      "ppu_identical_samples": 480,
+      "oam_identical_samples": 480,
+      "apu_sha256": "31ddb3f84ad4addd60682e909a2f1a9edb7e0f8d06d74662d9802aae1534c325",
+      "identical_pcm_bytes": 1533476,
+      "before_pcm_bytes": 1533476,
+      "after_pcm_bytes": 1533476,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 248,
+      "unchanged_screenshots": 231,
+      "empty_load_captures": [
+        1
+      ],
+      "changed_frame_range": [
+        2,
+        480
+      ],
+      "observed_repaired_flip_bits": [
+        0,
+        64
+      ],
+      "pixel_exact_leg_frames": 248,
+      "pixel_exact_leg_examples": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "unchanged_crouch_frames": 75,
+      "unchanged_other_pose_frames": 231,
+      "changes_confined_to": "standing forward leg"
+    },
+    "menu_blizzard": {
+      "frames": 2300,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<790,a=frame>=722 and frame<750,start=(frame>=1830 and frame<1834)or(frame>=2130 and frame<2134),down=frame>=1960 and frame<1964,up=frame>=2040 and frame<2044",
+      "ram_identical_samples": 2300,
+      "ppu_identical_samples": 2300,
+      "oam_identical_samples": 2300,
+      "apu_sha256": "b865058a733580bf3c9a7e83170c2dada2c35d31dc74f95f106bd5c06a76fa46",
+      "identical_pcm_bytes": 7347900,
+      "before_pcm_bytes": 7347900,
+      "after_pcm_bytes": 7347900,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 908,
+      "unchanged_screenshots": 1391,
+      "empty_load_captures": [
+        1
+      ],
+      "changed_frame_range": [
+        2,
+        2300
+      ],
+      "observed_repaired_flip_bits": [
+        0,
+        64
+      ],
+      "pixel_exact_leg_frames": 906,
+      "pixel_exact_leg_examples": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "unchanged_crouch_frames": 0,
+      "unchanged_other_pose_frames": 857,
+      "changes_confined_to": "standing forward leg"
+    },
+    "reverse_blizzard": {
+      "frames": 2550,
+      "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=380 and frame<950,right=frame>=950 and frame<1080,a=frame>=982 and frame<1010,select=frame>=700 and frame<704,start=(frame>=2060 and frame<2064)or(frame>=2360 and frame<2364),down=frame>=2190 and frame<2194,up=frame>=2270 and frame<2274",
+      "ram_identical_samples": 2550,
+      "ppu_identical_samples": 2550,
+      "oam_identical_samples": 2550,
+      "apu_sha256": "0c610426a336b4c1221b7549f0e6bce60e36130fc1605aed317c89d5bf6e4c4e",
+      "identical_pcm_bytes": 8146584,
+      "before_pcm_bytes": 8149780,
+      "after_pcm_bytes": 8146584,
+      "shutdown_tail_difference_bytes": 3196,
+      "changed_screenshots": 965,
+      "unchanged_screenshots": 1584,
+      "empty_load_captures": [
+        1
+      ],
+      "changed_frame_range": [
+        2,
+        2549
+      ],
+      "observed_repaired_flip_bits": [
+        0,
+        64
+      ],
+      "pixel_exact_leg_frames": 962,
+      "pixel_exact_leg_examples": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "unchanged_crouch_frames": 0,
+      "unchanged_other_pose_frames": 1053,
+      "changes_confined_to": "standing forward leg"
+    },
+    "crouch": {
+      "frames": 650,
+      "state_sha256": "4457b7dd6df58b8b2fb4d1c0478082a123ddfe724984b6ea46bfff0ced7a02f3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "start=frame>=10 and frame<14,down=frame>=30",
+      "ram_identical_samples": 650,
+      "ppu_identical_samples": 650,
+      "oam_identical_samples": 650,
+      "apu_sha256": "1c93678ebdbf3e4aa3c7cbea5de143ee241885d13d006de3d7c869178d064ce4",
+      "identical_pcm_bytes": 2076584,
+      "before_pcm_bytes": 2076584,
+      "after_pcm_bytes": 2076584,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 13,
+      "unchanged_screenshots": 636,
+      "empty_load_captures": [
+        1
+      ],
+      "changed_frame_range": [
+        21,
+        33
+      ],
+      "observed_repaired_flip_bits": [
+        64
+      ],
+      "pixel_exact_leg_frames": 13,
+      "pixel_exact_leg_examples": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "unchanged_crouch_frames": 401,
+      "unchanged_other_pose_frames": 421,
+      "changes_confined_to": "standing forward leg"
+    },
+    "clear_normal": {
+      "frames": 240,
+      "state_sha256": "d08a41d3da8a51b72116fe18bf46822ce986eca5ddf68283fd73b20f2d47a3cd",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "select=false,right=frame>=10 and frame<70,left=frame>=140 and frame<142,down=frame>=180 and frame<200",
+      "ram_identical_samples": 240,
+      "ppu_identical_samples": 240,
+      "oam_identical_samples": 240,
+      "apu_sha256": "df3042bf0cef8d040542cc7f6180c14309441dd12faf7b0c6fbebfc1d8883f56",
+      "identical_pcm_bytes": 766740,
+      "before_pcm_bytes": 766740,
+      "after_pcm_bytes": 766740,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 177,
+      "unchanged_screenshots": 62,
+      "empty_load_captures": [
+        1
+      ],
+      "changed_frame_range": [
+        2,
+        240
+      ],
+      "observed_repaired_flip_bits": [
+        0,
+        64
+      ],
+      "pixel_exact_leg_frames": 177,
+      "pixel_exact_leg_examples": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "unchanged_crouch_frames": 37,
+      "unchanged_other_pose_frames": 62,
+      "changes_confined_to": "standing forward leg"
+    },
+    "clear_twin": {
+      "frames": 240,
+      "state_sha256": "d08a41d3da8a51b72116fe18bf46822ce986eca5ddf68283fd73b20f2d47a3cd",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "select=frame>=5 and frame<8,right=frame>=10 and frame<70,left=frame>=140 and frame<142,down=frame>=180 and frame<200",
+      "ram_identical_samples": 240,
+      "ppu_identical_samples": 240,
+      "oam_identical_samples": 240,
+      "apu_sha256": "1fa89462c28537bef86ea15ff7b0a9471df739c848d6dd45e390f137ce57d7f1",
+      "identical_pcm_bytes": 766740,
+      "before_pcm_bytes": 766740,
+      "after_pcm_bytes": 766740,
+      "shutdown_tail_difference_bytes": 0,
+      "changed_screenshots": 177,
+      "unchanged_screenshots": 62,
+      "empty_load_captures": [
+        1
+      ],
+      "changed_frame_range": [
+        2,
+        240
+      ],
+      "observed_repaired_flip_bits": [
+        0,
+        64
+      ],
+      "pixel_exact_leg_frames": 177,
+      "pixel_exact_leg_examples": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "unchanged_crouch_frames": 37,
+      "unchanged_other_pose_frames": 62,
+      "changes_confined_to": "standing forward leg"
+    }
+  },
+  "total_frames_per_build": 6940,
+  "native_memory_and_audio_preserved": true
+}

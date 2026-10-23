@@ -1,0 +1,22 @@
+{
+  "crouch": {
+    "state": 2,
+    "frames": 650,
+    "input": "start=frame>=10 and frame<14,down=frame>=30"
+  },
+  "hit": {
+    "state": 2,
+    "frames": 650,
+    "input": "start=frame>=10 and frame<14,b=frame>=30 and frame%20<3,down=frame>=30 and frame<150"
+  },
+  "right_shot": {
+    "state": 2,
+    "frames": 500,
+    "input": "start=frame>=10 and frame<14,right=frame>=250 and frame<280,a=frame>=370 and frame<398"
+  },
+  "menu_blizzard": {
+    "state": 3,
+    "frames": 2300,
+    "input": "left=frame>=380 and frame<790,a=frame>=722 and frame<750,start=(frame>=1830 and frame<1834)or(frame>=2130 and frame<2134),down=frame>=1960 and frame<1964,up=frame>=2040 and frame<2044"
+  }
+}

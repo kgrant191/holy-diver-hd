@@ -1,5 +1,52 @@
 # Changelog
 
+## 0.3.5 — approved 2026-10-23
+
+- Added the large HP and Magic recovery pickups: a ruby-red rounded flask and a cobalt faceted vial with antique brass trim, fitted to the native 8×16 sprite footprint.
+- Added 64 shared mappings for sixteen byte-identical copies of each of the four native tiles. Existing small heart/crystal drops, Randy's confirmed leg repair and all previous artwork/mapping priority stay exact.
+- Retained native pickup effects, sprite positions, gameplay and audio. Added one atlas for 80 root pack files.
+- The user approved the complete first-boss/Blizzard feature and all retained repairs, verified the Actions artifact's 80-file layout with no nested ZIP, and authorized merging PR #4. Actions run 40004314865 passed all 80 expected file hashes before upload.
+- Approval bookkeeping updates documentation and only README.txt within the installed pack. All 79 other pack files retain the reviewed hashes; `evidence/0.3.5-reviewed-pack-sha256.json` preserves the original candidate. No release tag or GitHub Release is created.
+
+## 0.3.4 — confirmed leg repair, 2026-10-23
+
+The user confirmed the standing-leg correction ("thats fixed"). Full boss-feature approval followed in 0.3.5.
+
+- Corrected the knee/shin discontinuity introduced by 0.3.3. Register the complete forward standing leg as one piece within its native two-tile footprint in normal/Twin Fire colors and both directions.
+- Anchor the idle knee rule to the torso tile directly above it, preserving the same leg at the left-room edge when the distant hand tile leaves the screen. Existing rule priority and every other pose are preserved.
+- Added a contour regression check and live comparisons against a clear backdrop, plus paired native memory/audio and unchanged-pose checks. The pack has 79 root files; main remains approved 0.2.1.
+
+## 0.3.3 — rejected review candidate, 2026-10-23
+
+The user rejected this repair because fitting the boot separately broke the knee-to-shin outline. The tests below checked bounds and preservation but missed the visual discontinuity. Superseded by 0.3.4.
+
+- Repaired the cropped toe on Randy’s forward standing boot in normal and Twin Fire colors. The compact complete boot fits entirely within the original two native tiles and mirrors correctly.
+- Changed only idle pose 0 below the knee; all crouching, casting, running, airborne, rear-boot and upper-body artwork remains exact. Shared graphics-bank aliases use the same corrected cells, and monochrome idle silhouettes are regenerated consistently.
+- Preserved the entire mapping file, existing fireball/backdrop corrections, native gameplay, audio and platform boundaries. The pack still contains 79 root files.
+- Main remains approved 0.2.1; the bundle contains all unmerged boss work and review repairs.
+
+## 0.3.2 — superseded review candidate, 2026-10-23
+
+- Extended the Blizzard-room backdrop through the complete native vertical scroll. It repeats the approved masonry exactly, filling the black gaps behind the original bell and ornaments.
+- Added the three missing bank-00 fade palettes so Randy retains the approved HD silhouette immediately before the spell announcement, in both directions and after either costume.
+- Preserved all prior atlas cells, foreground artwork, native room repeats, white flashes, gameplay and audio. The confirmed fireball repair remains intact.
+- Added one backdrop for 79 root pack files. Main remains approved 0.2.1; the bundle includes all unmerged boss work.
+
+## 0.3.1 — superseded review candidate, 2026-10-23
+
+- Fixed the Blizzard pause menu's alternate R and D tile identities with the existing HD font, including both spell selections and pause/resume.
+- Enabled Mesen's supported `disableSpriteLimit` HD-pack option. The boss fireball no longer loses alternate halves when boss/player sprites crowd its scanlines. This rendering option applies throughout the loaded pack; native sprites and hit flashes keep their original positions and timing.
+- Preserved every existing artwork pixel; only two formerly empty atlas cells gain menu glyphs. Previous mappings and the audio patch stay exact.
+- Kept 78 root pack files. Main remains approved 0.2.1; the bundle includes the entire unmerged boss feature plus this repair.
+
+## 0.3.0 — superseded review candidate, 2026-10-23
+
+- Added the first horned boss with standing, stepping, compact jump/crouch and both firing poses, round fireballs, white hit flashes and the native gradual death sequence.
+- Added the brass organ hall and Blizzard bell chamber, reusing approved masonry, stone and ornaments at native tile positions.
+- Added the Blizzard tome and announcement; retained the native pickup, ascent, flashes and Stage 2 transition. Reused approved Randy/HUD art for identical graphics-bank copies in the announcement and Stage 2 arrival.
+- Preserved every earlier PNG/IPS and the complete previous mapping text. Added three runtime PNGs for 78 root pack files.
+- Added frame-by-frame controller replays and paired memory/audio verification. Main remains approved 0.2.1 pending review and the agreed manual bundle push.
+
 ## 0.2.1 — approved 2026-10-23
 
 - Replaced the sideways miniature Randy pickup with a front-facing figurine on a bronze base in normal and Twin Fire colors.
