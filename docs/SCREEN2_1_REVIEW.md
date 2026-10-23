@@ -1,4 +1,4 @@
-# Stage 2 cave and enemies — 0.4.1 review candidate
+# Stage 2 cave and enemies — approved 0.4.1
 
 The user reported three issues with 0.4.0: clouds showed through the cave until the far wall entered the viewport; the brown flyers faced backward and lacked wings/downward arrows; the red enemy had a face absent from the original. The supplied cave-approach state and original-enemy screenshot are the review references.
 
@@ -33,10 +33,12 @@ python scripts/export_screen2_1_review.py \
 
 The verifier compares native RAM, PPU, OAM, APU writes and PCM; requires all enemy/arrow animation tiles and measured travel in both directions with a stationary camera; confines image changes to those enemy footprints and the world-space doorway; checks the early cave interior is black; and requires exact blackouts and previous/next-room images. Adjacent OAM samples account for the documented endFrame screenshot/pose timing difference. Still comparisons use unretouched frames, labels and explicitly marked nearest-neighbor crops. The video concatenates actual cave, demon and red-enemy gameplay at 60 fps without audio.
 
-Only `hires.txt`, `Stage2_Exterior_Tiles_2x.png` and installed `README.txt` change from 0.4.0. All 79 other pack files remain exact, including the panorama, Randy, HUD, items, earlier art and audio patch. Removing the marked Stage 2 sections preserves the previous mapping bytes exactly. `evidence/0.4.0-pack-sha256.json` retains the prior review manifest; the historical `approved-pack-sha256.json` name describes this branch's candidate, not approval. The install ZIP has 82 files directly at its root.
+Only `hires.txt`, `Stage2_Exterior_Tiles_2x.png` and installed `README.txt` change from 0.4.0. All 79 other pack files remain exact, including the panorama, Randy, HUD, items, earlier art and audio patch. Removing the marked Stage 2 sections preserves the previous mapping bytes exactly. `evidence/0.4.0-pack-sha256.json` retains the prior review manifest; `0.4.1-reviewed-pack-sha256.json` pins the reviewed replay bytes; `approved-pack-sha256.json` records the approved installation text. The install ZIP has 82 files directly at its root.
 
-The next room is traversed only to confirm its existing appearance remains unchanged; new next-room artwork is outside this repair. Main remains approved 0.3.5. User review, push/PR and Actions artifact verification remain pending. No release tag or GitHub Release is created.
+The next room is traversed only to confirm its existing appearance remains unchanged; new next-room artwork is outside this repair. The user approved 0.4.1 on 2026-10-23. Main remains at 0.3.5 pending the source push, PR and Actions artifact verification. No release tag or GitHub Release is created.
 
 An initial next-room screenshot at frame 403 exactly duplicated frame 402 despite identical RAM/PPU/OAM. A complete 420-frame repeat with the same installed pack bytes matched the baseline at 403 and throughout next-room frames 220–420. The cause is unconfirmed; both the initial discrepancy and repeat are retained in `evidence/screen2_1_review/capture_repeat.json`. The final verifier uses the complete repeat, with no exception or assertion removed.
 
 Final paired verification passes across **6,460 frames per build**: all RAM/PPU/OAM and APU events match; common PCM is identical. There are 357 exact black frames, 579 unchanged outside-room captures, and 129 verified early cave-interior samples. Stationary-camera motion samples show 499 left-facing native steps and 209 right-facing mirrored steps, with no opposite-direction samples. All new enemy/arrow identities are observed. Audio shutdown-tail differences, where present, are at most one 3,200-byte buffer and are recorded per case. A complete unchanged-pack cave repeat resolves the one documented duplicated screenshot; final checks contain no exceptions.
+
+Approval changes only installed README.txt; all 81 runtime file hashes remain identical to the reviewed commit. Existing replay evidence remains valid. The approval record is `evidence/screen2_1_review/approval.json`.

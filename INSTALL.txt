@@ -1,5 +1,5 @@
-HOLY DIVER HD 0.4.1 — DEVELOPMENT REVIEW CANDIDATE
-Stage 2, screen 1. Based on approved 0.3.5; awaiting user review.
+HOLY DIVER HD 0.4.1 — APPROVED DEVELOPMENT BUILD
+Stage 2, screen 1 and cave/enemy repairs. Approved by the user on 2026-10-23.
 
 Adds the volcanic Gothic exterior, native gold platforms, lava/Blizzard ice,
 new flying and tumbling enemies, breakable gold blocks and the exit cliff.
@@ -74,4 +74,4 @@ The ROM on disk is never edited. The existing IPS is applied in memory.
 Tested with MesenCE 2.2.1. ROM and emulator are not distributed.
 Exact approved v15, v14.1 and earlier rollbacks are retained in the source repository.
 
-0.4.1 review repairs: cave opening stays dark from first reveal; brown winged demons face their travel direction and drop downward arrows; pink-shell/red-lobe organisms replace the rejected face-like rocks. Native gameplay/audio remain unchanged.
+0.4.1 approved repairs: cave opening stays dark from first reveal; brown winged demons face their travel direction and drop downward arrows; pink-shell/red-lobe organisms replace the rejected face-like rocks. Native gameplay/audio remain unchanged.

@@ -36,7 +36,7 @@ The standing leg correction changes only pose 0 at local HD coordinates X16–31
 
 Large recovery pickups use a rounded ruby-red HP flask and faceted cobalt/cyan Magic vial with restrained antique brass collars/bases. Keep the complete bottles in the native two-tile 16×32 HD canvas, including its eight transparent top rows. The small heart and crystal retain their existing artwork. Shared matching CHR copies reuse the same flask art. See `RECOVERY_ITEMS.md`.
 
-## Stage 2 exterior (0.4.0 candidate)
+## Stage 2 exterior (approved 0.4.1)
 
 Use deep plum/navy skies, firelit burgundy clouds, distant scorched forests and Gothic ruins. The gold native platforms keep their exact tile-defined edges; lava is red-orange molten rock and Blizzard ice is cobalt/cyan with a level frost crust. Distinguish breakable blocks with an antique-gold frame and cracked center. The exit cliff reuses approved gold-rock texture and native silhouette masks; its doorway stays dark.
 

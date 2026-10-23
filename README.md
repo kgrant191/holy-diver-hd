@@ -1,10 +1,10 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.4.1. Approved main: 0.3.5.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved development version: 0.4.1. Adoption into main pending.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
-Version 0.4.1 fixes the cave entrance showing clouds before its far wall appears, replaces the flyers with brown winged demons that face their travel direction and drop downward arrows, and restores the red enemies to faceless pink-shell forms with pulsing crimson lobes. See [review repairs](docs/SCREEN2_1_REVIEW.md). Main remains approved 0.3.5.
+Version 0.4.1 fixes the cave entrance showing clouds before its far wall appears, replaces the flyers with brown winged demons that face their travel direction and drop downward arrows, and restores the red enemies to faceless pink-shell forms with pulsing crimson lobes. See [review repairs](docs/SCREEN2_1_REVIEW.md). Approved by the user on 2026-10-23; main remains at 0.3.5 until the PR and Actions artifact checks complete.
 
-Version 0.4.0 adds Stage 2 screen 1: a volcanic Gothic backdrop, native gold platforms, palette-driven lava and Blizzard ice, flying imps, three tumbling lava-creature poses, destructible gold blocks and the exit cliff. Reuses approved Randy, HUD, pickups and defeat effects. See [screen notes](docs/SCREEN2_1.md) and [actual Mesen comparison](evidence/screen2_1/comparison.png). This candidate awaits user review on `feature/screen-2-1`; main remains approved 0.3.5.
+Version 0.4.0 adds Stage 2 screen 1: a volcanic Gothic backdrop, native gold platforms, palette-driven lava and Blizzard ice, flying imps, three tumbling lava-creature poses, destructible gold blocks and the exit cliff. Reuses approved Randy, HUD, pickups and defeat effects. See [screen notes](docs/SCREEN2_1.md) and [actual Mesen comparison](evidence/screen2_1/comparison.png). The feature and subsequent repairs are approved together in 0.4.1 on `feature/screen-2-1`.
 
 Version 0.3.5 adds the large red HP and blue Magic flasks with shared mappings for their identical native graphics copies. Previous artwork, including the confirmed standing-leg repair, remains exact. See [recovery items](docs/RECOVERY_ITEMS.md) and [live comparison](evidence/recovery_items/comparison.png).
 

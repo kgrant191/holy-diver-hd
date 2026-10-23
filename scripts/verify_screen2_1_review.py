@@ -9,7 +9,7 @@ p=argparse.ArgumentParser()
 for n in ['before','after','cave-before','cave-after','out']:p.add_argument('--'+n,required=True)
 a=p.parse_args();root=Path(__file__).resolve().parents[1]
 old=json.loads((root/'evidence/0.4.0-pack-sha256.json').read_text())
-new=json.loads((root/'evidence/approved-pack-sha256.json').read_text())
+new=json.loads((root/'evidence/0.4.1-reviewed-pack-sha256.json').read_text())
 routes=json.loads((root/'scripts/screen2_1_routes.json').read_text())
 routes['walk_right']={'frames':420,'input':'right=frame>=20'}
 report={'baseline':'0.4.0','candidate':'0.4.1','controller_only':True,'cases':{}}
