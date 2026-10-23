@@ -34,7 +34,7 @@ for line in lines:
 assert len(imgs)==31
 assert counts['tile']==4999
 assert counts['background']==54
-assert counts['condition']==1348
+assert counts['condition']==1362
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -62,21 +62,23 @@ for p in baseline.glob('*.png'):
    sprite=Image.open(root/f'art/review_fixes/randy_{mode}_{phase}.png').convert('RGBA')
    expected.paste(sprite,((phase+2)*64,128))
   foot=json.loads((root/'art/randy_foot/registration.json').read_text())
-  assert foot['target_pose']==0 and foot['target_rectangle']==[18,44,32,64]
+  assert foot['target_pose']==0 and foot['target_rectangle']==[16,32,32,64]
   boot=Image.open(root/'art/randy_foot'/foot['patches'][p.name]).convert('RGBA')
-  assert boot.size==(14,20)
-  expected.paste(boot,(18,44))
+  assert boot.size==(16,32)
+  expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
 # Both additions own marked sections. Removing these must recover the exact
 # approved mapping file, including ordering and whitespace.
 approved_rules=re.sub(r'^# BEGIN BOSS1 (IMAGES|CONDITIONS|MAPPINGS|ALIASES|OPTIONS)\n.*?^# END BOSS1 \1\n','',content,flags=re.M|re.S)
+approved_rules=re.sub(r'^# BEGIN STANDING_LEG CONDITIONS\n.*?^# END STANDING_LEG CONDITIONS\n','',approved_rules,flags=re.M|re.S)
+approved_rules=approved_rules.replace('[standingLegNormal]<tile>18,07,','[randySig8]<tile>18,07,').replace('[standingLegTwin]<tile>19,07,','[randyEquippedSig8]<tile>19,07,')
 approved_021=json.loads((root/'evidence/0.2.1-pack-sha256.json').read_text())
 assert hashlib.sha256(approved_rules.encode()).hexdigest()==approved_021['hires.txt']
 for name,digest in approved_021.items():
  if name not in {'README.txt','hires.txt'}|arm_atlases:
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.2.1 bytes changed'
 boss=json.loads((root/'art/boss1/registration.json').read_text())
-assert boss['tile_rules']==2433 and boss['conditions']==1071 and boss['background_rules']==4
+assert boss['tile_rules']==2433 and boss['conditions']==1083 and boss['background_rules']==4
 assert boss['shared_bank_aliases']==758 and not boss['collision_modified'] and not boss['existing_rules_modified']
 assert boss['global_sprite_limit_changed']
 assert [line for line in lines if line.startswith('<options>')]==['<options>disableSpriteLimit']

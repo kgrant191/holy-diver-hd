@@ -1,4 +1,6 @@
-# Standing boot repair — 0.3.3 candidate
+# Standing boot repair — rejected 0.3.3 candidate
+
+**Rejected by the user:** the isolated boot fit introduced a cut/discontinuity between the knee and shin. The historical checks below passed because they tested changed-area bounds, source-pixel equality and gameplay preservation, not joint quality. They are not evidence that this repair looked correct. See [RANDY_LEG.md](RANDY_LEG.md) for the 0.3.4 correction.
 
 The user confirmed the Blizzard transition fix, then supplied three close-ups showing Randy's forward toe cropped off when standing in either direction. The crouching pose was correct. This remains part of `feature/1-boss`; main stays approved 0.2.1 pending full feature approval.
 

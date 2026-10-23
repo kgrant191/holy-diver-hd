@@ -1,41 +1,53 @@
 {
   "generated_source": "art/generated/randy_standing_boot_generated.png",
-  "method": "Built-in imagegen precise-object-edit; isolate the forward boot, register to its native footprint and quantize to the existing boot palette.",
+  "method": "Register the existing generated forward leg as one continuous hip/knee/shin/boot piece; quantize to each existing costume palette.",
   "source_polygon": [
     [
-      622,
-      912
+      550,
+      670
     ],
     [
-      737,
-      912
+      650,
+      670
     ],
     [
-      737,
-      1120
+      770,
+      810
     ],
     [
-      833,
-      1175
+      770,
+      900
     ],
     [
-      833,
+      740,
+      930
+    ],
+    [
+      740,
+      1110
+    ],
+    [
+      835,
+      1170
+    ],
+    [
+      835,
       1255
     ],
     [
-      600,
+      602,
       1255
     ],
     [
-      600,
-      1135
+      602,
+      1130
     ],
     [
-      627,
+      630,
       1100
     ],
     [
-      607,
+      608,
       1060
     ],
     [
@@ -44,23 +56,35 @@
     ],
     [
       590,
-      966
+      965
     ],
     [
-      612,
+      610,
       940
+    ],
+    [
+      610,
+      900
+    ],
+    [
+      575,
+      865
+    ],
+    [
+      550,
+      840
     ]
   ],
   "source_crop": [
-    590,
-    912,
-    838,
+    550,
+    670,
+    840,
     1255
   ],
   "target_pose": 0,
   "target_rectangle": [
-    18,
-    44,
+    16,
+    32,
     32,
     64
   ],
@@ -68,5 +92,22 @@
     "Randy_Entrance_2x.png": "boot_0.png",
     "Randy_Equipped_2x.png": "boot_1.png"
   },
-  "prompt": "Repair only the standing forward boot with a complete compact toe; fit below-knee pixels within native x<32, retain the original body and transparent background."
+  "prompt": "Repair only the standing forward boot with a complete compact toe; fit below-knee pixels within native x<32, retain the original body and transparent background.",
+  "palette_rectangle": [
+    16,
+    32,
+    32,
+    64
+  ],
+  "rejected_version": "0.3.3 isolated boot broke the knee/shin join",
+  "standing_leg_signatures": {
+    "standingLegNormal": [
+      "04",
+      "FF300036"
+    ],
+    "standingLegTwin": [
+      "04",
+      "FF221136"
+    ]
+  }
 }

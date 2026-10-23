@@ -1,0 +1,58 @@
+{
+  "candidate": "0.3.4",
+  "visually_inspected": [
+    "clear_normal 120 right",
+    "clear_normal 160 left",
+    "clear_twin 120 right",
+    "clear_twin 160 left",
+    "clear_normal 190 unchanged crouch"
+  ],
+  "occluded_changed_frames": [
+    {
+      "case": "menu_blizzard",
+      "frame": 2279,
+      "occluded_pixels": 1,
+      "earlier_priority_sprite_tiles": [
+        "8D"
+      ],
+      "all_other_opaque_leg_pixels_exact": true
+    },
+    {
+      "case": "menu_blizzard",
+      "frame": 2283,
+      "occluded_pixels": 17,
+      "earlier_priority_sprite_tiles": [
+        "8D"
+      ],
+      "all_other_opaque_leg_pixels_exact": true
+    },
+    {
+      "case": "reverse_blizzard",
+      "frame": 1046,
+      "occluded_pixels": 29,
+      "earlier_priority_sprite_tiles": [
+        "78",
+        "7A"
+      ],
+      "all_other_opaque_leg_pixels_exact": true
+    },
+    {
+      "case": "reverse_blizzard",
+      "frame": 2543,
+      "occluded_pixels": 1,
+      "earlier_priority_sprite_tiles": [
+        "8D"
+      ],
+      "all_other_opaque_leg_pixels_exact": true
+    },
+    {
+      "case": "reverse_blizzard",
+      "frame": 2547,
+      "occluded_pixels": 17,
+      "earlier_priority_sprite_tiles": [
+        "8D"
+      ],
+      "all_other_opaque_leg_pixels_exact": true
+    }
+  ]
+}

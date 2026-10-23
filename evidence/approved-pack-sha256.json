@@ -2,7 +2,7 @@
   "Blizzard_Acquired.png": "abce817fb0c3fd526582a5f4ffdebef3d18c04a47cea4f518b88bb038226b126",
   "Blizzard_Ascent_Background.png": "34b7a0b3cb075da78f6787fab34a4c57b20edf458fc10554cda38f383e2ca2d3",
   "Boss_Hall_Flash.png": "e54f079ca4da97f1c569cbaade2e93c560c9ed777b2035dcefa65fb560a8fa0b",
-  "Boss_Tiles_2x.png": "5197107f328c98b5846fe93e7e1a84763cc4b9d073cb0e8e26fa4ef4cb1a2419",
+  "Boss_Tiles_2x.png": "081882b0fbd8ceb3c3df56be6c17e630fe88d1d3f89a9d78bd0cc6ded1a2b9c9",
   "Bracelet_2x.png": "cd24136af569456c9de612c8a714bf6d011c3217c574e78e9195c94c7343cc43",
   "Chr_00_0.png": "1dbcb13f888a03b80c4ce0d1a27240ecfd2080ff721030424e825d5fd9bfd51d",
   "Chr_01_0.png": "f69d42b3dd82e7be3c0d5acd5791cb86c598d62ff348d4646ff1e6bb043ddd54",
@@ -42,9 +42,9 @@
   "Nave_Background.png": "865db833ec3e690b8cbb48c45a03fd997aa179e91cbc3d87f6dad395a0d43dbe",
   "Nave_Tiles_2x.png": "8796de7817b6624a03a1b8ee116357d3827b791eb7ed2ea686ea0c41d9721069",
   "Pause_HD.png": "37b6cebce0f74774c5340cb4f3a0b50962a07e72627f0d26974257bb00b5f614",
-  "README.txt": "d09f8b1886586d01f74f353765a9bf76c0d2cb5dfe425a58e2f0d67757cf0f42",
-  "Randy_Entrance_2x.png": "787d92193de3665afb817cd00d16f7422c2670abdcf4fb1c0c5af73e93cb3745",
-  "Randy_Equipped_2x.png": "6145e5bd2579eedeb496570e691647ddb5e1eddfcdf69cf56db22f7f30599bcc",
+  "README.txt": "dc18710a71edaa22e9394ee3ec2503d9fbe81cff972c514e9fc51ab226e2ab96",
+  "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
+  "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
   "Screen_UI_2x.png": "21cc230b7b62dcac733b2ab805ff2f14b9319d1718cb877abd978c0f4c546434",
   "Stage_Lives_0.png": "244bbc09afe63c78917120ded5a7565cc9e29da2d8dd82814b801ccb0b0a2dbf",
@@ -77,5 +77,5 @@
   "Tree_Court_Tiles_2x.png": "1fb4fe99e944ec4b110d0eb215dd00124bac17d5c4fa13ac8a9dd6334a066c44",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "bfddc18d6f1a72649d50fd452bf5b6fb514f99e256b939d73f8e3bdb50f4f92d"
+  "hires.txt": "83185bf1b60b0e661c322ea238a505ede1579038455938ae5c187af89acf23eb"
 }

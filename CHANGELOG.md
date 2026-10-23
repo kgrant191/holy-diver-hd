@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.3.3 — review candidate, 2026-10-23
+## 0.3.4 — review candidate, 2026-10-23
+
+- Corrected the knee/shin discontinuity introduced by 0.3.3. Register the complete forward standing leg as one piece within its native two-tile footprint in normal/Twin Fire colors and both directions.
+- Anchor the idle knee rule to the torso tile directly above it, preserving the same leg at the left-room edge when the distant hand tile leaves the screen. Existing rule priority and every other pose are preserved.
+- Added a contour regression check and live comparisons against a clear backdrop, plus paired native memory/audio and unchanged-pose checks. The pack has 79 root files; main remains approved 0.2.1.
+
+## 0.3.3 — rejected review candidate, 2026-10-23
+
+The user rejected this repair because fitting the boot separately broke the knee-to-shin outline. The tests below checked bounds and preservation but missed the visual discontinuity. Superseded by 0.3.4.
 
 - Repaired the cropped toe on Randy’s forward standing boot in normal and Twin Fire colors. The compact complete boot fits entirely within the original two native tiles and mirrors correctly.
 - Changed only idle pose 0 below the knee; all crouching, casting, running, airborne, rear-boot and upper-body artwork remains exact. Shared graphics-bank aliases use the same corrected cells, and monochrome idle silhouettes are regenerated consistently.

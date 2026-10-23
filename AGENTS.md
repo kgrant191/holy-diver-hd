@@ -15,6 +15,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 - Python 3.12; install requirements.txt. Run `python build.py` and `python scripts/verify_release.py` against the approved pack manifest.
 - For visual changes run relevant live Mesen replays and inspect actual captures in both directions and affected palettes. Atlas mockups alone are not evidence of runtime correctness.
+- For limb repairs, inspect the whole joint and silhouette against a clear backdrop. Alpha connectivity and pixel-exact rendering alone missed the rejected 0.3.3 knee/shin break; register adjoining limb sections together and check their outline across tile boundaries.
 - For platform artwork, test the complete span, far-left stop, and slow walk-off at the right edge. A grounded sprite can overhang collision tiles; do not extend solid artwork to the full OAM or boot silhouette.
 - Perform routine emulator testing here when inputs/tools are available; do not ask the user to perform it instead.
 - Only one Mesen process at a time. Do not replace its pack or overwrite the audio-capture library during a run.

@@ -1,0 +1,37 @@
+{
+  "normal": {
+    "state": 1,
+    "frames": 480,
+    "input": "select=false,left=(frame>=10 and frame<80)or(frame>=180 and frame<182),right=(frame>=100 and frame<102)or(frame>=300 and frame<320),down=(frame>=50 and frame<75)or(frame>=150 and frame<175)or(frame>=250 and frame<275),a=(frame>=210 and frame<220)or(frame>=350 and frame<360),b=(frame>=60 and frame<63)or(frame>=130 and frame<133)or(frame>=160 and frame<163)or(frame>=230 and frame<233)or(frame>=260 and frame<263)or(frame>=290 and frame<293),up=frame>=285 and frame<300"
+  },
+  "twin": {
+    "state": 1,
+    "frames": 480,
+    "input": "select=frame>=5 and frame<8,left=(frame>=10 and frame<80)or(frame>=180 and frame<182),right=(frame>=100 and frame<102)or(frame>=300 and frame<320),down=(frame>=50 and frame<75)or(frame>=150 and frame<175)or(frame>=250 and frame<275),a=(frame>=210 and frame<220)or(frame>=350 and frame<360),b=(frame>=60 and frame<63)or(frame>=130 and frame<133)or(frame>=160 and frame<163)or(frame>=230 and frame<233)or(frame>=260 and frame<263)or(frame>=290 and frame<293),up=frame>=285 and frame<300"
+  },
+  "menu_blizzard": {
+    "state": 3,
+    "frames": 2300,
+    "input": "left=frame>=380 and frame<790,a=frame>=722 and frame<750,start=(frame>=1830 and frame<1834)or(frame>=2130 and frame<2134),down=frame>=1960 and frame<1964,up=frame>=2040 and frame<2044"
+  },
+  "reverse_blizzard": {
+    "state": 3,
+    "frames": 2550,
+    "input": "left=frame>=380 and frame<950,right=frame>=950 and frame<1080,a=frame>=982 and frame<1010,select=frame>=700 and frame<704,start=(frame>=2060 and frame<2064)or(frame>=2360 and frame<2364),down=frame>=2190 and frame<2194,up=frame>=2270 and frame<2274"
+  },
+  "crouch": {
+    "state": 2,
+    "frames": 650,
+    "input": "start=frame>=10 and frame<14,down=frame>=30"
+  },
+  "clear_normal": {
+    "state": 1,
+    "frames": 240,
+    "input": "select=false,right=frame>=10 and frame<70,left=frame>=140 and frame<142,down=frame>=180 and frame<200"
+  },
+  "clear_twin": {
+    "state": 1,
+    "frames": 240,
+    "input": "select=frame>=5 and frame<8,right=frame>=10 and frame<70,left=frame>=140 and frame<142,down=frame>=180 and frame<200"
+  }
+}

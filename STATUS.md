@@ -1,12 +1,12 @@
 # Current status
 
-Updated: 2026-10-23 (UTC).
+Updated: 2026-10-23 (America/New_York).
 
 ## Current review candidate
 
-**0.3.3** on `feature/1-boss`, based on approved main `2427afd4739f273bf527810edcfae93e6592e344`. The user requested the first boss and supplied three states covering entry, crouched fire and defeat. Main remains **0.2.1**. Do not merge or publish a release without the user's approval.
+**0.3.4** on `feature/1-boss`, based on approved main `2427afd4739f273bf527810edcfae93e6592e344`. The user requested the first boss and supplied three states covering entry, crouched fire and defeat. Main remains **0.2.1**. Do not merge or publish a release without the user's approval.
 
-The user confirmed the 0.3.2 transition fix and then reported a missing standing toe in both directions; crouching was correct. The 0.3.3 repair replaces only the forward lower boot in idle pose 0, fitting the complete shape inside the native sprite area for both costumes. All other poses and the entire mapping file stay exact. See `docs/RANDY_FOOT.md`.
+The user confirmed the 0.3.2 transition fix, then reported a missing standing toe while crouching was correct. They rejected the 0.3.3 repair because the isolated boot fit cut the knee/shin outline. The 0.3.4 correction registers the full forward standing leg as one continuous piece in both costumes. It also keeps the idle knee rule active at the left-screen edge by probing the torso directly above it. Other poses and rule priority stay exact. See `docs/RANDY_LEG.md`.
 
 The user confirmed the 0.3.1 fireball fix. The 0.3.2 transition repair extends the bell-room backdrop through the complete native vertical wrap and adds the missing bank-00 white/gray fade palettes for Randy. The repeated bell and ornaments occur in the original sequence; the HD backdrop previously ended beneath them. See `docs/BOSS1_TRANSITION.md`. Full boss-feature approval is still pending.
 
@@ -22,7 +22,9 @@ The 0.3.1 repair checks pass: 7,460 frames per build, 5,930 paired native-memory
 
 The 0.3.2 repair checks pass: 5,500 frames per build and paired samples per native-memory type, identical APU events and common PCM. Both pickup directions/costumes keep the HD silhouette through all 24 final fade frames. Background differences replace only previously black bell-room pixels. The full 649-image fireball replay remains exact. See `evidence/boss1_transition/verification.json`.
 
-The 0.3.3 repair checks pass: 6,460 frames per build and paired samples per native-memory type, identical APU events and common PCM. Each costume has 248 pixel-exact complete standing-boot captures in both directions, while 75 crouching/crouch-cast captures per costume remain exact. All 2,382 changed images are confined to the standing lower boot; 4,073 other images remain identical. See `evidence/randy_foot/verification.json`.
+The rejected 0.3.3 repair passed 6,460 frames of bounds, source-pixel and native memory/audio checks, but those checks missed the visibly broken knee/shin join. Its report under `evidence/randy_foot/` remains historical evidence of preservation, not visual acceptance. The new correction adds whole-leg contour checks and live views against a clear backdrop.
+
+The 0.3.4 checks pass across 6,940 frames per build and paired samples per native-memory type, with identical APU events and common PCM. The normal/Twin Fire entrance routes each have 248 pixel-exact complete-leg captures and 75 unchanged crouching/crouch-cast captures. Each clear-background route adds 177 complete-leg captures in both directions. Changes are confined to the standing forward leg in 2,736 images; 4,197 other valid screenshots remain identical. Both frame-616 offscreen-hand cases retain the complete registered leg. The clear-background close-ups were visually inspected in both directions and costumes. See `evidence/randy_leg/verification.json` and `comparison.png`.
 
 Use the agreed ZIP-wrapped incremental Git bundle workflow. The user pushes the binary artwork with local credentials; the integration can then create the review PR and inspect the actual Actions artifact. No PR or candidate Actions artifact exists until that push.
 

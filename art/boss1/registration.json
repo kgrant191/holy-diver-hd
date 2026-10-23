@@ -1,6 +1,6 @@
 {
   "tile_rules": 2433,
-  "conditions": 1071,
+  "conditions": 1083,
   "background_rules": 4,
   "atlas_cells": 676,
   "shared_bank_aliases": 758,
@@ -5426,7 +5426,7 @@
         368,
         112
       ],
-      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF303030_randySig8",
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF303030_standingLegNormal",
       "kind": "Randy native monochrome transition"
     },
     {
@@ -6876,7 +6876,7 @@
         368,
         112
       ],
-      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF303030_randySig8",
+      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF303030_standingLegNormal",
       "kind": "Randy native monochrome transition"
     },
     {
@@ -8326,7 +8326,7 @@
         368,
         112
       ],
-      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF202020_randySig8",
+      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF202020_standingLegNormal",
       "kind": "Randy native monochrome transition"
     },
     {
@@ -9776,7 +9776,7 @@
         128,
         176
       ],
-      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF101010_randySig8",
+      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF101010_standingLegNormal",
       "kind": "Randy native monochrome transition"
     },
     {
@@ -11226,7 +11226,7 @@
         400,
         224
       ],
-      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF000000_randySig8",
+      "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&bossCopy30_FF000000_standingLegNormal",
       "kind": "Randy native monochrome transition"
     },
     {
@@ -12696,7 +12696,7 @@
         368,
         112
       ],
-      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig8",
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_standingLegNormal",
       "kind": "Randy pre-announcement fade"
     },
     {
@@ -14146,7 +14146,7 @@
         128,
         176
       ],
-      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig8",
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_standingLegNormal",
       "kind": "Randy pre-announcement fade"
     },
     {
@@ -15596,7 +15596,7 @@
         192,
         288
       ],
-      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig8",
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_standingLegNormal",
       "kind": "Randy pre-announcement fade"
     },
     {
