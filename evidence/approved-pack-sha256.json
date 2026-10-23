@@ -35,8 +35,10 @@
   "Lives_Lives_7.png": "8c6bcb1f532bcc32ad27ea5cf2f600ee24e27a8830b8d5bb98ec0cf9d40fea5d",
   "Lives_Lives_8.png": "457b904aa3f6b196c763b7b6a2a12d58843f9d63d350e86725bfa8e81d4809b7",
   "Lives_Lives_9.png": "68519f7d8fed39b916627ddd8748800dd3aca1a8a45630aeb4a934d7f16d618d",
+  "Nave_Background.png": "865db833ec3e690b8cbb48c45a03fd997aa179e91cbc3d87f6dad395a0d43dbe",
+  "Nave_Tiles_2x.png": "7d023d462aca69a59a20268fd76cf2bcbe9933ca4acb0b4a533dd47d901d9cfc",
   "Pause_HD.png": "37b6cebce0f74774c5340cb4f3a0b50962a07e72627f0d26974257bb00b5f614",
-  "README.txt": "f04af631f353da62ab499271559f49da51cdfd666398e909ba1337f2973b99aa",
+  "README.txt": "640d22816986363cbd94af3dc7f437c73c9a0a5c031ae992c1ba2ea34ec25412",
   "Randy_Entrance_2x.png": "17cd59e79bcfcd5f7a2c79c796fb69fd6453a1c604f863886acf4176cb076a9f",
   "Randy_Equipped_2x.png": "094a31845229c660d28ae4a5a66a18e05006b3a5a3ab2dd09da67bb4172b90bf",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -69,5 +71,5 @@
   "Title_Lightning_3.png": "46dd74e901dd07bf7d12e8a96d7d42b2b0b57f98527f0d18597f4c89c076774c",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "724dde162098276bebe9a3f249872e4722dece5cc1a52abae14fa9e9b3bc491a"
+  "hires.txt": "bbf32575d0da06651acf70ff30902b1b7be761ef880ea058b52383bdd9c025a2"
 }

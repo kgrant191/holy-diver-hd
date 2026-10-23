@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==28
-assert counts['tile']==2231
-assert counts['background']==48
-assert counts['condition']==204
+assert len(imgs)==29
+assert counts['tile']==2318
+assert counts['background']==49
+assert counts['condition']==207
 # Preserve approved assets outside the explicitly requested title/ledge repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -58,7 +58,19 @@ for p in baseline.glob('*.png'):
   for pose,(x,y) in json.loads((root/'art/arm_repair.json').read_text())['pose_positions'].items():
    i=int(pose);expected.alpha_composite(patch,(i%4*64+x,i//4*64+y))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
-assert (baseline/'hires.txt').read_bytes()==(pack/'hires.txt').read_bytes()
+# Screen 1-3 is strictly additive. Removing its three owned sections must
+# recover the exact approved mapping file, including ordering and whitespace.
+original_rules=re.sub(r'^# BEGIN SCREEN1_3 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_3 \1\n','',content,flags=re.M|re.S)
+assert original_rules.encode()==(baseline/'hires.txt').read_bytes()
+approved_002=json.loads((root/'evidence/0.0.2-pack-sha256.json').read_text())
+for name,digest in approved_002.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.0.2 bytes changed'
+assert imgs[-1]=='Nave_Tiles_2x.png'
+nave=json.loads((root/'art/screen1_3/registration.json').read_text())
+assert nave['tile_rules']==87 and nave['conditions']==3 and nave['background_rules']==1
+assert not nave['collision_modified'] and not nave['existing_rules_modified']
+assert content.count('['+nave['scope']+']<tile>28,')==87
 assert (baseline/'Entrance_SFX_Priority.ips').read_bytes()==(pack/'Entrance_SFX_Priority.ips').read_bytes()
 # Conditional pose rules must precede any corresponding ordinary mappings.
 first_unconditional={}

@@ -1,0 +1,892 @@
+{
+  "scope": "cryptPalette&cryptStonePalette&cryptSpritePalette&navePal1&navePal2&navePal3",
+  "tile_rules": 87,
+  "background_rules": 1,
+  "conditions": 3,
+  "ornament_native_tiles": [
+    [
+      1,
+      0,
+      139
+    ],
+    [
+      2,
+      0,
+      149
+    ],
+    [
+      0,
+      1,
+      140
+    ],
+    [
+      1,
+      1,
+      141
+    ],
+    [
+      2,
+      1,
+      150
+    ],
+    [
+      0,
+      2,
+      142
+    ],
+    [
+      1,
+      2,
+      143
+    ],
+    [
+      2,
+      2,
+      151
+    ],
+    [
+      3,
+      2,
+      152
+    ],
+    [
+      0,
+      3,
+      144
+    ],
+    [
+      1,
+      3,
+      145
+    ],
+    [
+      2,
+      3,
+      153
+    ],
+    [
+      3,
+      3,
+      154
+    ],
+    [
+      1,
+      4,
+      146
+    ],
+    [
+      2,
+      4,
+      155
+    ],
+    [
+      1,
+      5,
+      147
+    ],
+    [
+      2,
+      5,
+      156
+    ],
+    [
+      1,
+      6,
+      148
+    ],
+    [
+      2,
+      6,
+      157
+    ]
+  ],
+  "ornament_clipped_pixels": 17,
+  "ghoul_native_unflipped_direction": "left",
+  "mappings": [
+    {
+      "identity": "0100",
+      "palette": "0F172737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "empty background"
+    },
+    {
+      "identity": "0100",
+      "palette": "0F262B17",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "empty background"
+    },
+    {
+      "identity": "01C9",
+      "palette": "0F001030",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "reinforced block"
+    },
+    {
+      "identity": "01CA",
+      "palette": "0F001030",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "reinforced block"
+    },
+    {
+      "identity": "01CB",
+      "palette": "0F001030",
+      "atlas": [
+        64,
+        0
+      ],
+      "kind": "reinforced block"
+    },
+    {
+      "identity": "01CC",
+      "palette": "0F001030",
+      "atlas": [
+        80,
+        0
+      ],
+      "kind": "reinforced block"
+    },
+    {
+      "identity": "01B9",
+      "palette": "0F262B17",
+      "atlas": [
+        96,
+        0
+      ],
+      "kind": "window cap"
+    },
+    {
+      "identity": "01BA",
+      "palette": "0F262B17",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "window cap"
+    },
+    {
+      "identity": "01BB",
+      "palette": "0F262B17",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "window repeat"
+    },
+    {
+      "identity": "01BC",
+      "palette": "0F262B17",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "window repeat"
+    },
+    {
+      "identity": "01BD",
+      "palette": "0F262B17",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "window repeat"
+    },
+    {
+      "identity": "01BE",
+      "palette": "0F262B17",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "window repeat"
+    },
+    {
+      "identity": "018B",
+      "palette": "0F172737",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0195",
+      "palette": "0F172737",
+      "atlas": [
+        208,
+        0
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "018C",
+      "palette": "0F172737",
+      "atlas": [
+        224,
+        0
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "018D",
+      "palette": "0F172737",
+      "atlas": [
+        240,
+        0
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0196",
+      "palette": "0F172737",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "018E",
+      "palette": "0F172737",
+      "atlas": [
+        16,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "018F",
+      "palette": "0F172737",
+      "atlas": [
+        32,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0197",
+      "palette": "0F172737",
+      "atlas": [
+        48,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0198",
+      "palette": "0F172737",
+      "atlas": [
+        64,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0190",
+      "palette": "0F172737",
+      "atlas": [
+        80,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0191",
+      "palette": "0F172737",
+      "atlas": [
+        96,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0199",
+      "palette": "0F172737",
+      "atlas": [
+        112,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "019A",
+      "palette": "0F172737",
+      "atlas": [
+        128,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0192",
+      "palette": "0F172737",
+      "atlas": [
+        144,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "019B",
+      "palette": "0F172737",
+      "atlas": [
+        160,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0193",
+      "palette": "0F172737",
+      "atlas": [
+        176,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "019C",
+      "palette": "0F172737",
+      "atlas": [
+        192,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0194",
+      "palette": "0F172737",
+      "atlas": [
+        208,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "019D",
+      "palette": "0F172737",
+      "atlas": [
+        224,
+        16
+      ],
+      "kind": "serpent ornament"
+    },
+    {
+      "identity": "0101",
+      "palette": "0F262B17",
+      "atlas": [
+        240,
+        16
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0102",
+      "palette": "0F262B17",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0103",
+      "palette": "0F262B17",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0104",
+      "palette": "0F262B17",
+      "atlas": [
+        32,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0105",
+      "palette": "0F262B17",
+      "atlas": [
+        48,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0106",
+      "palette": "0F262B17",
+      "atlas": [
+        64,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0107",
+      "palette": "0F262B17",
+      "atlas": [
+        80,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0108",
+      "palette": "0F262B17",
+      "atlas": [
+        96,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0109",
+      "palette": "0F262B17",
+      "atlas": [
+        112,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "010A",
+      "palette": "0F262B17",
+      "atlas": [
+        128,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "010B",
+      "palette": "0F262B17",
+      "atlas": [
+        144,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "010C",
+      "palette": "0F262B17",
+      "atlas": [
+        160,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "010D",
+      "palette": "0F262B17",
+      "atlas": [
+        176,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "010E",
+      "palette": "0F262B17",
+      "atlas": [
+        192,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "010F",
+      "palette": "0F262B17",
+      "atlas": [
+        208,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0110",
+      "palette": "0F262B17",
+      "atlas": [
+        224,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "01A8",
+      "palette": "0F262B17",
+      "atlas": [
+        240,
+        32
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "01A9",
+      "palette": "0F262B17",
+      "atlas": [
+        0,
+        48
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "01AA",
+      "palette": "0F262B17",
+      "atlas": [
+        16,
+        48
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "01AB",
+      "palette": "0F262B17",
+      "atlas": [
+        32,
+        48
+      ],
+      "kind": "shared rock"
+    },
+    {
+      "identity": "0094",
+      "palette": "FF140436",
+      "atlas": [
+        48,
+        48
+      ],
+      "kind": "ghoul pose 0"
+    },
+    {
+      "identity": "0095",
+      "palette": "FF140436",
+      "atlas": [
+        64,
+        48
+      ],
+      "kind": "ghoul pose 0"
+    },
+    {
+      "identity": "0096",
+      "palette": "FF140436",
+      "atlas": [
+        80,
+        48
+      ],
+      "kind": "ghoul pose 0"
+    },
+    {
+      "identity": "0097",
+      "palette": "FF140436",
+      "atlas": [
+        96,
+        48
+      ],
+      "kind": "ghoul pose 0"
+    },
+    {
+      "identity": "0098",
+      "palette": "FF140436",
+      "atlas": [
+        112,
+        48
+      ],
+      "kind": "ghoul pose 0"
+    },
+    {
+      "identity": "0099",
+      "palette": "FF140436",
+      "atlas": [
+        128,
+        48
+      ],
+      "kind": "ghoul pose 0"
+    },
+    {
+      "identity": "009A",
+      "palette": "FF140436",
+      "atlas": [
+        144,
+        48
+      ],
+      "kind": "ghoul pose 1"
+    },
+    {
+      "identity": "009B",
+      "palette": "FF140436",
+      "atlas": [
+        160,
+        48
+      ],
+      "kind": "ghoul pose 1"
+    },
+    {
+      "identity": "009C",
+      "palette": "FF140436",
+      "atlas": [
+        176,
+        48
+      ],
+      "kind": "ghoul pose 1"
+    },
+    {
+      "identity": "009D",
+      "palette": "FF140436",
+      "atlas": [
+        192,
+        48
+      ],
+      "kind": "ghoul pose 1"
+    },
+    {
+      "identity": "00A8",
+      "palette": "FF140436",
+      "atlas": [
+        208,
+        48
+      ],
+      "kind": "ghoul pose 2"
+    },
+    {
+      "identity": "00A9",
+      "palette": "FF140436",
+      "atlas": [
+        224,
+        48
+      ],
+      "kind": "ghoul pose 2"
+    },
+    {
+      "identity": "00AA",
+      "palette": "FF140436",
+      "atlas": [
+        240,
+        48
+      ],
+      "kind": "ghoul pose 2"
+    },
+    {
+      "identity": "00AB",
+      "palette": "FF140436",
+      "atlas": [
+        0,
+        64
+      ],
+      "kind": "ghoul pose 2"
+    },
+    {
+      "identity": "009E",
+      "palette": "FF140436",
+      "atlas": [
+        16,
+        64
+      ],
+      "kind": "ghoul pose 3"
+    },
+    {
+      "identity": "009F",
+      "palette": "FF140436",
+      "atlas": [
+        32,
+        64
+      ],
+      "kind": "ghoul pose 3"
+    },
+    {
+      "identity": "00A0",
+      "palette": "FF140436",
+      "atlas": [
+        48,
+        64
+      ],
+      "kind": "ghoul pose 4"
+    },
+    {
+      "identity": "00A1",
+      "palette": "FF140436",
+      "atlas": [
+        64,
+        64
+      ],
+      "kind": "ghoul pose 4"
+    },
+    {
+      "identity": "00A2",
+      "palette": "FF140436",
+      "atlas": [
+        80,
+        64
+      ],
+      "kind": "ghoul pose 4"
+    },
+    {
+      "identity": "00A3",
+      "palette": "FF140436",
+      "atlas": [
+        96,
+        64
+      ],
+      "kind": "ghoul pose 4"
+    },
+    {
+      "identity": "00A4",
+      "palette": "FF140436",
+      "atlas": [
+        112,
+        64
+      ],
+      "kind": "ghoul pose 5"
+    },
+    {
+      "identity": "00A5",
+      "palette": "FF140436",
+      "atlas": [
+        128,
+        64
+      ],
+      "kind": "ghoul pose 5"
+    },
+    {
+      "identity": "00A6",
+      "palette": "FF140436",
+      "atlas": [
+        144,
+        64
+      ],
+      "kind": "ghoul pose 5"
+    },
+    {
+      "identity": "00A7",
+      "palette": "FF140436",
+      "atlas": [
+        160,
+        64
+      ],
+      "kind": "ghoul pose 5"
+    },
+    {
+      "identity": "008C",
+      "palette": "FF301116",
+      "atlas": [
+        176,
+        64
+      ],
+      "kind": "blue skull pose 0"
+    },
+    {
+      "identity": "008D",
+      "palette": "FF301116",
+      "atlas": [
+        192,
+        64
+      ],
+      "kind": "blue skull pose 0"
+    },
+    {
+      "identity": "008E",
+      "palette": "FF301116",
+      "atlas": [
+        208,
+        64
+      ],
+      "kind": "blue skull pose 0"
+    },
+    {
+      "identity": "008F",
+      "palette": "FF301116",
+      "atlas": [
+        224,
+        64
+      ],
+      "kind": "blue skull pose 0"
+    },
+    {
+      "identity": "0090",
+      "palette": "FF301116",
+      "atlas": [
+        240,
+        64
+      ],
+      "kind": "blue skull pose 1"
+    },
+    {
+      "identity": "0091",
+      "palette": "FF301116",
+      "atlas": [
+        0,
+        80
+      ],
+      "kind": "blue skull pose 1"
+    },
+    {
+      "identity": "0092",
+      "palette": "FF301116",
+      "atlas": [
+        16,
+        80
+      ],
+      "kind": "blue skull pose 1"
+    },
+    {
+      "identity": "0093",
+      "palette": "FF301116",
+      "atlas": [
+        32,
+        80
+      ],
+      "kind": "blue skull pose 1"
+    },
+    {
+      "identity": "0060",
+      "palette": "FF301116",
+      "atlas": [
+        48,
+        80
+      ],
+      "kind": "initial impact"
+    },
+    {
+      "identity": "0061",
+      "palette": "FF301116",
+      "atlas": [
+        64,
+        80
+      ],
+      "kind": "initial impact"
+    },
+    {
+      "identity": "0062",
+      "palette": "FF301116",
+      "atlas": [
+        80,
+        80
+      ],
+      "kind": "initial impact"
+    },
+    {
+      "identity": "0063",
+      "palette": "FF301116",
+      "atlas": [
+        96,
+        80
+      ],
+      "kind": "initial impact"
+    }
+  ],
+  "collision_modified": false,
+  "existing_rules_modified": false
+}

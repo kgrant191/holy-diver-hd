@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0 — review candidate, 2026-10-23
+
+- Added the third chapel section from three supplied savestates: masonry backdrop, emerald/ruby windows, reinforced blocks and gold serpent wall ornament.
+- Added all six observed purple-ghoul poses, including its rolling attack; added both small blue flying-skull poses and registered the initial impact flash from approved gold ring artwork.
+- Reused approved Randy, weapon, HUD, stone, flying-enemy and expanding defeat artwork. All 69 pre-existing PNG/IPS files remain byte-identical; only hires.txt and the install README change, with two runtime PNGs added.
+- Added reproducible paired 720-frame routes for all three states and compact live evidence. Gameplay and audio preservation are checked independently from image review.
+- Development artifact only. Awaiting user review; no release tag or GitHub Release.
+
 ## 0.0.2 — approved 2026-10-22
 
 - Reconstructed the title-prompt background, removing the former patch seam and rectangular plaque. The original gold PRESS START letters appear after the first Start press.

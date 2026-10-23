@@ -1,9 +1,13 @@
-HOLY DIVER HD 0.0.2 — APPROVED DEVELOPMENT BUILD
-Approved 2026-10-22: title and ledge corrections on the historical v15.1 artwork baseline.
+HOLY DIVER HD 0.1.0 — DEVELOPMENT REVIEW CANDIDATE
+Screen 1-3 chapel addition; approved main remains 0.0.2 until review.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
 
-0.0.2 removes the rectangular title-prompt outline in both title states and
-aligns both entrance shelves from the far-left standing area to the native fall edge.
+0.1.0 adds a masonry chapel backdrop, emerald/ruby windows, reinforced blocks,
+a gold serpent ornament, and all six observed purple-ghoul poses. Shared Randy,
+weapon, HUD and defeat artwork continues across matching native identities.
+
+The approved 0.0.2 corrections remove the rectangular title-prompt outline in both title states and
+align both entrance shelves from the far-left standing area to the native fall edge.
 The first Start reveals PRESS START; the second Start begins play.
 
 1. Back up your current HD-pack folder.

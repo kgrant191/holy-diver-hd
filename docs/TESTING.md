@@ -62,4 +62,27 @@ python scripts/export_ledge_boundary_preview.py --before work/ledge_boundaries/b
 
 Each case runs 460 frames: left 10–129, neutral through 159, then right two frames per eight through 439. Verify the settled left stop at 132–159 and the full slow traverse. Upper first fall: frame 353; lower: 417. Inspect both sides of those transitions, not just the stationary pose. Artwork spans HD X0–128/Y192 and X0–160/Y544; do not add 32 pixels for the full boot/OAM width.
 
-Artifact check: download the current Actions artifact and inspect its ZIP directory. hires.txt must be at the archive root, all 71 pack files must be present, and no .zip entry may exist. One extraction into the ROM-matching pack folder must be sufficient.
+Artifact check: download the current Actions artifact and inspect its ZIP directory. hires.txt must be at the archive root, all files listed in the current expected manifest must be present, and no .zip entry may exist. One extraction into the ROM-matching pack folder must be sufficient.
+
+## Third chapel section (0.1.0 candidate)
+
+Retain an extracted 0.0.2 pack, then build the candidate. Pass all three user states from test_states/README.md. Each run records installed hashes, 720 frames per state, RAM/PPU/OAM every two frames, APU writes and Mesen PCM. Only controller input drives the game.
+
+```sh
+python scripts/run_screen1_3_qa.py --mesen /path/to/Mesen --rom '/path/to/Holy_Diver_(Tr).nes' --pack /path/to/0.0.2-pack --state1 '/path/to/Holy_Diver_HD_1(3).mss' --state2 '/path/to/Holy_Diver_HD_2(2).mss' --state3 '/path/to/Holy_Diver_HD_3(1).mss' --out work/screen1_3/before
+python scripts/run_screen1_3_qa.py --mesen /path/to/Mesen --rom '/path/to/Holy_Diver_(Tr).nes' --pack 'build/Holy_Diver_(Tr)' --state1 '/path/to/Holy_Diver_HD_1(3).mss' --state2 '/path/to/Holy_Diver_HD_2(2).mss' --state3 '/path/to/Holy_Diver_HD_3(1).mss' --out work/screen1_3/after
+python scripts/verify_screen1_3_qa.py --before work/screen1_3/before --after work/screen1_3/after --out evidence/screen1_3/verification.json
+python scripts/export_screen1_3_preview.py --before work/screen1_3/before --after work/screen1_3/after --out evidence/screen1_3
+```
+
+Inspect the window/body repeats during scrolling, native block edges, the gold ornament's transparent surroundings, both palettes/directions of Randy, all six ghoul poses in both directions, both blue skull poses, initial impact, shared expanding rings and lives transition. See docs/SCREEN1_3.md for identities and source-art briefs.
+
+Run the existing fresh/reset title and earlier crypt combat routes against each pack. The earlier crypt test requires the retained room2/Holy_Diver_HD_1(1).mss input.
+
+```sh
+python scripts/run_screen1_3_regression.py --mesen /path/to/Mesen --rom '/path/to/Holy_Diver_(Tr).nes' --pack /path/to/0.0.2-pack --out work/screen1_3/regression-before
+python scripts/run_screen1_3_regression.py --mesen /path/to/Mesen --rom '/path/to/Holy_Diver_(Tr).nes' --pack 'build/Holy_Diver_(Tr)' --out work/screen1_3/regression-after
+python scripts/verify_screen1_3_regression.py --before work/screen1_3/regression-before --after work/screen1_3/regression-after --out evidence/screen1_3/regression.json
+```
+
+The regression verifier requires identical screenshots as well as memory/audio. The final Actions artifact must contain exactly the 73 expected pack files at its root and no nested ZIP. `approved-pack-sha256.json` retains its historical name; on this feature branch it describes the tested 0.1.0 candidate. User approval is recorded separately in STATUS.md.

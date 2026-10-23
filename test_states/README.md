@@ -21,3 +21,13 @@ Pass these locally with --upper-state/--lower-state to run_ledge_boundary_qa.py.
 | --- | --- |
 | Holy_Diver_HD_1(2).mss — upper ledge | d08a41d3da8a51b72116fe18bf46822ce986eca5ddf68283fd73b20f2d47a3cd |
 | Holy_Diver_HD_2(1).mss — lower ledge | c73a4837f13507e0e054d667bd4d514e4eccd9d132bc9db2cfc0efd11067f9b4 |
+
+## Third chapel section states (2026-10-23)
+
+Pass these with --state1, --state2 and --state3 to run_screen1_3_qa.py. These user-supplied binary inputs remain excluded from Git.
+
+| Input | SHA-256 |
+| --- | --- |
+| Holy_Diver_HD_1(3).mss | afa81bdb7c0ae02ac846a9496a7284f9d669db2a2ac245e9cd13f4c82030a8c6 |
+| Holy_Diver_HD_2(2).mss | 7a2e71c31782dfff36a4d45d82261d7cba8a9f23727b2bd57fada0d46f987a0a |
+| Holy_Diver_HD_3(1).mss | b039731f89af147aa94b6e73cff78dd4da59468d21a5b1b06fbaf37dd27d7881 |

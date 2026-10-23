@@ -4,6 +4,8 @@ import hashlib, json
 root = Path(__file__).resolve().parents[1]
 pack = root / 'build/Holy_Diver_(Tr)'
 version = (root / 'VERSION').read_text().strip()
+# Historical manifest name: on a review branch it describes the tested candidate.
+# STATUS.md is the source of truth for user approval.
 expected = json.loads((root / 'evidence/approved-pack-sha256.json').read_text())
 actual = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in pack.iterdir() if p.is_file()}
 missing = sorted(expected.keys() - actual.keys())

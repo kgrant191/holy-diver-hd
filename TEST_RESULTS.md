@@ -108,3 +108,7 @@ The comparison contains actual emulator captures and enlarged, unpainted crops.
 The MP4 contains actual captured frames and native recorded audio with a label
 band, nearest-neighbor enlargement and ordinary video compression. Source,
 generated assets/prompts, exact rollback packs and selected evidence are retained.
+
+## 0.1.0 screen-1-3 review candidate
+
+Three new-state routes: 2,160 frames per build; 1,080 paired RAM/PPU/OAM samples and identical APU writes/full PCM. All six ghoul poses appeared with both native mirror states. New window/block/ornament art, both flying-skull poses, impact and shared death/lives transitions were inspected in actual Mesen captures. Fresh/reset title plus earlier crypt regression: 2,160 further frames per build, 630 paired memory samples, 270 byte-identical screenshots, identical APU writes/common PCM. The title capture differs only by one final shutdown audio buffer (3,196 bytes). See evidence/screen1_3/ and docs/SCREEN1_3.md. Approval remains pending.

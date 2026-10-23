@@ -1,6 +1,6 @@
 # Current status
 
-Updated: 2026-10-22 (America/New_York).
+Updated: 2026-10-23 (UTC).
 
 ## Current approved version
 
@@ -23,9 +23,17 @@ Completed: entrance/title sequence, entrance environment, known shared Randy pos
 - 2,040 emulated frames and 1,558 paired state captures: evidence/arm_repair/verification.json and TEST_RESULTS.md.
 - Earlier v15 tests covered fresh start/reset, normal/Twin Fire death, enemy combat and collected-bracelet pause/resume. Historical results remain in evidence/v15/.
 
-## Next work
+## Current review branch
 
-Move to the next screen when its savestate or route is available. Inspect native tiles, palettes, entities and geometry first. Apply shared player/weapon/effect art where identities match, then build newly observed environment/enemies.
+`feature/screen-1-3` builds **0.1.0**, a review candidate awaiting chat approval. Main remains approved 0.0.2. This is a new screen addition under the agreed minor-version policy, not a public release.
+
+Three supplied states cover the third chapel section. Native inspection and movement revealed emerald/ruby windows, reinforced blocks, a large gold background ornament, a purple ghoul with two standing and four rolling poses, and small blue flying skulls with two poses. The candidate adds a solid nave wall behind those details. Randy, weapons, HUD, stone blocks, the large gold flying enemy and the expanding death rings reuse existing art.
+
+The implementation adds 87 scoped tile rules, three palette checks, one background rule and two runtime PNGs. All 69 existing PNG/IPS files remain byte-identical to 0.0.2. Removing the three marked screen-1-3 sections recovers the approved mapping file exactly. The expected build manifest uses the historical filename `approved-pack-sha256.json`; on this branch it identifies the tested candidate, not user approval. `0.0.2-pack-sha256.json` retains the approved baseline.
+
+Final candidate: 2,160 frames across the new states, 1,080 paired samples per memory type and identical full PCM. Regression: 1,800 fresh/reset title frames plus 360 earlier-crypt combat frames, all 270 screenshots identical; title audio has one shutdown buffer of length difference with identical common PCM.
+
+See `evidence/screen1_3/verification.json`, the comparison captures and `docs/SCREEN1_3.md` for coverage. Next step: user review of the PR and Actions test artifact; revise this branch for feedback before merge.
 
 ## Known limits
 
