@@ -1,5 +1,5 @@
-HOLY DIVER HD 0.3.5 — REVIEW CANDIDATE
-First boss and Blizzard chamber. Main remains approved 0.2.1.
+HOLY DIVER HD 0.3.5 — APPROVED DEVELOPMENT BUILD
+First boss, Blizzard chamber and recovery pickups. Approved 2026-10-23.
 
 0.3.5 adds HD red HP and blue Magic flasks, preserving their native pickup
 effects and the confirmed Randy standing-leg correction.
@@ -18,7 +18,7 @@ The pack applies this rendering option automatically; no setting change is neede
 0.3.0 adds the horned boss, both firing postures, native hit/death flashes,
 organ hall, bell chamber, Blizzard pickup and spell announcement. Shared
 Randy/HUD sprites remain HD in the announcement and Stage 2 arrival.
-Stage 2 scenery and enemies remain future work. This candidate is not approved.
+Stage 2 scenery and enemies remain future work.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
 
 0.2.1 replaces the sideways 1-up with a front-facing doll in both colors,

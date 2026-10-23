@@ -1,0 +1,38 @@
+{
+  "version": "0.3.5",
+  "approved_date": "2026-10-23",
+  "approval_source": "User chat",
+  "merge_authorization": "verified, merge it",
+  "pr": "https://github.com/kgrant191/holy-diver-hd/pull/4",
+  "reviewed_commit": "9a290ec8a9160fbbd387cf7ab1ec954da9b11199",
+  "reviewed_manifest": "evidence/0.3.5-reviewed-pack-sha256.json",
+  "approved_manifest": "evidence/approved-pack-sha256.json",
+  "pack_files": 80,
+  "approval_change_files": [
+    "README.txt"
+  ],
+  "unchanged_expected_pack_files": 79,
+  "reviewed_readme_sha256": "110d91bb2070405735fab77a806c05d11bbb5f4c7ed8416f31f3cae4c7f2b190",
+  "approved_readme_sha256": "6b1f1261e7f0ea9a953deb392a7c98c5c7859c963fe07d46dfaaa824e2183ff6",
+  "candidate_ci": {
+    "run_id": 40004314865,
+    "conclusion": "success",
+    "matching_file_hashes": 80,
+    "uploaded_files": 80
+  },
+  "candidate_artifact": {
+    "id": 12523247888,
+    "name": "Holy-Diver-HD-v0.3.5",
+    "size_in_bytes": 11211108,
+    "github_reported_sha256": "2bceb5677fd92b7c51395ccb5ea84716f590d3e66aa9a3a84828dda0521ae7f8",
+    "layout_verifier": "user",
+    "layout_confirmed_in_chat": true,
+    "root_file_count": 80,
+    "hires_at_root": true,
+    "nested_zip": false,
+    "assistant_download_succeeded": true,
+    "assistant_independent_extraction": false,
+    "limitation": "Local execution environment unavailable; no independent assistant rehash of the downloaded artifact."
+  },
+  "scope": "Approval bookkeeping changes installation text only. Existing visual and native gameplay/audio evidence is retained."
+}
