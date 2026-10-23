@@ -1327,7 +1327,7 @@
         32,
         144
       ],
-      "kind": "1-up miniature Randy"
+      "kind": "1-up front-facing figurine"
     },
     {
       "identity": "004F",
@@ -1336,7 +1336,7 @@
         48,
         144
       ],
-      "kind": "1-up miniature Randy"
+      "kind": "1-up front-facing figurine"
     },
     {
       "identity": "004E",
@@ -1345,7 +1345,7 @@
         64,
         144
       ],
-      "kind": "1-up miniature Randy"
+      "kind": "1-up front-facing figurine"
     },
     {
       "identity": "004F",
@@ -1354,7 +1354,7 @@
         80,
         144
       ],
-      "kind": "1-up miniature Randy"
+      "kind": "1-up front-facing figurine"
     }
   ],
   "collision_modified": false,

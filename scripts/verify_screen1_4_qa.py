@@ -7,12 +7,14 @@ import json
 p=argparse.ArgumentParser()
 for name in ['before','after','out']:
     p.add_argument('--'+name,required=True)
+p.add_argument('--baseline',choices=['0.1.1','0.2.0'],default='0.1.1',
+               help='Use 0.2.0 for the wall/figurine review revision')
 a=p.parse_args()
 root=Path(__file__).resolve().parents[1]
 routes=json.loads((root/'scripts/screen1_4_routes.json').read_text())
 poses=json.loads((root/'art/screen1_3/ghoul_poses.json').read_text())
 mapped={(int(m['identity'],16)-256,m['palette']) for m in json.loads((root/'art/screen1_4/registration.json').read_text())['mappings'] if int(m['identity'],16)>=256}
-report={'emulator':'MesenCE 2.2.1','ram_writes':False,'cases':{}}
+report={'emulator':'MesenCE 2.2.1','ram_writes':False,'baseline':a.baseline,'cases':{}}
 all_ghouls={}
 for case,route in routes.items():
     b,c=Path(a.before)/case,Path(a.after)/case
@@ -22,10 +24,16 @@ for case,route in routes.items():
     r={'emulated_frames':frames,**json.loads((c/'input.json').read_text())}
     before=json.loads((b/'installed_pack_sha256.json').read_text())
     after=json.loads((c/'installed_pack_sha256.json').read_text())
-    assert sorted(after.keys()-before.keys())==['Tree_Court_Background.png','Tree_Court_Tiles_2x.png']
-    assert sorted(k for k in before if before[k]!=after[k])==['README.txt','hires.txt']
-    assert len(before)==73 and len(after)==75
-    r.update(unchanged_approved_files=71,added_files=2,changed_files=['README.txt','hires.txt'])
+    if a.baseline=='0.1.1':
+        assert sorted(after.keys()-before.keys())==['Tree_Court_Background.png','Tree_Court_Tiles_2x.png']
+        assert sorted(k for k in before if before[k]!=after[k])==['README.txt','hires.txt']
+        assert len(before)==73 and len(after)==75
+        r.update(unchanged_approved_files=71,added_files=2,changed_files=['README.txt','hires.txt'])
+    else:
+        changed=['README.txt','Tree_Court_Background.png','Tree_Court_Tiles_2x.png']
+        assert before.keys()==after.keys() and len(after)==75
+        assert sorted(k for k in before if before[k]!=after[k])==changed
+        r.update(unchanged_candidate_files=72,added_files=0,changed_files=changed)
     for ext in ['ram','ppu','oam']:
         files=sorted((b/'dumps').glob('*.'+ext))
         assert len(files)==frames//2

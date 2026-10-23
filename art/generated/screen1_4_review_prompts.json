@@ -1,0 +1,27 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-23",
+  "images": [
+    {
+      "output": "screen1_4_facade_generated.png",
+      "references": [
+        "art/generated/chamber_generated.png"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: single continuous Gothic stone wall facade for a vertically scrolling 2D side-view game. Reference is ONLY for approved crisp richly textured pixel-art style, navy/teal shadows and warm golden highlights. Generate ONE isolated long narrow FRONT ORTHOGRAPHIC facade, transparent surroundings, about 1 unit wide and 3.5 units tall (use portrait canvas, wall narrow inside). It is a complete coherent continuous masonry elevation with three tall COMPLETE pointed blind arches stacked vertically, each arch containing dark blue/teal recessed masonry, no bright glass. Two slender continuous gold-brown stone pilasters frame the facade from top to bottom. Arch crowns are symmetrical, both halves complete, each pair of jambs meeting a proper lintel base. Upper capital/crown, middle vertical stone wall, small bottom footing. Main masonry is deep midnight blue with muted teal stone faces; golden worn sandstone trim. No horizontal platform projections, no balconies, no detached pieces. Moderate irregular weathering, restrained relief, small cracks, larger stone blocks, clear structure. Flat frontal elevation, no perspective or visible side faces. Straight vertical left edge. Outer right edge mostly straight with a few subtle chipped stones, no square holes, no stair step cutout. Entire wall continuous and solid inside outline, no transparent cutouts through wall. No vines, tree, character, sky, moon, text, ground plane or cast shadows outside silhouette. At final game resolution256x896 this must read as three complete architectural bays, not noisy texture. All art fits within the narrow complete facade. Keep highlights restrained so game characters remain readable."
+    },
+    {
+      "output": "screen1_4_one_up_blue_generated.png",
+      "references": [
+        "Approved Randy_Equipped_2x.png pose crop, enlarged nearest-neighbor as randy_reference.png"
+      ],
+      "prompt": "Use case: stylized-concept. Project-bound game pickup sprite art for Holy Diver HD. Reference image establishes Randy's long dark hair, blue sleeveless tunic, dark trousers, brown boots, warm skin and Gothic pixel-art style; it is NOT the desired pose. Create ONE tiny collectible Randy DOLL / carved painted heroic figurine, perfectly front facing, symmetrical shoulders and hips, both eyes towards viewer, arms resting straight close to sides, both brown boots planted parallel on a small bronze plinth. No attack pose, no side profile, no walking motion. Proportions like a small chunky hand-painted statue with big readable head, broad blue chest, short compact lower body. Strong readable clean pixel-art shapes intended for a very small 16 by 32 pixel final sprite, restrained dark outline, bright cobalt tunic and warm gold highlights. No fine fussy detail. The figure and plinth should form one centered narrow vertical silhouette with width:height about 1:2, filling most canvas height, isolated on true transparent background with no floor, no cast shadow outside silhouette, no lettering. Only one front-facing blue figurine. Do not reproduce the reference's side-facing pose."
+    },
+    {
+      "output": "screen1_4_one_up_ivory_generated.png",
+      "references": [
+        "art/generated/screen1_4_one_up_blue_generated.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Create the normal costume color variant of this exact front-facing collectible Randy doll statue. Change only cobalt BLUE clothing fabric areas to warm IVORY / off-white with gray/beige shadows. Keep absolutely identical frontal pose, proportions, long dark hair, face, both arms at sides, dark trousers, brown boots, bronze small plinth, exact silhouette and transparent background. Pixel art, no blur. Same fully front-facing figure and all existing details and geometry. No new objects. Eyes can stay blue. This is a matching palette variant for a tiny game pickup sprite."
+    }
+  ]
+}

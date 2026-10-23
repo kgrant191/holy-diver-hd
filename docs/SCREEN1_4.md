@@ -1,4 +1,6 @@
-# Screen 1-4 tree court — 0.2.0 candidate
+# Screen 1-4 tree court — initial 0.2.0 candidate
+
+Historical implementation/evidence for the initial candidate; superseded by [0.2.1 wall and figurine revisions](SCREEN1_4_REVIEW.md).
 
 Branch: `feature/screen1-4`. Base: approved 0.1.1, main commit `74bee5892050e417420002d7ddc6b86a4c045b8b`. This candidate is awaiting user review. It does not approve a merge or publish a release.
 

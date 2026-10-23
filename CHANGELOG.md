@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.2.0 — screen 1-4 review candidate, 2026-10-23
+## 0.2.1 — screen 1-4 review correction, 2026-10-23
+
+- Replaced the sideways miniature Randy pickup with a front-facing figurine on a bronze base in normal and Twin Fire colors.
+- Replaced fragmented wall decoration with one continuous Gothic facade: complete arches, joined columns and coherent masonry down to the floor.
+- Preserved all native platform pixels, tree/ground art, enemy art, mappings, gameplay and audio. Only two runtime PNGs and README.txt change; the pack still has 75 root files.
+- Added bounded pixel checks and repeated the live pickup/descent/edge/transition and earlier-room regressions. Main remains approved 0.1.1.
+
+## 0.2.0 — superseded screen 1-4 review candidate, 2026-10-23
 
 - Added the full tree court and descent from the supplied save: Gothic masonry, the approved entrance tree adapted to native repeating tiles, alternating branches, roots and lower ground.
 - Added both miniature Randy 1-up palettes; verified collection raises lives from 3 to 4 in normal and Twin Fire modes.

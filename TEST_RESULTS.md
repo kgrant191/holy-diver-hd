@@ -120,3 +120,13 @@ The five native-controller routes cover 4,780 frames per build and 2,390 paired 
 Regression adds 2,880 frames, 990 samples per memory type and 468 byte-identical screenshots across title/reset, earlier crypt and nave. APU events and overlapping PCM are exact; the nave baseline contains one extra 3,196-byte shutdown audio buffer. Total paired coverage is 7,660 frames and 3,380 samples per memory type. Reports and actual screenshots: evidence/screen1_4/. The enemy contact sheet places approved 0.1.1 on the left and 0.2.0 on the right of each pair, enlarged 2× with nearest-neighbor sampling.
 
 Build/reference/bounds/priority checks pass. All 71 prior files other than hires.txt and README.txt are byte-identical; stripping the added mapping sections recovers approved 0.1.1 hires.txt. The local candidate archive contains all 75 expected root files, exact hashes, valid CRC and no nested ZIP. Actions verification remains pending the user’s bundle push and review PR. Main stays approved 0.1.1.
+
+## 0.2.1 wall/figurine revision results
+
+Five paired routes: 4,780 frames per build, 2,390 identical samples per memory type, exact APU events and equal-length byte-identical PCM. Both front-facing pickup colors were observed and collected through controller input; lives increased 3→4. All six ghoul poses appeared in both directions. The left transition retains 185 byte-identical previous-room screenshots.
+
+Earlier title/reset, crypt combat and nave: 2,880 frames, 990 identical samples per memory type, 468 byte-identical screenshots, exact APU events and equal-length identical PCM. Total accepted paired coverage: 7,660 frames per build and 3,380 samples per memory type. Every playback is driven by controller input, without RAM writes.
+
+The first baseline left-transition audio capture ended early while its memory/frame capture completed. It was retained locally as an excluded capture and that one unchanged route was repeated. The replacement capture passes the original exact audio checks; no tolerance was relaxed. All other accepted cases are from the original paired runs.
+
+The rebuilt pack matches all 75 expected hashes. Pixel checks confirm changes are limited to the decorative wall rectangle, 46 cleared wall cells and four figurine cells. All other pixels, native shelf cells, mapping bytes and the IPS are unchanged. Actual gameplay comparisons and reports are in evidence/screen1_4_review/. Main remains approved 0.1.1.

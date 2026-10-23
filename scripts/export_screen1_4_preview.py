@@ -7,6 +7,8 @@ from PIL import Image, ImageDraw, ImageFont
 p=argparse.ArgumentParser()
 for name in ['before','after','out']:
     p.add_argument('--'+name,required=True)
+p.add_argument('--before-label',default='0.1.1')
+p.add_argument('--after-label',default='0.2.0 candidate')
 a=p.parse_args()
 root=Path(__file__).resolve().parents[1]
 out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
@@ -14,7 +16,7 @@ font=ImageFont.truetype(str(root/'art/fonts/DejaVuSerif-Bold.ttf'),15)
 rows=[('pickup',20,'Tree / 1-up / standing ghoul'),('descent',640,'Lower branch platforms'),('descent',840,'Roots and ground')]
 canvas=Image.new('RGB',(1024,len(rows)*510),'#101522');d=ImageDraw.Draw(canvas)
 for r,(case,frame,label) in enumerate(rows):
-    for col,(folder,version) in enumerate([(a.before,'0.1.1'),(a.after,'0.2.0 candidate')]):
+    for col,(folder,version) in enumerate([(a.before,a.before_label),(a.after,a.after_label)]):
         x,y=col*512,r*510
         d.text((x+8,y+6),f'{version} — {label}',font=font,fill='#e7c78b')
         canvas.paste(Image.open(Path(folder)/case/'frames'/f'{frame:04}.png'),(x,y+30))
@@ -28,6 +30,18 @@ for n,(case,frame,label) in enumerate(rows):
     d.text((x+8,y+6),label,font=font,fill='#e7c78b')
     canvas.paste(Image.open(Path(a.after)/case/'frames'/f'{frame:04}.png'),(x,y+30))
 canvas.save(out/'pickup_and_edges.png')
+# Magnified actual pickup captures, including the naturally depleted-magic
+# palette. These are cropped live frames, not atlas art pasted into gameplay.
+canvas=Image.new('RGB',(640,300),'#101522');d=ImageDraw.Draw(canvas)
+for n,(case,frame,label) in enumerate([('pickup',20,'Twin Fire'),('normal_pickup',1400,'Normal')]):
+    for col,folder in enumerate([a.before,a.after]):
+        x=(n*2+col)*160
+        d.text((x+5,6),label,font=font,fill='#e7c78b')
+        d.text((x+5,28),'Before' if col==0 else 'Front-facing',font=font,fill='white')
+        crop=Image.open(Path(folder)/case/'frames'/f'{frame:04}.png').crop((368,144,408,198))
+        canvas.paste(crop.resize((160,216),Image.Resampling.NEAREST),(x,56))
+d.text((8,280),'Actual Mesen captures; pickup area enlarged 4x',font=font,fill='#e7c78b')
+canvas.save(out/'figurine_live_4x.png')
 poses=json.loads((root/'art/screen1_3/ghoul_poses.json').read_text())
 examples={}
 for case in ['pickup','ledge']:

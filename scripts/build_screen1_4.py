@@ -50,6 +50,18 @@ moon=Image.open(root/'art/layers/05_moon_behind_castles.png').convert('RGBA')
 backdrop.alpha_composite(moon)
 # Move the castle occlusion with the moon, retaining its approved silhouette.
 backdrop=ImageChops.offset(backdrop,-48,0).resize((512,1024),Image.Resampling.NEAREST)
+# Wall ornaments are scenery, not collision surfaces. Register one complete
+# facade so native reuse of cap/leg tiles cannot produce detached half-arches.
+# The first bay ends behind the actual shelf at HD Y224; the lower two bays
+# descend to the native floor at Y896. Keep a 32px setback from the shelf edge.
+facade=Image.open(root/'art/generated/screen1_4_facade_generated.png').convert('RGBA')
+facade.putalpha(facade.getchannel('A').point(lambda a:255 if a>=110 else 0))
+facade=facade.crop(facade.getbbox())
+wall=Image.new('RGBA',(224,896))
+wall.paste(register(facade.crop((0,0,facade.width,550)),(224,224)),(0,0))
+wall.paste(register(facade.crop((0,550,facade.width,facade.height)),(224,672)),(0,224))
+wall.save(art/'facade_registered.png')
+backdrop.alpha_composite(wall,(0,0))
 backdrop.save(art/'Tree_Court_Background.png')
 backdrop.save(pack/'Tree_Court_Background.png')
 
@@ -85,10 +97,12 @@ for key,(x,y) in json.loads((root/'art/room2/terrain_mapping.json').read_text())
         tile(int(t,16),palettes[2],terrain.crop((x,y,x+16,y+16)),'shared lower stone')
 
 src=Image.open(root/'art/generated/screen1_4_masonry_generated.png').convert('RGBA').resize((1024,1024),Image.Resampling.LANCZOS)
-cornice=register(src.crop((0,0,512,240)),(64,64))
-brick=register(src.crop((0,512,512,1024)),(32,32))
-column=register(src.crop((682,0,850,512)),(32,96))
-arch=register(src.crop((645,512,773,1024)),(32,96))
+# Retain atlas slot order and native rule identities. Clear only nonsolid
+# decoration, now supplied by the continuous background facade above.
+cornice=Image.new('RGBA',(64,64))
+brick=Image.new('RGBA',(32,32))
+column=Image.new('RGBA',(32,96))
+arch=Image.new('RGBA',(32,96))
 for pal in palettes[1:]:
     tile(0x26,pal,brick.crop((0,0,16,16)),'wall infill')
 grid([[0x78,0x79],[0x7a,0x7b],[0x7c,0x7d],[0x7e,0x7f],[0x80,0x81]],palettes[1],column,'column')
@@ -101,7 +115,8 @@ for t,xy in [(0x15,(0,0)),(0x16,(16,0)),(0x17,(16,16)),(0x24,(0,16)),(0xbf,(0,0)
     x,y=xy;tile(t,palettes[2],brick.crop((x,y,x+16,y+16)),'wall edge')
 for t,xy in [(0x24,(0,16)),(0x25,(16,0)),(0x27,(16,16))]:
     x,y=xy;tile(t,palettes[3],brick.crop((x,y,x+16,y+16)),'wall edge')
-# Ceiling and shelf molding: each native ID keeps its exact 8x8 footprint.
+# Decorative ceiling molding is cleared; the four actual shelf tiles below
+# retain their exact 0.2.0 artwork and native 8x8 footprint.
 for t,xy in [(0xd8,(0,0)),(0xd7,(16,0)),(0xd6,(0,16)),(0xd5,(16,16)),
              (0xd4,(0,32)),(0xd3,(16,32)),(0xd2,(32,32)),
              (0xd1,(0,48)),(0xd0,(16,48)),(0xcf,(48,0)),(0xce,(48,16)),(0xcd,(48,32))]:
@@ -110,13 +125,14 @@ ledge=register(src.crop((0,0,64,90)),(16,32))
 for t,y in [(0xd9,0),(0xda,16),(0xdb,0),(0xdc,16)]:
     tile(t,palettes[3],ledge.crop((0,y,16,y+16)),'platform cap')
 
-# The 1-up is a miniature Randy, two vertically stacked sprites, not a new
-# full-sized pose. Reuse approved walk pose 1 and preserve both palette forms.
-for pal,name in [('FF300036','Randy_Entrance_2x.png'),('FF221136','Randy_Equipped_2x.png')]:
-    mini=register(Image.open(pack/name).convert('RGBA').crop((64,0,96,64)),(16,32))
+# Front-facing collectible figurine; two stacked native sprites, both palettes.
+for pal,color in [('FF300036','ivory'),('FF221136','blue')]:
+    mini=Image.open(root/f'art/generated/screen1_4_one_up_{color}_generated.png').convert('RGBA')
+    mini.putalpha(mini.getchannel('A').point(lambda a:255 if a>=110 else 0))
+    mini=register(mini.crop(mini.getbbox()),(16,32))
     mini.save(art/('one_up_'+pal+'.png'))
     for i,t in enumerate([0x4e,0x4f]):
-        tile(t,pal,mini.crop((0,i*16,16,i*16+16)),'1-up miniature Randy',sprite=True)
+        tile(t,pal,mini.crop((0,i*16,16,i*16+16)),'1-up front-facing figurine',sprite=True)
 
 # Same enemy identities, different room palette. Reuse the approved atlas
 # including sharp standing-specific cells; keep those ahead of broad rolls.

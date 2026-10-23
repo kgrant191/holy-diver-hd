@@ -94,3 +94,7 @@ See `docs/REVIEW_FIXES.md` for the crouch-attack replay and comparison commands.
 ## Screen 1-4 tree court (0.2.0 candidate)
 
 See [SCREEN1_4.md](SCREEN1_4.md) for the supplied-state routes, actual pickup/edge results, native memory/audio comparisons, background coverage and regression commands. The candidate has 75 root pack files. `0.1.1-pack-sha256.json` preserves approved main; `approved-pack-sha256.json` describes the tested candidate on this review branch and is not an approval record.
+
+## Screen 1-4 wall/figurine revision (0.2.1 candidate)
+
+See [SCREEN1_4_REVIEW.md](SCREEN1_4_REVIEW.md). Pair the same five routes against 0.2.0 and pass `--baseline 0.2.0` to the verifier; the original default retains the initial screen-addition checks. Run `verify_screen1_4_review_assets.py` for the strict pixel/file change boundary. The current candidate has 75 root files and three changed files relative to 0.2.0. Earlier reports and manifests remain historical evidence.
