@@ -1,6 +1,6 @@
 # Repository workflow
 
-Repository: kgrant191/holy-diver-hd. main holds approved development version 0.0.2, following the initial 0.0.1 import of historical v15.1 artwork. Use temporary branches for later screen or character work and merge accepted changes into main. Keep release changes in CHANGELOG.md and current state in STATUS.md.
+Repository: kgrant191/holy-diver-hd. main holds approved development version 0.1.1, following the 0.0.2 title/ledge corrections and initial 0.0.1 import of historical v15.1 artwork. Use temporary branches for later screen or character work and merge accepted changes into main. Keep release changes in CHANGELOG.md and current state in STATUS.md.
 
 Use the active chat for bug reports, task priorities, feedback and approval. GitHub Issues and a TASKS.md backlog are not part of the current workflow. Prepare each requested change on a focused branch, test it, and open a PR with evidence and an Actions artifact. Revise the same branch for feedback. The user can merge or explicitly authorize the assistant to merge after approval. A proposed version on a branch is a review candidate until accepted.
 
@@ -18,7 +18,7 @@ Historical v12–v15.1 build names remain unchanged in original assets and evide
 
 ## Publishing and storage
 
-GitHub integration access does not automatically authenticate shell git commands. Use the authorized GitHub tools when shell credentials are absent. Never store account tokens in the repo.
+GitHub integration access does not automatically authenticate shell git commands. For artwork-heavy changes, export an incremental Git bundle based on the remote feature head, wrap it in a downloadable ZIP, and provide exact fetch/push commands. The user downloads and pushes using their existing local credentials. Verify the remote head afterward, then manage the existing PR and inspect the actual Actions artifact with the GitHub integration. Small text-only changes may use the integration directly. Do not send large encoded image payloads through chat or tool arguments. Never store account tokens in the repo.
 
 Build ZIPs are excluded from commits. CI produces downloadable artifacts for testing, including PR builds. Upload the extracted pack directory, not the locally built ZIP: GitHub creates the outer artifact ZIP, so its root must contain hires.txt and the pack assets directly. Artifacts have 30-day retention and can be rebuilt from source. Publishing release tags or GitHub Releases is a separate step requiring an explicit user request; there is no automatic release publishing. Version 1.0.0 is reserved for the completed, tested game pack.
 

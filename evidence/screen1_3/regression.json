@@ -1,0 +1,26 @@
+{
+  "title": {
+    "emulated_frames": 1800,
+    "ram_identical_samples": 450,
+    "ppu_identical_samples": 450,
+    "oam_identical_samples": 450,
+    "identical_screenshots": 90,
+    "apu_sha256": "684ae3286441d5e4e779f0354ce97f99a293d75bdd15a4aed8eee458067d7f76",
+    "identical_pcm_bytes": 5749992,
+    "before_pcm_bytes": 5749992,
+    "after_pcm_bytes": 5753188,
+    "shutdown_tail_difference_bytes": 3196
+  },
+  "enemy": {
+    "emulated_frames": 360,
+    "ram_identical_samples": 180,
+    "ppu_identical_samples": 180,
+    "oam_identical_samples": 180,
+    "identical_screenshots": 180,
+    "apu_sha256": "4687797a44c92e33da39e7a228cbbdbaba7823bb89d79ebf4d82b0a14fc11e4e",
+    "identical_pcm_bytes": 1150108,
+    "before_pcm_bytes": 1150108,
+    "after_pcm_bytes": 1150108,
+    "shutdown_tail_difference_bytes": 0
+  }
+}

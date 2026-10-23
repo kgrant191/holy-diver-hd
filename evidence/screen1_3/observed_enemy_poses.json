@@ -1,0 +1,72 @@
+{
+  "blue_skulls": {
+    "False": [
+      "state1",
+      118
+    ],
+    "True": [
+      "state1",
+      238
+    ]
+  },
+  "ghoul_pose_0": {
+    "True": [
+      "state2",
+      2
+    ],
+    "False": [
+      "state2",
+      178
+    ]
+  },
+  "ghoul_pose_1": {
+    "True": [
+      "state2",
+      10
+    ],
+    "False": [
+      "state2",
+      298
+    ]
+  },
+  "ghoul_pose_2": {
+    "False": [
+      "state2",
+      202
+    ],
+    "True": [
+      "state2",
+      266
+    ]
+  },
+  "ghoul_pose_3": {
+    "False": [
+      "state2",
+      210
+    ],
+    "True": [
+      "state2",
+      274
+    ]
+  },
+  "ghoul_pose_4": {
+    "False": [
+      "state2",
+      218
+    ],
+    "True": [
+      "state2",
+      282
+    ]
+  },
+  "ghoul_pose_5": {
+    "False": [
+      "state2",
+      226
+    ],
+    "True": [
+      "state2",
+      258
+    ]
+  }
+}

@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Preserve approved behavior
 
-- Current approved development version: 0.0.2 (see VERSION and STATUS.md). Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
+- Current approved development version: 0.1.1, accepted in chat on 2026-10-23; see STATUS.md for approval and verification. Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
 - Preserve the title sequence: clean splash, first Start reveals PRESS START, second Start starts play. Preserve the exact Entrance_SFX_Priority.ips bytes.
 - Randy's normal/Twin Fire art is shared across matching native identities. Fix shared assets/mappings where appropriate instead of adding needless room-specific copies.
 - The red winged-skull drop is a bracelet. Its collected Start/pause-menu icon must use the same bracelet artwork.
@@ -26,6 +26,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 - Keep main as the approved baseline. Use focused branches for later changes unless the user directs otherwise. Preserve unrelated work.
 - Use this chat for bugs, priorities and approvals. Do not introduce GitHub Issues or a TASKS.md backlog unless requested. Push changes on the requested branch and open a PR for review; merge only after user approval.
+- For artwork-heavy changes, prepare a ZIP-wrapped incremental Git bundle and exact fetch/push commands. The user pushes with their local Git credentials; use the GitHub integration for PRs and Actions. Avoid transferring large encoded images through tool arguments or chat. Small text-only changes may use the integration directly.
 - Actions artifacts are development test builds. Publish release tags or GitHub Releases only when explicitly requested; reserve the completed release for 1.0.0.
 - Upload the extracted pack contents to Actions artifacts, never a ZIP inside the artifact ZIP. One extraction must expose hires.txt and the installable assets.
 - Follow semantic versioning in docs/REPOSITORY_WORKFLOW.md. Keep VERSION, INSTALL.txt, README.md, STATUS.md, CHANGELOG.md and approved pack hashes consistent when approving a new version. Reserve 1.0.0 for the completed, tested game pack.

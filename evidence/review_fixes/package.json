@@ -1,0 +1,19 @@
+{
+  "version": "0.1.1",
+  "base_commit": "f2c51e46fc78a18378a3301550332695e16dea3a",
+  "file_count": 73,
+  "changed_files_from_0.1.0": [
+    "Nave_Tiles_2x.png",
+    "README.txt",
+    "Randy_Entrance_2x.png",
+    "Randy_Equipped_2x.png",
+    "hires.txt"
+  ],
+  "unchanged_files_from_0.1.0": 68,
+  "all_root_hashes_match": true,
+  "nested_zips": 0,
+  "archive_crc_valid": true,
+  "github_actions_verification": "verified reviewed candidate; see reviewed_actions.json",
+  "user_approved": "2026-10-23",
+  "approval_bookkeeping": "Only README.txt changes from the reviewed candidate; all other 72 files are preserved."
+}

@@ -1,0 +1,74 @@
+{
+  "emulator": "MesenCE 2.2.1",
+  "ram_writes": false,
+  "cases": {
+    "state1": {
+      "emulated_frames": 720,
+      "state_sha256": "afa81bdb7c0ae02ac846a9496a7284f9d669db2a2ac245e9cd13f4c82030a8c6",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "right=(frame>=40 and frame<400)or(frame>=480 and frame<650),left=(frame>=410 and frame<450),a=(frame>=62 and frame<88)or(frame>=180 and frame<205)or(frame>=300 and frame<325)or(frame>=500 and frame<525),b=(frame>=120 and frame<400 and frame%32<3),up=false,down=false,start=false,select=false",
+      "added_installed_files": [
+        "Nave_Background.png",
+        "Nave_Tiles_2x.png"
+      ],
+      "changed_installed_files": [
+        "README.txt",
+        "hires.txt"
+      ],
+      "unchanged_approved_files": 69,
+      "ram_identical_samples": 360,
+      "ppu_identical_samples": 360,
+      "oam_identical_samples": 360,
+      "apu_sha256": "65e737f9d2984d16ef0c0e5b15376dc5a05d88b0cd1d7701954bac4fd0ca8ae7",
+      "identical_pcm_bytes": 2300212,
+      "before_pcm_bytes": 2300212,
+      "after_pcm_bytes": 2300212
+    },
+    "state2": {
+      "emulated_frames": 720,
+      "state_sha256": "7a2e71c31782dfff36a4d45d82261d7cba8a9f23727b2bd57fada0d46f987a0a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "right=(frame>=40 and frame<220)or(frame>=400 and frame<600),left=(frame>=240 and frame<350),a=(frame>=55 and frame<80)or(frame>=165 and frame<190)or(frame>=410 and frame<435),b=(frame>=85 and frame<600 and frame%32<3),up=false,down=false,start=false,select=(frame>=360 and frame<364)",
+      "added_installed_files": [
+        "Nave_Background.png",
+        "Nave_Tiles_2x.png"
+      ],
+      "changed_installed_files": [
+        "README.txt",
+        "hires.txt"
+      ],
+      "unchanged_approved_files": 69,
+      "ram_identical_samples": 360,
+      "ppu_identical_samples": 360,
+      "oam_identical_samples": 360,
+      "apu_sha256": "13fd5c6e77414536cffcd504a66563aec84f7f1caeb1bd2a11d9ea5feace95da",
+      "identical_pcm_bytes": 2300212,
+      "before_pcm_bytes": 2300212,
+      "after_pcm_bytes": 2300212
+    },
+    "state3": {
+      "emulated_frames": 720,
+      "state_sha256": "b039731f89af147aa94b6e73cff78dd4da59468d21a5b1b06fbaf37dd27d7881",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=(frame>=40 and frame<170),right=(frame>=210 and frame<500),a=(frame>=270 and frame<295)or(frame>=390 and frame<415),b=(frame>=55 and frame<500 and frame%32<3),up=(frame>=100 and frame<135),down=false,start=(frame>=550 and frame<554)or(frame>=590 and frame<594),select=(frame>=180 and frame<184)",
+      "added_installed_files": [
+        "Nave_Background.png",
+        "Nave_Tiles_2x.png"
+      ],
+      "changed_installed_files": [
+        "README.txt",
+        "hires.txt"
+      ],
+      "unchanged_approved_files": 69,
+      "ram_identical_samples": 360,
+      "ppu_identical_samples": 360,
+      "oam_identical_samples": 360,
+      "apu_sha256": "1bddb7181e18c334a1d009008635750150bb237aa6a5d07ef2908f8b526fbcc5",
+      "identical_pcm_bytes": 2300212,
+      "before_pcm_bytes": 2300212,
+      "after_pcm_bytes": 2300212
+    }
+  },
+  "total_emulated_frames_per_build": 2160,
+  "paired_samples_per_memory_type": 1080
+}
