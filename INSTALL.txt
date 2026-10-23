@@ -1,6 +1,12 @@
-HOLY DIVER HD 0.1.1 — APPROVED DEVELOPMENT BUILD
-Screen 1-3 chapel addition and sprite repairs, approved in chat on 2026-10-23.
+HOLY DIVER HD 0.2.1 — APPROVED DEVELOPMENT BUILD
+Screen 1-4 tree court, approved by the user on 2026-10-23.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
+
+0.2.1 replaces the sideways 1-up with a front-facing doll in both colors,
+and joins the wall arches and columns into a continuous Gothic facade.
+
+0.2.0 adds the fourth section: a Gothic tree court, miniature Randy 1-up,
+shared HD ghouls, and native tile-bound branches, masonry and lower ground.
 
 0.1.1 sharpens the standing ghoul while preserving all four rolling frames,
 and adds complete crouching wind-up/release sprites for both Randy costumes.

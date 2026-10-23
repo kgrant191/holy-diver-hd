@@ -1,0 +1,243 @@
+{
+  "emulator": "MesenCE 2.2.1",
+  "ram_writes": false,
+  "baseline": "0.2.0",
+  "cases": {
+    "pickup": {
+      "emulated_frames": 300,
+      "state_sha256": "de4fedc63dc4a411a1ae944329e33e8d954acefccc7265760b77f32199c61899",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "right=frame>=40 and frame<142,left=false,a=frame>=70 and frame<115,b=false,up=false,down=false,start=false,select=false",
+      "unchanged_candidate_files": 72,
+      "added_files": 0,
+      "changed_files": [
+        "README.txt",
+        "Tree_Court_Background.png",
+        "Tree_Court_Tiles_2x.png"
+      ],
+      "ram_identical_samples": 150,
+      "ppu_identical_samples": 150,
+      "oam_identical_samples": 150,
+      "apu_sha256": "03d968aba995a4b3deef1be54e8a65156221323e8ad338cf45d82d38634494c2",
+      "identical_pcm_bytes": 958424,
+      "before_pcm_bytes": 958424,
+      "after_pcm_bytes": 958424,
+      "ghoul_poses": [
+        "pose_0_left",
+        "pose_1_right",
+        "pose_2_left",
+        "pose_2_right",
+        "pose_3_left",
+        "pose_3_right",
+        "pose_4_left",
+        "pose_4_right",
+        "pose_5_left",
+        "pose_5_right"
+      ],
+      "one_up_palettes": [
+        "FF221136"
+      ],
+      "mapped_background_tile_palette_pairs": 133,
+      "lives_before": 3,
+      "lives_after": 4,
+      "last_one_up_oam_frame": 126
+    },
+    "descent": {
+      "emulated_frames": 1100,
+      "state_sha256": "de4fedc63dc4a411a1ae944329e33e8d954acefccc7265760b77f32199c61899",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "right=(frame>=40 and frame<330)or(frame>=435 and frame<580)or(frame>=720 and frame<850),left=(frame>=330 and frame<435)or(frame>=580 and frame<720)or(frame>=850 and frame<950),a=false,b=frame>=80 and frame<950 and frame%40<3,up=false,down=false,start=false,select=false",
+      "unchanged_candidate_files": 72,
+      "added_files": 0,
+      "changed_files": [
+        "README.txt",
+        "Tree_Court_Background.png",
+        "Tree_Court_Tiles_2x.png"
+      ],
+      "ram_identical_samples": 550,
+      "ppu_identical_samples": 550,
+      "oam_identical_samples": 550,
+      "apu_sha256": "df6836ac97a754aa09a0e19fccad547604f8bdff4f9807636ee43ddb23267b96",
+      "identical_pcm_bytes": 3514212,
+      "before_pcm_bytes": 3514212,
+      "after_pcm_bytes": 3514212,
+      "ghoul_poses": [
+        "pose_0_left",
+        "pose_1_right",
+        "pose_2_left",
+        "pose_2_right",
+        "pose_3_left",
+        "pose_3_right",
+        "pose_4_left",
+        "pose_4_right",
+        "pose_5_left",
+        "pose_5_right"
+      ],
+      "one_up_palettes": [
+        "FF221136"
+      ],
+      "mapped_background_tile_palette_pairs": 145
+    },
+    "normal_pickup": {
+      "emulated_frames": 1700,
+      "state_sha256": "de4fedc63dc4a411a1ae944329e33e8d954acefccc7265760b77f32199c61899",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "right=frame>=1400 and frame<1502,left=false,a=frame>=1430 and frame<1475,b=frame>=20 and frame<1360 and frame%32<3,up=false,down=frame>=20 and frame<1370,start=false,select=false",
+      "unchanged_candidate_files": 72,
+      "added_files": 0,
+      "changed_files": [
+        "README.txt",
+        "Tree_Court_Background.png",
+        "Tree_Court_Tiles_2x.png"
+      ],
+      "ram_identical_samples": 850,
+      "ppu_identical_samples": 850,
+      "oam_identical_samples": 850,
+      "apu_sha256": "6a26bcd63c1cb3bb9a0c8a54cd866d32e34ea680d1b3117895aa09fbaaf6bf80",
+      "identical_pcm_bytes": 5431056,
+      "before_pcm_bytes": 5431056,
+      "after_pcm_bytes": 5431056,
+      "ghoul_poses": [
+        "pose_0_left",
+        "pose_1_right",
+        "pose_2_left",
+        "pose_2_right",
+        "pose_3_left",
+        "pose_3_right",
+        "pose_4_left",
+        "pose_4_right",
+        "pose_5_left",
+        "pose_5_right"
+      ],
+      "one_up_palettes": [
+        "FF221136",
+        "FF300036"
+      ],
+      "mapped_background_tile_palette_pairs": 133,
+      "lives_before": 3,
+      "lives_after": 4,
+      "last_one_up_oam_frame": 1486
+    },
+    "left_transition": {
+      "emulated_frames": 840,
+      "state_sha256": "de4fedc63dc4a411a1ae944329e33e8d954acefccc7265760b77f32199c61899",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=10 and frame<140,right=frame>=180 and frame<780 and frame%8<2,a=false,b=false,up=false,down=false,start=false,select=false",
+      "unchanged_candidate_files": 72,
+      "added_files": 0,
+      "changed_files": [
+        "README.txt",
+        "Tree_Court_Background.png",
+        "Tree_Court_Tiles_2x.png"
+      ],
+      "ram_identical_samples": 420,
+      "ppu_identical_samples": 420,
+      "oam_identical_samples": 420,
+      "apu_sha256": "0f2f1c424763243e5c9f1320d28102f45fdf250c24c46eb076b2fcb9741fd11f",
+      "identical_pcm_bytes": 2683584,
+      "before_pcm_bytes": 2683584,
+      "after_pcm_bytes": 2683584,
+      "ghoul_poses": [
+        "pose_0_left",
+        "pose_0_right",
+        "pose_1_left",
+        "pose_1_right"
+      ],
+      "one_up_palettes": [
+        "FF221136"
+      ],
+      "mapped_background_tile_palette_pairs": 133,
+      "identical_previous_room_screenshots": 185
+    },
+    "ledge": {
+      "emulated_frames": 840,
+      "state_sha256": "de4fedc63dc4a411a1ae944329e33e8d954acefccc7265760b77f32199c61899",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "left=frame>=10 and frame<82,right=frame>=140 and frame<780 and frame%8<2,a=false,b=false,up=false,down=false,start=false,select=false",
+      "unchanged_candidate_files": 72,
+      "added_files": 0,
+      "changed_files": [
+        "README.txt",
+        "Tree_Court_Background.png",
+        "Tree_Court_Tiles_2x.png"
+      ],
+      "ram_identical_samples": 420,
+      "ppu_identical_samples": 420,
+      "oam_identical_samples": 420,
+      "apu_sha256": "647949db43ccdfa9e37d9e9a3bb373800b3eaa6f48de9ba812e4adf87fab1f9f",
+      "identical_pcm_bytes": 2683580,
+      "before_pcm_bytes": 2683580,
+      "after_pcm_bytes": 2683580,
+      "ghoul_poses": [
+        "pose_0_left",
+        "pose_0_right",
+        "pose_1_left",
+        "pose_1_right",
+        "pose_2_left",
+        "pose_2_right",
+        "pose_3_left",
+        "pose_3_right",
+        "pose_4_left",
+        "pose_4_right",
+        "pose_5_left",
+        "pose_5_right"
+      ],
+      "one_up_palettes": [
+        "FF221136"
+      ],
+      "mapped_background_tile_palette_pairs": 133
+    }
+  },
+  "ghoul_pose_examples": {
+    "pose_1_right": {
+      "case": "pickup",
+      "frame": 2
+    },
+    "pose_0_left": {
+      "case": "pickup",
+      "frame": 10
+    },
+    "pose_3_left": {
+      "case": "pickup",
+      "frame": 74
+    },
+    "pose_4_right": {
+      "case": "pickup",
+      "frame": 82
+    },
+    "pose_5_right": {
+      "case": "pickup",
+      "frame": 90
+    },
+    "pose_2_right": {
+      "case": "pickup",
+      "frame": 98
+    },
+    "pose_3_right": {
+      "case": "pickup",
+      "frame": 106
+    },
+    "pose_5_left": {
+      "case": "pickup",
+      "frame": 154
+    },
+    "pose_2_left": {
+      "case": "pickup",
+      "frame": 162
+    },
+    "pose_4_left": {
+      "case": "pickup",
+      "frame": 178
+    },
+    "pose_1_left": {
+      "case": "left_transition",
+      "frame": 50
+    },
+    "pose_0_right": {
+      "case": "left_transition",
+      "frame": 58
+    }
+  },
+  "total_frames_per_build": 4780,
+  "paired_samples_per_memory_type": 2390
+}

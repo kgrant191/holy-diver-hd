@@ -1,0 +1,82 @@
+{
+  "before/pickup": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "before/descent": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "before/normal_pickup": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "before/left_transition": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "before/ledge": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "after/pickup": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "after/descent": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "after/normal_pickup": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "after/left_transition": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "after/ledge": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "regression_before/title": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "regression_before/enemy": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "nave_before/state1": {
+    "installed_files": 75,
+    "manifest": "0.2.0-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "regression_after/title": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "regression_after/enemy": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  },
+  "nave_after/state1": {
+    "installed_files": 75,
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
+    "all_hashes_match": true
+  }
+}

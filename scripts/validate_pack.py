@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==29
-assert counts['tile']==2368
-assert counts['background']==49
-assert counts['condition']==273
+assert len(imgs)==30
+assert counts['tile']==2566
+assert counts['background']==50
+assert counts['condition']==277
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -64,14 +64,25 @@ for p in baseline.glob('*.png'):
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
 # Both additions own marked sections. Removing these must recover the exact
 # approved mapping file, including ordering and whitespace.
-original_rules=re.sub(r'^# BEGIN REVIEW_FIXES (CONDITIONS|MAPPINGS)\n.*?^# END REVIEW_FIXES \1\n','',content,flags=re.M|re.S)
+previous_rules=re.sub(r'^# BEGIN SCREEN1_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_4 \1\n','',content,flags=re.M|re.S)
+approved_011=json.loads((root/'evidence/0.1.1-pack-sha256.json').read_text())
+assert hashlib.sha256(previous_rules.encode()).hexdigest()==approved_011['hires.txt']
+for name,digest in approved_011.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.1.1 bytes changed'
+tree=json.loads((root/'art/screen1_4/registration.json').read_text())
+assert tree['tile_rules']==198 and tree['new_atlas_cells']==150 and tree['shared_enemy_rules']==48
+assert tree['conditions']==4 and tree['background_rules']==1
+assert not tree['collision_modified'] and not tree['existing_rules_modified']
+assert content.count('['+tree['scope']+']<tile>29,')==150
+original_rules=re.sub(r'^# BEGIN REVIEW_FIXES (CONDITIONS|MAPPINGS)\n.*?^# END REVIEW_FIXES \1\n','',previous_rules,flags=re.M|re.S)
 original_rules=re.sub(r'^# BEGIN SCREEN1_3 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_3 \1\n','',original_rules,flags=re.M|re.S)
 assert original_rules.encode()==(baseline/'hires.txt').read_bytes()
 approved_002=json.loads((root/'evidence/0.0.2-pack-sha256.json').read_text())
 for name,digest in approved_002.items():
  if name not in {'README.txt','hires.txt'}|arm_atlases:
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.0.2 bytes changed'
-assert imgs[-1]=='Nave_Tiles_2x.png'
+assert imgs[28]=='Nave_Tiles_2x.png' and imgs[29]=='Tree_Court_Tiles_2x.png'
 nave=json.loads((root/'art/screen1_3/registration.json').read_text())
 assert nave['tile_rules']==87 and nave['conditions']==3 and nave['background_rules']==1
 assert not nave['collision_modified'] and not nave['existing_rules_modified']

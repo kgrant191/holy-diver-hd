@@ -1,0 +1,1362 @@
+{
+  "scope": "treeRoomSignature&treeRoomPal1&treeRoomPal2&treeRoomPal3&cryptSpritePalette",
+  "tile_rules": 198,
+  "conditions": 4,
+  "background_rules": 1,
+  "shared_enemy_rules": 48,
+  "new_atlas_cells": 150,
+  "mappings": [
+    {
+      "identity": "0100",
+      "palette": "0F072830",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "transparent background"
+    },
+    {
+      "identity": "0100",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "transparent background"
+    },
+    {
+      "identity": "0100",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "transparent background"
+    },
+    {
+      "identity": "0100",
+      "palette": "0F172737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "transparent background"
+    },
+    {
+      "identity": "0128",
+      "palette": "0F072830",
+      "atlas": [
+        64,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0129",
+      "palette": "0F072830",
+      "atlas": [
+        80,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "012A",
+      "palette": "0F072830",
+      "atlas": [
+        96,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "012B",
+      "palette": "0F072830",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "012C",
+      "palette": "0F072830",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "012D",
+      "palette": "0F072830",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "012E",
+      "palette": "0F072830",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "012F",
+      "palette": "0F072830",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0130",
+      "palette": "0F072830",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0131",
+      "palette": "0F072830",
+      "atlas": [
+        208,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0132",
+      "palette": "0F072830",
+      "atlas": [
+        224,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0133",
+      "palette": "0F072830",
+      "atlas": [
+        240,
+        0
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0134",
+      "palette": "0F072830",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0135",
+      "palette": "0F072830",
+      "atlas": [
+        16,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0136",
+      "palette": "0F072830",
+      "atlas": [
+        32,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0137",
+      "palette": "0F072830",
+      "atlas": [
+        48,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0138",
+      "palette": "0F072830",
+      "atlas": [
+        64,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "0139",
+      "palette": "0F072830",
+      "atlas": [
+        80,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "013A",
+      "palette": "0F072830",
+      "atlas": [
+        96,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "013B",
+      "palette": "0F072830",
+      "atlas": [
+        112,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "013C",
+      "palette": "0F072830",
+      "atlas": [
+        128,
+        16
+      ],
+      "kind": "moon cleared for backdrop"
+    },
+    {
+      "identity": "013D",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        16
+      ],
+      "kind": "tree crown"
+    },
+    {
+      "identity": "013E",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        16
+      ],
+      "kind": "tree crown"
+    },
+    {
+      "identity": "0145",
+      "palette": "0F071737",
+      "atlas": [
+        176,
+        16
+      ],
+      "kind": "tree crown"
+    },
+    {
+      "identity": "0146",
+      "palette": "0F071737",
+      "atlas": [
+        192,
+        16
+      ],
+      "kind": "tree crown"
+    },
+    {
+      "identity": "013F",
+      "palette": "0F071737",
+      "atlas": [
+        208,
+        16
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0140",
+      "palette": "0F071737",
+      "atlas": [
+        224,
+        16
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0147",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        16
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0148",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0141",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0142",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0149",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "014A",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0143",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0144",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "014B",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "014C",
+      "palette": "0F071737",
+      "atlas": [
+        128,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "014F",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0150",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0151",
+      "palette": "0F071737",
+      "atlas": [
+        176,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0152",
+      "palette": "0F071737",
+      "atlas": [
+        192,
+        32
+      ],
+      "kind": "tree repeat"
+    },
+    {
+      "identity": "0122",
+      "palette": "0F071737",
+      "atlas": [
+        208,
+        32
+      ],
+      "kind": "left branch"
+    },
+    {
+      "identity": "0123",
+      "palette": "0F071737",
+      "atlas": [
+        224,
+        32
+      ],
+      "kind": "left branch"
+    },
+    {
+      "identity": "014D",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        32
+      ],
+      "kind": "left branch"
+    },
+    {
+      "identity": "014E",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        48
+      ],
+      "kind": "left branch"
+    },
+    {
+      "identity": "015B",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        48
+      ],
+      "kind": "right branch"
+    },
+    {
+      "identity": "015C",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        48
+      ],
+      "kind": "right branch"
+    },
+    {
+      "identity": "015D",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        48
+      ],
+      "kind": "right branch"
+    },
+    {
+      "identity": "015E",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        48
+      ],
+      "kind": "right branch"
+    },
+    {
+      "identity": "0168",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0161",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0162",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0163",
+      "palette": "0F071737",
+      "atlas": [
+        128,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0169",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "016A",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "016B",
+      "palette": "0F071737",
+      "atlas": [
+        176,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0164",
+      "palette": "0F071737",
+      "atlas": [
+        192,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0165",
+      "palette": "0F071737",
+      "atlas": [
+        208,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0166",
+      "palette": "0F071737",
+      "atlas": [
+        224,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0167",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        48
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "016C",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        64
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "016D",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        64
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "016E",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        64
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "016F",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        64
+      ],
+      "kind": "roots"
+    },
+    {
+      "identity": "0118",
+      "palette": "0F172737",
+      "atlas": [
+        64,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0119",
+      "palette": "0F172737",
+      "atlas": [
+        80,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "011A",
+      "palette": "0F172737",
+      "atlas": [
+        96,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "011B",
+      "palette": "0F172737",
+      "atlas": [
+        112,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0105",
+      "palette": "0F172737",
+      "atlas": [
+        128,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0106",
+      "palette": "0F172737",
+      "atlas": [
+        144,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0107",
+      "palette": "0F172737",
+      "atlas": [
+        160,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0108",
+      "palette": "0F172737",
+      "atlas": [
+        176,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0109",
+      "palette": "0F172737",
+      "atlas": [
+        192,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "010A",
+      "palette": "0F172737",
+      "atlas": [
+        208,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "010B",
+      "palette": "0F172737",
+      "atlas": [
+        224,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "010C",
+      "palette": "0F172737",
+      "atlas": [
+        240,
+        64
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "010D",
+      "palette": "0F172737",
+      "atlas": [
+        0,
+        80
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "010E",
+      "palette": "0F172737",
+      "atlas": [
+        16,
+        80
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "010F",
+      "palette": "0F172737",
+      "atlas": [
+        32,
+        80
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0110",
+      "palette": "0F172737",
+      "atlas": [
+        48,
+        80
+      ],
+      "kind": "ground"
+    },
+    {
+      "identity": "0101",
+      "palette": "0F172737",
+      "atlas": [
+        64,
+        80
+      ],
+      "kind": "deep ground repeat"
+    },
+    {
+      "identity": "0102",
+      "palette": "0F172737",
+      "atlas": [
+        80,
+        80
+      ],
+      "kind": "deep ground repeat"
+    },
+    {
+      "identity": "0103",
+      "palette": "0F172737",
+      "atlas": [
+        96,
+        80
+      ],
+      "kind": "deep ground repeat"
+    },
+    {
+      "identity": "0104",
+      "palette": "0F172737",
+      "atlas": [
+        112,
+        80
+      ],
+      "kind": "deep ground repeat"
+    },
+    {
+      "identity": "0170",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        128,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0171",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        144,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0172",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        160,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0173",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        176,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0174",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        192,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0175",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        208,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0176",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        224,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0177",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        240,
+        80
+      ],
+      "kind": "shared lower stone"
+    },
+    {
+      "identity": "0126",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        96
+      ],
+      "kind": "wall infill"
+    },
+    {
+      "identity": "0126",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        16,
+        96
+      ],
+      "kind": "wall infill"
+    },
+    {
+      "identity": "0126",
+      "palette": "0F172737",
+      "atlas": [
+        32,
+        96
+      ],
+      "kind": "wall infill"
+    },
+    {
+      "identity": "0178",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "0179",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "017A",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "017B",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "017C",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "017D",
+      "palette": "0F071737",
+      "atlas": [
+        128,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "017E",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "017F",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "0180",
+      "palette": "0F071737",
+      "atlas": [
+        176,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "0181",
+      "palette": "0F071737",
+      "atlas": [
+        192,
+        96
+      ],
+      "kind": "column"
+    },
+    {
+      "identity": "0182",
+      "palette": "0F071737",
+      "atlas": [
+        208,
+        96
+      ],
+      "kind": "column repeat"
+    },
+    {
+      "identity": "0187",
+      "palette": "0F071737",
+      "atlas": [
+        224,
+        96
+      ],
+      "kind": "weathered brick"
+    },
+    {
+      "identity": "0188",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        96
+      ],
+      "kind": "weathered brick"
+    },
+    {
+      "identity": "0189",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        112
+      ],
+      "kind": "weathered brick"
+    },
+    {
+      "identity": "018A",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        112
+      ],
+      "kind": "weathered brick"
+    },
+    {
+      "identity": "01B3",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        32,
+        112
+      ],
+      "kind": "arch cap"
+    },
+    {
+      "identity": "01B1",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        48,
+        112
+      ],
+      "kind": "arch cap"
+    },
+    {
+      "identity": "01B0",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        64,
+        112
+      ],
+      "kind": "arch cap"
+    },
+    {
+      "identity": "01C4",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        80,
+        112
+      ],
+      "kind": "arch cap"
+    },
+    {
+      "identity": "01C3",
+      "palette": "0F172737",
+      "atlas": [
+        96,
+        112
+      ],
+      "kind": "arch leg"
+    },
+    {
+      "identity": "01C2",
+      "palette": "0F172737",
+      "atlas": [
+        112,
+        112
+      ],
+      "kind": "arch leg"
+    },
+    {
+      "identity": "01C1",
+      "palette": "0F172737",
+      "atlas": [
+        128,
+        112
+      ],
+      "kind": "arch leg"
+    },
+    {
+      "identity": "0115",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        144,
+        112
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "0116",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        160,
+        112
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "0117",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        176,
+        112
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "0124",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        192,
+        112
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "01BF",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        208,
+        112
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "01C0",
+      "palette": "0F1B2B3B",
+      "atlas": [
+        224,
+        112
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "0124",
+      "palette": "0F172737",
+      "atlas": [
+        240,
+        112
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "0125",
+      "palette": "0F172737",
+      "atlas": [
+        0,
+        128
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "0127",
+      "palette": "0F172737",
+      "atlas": [
+        16,
+        128
+      ],
+      "kind": "wall edge"
+    },
+    {
+      "identity": "01D8",
+      "palette": "0F172737",
+      "atlas": [
+        32,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D7",
+      "palette": "0F172737",
+      "atlas": [
+        48,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D6",
+      "palette": "0F172737",
+      "atlas": [
+        64,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D5",
+      "palette": "0F172737",
+      "atlas": [
+        80,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D4",
+      "palette": "0F172737",
+      "atlas": [
+        96,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D3",
+      "palette": "0F172737",
+      "atlas": [
+        112,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D2",
+      "palette": "0F172737",
+      "atlas": [
+        128,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D1",
+      "palette": "0F172737",
+      "atlas": [
+        144,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D0",
+      "palette": "0F172737",
+      "atlas": [
+        160,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01CF",
+      "palette": "0F172737",
+      "atlas": [
+        176,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01CE",
+      "palette": "0F172737",
+      "atlas": [
+        192,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01CD",
+      "palette": "0F172737",
+      "atlas": [
+        208,
+        128
+      ],
+      "kind": "cornice"
+    },
+    {
+      "identity": "01D9",
+      "palette": "0F172737",
+      "atlas": [
+        224,
+        128
+      ],
+      "kind": "platform cap"
+    },
+    {
+      "identity": "01DA",
+      "palette": "0F172737",
+      "atlas": [
+        240,
+        128
+      ],
+      "kind": "platform cap"
+    },
+    {
+      "identity": "01DB",
+      "palette": "0F172737",
+      "atlas": [
+        0,
+        144
+      ],
+      "kind": "platform cap"
+    },
+    {
+      "identity": "01DC",
+      "palette": "0F172737",
+      "atlas": [
+        16,
+        144
+      ],
+      "kind": "platform cap"
+    },
+    {
+      "identity": "004E",
+      "palette": "FF300036",
+      "atlas": [
+        32,
+        144
+      ],
+      "kind": "1-up front-facing figurine"
+    },
+    {
+      "identity": "004F",
+      "palette": "FF300036",
+      "atlas": [
+        48,
+        144
+      ],
+      "kind": "1-up front-facing figurine"
+    },
+    {
+      "identity": "004E",
+      "palette": "FF221136",
+      "atlas": [
+        64,
+        144
+      ],
+      "kind": "1-up front-facing figurine"
+    },
+    {
+      "identity": "004F",
+      "palette": "FF221136",
+      "atlas": [
+        80,
+        144
+      ],
+      "kind": "1-up front-facing figurine"
+    }
+  ],
+  "collision_modified": false,
+  "existing_rules_modified": false
+}

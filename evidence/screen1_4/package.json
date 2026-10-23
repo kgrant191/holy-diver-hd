@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "source": "local candidate ZIP; GitHub Actions verification pending user push",
+  "root_files": 75,
+  "all_manifest_hashes_match": true,
+  "nested_zip_entries": [],
+  "crc_errors": null,
+  "zip_sha256": "57067b947438409e5383fd589cdefd116dd48f50fbd46feaf0e3e5294e7ee0cc"
+}

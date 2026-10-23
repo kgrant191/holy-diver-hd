@@ -1,0 +1,24 @@
+{
+  "changed_files": [
+    "README.txt",
+    "Tree_Court_Background.png",
+    "Tree_Court_Tiles_2x.png"
+  ],
+  "unchanged_files": 72,
+  "root_files": 75,
+  "nested_zip": false,
+  "archive_sha256": "0be02eed81e62ddf3f378d134bf6dd1382dcdc4b139dd04d40f6883c1ffd26e0",
+  "wall_bounds_hd": [
+    0,
+    0,
+    224,
+    896
+  ],
+  "unchanged_background_outside_wall": true,
+  "cleared_wall_cells": 46,
+  "figurine_cells": 4,
+  "unchanged_other_atlas_pixels": true,
+  "unchanged_platform_caps": true,
+  "unchanged_rules": true,
+  "unchanged_ips": true
+}

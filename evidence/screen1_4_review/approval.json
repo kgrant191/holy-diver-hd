@@ -1,0 +1,20 @@
+{
+  "approved_by": "user in chat",
+  "approval_text": "approved",
+  "approval_date": "2026-10-23",
+  "reviewed_commit": "ad0e91c4921648c3d67bb426feb41be519a60eb9",
+  "changed_files": [
+    "README.txt"
+  ],
+  "unchanged_runtime_files": 74,
+  "root_files": 75,
+  "nested_zip": false,
+  "reviewed_manifest": "evidence/0.2.1-reviewed-pack-sha256.json",
+  "approved_manifest": "evidence/approved-pack-sha256.json",
+  "main_sha_at_check": "74bee5892050e417420002d7ddc6b86a4c045b8b",
+  "feature_branch_pushed": true,
+  "pr_created": true,
+  "pull_request": "https://github.com/kgrant191/holy-diver-hd/pull/3",
+  "actions_artifact_verification_location": "https://github.com/kgrant191/holy-diver-hd/pull/3",
+  "verification_requirement": "Download the current PR artifact and compare all 75 root files against the approved manifest before merging."
+}
