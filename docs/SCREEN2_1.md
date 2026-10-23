@@ -1,4 +1,6 @@
-# Stage 2 screen 1 — 0.4.0 review candidate
+# Stage 2 screen 1 — 0.4.0 historical review candidate
+
+Superseded by the cave and enemy repairs in [0.4.1](SCREEN2_1_REVIEW.md). The original implementation and results below are retained as history.
 
 Branch: `feature/screen-2-1`. Base: approved main `19176d026eb5670523ad8358d82447c63732d506` (0.3.5). The four supplied states are documented by filename and checksum in `test_states/README.md`; their bytes and the ROM are excluded from Git.
 

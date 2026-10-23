@@ -1,0 +1,7 @@
+{
+  "walk_right": {
+    "state": 1,
+    "frames": 420,
+    "input": "right=frame>=20"
+  }
+}

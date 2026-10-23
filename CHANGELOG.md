@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.1 — review candidate, 2026-10-23
+
+- Keep the cave opening dark from its first visible columns, using the left jamb with a screen-boundary guard; the far wall no longer has to be onscreen.
+- Replace backward-facing hooded flyers with brown winged demons. Native unflipped sprites move left; mirrored sprites move right. Keep the shared body stable during wingbeats and use the same downward arrow for held and falling states.
+- Replace the rejected face-like rocks with three faceless pink-shell/crimson-lobe pulsing poses matching the original anatomy.
+- Preserve native gameplay, animation cadence, audio and previous artwork. Only the Stage 2 tile atlas, mappings and installed README change from 0.4.0. This remains an unapproved candidate on feature/screen-2-1.
+
+- Final paired verification passes 6,460 frames per build, preserving native memory/audio and bounding visual changes to enemies and the doorway. The one duplicated next-room capture is documented; the complete unchanged-pack repeat passes.
+
 ## 0.4.0 — Stage 2 screen 1 review candidate (2026-10-23)
 
 - Add the volcanic Gothic exterior, gold terrain, native lava pulse and Blizzard ice/thaw cycle.

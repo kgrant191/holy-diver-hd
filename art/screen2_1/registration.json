@@ -12,7 +12,7 @@
   },
   "tile_rules": 150,
   "shared_aliases": 6,
-  "atlas_cells": 93,
+  "atlas_cells": 87,
   "mappings": [
     {
       "identity": "0300",
@@ -742,7 +742,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL0_0&s21DoorR0_0"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL0_0&s21DoorX0_0"
     },
     {
       "identity": "0300",
@@ -752,7 +752,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL0_1&s21DoorR0_1"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL0_1&s21DoorX0_1"
     },
     {
       "identity": "0300",
@@ -762,7 +762,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL1_0&s21DoorR1_0"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL1_0&s21DoorX1_0"
     },
     {
       "identity": "0300",
@@ -772,7 +772,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL1_1&s21DoorR1_1"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL1_1&s21DoorX1_1"
     },
     {
       "identity": "0300",
@@ -782,7 +782,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL2_0&s21DoorR2_0"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL2_0&s21DoorX2_0"
     },
     {
       "identity": "0300",
@@ -792,7 +792,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL2_1&s21DoorR2_1"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL2_1&s21DoorX2_1"
     },
     {
       "identity": "0300",
@@ -802,7 +802,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL3_0&s21DoorR3_0"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL3_0&s21DoorX3_0"
     },
     {
       "identity": "0300",
@@ -812,7 +812,7 @@
         0
       ],
       "kind": "dark cave opening",
-      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL3_1&s21DoorR3_1"
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL3_1&s21DoorX3_1"
     },
     {
       "identity": "0345",
@@ -1321,7 +1321,7 @@
         144,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
@@ -1331,7 +1331,7 @@
         160,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
@@ -1341,7 +1341,7 @@
         176,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
@@ -1351,7 +1351,7 @@
         192,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
@@ -1361,161 +1361,161 @@
         208,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "027F",
       "palette": "FF370726",
       "atlas": [
-        224,
-        32
+        0,
+        0
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0280",
       "palette": "FF370726",
       "atlas": [
-        240,
+        224,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0281",
       "palette": "FF370726",
       "atlas": [
-        256,
+        240,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0282",
       "palette": "FF370726",
       "atlas": [
-        272,
+        256,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0283",
       "palette": "FF370726",
       "atlas": [
-        288,
+        272,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0284",
       "palette": "FF370726",
       "atlas": [
-        304,
+        288,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0285",
       "palette": "FF370726",
       "atlas": [
-        320,
+        304,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0286",
       "palette": "FF370726",
       "atlas": [
-        336,
-        32
+        0,
+        0
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0287",
       "palette": "FF370726",
       "atlas": [
-        352,
+        320,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0288",
       "palette": "FF370726",
       "atlas": [
-        368,
+        224,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "0289",
       "palette": "FF370726",
       "atlas": [
-        384,
+        336,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "028A",
       "palette": "FF370726",
       "atlas": [
-        400,
+        256,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "028B",
       "palette": "FF370726",
       "atlas": [
-        416,
+        336,
         32
       ],
-      "kind": "flying imp",
+      "kind": "winged demon facing left",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "028C",
       "palette": "FF370726",
       "atlas": [
-        432,
+        352,
         32
       ],
-      "kind": "imp projectile",
+      "kind": "downward arrow",
       "scope": "s21Room&s21DataLo&s21DataHi"
     },
     {
       "identity": "028D",
       "palette": "FF370726",
       "atlas": [
-        448,
+        272,
         32
       ],
-      "kind": "imp projectile",
+      "kind": "downward arrow",
       "scope": "s21Room&s21DataLo&s21DataHi"
     }
   ],
-  "imp_clipped_pixels": 18,
+  "imp_clipped_pixels": 0,
   "collision_modified": false,
   "existing_art_modified": false,
   "background_size": [

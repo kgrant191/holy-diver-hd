@@ -1,0 +1,11 @@
+{
+  "changed_files": [
+    "README.txt",
+    "Stage2_Exterior_Tiles_2x.png",
+    "hires.txt"
+  ],
+  "identical_other_pack_files": 79,
+  "identical_previous_mapping_sections": true,
+  "identical_non_enemy_tile_images": 103,
+  "demon_clipped_pixels": 0
+}

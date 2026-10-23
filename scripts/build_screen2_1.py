@@ -3,7 +3,7 @@ from pathlib import Path
 import hashlib
 import json
 import re
-from PIL import Image, ImageDraw, ImageOps
+from PIL import Image, ImageDraw
 import numpy as np
 
 root = Path(__file__).resolve().parents[1]
@@ -101,11 +101,14 @@ for key,data in json.loads((art/'native_cliff_edges.json').read_text()).items():
         cell=ceiling
     tile(0x300+t,'0F071737',cell,'native cliff edge/stalactite')
 for i in range(4):
-    for row,left,right in [(0,0x338,0x337),(1,0x33c,0x33b)]:
-        ln=f's21DoorL{i}_{row}';rn=f's21DoorR{i}_{row}'
+    for row,left in [(0,0x338),(1,0x33c)]:
+        ln=f's21DoorL{i}_{row}';xn=f's21DoorX{i}_{row}'
         conditions.extend([f'<condition>{ln},tileNearby,{-8*(i+1)},0,{left:04X},0F071737',
-                           f'<condition>{rn},tileNearby,{8*(4-i)},0,{right:04X},0F071737'])
-        tile(0x300,'0F071737',Image.new('RGBA',(16,16),'#000000'),'dark cave opening',scope+'&'+ln+'&'+rn)
+                           f'<condition>{xn},positionCheckX,>=,{8*(i+1)}'])
+        tile(0x300,'0F071737',Image.new('RGBA',(16,16),'#000000'),'dark cave opening',scope+'&'+ln+'&'+xn)
+# The left jamb remains visible when the doorway first enters from the right.
+# Requiring the offscreen right jamb delayed the dark fill until full reveal.
+# X bounds prevent tileNearby from wrapping the probe across the screen edge.
 # Specific doorway tiles must precede the generic transparent zero tile.
 rules.sort(key=lambda line: 0 if 's21Door' in line else 1)
 
@@ -140,42 +143,48 @@ tile(0x274,'FF301116',flake,'Blizzard snow crystal')
 flake.save(art/'snow_crystal_registered.png')
 
 poses=json.loads((art/'native_poses.json').read_text())
-creature=Image.open(gen/'screen2_1_lava_creature_generated.png').convert('RGBA')
+creature=Image.open(gen/'screen2_1_pulsing_rock_generated.png').convert('RGBA')
 for i,pose in enumerate(poses[:3]):
     raw=obj(creature.crop((i*creature.width//3,0,(i+1)*creature.width//3,creature.height)))
     im=register(raw,(48,48));im.save(art/f'lava_creature_{i}.png')
     for x,y,t in pose['tiles']:
         tile(0x200+t,'FF160636',im.crop((x*2,y*2,x*2+16,y*2+16)),'lava creature pose '+str(i))
 
-# Native unflipped imp faces right. Stable shared cells retain one common
-# body. Alternate head/tail cells follow the native animation identities.
-imp=Image.open(gen/'screen2_1_imp_generated.png').convert('RGBA')
-source=[ImageOps.mirror(obj(imp.crop((i*imp.width//2,0,(i+1)*imp.width//2,imp.height)))) for i in range(2)]
-base=register(source[0],(64,48))
-alternate=register(source[1],(64,48))
+# Unflipped sprites travel LEFT (measured world-X delta -1/-2 per frame).
+# Fit the complete demon to the common OAM footprint; preserve its body in all
+# phases and change only the native wing cells plus the held-arrow cells.
+demon=Image.open(gen/'screen2_1_demon_generated.png').convert('RGBA')
+# obj() crops, so retain the same absolute alpha bounds for the alternate pose.
+source_box=demon.getchannel('A').point(lambda a:255 if a>=120 else 0).getbbox()
+base=Image.new('RGBA',(64,48))
+base.paste(register(demon.crop(source_box),(46,39)),(2,9))
+wing=Image.open(gen/'screen2_1_demon_wing_generated.png').convert('RGBA')
+assert wing.size==demon.size
+alternate=Image.new('RGBA',(64,48))
+alternate.paste(register(wing.crop(source_box),(46,39)),(2,9))
 mask=Image.new('L',(64,48));d=ImageDraw.Draw(mask)
 for x,y,t in poses[-1]['tiles']:
     if y<24:d.rectangle((x*2,y*2,x*2+15,y*2+15),fill=255)
-a=np.array(base);clipped=int(((a[:,:,3]>0)&(np.array(mask)==0)).sum());a[:,:,3]=np.minimum(a[:,:,3],np.array(mask));base=Image.fromarray(a)
+a=np.array(base);clipped=int(((a[:,:,3]>0)&(np.array(mask)==0)).sum())
+assert clipped==0, f'demon exceeds native footprint: {clipped}'
+a[:,:,3]=np.minimum(a[:,:,3],np.array(mask));base=Image.fromarray(a)
 base.save(art/'imp_base_registered.png')
-# Head contraction and curled tail use the second generated pose only in
-# native-changing cells. Shared head/body rows never jump between sources.
 cell={}
-for x,y,t in poses[-1]['tiles']:
-    cell[t]=base.crop((x*2,y*2,x*2+16,y*2+16))
-for x,y,t in poses[-2]['tiles']:
-    if t in [0x84,0x85,0x86,0x87,0x88,0x89,0x8a]:
-        cell[t]=alternate.crop((x*2,y*2,x*2+16,y*2+16))
-# Extended stinger occupies exactly the native central column, two cells.
-tail=obj(source[0].crop((0,source[0].height*2//3,source[0].width,source[0].height)))
-long_tail=register(tail,(12,24));stinger=Image.new('RGBA',(16,32));stinger.paste(long_tail,(2,0))
-cell[0x81]=stinger.crop((0,0,16,16));cell[0x83]=stinger.crop((0,16,16,32))
-for t,im in sorted(cell.items()):tile(0x200+t,'FF370726',im,'flying imp')
-# Its separate downward projectile preserves the original 8x16 OAM span.
-# Reuse a bright center from the approved gold/ivory defeat effect.
-spark=Image.open(pack/'Death_Bursts_2x.png').convert('RGBA')
-projectile=register(spark.crop((0,0,48,48)),(12,28));canvas=Image.new('RGBA',(16,32));canvas.paste(projectile,(2,2))
-for i,t in enumerate([0x8c,0x8d]):tile(0x200+t,'FF370726',canvas.crop((0,i*16,16,i*16+16)),'imp projectile')
+for pose in poses[3:]:
+    for x,y,t in pose['tiles']:
+        if y<24:
+            # Only wing pixels vary. Face, arms, torso, legs and tail use base.
+            src=alternate if t in [0x84,0x85,0x86,0x87] else base
+            cell[t]=src.crop((x*2,y*2,x*2+16,y*2+16))
+        else:cell[t]=Image.new('RGBA',(16,16))
+arrow=register(obj(Image.open(gen/'screen2_1_arrow_generated.png')),(8,30))
+projectile=Image.new('RGBA',(16,32));projectile.paste(arrow,(4,1))
+# The original two-cell held arrow is replaced by the same arrow as its drop.
+cell[0x81].alpha_composite(projectile.crop((0,0,16,16)))
+cell[0x83]=projectile.crop((0,16,16,32))
+for t,im in sorted(cell.items()):tile(0x200+t,'FF370726',im,'winged demon facing left')
+projectile.save(art/'arrow_registered.png')
+for i,t in enumerate([0x8c,0x8d]):tile(0x200+t,'FF370726',projectile.crop((0,i*16,16,i*16+16)),'downward arrow')
 
 # Shared art aliases: byte-identical native heart, magic, figurine, HUD and
 # defeat tiles. Choose the approved replacement once, not an obsolete fallback.

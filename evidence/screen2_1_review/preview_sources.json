@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Cave first reveal / full frame",
+    "before": "work/screen2_1_review/before/walk_right/frames/0045.png",
+    "after": "work/screen2_1_review/cave-repeat/walk_right/frames/0045.png",
+    "crop": null,
+    "scale": 1
+  },
+  {
+    "title": "Winged demon / 4x live crop",
+    "before": "work/screen2_1/after/entry_combat/frames/0040.png",
+    "after": "work/screen2_1_review/final/entry_combat/frames/0040.png",
+    "crop": [
+      372,
+      206,
+      500,
+      302
+    ],
+    "scale": 4
+  },
+  {
+    "title": "Pulsing rock / 4x live crop",
+    "before": "work/screen2_1/after/red_combat/frames/0010.png",
+    "after": "work/screen2_1_review/final/red_combat/frames/0010.png",
+    "crop": [
+      384,
+      264,
+      512,
+      360
+    ],
+    "scale": 4
+  }
+]

@@ -65,3 +65,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 | `Holy_Diver_HD_2(5).mss` | `47f9ef2f67b417befb6a31c4eee2c10954e7bab079e2f199a254167860e7d309` |
 | `Holy_Diver_HD_3(4).mss` | `df845d77d9bdb85b548c164524513d62972b8d2049f6ceea625177f8e3823464` |
 | `Holy_Diver_HD_4(1).mss` | `20f6de78ece0c59af7a153fce9267b4248b3459491592d52f03db3fb43b412f0` |
+
+## Stage 2 cave-entry review (0.4.1)
+
+- `Holy_Diver_HD_1(7).mss` — SHA-256 `383f3249ecabae9238d6ec2cdbd8d52ef0e57b8fb8634bec0e7203527fb12c10`. User supplied just before the exit cliff. Walk right after frame 20 for 420 frames; covers partial doorway reveal, full approach, native transition and next-room arrival. Bytes remain local and excluded from Git.

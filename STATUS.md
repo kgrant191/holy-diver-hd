@@ -4,6 +4,18 @@ Updated: 2026-10-23 (America/New_York).
 
 ## Current review candidate
 
+**0.4.1** on `feature/screen-2-1`, based on approved main `19176d026eb5670523ad8358d82447c63732d506` (0.3.5). The user requested repairs to the initial Stage 2 exterior candidate: keep the cave opening dark from first reveal, correct the backward-facing brown flyers into winged demons with downward arrows, and remove faces from the pink/red pulsating rock enemies.
+
+The cave uses its visible left jamb with a screen-boundary guard, so its right wall need not be onscreen. The flyer source faces left to match measured unflipped movement; native mirroring faces right. Both wing phases preserve the body, and held/falling arrows share one source. Three pink-shell/crimson-lobe poses replace the rejected face-like rocks. Native terrain, movement, timing, inventory and audio remain unchanged. See `docs/SCREEN2_1_REVIEW.md`.
+
+The build contains 82 root files. Only `hires.txt`, `Stage2_Exterior_Tiles_2x.png` and `README.txt` change from 0.4.0; all 79 others remain exact. The 103 non-enemy tile images in the Stage 2 atlas are unchanged, and the new demon fits its native OAM footprint with zero opaque-pixel clipping. All 78 runtime assets from approved 0.3.5 remain exact. The prior review manifest is retained as `evidence/0.4.0-pack-sha256.json`. The current manifest is a candidate record, not user approval.
+
+The seven controller routes cover the original six exterior/Blizzard cases plus the supplied cave approach through next-room arrival. Final verification is recorded in `evidence/screen2_1_review/verification.json`; acceptance still requires user review. The next room's existing art is preserved, not redesigned. User push, PR and Actions artifact check remain pending. Main stays approved 0.3.5; no merge, tag or public release is authorized.
+
+Final paired verification passes across **6,460 frames per build**: all RAM/PPU/OAM and APU events match; common PCM is identical. There are 357 exact black frames, 579 unchanged outside-room captures, and 129 verified early cave-interior samples. Stationary-camera motion samples show 499 left-facing native steps and 209 right-facing mirrored steps, with no opposite-direction samples. All new enemy/arrow identities are observed. Audio shutdown-tail differences, where present, are at most one 3,200-byte buffer and are recorded per case. A complete unchanged-pack cave repeat resolves the one documented duplicated screenshot; final checks contain no exceptions.
+
+## Superseded 0.4.0 candidate
+
 **0.4.0** on `feature/screen-2-1`, based on approved main `19176d026eb5670523ad8358d82447c63732d506` (PR #4, 0.3.5). The user requested Stage 2 screen 1 and supplied four states covering its start, hot lava, frozen lava and later platforms. No merge or public release is authorized for this candidate.
 
 The exterior uses new volcanic scenery and enemies, plus approved gold-ground texture and existing Randy/HUD/item/effect artwork. The native lava palette selects hot/ice textures, including the original thaw flashes. A rendered-sky tile condition suppresses the custom panorama on actual black frames; the CPU shadow of PPUMASK alone was one frame out of phase during this effect. Breakable blocks and the exit cliff remain tied to their native tiles. Small heart/magic drops and 1-up figurines reuse approved art in this CHR bank; large flasks and defeat rings already had shared mappings.

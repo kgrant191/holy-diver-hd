@@ -134,3 +134,7 @@ Approval changes only the installed README.txt. All 79 other pack hashes remain 
 ## Stage 2 screen 1 (0.4.0 candidate)
 
 See [SCREEN2_1.md](SCREEN2_1.md) for the four supplied states, six controller routes, frame-by-frame preservation checks, native Blizzard blackouts, complete outdoor traversal and earlier-boss regression. The candidate has 82 root pack files and preserves all 78 existing runtime asset files exactly. `0.3.5-pack-sha256.json` pins approved main; the current manifest describes the review candidate. Actions artifact verification follows the user's push and review.
+
+## Stage 2 cave and enemy repairs (0.4.1 candidate)
+
+See [SCREEN2_1_REVIEW.md](SCREEN2_1_REVIEW.md). Pair the six existing Stage 2 routes with 0.4.0, then add the 420-frame cave approach from `Holy_Diver_HD_1(7).mss`. The verifier bounds changes to the two enemies and doorway, checks all animation/arrow identities, derives facing from native sprite-X deltas while the camera is stationary, preserves exact blackouts/native state/audio, and checks the next room unchanged. The cave's displayed camera trails the endFrame RAM sample by two frames; use the aligned scroll for exact interior-pixel assertions. Inspect both flyer directions and all three red poses in actual Mesen captures.
