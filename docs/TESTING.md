@@ -100,3 +100,9 @@ See [SCREEN1_4.md](SCREEN1_4.md) for the supplied-state routes, actual pickup/ed
 See [SCREEN1_4_REVIEW.md](SCREEN1_4_REVIEW.md). Pair the same five routes against 0.2.0 and pass `--baseline 0.2.0` to the verifier; the original default retains the initial screen-addition checks. Run `verify_screen1_4_review_assets.py` for the strict pixel/file change boundary. The current candidate has 75 root files and three changed files relative to 0.2.0. Earlier reports and manifests remain historical evidence.
 
 0.2.1 was approved in chat on 2026-10-23. Its original live runs are pinned to `0.2.1-reviewed-pack-sha256.json`. Approval changes only README.txt; all 74 runtime hashes remain identical. No additional emulator run is needed for that text-only change. Rebuild and verify the approved manifest and archive, then check the actual Actions artifact from PR #3.
+
+## First boss and Blizzard transition (0.3.0 candidate)
+
+See [BOSS1.md](BOSS1.md) and `scripts/boss1_routes.json`. Eight controller-only routes cover 7,670 frames per build at one-frame capture intervals. They cover every boss pose in both directions, both hit palettes, all 36 disappearance counts, both reward-platform edges, floor boundaries, pickup/ascent/announcement and Stage 2 arrival. The approved Stage 2 card remains exact. `verify_boss1_qa.py` requires identical native RAM/PPU/OAM and APU events, with byte-identical common PCM and at most one shutdown buffer of audio-tail difference.
+
+`boss1_regression_routes.json` adds nave/tree-court replays to the existing title/crypt checks. `verify_boss1_regression.py` requires identical screenshots and native memory/audio across all four earlier cases. The candidate's expected manifest contains 78 root pack files. Main remains approved 0.2.1; the actual Actions artifact must be checked after the user pushes the bundle and the review PR is opened.

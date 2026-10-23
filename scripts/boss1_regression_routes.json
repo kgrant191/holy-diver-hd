@@ -1,0 +1,12 @@
+{
+  "nave": {
+    "state": 1,
+    "frames": 500,
+    "input": "right=frame>=40 and frame<400,a=(frame>=60 and frame<85)or(frame>=210 and frame<235),b=frame>=100 and frame<400 and frame%32<3"
+  },
+  "tree": {
+    "state": 2,
+    "frames": 700,
+    "input": "right=frame>=10 and frame<300,left=frame>=400 and frame<500,b=frame>=100 and frame<650 and frame%32<3"
+  }
+}

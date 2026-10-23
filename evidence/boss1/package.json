@@ -1,0 +1,9 @@
+{
+  "archive": "Holy_Diver_HD_v0.3.0.zip",
+  "sha256": "c63f57e3c4ee6148c6c8a312a23ff54737bb4f567f884cb81d4785da7dc2d45f",
+  "root_files": 78,
+  "nested_zip": false,
+  "manifest_matches": true,
+  "actions_artifact_verified": false,
+  "actions_note": "Pending user bundle push and review PR."
+}

@@ -2,11 +2,23 @@
 
 Updated: 2026-10-23 (UTC).
 
+## Current review candidate
+
+**0.3.0** on `feature/1-boss`, based on approved main `2427afd4739f273bf527810edcfae93e6592e344`. The user requested the first boss and supplied three states covering entry, crouched fire and defeat. Main remains **0.2.1**. Do not merge or publish a release without the user's approval.
+
+Candidate art covers the six native boss poses in both directions, hit-palette flashes, the native 36-tile progressive disappearance, the organ hall, Blizzard bell chamber, spell pickup, ascent and announcement. The Stage 2 title/lives card is now verified in live play. Known Randy/HUD copies in the announcement and Stage 2 graphics banks reuse the approved art. Stage 2 scenery/enemies remain future work.
+
+The pack contains 78 root files. Only hires.txt and README.txt change among the 75 approved files; 73 existing runtime files stay exact. Three PNGs are added. The old expected manifest is retained as `evidence/0.2.1-pack-sha256.json`. The historical `approved-pack-sha256.json` filename describes the candidate on this branch, not approval. See `docs/BOSS1.md` and `evidence/boss1/verification.json` for reproduction and coverage.
+
+Final live checks pass: 11,030 frames per build, 9,500 paired RAM/PPU/OAM samples per type, identical APU events and common PCM. Earlier-room regression has 1,470 identical screenshots; the unchanged Stage 2 card adds 184. Two runs have one shutdown-buffer audio-tail difference, documented in the reports. All six boss poses are observed in both directions.
+
+Use the agreed ZIP-wrapped incremental Git bundle workflow. The user pushes the binary artwork with local credentials; the integration can then create the review PR and inspect the actual Actions artifact. No PR or candidate Actions artifact exists until that push.
+
 ## Current approved version
 
 **0.2.1**, approved by the user in chat on 2026-10-23 ("approved"). Reviewed commit: `ad0e91c4921648c3d67bb426feb41be519a60eb9` on `feature/screen1-4`. Preserve its screen-1-4 tree court, front-facing blue/ivory 1-up figurines, continuous Gothic wall and shared HD enemies as the accepted visual baseline.
 
-The user pushed the reviewed artwork commit to `feature/screen1-4`. [PR #3](https://github.com/kgrant191/holy-diver-hd/pull/3) tracks adoption and the actual Actions artifact verification. Text-only approval bookkeeping is applied through the GitHub integration; no new binary push is required. Verify the PR's current artifact against the approved manifest before merging. No release tag or GitHub Release is requested.
+The user pushed the reviewed artwork commit to `feature/screen1-4`. [PR #3](https://github.com/kgrant191/holy-diver-hd/pull/3) was merged into main at `2427afd4739f273bf527810edcfae93e6592e344` after approval and artifact verification. The downloaded main Actions artifact (run 39967379016, artifact 12507780985) contains all 75 expected root files with matching hashes and no nested ZIP. No release tag or GitHub Release was created.
 
 Approval bookkeeping changes only README.txt in the installed pack. All 74 runtime files remain byte-identical to the approved review. `0.2.1-reviewed-pack-sha256.json` preserves the reviewed bytes; `approved-pack-sha256.json` describes the build with approved installation text. Historical reports and captures remain unchanged. See evidence/screen1_4_review/approval.json for the bookkeeping check.
 
@@ -56,7 +68,7 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 ## Known limits
 
 - This is a partial HD overhaul, not a finished all-stage pack.
-- All six stage names and life counts 0–9 are mapped; live card coverage is Stage 1 and counts 3/2.
+- All six stage names and life counts 0–9 are mapped; live card coverage is Stages 1–2 and counts 4/3/2. Stages 3–6 remain untested.
 - Native player tiles $33–$35 are now measured and covered as crouching wind-up legs. Tile $3C remains unclassified; investigate only when a live route uses it.
 - The earlier report of Randy fully reverting to original art during death was not independently reproduced. Shared defeat fallbacks exist, and current recorded death poses remain HD.
 - Old scripts remain for provenance. build.py is the supported build entry point.

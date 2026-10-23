@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==30
-assert counts['tile']==2566
-assert counts['background']==50
-assert counts['condition']==277
+assert len(imgs)==31
+assert counts['tile']==4562
+assert counts['background']==54
+assert counts['condition']==1105
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -64,7 +64,17 @@ for p in baseline.glob('*.png'):
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
 # Both additions own marked sections. Removing these must recover the exact
 # approved mapping file, including ordering and whitespace.
-previous_rules=re.sub(r'^# BEGIN SCREEN1_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_4 \1\n','',content,flags=re.M|re.S)
+approved_rules=re.sub(r'^# BEGIN BOSS1 (IMAGES|CONDITIONS|MAPPINGS|ALIASES)\n.*?^# END BOSS1 \1\n','',content,flags=re.M|re.S)
+approved_021=json.loads((root/'evidence/0.2.1-pack-sha256.json').read_text())
+assert hashlib.sha256(approved_rules.encode()).hexdigest()==approved_021['hires.txt']
+for name,digest in approved_021.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.2.1 bytes changed'
+boss=json.loads((root/'art/boss1/registration.json').read_text())
+assert boss['tile_rules']==1996 and boss['conditions']==828 and boss['background_rules']==4
+assert boss['shared_bank_aliases']==758 and not boss['collision_modified'] and not boss['existing_rules_modified']
+assert imgs[30]=='Boss_Tiles_2x.png'
+previous_rules=re.sub(r'^# BEGIN SCREEN1_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_4 \1\n','',approved_rules,flags=re.M|re.S)
 approved_011=json.loads((root/'evidence/0.1.1-pack-sha256.json').read_text())
 assert hashlib.sha256(previous_rules.encode()).hexdigest()==approved_011['hires.txt']
 for name,digest in approved_011.items():
@@ -115,7 +125,8 @@ for asset in (Path(__file__).resolve().parents[1]/'rollback/bracelet_v14').glob(
  if asset.name not in arm_atlases|repaired_backgrounds:assert asset.read_bytes()==(pack/asset.name).read_bytes(),asset.name
 assert 'cryptBatPhase' not in content
 assert len(re.findall(r'<tile>26,7[4-7],FF160636,',content))==4
-assert len(re.findall(r'\[randyDefeated\]<tile>',content))==64
+assert len(re.findall(r'\[randyDefeated\]<tile>',approved_rules))==64
+assert len(re.findall(r'\[randyDefeated\]<tile>',content))==192
 assert '<condition>randyDefeated,memoryCheckConstant,0440,==,00' in content
 assert not re.search(r'<tile>25,7[4-7],FF160636,',content)
 result={'supported_rom_sha1':sha.lower(),'scale':2,'atlas_count':len(imgs),**counts,'references_and_bounds_valid':True,'conditional_priority_valid':True,'rom_patch_bytes':56,'patch_scope':'entrance priorities and conditional thunder masking','replacement_audio':False}

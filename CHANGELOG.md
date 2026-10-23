@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — review candidate, 2026-10-23
+
+- Added the first horned boss with standing, stepping, compact jump/crouch and both firing poses, round fireballs, white hit flashes and the native gradual death sequence.
+- Added the brass organ hall and Blizzard bell chamber, reusing approved masonry, stone and ornaments at native tile positions.
+- Added the Blizzard tome and announcement; retained the native pickup, ascent, flashes and Stage 2 transition. Reused approved Randy/HUD art for identical graphics-bank copies in the announcement and Stage 2 arrival.
+- Preserved every earlier PNG/IPS and the complete previous mapping text. Added three runtime PNGs for 78 root pack files.
+- Added frame-by-frame controller replays and paired memory/audio verification. Main remains approved 0.2.1 pending review and the agreed manual bundle push.
+
 ## 0.2.1 — approved 2026-10-23
 
 - Replaced the sideways miniature Randy pickup with a front-facing figurine on a bronze base in normal and Twin Fire colors.

@@ -21,3 +21,9 @@ New source art and generation briefs are in art/generated/screen1_3_*.png and do
 ## Fourth section tree court (approved 0.2.1)
 
 Reuse the approved entrance tree, branches, roots, gold ground and distant ruins. Register these to native tiles so every platform follows the original layout. The left masonry uses a continuous aged-gold facade with complete Gothic arches and dark navy inset stone. Nonsolid decorative tiles are cleared; the shelf remains bound to its native tiles. Preserve the moon’s castle occlusion. The 1-up is an 8×16-native front-facing Randy doll/statue on a small bronze base, with blue and ivory variants. Enemies reuse the approved sharp standing and rolling sprites. See SCREEN1_4.md and SCREEN1_4_REVIEW.md for source provenance.
+
+## First boss and Blizzard chamber (0.3.0 candidate)
+
+The boss preserves the native oversized head, curled ivory horns, teal/green palette, clawed hands and bent legs. Register its head/torso once; vary only the measured lower-body and mouth regions. Maintain the compact airborne/crouched footprint and the native 36-piece bottom-up disappearance. White hit frames and red defeat backdrop pulses follow the actual palette events.
+
+Use brass organ pipes over the approved navy masonry, keeping native pipe lengths, stone collision tiles and gold pendants. The Blizzard chamber has an aged bronze/green bell and a cobalt tome with a cyan frost rune. Reuse the approved Gothic intermission frame for the spell announcement. Source briefs and registration are in `art/generated/boss1_prompts.json`, `art/boss1/` and `scripts/build_boss1.py`.

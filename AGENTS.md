@@ -19,7 +19,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 - Perform routine emulator testing here when inputs/tools are available; do not ask the user to perform it instead.
 - Only one Mesen process at a time. Do not replace its pack or overwrite the audio-capture library during a run.
 - The first screenshot after loading a state can be empty. endFrame OAM can describe the next pose; screenshots are authoritative for visual claims.
-- Report coverage precisely. Stage cards 2–6 are mapped but have not been verified in live play.
+- Report coverage precisely. Stage cards 1–2 are verified in live play; cards 3–6 remain mapped but untested.
 - Review and document intentionally changed files before updating expected hashes; do not weaken validation merely to make it pass.
 
 ## Repository workflow
