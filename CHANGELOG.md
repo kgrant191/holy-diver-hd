@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0 — screen 1-4 review candidate, 2026-10-23
+
+- Added the full tree court and descent from the supplied save: Gothic masonry, the approved entrance tree adapted to native repeating tiles, alternating branches, roots and lower ground.
+- Added both miniature Randy 1-up palettes; verified collection raises lives from 3 to 4 in normal and Twin Fire modes.
+- Reused all six approved purple-ghoul poses, including sharp standing variants, with room-specific mapping conditions.
+- Preserved every existing PNG/IPS and all earlier mapping text. Two runtime PNGs bring the pack to 75 root files; hires.txt and README.txt are the only changed existing files.
+- Added controller-only pickup, full descent, slow ledge traversal and left-transition replays, plus title/crypt/nave regression checks. Native memory and audio remain unchanged.
+- Awaiting user review and local bundle push. Main remains approved 0.1.1; no tag, release or merge.
+
 ## 0.1.1 — approved 2026-10-23
 
 - Redrew both standing ghoul poses with crisp pixel clusters and pose-specific mappings. All four rolling frames retain their exact 0.1.0 pixels.

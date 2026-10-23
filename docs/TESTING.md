@@ -90,3 +90,7 @@ The regression verifier requires identical screenshots as well as memory/audio. 
 ## 0.1.1 review fixes
 
 See `docs/REVIEW_FIXES.md` for the crouch-attack replay and comparison commands. `run_crouch_qa.py` uses controller input only and captures every frame in both normal/Twin Fire modes. `verify_review_fixes.py` requires both attack phases and both directions, paired native memory/audio equality, and unchanged rolling screenshots. `run_screen1_3_qa.py --case state3` supports a targeted replay when capture output needs repeating.
+
+## Screen 1-4 tree court (0.2.0 candidate)
+
+See [SCREEN1_4.md](SCREEN1_4.md) for the supplied-state routes, actual pickup/edge results, native memory/audio comparisons, background coverage and regression commands. The candidate has 75 root pack files. `0.1.1-pack-sha256.json` preserves approved main; `approved-pack-sha256.json` describes the tested candidate on this review branch and is not an approval record.

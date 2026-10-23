@@ -17,3 +17,7 @@ Acceptance screenshots/video must come from actual emulator playback. Label enla
 Use a solid navy masonry nave wall so the native emerald/ruby windows read as inset glass. Preserve the native top/side edges of reinforced blocks and existing stone tiles. The large gold serpent pendant is background decoration in the recorded states; do not assign it collision or enemy behavior. Purple ghouls retain the native crouched proportions and compact rolling footprint. Native unflipped ghoul and blue-skull graphics face left; hardware mirroring controls direction. The blue flying skull keeps its pale/cyan face, cobalt shadow and red fin/wing.
 
 New source art and generation briefs are in art/generated/screen1_3_*.png and docs/SCREEN1_3.md. Registration is deterministic in scripts/build_screen1_3.py. The standing ghoul refinements and missing crouch attacks are documented in docs/REVIEW_FIXES.md. Other earlier approved poses remain unchanged.
+
+## Fourth section tree court (0.2.0 candidate)
+
+Reuse the approved entrance tree, branches, roots, gold ground and distant ruins. Register these to native tiles so every platform follows the original layout. The left masonry uses aged gold carved cornices/columns and dark teal/navy inset brick. Preserve the moon’s castle occlusion. The 1-up is an 8×16-native miniature Randy in the current player palette. Enemies reuse the approved sharp standing and rolling sprites. See SCREEN1_4.md for source provenance.

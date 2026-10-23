@@ -2,6 +2,16 @@
 
 Updated: 2026-10-23 (UTC).
 
+## Active review branch
+
+`feature/screen1-4` builds **0.2.0**, a review candidate based on approved main `74bee5892050e417420002d7ddc6b86a4c045b8b`. It adds the fourth section’s full tree court, 1-up, mapped shared ghouls, branch platforms and ground. The supplied state is documented in test_states/README.md. Main stays at **0.1.1** pending explicit approval of this change.
+
+The candidate adds 198 scoped tile rules, four conditions and one background rule. Its 150 new atlas cells reuse approved tree, ground and miniature Randy art; 48 enemy rules point to the existing nave atlas. Three palette checks and a measured RAM room signature disable the addition before the previous-room tiles are streamed during the left transition. All 71 existing files other than hires.txt and README.txt are byte-identical. Removing SCREEN1_4 sections recovers the exact approved 0.1.1 mapping file.
+
+The five paired routes cover 4,780 frames per build, 2,390 samples per memory type, both 1-up palettes and collections (lives 3 to 4), all six ghoul poses in both directions, the full drop to the ground, a slow ledge walk-off and the left exit. Title/crypt/nave regression adds 2,880 frames and 990 samples per memory type. See evidence/screen1_4/ and docs/SCREEN1_4.md for results and limits.
+
+The expected candidate manifest retains the historical name approved-pack-sha256.json; it is not an approval record. The previous approved bytes are preserved in 0.1.1-pack-sha256.json. The candidate ZIP has 75 installable root files with no nested ZIP. The actual GitHub Actions artifact must still be downloaded and checked after the user pushes the bundle and the review PR is opened.
+
 ## Current approved version
 
 **0.1.1**, approved by the user in chat on 2026-10-23 ("approved. pushed") for adoption through PR #2. It adds the third chapel section, sharpens the standing purple ghoul while retaining the rolling frames, and supplies both crouching attack phases in normal/Twin Fire colors and both directions. No release tag or GitHub Release is published.

@@ -1,0 +1,22 @@
+{
+  "pickup": {
+    "frames": 300,
+    "input": "right=frame>=40 and frame<142,left=false,a=frame>=70 and frame<115,b=false,up=false,down=false,start=false,select=false"
+  },
+  "descent": {
+    "frames": 1100,
+    "input": "right=(frame>=40 and frame<330)or(frame>=435 and frame<580)or(frame>=720 and frame<850),left=(frame>=330 and frame<435)or(frame>=580 and frame<720)or(frame>=850 and frame<950),a=false,b=frame>=80 and frame<950 and frame%40<3,up=false,down=false,start=false,select=false"
+  },
+  "normal_pickup": {
+    "frames": 1700,
+    "input": "right=frame>=1400 and frame<1502,left=false,a=frame>=1430 and frame<1475,b=frame>=20 and frame<1360 and frame%32<3,up=false,down=frame>=20 and frame<1370,start=false,select=false"
+  },
+  "left_transition": {
+    "frames": 840,
+    "input": "left=frame>=10 and frame<140,right=frame>=180 and frame<780 and frame%8<2,a=false,b=false,up=false,down=false,start=false,select=false"
+  },
+  "ledge": {
+    "frames": 840,
+    "input": "left=frame>=10 and frame<82,right=frame>=140 and frame<780 and frame%8<2,a=false,b=false,up=false,down=false,start=false,select=false"
+  }
+}
