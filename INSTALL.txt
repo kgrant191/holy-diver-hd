@@ -1,5 +1,8 @@
-HOLY DIVER HD 0.3.1 — REVIEW CANDIDATE
+HOLY DIVER HD 0.3.2 — REVIEW CANDIDATE
 First boss and Blizzard chamber. Main remains approved 0.2.1.
+
+0.3.2 fills the entire scrolling Blizzard backdrop and keeps Randy's HD
+silhouette throughout the white/gray fade before the spell announcement.
 
 0.3.1 uses Mesen's sprite-limit removal to keep the boss fireball complete,
 and matches the Blizzard menu's R/D letters to the existing HD font.

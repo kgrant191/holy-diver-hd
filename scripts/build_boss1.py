@@ -119,6 +119,13 @@ body=reg(pipe.crop((0,round(ph*.4),pw,round(ph*.45))),(32,16))
 foot=reg(pipe.crop((0,round(ph*.91),pw,ph)),(32,32))
 # The repeat has identical top/bottom pixels and is reused for both native rows.
 pa=np.array(body); edge=((pa[0].astype(int)+pa[-1].astype(int))//2).astype('uint8');pa[0]=edge;pa[-1]=edge;body=Image.fromarray(pa)
+# The pickup scroll wraps the native nametable vertically. The approved nave
+# panorama is only one screen high, so repeating its exact pixels across both
+# nametables plus a viewport keeps the backdrop present throughout the ascent.
+wall=Image.open(pack/'Nave_Background.png').convert('RGB')
+ascent_wall=Image.new('RGB',(wall.width,wall.height*3))
+for row in range(3):ascent_wall.paste(wall,(0,row*wall.height))
+ascent_wall.save(pack/'Blizzard_Ascent_Background.png')
 for scope in [hall,bell]:
     for prefix in ['0F','16','31']:
         for pal in ['172737','061627','001030','093918']:
@@ -133,7 +140,8 @@ for scope in [hall,bell]:
         for t,x in [(0x80,0),(0x81,16),(0x82,16)]:tile(t+0x100,prefix+'061627',body.crop((x,0,x+16,16)),scope,'organ pipe repeat')
         for n,t in enumerate(range(0x83,0x87)):
             x,y=n%2*16,n//2*16;tile(t+0x100,prefix+'061627',foot.crop((x,y,x+16,y+16)),scope,'organ pipe foot')
-    backgrounds.append(f'[{scope}]<background>Nave_Background.png,1,1,1,11,0,0')
+    backdrop='Blizzard_Ascent_Background.png' if scope==bell else 'Nave_Background.png'
+    backgrounds.append(f'[{scope}]<background>{backdrop},1,1,1,11,0,0')
 
 # The golden pendant has the same native layout as the approved nave ornament.
 ornament=Image.open(root/'art/screen1_3/serpent_ornament.png').convert('RGBA')
@@ -229,6 +237,20 @@ for identity,char in [(0x964,'R'),(0x965,'D')]:
                               anchor='mm',fill='#f4deb0')
     tile(identity,'0F072830',glyph,menu_scope,'Blizzard pause-menu '+char)
 
+# The pre-announcement fade still uses CHR bank 00 and the bell-room identity.
+# Its 20/10/00 palettes precede the announcement's CHR-bank switch. Retain the
+# exact HD silhouette through those native fade steps, in either direction.
+# Append after existing cells so all previously registered artwork stays exact.
+for pal,intensity in [('FF202020',255),('FF101010',173),('FF000000',102)]:
+    for scope,p in source_rules:
+        if p[0]!='18' or p[2]!='FF300036':continue
+        t=int(p[1],16);x,y=int(p[3]),int(p[4])
+        im=normal_atlas.crop((x,y,x+16,y+16))
+        color=Image.new('RGBA',(16,16),(intensity,intensity,intensity,255))
+        color.putalpha(im.getchannel('A'))
+        scope='&'.join(filter(None,[bell_data,remap_scope(scope,0,pal)]))
+        tile(t,pal,color,scope,'Randy pre-announcement fade')
+
 conditions.extend(alias_defs.values())
 atlas.save(art/'Boss_Tiles_2x.png');atlas.save(pack/'Boss_Tiles_2x.png')
 def section(kind,lines):return '# BEGIN BOSS1 '+kind+'\n'+'\n'.join(lines)+'\n# END BOSS1 '+kind+'\n'
@@ -240,6 +262,8 @@ lines[first:first]=[section('CONDITIONS',conditions),section('MAPPINGS',rules+ba
 report=dict(tile_rules=len(rules)+len(aliases),conditions=len(conditions),background_rules=len(backgrounds),atlas_cells=len(cell_cache),
             shared_bank_aliases=len(aliases),poses=pose_stats,mappings=cells,collision_modified=False,existing_rules_modified=False,
             boss_scope=hall,bell_scope=bell,spell_card_scope=spell_card,
-            global_sprite_limit_changed=True,menu_glyphs={'0964':'R','0965':'D'})
+            global_sprite_limit_changed=True,menu_glyphs={'0964':'R','0965':'D'},
+            ascent_backdrop='Blizzard_Ascent_Background.png',ascent_backdrop_repeat_rows=3,
+            pre_announcement_fade={'FF202020':255,'FF101010':173,'FF000000':102})
 (art/'registration.json').write_text(json.dumps(report,indent=2)+'\n')
 print('Boss 1:',len(rules)+len(aliases),'rules;',len(cell_cache),'atlas cells;',len(aliases),'shared bank aliases')

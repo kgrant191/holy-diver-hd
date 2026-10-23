@@ -1,8 +1,8 @@
 {
-  "tile_rules": 1998,
-  "conditions": 828,
+  "tile_rules": 2433,
+  "conditions": 1071,
   "background_rules": 4,
-  "atlas_cells": 563,
+  "atlas_cells": 676,
   "shared_bank_aliases": 758,
   "poses": [
     {
@@ -12438,6 +12438,4356 @@
       ],
       "scope": "pauseScreen&pauseMagicRow&pausedPalette",
       "kind": "Blizzard pause-menu D"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF202020",
+      "atlas": [
+        480,
+        96
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_0_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF202020",
+      "atlas": [
+        496,
+        96
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_1_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF202020",
+      "atlas": [
+        0,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_2_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF202020",
+      "atlas": [
+        16,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_3_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF202020",
+      "atlas": [
+        32,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_4_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF202020",
+      "atlas": [
+        48,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_5_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0033",
+      "palette": "FF202020",
+      "atlas": [
+        64,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_6_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0034",
+      "palette": "FF202020",
+      "atlas": [
+        80,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_7_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0035",
+      "palette": "FF202020",
+      "atlas": [
+        96,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_0_8_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF202020",
+      "atlas": [
+        112,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_0_0&bossCopy0_FF202020_crouchCast0_1_0_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF202020",
+      "atlas": [
+        128,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_1_0&bossCopy0_FF202020_crouchCast0_1_1_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF202020",
+      "atlas": [
+        144,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_2_0&bossCopy0_FF202020_crouchCast0_1_2_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_3_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF202020",
+      "atlas": [
+        176,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_4_0&bossCopy0_FF202020_crouchCast0_1_4_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF202020",
+      "atlas": [
+        192,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_5_0&bossCopy0_FF202020_crouchCast0_1_5_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002F",
+      "palette": "FF202020",
+      "atlas": [
+        208,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_6_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0030",
+      "palette": "FF202020",
+      "atlas": [
+        224,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_7_0&bossCopy0_FF202020_crouchCast0_1_7_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0031",
+      "palette": "FF202020",
+      "atlas": [
+        240,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_8_0&bossCopy0_FF202020_crouchCast0_1_8_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0032",
+      "palette": "FF202020",
+      "atlas": [
+        256,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF202020_crouchCast0_1_9_0&bossCopy0_FF202020_crouchCast0_1_9_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF202020",
+      "atlas": [
+        272,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig0&bossCopy0_FF202020_randySig1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF202020",
+      "atlas": [
+        288,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig2&bossCopy0_FF202020_randySig3",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF202020",
+      "atlas": [
+        304,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig4",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF202020",
+      "atlas": [
+        320,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig5",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF202020",
+      "atlas": [
+        336,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig6",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF202020",
+      "atlas": [
+        352,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig7",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF202020",
+      "atlas": [
+        368,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig8",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF202020",
+      "atlas": [
+        384,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig9",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF202020",
+      "atlas": [
+        400,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig10",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF202020",
+      "atlas": [
+        416,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig11",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF202020",
+      "atlas": [
+        432,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig12",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF202020",
+      "atlas": [
+        448,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig13",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF202020",
+      "atlas": [
+        464,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig14",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000E",
+      "palette": "FF202020",
+      "atlas": [
+        480,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000F",
+      "palette": "FF202020",
+      "atlas": [
+        496,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0010",
+      "palette": "FF202020",
+      "atlas": [
+        0,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0011",
+      "palette": "FF202020",
+      "atlas": [
+        16,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0012",
+      "palette": "FF202020",
+      "atlas": [
+        32,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0013",
+      "palette": "FF202020",
+      "atlas": [
+        48,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0014",
+      "palette": "FF202020",
+      "atlas": [
+        64,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0015",
+      "palette": "FF202020",
+      "atlas": [
+        80,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0016",
+      "palette": "FF202020",
+      "atlas": [
+        96,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0017",
+      "palette": "FF202020",
+      "atlas": [
+        112,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0018",
+      "palette": "FF202020",
+      "atlas": [
+        128,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0019",
+      "palette": "FF202020",
+      "atlas": [
+        144,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001A",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001B",
+      "palette": "FF202020",
+      "atlas": [
+        176,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001C",
+      "palette": "FF202020",
+      "atlas": [
+        192,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF202020",
+      "atlas": [
+        208,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig15",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF202020",
+      "atlas": [
+        416,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF202020",
+      "atlas": [
+        224,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig16",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF202020",
+      "atlas": [
+        432,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF202020",
+      "atlas": [
+        240,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig17",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF202020",
+      "atlas": [
+        448,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF202020",
+      "atlas": [
+        256,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig18",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF202020",
+      "atlas": [
+        464,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001D",
+      "palette": "FF202020",
+      "atlas": [
+        272,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001E",
+      "palette": "FF202020",
+      "atlas": [
+        288,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001F",
+      "palette": "FF202020",
+      "atlas": [
+        304,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0020",
+      "palette": "FF202020",
+      "atlas": [
+        320,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF202020",
+      "atlas": [
+        336,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig19",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF202020",
+      "atlas": [
+        352,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig20",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF202020",
+      "atlas": [
+        368,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig21",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF202020",
+      "atlas": [
+        384,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig22",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF202020",
+      "atlas": [
+        400,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig23",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002F",
+      "palette": "FF202020",
+      "atlas": [
+        416,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0030",
+      "palette": "FF202020",
+      "atlas": [
+        432,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0031",
+      "palette": "FF202020",
+      "atlas": [
+        448,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0032",
+      "palette": "FF202020",
+      "atlas": [
+        464,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF202020",
+      "atlas": [
+        480,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig24",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF202020",
+      "atlas": [
+        496,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig25",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF202020",
+      "atlas": [
+        0,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig26",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF202020",
+      "atlas": [
+        16,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig27",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig28",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF202020",
+      "atlas": [
+        32,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig29",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0027",
+      "palette": "FF202020",
+      "atlas": [
+        48,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0028",
+      "palette": "FF202020",
+      "atlas": [
+        64,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0029",
+      "palette": "FF202020",
+      "atlas": [
+        80,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002A",
+      "palette": "FF202020",
+      "atlas": [
+        96,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF202020",
+      "atlas": [
+        112,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig30&bossCopy0_FF202020_randySig0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF202020",
+      "atlas": [
+        128,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig2&bossCopy0_FF202020_randySig31",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF202020",
+      "atlas": [
+        144,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig32",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig4",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF202020",
+      "atlas": [
+        176,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig33",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF202020",
+      "atlas": [
+        192,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig6",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF202020",
+      "atlas": [
+        208,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig34",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF202020",
+      "atlas": [
+        352,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF202020",
+      "atlas": [
+        224,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig35",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF202020",
+      "atlas": [
+        368,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF202020",
+      "atlas": [
+        240,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig36",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF202020",
+      "atlas": [
+        384,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF202020",
+      "atlas": [
+        256,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig37",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF202020",
+      "atlas": [
+        400,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF202020",
+      "atlas": [
+        272,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig38",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF202020",
+      "atlas": [
+        480,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF202020",
+      "atlas": [
+        288,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig39",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF202020",
+      "atlas": [
+        496,
+        128
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF202020",
+      "atlas": [
+        304,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig40",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF202020",
+      "atlas": [
+        0,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF202020",
+      "atlas": [
+        320,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig41",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF202020",
+      "atlas": [
+        16,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig42",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF202020",
+      "atlas": [
+        336,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig43",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF202020",
+      "atlas": [
+        32,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig44",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF202020",
+      "atlas": [
+        352,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig45",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003D",
+      "palette": "FF202020",
+      "atlas": [
+        368,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003E",
+      "palette": "FF202020",
+      "atlas": [
+        384,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003F",
+      "palette": "FF202020",
+      "atlas": [
+        400,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF202020",
+      "atlas": [
+        416,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig30&bossCopy0_FF202020_randySig46",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF202020",
+      "atlas": [
+        432,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig47&bossCopy0_FF202020_randySig31",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF202020",
+      "atlas": [
+        448,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig48",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF202020",
+      "atlas": [
+        144,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF202020",
+      "atlas": [
+        464,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig49",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF202020",
+      "atlas": [
+        480,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig50",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF202020",
+      "atlas": [
+        176,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF202020",
+      "atlas": [
+        496,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig51",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF202020",
+      "atlas": [
+        192,
+        144
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF202020",
+      "atlas": [
+        0,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig34",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF202020",
+      "atlas": [
+        16,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig35",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF202020",
+      "atlas": [
+        32,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig52",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF202020",
+      "atlas": [
+        48,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig36",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF202020",
+      "atlas": [
+        64,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig37",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF202020",
+      "atlas": [
+        80,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig46&bossCopy0_FF202020_randySig1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF202020",
+      "atlas": [
+        272,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF202020",
+      "atlas": [
+        96,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig47&bossCopy0_FF202020_randySig3",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF202020",
+      "atlas": [
+        288,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF202020",
+      "atlas": [
+        112,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig49",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF202020",
+      "atlas": [
+        304,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF202020",
+      "atlas": [
+        128,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig50",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF202020",
+      "atlas": [
+        320,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF202020",
+      "atlas": [
+        144,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig51",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF202020",
+      "atlas": [
+        336,
+        112
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF202020",
+      "atlas": [
+        160,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig7",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF202020",
+      "atlas": [
+        0,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF202020",
+      "atlas": [
+        176,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig8",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF202020",
+      "atlas": [
+        16,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF202020",
+      "atlas": [
+        192,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig53",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF202020",
+      "atlas": [
+        32,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF202020",
+      "atlas": [
+        208,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig9",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF202020",
+      "atlas": [
+        48,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF202020",
+      "atlas": [
+        224,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF202020_randySig10",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF202020",
+      "atlas": [
+        64,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF101010",
+      "atlas": [
+        240,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_0_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF101010",
+      "atlas": [
+        256,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_1_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF101010",
+      "atlas": [
+        272,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_2_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF101010",
+      "atlas": [
+        288,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_3_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF101010",
+      "atlas": [
+        304,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_4_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF101010",
+      "atlas": [
+        320,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_5_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0033",
+      "palette": "FF101010",
+      "atlas": [
+        336,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_6_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0034",
+      "palette": "FF101010",
+      "atlas": [
+        352,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_7_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0035",
+      "palette": "FF101010",
+      "atlas": [
+        368,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_0_8_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF101010",
+      "atlas": [
+        384,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_0_0&bossCopy0_FF101010_crouchCast0_1_0_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF101010",
+      "atlas": [
+        400,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_1_0&bossCopy0_FF101010_crouchCast0_1_1_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF101010",
+      "atlas": [
+        416,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_2_0&bossCopy0_FF101010_crouchCast0_1_2_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_3_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF101010",
+      "atlas": [
+        448,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_4_0&bossCopy0_FF101010_crouchCast0_1_4_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF101010",
+      "atlas": [
+        464,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_5_0&bossCopy0_FF101010_crouchCast0_1_5_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002F",
+      "palette": "FF101010",
+      "atlas": [
+        480,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_6_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0030",
+      "palette": "FF101010",
+      "atlas": [
+        496,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_7_0&bossCopy0_FF101010_crouchCast0_1_7_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0031",
+      "palette": "FF101010",
+      "atlas": [
+        0,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_8_0&bossCopy0_FF101010_crouchCast0_1_8_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0032",
+      "palette": "FF101010",
+      "atlas": [
+        16,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF101010_crouchCast0_1_9_0&bossCopy0_FF101010_crouchCast0_1_9_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF101010",
+      "atlas": [
+        32,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig0&bossCopy0_FF101010_randySig1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF101010",
+      "atlas": [
+        48,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig2&bossCopy0_FF101010_randySig3",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF101010",
+      "atlas": [
+        64,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig4",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF101010",
+      "atlas": [
+        80,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig5",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF101010",
+      "atlas": [
+        96,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig6",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF101010",
+      "atlas": [
+        112,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig7",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF101010",
+      "atlas": [
+        128,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig8",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF101010",
+      "atlas": [
+        144,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig9",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF101010",
+      "atlas": [
+        160,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig10",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF101010",
+      "atlas": [
+        176,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig11",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF101010",
+      "atlas": [
+        192,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig12",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF101010",
+      "atlas": [
+        208,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig13",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF101010",
+      "atlas": [
+        224,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig14",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000E",
+      "palette": "FF101010",
+      "atlas": [
+        240,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000F",
+      "palette": "FF101010",
+      "atlas": [
+        256,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0010",
+      "palette": "FF101010",
+      "atlas": [
+        272,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0011",
+      "palette": "FF101010",
+      "atlas": [
+        288,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0012",
+      "palette": "FF101010",
+      "atlas": [
+        304,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0013",
+      "palette": "FF101010",
+      "atlas": [
+        320,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0014",
+      "palette": "FF101010",
+      "atlas": [
+        336,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0015",
+      "palette": "FF101010",
+      "atlas": [
+        352,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0016",
+      "palette": "FF101010",
+      "atlas": [
+        368,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0017",
+      "palette": "FF101010",
+      "atlas": [
+        384,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0018",
+      "palette": "FF101010",
+      "atlas": [
+        400,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0019",
+      "palette": "FF101010",
+      "atlas": [
+        416,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001A",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001B",
+      "palette": "FF101010",
+      "atlas": [
+        448,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001C",
+      "palette": "FF101010",
+      "atlas": [
+        464,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF101010",
+      "atlas": [
+        480,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig15",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF101010",
+      "atlas": [
+        176,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF101010",
+      "atlas": [
+        496,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig16",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF101010",
+      "atlas": [
+        192,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF101010",
+      "atlas": [
+        0,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig17",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF101010",
+      "atlas": [
+        208,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF101010",
+      "atlas": [
+        16,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig18",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF101010",
+      "atlas": [
+        224,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001D",
+      "palette": "FF101010",
+      "atlas": [
+        32,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001E",
+      "palette": "FF101010",
+      "atlas": [
+        48,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001F",
+      "palette": "FF101010",
+      "atlas": [
+        64,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0020",
+      "palette": "FF101010",
+      "atlas": [
+        80,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF101010",
+      "atlas": [
+        96,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig19",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF101010",
+      "atlas": [
+        112,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig20",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF101010",
+      "atlas": [
+        128,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig21",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF101010",
+      "atlas": [
+        144,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig22",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF101010",
+      "atlas": [
+        160,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig23",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002F",
+      "palette": "FF101010",
+      "atlas": [
+        176,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0030",
+      "palette": "FF101010",
+      "atlas": [
+        192,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0031",
+      "palette": "FF101010",
+      "atlas": [
+        208,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0032",
+      "palette": "FF101010",
+      "atlas": [
+        224,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF101010",
+      "atlas": [
+        240,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig24",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF101010",
+      "atlas": [
+        256,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig25",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF101010",
+      "atlas": [
+        272,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig26",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF101010",
+      "atlas": [
+        288,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig27",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig28",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF101010",
+      "atlas": [
+        304,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig29",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0027",
+      "palette": "FF101010",
+      "atlas": [
+        320,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0028",
+      "palette": "FF101010",
+      "atlas": [
+        336,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0029",
+      "palette": "FF101010",
+      "atlas": [
+        352,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002A",
+      "palette": "FF101010",
+      "atlas": [
+        368,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF101010",
+      "atlas": [
+        384,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig30&bossCopy0_FF101010_randySig0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF101010",
+      "atlas": [
+        400,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig2&bossCopy0_FF101010_randySig31",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF101010",
+      "atlas": [
+        416,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig32",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig4",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF101010",
+      "atlas": [
+        448,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig33",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF101010",
+      "atlas": [
+        464,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig6",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF101010",
+      "atlas": [
+        480,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig34",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF101010",
+      "atlas": [
+        112,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF101010",
+      "atlas": [
+        496,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig35",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF101010",
+      "atlas": [
+        128,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF101010",
+      "atlas": [
+        0,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig36",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF101010",
+      "atlas": [
+        144,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF101010",
+      "atlas": [
+        16,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig37",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF101010",
+      "atlas": [
+        160,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF101010",
+      "atlas": [
+        32,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig38",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF101010",
+      "atlas": [
+        240,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF101010",
+      "atlas": [
+        48,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig39",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF101010",
+      "atlas": [
+        256,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF101010",
+      "atlas": [
+        64,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig40",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF101010",
+      "atlas": [
+        272,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF101010",
+      "atlas": [
+        80,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig41",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF101010",
+      "atlas": [
+        288,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig42",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF101010",
+      "atlas": [
+        96,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig43",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF101010",
+      "atlas": [
+        304,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig44",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF101010",
+      "atlas": [
+        112,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig45",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        160
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003D",
+      "palette": "FF101010",
+      "atlas": [
+        128,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003E",
+      "palette": "FF101010",
+      "atlas": [
+        144,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003F",
+      "palette": "FF101010",
+      "atlas": [
+        160,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF101010",
+      "atlas": [
+        176,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig30&bossCopy0_FF101010_randySig46",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF101010",
+      "atlas": [
+        192,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig47&bossCopy0_FF101010_randySig31",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF101010",
+      "atlas": [
+        208,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig48",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF101010",
+      "atlas": [
+        416,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF101010",
+      "atlas": [
+        224,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig49",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF101010",
+      "atlas": [
+        240,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig50",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF101010",
+      "atlas": [
+        448,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF101010",
+      "atlas": [
+        256,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig51",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF101010",
+      "atlas": [
+        464,
+        192
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF101010",
+      "atlas": [
+        272,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig34",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF101010",
+      "atlas": [
+        288,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig35",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF101010",
+      "atlas": [
+        304,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig52",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF101010",
+      "atlas": [
+        320,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig36",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF101010",
+      "atlas": [
+        336,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig37",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF101010",
+      "atlas": [
+        352,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig46&bossCopy0_FF101010_randySig1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF101010",
+      "atlas": [
+        32,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF101010",
+      "atlas": [
+        368,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig47&bossCopy0_FF101010_randySig3",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF101010",
+      "atlas": [
+        48,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF101010",
+      "atlas": [
+        384,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig49",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF101010",
+      "atlas": [
+        64,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF101010",
+      "atlas": [
+        400,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig50",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF101010",
+      "atlas": [
+        80,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF101010",
+      "atlas": [
+        416,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig51",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF101010",
+      "atlas": [
+        96,
+        176
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF101010",
+      "atlas": [
+        432,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig7",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF101010",
+      "atlas": [
+        272,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF101010",
+      "atlas": [
+        448,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig8",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF101010",
+      "atlas": [
+        288,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF101010",
+      "atlas": [
+        464,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig53",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF101010",
+      "atlas": [
+        304,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF101010",
+      "atlas": [
+        480,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig9",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF101010",
+      "atlas": [
+        320,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF101010",
+      "atlas": [
+        496,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF101010_randySig10",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF101010",
+      "atlas": [
+        336,
+        208
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF000000",
+      "atlas": [
+        304,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_0_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF000000",
+      "atlas": [
+        320,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_1_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF000000",
+      "atlas": [
+        336,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_2_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF000000",
+      "atlas": [
+        352,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_3_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF000000",
+      "atlas": [
+        368,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_4_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF000000",
+      "atlas": [
+        384,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_5_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0033",
+      "palette": "FF000000",
+      "atlas": [
+        400,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_6_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0034",
+      "palette": "FF000000",
+      "atlas": [
+        416,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_7_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0035",
+      "palette": "FF000000",
+      "atlas": [
+        432,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_0_8_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF000000",
+      "atlas": [
+        448,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_0_0&bossCopy0_FF000000_crouchCast0_1_0_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF000000",
+      "atlas": [
+        464,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_1_0&bossCopy0_FF000000_crouchCast0_1_1_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF000000",
+      "atlas": [
+        480,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_2_0&bossCopy0_FF000000_crouchCast0_1_2_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_3_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF000000",
+      "atlas": [
+        0,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_4_0&bossCopy0_FF000000_crouchCast0_1_4_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF000000",
+      "atlas": [
+        16,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_5_0&bossCopy0_FF000000_crouchCast0_1_5_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002F",
+      "palette": "FF000000",
+      "atlas": [
+        32,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_6_0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0030",
+      "palette": "FF000000",
+      "atlas": [
+        48,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_7_0&bossCopy0_FF000000_crouchCast0_1_7_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0031",
+      "palette": "FF000000",
+      "atlas": [
+        64,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_8_0&bossCopy0_FF000000_crouchCast0_1_8_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0032",
+      "palette": "FF000000",
+      "atlas": [
+        80,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&!randyDefeated&bossCopy0_FF000000_crouchCast0_1_9_0&bossCopy0_FF000000_crouchCast0_1_9_1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF000000",
+      "atlas": [
+        96,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig0&bossCopy0_FF000000_randySig1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF000000",
+      "atlas": [
+        112,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig2&bossCopy0_FF000000_randySig3",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF000000",
+      "atlas": [
+        128,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig4",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF000000",
+      "atlas": [
+        144,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig5",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF000000",
+      "atlas": [
+        160,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig6",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF000000",
+      "atlas": [
+        176,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig7",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF000000",
+      "atlas": [
+        192,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig8",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF000000",
+      "atlas": [
+        208,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig9",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF000000",
+      "atlas": [
+        224,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig10",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF000000",
+      "atlas": [
+        240,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig11",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF000000",
+      "atlas": [
+        256,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig12",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF000000",
+      "atlas": [
+        272,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig13",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF000000",
+      "atlas": [
+        288,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig14",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000E",
+      "palette": "FF000000",
+      "atlas": [
+        304,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000F",
+      "palette": "FF000000",
+      "atlas": [
+        320,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0010",
+      "palette": "FF000000",
+      "atlas": [
+        336,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0011",
+      "palette": "FF000000",
+      "atlas": [
+        352,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0012",
+      "palette": "FF000000",
+      "atlas": [
+        368,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0013",
+      "palette": "FF000000",
+      "atlas": [
+        384,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0014",
+      "palette": "FF000000",
+      "atlas": [
+        400,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0015",
+      "palette": "FF000000",
+      "atlas": [
+        416,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0016",
+      "palette": "FF000000",
+      "atlas": [
+        432,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0017",
+      "palette": "FF000000",
+      "atlas": [
+        448,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0018",
+      "palette": "FF000000",
+      "atlas": [
+        464,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0019",
+      "palette": "FF000000",
+      "atlas": [
+        480,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001A",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001B",
+      "palette": "FF000000",
+      "atlas": [
+        0,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001C",
+      "palette": "FF000000",
+      "atlas": [
+        16,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF000000",
+      "atlas": [
+        32,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig15",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000A",
+      "palette": "FF000000",
+      "atlas": [
+        240,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF000000",
+      "atlas": [
+        48,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig16",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000B",
+      "palette": "FF000000",
+      "atlas": [
+        256,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF000000",
+      "atlas": [
+        64,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig17",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000C",
+      "palette": "FF000000",
+      "atlas": [
+        272,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF000000",
+      "atlas": [
+        80,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig18",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "000D",
+      "palette": "FF000000",
+      "atlas": [
+        288,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001D",
+      "palette": "FF000000",
+      "atlas": [
+        96,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001E",
+      "palette": "FF000000",
+      "atlas": [
+        112,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "001F",
+      "palette": "FF000000",
+      "atlas": [
+        128,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0020",
+      "palette": "FF000000",
+      "atlas": [
+        144,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF000000",
+      "atlas": [
+        160,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig19",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF000000",
+      "atlas": [
+        176,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig20",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF000000",
+      "atlas": [
+        192,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig21",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF000000",
+      "atlas": [
+        208,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig22",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF000000",
+      "atlas": [
+        224,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig23",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002F",
+      "palette": "FF000000",
+      "atlas": [
+        240,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0030",
+      "palette": "FF000000",
+      "atlas": [
+        256,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0031",
+      "palette": "FF000000",
+      "atlas": [
+        272,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0032",
+      "palette": "FF000000",
+      "atlas": [
+        288,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF000000",
+      "atlas": [
+        304,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig24",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF000000",
+      "atlas": [
+        320,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig25",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF000000",
+      "atlas": [
+        336,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig26",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF000000",
+      "atlas": [
+        352,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig27",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig28",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF000000",
+      "atlas": [
+        368,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig29",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0027",
+      "palette": "FF000000",
+      "atlas": [
+        384,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0028",
+      "palette": "FF000000",
+      "atlas": [
+        400,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0029",
+      "palette": "FF000000",
+      "atlas": [
+        416,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002A",
+      "palette": "FF000000",
+      "atlas": [
+        432,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF000000",
+      "atlas": [
+        448,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig30&bossCopy0_FF000000_randySig0",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF000000",
+      "atlas": [
+        464,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig2&bossCopy0_FF000000_randySig31",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF000000",
+      "atlas": [
+        480,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig32",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig4",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF000000",
+      "atlas": [
+        0,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig33",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF000000",
+      "atlas": [
+        16,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig6",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF000000",
+      "atlas": [
+        32,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig34",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0006",
+      "palette": "FF000000",
+      "atlas": [
+        176,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF000000",
+      "atlas": [
+        48,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig35",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0007",
+      "palette": "FF000000",
+      "atlas": [
+        192,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF000000",
+      "atlas": [
+        64,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig36",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0008",
+      "palette": "FF000000",
+      "atlas": [
+        208,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF000000",
+      "atlas": [
+        80,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig37",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0009",
+      "palette": "FF000000",
+      "atlas": [
+        224,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF000000",
+      "atlas": [
+        96,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig38",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0021",
+      "palette": "FF000000",
+      "atlas": [
+        304,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF000000",
+      "atlas": [
+        112,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig39",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0022",
+      "palette": "FF000000",
+      "atlas": [
+        320,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF000000",
+      "atlas": [
+        128,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig40",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0023",
+      "palette": "FF000000",
+      "atlas": [
+        336,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF000000",
+      "atlas": [
+        144,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig41",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0024",
+      "palette": "FF000000",
+      "atlas": [
+        352,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig42",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0025",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF000000",
+      "atlas": [
+        160,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig43",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0026",
+      "palette": "FF000000",
+      "atlas": [
+        368,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig44",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF000000",
+      "atlas": [
+        176,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig45",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003B",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        272
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003D",
+      "palette": "FF000000",
+      "atlas": [
+        192,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003E",
+      "palette": "FF000000",
+      "atlas": [
+        208,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003F",
+      "palette": "FF000000",
+      "atlas": [
+        224,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF000000",
+      "atlas": [
+        240,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig30&bossCopy0_FF000000_randySig46",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF000000",
+      "atlas": [
+        256,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig47&bossCopy0_FF000000_randySig31",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF000000",
+      "atlas": [
+        272,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig48",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002B",
+      "palette": "FF000000",
+      "atlas": [
+        480,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF000000",
+      "atlas": [
+        288,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig49",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002C",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        304
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF000000",
+      "atlas": [
+        304,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig50",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002D",
+      "palette": "FF000000",
+      "atlas": [
+        0,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF000000",
+      "atlas": [
+        320,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig51",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "002E",
+      "palette": "FF000000",
+      "atlas": [
+        16,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF000000",
+      "atlas": [
+        336,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig34",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF000000",
+      "atlas": [
+        352,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig35",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF000000",
+      "atlas": [
+        368,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig52",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF000000",
+      "atlas": [
+        384,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig36",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF000000",
+      "atlas": [
+        400,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig37",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF000000",
+      "atlas": [
+        416,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig46&bossCopy0_FF000000_randySig1",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0001",
+      "palette": "FF000000",
+      "atlas": [
+        96,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF000000",
+      "atlas": [
+        432,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig47&bossCopy0_FF000000_randySig3",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0002",
+      "palette": "FF000000",
+      "atlas": [
+        112,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF000000",
+      "atlas": [
+        448,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig49",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0003",
+      "palette": "FF000000",
+      "atlas": [
+        128,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF000000",
+      "atlas": [
+        464,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig50",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0004",
+      "palette": "FF000000",
+      "atlas": [
+        144,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF000000",
+      "atlas": [
+        480,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig51",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0005",
+      "palette": "FF000000",
+      "atlas": [
+        160,
+        288
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF000000",
+      "atlas": [
+        496,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig7",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0036",
+      "palette": "FF000000",
+      "atlas": [
+        336,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF000000",
+      "atlas": [
+        0,
+        336
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig8",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0037",
+      "palette": "FF000000",
+      "atlas": [
+        352,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF000000",
+      "atlas": [
+        16,
+        336
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig53",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0038",
+      "palette": "FF000000",
+      "atlas": [
+        368,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF000000",
+      "atlas": [
+        32,
+        336
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig9",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "0039",
+      "palette": "FF000000",
+      "atlas": [
+        384,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF000000",
+      "atlas": [
+        48,
+        336
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&bossCopy0_FF000000_randySig10",
+      "kind": "Randy pre-announcement fade"
+    },
+    {
+      "identity": "003A",
+      "palette": "FF000000",
+      "atlas": [
+        400,
+        320
+      ],
+      "scope": "blizzardDataLo&blizzardDataHi&randyDefeated",
+      "kind": "Randy pre-announcement fade"
     }
   ],
   "collision_modified": false,
@@ -12449,5 +16799,12 @@
   "menu_glyphs": {
     "0964": "R",
     "0965": "D"
+  },
+  "ascent_backdrop": "Blizzard_Ascent_Background.png",
+  "ascent_backdrop_repeat_rows": 3,
+  "pre_announcement_fade": {
+    "FF202020": 255,
+    "FF101010": 173,
+    "FF000000": 102
   }
 }

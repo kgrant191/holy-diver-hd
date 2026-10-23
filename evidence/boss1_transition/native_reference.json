@@ -1,0 +1,11 @@
+{
+  "state_sha256": "f7470adbc882bac7158a8b54332c5d887e4605e07b1f001d774f9359da042b3c",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "controller_route": "left=frame>=380 and frame<790,a=frame>=722 and frame<750,start=(frame>=1830 and frame<1834)or(frame>=2130 and frame<2134),down=frame>=1960 and frame<1964,up=frame>=2040 and frame<2044",
+  "emulator": "MesenCE 2.2.1",
+  "hd_packs_enabled": false,
+  "ram_writes": false,
+  "frames": 2300,
+  "reference_frame": 1000,
+  "description": "Original repeating bell-room foreground and continuous native background during the ascent."
+}

@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.3.1 — review candidate, 2026-10-23
+## 0.3.2 — review candidate, 2026-10-23
+
+- Extended the Blizzard-room backdrop through the complete native vertical scroll. It repeats the approved masonry exactly, filling the black gaps behind the original bell and ornaments.
+- Added the three missing bank-00 fade palettes so Randy retains the approved HD silhouette immediately before the spell announcement, in both directions and after either costume.
+- Preserved all prior atlas cells, foreground artwork, native room repeats, white flashes, gameplay and audio. The confirmed fireball repair remains intact.
+- Added one backdrop for 79 root pack files. Main remains approved 0.2.1; the bundle includes all unmerged boss work.
+
+## 0.3.1 — superseded review candidate, 2026-10-23
 
 - Fixed the Blizzard pause menu's alternate R and D tile identities with the existing HD font, including both spell selections and pause/resume.
 - Enabled Mesen's supported `disableSpriteLimit` HD-pack option. The boss fireball no longer loses alternate halves when boss/player sprites crowd its scanlines. This rendering option applies throughout the loaded pack; native sprites and hit flashes keep their original positions and timing.
