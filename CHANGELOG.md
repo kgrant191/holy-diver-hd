@@ -1,11 +1,12 @@
 # Changelog
 
-## 0.1.1 — review candidate, 2026-10-23
+## 0.1.1 — approved 2026-10-23
 
 - Redrew both standing ghoul poses with crisp pixel clusters and pose-specific mappings. All four rolling frames retain their exact 0.1.0 pixels.
 - Added complete crouching spell wind-up/release sprites in both normal and Twin Fire palettes, for both native directions. Shared mappings fix the fallback across matching gameplay identities.
 - Used spare cells in the existing atlases, retaining all ten earlier Randy poses. Pack remains 73 root files with no nested archive.
-- Added controller-driven live checks and paired gameplay/audio comparisons; approval remains pending on the existing review branch. Main stays 0.0.2.
+- Added controller-driven live checks and paired gameplay/audio comparisons. Approved by the user in chat for adoption as the main baseline through PR #2.
+- Verified the pushed candidate Actions artifact: 73 root files, exact reviewed hashes, no nested ZIP. Approval bookkeeping changes only the pack README; all 72 other pack files remain identical to the reviewed candidate.
 
 ## 0.1.0 — superseded review candidate, 2026-10-23
 

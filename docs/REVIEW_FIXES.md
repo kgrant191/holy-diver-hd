@@ -1,6 +1,6 @@
 # 0.1.1 review corrections
 
-The user's 0.1.0 review identified a blurry standing purple ghoul and Randy reverting to original sprites while crouching and firing either normal fire or Twin Fire. This candidate repairs those two issues on `feature/screen-1-3`; main remains approved 0.0.2 and PR #2 remains unmerged.
+The user's 0.1.0 review identified a blurry standing purple ghoul and Randy reverting to original sprites while crouching and firing either normal fire or Twin Fire. Version 0.1.1 repairs those two issues on `feature/screen-1-3`; the user approved it in chat on 2026-10-23 for merge through PR #2.
 
 ## Native identities and registration
 
@@ -44,4 +44,6 @@ Live screenshots are under `evidence/review_fixes/`; raw frames, dumps and audio
 
 ## Transfer and approval
 
-The downloadable incremental bundle is based on f2c51e46fc78a18378a3301550332695e16dea3a, the already-pushed 0.1.0 candidate. The user fetches the bundle and pushes its feature ref. Then verify GitHub's feature head, update PR #2 to the 0.1.1 scope and inspect the actual Actions archive: 73 root files, exact SHA-256 manifest, no nested ZIP. Do not merge main or publish a release without explicit approval.
+The user pushed the incremental bundle to commit `2251a0419f6cf6e6b832dcac84ebf8ac49662357` and approved 0.1.1 in chat on 2026-10-23. Actions run 39893523922 passed. Its downloaded artifact 12476135517 contains exactly 73 root files matching the reviewed manifest, with valid CRCs and no nested ZIP. See `evidence/review_fixes/reviewed_actions.json`.
+
+Approval bookkeeping updates documentation and the installed README only. All 72 other pack files remain byte-identical to the approved candidate. The reviewed manifest is retained as `evidence/0.1.1-reviewed-pack-sha256.json`; `evidence/approved-pack-sha256.json` describes the approved installation text. PR #2 adopts this approved version as main. No release tag or GitHub Release is authorized.

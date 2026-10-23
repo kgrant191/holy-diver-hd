@@ -85,7 +85,7 @@ python scripts/run_screen1_3_regression.py --mesen /path/to/Mesen --rom '/path/t
 python scripts/verify_screen1_3_regression.py --before work/screen1_3/regression-before --after work/screen1_3/regression-after --out evidence/screen1_3/regression.json
 ```
 
-The regression verifier requires identical screenshots as well as memory/audio. The final Actions artifact must contain exactly the 73 expected pack files at its root and no nested ZIP. `approved-pack-sha256.json` retains its historical name; on this feature branch it describes the tested 0.1.0 candidate. User approval is recorded separately in STATUS.md.
+The regression verifier requires identical screenshots as well as memory/audio. The final Actions artifact must contain exactly the 73 expected pack files at its root and no nested ZIP. `approved-pack-sha256.json` retains its historical name; it now describes approved 0.1.1. The reviewed pre-approval pack is retained as `0.1.1-reviewed-pack-sha256.json`; only its README changes during approval bookkeeping. User approval is recorded in STATUS.md.
 
 ## 0.1.1 review fixes
 

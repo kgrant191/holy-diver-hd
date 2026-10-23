@@ -1,8 +1,8 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.1.1. Approved main: 0.0.2.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved development version: 0.1.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
-The 0.1.1 candidate sharpens the standing ghoul and covers both crouching attack phases for normal/Twin Fire Randy. Its 0.1.0 base adds the third chapel section, with a solid masonry backdrop, stained-glass windows, reinforced blocks, a gold serpent ornament, a six-pose rolling ghoul and two-pose blue flying skulls. Includes the entrance and screen-2 overhaul, shared Randy/weapon art, bracelet pickup and pause icon, defeat effects, and stage/lives cards. The rest of the game remains work in progress.
+Version 0.1.1 sharpens the standing ghoul and covers both crouching attack phases for normal/Twin Fire Randy. Its 0.1.0 base adds the third chapel section, with a solid masonry backdrop, stained-glass windows, reinforced blocks, a gold serpent ornament, a six-pose rolling ghoul and two-pose blue flying skulls. Includes the entrance and screen-2 overhaul, shared Randy/weapon art, bracelet pickup and pause icon, defeat effects, and stage/lives cards. The rest of the game remains work in progress.
 
 ![Randy arm repair in actual Mesen captures](evidence/arm_repair/Holy_Diver_v15_Comparison.png)
 

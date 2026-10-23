@@ -1,0 +1,13 @@
+{
+  "commit": "2251a0419f6cf6e6b832dcac84ebf8ac49662357",
+  "run_id": 39893523922,
+  "artifact_id": 12476135517,
+  "run_url": "https://github.com/kgrant191/holy-diver-hd/actions/runs/39893523922",
+  "artifact_url": "https://github.com/kgrant191/holy-diver-hd/actions/runs/39893523922/artifacts/12476135517",
+  "file_count": 73,
+  "root_files_only": true,
+  "nested_zips": 0,
+  "crc_valid": true,
+  "all_sha256_match_reviewed_manifest": true,
+  "archive_sha256": "e02811a8114bd2e3d4174ea694ab7745a072175556022692e0e22a4da9f78861"
+}

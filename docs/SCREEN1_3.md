@@ -1,6 +1,6 @@
-# Third chapel section — 0.1.0 review candidate
+# Third chapel section — approved in 0.1.1
 
-Branch: `feature/screen-1-3`. Approval is pending in chat; approved main is 0.0.2. The three supplied states and their SHA-256 values are listed in test_states/README.md. State binaries and the supported ROM are excluded from Git.
+Developed on `feature/screen-1-3` and approved in chat on 2026-10-23 as part of 0.1.1 (PR #2). The three supplied states and their SHA-256 values are listed in test_states/README.md. State binaries and the supported ROM are excluded from Git.
 
 ## Native observations and registration
 
