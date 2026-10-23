@@ -2,21 +2,21 @@
 
 Updated: 2026-10-23 (UTC).
 
-## Active review branch
-
-`feature/screen1-4` builds **0.2.1**, revising the unapproved 0.2.0 candidate from the user's wall/1-up feedback. The 1-up is now a front-facing figurine in blue and ivory. One continuous Gothic facade replaces the disconnected half-arches, banded columns and stray gold fragment. The native shelf, tree, branches, roots, floor, enemies and mappings retain their exact 0.2.0 bytes/pixels. Main stays at **0.1.1** pending explicit approval.
-
-The new candidate changes only Tree_Court_Background.png, Tree_Court_Tiles_2x.png and README.txt relative to 0.2.0; 72 files remain byte-identical. The previous candidate's hashes are retained in 0.2.0-pack-sha256.json. The historical name approved-pack-sha256.json describes the current review candidate and is not an approval record. See docs/SCREEN1_4_REVIEW.md and evidence/screen1_4_review/ for the precise pixel scope, source prompts and live checks. Initial screen-addition evidence is retained under evidence/screen1_4/.
-
-Current live verification: 7,660 frames per build, 3,380 paired samples per memory type, exact APU events and equal-length identical PCM. Both pickup palettes award lives 3→4. Earlier title/crypt/nave regression has 468 identical screenshots; the previous-room transition adds 185 unchanged captures.
-
-The ZIP contains 75 installable root files and no nested ZIP. The incremental bundle includes both screen-1-4 commits relative to approved main `74bee5892050e417420002d7ddc6b86a4c045b8b`; the user does not need to push the earlier 0.2.0 bundle first. After the user pushes, open the review PR and download/verify the actual Actions artifact. No Actions verification, merge, release or tag is claimed for this local candidate.
-
 ## Current approved version
+
+**0.2.1**, approved by the user in chat on 2026-10-23 ("approved"). Reviewed commit: `ad0e91c4921648c3d67bb426feb41be519a60eb9` on `feature/screen1-4`. Preserve its screen-1-4 tree court, front-facing blue/ivory 1-up figurines, continuous Gothic wall and shared HD enemies as the accepted visual baseline.
+
+The user pushed the reviewed artwork commit to `feature/screen1-4`. [PR #3](https://github.com/kgrant191/holy-diver-hd/pull/3) tracks adoption and the actual Actions artifact verification. Text-only approval bookkeeping is applied through the GitHub integration; no new binary push is required. Verify the PR's current artifact against the approved manifest before merging. No release tag or GitHub Release is requested.
+
+Approval bookkeeping changes only README.txt in the installed pack. All 74 runtime files remain byte-identical to the approved review. `0.2.1-reviewed-pack-sha256.json` preserves the reviewed bytes; `approved-pack-sha256.json` describes the build with approved installation text. Historical reports and captures remain unchanged. See evidence/screen1_4_review/approval.json for the bookkeeping check.
+
+Live verification of the approved art: 7,660 frames per build, 3,380 paired samples per memory type, exact APU events and equal-length identical PCM. Both pickup palettes award lives 3→4. Earlier title/crypt/nave regression has 468 identical screenshots; the previous-room transition adds 185 unchanged captures. The pack has 75 root files and no nested ZIP. The actual Actions artifact check is recorded in PR #3.
+
+## Previous approved version
 
 **0.1.1**, approved by the user in chat on 2026-10-23 ("approved. pushed") for adoption through PR #2. It adds the third chapel section, sharpens the standing purple ghoul while retaining the rolling frames, and supplies both crouching attack phases in normal/Twin Fire colors and both directions. No release tag or GitHub Release is published.
 
-The pushed candidate is `2251a0419f6cf6e6b832dcac84ebf8ac49662357`. Actions run 39893523922 passed; its actual downloaded artifact contains 73 root files with all reviewed hashes matching and no nested ZIP. Approval bookkeeping changes only README.txt in the installed pack. All 72 other files remain identical. `evidence/0.1.1-reviewed-pack-sha256.json` preserves the reviewed bytes and `evidence/approved-pack-sha256.json` records the approved installation text.
+The pushed candidate is `2251a0419f6cf6e6b832dcac84ebf8ac49662357`. Actions run 39893523922 passed; its actual downloaded artifact contains 73 root files with all reviewed hashes matching and no nested ZIP. Approval bookkeeping changes only README.txt in the installed pack. All 72 other files remain identical. `evidence/0.1.1-reviewed-pack-sha256.json` preserves the reviewed bytes and `evidence/0.1.1-pack-sha256.json` retains its approved installation bytes.
 
 ## Previous approved version
 

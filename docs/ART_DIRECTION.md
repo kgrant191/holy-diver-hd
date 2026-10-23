@@ -18,6 +18,6 @@ Use a solid navy masonry nave wall so the native emerald/ruby windows read as in
 
 New source art and generation briefs are in art/generated/screen1_3_*.png and docs/SCREEN1_3.md. Registration is deterministic in scripts/build_screen1_3.py. The standing ghoul refinements and missing crouch attacks are documented in docs/REVIEW_FIXES.md. Other earlier approved poses remain unchanged.
 
-## Fourth section tree court (0.2.1 candidate)
+## Fourth section tree court (approved 0.2.1)
 
 Reuse the approved entrance tree, branches, roots, gold ground and distant ruins. Register these to native tiles so every platform follows the original layout. The left masonry uses a continuous aged-gold facade with complete Gothic arches and dark navy inset stone. Nonsolid decorative tiles are cleared; the shelf remains bound to its native tiles. Preserve the moon’s castle occlusion. The 1-up is an 8×16-native front-facing Randy doll/statue on a small bronze base, with blue and ivory variants. Enemies reuse the approved sharp standing and rolling sprites. See SCREEN1_4.md and SCREEN1_4_REVIEW.md for source provenance.

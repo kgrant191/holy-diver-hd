@@ -26,27 +26,27 @@
   },
   "after/pickup": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   },
   "after/descent": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   },
   "after/normal_pickup": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   },
   "after/left_transition": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   },
   "after/ledge": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   },
   "regression_before/title": {
@@ -66,17 +66,17 @@
   },
   "regression_after/title": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   },
   "regression_after/enemy": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   },
   "nave_after/state1": {
     "installed_files": 75,
-    "manifest": "approved-pack-sha256.json",
+    "manifest": "0.2.1-reviewed-pack-sha256.json",
     "all_hashes_match": true
   }
 }

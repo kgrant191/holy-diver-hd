@@ -130,3 +130,7 @@ Earlier title/reset, crypt combat and nave: 2,880 frames, 990 identical samples 
 The first baseline left-transition audio capture ended early while its memory/frame capture completed. It was retained locally as an excluded capture and that one unchanged route was repeated. The replacement capture passes the original exact audio checks; no tolerance was relaxed. All other accepted cases are from the original paired runs.
 
 The rebuilt pack matches all 75 expected hashes. Pixel checks confirm changes are limited to the decorative wall rectangle, 46 cleared wall cells and four figurine cells. All other pixels, native shelf cells, mapping bytes and the IPS are unchanged. Actual gameplay comparisons and reports are in evidence/screen1_4_review/. Main remains approved 0.1.1.
+
+## 0.2.1 approval bookkeeping
+
+User approval received on 2026-10-23 for reviewed commit ad0e91c4921648c3d67bb426feb41be519a60eb9. Only README.txt changes to mark the approved build; all 74 runtime files retain the reviewed hashes. Existing live verification remains applicable. The user pushed the reviewed branch. PR #3 tracks the actual Actions artifact check and main adoption.

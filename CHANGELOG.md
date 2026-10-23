@@ -1,11 +1,12 @@
 # Changelog
 
-## 0.2.1 — screen 1-4 review correction, 2026-10-23
+## 0.2.1 — approved 2026-10-23
 
 - Replaced the sideways miniature Randy pickup with a front-facing figurine on a bronze base in normal and Twin Fire colors.
 - Replaced fragmented wall decoration with one continuous Gothic facade: complete arches, joined columns and coherent masonry down to the floor.
 - Preserved all native platform pixels, tree/ground art, enemy art, mappings, gameplay and audio. Only two runtime PNGs and README.txt change; the pack still has 75 root files.
-- Added bounded pixel checks and repeated the live pickup/descent/edge/transition and earlier-room regressions. Main remains approved 0.1.1.
+- Added bounded pixel checks and repeated the live pickup/descent/edge/transition and earlier-room regressions.
+- Approved by the user in chat. Approval bookkeeping changes only README.txt; all 74 runtime files match the reviewed candidate. The artwork was pushed to feature/screen1-4; adoption and Actions artifact verification are tracked in PR #3.
 
 ## 0.2.0 — superseded screen 1-4 review candidate, 2026-10-23
 

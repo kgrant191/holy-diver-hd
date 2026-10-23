@@ -1,4 +1,4 @@
-# Screen 1-4 wall and 1-up revision — 0.2.1 candidate
+# Screen 1-4 wall and 1-up revision — approved 0.2.1
 
 User feedback on 0.2.0: the 1-up should be a front-facing doll or statue, and the left walls looked strange in the supplied screenshots. The screenshots showed half-arches, banded column joins, small repeating brickwork and a disconnected gold fragment near the lower wall.
 
@@ -8,7 +8,7 @@ The 1-up is now a front-facing Randy figurine on a bronze base, with blue and iv
 
 The decorative wall is now one continuous facade with three complete pointed arches and joined stone columns. It occupies HD X0–224/Y0–896 behind the native shelf, ending at the floor. The first bay is registered to end at Y224, beneath the shelf's top. Its 32-pixel setback leaves the native shelf edge visible. Only the 46 nonsolid masonry atlas cells are cleared. The four actual shelf cells, tree, branches, roots and ground retain their exact 0.2.0 pixels and native tile bindings.
 
-Only three installed files differ from 0.2.0: Tree_Court_Background.png, Tree_Court_Tiles_2x.png and README.txt. All mappings, condition ordering, other atlases and the IPS remain byte-identical. The package still contains 75 root files with no nested ZIP. `0.2.0-pack-sha256.json` retains the previous candidate; `approved-pack-sha256.json` describes this review candidate, not user approval. Main remains approved 0.1.1.
+Only three installed files differ from 0.2.0: Tree_Court_Background.png, Tree_Court_Tiles_2x.png and README.txt. All mappings, condition ordering, other atlases and the IPS remain byte-identical. The package still contains 75 root files with no nested ZIP. `0.2.0-pack-sha256.json` retains the previous candidate; `0.2.1-reviewed-pack-sha256.json` preserves the exact approved review; `approved-pack-sha256.json` includes approved installation text. User approval was received on 2026-10-23. Adoption and the actual Actions check are tracked in [PR #3](https://github.com/kgrant191/holy-diver-hd/pull/3).
 
 ## Source art
 
@@ -44,8 +44,10 @@ Earlier title/reset, crypt combat and nave: 2,880 frames, 990 identical samples 
 
 The first baseline left-transition audio capture ended early while its memory/frame capture completed. It was retained locally as an excluded capture and that one unchanged route was repeated. The replacement capture passes the original exact audio checks; no tolerance was relaxed. All other accepted cases are from the original paired runs.
 
-The rebuilt pack matches all 75 expected hashes. Pixel checks confirm changes are limited to the decorative wall rectangle, 46 cleared wall cells and four figurine cells. All other pixels, native shelf cells, mapping bytes and the IPS are unchanged. Actual gameplay comparisons and reports are in evidence/screen1_4_review/. Main remains approved 0.1.1.
+The rebuilt pack matches all 75 expected hashes. Pixel checks confirm changes are limited to the decorative wall rectangle, 46 cleared wall cells and four figurine cells. All other pixels, native shelf cells, mapping bytes and the IPS are unchanged. Actual gameplay comparisons and reports are in evidence/screen1_4_review/. The approved runtime art is unchanged by the approval bookkeeping.
 
-## Handoff
+## Adoption
 
-The ZIP-wrapped incremental bundle includes the initial screen-1-4 commit and this correction, based on main `74bee5892050e417420002d7ddc6b86a4c045b8b`. The earlier 0.2.0 bundle is not required. After the user pushes `feature/screen1-4`, open the review PR and verify the actual Actions artifact contains all 75 files at its root with matching hashes and no nested ZIP. No merge, release or tag is authorized by this revision.
+The user approved 0.2.1 on 2026-10-23 and pushed reviewed commit `ad0e91c4921648c3d67bb426feb41be519a60eb9` to `feature/screen1-4`. [PR #3](https://github.com/kgrant191/holy-diver-hd/pull/3) tracks adoption and the actual Actions artifact check. Verify its current artifact contains all 75 files at the root, matching the approved manifest, with no nested ZIP before merging. No release or tag was requested.
+
+Approval bookkeeping changes only the installed README.txt. All 74 runtime files are identical to the live-tested reviewed candidate, so the existing gameplay evidence remains applicable. `0.2.1-reviewed-pack-sha256.json` preserves the exact reviewed bytes; `approved-pack-sha256.json` records the approved installation text.
