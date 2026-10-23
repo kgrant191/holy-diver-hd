@@ -4,7 +4,9 @@ Updated: 2026-10-23 (UTC).
 
 ## Current review candidate
 
-**0.3.2** on `feature/1-boss`, based on approved main `2427afd4739f273bf527810edcfae93e6592e344`. The user requested the first boss and supplied three states covering entry, crouched fire and defeat. Main remains **0.2.1**. Do not merge or publish a release without the user's approval.
+**0.3.3** on `feature/1-boss`, based on approved main `2427afd4739f273bf527810edcfae93e6592e344`. The user requested the first boss and supplied three states covering entry, crouched fire and defeat. Main remains **0.2.1**. Do not merge or publish a release without the user's approval.
+
+The user confirmed the 0.3.2 transition fix and then reported a missing standing toe in both directions; crouching was correct. The 0.3.3 repair replaces only the forward lower boot in idle pose 0, fitting the complete shape inside the native sprite area for both costumes. All other poses and the entire mapping file stay exact. See `docs/RANDY_FOOT.md`.
 
 The user confirmed the 0.3.1 fireball fix. The 0.3.2 transition repair extends the bell-room backdrop through the complete native vertical wrap and adds the missing bank-00 white/gray fade palettes for Randy. The repeated bell and ornaments occur in the original sequence; the HD backdrop previously ended beneath them. See `docs/BOSS1_TRANSITION.md`. Full boss-feature approval is still pending.
 
@@ -12,13 +14,15 @@ The 0.3.1 review repair fixes the Blizzard menu's R/D font fallback and enables 
 
 Candidate art covers the six native boss poses in both directions, hit-palette flashes, the native 36-tile progressive disappearance, the organ hall, Blizzard bell chamber, spell pickup, ascent and announcement. The Stage 2 title/lives card is now verified in live play. Known Randy/HUD copies in the announcement and Stage 2 graphics banks reuse the approved art. Stage 2 scenery/enemies remain future work.
 
-The pack contains 79 root files. Only hires.txt and README.txt change among the 75 approved files; 73 existing runtime files stay exact. Four PNGs are added. The old expected manifest is retained as `evidence/0.2.1-pack-sha256.json`. The historical `approved-pack-sha256.json` filename describes the candidate on this branch, not approval. See `docs/BOSS1.md` and `evidence/boss1/verification.json` for reproduction and coverage.
+The pack contains 79 root files. The requested standing-foot repair also changes the two Randy atlases. Along with hires.txt and README.txt, these are the only changed files among the 75 main-baseline files; 71 existing runtime files stay exact. Four PNGs are added. The old expected manifest is retained as `evidence/0.2.1-pack-sha256.json`. The historical `approved-pack-sha256.json` filename describes the candidate on this branch, not approval. See `docs/BOSS1.md` and `evidence/boss1/verification.json` for reproduction and coverage.
 
 Initial 0.3.0 live checks passed: 11,030 frames per build, 9,500 paired RAM/PPU/OAM samples per type, identical APU events and common PCM. Earlier-room regression has 1,470 identical screenshots; the unchanged Stage 2 card adds 184. Two runs have one shutdown-buffer audio-tail difference, documented in the reports. All six boss poses are observed in both directions.
 
 The 0.3.1 repair checks pass: 7,460 frames per build, 5,930 paired native-memory samples per type and identical APU/common PCM. Title, crypt and tree images remain exact; 39 nave images restore only native sprites dropped on overflowing scanlines. The rest of the 1,470 earlier-room captures are identical. See `evidence/boss1_review/verification.json` and `regression.json`.
 
 The 0.3.2 repair checks pass: 5,500 frames per build and paired samples per native-memory type, identical APU events and common PCM. Both pickup directions/costumes keep the HD silhouette through all 24 final fade frames. Background differences replace only previously black bell-room pixels. The full 649-image fireball replay remains exact. See `evidence/boss1_transition/verification.json`.
+
+The 0.3.3 repair checks pass: 6,460 frames per build and paired samples per native-memory type, identical APU events and common PCM. Each costume has 248 pixel-exact complete standing-boot captures in both directions, while 75 crouching/crouch-cast captures per costume remain exact. All 2,382 changed images are confined to the standing lower boot; 4,073 other images remain identical. See `evidence/randy_foot/verification.json`.
 
 Use the agreed ZIP-wrapped incremental Git bundle workflow. The user pushes the binary artwork with local credentials; the integration can then create the review PR and inspect the actual Actions artifact. No PR or candidate Actions artifact exists until that push.
 

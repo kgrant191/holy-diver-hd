@@ -61,6 +61,11 @@ for p in baseline.glob('*.png'):
   for phase in range(2):
    sprite=Image.open(root/f'art/review_fixes/randy_{mode}_{phase}.png').convert('RGBA')
    expected.paste(sprite,((phase+2)*64,128))
+  foot=json.loads((root/'art/randy_foot/registration.json').read_text())
+  assert foot['target_pose']==0 and foot['target_rectangle']==[18,44,32,64]
+  boot=Image.open(root/'art/randy_foot'/foot['patches'][p.name]).convert('RGBA')
+  assert boot.size==(14,20)
+  expected.paste(boot,(18,44))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
 # Both additions own marked sections. Removing these must recover the exact
 # approved mapping file, including ordering and whitespace.
@@ -68,7 +73,7 @@ approved_rules=re.sub(r'^# BEGIN BOSS1 (IMAGES|CONDITIONS|MAPPINGS|ALIASES|OPTIO
 approved_021=json.loads((root/'evidence/0.2.1-pack-sha256.json').read_text())
 assert hashlib.sha256(approved_rules.encode()).hexdigest()==approved_021['hires.txt']
 for name,digest in approved_021.items():
- if name not in {'README.txt','hires.txt'}:
+ if name not in {'README.txt','hires.txt'}|arm_atlases:
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.2.1 bytes changed'
 boss=json.loads((root/'art/boss1/registration.json').read_text())
 assert boss['tile_rules']==2433 and boss['conditions']==1071 and boss['background_rules']==4
@@ -89,7 +94,7 @@ previous_rules=re.sub(r'^# BEGIN SCREEN1_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# E
 approved_011=json.loads((root/'evidence/0.1.1-pack-sha256.json').read_text())
 assert hashlib.sha256(previous_rules.encode()).hexdigest()==approved_011['hires.txt']
 for name,digest in approved_011.items():
- if name not in {'README.txt','hires.txt'}:
+ if name not in {'README.txt','hires.txt'}|arm_atlases:
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.1.1 bytes changed'
 tree=json.loads((root/'art/screen1_4/registration.json').read_text())
 assert tree['tile_rules']==198 and tree['new_atlas_cells']==150 and tree['shared_enemy_rules']==48

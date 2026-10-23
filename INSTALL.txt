@@ -1,5 +1,8 @@
-HOLY DIVER HD 0.3.2 — REVIEW CANDIDATE
+HOLY DIVER HD 0.3.3 — REVIEW CANDIDATE
 First boss and Blizzard chamber. Main remains approved 0.2.1.
+
+0.3.3 restores Randy's complete standing boot in both costumes and directions.
+The crouching pose and all other animations retain their existing artwork.
 
 0.3.2 fills the entire scrolling Blizzard backdrop and keeps Randy's HD
 silhouette throughout the white/gray fade before the spell announcement.

@@ -1,6 +1,8 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.3.2. Approved main: 0.2.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.3.3. Approved main: 0.2.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+
+Version 0.3.3 restores the clipped toe on Randy's standing boot in both costumes and directions. The repair fits within the native sprite area; all other poses remain exact. See [standing boot repair](docs/RANDY_FOOT.md) and [live comparison](evidence/randy_foot/comparison.png).
 
 Version 0.3.2 keeps the Blizzard ascent backdrop filled across the vertical wrap and preserves Randy's HD silhouette through the final white/gray fade. The native repeated bell, ornaments and flash timing remain intact. See [transition repair](docs/BOSS1_TRANSITION.md) and [live comparison](evidence/boss1_transition/comparison.png).
 
@@ -28,7 +30,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output: `build/Holy_Diver_HD_v0.3.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output: `build/Holy_Diver_HD_v0.3.3.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

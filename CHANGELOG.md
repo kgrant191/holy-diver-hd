@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.3.2 — review candidate, 2026-10-23
+## 0.3.3 — review candidate, 2026-10-23
+
+- Repaired the cropped toe on Randy’s forward standing boot in normal and Twin Fire colors. The compact complete boot fits entirely within the original two native tiles and mirrors correctly.
+- Changed only idle pose 0 below the knee; all crouching, casting, running, airborne, rear-boot and upper-body artwork remains exact. Shared graphics-bank aliases use the same corrected cells, and monochrome idle silhouettes are regenerated consistently.
+- Preserved the entire mapping file, existing fireball/backdrop corrections, native gameplay, audio and platform boundaries. The pack still contains 79 root files.
+- Main remains approved 0.2.1; the bundle contains all unmerged boss work and review repairs.
+
+## 0.3.2 — superseded review candidate, 2026-10-23
 
 - Extended the Blizzard-room backdrop through the complete native vertical scroll. It repeats the approved masonry exactly, filling the black gaps behind the original bell and ornaments.
 - Added the three missing bank-00 fade palettes so Randy retains the approved HD silhouette immediately before the spell announcement, in both directions and after either costume.

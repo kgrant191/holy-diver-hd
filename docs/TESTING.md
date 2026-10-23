@@ -116,3 +116,7 @@ The supported sprite-limit option affects rendering throughout the pack. Repeat 
 ## Blizzard ascent/fade repair (0.3.2 candidate)
 
 See [BOSS1_TRANSITION.md](BOSS1_TRANSITION.md). `boss1_transition_routes.json` covers normal/left-facing and Twin Fire/right-facing pickups through Stage 2, menu selections and resume, plus the corrected fireball regression. `verify_boss1_transition.py` requires 5,500 identical paired samples per RAM/PPU/OAM type, identical APU/common PCM, exact prior artwork/mappings outside the specified additions, unchanged foreground, and the same HD silhouette through all three final fade steps. The pack contains 79 root files. The actual Actions artifact remains pending the user’s push and review PR.
+
+## Standing boot repair (0.3.3 candidate)
+
+See [RANDY_FOOT.md](RANDY_FOOT.md). `randy_foot_routes.json` tests normal/Twin Fire standing in both directions, crouching and crouched casts, running, jumps and casts, then replays both Blizzard transitions and the corrected fireball. `verify_randy_foot.py` limits image differences to the measured lower-boot area of idle pose 0 and requires every other pose to remain exact. It also compares all native memory/APU/common PCM and checks the exact unchanged mapping file. The 79-file artifact still requires actual Actions verification after the user’s push.
