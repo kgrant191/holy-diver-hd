@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — Stage 2 screen 1 review candidate (2026-10-23)
+
+- Add the volcanic Gothic exterior, gold terrain, native lava pulse and Blizzard ice/thaw cycle.
+- Add flying imps and their projectile, three tumbling lava-creature poses, Blizzard crystal, breakable gold blocks and exit cliff.
+- Reuse approved small drops and 1-up figurines through exact bank aliases; preserve existing large flasks, Randy, HUD and defeat rings.
+- Gate the panorama on a rendered sky tile so native Blizzard black frames remain black.
+- Preserve all 78 previous runtime files other than mapping/install text; keep main at approved 0.3.5.
+
+
 ## 0.3.5 — approved 2026-10-23
 
 - Added the large HP and Magic recovery pickups: a ruby-red rounded flask and a cobalt faceted vial with antique brass trim, fitted to the native 8×16 sprite footprint.

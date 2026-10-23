@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Volcanic exterior / flying enemy",
+    "case": "entry_combat",
+    "frame": 300,
+    "retouched": false
+  },
+  {
+    "label": "Hot lava",
+    "case": "cast_thaw",
+    "frame": 10,
+    "retouched": false
+  },
+  {
+    "label": "Blizzard ice",
+    "case": "cast_thaw",
+    "frame": 300,
+    "retouched": false
+  },
+  {
+    "label": "Lava creature / normal Randy",
+    "case": "red_combat",
+    "frame": 40,
+    "retouched": false
+  },
+  {
+    "label": "Breakable blocks",
+    "case": "crossing",
+    "frame": 1120,
+    "retouched": false
+  },
+  {
+    "label": "Exit cliff",
+    "case": "crossing",
+    "frame": 2220,
+    "retouched": false
+  }
+]

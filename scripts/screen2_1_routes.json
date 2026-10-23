@@ -1,0 +1,32 @@
+{
+  "entry_combat": {
+    "state": 1,
+    "frames": 720,
+    "input": "right=frame>=80 and frame<220,left=frame>=280 and frame<380,b=frame>=100 and frame%24<3,a=frame>=400 and frame%90<28,up=frame>=570 and frame<660"
+  },
+  "cast_thaw": {
+    "state": 2,
+    "frames": 920,
+    "input": "b=frame>=30 and frame<34"
+  },
+  "ice_edges": {
+    "state": 3,
+    "frames": 700,
+    "input": "left=(frame>=40 and frame<100)or(frame>=300 and frame<360),right=frame>=140 and frame<260"
+  },
+  "red_combat": {
+    "state": 4,
+    "frames": 640,
+    "input": "b=frame>=30 and frame%20<3,left=frame>=170 and frame<180,right=frame>=190 and frame<210,down=frame>=250 and frame<340,a=frame>=360 and frame<388,up=frame>=400 and frame<460"
+  },
+  "crossing": {
+    "state": 2,
+    "frames": 2800,
+    "input": "b=(frame>=30 and frame<34)or(frame>=760 and frame<764)or(frame>=950 and frame%20<3),select=frame>=910 and frame<914,right=frame>=100 and frame<2670,a=frame>=150 and frame<2300 and frame%90<28,up=frame>=2590 and frame<2600"
+  },
+  "menu": {
+    "state": 2,
+    "frames": 260,
+    "input": "start=(frame>=20 and frame<24)or(frame>=180 and frame<184),right=frame>=60 and frame<64,left=frame>=110 and frame<114"
+  }
+}

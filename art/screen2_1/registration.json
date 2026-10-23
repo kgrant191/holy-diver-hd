@@ -1,0 +1,1525 @@
+{
+  "scope": "s21Room&s21DataLo&s21DataHi",
+  "background_scope": "s21Room&s21DataLo&s21DataHi&s21SkyPalette&s21SkyRendered",
+  "palette_states": {
+    "lava": [
+      "0F161606",
+      "0F060616"
+    ],
+    "ice": [
+      "0F122131"
+    ]
+  },
+  "tile_rules": 150,
+  "shared_aliases": 6,
+  "atlas_cells": 93,
+  "mappings": [
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "empty background",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "empty background",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F161606",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "empty background",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F122131",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "empty background",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "empty background",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "empty background",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0301",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0302",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0303",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0304",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0305",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0306",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0307",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0308",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0309",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "030A",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "030B",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "030C",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "030D",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "030E",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "030F",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0310",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0311",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0312",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0313",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0314",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0315",
+      "palette": "0F150426",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant sky/clouds",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0316",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0317",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0318",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0319",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "031A",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "031B",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "031C",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "031D",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "031E",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "031F",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0320",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0321",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0322",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0323",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0324",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0325",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0326",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0327",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0328",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0329",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "032A",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "032B",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "032C",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "032D",
+      "palette": "0F162726",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "distant scorched forest",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "032E",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "approved gold platform cap",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "032F",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "approved gold platform cap",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0330",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "approved gold rock body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0331",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        0
+      ],
+      "kind": "approved gold rock body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0332",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        0
+      ],
+      "kind": "approved gold rock body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0333",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        0
+      ],
+      "kind": "approved gold rock body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0335",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0336",
+      "palette": "0F071737",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0337",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0338",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0339",
+      "palette": "0F071737",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "033A",
+      "palette": "0F071737",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "033B",
+      "palette": "0F071737",
+      "atlas": [
+        208,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "033C",
+      "palette": "0F071737",
+      "atlas": [
+        224,
+        0
+      ],
+      "kind": "exit cliff rock",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "033D",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        0
+      ],
+      "kind": "native cliff edge/stalactite",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "033E",
+      "palette": "0F071737",
+      "atlas": [
+        256,
+        0
+      ],
+      "kind": "native cliff edge/stalactite",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "033F",
+      "palette": "0F071737",
+      "atlas": [
+        272,
+        0
+      ],
+      "kind": "native cliff edge/stalactite",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0340",
+      "palette": "0F071737",
+      "atlas": [
+        288,
+        0
+      ],
+      "kind": "native cliff edge/stalactite",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "034B",
+      "palette": "0F071737",
+      "atlas": [
+        304,
+        0
+      ],
+      "kind": "native cliff edge/stalactite",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "034C",
+      "palette": "0F071737",
+      "atlas": [
+        320,
+        0
+      ],
+      "kind": "native cliff edge/stalactite",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "034D",
+      "palette": "0F071737",
+      "atlas": [
+        336,
+        0
+      ],
+      "kind": "native cliff edge/stalactite",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL0_0&s21DoorR0_0"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL0_1&s21DoorR0_1"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL1_0&s21DoorR1_0"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL1_1&s21DoorR1_1"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL2_0&s21DoorR2_0"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL2_1&s21DoorR2_1"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL3_0&s21DoorR3_0"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071737",
+      "atlas": [
+        352,
+        0
+      ],
+      "kind": "dark cave opening",
+      "scope": "s21Room&s21DataLo&s21DataHi&s21DoorL3_1&s21DoorR3_1"
+    },
+    {
+      "identity": "0345",
+      "palette": "0F161606",
+      "atlas": [
+        368,
+        0
+      ],
+      "kind": "lava surface",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0344",
+      "palette": "0F161606",
+      "atlas": [
+        384,
+        0
+      ],
+      "kind": "lava surface",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0343",
+      "palette": "0F161606",
+      "atlas": [
+        400,
+        0
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0342",
+      "palette": "0F161606",
+      "atlas": [
+        416,
+        0
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0341",
+      "palette": "0F161606",
+      "atlas": [
+        432,
+        0
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0334",
+      "palette": "0F161606",
+      "atlas": [
+        448,
+        0
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0345",
+      "palette": "0F060616",
+      "atlas": [
+        464,
+        0
+      ],
+      "kind": "lava surface",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0344",
+      "palette": "0F060616",
+      "atlas": [
+        480,
+        0
+      ],
+      "kind": "lava surface",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0343",
+      "palette": "0F060616",
+      "atlas": [
+        496,
+        0
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0342",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0341",
+      "palette": "0F060616",
+      "atlas": [
+        16,
+        16
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0334",
+      "palette": "0F060616",
+      "atlas": [
+        32,
+        16
+      ],
+      "kind": "lava body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0345",
+      "palette": "0F122131",
+      "atlas": [
+        48,
+        16
+      ],
+      "kind": "ice surface",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0344",
+      "palette": "0F122131",
+      "atlas": [
+        64,
+        16
+      ],
+      "kind": "ice surface",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0343",
+      "palette": "0F122131",
+      "atlas": [
+        80,
+        16
+      ],
+      "kind": "ice body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0342",
+      "palette": "0F122131",
+      "atlas": [
+        96,
+        16
+      ],
+      "kind": "ice body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0341",
+      "palette": "0F122131",
+      "atlas": [
+        112,
+        16
+      ],
+      "kind": "ice body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0334",
+      "palette": "0F122131",
+      "atlas": [
+        128,
+        16
+      ],
+      "kind": "ice body",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0347",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        16
+      ],
+      "kind": "breakable gold block",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0348",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        16
+      ],
+      "kind": "breakable gold block",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0349",
+      "palette": "0F071737",
+      "atlas": [
+        176,
+        16
+      ],
+      "kind": "breakable gold block",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "034A",
+      "palette": "0F071737",
+      "atlas": [
+        192,
+        16
+      ],
+      "kind": "breakable gold block",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0274",
+      "palette": "FF301116",
+      "atlas": [
+        208,
+        16
+      ],
+      "kind": "Blizzard snow crystal",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F0",
+      "palette": "FF160636",
+      "atlas": [
+        224,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F3",
+      "palette": "FF160636",
+      "atlas": [
+        240,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F6",
+      "palette": "FF160636",
+      "atlas": [
+        256,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F1",
+      "palette": "FF160636",
+      "atlas": [
+        272,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F4",
+      "palette": "FF160636",
+      "atlas": [
+        288,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F7",
+      "palette": "FF160636",
+      "atlas": [
+        304,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F2",
+      "palette": "FF160636",
+      "atlas": [
+        320,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F5",
+      "palette": "FF160636",
+      "atlas": [
+        336,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02F8",
+      "palette": "FF160636",
+      "atlas": [
+        352,
+        16
+      ],
+      "kind": "lava creature pose 0",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E7",
+      "palette": "FF160636",
+      "atlas": [
+        368,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02EA",
+      "palette": "FF160636",
+      "atlas": [
+        384,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02ED",
+      "palette": "FF160636",
+      "atlas": [
+        400,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E8",
+      "palette": "FF160636",
+      "atlas": [
+        416,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02EB",
+      "palette": "FF160636",
+      "atlas": [
+        432,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02EE",
+      "palette": "FF160636",
+      "atlas": [
+        448,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E9",
+      "palette": "FF160636",
+      "atlas": [
+        464,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02EC",
+      "palette": "FF160636",
+      "atlas": [
+        480,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02EF",
+      "palette": "FF160636",
+      "atlas": [
+        496,
+        16
+      ],
+      "kind": "lava creature pose 1",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02DE",
+      "palette": "FF160636",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E1",
+      "palette": "FF160636",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E4",
+      "palette": "FF160636",
+      "atlas": [
+        32,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02DF",
+      "palette": "FF160636",
+      "atlas": [
+        48,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E2",
+      "palette": "FF160636",
+      "atlas": [
+        64,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E5",
+      "palette": "FF160636",
+      "atlas": [
+        80,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E0",
+      "palette": "FF160636",
+      "atlas": [
+        96,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E3",
+      "palette": "FF160636",
+      "atlas": [
+        112,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "02E6",
+      "palette": "FF160636",
+      "atlas": [
+        128,
+        32
+      ],
+      "kind": "lava creature pose 2",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "027A",
+      "palette": "FF370726",
+      "atlas": [
+        144,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "027B",
+      "palette": "FF370726",
+      "atlas": [
+        160,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "027C",
+      "palette": "FF370726",
+      "atlas": [
+        176,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "027D",
+      "palette": "FF370726",
+      "atlas": [
+        192,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "027E",
+      "palette": "FF370726",
+      "atlas": [
+        208,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "027F",
+      "palette": "FF370726",
+      "atlas": [
+        224,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0280",
+      "palette": "FF370726",
+      "atlas": [
+        240,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0281",
+      "palette": "FF370726",
+      "atlas": [
+        256,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0282",
+      "palette": "FF370726",
+      "atlas": [
+        272,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0283",
+      "palette": "FF370726",
+      "atlas": [
+        288,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0284",
+      "palette": "FF370726",
+      "atlas": [
+        304,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0285",
+      "palette": "FF370726",
+      "atlas": [
+        320,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0286",
+      "palette": "FF370726",
+      "atlas": [
+        336,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0287",
+      "palette": "FF370726",
+      "atlas": [
+        352,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0288",
+      "palette": "FF370726",
+      "atlas": [
+        368,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "0289",
+      "palette": "FF370726",
+      "atlas": [
+        384,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "028A",
+      "palette": "FF370726",
+      "atlas": [
+        400,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "028B",
+      "palette": "FF370726",
+      "atlas": [
+        416,
+        32
+      ],
+      "kind": "flying imp",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "028C",
+      "palette": "FF370726",
+      "atlas": [
+        432,
+        32
+      ],
+      "kind": "imp projectile",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    },
+    {
+      "identity": "028D",
+      "palette": "FF370726",
+      "atlas": [
+        448,
+        32
+      ],
+      "kind": "imp projectile",
+      "scope": "s21Room&s21DataLo&s21DataHi"
+    }
+  ],
+  "imp_clipped_pixels": 18,
+  "collision_modified": false,
+  "existing_art_modified": false,
+  "background_size": [
+    8704,
+    480
+  ]
+}

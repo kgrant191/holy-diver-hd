@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "stylized-concept",
+  "briefs": {
+    "background": "Wide horizontally seamless SNES/GBA dark Gothic volcanic panorama: sombre purple-violet sky, layered burgundy firelit clouds, low orange horizon, scorched forest, basalt mountains and ruined Gothic spires. No characters, platforms, UI or text. Intended as a background layer only.",
+    "pools": "Two vertical opaque texture panels: left molten red-orange lava with a level gold surface and dark basalt islands; right cobalt/cyan magical ice with a level frost crust, diagonal fractures and trapped bubbles. Front side view, crisp 16-bit pixels, no text.",
+    "imp": "Two separated poses of a small airborne golden skull-faced imp with ochre hood/carapace, ivory skull, long bony claws and curled serpentine tail. No legs, wings or weapon. Left-facing source poses, same head size; spread and tucked arms/tail. True alpha.",
+    "lava_creature": "Three separated equal-sized rotation poses of the same curled crimson lava demon: horned skull encased in dark-red rock lobes, ivory/pink jagged facial ridges, short snout and dark eye. Snout angles down-left, left and up-left. Compact 24x24-native footprint, true alpha.",
+    "block": "Single opaque square Gothic gold/bronze masonry tile: straight square edges, antique-gold bevelled stone border and four corner rivets, dark ochre cracked center, restrained top-left highlights. Orthographic 16-bit pixel art, no text or surrounding background.",
+    "snow": "One centered compact six-point Blizzard snow crystal with pale cyan arms, white core and deep blue outline. Crisp pixel clusters readable at 16x16; no outer haze, text or other objects, true alpha."
+  },
+  "source_files": [
+    "screen2_1_background_generated.png",
+    "screen2_1_pools_generated.png",
+    "screen2_1_imp_generated.png",
+    "screen2_1_lava_creature_generated.png",
+    "screen2_1_block_generated.png",
+    "screen2_1_snow_generated.png"
+  ],
+  "registration": "scripts/build_screen2_1.py",
+  "note": "Production briefs summarize the full generation prompts. Generated poses are registered to measured native tile footprints."
+}

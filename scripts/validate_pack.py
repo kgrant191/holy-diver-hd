@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==32
-assert counts['tile']==5063
-assert counts['background']==54
-assert counts['condition']==1362
+assert len(imgs)==33
+assert counts['tile']==5219
+assert counts['background']==55
+assert counts['condition']==1383
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -67,9 +67,17 @@ for p in baseline.glob('*.png'):
   assert boot.size==(16,32)
   expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
+# Stage 2 additions must strip back to the exact approved 0.3.5 mapping.
+pre_stage2=re.sub(r'^# BEGIN SCREEN2_1 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_1 \1\n','',content,flags=re.M|re.S)
+approved_035=json.loads((root/'evidence/0.3.5-pack-sha256.json').read_text())
+assert hashlib.sha256(pre_stage2.encode()).hexdigest()==approved_035['hires.txt']
+for name,digest in approved_035.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.3.5 bytes changed'
+assert imgs[32]=='Stage2_Exterior_Tiles_2x.png'
 # Both additions own marked sections. Removing these must recover the exact
 # approved mapping file, including ordering and whitespace.
-approved_rules=re.sub(r'^# BEGIN RECOVERY_ITEMS (IMAGES|MAPPINGS)\n.*?^# END RECOVERY_ITEMS \1\n','',content,flags=re.M|re.S)
+approved_rules=re.sub(r'^# BEGIN RECOVERY_ITEMS (IMAGES|MAPPINGS)\n.*?^# END RECOVERY_ITEMS \1\n','',pre_stage2,flags=re.M|re.S)
 approved_rules=re.sub(r'^# BEGIN BOSS1 (IMAGES|CONDITIONS|MAPPINGS|ALIASES|OPTIONS)\n.*?^# END BOSS1 \1\n','',approved_rules,flags=re.M|re.S)
 approved_rules=re.sub(r'^# BEGIN STANDING_LEG CONDITIONS\n.*?^# END STANDING_LEG CONDITIONS\n','',approved_rules,flags=re.M|re.S)
 approved_rules=approved_rules.replace('[standingLegNormal]<tile>18,07,','[randySig8]<tile>18,07,').replace('[standingLegTwin]<tile>19,07,','[randyEquippedSig8]<tile>19,07,')
@@ -98,7 +106,7 @@ prior=json.loads((root/'evidence/0.3.4-pack-sha256.json').read_text())
 for name,digest in prior.items():
  if name not in {'README.txt','hires.txt'}:
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' confirmed 0.3.4 art changed'
-without_items=re.sub(r'^# BEGIN RECOVERY_ITEMS (IMAGES|MAPPINGS)\n.*?^# END RECOVERY_ITEMS \1\n','',content,flags=re.M|re.S)
+without_items=re.sub(r'^# BEGIN RECOVERY_ITEMS (IMAGES|MAPPINGS)\n.*?^# END RECOVERY_ITEMS \1\n','',pre_stage2,flags=re.M|re.S)
 assert hashlib.sha256(without_items.encode()).hexdigest()==prior['hires.txt']
 items=json.loads((root/'art/pickups/registration.json').read_text())
 assert items['tile_rules']==64 and not items['native_geometry_changed'] and not items['existing_rules_modified']

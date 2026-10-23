@@ -1,0 +1,17 @@
+{
+  "boss_fire": {
+    "state": 1,
+    "frames": 400,
+    "input": "start=frame>=10 and frame<14,b=frame>=30 and frame%20<3,down=frame>=30 and frame<150"
+  },
+  "blizzard_reward": {
+    "state": 2,
+    "frames": 1850,
+    "input": "left=frame>=380 and frame<790,a=frame>=722 and frame<750"
+  },
+  "recovery_item": {
+    "state": 3,
+    "frames": 220,
+    "input": "right=frame>=10 and frame<90"
+  }
+}

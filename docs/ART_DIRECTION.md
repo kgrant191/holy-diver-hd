@@ -35,3 +35,9 @@ The 0.3.2 ascent backdrop repeats the approved nave panorama vertically to cover
 The standing leg correction changes only pose 0 at local HD coordinates X16–31/Y32–63. Register thigh, knee, shin and boot together; the isolated 0.3.3 boot fit visibly broke the knee join. Keep the continuous leg and complete toe inside the native X<32 footprint. Preserve the rear boot, upper body, all other poses and each costume's existing colors. Judge the joint in live captures against a clear backdrop in both directions, including where the knee and shin span separate native tiles. See `RANDY_LEG.md`.
 
 Large recovery pickups use a rounded ruby-red HP flask and faceted cobalt/cyan Magic vial with restrained antique brass collars/bases. Keep the complete bottles in the native two-tile 16×32 HD canvas, including its eight transparent top rows. The small heart and crystal retain their existing artwork. Shared matching CHR copies reuse the same flask art. See `RECOVERY_ITEMS.md`.
+
+## Stage 2 exterior (0.4.0 candidate)
+
+Use deep plum/navy skies, firelit burgundy clouds, distant scorched forests and Gothic ruins. The gold native platforms keep their exact tile-defined edges; lava is red-orange molten rock and Blizzard ice is cobalt/cyan with a level frost crust. Distinguish breakable blocks with an antique-gold frame and cracked center. The exit cliff reuses approved gold-rock texture and native silhouette masks; its doorway stays dark.
+
+The flying imp has an ivory skull, ochre hood/carapace, long clawed arms and curled tail. Native unflipped graphics face right. Preserve shared cells as the native head/tail change. The red lava creature has three compact 48×48 HD tumbling poses with crimson plates and ivory/pink facial ridges. Use Mesen screenshots, both directions and native palette/flash events for acceptance.

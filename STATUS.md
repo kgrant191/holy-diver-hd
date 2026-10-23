@@ -2,6 +2,18 @@
 
 Updated: 2026-10-23 (America/New_York).
 
+## Current review candidate
+
+**0.4.0** on `feature/screen-2-1`, based on approved main `19176d026eb5670523ad8358d82447c63732d506` (PR #4, 0.3.5). The user requested Stage 2 screen 1 and supplied four states covering its start, hot lava, frozen lava and later platforms. No merge or public release is authorized for this candidate.
+
+The exterior uses new volcanic scenery and enemies, plus approved gold-ground texture and existing Randy/HUD/item/effect artwork. The native lava palette selects hot/ice textures, including the original thaw flashes. A rendered-sky tile condition suppresses the custom panorama on actual black frames; the CPU shadow of PPUMASK alone was one frame out of phase during this effect. Breakable blocks and the exit cliff remain tied to their native tiles. Small heart/magic drops and 1-up figurines reuse approved art in this CHR bank; large flasks and defeat rings already had shared mappings.
+
+The build has 82 root files. Only `hires.txt` and `README.txt` change among the 80 approved files; all 78 previous runtime files stay byte-identical. `evidence/0.3.5-pack-sha256.json` preserves the approved baseline. The historical `approved-pack-sha256.json` filename describes this branch's review candidate and does not grant approval. Full results and limitations are in `docs/SCREEN2_1.md` and `evidence/screen2_1/verification.json`.
+
+The six exterior replays pass across 6,040 frames per build, with exact RAM/PPU/OAM and APU events, identical common PCM, and 350 exact native black frames. The neutral cast/thaw case accounts for 92 of those black frames. Both imp directions and all three unmirrored lava-creature poses are observed. The crossing reaches native scroll 1280 and the exit cliff, then death/respawn; next-room entry is not claimed. Two audio captures differ only by one shutdown buffer (3,192 and 3,196 bytes).
+
+Earlier boss/reward/recovery regression adds 2,470 frames per build, 1,235 exact native-memory samples per type and 1,169 exact previous-scene screenshots. Total coverage is 8,510 frames per build and 7,275 paired samples per memory type. A single inconsistent reward-fade capture in the initial run did not recur in a complete repeat with unchanged candidate bytes; the discrepancy and its unconfirmed cause are retained in `evidence/screen2_1/reward_capture_repeat.json`. Final reports pass without exceptions. The local install ZIP has all 82 verified root files; the user push, PR and actual Actions artifact check remain pending.
+
 ## Current approved version
 
 **0.3.5**, approved by the user on 2026-10-23 for adoption through [PR #4](https://github.com/kgrant191/holy-diver-hd/pull/4). Reviewed artwork commit: `9a290ec8a9160fbbd387cf7ab1ec954da9b11199` on `feature/1-boss`, based on previous approved main `2427afd4739f273bf527810edcfae93e6592e344` (0.2.1). The user approved the final visuals, then confirmed the Actions artifact packaging and explicitly authorized the merge ("verified, merge it"). No release tag or GitHub Release is authorized.
