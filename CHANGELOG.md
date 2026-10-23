@@ -8,7 +8,7 @@
 - Preserve native gameplay, animation cadence, audio and previous artwork. Only the Stage 2 tile atlas, mappings and installed README change from 0.4.0. The user approved the full exterior feature and repairs on feature/screen-2-1.
 - Final paired verification passes 6,460 frames per build, preserving native memory/audio and bounding visual changes to enemies and the doorway. The one duplicated next-room capture is documented; the complete unchanged-pack repeat passes.
 
-- Approval bookkeeping changes only the installed README; all 81 runtime files retain the reviewed hashes. Source push, PR, Actions artifact verification and merge remain pending. No release tag is created.
+- Approval bookkeeping changes only the installed README; all 81 runtime files retain the reviewed hashes. Merged through PR #5 after the user authorized it. PR and main Actions passed; both downloaded artifacts contain 82 root files with matching approved hashes and no nested ZIP. Adoption records change no installed pack files. No release tag is created.
 
 ## 0.4.0 — Stage 2 screen 1 review candidate (2026-10-23)
 

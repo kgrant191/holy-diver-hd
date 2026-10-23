@@ -10,8 +10,17 @@
   ],
   "identical_runtime_files": 81,
   "remote_feature_head_at_approval": "19176d026eb5670523ad8358d82447c63732d506",
-  "pr_status": "pending artwork push",
-  "actions_artifact_verification": "pending",
-  "merge_status": "pending",
-  "release_tag_created": false
+  "pr_status": "merged",
+  "actions_artifact_verification": "passed: independent downloads of PR and main artifacts",
+  "merge_status": "merged",
+  "release_tag_created": false,
+  "pr_number": 5,
+  "pr_url": "https://github.com/kgrant191/holy-diver-hd/pull/5",
+  "pushed_head": "17d9021af5c43f5ec0e31af12ae4860250dd32e9",
+  "pr_artifact_evidence": "evidence/screen2_1_review/pr_artifact.json",
+  "main_artifact_evidence": "evidence/screen2_1_review/main_artifact.json",
+  "merge_authorization": "ok merge it then, you've been doing the merges",
+  "merge_commit": "b50f95862e4fc49e5f86d71d82f81f48ff87bd35",
+  "merge_date": "2026-10-23",
+  "adoption_record_changes_installed_files": false
 }

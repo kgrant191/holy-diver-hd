@@ -2,7 +2,7 @@
 
 Updated: 2026-10-23 (America/New_York).
 
-## Current approved version — adoption pending
+## Current approved version — main baseline
 
 **0.4.1**, approved by the user in chat on 2026-10-23 ("approved"). Reviewed artwork commit: `c4ff13db886046d97f9f57572aef98517c3d1076` on `feature/screen-2-1`, based on approved main `19176d026eb5670523ad8358d82447c63732d506` (0.3.5). The user requested repairs to the initial Stage 2 exterior candidate: keep the cave opening dark from first reveal, correct the backward-facing brown flyers into winged demons with downward arrows, and remove faces from the pink/red pulsating rock enemies.
 
@@ -10,7 +10,7 @@ The cave uses its visible left jamb with a screen-boundary guard, so its right w
 
 The build contains 82 root files. Only `hires.txt`, `Stage2_Exterior_Tiles_2x.png` and `README.txt` change from 0.4.0; all 79 others remain exact. The 103 non-enemy tile images in the Stage 2 atlas are unchanged, and the new demon fits its native OAM footprint with zero opaque-pixel clipping. All 78 runtime assets from approved 0.3.5 remain exact. The prior review manifest is retained as `evidence/0.4.0-pack-sha256.json`. `0.4.1-reviewed-pack-sha256.json` pins the exact tested and accepted bytes. Approval bookkeeping changes only installed README.txt; all 81 runtime files stay byte-identical.
 
-The seven controller routes cover the original six exterior/Blizzard cases plus the supplied cave approach through next-room arrival. Final verification is recorded in `evidence/screen2_1_review/verification.json`; the visuals are now accepted by the user. The next room's existing art is preserved, not redesigned. The remote feature branch was checked after approval and still points to `19176d026eb5670523ad8358d82447c63732d506`; artwork push, PR and Actions artifact verification remain pending. Main stays at 0.3.5 until adoption. Merge remains the next separate step after those checks; no tag or public release is authorized.
+The seven controller routes cover the original six exterior/Blizzard cases plus the supplied cave approach through next-room arrival. Final verification is recorded in `evidence/screen2_1_review/verification.json`; the visuals are now accepted by the user. The next room's existing art is preserved, not redesigned. The user pushed `17d9021af5c43f5ec0e31af12ae4860250dd32e9`, then explicitly authorized the merge ("ok merge it then, you've been doing the merges"). [PR #5](https://github.com/kgrant191/holy-diver-hd/pull/5) merged at `b50f95862e4fc49e5f86d71d82f81f48ff87bd35`. PR Actions run 40018693181 and main run 40019141872 passed. Both actual downloaded artifacts were independently checked: 82 files at the archive root, all approved SHA-256 hashes matching, ZIP CRC checks passing and no nested ZIP. See `evidence/screen2_1_review/pr_artifact.json`, `main_artifact.json` and `approval.json`. Use 0.4.1 as the approved baseline for subsequent work; no tag or public release was created.
 
 Final paired verification passes across **6,460 frames per build**: all RAM/PPU/OAM and APU events match; common PCM is identical. There are 357 exact black frames, 579 unchanged outside-room captures, and 129 verified early cave-interior samples. Stationary-camera motion samples show 499 left-facing native steps and 209 right-facing mirrored steps, with no opposite-direction samples. All new enemy/arrow identities are observed. Audio shutdown-tail differences, where present, are at most one 3,200-byte buffer and are recorded per case. A complete unchanged-pack cave repeat resolves the one documented duplicated screenshot; final checks contain no exceptions.
 
@@ -26,7 +26,7 @@ The six exterior replays pass across 6,040 frames per build, with exact RAM/PPU/
 
 Earlier boss/reward/recovery regression adds 2,470 frames per build, 1,235 exact native-memory samples per type and 1,169 exact previous-scene screenshots. Total coverage is 8,510 frames per build and 7,275 paired samples per memory type. A single inconsistent reward-fade capture in the initial run did not recur in a complete repeat with unchanged candidate bytes; the discrepancy and its unconfirmed cause are retained in `evidence/screen2_1/reward_capture_repeat.json`. Final reports pass without exceptions. The local install ZIP has all 82 verified root files; the user push, PR and actual Actions artifact check remain pending.
 
-## Previous approved version — current main
+## Previous approved version — 0.3.5
 
 **0.3.5**, approved by the user on 2026-10-23 for adoption through [PR #4](https://github.com/kgrant191/holy-diver-hd/pull/4). Reviewed artwork commit: `9a290ec8a9160fbbd387cf7ab1ec954da9b11199` on `feature/1-boss`, based on previous approved main `2427afd4739f273bf527810edcfae93e6592e344` (0.2.1). The user approved the final visuals, then confirmed the Actions artifact packaging and explicitly authorized the merge ("verified, merge it"). No release tag or GitHub Release is authorized.
 
@@ -56,7 +56,7 @@ The 0.3.5 pickup checks pass across 1,320 frames per build and paired samples pe
 
 The user pushed the reviewed artwork, and PR #4 was opened. Actions run [40004314865](https://github.com/kgrant191/holy-diver-hd/actions/runs/40004314865) passed: all 80 pack hashes matched, and all 80 files were uploaded directly from the extracted pack directory. The user downloaded artifact [12523247888](https://github.com/kgrant191/holy-diver-hd/actions/runs/40004314865/artifacts/12523247888) and confirmed that one extraction exposes 80 files including hires.txt, with no nested ZIP. The assistant retrieved the artifact through the integration but could not independently extract it because the execution environment was unavailable. Archive-layout confirmation is attributed to the user; CI verified file hashes before upload. See `evidence/boss1/approval.json`.
 
-Use 0.3.5 as the approved baseline for subsequent work. Preserve the ZIP-wrapped incremental Git bundle workflow for artwork-heavy updates; small text-only approval changes may use the integration. No additional emulator replay is required for the install-text update.
+0.3.5 is retained as the previous approved baseline. Preserve the ZIP-wrapped incremental Git bundle workflow for artwork-heavy updates; small text-only approval changes may use the integration. No additional emulator replay is required for the install-text update.
 
 ## Previous approved version
 
