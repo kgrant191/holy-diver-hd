@@ -101,7 +101,9 @@ for pal in ['FF1C0B36','FF102030']:
         x,y=n%2*16,n//2*16
         tile(t,pal,im.crop((x,y,x+16,y+16)),hall_data,'boss firing mouth')
 
-# Four native sprites form one round boss projectile.
+# Four native sprites form one round boss projectile. Its artwork stays exact;
+# the supported HD-pack option below prevents the native scanline limit from
+# dropping alternate halves when the boss and Randy occupy the same scanlines.
 fire=reg(source('boss1_fireball_generated.png'),(32,32),nearest=True)
 fire.save(art/'boss_fireball_registered.png')
 for x,y,t in [(0,0,0xf1),(16,0,0xf2),(0,16,0xf3),(16,16,0xf4)]:
@@ -217,16 +219,27 @@ for pal,intensity,bank in [('FF303030',255,0),('FF303030',255,30),('FF202020',25
         scope='&'.join(filter(None,[bell_data if bank==0 else spell_sig,scope]))
         tile(bank*256+t,pal,color,scope,'Randy native monochrome transition')
 
+# The Blizzard menu uses alternate R and D identities, unlike TWIN FIRE's R.
+# Match the existing code-rendered menu font without altering the approved UI
+# atlas or any of its earlier mappings. Append these cells after all old cells.
+menu_scope='pauseScreen&pauseMagicRow&pausedPalette'
+for identity,char in [(0x964,'R'),(0x965,'D')]:
+    glyph=Image.new('RGBA',(16,16))
+    ImageDraw.Draw(glyph).text((8,8),char,font=ImageFont.truetype(str(font),14),
+                              anchor='mm',fill='#f4deb0')
+    tile(identity,'0F072830',glyph,menu_scope,'Blizzard pause-menu '+char)
+
 conditions.extend(alias_defs.values())
 atlas.save(art/'Boss_Tiles_2x.png');atlas.save(pack/'Boss_Tiles_2x.png')
 def section(kind,lines):return '# BEGIN BOSS1 '+kind+'\n'+'\n'.join(lines)+'\n# END BOSS1 '+kind+'\n'
 end=text.index('\n',text.rfind('<img>'))+1
 text=text[:end]+section('IMAGES',['<img>Boss_Tiles_2x.png'])+text[end:]
 lines=text.splitlines(keepends=True);first=next(i for i,l in enumerate(lines)if '<tile>' in l or '<background>' in l)
-lines[first:first]=[section('CONDITIONS',conditions),section('MAPPINGS',rules+backgrounds),section('ALIASES',aliases)]
+lines[first:first]=[section('CONDITIONS',conditions),section('MAPPINGS',rules+backgrounds),section('ALIASES',aliases),section('OPTIONS',['<options>disableSpriteLimit'])]
 (pack/'hires.txt').write_text(''.join(lines))
 report=dict(tile_rules=len(rules)+len(aliases),conditions=len(conditions),background_rules=len(backgrounds),atlas_cells=len(cell_cache),
             shared_bank_aliases=len(aliases),poses=pose_stats,mappings=cells,collision_modified=False,existing_rules_modified=False,
-            boss_scope=hall,bell_scope=bell,spell_card_scope=spell_card)
+            boss_scope=hall,bell_scope=bell,spell_card_scope=spell_card,
+            global_sprite_limit_changed=True,menu_glyphs={'0964':'R','0965':'D'})
 (art/'registration.json').write_text(json.dumps(report,indent=2)+'\n')
 print('Boss 1:',len(rules)+len(aliases),'rules;',len(cell_cache),'atlas cells;',len(aliases),'shared bank aliases')

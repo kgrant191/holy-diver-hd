@@ -1,5 +1,9 @@
-HOLY DIVER HD 0.3.0 — REVIEW CANDIDATE
+HOLY DIVER HD 0.3.1 — REVIEW CANDIDATE
 First boss and Blizzard chamber. Main remains approved 0.2.1.
+
+0.3.1 uses Mesen's sprite-limit removal to keep the boss fireball complete,
+and matches the Blizzard menu's R/D letters to the existing HD font.
+The pack applies this rendering option automatically; no setting change is needed.
 
 0.3.0 adds the horned boss, both firing postures, native hit/death flashes,
 organ hall, bell chamber, Blizzard pickup and spell announcement. Shared

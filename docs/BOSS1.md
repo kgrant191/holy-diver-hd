@@ -1,4 +1,6 @@
-# First boss and Blizzard chamber — 0.3.0 candidate
+# First boss and Blizzard chamber — initial 0.3.0 candidate
+
+The current candidate is 0.3.1; see [the fireball/menu review repair](BOSS1_REVIEW.md). The 0.3.0 results below remain the original feature evidence.
 
 `feature/1-boss` starts from approved main 0.2.1 at `2427afd4739f273bf527810edcfae93e6592e344`. This is a review candidate. The approved main branch stays unchanged until the user approves adoption.
 

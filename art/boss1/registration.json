@@ -1,8 +1,8 @@
 {
-  "tile_rules": 1996,
+  "tile_rules": 1998,
   "conditions": 828,
   "background_rules": 4,
-  "atlas_cells": 561,
+  "atlas_cells": 563,
   "shared_bank_aliases": 758,
   "poses": [
     {
@@ -12418,11 +12418,36 @@
       ],
       "scope": "gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD&randyDefeated",
       "kind": "Randy native monochrome transition"
+    },
+    {
+      "identity": "0964",
+      "palette": "0F072830",
+      "atlas": [
+        272,
+        272
+      ],
+      "scope": "pauseScreen&pauseMagicRow&pausedPalette",
+      "kind": "Blizzard pause-menu R"
+    },
+    {
+      "identity": "0965",
+      "palette": "0F072830",
+      "atlas": [
+        288,
+        272
+      ],
+      "scope": "pauseScreen&pauseMagicRow&pausedPalette",
+      "kind": "Blizzard pause-menu D"
     }
   ],
   "collision_modified": false,
   "existing_rules_modified": false,
   "boss_scope": "bossHallDataLo&bossHallDataHi&bossHallPal1&bossHallPal2&bossHallPal3",
   "bell_scope": "blizzardDataLo&blizzardDataHi&bossHallPal1&bossHallPal2&bossHallPal3",
-  "spell_card_scope": "cardPal1&cardPal2&cardPal3&cardRendering&gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD"
+  "spell_card_scope": "cardPal1&cardPal2&cardPal3&cardRendering&gotBlizzardG&gotBlizzardB&gotBlizzardZ&gotBlizzardD",
+  "global_sprite_limit_changed": true,
+  "menu_glyphs": {
+    "0964": "R",
+    "0965": "D"
+  }
 }

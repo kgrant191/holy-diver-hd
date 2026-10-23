@@ -1,3 +1,15 @@
+# 0.3.1 review candidate — fireball and Blizzard menu repair
+
+The repair passes 7,460 frames per build and 5,930 paired RAM/PPU/OAM samples per type in MesenCE 2.2.1. All native memory and APU writes match 0.3.0 exactly. All common PCM bytes match; two boss/menu routes have one 3,196-byte shutdown-tail difference. All four earlier-room routes have equal-length identical audio.
+
+The boss/menu routes cover 4,100 frames. Fireball halves remain complete in both directions; combat image changes stay inside native sprite rectangles. The complete defeat/pickup/Stage 2/menu route changes only Blizzard's R/D cells, including both spell selections and resume; its other 2,003 valid screenshots stay identical.
+
+Earlier regression covers 3,360 frames: 1,431 screenshots stay identical. The other 39 nave screenshots change only native sprite pixels on scanlines exceeding the eight-sprite limit. Title, crypt and tree screenshots all remain exact. No game-RAM writes, ROM changes or gameplay/audio edits were made. Mesen's supported sprite-limit removal applies throughout this pack.
+
+The pack still has 78 root files and no nested ZIP. Relative to 0.3.0, only hires.txt, README.txt and two formerly empty glyph cells in Boss_Tiles_2x.png change. Main remains approved 0.2.1. See `docs/BOSS1_REVIEW.md`, `evidence/boss1_review/verification.json`, `regression.json`, `package.json` and the live comparisons.
+
+---
+
 # 0.3.0 review candidate — first boss and Blizzard chamber
 
 Eight controller-only MesenCE 2.2.1 routes cover 7,670 frames per build, with a screenshot and RAM/PPU/OAM sample every frame. All native memory samples and APU writes match approved 0.2.1 exactly. Every common PCM byte matches; the left-platform route has one 3,196-byte shutdown-buffer difference. All other boss routes have equal-length identical audio.

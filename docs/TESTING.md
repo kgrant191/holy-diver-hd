@@ -106,3 +106,9 @@ See [SCREEN1_4_REVIEW.md](SCREEN1_4_REVIEW.md). Pair the same five routes agains
 See [BOSS1.md](BOSS1.md) and `scripts/boss1_routes.json`. Eight controller-only routes cover 7,670 frames per build at one-frame capture intervals. They cover every boss pose in both directions, both hit palettes, all 36 disappearance counts, both reward-platform edges, floor boundaries, pickup/ascent/announcement and Stage 2 arrival. The approved Stage 2 card remains exact. `verify_boss1_qa.py` requires identical native RAM/PPU/OAM and APU events, with byte-identical common PCM and at most one shutdown buffer of audio-tail difference.
 
 `boss1_regression_routes.json` adds nave/tree-court replays to the existing title/crypt checks. `verify_boss1_regression.py` requires identical screenshots and native memory/audio across all four earlier cases. The candidate's expected manifest contains 78 root pack files. Main remains approved 0.2.1; the actual Actions artifact must be checked after the user pushes the bundle and the review PR is opened.
+
+## Boss fireball and Blizzard menu review repair (0.3.1 candidate)
+
+See [BOSS1_REVIEW.md](BOSS1_REVIEW.md). `boss1_review_routes.json` adds the post-pickup pause menu, both spell selections and resume to three combat routes. `verify_boss1_review.py` checks all native memory/audio, limits combat differences to native sprite rectangles, limits menu differences to the two letter cells, and confirms the prior mapping text and artwork are preserved.
+
+The supported sprite-limit option affects rendering throughout the pack. Repeat the title/crypt/nave/tree routes and use `verify_boss1_review_regression.py`; only nave sprite pixels on overflowing scanlines may differ. Earlier exact-image verification scripts remain for the original feature's historical evidence. Current repair coverage totals 7,460 frames per build. The 78-file Actions artifact still requires verification after the user's push.

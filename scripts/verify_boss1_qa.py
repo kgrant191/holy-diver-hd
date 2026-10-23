@@ -12,7 +12,7 @@ routes=json.loads((root/'scripts/boss1_routes.json').read_text())
 poses=json.loads((root/'art/boss1/native_poses.json').read_text())
 old=json.loads((root/'evidence/0.2.1-pack-sha256.json').read_text())
 expected=json.loads((root/'evidence/approved-pack-sha256.json').read_text())
-report={'emulator':'MesenCE 2.2.1','baseline':'0.2.1','candidate':'0.3.0','ram_writes':False,'cases':{}}
+report={'emulator':'MesenCE 2.2.1','baseline':'0.2.1','candidate':(root/'VERSION').read_text().strip(),'ram_writes':False,'cases':{}}
 examples={};palette_examples={};projectiles=set()
 for case,route in routes.items():
     b,c=Path(a.before)/case,Path(a.after)/case

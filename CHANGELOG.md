@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.3.0 — review candidate, 2026-10-23
+## 0.3.1 — review candidate, 2026-10-23
+
+- Fixed the Blizzard pause menu's alternate R and D tile identities with the existing HD font, including both spell selections and pause/resume.
+- Enabled Mesen's supported `disableSpriteLimit` HD-pack option. The boss fireball no longer loses alternate halves when boss/player sprites crowd its scanlines. This rendering option applies throughout the loaded pack; native sprites and hit flashes keep their original positions and timing.
+- Preserved every existing artwork pixel; only two formerly empty atlas cells gain menu glyphs. Previous mappings and the audio patch stay exact.
+- Kept 78 root pack files. Main remains approved 0.2.1; the bundle includes the entire unmerged boss feature plus this repair.
+
+## 0.3.0 — superseded review candidate, 2026-10-23
 
 - Added the first horned boss with standing, stepping, compact jump/crouch and both firing poses, round fireballs, white hit flashes and the native gradual death sequence.
 - Added the brass organ hall and Blizzard bell chamber, reusing approved masonry, stone and ornaments at native tile positions.

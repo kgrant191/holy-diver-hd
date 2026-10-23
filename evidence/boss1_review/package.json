@@ -1,0 +1,10 @@
+{
+  "version": "0.3.1",
+  "root_files": 78,
+  "nested_zip": false,
+  "all_hashes_match": true,
+  "archive_sha256": "74ea2345b7534884c510dcfbc0d36307e798c6deab3cc89b89e3f3a63be31588",
+  "archive_bytes": 8254795,
+  "actions_artifact_checked": false,
+  "main_approved": "0.2.1"
+}
