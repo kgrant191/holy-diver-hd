@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.3.4 — review candidate, 2026-10-23
+## 0.3.5 — review candidate, 2026-10-23
+
+- Added the large HP and Magic recovery pickups: a ruby-red rounded flask and a cobalt faceted vial with antique brass trim, fitted to the native 8×16 sprite footprint.
+- Added 64 shared mappings for sixteen byte-identical copies of each of the four native tiles. Existing small heart/crystal drops, Randy's confirmed leg repair and all previous artwork/mapping priority stay exact.
+- Retained native pickup effects, sprite positions, gameplay and audio. Added one atlas for 80 root pack files; main remains approved 0.2.1 pending full feature review.
+
+## 0.3.4 — confirmed leg repair, 2026-10-23
+
+The user confirmed the standing-leg correction ("thats fixed"). Full boss-feature approval remains pending.
 
 - Corrected the knee/shin discontinuity introduced by 0.3.3. Register the complete forward standing leg as one piece within its native two-tile footprint in normal/Twin Fire colors and both directions.
 - Anchor the idle knee rule to the torso tile directly above it, preserving the same leg at the left-room edge when the distant hand tile leaves the screen. Existing rule priority and every other pose are preserved.

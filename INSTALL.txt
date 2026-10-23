@@ -1,5 +1,8 @@
-HOLY DIVER HD 0.3.4 — REVIEW CANDIDATE
+HOLY DIVER HD 0.3.5 — REVIEW CANDIDATE
 First boss and Blizzard chamber. Main remains approved 0.2.1.
+
+0.3.5 adds HD red HP and blue Magic flasks, preserving their native pickup
+effects and the confirmed Randy standing-leg correction.
 
 0.3.4 corrects the disconnected knee/shin introduced in 0.3.3. Randy's
 standing forward leg now uses one continuous thigh, knee, shin and boot.

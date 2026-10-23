@@ -4,7 +4,9 @@ Updated: 2026-10-23 (America/New_York).
 
 ## Current review candidate
 
-**0.3.4** on `feature/1-boss`, based on approved main `2427afd4739f273bf527810edcfae93e6592e344`. The user requested the first boss and supplied three states covering entry, crouched fire and defeat. Main remains **0.2.1**. Do not merge or publish a release without the user's approval.
+**0.3.5** on `feature/1-boss`, based on approved main `2427afd4739f273bf527810edcfae93e6592e344`. The user requested the first boss and supplied three states covering entry, crouched fire and defeat. Main remains **0.2.1**. Do not merge or publish a release without the user's approval.
+
+The user confirmed the 0.3.4 leg repair ("thats fixed") and supplied two more states showing original HP/Magic flasks. The 0.3.5 candidate adds red HP and blue Magic bottle artwork for native tiles 49–4C, distinct from the already-covered small heart/crystal drops. Shared mappings cover all sixteen byte-identical CHR copies; live coverage is the supplied chapel/tree states. The confirmed Randy artwork and every other previous asset remain exact. See `docs/RECOVERY_ITEMS.md`.
 
 The user confirmed the 0.3.2 transition fix, then reported a missing standing toe while crouching was correct. They rejected the 0.3.3 repair because the isolated boot fit cut the knee/shin outline. The 0.3.4 correction registers the full forward standing leg as one continuous piece in both costumes. It also keeps the idle knee rule active at the left-screen edge by probing the torso directly above it. Other poses and rule priority stay exact. See `docs/RANDY_LEG.md`.
 
@@ -14,7 +16,7 @@ The 0.3.1 review repair fixes the Blizzard menu's R/D font fallback and enables 
 
 Candidate art covers the six native boss poses in both directions, hit-palette flashes, the native 36-tile progressive disappearance, the organ hall, Blizzard bell chamber, spell pickup, ascent and announcement. The Stage 2 title/lives card is now verified in live play. Known Randy/HUD copies in the announcement and Stage 2 graphics banks reuse the approved art. Stage 2 scenery/enemies remain future work.
 
-The pack contains 79 root files. The requested standing-foot repair also changes the two Randy atlases. Along with hires.txt and README.txt, these are the only changed files among the 75 main-baseline files; 71 existing runtime files stay exact. Four PNGs are added. The old expected manifest is retained as `evidence/0.2.1-pack-sha256.json`. The historical `approved-pack-sha256.json` filename describes the candidate on this branch, not approval. See `docs/BOSS1.md` and `evidence/boss1/verification.json` for reproduction and coverage.
+The pack contains 80 root files. The requested standing-foot repair also changes the two Randy atlases. Along with hires.txt and README.txt, these are the only changed files among the 75 main-baseline files; 71 existing runtime files stay exact. Five PNGs are added. The old expected manifest is retained as `evidence/0.2.1-pack-sha256.json`. The historical `approved-pack-sha256.json` filename describes the candidate on this branch, not approval. See `docs/BOSS1.md` and `evidence/boss1/verification.json` for reproduction and coverage.
 
 Initial 0.3.0 live checks passed: 11,030 frames per build, 9,500 paired RAM/PPU/OAM samples per type, identical APU events and common PCM. Earlier-room regression has 1,470 identical screenshots; the unchanged Stage 2 card adds 184. Two runs have one shutdown-buffer audio-tail difference, documented in the reports. All six boss poses are observed in both directions.
 
@@ -25,6 +27,8 @@ The 0.3.2 repair checks pass: 5,500 frames per build and paired samples per nati
 The rejected 0.3.3 repair passed 6,460 frames of bounds, source-pixel and native memory/audio checks, but those checks missed the visibly broken knee/shin join. Its report under `evidence/randy_foot/` remains historical evidence of preservation, not visual acceptance. The new correction adds whole-leg contour checks and live views against a clear backdrop.
 
 The 0.3.4 checks pass across 6,940 frames per build and paired samples per native-memory type, with identical APU events and common PCM. The normal/Twin Fire entrance routes each have 248 pixel-exact complete-leg captures and 75 unchanged crouching/crouch-cast captures. Each clear-background route adds 177 complete-leg captures in both directions. Changes are confined to the standing forward leg in 2,736 images; 4,197 other valid screenshots remain identical. Both frame-616 offscreen-hand cases retain the complete registered leg. The clear-background close-ups were visually inspected in both directions and costumes. See `evidence/randy_leg/verification.json` and `comparison.png`.
+
+The 0.3.5 pickup checks pass across 1,320 frames per build and paired samples per native-memory type. HP restores 5→6 and Magic restores 10→50 in both normal/Twin Fire costumes; neutral cases preserve each item's native expiry. All 405 changed screenshots are confined to the flask tiles, 909 valid images remain identical, and 397 captures match the complete bottle artwork exactly. APU events and common PCM match; the HP neutral case has one 3,192-byte shutdown-tail difference. All 77 previous files other than mapping/readme remain byte-identical. See `evidence/recovery_items/verification.json` and the live comparison.
 
 Use the agreed ZIP-wrapped incremental Git bundle workflow. The user pushes the binary artwork with local credentials; the integration can then create the review PR and inspect the actual Actions artifact. No PR or candidate Actions artifact exists until that push.
 

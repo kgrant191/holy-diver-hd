@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "name": "hp",
+      "source": "art/generated/hp_flask_generated.png",
+      "source_sha256": "adcb3b4744bf9bb05a2a361672c77d570bc1226bc36fce777157baef0df5b405",
+      "source_crop": [
+        190,
+        341,
+        697,
+        1434
+      ],
+      "target_rectangle": [
+        1,
+        8,
+        15,
+        32
+      ],
+      "native_tiles": [
+        "49",
+        "4A"
+      ],
+      "palette": "FF301116",
+      "identical_chr_aliases": [
+        [
+          "0049",
+          "004A"
+        ],
+        [
+          "0249",
+          "024A"
+        ],
+        [
+          "0449",
+          "044A"
+        ],
+        [
+          "0649",
+          "064A"
+        ],
+        [
+          "0849",
+          "084A"
+        ],
+        [
+          "0A49",
+          "0A4A"
+        ],
+        [
+          "0C49",
+          "0C4A"
+        ],
+        [
+          "0E49",
+          "0E4A"
+        ],
+        [
+          "1049",
+          "104A"
+        ],
+        [
+          "1249",
+          "124A"
+        ],
+        [
+          "1449",
+          "144A"
+        ],
+        [
+          "1649",
+          "164A"
+        ],
+        [
+          "1849",
+          "184A"
+        ],
+        [
+          "1A49",
+          "1A4A"
+        ],
+        [
+          "1C49",
+          "1C4A"
+        ],
+        [
+          "1E49",
+          "1E4A"
+        ]
+      ]
+    },
+    {
+      "name": "magic",
+      "source": "art/generated/magic_flask_generated.png",
+      "source_sha256": "017f8ef741d70c029b51ea3fb5ebddba642aa774fabe5bc55bf4d5f4a6816302",
+      "source_crop": [
+        262,
+        233,
+        626,
+        1570
+      ],
+      "target_rectangle": [
+        1,
+        8,
+        15,
+        32
+      ],
+      "native_tiles": [
+        "4B",
+        "4C"
+      ],
+      "palette": "FF301116",
+      "identical_chr_aliases": [
+        [
+          "004B",
+          "004C"
+        ],
+        [
+          "024B",
+          "024C"
+        ],
+        [
+          "044B",
+          "044C"
+        ],
+        [
+          "064B",
+          "064C"
+        ],
+        [
+          "084B",
+          "084C"
+        ],
+        [
+          "0A4B",
+          "0A4C"
+        ],
+        [
+          "0C4B",
+          "0C4C"
+        ],
+        [
+          "0E4B",
+          "0E4C"
+        ],
+        [
+          "104B",
+          "104C"
+        ],
+        [
+          "124B",
+          "124C"
+        ],
+        [
+          "144B",
+          "144C"
+        ],
+        [
+          "164B",
+          "164C"
+        ],
+        [
+          "184B",
+          "184C"
+        ],
+        [
+          "1A4B",
+          "1A4C"
+        ],
+        [
+          "1C4B",
+          "1C4C"
+        ],
+        [
+          "1E4B",
+          "1E4C"
+        ]
+      ]
+    }
+  ],
+  "native_chr_patterns": {
+    "49": "000000007e3c3c3c0000000000001818",
+    "4A": "3c7afdfdfdb9423c18387c7c7c380000",
+    "4B": "000000007e3c24240000000000001818",
+    "4C": "42818181818181ff3c7c7c7c7c7c4000"
+  },
+  "tile_rules": 64,
+  "atlas_index": 31,
+  "native_geometry_changed": false,
+  "existing_rules_modified": false,
+  "later_bank_live_coverage": "Base-bank pickups tested in supplied chapel/tree states; matching copies are mapped but not all live-tested."
+}

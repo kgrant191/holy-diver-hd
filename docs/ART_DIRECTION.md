@@ -22,7 +22,7 @@ New source art and generation briefs are in art/generated/screen1_3_*.png and do
 
 Reuse the approved entrance tree, branches, roots, gold ground and distant ruins. Register these to native tiles so every platform follows the original layout. The left masonry uses a continuous aged-gold facade with complete Gothic arches and dark navy inset stone. Nonsolid decorative tiles are cleared; the shelf remains bound to its native tiles. Preserve the moon’s castle occlusion. The 1-up is an 8×16-native front-facing Randy doll/statue on a small bronze base, with blue and ivory variants. Enemies reuse the approved sharp standing and rolling sprites. See SCREEN1_4.md and SCREEN1_4_REVIEW.md for source provenance.
 
-## First boss and Blizzard chamber (0.3.4 candidate)
+## First boss and Blizzard chamber (0.3.5 candidate)
 
 The boss preserves the native oversized head, curled ivory horns, teal/green palette, clawed hands and bent legs. Register its head/torso once; vary only the measured lower-body and mouth regions. Maintain the compact airborne/crouched footprint and the native 36-piece bottom-up disappearance. White hit frames and red defeat backdrop pulses follow the actual palette events.
 
@@ -33,3 +33,5 @@ The 0.3.1 repair keeps the fireball artwork exact and removes the NES scanline s
 The 0.3.2 ascent backdrop repeats the approved nave panorama vertically to cover both nametables and the viewport. Preserve the original bell and ornaments during the repeating-room scroll. The pre-announcement white/gray steps retain the approved Randy silhouette, with native brightness values 255/173/102. See `BOSS1_TRANSITION.md`.
 
 The standing leg correction changes only pose 0 at local HD coordinates X16–31/Y32–63. Register thigh, knee, shin and boot together; the isolated 0.3.3 boot fit visibly broke the knee join. Keep the continuous leg and complete toe inside the native X<32 footprint. Preserve the rear boot, upper body, all other poses and each costume's existing colors. Judge the joint in live captures against a clear backdrop in both directions, including where the knee and shin span separate native tiles. See `RANDY_LEG.md`.
+
+Large recovery pickups use a rounded ruby-red HP flask and faceted cobalt/cyan Magic vial with restrained antique brass collars/bases. Keep the complete bottles in the native two-tile 16×32 HD canvas, including its eight transparent top rows. The small heart and crystal retain their existing artwork. Shared matching CHR copies reuse the same flask art. See `RECOVERY_ITEMS.md`.

@@ -124,3 +124,7 @@ See [RANDY_FOOT.md](RANDY_FOOT.md). `randy_foot_routes.json` tests normal/Twin F
 ## Connected standing leg (0.3.4 candidate)
 
 See [RANDY_LEG.md](RANDY_LEG.md). `randy_leg_routes.json` adds two clear-background routes to the preceding five cases, totaling 6,940 frames per build. `verify_randy_leg.py` detects the rejected knee contour, requires a connected and gradual replacement outline, checks the complete leg in both directions/costumes, and verifies the idle knee mapping when the outer hand is offscreen. All image changes must stay inside the idle forward leg; every other pose and all native memory/APU/common PCM must remain exact. Inspect the unretouched live close-ups; numerical checks do not replace visual review. The 79-file artifact still requires actual Actions verification after the user's push.
+
+## HP and Magic recovery flasks (0.3.5 candidate)
+
+See [RECOVERY_ITEMS.md](RECOVERY_ITEMS.md). Six controller-only routes cover both supplied pickups, collection in normal/Twin Fire costumes, and neutral drop/expiry behavior. `verify_recovery_items.py` requires exact paired native memory/APU/common PCM, changes confined to the four native item tiles, and exact images after collection or expiry. HP collection raises 5→6; Magic raises 10→50, in both costumes. All existing art and mapping text stay exact. Base-bank items are live-tested; identical later-bank copies are mapped without claiming live coverage. The 80-file Actions artifact must be checked after the user's push.

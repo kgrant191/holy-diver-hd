@@ -1,0 +1,13 @@
+{
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "verified_identical_tile_copies": 64,
+  "native_patterns": {
+    "49": "000000007e3c3c3c0000000000001818",
+    "4A": "3c7afdfdfdb9423c18387c7c7c380000",
+    "4B": "000000007e3c24240000000000001818",
+    "4C": "42818181818181ff3c7c7c7c7c7c4000"
+  },
+  "identical_copy_stride": "0200",
+  "live_tested_bank": "0000",
+  "other_banks_live_tested": false
+}

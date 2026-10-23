@@ -1,6 +1,8 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.3.4. Approved main: 0.2.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.3.5. Approved main: 0.2.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+
+Version 0.3.5 adds the large red HP and blue Magic flasks with shared mappings for their identical native graphics copies. Previous artwork, including the confirmed standing-leg repair, remains exact. See [recovery items](docs/RECOVERY_ITEMS.md) and [live comparison](evidence/recovery_items/comparison.png).
 
 Version 0.3.4 corrects the disconnected knee/shin introduced by the rejected 0.3.3 boot repair. The forward standing leg is registered as one continuous thigh, knee, shin and boot in both costumes and directions. Crouching and all other poses stay exact. See [standing leg correction](docs/RANDY_LEG.md) and [live comparison](evidence/randy_leg/comparison.png).
 
@@ -30,7 +32,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output: `build/Holy_Diver_HD_v0.3.4.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output: `build/Holy_Diver_HD_v0.3.5.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 
