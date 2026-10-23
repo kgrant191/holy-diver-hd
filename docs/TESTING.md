@@ -86,3 +86,7 @@ python scripts/verify_screen1_3_regression.py --before work/screen1_3/regression
 ```
 
 The regression verifier requires identical screenshots as well as memory/audio. The final Actions artifact must contain exactly the 73 expected pack files at its root and no nested ZIP. `approved-pack-sha256.json` retains its historical name; on this feature branch it describes the tested 0.1.0 candidate. User approval is recorded separately in STATUS.md.
+
+## 0.1.1 review fixes
+
+See `docs/REVIEW_FIXES.md` for the crouch-attack replay and comparison commands. `run_crouch_qa.py` uses controller input only and captures every frame in both normal/Twin Fire modes. `verify_review_fixes.py` requires both attack phases and both directions, paired native memory/audio equality, and unchanged rolling screenshots. `run_screen1_3_qa.py --case state3` supports a targeted replay when capture output needs repeating.

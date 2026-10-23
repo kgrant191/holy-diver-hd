@@ -25,21 +25,23 @@ Completed: entrance/title sequence, entrance environment, known shared Randy pos
 
 ## Current review branch
 
-`feature/screen-1-3` builds **0.1.0**, a review candidate awaiting chat approval. Main remains approved 0.0.2. This is a new screen addition under the agreed minor-version policy, not a public release.
+`feature/screen-1-3` builds **0.1.1**, a review candidate awaiting chat approval. Main remains approved 0.0.2. The 0.1.0 screen addition was reviewed in chat; this patch candidate addresses the standing ghoul and crouching attacks. It is not a public release.
 
 Three supplied states cover the third chapel section. Native inspection and movement revealed emerald/ruby windows, reinforced blocks, a large gold background ornament, a purple ghoul with two standing and four rolling poses, and small blue flying skulls with two poses. The candidate adds a solid nave wall behind those details. Randy, weapons, HUD, stone blocks, the large gold flying enemy and the expanding death rings reuse existing art.
 
-The implementation adds 87 scoped tile rules, three palette checks, one background rule and two runtime PNGs. All 69 existing PNG/IPS files remain byte-identical to 0.0.2. Removing the three marked screen-1-3 sections recovers the approved mapping file exactly. The expected build manifest uses the historical filename `approved-pack-sha256.json`; on this branch it identifies the tested candidate, not user approval. `0.0.2-pack-sha256.json` retains the approved baseline.
+The initial screen implementation adds 87 scoped tile rules, three palette checks, one background rule and two runtime PNGs. The 0.1.1 repairs add 50 pose rules and 66 signatures. Two Randy atlases and the nave atlas gain sprites only in previously unused cells: all earlier Randy poses and all four rolling ghoul frames are pixel-identical. The pack still has 73 files. Removing the marked screen-1-3 and review-fix sections recovers the approved mapping file exactly. The expected build manifest uses the historical filename `approved-pack-sha256.json`; on this branch it identifies the tested candidate, not user approval. `0.0.2-pack-sha256.json` retains the approved baseline, and `0.1.0-pack-sha256.json` retains the prior review candidate.
 
-Final candidate: 2,160 frames across the new states, 1,080 paired samples per memory type and identical full PCM. Regression: 1,800 fresh/reset title frames plus 360 earlier-crypt combat frames, all 270 screenshots identical; title audio has one shutdown buffer of length difference with identical common PCM.
+Initial 0.1.0 candidate: 2,160 frames across the new states, 1,080 paired samples per memory type and identical full PCM. Regression: 1,800 fresh/reset title frames plus 360 earlier-crypt combat frames, all 270 screenshots identical; title audio has one shutdown buffer of length difference with identical common PCM.
 
-See `evidence/screen1_3/verification.json`, the comparison captures and `docs/SCREEN1_3.md` for coverage. Next step: user review of the PR and Actions test artifact; revise this branch for feedback before merge.
+The 0.1.1 live checks cover both crouching attack phases, both directions and both costumes, plus all three chapel routes: 2,640 frames per build and 1,560 paired RAM/PPU/OAM samples. Changes are confined to the requested sprites; 64 rolling-attack screenshots remain exactly identical. See `evidence/review_fixes/verification.json` and the live comparison images. Fresh/reset title and earlier crypt regression add 2,160 frames, 630 paired samples per memory type and 270 identical screenshots, with equal-length identical audio. Total reviewed coverage is 4,800 frames per build. Existing 0.1.0 evidence remains under `evidence/screen1_3/`.
+
+PR #2 remains the review PR. Next step: the user pushes the incremental bundle, then the assistant verifies the remote commit and the new Actions artifact. No merge is authorized. See `docs/REVIEW_FIXES.md` for reproduction commands and limits.
 
 ## Known limits
 
 - This is a partial HD overhaul, not a finished all-stage pack.
 - All six stage names and life counts 0–9 are mapped; live card coverage is Stage 1 and counts 3/2.
-- Native player tiles $33, $34, $35 and $3C were previously observed as unmapped leg fragments. Investigate if a live route uses them; do not guess from tile numbers.
+- Native player tiles $33–$35 are now measured and covered as crouching wind-up legs. Tile $3C remains unclassified; investigate only when a live route uses it.
 - The earlier report of Randy fully reverting to original art during death was not independently reproduced. Shared defeat fallbacks exist, and current recorded death poses remain HD.
 - Old scripts remain for provenance. build.py is the supported build entry point.
 - Full historical capture runs/videos and original savestates remain in the prior source/handoff archives. The repository keeps compact evidence and exact rollback inputs.

@@ -32,10 +32,10 @@ for line in lines:
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
 assert len(imgs)==29
-assert counts['tile']==2318
+assert counts['tile']==2368
 assert counts['background']==49
-assert counts['condition']==207
-# Preserve approved assets outside the explicitly requested title/ledge repairs.
+assert counts['condition']==273
+# Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
 arm_atlases={'Randy_Entrance_2x.png','Randy_Equipped_2x.png'}
@@ -57,20 +57,36 @@ for p in baseline.glob('*.png'):
   patch=Image.open(root/'art/randy_arm_patch.png').convert('RGBA')
   for pose,(x,y) in json.loads((root/'art/arm_repair.json').read_text())['pose_positions'].items():
    i=int(pose);expected.alpha_composite(patch,(i%4*64+x,i//4*64+y))
+  mode=0 if p.name=='Randy_Entrance_2x.png' else 1
+  for phase in range(2):
+   sprite=Image.open(root/f'art/review_fixes/randy_{mode}_{phase}.png').convert('RGBA')
+   expected.paste(sprite,((phase+2)*64,128))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
-# Screen 1-3 is strictly additive. Removing its three owned sections must
-# recover the exact approved mapping file, including ordering and whitespace.
-original_rules=re.sub(r'^# BEGIN SCREEN1_3 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_3 \1\n','',content,flags=re.M|re.S)
+# Both additions own marked sections. Removing these must recover the exact
+# approved mapping file, including ordering and whitespace.
+original_rules=re.sub(r'^# BEGIN REVIEW_FIXES (CONDITIONS|MAPPINGS)\n.*?^# END REVIEW_FIXES \1\n','',content,flags=re.M|re.S)
+original_rules=re.sub(r'^# BEGIN SCREEN1_3 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN1_3 \1\n','',original_rules,flags=re.M|re.S)
 assert original_rules.encode()==(baseline/'hires.txt').read_bytes()
 approved_002=json.loads((root/'evidence/0.0.2-pack-sha256.json').read_text())
 for name,digest in approved_002.items():
- if name not in {'README.txt','hires.txt'}:
+ if name not in {'README.txt','hires.txt'}|arm_atlases:
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.0.2 bytes changed'
 assert imgs[-1]=='Nave_Tiles_2x.png'
 nave=json.loads((root/'art/screen1_3/registration.json').read_text())
 assert nave['tile_rules']==87 and nave['conditions']==3 and nave['background_rules']==1
 assert not nave['collision_modified'] and not nave['existing_rules_modified']
 assert content.count('['+nave['scope']+']<tile>28,')==87
+# The old 87 atlas cells (including every rolling frame) remain byte-identical
+# at the pixel level; only twelve previously empty standing cells are added.
+before=np.array(Image.open(root/'art/screen1_3/Nave_Tiles_2x.png').convert('RGBA'))
+after=np.array(Image.open(pack/'Nave_Tiles_2x.png').convert('RGBA'))
+allowed=np.zeros(before.shape[:2],dtype=bool)
+for slot in range(87,99):
+ x,y=slot%16*16,slot//16*16;allowed[y:y+16,x:x+16]=True
+assert not np.any(np.any(before!=after,axis=2)&~allowed)
+repairs=json.loads((root/'art/review_fixes/registration.json').read_text())
+assert repairs['tile_rules']==50 and repairs['conditions']==66
+assert repairs['rolling_pixels_changed']==0 and repairs['existing_pose_pixels_changed']==0
 assert (baseline/'Entrance_SFX_Priority.ips').read_bytes()==(pack/'Entrance_SFX_Priority.ips').read_bytes()
 # Conditional pose rules must precede any corresponding ordinary mappings.
 first_unconditional={}

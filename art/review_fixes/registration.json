@@ -1,0 +1,64 @@
+{
+  "crouch": [
+    {
+      "palette": "FF300036",
+      "phase": "windup",
+      "size": [
+        58,
+        48
+      ],
+      "clipped_pixels": 27
+    },
+    {
+      "palette": "FF300036",
+      "phase": "release",
+      "size": [
+        64,
+        48
+      ],
+      "clipped_pixels": 47
+    },
+    {
+      "palette": "FF221136",
+      "phase": "windup",
+      "size": [
+        58,
+        48
+      ],
+      "clipped_pixels": 23
+    },
+    {
+      "palette": "FF221136",
+      "phase": "release",
+      "size": [
+        64,
+        48
+      ],
+      "clipped_pixels": 26
+    }
+  ],
+  "ghoul": [
+    {
+      "phase": 0,
+      "size": [
+        32,
+        48
+      ],
+      "resampling": "nearest",
+      "colors": 24
+    },
+    {
+      "phase": 1,
+      "size": [
+        32,
+        48
+      ],
+      "resampling": "nearest",
+      "colors": 24
+    }
+  ],
+  "rolling_pixels_changed": 0,
+  "tile_rules": 50,
+  "conditions": 66,
+  "existing_pose_pixels_changed": 0
+}

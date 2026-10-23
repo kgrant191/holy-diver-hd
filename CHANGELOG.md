@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.1.0 — review candidate, 2026-10-23
+## 0.1.1 — review candidate, 2026-10-23
+
+- Redrew both standing ghoul poses with crisp pixel clusters and pose-specific mappings. All four rolling frames retain their exact 0.1.0 pixels.
+- Added complete crouching spell wind-up/release sprites in both normal and Twin Fire palettes, for both native directions. Shared mappings fix the fallback across matching gameplay identities.
+- Used spare cells in the existing atlases, retaining all ten earlier Randy poses. Pack remains 73 root files with no nested archive.
+- Added controller-driven live checks and paired gameplay/audio comparisons; approval remains pending on the existing review branch. Main stays 0.0.2.
+
+## 0.1.0 — superseded review candidate, 2026-10-23
 
 - Added the third chapel section from three supplied savestates: masonry backdrop, emerald/ruby windows, reinforced blocks and gold serpent wall ornament.
 - Added all six observed purple-ghoul poses, including its rolling attack; added both small blue flying-skull poses and registered the initial impact flash from approved gold ring artwork.

@@ -1,6 +1,9 @@
-HOLY DIVER HD 0.1.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.1.1 — DEVELOPMENT REVIEW CANDIDATE
 Screen 1-3 chapel addition; approved main remains 0.0.2 until review.
 This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
+
+0.1.1 sharpens the standing ghoul while preserving all four rolling frames,
+and adds complete crouching wind-up/release sprites for both Randy costumes.
 
 0.1.0 adds a masonry chapel backdrop, emerald/ruby windows, reinforced blocks,
 a gold serpent ornament, and all six observed purple-ghoul poses. Shared Randy,

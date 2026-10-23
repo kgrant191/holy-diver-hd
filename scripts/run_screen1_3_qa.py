@@ -10,6 +10,7 @@ import subprocess
 p = argparse.ArgumentParser()
 for name in ['mesen', 'rom', 'pack', 'out', 'state1', 'state2', 'state3']:
     p.add_argument('--' + name, required=True)
+p.add_argument('--case', choices=['state1','state2','state3'])
 a = p.parse_args()
 root = Path(__file__).resolve().parents[1]
 mesen, rom, pack, out = [Path(v).resolve() for v in [a.mesen, a.rom, a.pack, a.out]]
@@ -57,6 +58,8 @@ routes = [
 ]
 for i, state in enumerate([a.state1, a.state2, a.state3]):
     case = f'state{i+1}'
+    if a.case and a.case != case:
+        continue
     state = Path(state).resolve()
     d = out/case
     (d/'frames').mkdir(parents=True, exist_ok=True)
