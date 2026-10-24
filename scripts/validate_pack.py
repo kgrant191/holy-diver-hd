@@ -32,7 +32,7 @@ for line in lines:
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
 assert len(imgs)==36
-assert counts['tile']==6000
+assert counts['tile']==6012
 assert counts['background']==171
 assert counts['condition']==1538
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
@@ -67,6 +67,14 @@ for p in baseline.glob('*.png'):
   assert boot.size==(16,32)
   expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
+# The stair review adds twelve rules and unused atlas cells only.
+pre_stairs=re.sub(r'^# BEGIN SCREEN2_4_STAIRS\n.*?^# END SCREEN2_4_STAIRS\n','',content,flags=re.M|re.S)
+reviewed_070=json.loads((root/'evidence/0.7.0-pack-sha256.json').read_text())
+assert hashlib.sha256(pre_stairs.encode()).hexdigest()==reviewed_070['hires.txt']
+prior_stair_atlas=Image.open(root/'art/screen2_4/Stage2_Second_Cave_Tiles_2x_0.7.0.png').convert('RGBA')
+current_stair_atlas=Image.open(pack/'Stage2_Second_Cave_Tiles_2x.png').convert('RGBA')
+for box in [(0,0,128,16),(0,16,16,32)]:
+ assert prior_stair_atlas.crop(box).tobytes()==current_stair_atlas.crop(box).tobytes()
 # The second horizontal cave must preserve every approved 0.6.1 asset/rule.
 pre_second_cave=re.sub(r'^# BEGIN SCREEN2_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_4 \1\n','',content,flags=re.M|re.S)
 approved_061=json.loads((root/'evidence/0.6.1-pack-sha256.json').read_text())
@@ -76,7 +84,7 @@ for name,digest in approved_061.items():
   assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.6.1 bytes changed'
 assert imgs[35]=='Stage2_Second_Cave_Tiles_2x.png'
 second_cave=json.loads((root/'art/screen2_4/registration.json').read_text())
-assert second_cave['shared_aliases']==304 and second_cave['new_tile_rules']==44
+assert second_cave['shared_aliases']==304 and second_cave['new_tile_rules']==56
 assert second_cave['background_rules']==47 and second_cave['new_painted_sources']==0
 assert not second_cave['native_collision_modified'] and not second_cave['previous_artwork_modified']
 second_cave_atlas=Image.open(pack/imgs[35]).convert('RGBA')

@@ -2,7 +2,11 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Active review candidate — 0.7.0, feature/screen2-4
+## Active review candidate — 0.7.1, feature/screen2-4
+
+Repairs twelve original stair identities at the end of screen 2-4 with the existing gold texture and exact native contours. Two controller-only routes pass 1,800 frames/build with 900 exact samples per native-memory type and identical full PCM/APU. All changes remain inside the native stair cells; 332 next-room pictures remain exact. The supplied end state extends coverage to both stair flights and the upward exit into screen 2-5, without claiming traversal of the previously untested middle stretch. Only hires.txt, the ceiling atlas's previously unused cells and installed README change from 0.7.0. No approval/merge/release is requested yet. See `docs/SCREEN2_4_STAIRS.md`.
+
+## Earlier review candidate — 0.7.0, feature/screen2-4
 
 The next horizontal cave reuses the approved panorama, gold terrain, winged demons with downward arrows, faceless pulsing rock enemies, lava/ice, player, pickups and HUD. All 512 native patterns match the earlier exterior bank. The only new installed image is a 128×64 ceiling-registration atlas using the existing gold texture; 304 aliases reuse previous mappings and 44 new rules fit additional ceiling edges and clear nonsolid wall patterns. All 83 prior runtime assets remain byte-identical. The install ZIP contains 86 root files.
 

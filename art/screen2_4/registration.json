@@ -1,8 +1,8 @@
 {
   "scope": "s24Room&s24DataLo&s24DataHi",
   "shared_aliases": 304,
-  "new_tile_rules": 44,
-  "atlas_cells": 9,
+  "new_tile_rules": 56,
+  "atlas_cells": 17,
   "mappings": [
     {
       "identity": "0350",
@@ -399,6 +399,114 @@
         16
       ],
       "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "0375",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "0376",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        16
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "0377",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        16
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "0378",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        16
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "0379",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        16
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "037A",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "037B",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        16
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "037C",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        16
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "037D",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "037E",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "037F",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        16
+      ],
+      "kind": "native stair contour"
+    },
+    {
+      "identity": "0380",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "native stair contour"
     }
   ],
   "background_rules": 47,

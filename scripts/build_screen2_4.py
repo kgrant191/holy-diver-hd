@@ -87,6 +87,28 @@ for t in range(0x397,0x39B):
 for t in [0x300, 0x36E, 0x36F, *range(0x39B,0x3A1)]:
     tile(t, '0F061828', Image.new('RGBA',(16,16)), 'cave backdrop reveal')
 
+# Twelve previously unmapped stair cells form two diagonal steps and a
+# horizontal landing. Register each complete 16x16 native shape before slicing.
+rules.append('# BEGIN SCREEN2_4_STAIRS')
+stairs = json.loads((art / 'native_stairs.json').read_text())
+for first in [0x375, 0x379, 0x37D]:
+    mask = np.zeros((16,16),dtype=np.uint8)
+    for i,t in enumerate(range(first,first+4)):
+        b = bytes.fromhex(stairs[f'{t:04X}'])
+        for y in range(8):
+            for x in range(8):
+                mask[i//2*8+y,i%2*8+x] = 255 if ((b[y]|b[y+8])>>(7-x))&1 else 0
+    for x in range(16):
+        ys = np.flatnonzero(mask[:,x])
+        if len(ys):
+            mask[ys[0]:ys[-1]+1,x] = 255
+    step = gold.copy()
+    step.putalpha(Image.fromarray(mask).resize((32,32),Image.Resampling.NEAREST))
+    for i,t in enumerate(range(first,first+4)):
+        x,y = i%2*16,i//2*16
+        tile(t,'0F071737',step.crop((x,y,x+16,y+16)),'native stair contour')
+rules.append('# END SCREEN2_4_STAIRS')
+
 backgrounds = []
 guards = [(t, '0F071737') for t in [*range(0x32E,0x334), *range(0x350,0x35F),
                                                *range(0x381,0x389), *range(0x38F,0x39B)]]
@@ -110,7 +132,7 @@ first = next(i for i,line in enumerate(lines) if '<tile>' in line or '<backgroun
 lines[first:first] = [section('CONDITIONS',conditions), section('MAPPINGS',aliases+rules+backgrounds)]
 (pack/'hires.txt').write_text(''.join(lines))
 (art/'registration.json').write_text(json.dumps(dict(scope=scope, shared_aliases=len(aliases),
-    new_tile_rules=len(rules), atlas_cells=len(cache), mappings=metadata,
+    new_tile_rules=len(metadata), atlas_cells=len(cache), mappings=metadata,
     background_rules=len(backgrounds), reused_background='Stage2_Cave_Background.png',
     new_painted_sources=0, native_collision_modified=False, previous_artwork_modified=False),indent=2)+'\n')
-print('Stage 2 second horizontal cave:',len(aliases),'shared aliases,',len(rules),'new tile mappings')
+print('Stage 2 second horizontal cave:',len(aliases),'shared aliases,',len(metadata),'new tile mappings')

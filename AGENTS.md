@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Active review branch
 
-- `feature/screen2-4` contains 0.7.0 for review. Approved main remains 0.6.1. Read `docs/SCREEN2_4.md` for reuse, input hashes and bounded live coverage; do not describe the candidate as approved or the full room exit as tested.
+- `feature/screen2-4` contains 0.7.1 for review. Approved main remains 0.6.1. Read `docs/SCREEN2_4.md` for reuse, input hashes and bounded live coverage; the separate stair repair verifies the upward exit from the new end state (`docs/SCREEN2_4_STAIRS.md`). Do not describe the candidate as approved or the full middle-room traversal as tested.
 
 ## Preserve approved behavior
 

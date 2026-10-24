@@ -1,8 +1,10 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.7.0 on `feature/screen2-4`; approved main: 0.6.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.7.1 on `feature/screen2-4`; approved main: 0.6.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
-**Screen 2-4 review candidate (0.7.0).** Reuses the accepted cave panorama, gold terrain, winged demons with downward arrows, pulsing rocks and shared player/HUD assets. The additional ceiling shapes use the existing gold texture. See [screen notes](docs/SCREEN2_4.md).
+**Screen 2-4 stair repair (0.7.1).** The end-of-room stairs now use the accepted gold texture inside their native contours. Paired tests cover both flights and entry into 2-5. See [stair repair](docs/SCREEN2_4_STAIRS.md).
+
+**Screen 2-4 original candidate (0.7.0).** Reuses the accepted cave panorama, gold terrain, winged demons with downward arrows, pulsing rocks and shared player/HUD assets. The additional ceiling shapes use the existing gold texture. See [screen notes](docs/SCREEN2_4.md).
 
 **Approved 0.6.1 (`feature/screen2-3`), accepted on 2026-10-24.** The floating eyes now shed blue teardrops, with pointed tops and rounded liquid bodies. Only their two projectile cells change; the eye bodies, scenery, other fireballs and native behavior remain unchanged. See [repair notes](docs/SCREEN2_3_REVIEW.md) and [actual blue-tear comparison](evidence/screen2_3_review/comparison.png).
 
@@ -44,7 +46,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.7.0.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.7.1.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

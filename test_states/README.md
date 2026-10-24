@@ -81,3 +81,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Stage 2 screen 4 horizontal cave (0.7.0 candidate)
 
 `Holy_Diver_HD_1(10).mss` — SHA-256 `ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a`. The 10,439-byte supplied file is unchanged and excluded from Git. Use `scripts/screen2_4_routes.json` with `run_screen2_2_qa.py --state`. The separate approach route uses the retained screen 3 state above. See `docs/SCREEN2_4.md`.
+
+## Screen 2-4 stairs / 2-5 approach (2026-10-24)
+
+`Holy_Diver_HD_1(20261024-155045).mss` — SHA-256 `8a67bbf57e6d756e36f4f6f42934d27b40c6266d95f6fc24118244c89e53ee40`, 9,383 bytes. Unchanged, excluded from Git. Starts at the upper stair flight in screen 2-4; jump left/up to enter 2-5.

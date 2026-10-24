@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.1 — Screen 2-4 stair repair candidate (2026-10-24)
+
+- Register twelve original stair tiles using approved gold texture and native outer contours.
+- Verify both stair flights and the upward transition from the supplied end state; preserve native state/audio and every next-room image.
+- Keep 83 pack files and all previously used ceiling-atlas cells exact.
+
 ## 0.7.0 — Stage 2 screen 4 review candidate (2026-10-24)
 
 - Reuse the approved cave panorama, gold terrain, winged demons and arrows, pulsing rocks, lava/ice, player and HUD.
