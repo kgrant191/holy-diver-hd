@@ -31,12 +31,20 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==37
-assert counts['tile']==6403
+assert len(imgs)==38
+assert counts['tile']==6951
 assert counts['background']==229
-assert counts['condition']==1602
+assert counts['condition']==1689
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
+# Review overrides are additive; all 86 earlier runtime assets stay exact.
+content=re.sub(r'^# BEGIN SCREEN2_5_REVIEW (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_5_REVIEW \1\n','',content,flags=re.M|re.S)
+reviewed_080=json.loads((root/'evidence/0.8.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==reviewed_080['hires.txt']
+for name,digest in reviewed_080.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior runtime bytes changed'
+assert imgs[37]=='Stage2_Cave_Review_2x.png'
 baseline=root/'rollback/approved_v15'
 arm_atlases={'Randy_Entrance_2x.png','Randy_Equipped_2x.png'}
 repaired_backgrounds={'Title_HD.png','Title_Intro_HD.png','EntranceScene.png'}

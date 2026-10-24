@@ -1,0 +1,25 @@
+{
+  "user_report": "hollow/see-through health item",
+  "cause": "previously unmapped four-tile handled jug; original outline sprite",
+  "native_groups": [
+    "0276",
+    "068E",
+    "0A8E",
+    "0C8E",
+    "129A"
+  ],
+  "palette": "FF301116",
+  "registered_size": [
+    32,
+    32
+  ],
+  "alpha_values": [
+    0,
+    255
+  ],
+  "opaque_vessel_core": true,
+  "runtime_pickup_observed": false,
+  "collection_effect_verified": false,
+  "source_sha256": "f76ac8cfce162c165ff51a709e286772bbd0d9c31698b4fa22e50600e340c4fb",
+  "registered_sha256": "8afe0d2890c6448387de7e704a778dbfa0ab0fde8bb61e20ea235867e29ea70e"
+}

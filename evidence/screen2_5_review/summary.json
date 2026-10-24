@@ -1,0 +1,35 @@
+{
+  "baseline": "0.8.0",
+  "candidate": "0.8.1",
+  "total_frames_per_build": 6800,
+  "native_samples_per_type": 3400,
+  "black_images": 80,
+  "unchanged_outside_room_images": 259,
+  "unchanged_menu_images": 56,
+  "gold_floor_cell_checks": 25569,
+  "changed_images": 2877,
+  "exact_images": 523,
+  "complete_source_matches": {
+    "stair_0375": 121,
+    "stair_0379": 121,
+    "stair_037D": 110
+  },
+  "all_apu_equal": true,
+  "full_pcm_equal": true,
+  "maximum_2_5_camera_scroll": 482,
+  "far_2_5_exit_verified": false,
+  "health_jug_live_verified": false,
+  "health_jug_static_verified": true,
+  "unchanged_prior_runtime_files": 86,
+  "pack_files": 89,
+  "preview_files": {
+    "comparison.png": {
+      "bytes": 1235245,
+      "sha256": "123dafc7c0fb5a1acbb2053fb4075d3f68c83b7b19a0a1b3ef56806986dbb8b7"
+    },
+    "review.mp4": {
+      "bytes": 2646582,
+      "sha256": "599492eed914a88bd5089b5f08f8f81a0f5d6d6b67d609bcfafae6e1abd70e2d"
+    }
+  }
+}

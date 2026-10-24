@@ -1,0 +1,19 @@
+{
+  "patterns": {
+    "76": "0f3f4f20101030400000000000000000",
+    "77": "00c020408080dc220000000000000000",
+    "78": "99bfbf9f4f46201f193f3f1f0f060000",
+    "79": "9dd5d59a043840808040c08000000000"
+  },
+  "identical_groups": [
+    "0276",
+    "068E",
+    "0A8E",
+    "0C8E",
+    "129A"
+  ],
+  "palette": "FF301116",
+  "registration_scope": "shared exact CHR groups; runtime palette guard",
+  "source_kind": "four-tile handled health restoration jug",
+  "previous_bottles_unchanged": true
+}

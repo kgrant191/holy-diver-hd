@@ -1,10 +1,11 @@
-HOLY DIVER HD 0.8.0 — DEVELOPMENT REVIEW CANDIDATE
-Stage 2, screen 5 crimson cave, including the screen 4 stair repair.
+HOLY DIVER HD 0.8.1 — DEVELOPMENT REVIEW CANDIDATE
+Stage 2 cave review: distinct carved steps, open crimson scenery and health jug.
 
-New crimson mineral columns and hanging flowstone retain the red cave character.
-Reuses approved gold terrain, cave depth, bats, eyes with blue tears and lava/ice.
+Removes foreground red rocks and heavy gold ceiling fill to reveal the red cave.
+Gold platforms and slim overhead boundaries retain the original terrain layout.
+Adds the previously unmapped handled health jug with an opaque red/brass body.
 
-Registers all twelve stair tiles with the existing gold texture and native edges.
+All twelve stair tiles use distinct cut-stone treads inside their native edges.
 
 Reuses the approved cave backdrop, gold terrain, winged demons, downward arrows,
 pulsing rock enemies, lava/ice, player, pickups and HUD. Adds native ceiling

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.1 — Cave visual review candidate (2026-10-24)
+
+- Replace rock-textured stairs in 2-4/2-5 with cut-stone steps and pale tread edges.
+- Remove foreground red columns and heavy brown ceiling fill in 2-5, exposing the accepted crimson panorama while preserving gold platforms and slim overhead boundaries.
+- Map the previously uncovered four-tile handled health jug to opaque red/brass artwork, shared across five byte-identical native CHR groups.
+- Preserve all 86 previous runtime assets, native gameplay and audio; add one atlas (89 installed root files).
+- Keep both review branches unmerged; approved main remains 0.6.1.
+
 ## 0.8.0 — Screen 2-5 crimson cave candidate (2026-10-24)
 
 - Add a deep crimson cavern panorama with large mineral formations and shaded red foreground columns.

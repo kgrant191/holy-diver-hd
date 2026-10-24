@@ -2,7 +2,15 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Active review candidate — 0.8.0, feature/screen2-5
+## Active review candidate — 0.8.1, feature/screen2-5
+
+Responds to the user's rejected rock stairs, heavy brown ceiling and foreground red columns. Uses pale-edged cut-stone treads in both rooms, removes the ceiling fill/columns in 2-5 and retains the accepted panorama, gold platforms and slim overhead boundaries. The health screenshot reveals a previously unmapped four-tile handled jug; new opaque red/brass art covers its five exact native CHR groups. All 86 previous runtime assets remain byte-identical; one atlas brings the install to 89 root files.
+
+Five paired controller routes pass 6,800 frames/build with 3,400 exact native samples/type and identical full PCM/APU. They preserve 80 black captures, 259 outside-room captures and 56 menu captures; 25,569 gold platform-body cell checks and 352 complete stair matches pass. Coverage extends to camera scroll 482 and the lava fall, then death/return. The far exit remains unverified. The jug mapping, native bounds and opacity are checked statically; the actual pickup is not reached, so a save with that jug visible is needed for its live check. See `docs/SCREEN2_5_REVIEW.md` and `evidence/screen2_5_review/`.
+
+The final stair appearance is on feature/screen2-5; feature/screen2-4 retains the earlier 0.7.1 candidate. Both refs remain in the source bundle, unmerged and unapproved. Approved main remains 0.6.1. Local ZIP hashes/CRC/layout pass; user push, PRs and Actions checks remain pending.
+
+## Superseded review candidate — 0.8.0, feature/screen2-5
 
 Adds the crimson cave reached by jumping up the repaired stairs. A new large-scale red cavern panorama replaces the tiny repeating wall motif, and a new atlas registers shaded crimson mineral columns within their native outlines. Reuses 359 existing rules for gold terrain/stairs, lava/ice, ghouls, bats and eyes with blue tears; player/HUD/items remain shared. All 84 previous runtime assets stay byte-identical. Two new installed PNGs bring the pack to 88 root files.
 

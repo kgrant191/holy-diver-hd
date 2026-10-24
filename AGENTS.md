@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Active review branches
 
-- `feature/screen2-4` contains the 0.7.1 stair repair; `feature/screen2-5` is stacked on it with the 0.8.0 crimson cave. Both remain unapproved, and approved main remains 0.6.1. Read `docs/SCREEN2_4_STAIRS.md` and `docs/SCREEN2_5.md` for exact coverage. Preserve the broader red formations and native foreground column outlines; do not restore the rejected tight repeating wall texture.
+- `feature/screen2-4` contains the 0.7.1 stair repair; `feature/screen2-5` is stacked on it with the 0.8.1 visual review. Both remain unapproved, and approved main remains 0.6.1. The user rejected gold rock stairs, heavy brown ceiling fill and foreground red columns. Current review uses distinct cut-stone steps, exposes the crimson panorama, retains gold platforms/slim overhead boundaries and maps the previously missing four-tile health jug. Read `docs/SCREEN2_5_REVIEW.md` for current coverage. Do not restore the rejected foreground columns or repeating wall texture.
 
 ## Preserve approved behavior
 
