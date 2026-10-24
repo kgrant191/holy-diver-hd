@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.0 — Stage 2 screen 3 review candidate (2026-10-24)
+
+- Add the vertical cave with a compact ivory/teal floating eye and crimson spiked rim, preserving its native four-tile body and two projectile identities.
+- Reuse the approved cave backdrop, gold terrain, all ghoul poses, lava/ice, pickups, player and HUD through 98 scoped aliases. Clear six nonsolid wall-pattern tiles to reveal the cave.
+- Keep the distant cave layer stationary while native foreground platforms scroll vertically. Rendered-tile guards preserve blackouts and menus.
+- Preserve all 82 earlier files other than mappings/install text; add one atlas, for 85 root files. No collision, ROM or audio changes.
+- Based on locally approved 0.5.1; its GitHub adoption remains pending. This candidate is for review, with no release/tag.
+
 ## 0.5.1 — approved 2026-10-24
 
 - Remove the reddish hanging foreground decoration so the existing cave backdrop shows through.

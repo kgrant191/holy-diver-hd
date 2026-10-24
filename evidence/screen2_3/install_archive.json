@@ -1,0 +1,11 @@
+{
+  "version": "0.6.0",
+  "root_file_count": 85,
+  "flat_archive": true,
+  "nested_zip": false,
+  "crc_valid": true,
+  "all_expected_sha256_match": true,
+  "install_zip_sha256": "5f01e00919055831a64777f6932a880ef3addaf2097d97728d968de10a48d6d5",
+  "github_actions_artifact_checked": false,
+  "github_status": "Push/PR/Actions pending; local archive verification only."
+}

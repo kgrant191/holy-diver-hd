@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==34
-assert counts['tile']==5542
-assert counts['background']==106
-assert counts['condition']==1464
+assert len(imgs)==35
+assert counts['tile']==5652
+assert counts['background']==124
+assert counts['condition']==1485
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -67,8 +67,25 @@ for p in baseline.glob('*.png'):
   assert boot.size==(16,32)
   expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
-# The new cave must preserve every approved exterior/earlier asset and rule.
-pre_cave=re.sub(r'^# BEGIN SCREEN2_2 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_2 \1\n','',content,flags=re.M|re.S)
+# The vertical chamber must preserve every approved cave asset and rule.
+pre_vertical=re.sub(r'^# BEGIN SCREEN2_3 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_3 \1\n','',content,flags=re.M|re.S)
+approved_051=json.loads((root/'evidence/0.5.1-pack-sha256.json').read_text())
+assert hashlib.sha256(pre_vertical.encode()).hexdigest()==approved_051['hires.txt']
+for name,digest in approved_051.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.5.1 bytes changed'
+assert imgs[34]=='Stage2_Vertical_Cave_Tiles_2x.png'
+vertical=json.loads((root/'art/screen2_3/registration.json').read_text())
+assert vertical['shared_aliases']==98 and vertical['new_tile_rules']==12
+assert vertical['background_rules']==18 and vertical['background_scroll']==[0,0]
+assert not vertical['native_collision_modified'] and not vertical['previous_artwork_modified']
+assert vertical['eye_size']==[32,32]
+vertical_atlas=Image.open(pack/imgs[34]).convert('RGBA')
+for mapping in vertical['mappings']:
+ if mapping['kind']=='cave backdrop reveal':
+  x,y=mapping['atlas'];assert not vertical_atlas.crop((x,y,x+16,y+16)).getbbox()
+# The earlier cave must preserve every approved exterior/earlier asset and rule.
+pre_cave=re.sub(r'^# BEGIN SCREEN2_2 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_2 \1\n','',pre_vertical,flags=re.M|re.S)
 approved_041=json.loads((root/'evidence/0.4.1-pack-sha256.json').read_text())
 assert hashlib.sha256(pre_cave.encode()).hexdigest()==approved_041['hires.txt']
 for name,digest in approved_041.items():

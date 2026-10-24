@@ -1,0 +1,18 @@
+{
+  "descent": {
+    "frames": 2300,
+    "input_code": "local m=emu.memType.nesInternalRam\nlocal scroll=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal st=emu.read(0x300,m)\nlocal magic=emu.read(0x490,m)\nif not phase then phase=0;at=0;oldMagic=magic end\nlocal keys={}\nif frame<170 then\n keys.select=(frame>=20 and frame<24)or(frame>=155 and frame<159)\n keys.b=frame>=50 and frame<54\nelse\n local f=frame-150\n keys.right=(f<300)or(f>=600 and f<900)or(f>=1200 and f<1500)\n keys.left=(f>=300 and f<600)or(f>=900 and f<1200)\n keys.b=frame%20<3\n if scroll>=350 and scroll<=512 and phase==0 and st<2 then phase=1;at=frame;oldMagic=magic end\n if phase==1 then\n  keys={select=frame-at<4,b=frame-at>=8 and frame%12<3}\n  if magic<oldMagic then phase=2;at=frame end\n elseif phase==2 then\n  keys={}\n  if frame-at>=110 then phase=3;at=frame end\n elseif phase==3 then\n  keys={select=frame-at<4}\n  if frame-at>=5 then phase=4 end\n elseif phase==4 and scroll>=480 and scroll<=512 then\n  keys={right=true,b=frame%20<3,a=frame%100<35}\n end\nend\nemu.setInput(keys,0)"
+  },
+  "combat_respawn": {
+    "frames": 2400,
+    "input": "right=(frame>=20 and frame<300)or(frame>=600 and frame<900)or(frame>=1200 and frame<1500)or(frame>=1800 and frame<2100),left=(frame>=300 and frame<600)or(frame>=900 and frame<1200)or(frame>=1500 and frame<1800)or(frame>=2100),b=frame>=30 and frame%20<3"
+  },
+  "menu": {
+    "frames": 260,
+    "input": "start=(frame>=20 and frame<24)or(frame>=180 and frame<184),right=frame>=60 and frame<64,left=frame>=110 and frame<114"
+  },
+  "poses": {
+    "frames": 600,
+    "input": "left=frame>=20 and frame<50,right=frame>=180 and frame<210,up=(frame>=60 and frame<100)or(frame>=220 and frame<260),down=(frame>=110 and frame<150)or(frame>=270 and frame<310),b=frame>=60 and frame<310 and frame%12<3,a=frame>=360 and frame<390"
+  }
+}

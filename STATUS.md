@@ -2,11 +2,21 @@
 
 Updated: 2026-10-24 (UTC).
 
+## Current review candidate — feature/screen2-3
+
+**0.6.0** adds the vertical cave from the user's next save, based on locally approved 0.5.1. Reuses the accepted cave panorama, gold terrain, ghouls, lava/ice, pickups, player and HUD through 98 aliases. The new artwork is a compact ivory/teal floating eye with a crimson spiked rim; both shot identities use the accepted fireball source within measured native bounds. Six nonsolid wall-pattern tiles reveal the stationary distant cave layer while platforms scroll vertically.
+
+Final paired tests pass **5,560 frames per build**, with 2,780 identical RAM/PPU/OAM samples per type, exact APU events and common PCM, 106 exact black frames, 270 unchanged next-room captures and 1,957 exact full-color cave-backdrop samples. Complete rendered sprite checks cover the eye, both projectile shapes/flips and all six ghoul poses in both directions. The controller-only route traverses all 512 pixels of vertical camera travel, crosses frozen lava and enters room 10 at pointer AD/8C. Pause, upward/crouching casts, hot/frozen palettes and death/respawn are included. See `docs/SCREEN2_3.md` and `evidence/screen2_3/verification.json`.
+
+The pack contains 85 root files. Only hires.txt and installed README change among approved 0.5.1 files; all other 82 remain exact, and one atlas is added. Removing SCREEN2_3 sections recovers the exact 0.5.1 mapping file. `0.6.0-pack-sha256.json` and `approved-pack-sha256.json` pin this review candidate, not visual approval. Native death grayscale is visually inspected; source-RGB panorama checks apply to actual full-color wall rendering. The next room is unchanged future work, and this run does not establish complete traversal of the preceding horizontal cave.
+
+The source bundle includes both feature/screen2-2 (approved 0.5.1) and feature/screen2-3 (this candidate), based on remote main 14434d6. Local build, install-archive and replay validation are complete. User push, PR/Actions artifact checks and adoption are pending. No release/tag is requested.
+
 ## Latest approved version — feature/screen2-2 (adoption pending)
 
 **0.5.1** revises the cave after the user requested removal of the reddish rock layer and waterfall motion in the lava falls. The ten decorative red tile identities now expose the unchanged cave backdrop. Hot fall tiles use a continuous sixteen-phase downward loop, advancing two HD pixels every two emulated frames. Each body row and the loop seam align; the native hot palettes still pulse and select the static ice artwork during Blizzard. All six ice fall tiles and every other cave tile variant retain their source pixels.
 
-Only `hires.txt`, `Stage2_Cave_Tiles_2x.png` and installed `README.txt` change from 0.5.0; all 81 other pack files remain exact. The pack still contains 84 root files. `evidence/0.5.0-pack-sha256.json` pins the prior candidate; `approved-pack-sha256.json` describes the current review build, not user approval. See `docs/SCREEN2_2_REVIEW.md` and `evidence/screen2_2_review/` for paired native-state/audio, unchanged-art bounds and measured downward-motion/frozen-state checks.
+Only `hires.txt`, `Stage2_Cave_Tiles_2x.png` and installed `README.txt` change from 0.5.0; all 81 other pack files remain exact. The pack still contains 84 root files. `evidence/0.5.0-pack-sha256.json` pins the prior candidate; `0.5.1-pack-sha256.json` pins this approved build. See `docs/SCREEN2_2_REVIEW.md` and `evidence/screen2_2_review/` for paired native-state/audio, unchanged-art bounds and measured downward-motion/frozen-state checks.
 
 Final paired checks pass 5,680 frames per build and 2,840 native-memory samples per type, preserving APU/common PCM, 258 black captures and 262 outside-cave captures. The rendered fall advances downward in all 173 stable-palette pairs; all 222 frozen pairs stay stationary. A fresh capture of the unchanged 0.5.0 crossing resolved one older screenshot discrepancy; the final verifier has no exceptions.
 

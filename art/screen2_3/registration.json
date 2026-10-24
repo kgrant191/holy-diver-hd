@@ -1,0 +1,128 @@
+{
+  "scope": "s23Room&s23DataLo&s23DataHi",
+  "shared_aliases": 98,
+  "new_tile_rules": 12,
+  "atlas_cells": 7,
+  "background_rules": 18,
+  "existing_background_reused": "Stage2_Cave_Background.png",
+  "background_scroll": [
+    0,
+    0
+  ],
+  "eye_size": [
+    32,
+    32
+  ],
+  "mappings": [
+    {
+      "identity": "039B",
+      "palette": "0F041625",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039C",
+      "palette": "0F041625",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039D",
+      "palette": "0F041625",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039E",
+      "palette": "0F041625",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039F",
+      "palette": "0F041625",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "03A0",
+      "palette": "0F041625",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "02D8",
+      "palette": "FF060C30",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "floating eye"
+    },
+    {
+      "identity": "02D9",
+      "palette": "FF060C30",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "floating eye"
+    },
+    {
+      "identity": "02DA",
+      "palette": "FF060C30",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "floating eye"
+    },
+    {
+      "identity": "02DB",
+      "palette": "FF060C30",
+      "atlas": [
+        64,
+        0
+      ],
+      "kind": "floating eye"
+    },
+    {
+      "identity": "02DC",
+      "palette": "FF301116",
+      "atlas": [
+        80,
+        0
+      ],
+      "kind": "shared fireball source"
+    },
+    {
+      "identity": "02DD",
+      "palette": "FF301116",
+      "atlas": [
+        96,
+        0
+      ],
+      "kind": "shared fireball source"
+    }
+  ],
+  "native_collision_modified": false,
+  "previous_artwork_modified": false
+}

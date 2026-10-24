@@ -1,5 +1,9 @@
-HOLY DIVER HD 0.5.1 — APPROVED DEVELOPMENT BUILD
-Stage 2, screen 2 cave. Approved by the user on 2026-10-24.
+HOLY DIVER HD 0.6.0 — DEVELOPMENT REVIEW BUILD
+Stage 2, screen 3 vertical cave. Based on approved 0.5.1.
+
+Adds the floating eye and its shots; reuses the approved cave backdrop, gold
+platforms, ghouls, lava/ice, Randy and HUD. Preserves native vertical scrolling
+and platform geometry. Screen 2 remains the approved 0.5.1 artwork.
 
 Removes the reddish hanging decoration so the cave backdrop shows through.
 Hot lava falls flow downward; Blizzard ice stays still. Retains pale ceiling bats

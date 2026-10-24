@@ -1,0 +1,321 @@
+{
+  "baseline": "0.5.1",
+  "candidate": "0.6.0",
+  "controller_only": true,
+  "capture_stride": 2,
+  "cases": {
+    "descent": {
+      "emulated_frames": 2300,
+      "state_sha256": "a84d2f19c107be53b9d76e78f8095ae9cf7861badbf8052555e0879dd5749df3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "local m=emu.memType.nesInternalRam\nlocal scroll=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal st=emu.read(0x300,m)\nlocal magic=emu.read(0x490,m)\nif not phase then phase=0;at=0;oldMagic=magic end\nlocal keys={}\nif frame<170 then\n keys.select=(frame>=20 and frame<24)or(frame>=155 and frame<159)\n keys.b=frame>=50 and frame<54\nelse\n local f=frame-150\n keys.right=(f<300)or(f>=600 and f<900)or(f>=1200 and f<1500)\n keys.left=(f>=300 and f<600)or(f>=900 and f<1200)\n keys.b=frame%20<3\n if scroll>=350 and scroll<=512 and phase==0 and st<2 then phase=1;at=frame;oldMagic=magic end\n if phase==1 then\n  keys={select=frame-at<4,b=frame-at>=8 and frame%12<3}\n  if magic<oldMagic then phase=2;at=frame end\n elseif phase==2 then\n  keys={}\n  if frame-at>=110 then phase=3;at=frame end\n elseif phase==3 then\n  keys={select=frame-at<4}\n  if frame-at>=5 then phase=4 end\n elseif phase==4 and scroll>=480 and scroll<=512 then\n  keys={right=true,b=frame%20<3,a=frame%100<35}\n end\nend\nemu.setInput(keys,0)",
+      "ram_identical_samples": 1150,
+      "ppu_identical_samples": 1150,
+      "oam_identical_samples": 1150,
+      "apu_sha256": "911be372a6a69e3370c3f268c7bdd4967a5dff20869d76c10b2642e88767768f",
+      "identical_pcm_bytes": 7347904,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 95,
+      "exact_next_room_samples": 270,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 442,
+      "changed_screenshots": 708,
+      "rooms": {
+        "04/F98B": 799,
+        "10/AD8C": 274,
+        "04/0000": 77
+      },
+      "verified_backdrop_samples": 708,
+      "minimum_exact_backdrop_pixels": 158366
+    },
+    "combat_respawn": {
+      "emulated_frames": 2400,
+      "state_sha256": "a84d2f19c107be53b9d76e78f8095ae9cf7861badbf8052555e0879dd5749df3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({right=(frame>=20 and frame<300)or(frame>=600 and frame<900)or(frame>=1200 and frame<1500)or(frame>=1800 and frame<2100),left=(frame>=300 and frame<600)or(frame>=900 and frame<1200)or(frame>=1500 and frame<1800)or(frame>=2100),b=frame>=30 and frame%20<3},0)",
+      "ram_identical_samples": 1200,
+      "ppu_identical_samples": 1200,
+      "oam_identical_samples": 1200,
+      "apu_sha256": "bcf71838adf964258dcf2719f3beeb29e37f589d633aa89534d004da1bfd9f70",
+      "identical_pcm_bytes": 7667372,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 6,
+      "exact_next_room_samples": 0,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 255,
+      "changed_screenshots": 945,
+      "rooms": {
+        "04/F98B": 1039,
+        "04/0000": 97,
+        "10/098B": 64
+      },
+      "verified_backdrop_samples": 944,
+      "minimum_exact_backdrop_pixels": 158579
+    },
+    "menu": {
+      "emulated_frames": 260,
+      "state_sha256": "a84d2f19c107be53b9d76e78f8095ae9cf7861badbf8052555e0879dd5749df3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({start=(frame>=20 and frame<24)or(frame>=180 and frame<184),right=frame>=60 and frame<64,left=frame>=110 and frame<114},0)",
+      "ram_identical_samples": 130,
+      "ppu_identical_samples": 130,
+      "oam_identical_samples": 130,
+      "apu_sha256": "4a2c9491f33dd5e3a8fd170ddc719fe55bc2f4b96a0dcc1467bce9221dfb6ff1",
+      "identical_pcm_bytes": 830632,
+      "shutdown_tail_bytes": 3196,
+      "exact_black_samples": 1,
+      "exact_next_room_samples": 0,
+      "exact_menu_samples": 67,
+      "exact_screenshots": 82,
+      "changed_screenshots": 48,
+      "rooms": {
+        "04/F98B": 49,
+        "04/FFFF": 81
+      },
+      "verified_backdrop_samples": 47,
+      "minimum_exact_backdrop_pixels": 163623
+    },
+    "poses": {
+      "emulated_frames": 600,
+      "state_sha256": "a84d2f19c107be53b9d76e78f8095ae9cf7861badbf8052555e0879dd5749df3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({left=frame>=20 and frame<50,right=frame>=180 and frame<210,up=(frame>=60 and frame<100)or(frame>=220 and frame<260),down=(frame>=110 and frame<150)or(frame>=270 and frame<310),b=frame>=60 and frame<310 and frame%12<3,a=frame>=360 and frame<390},0)",
+      "ram_identical_samples": 300,
+      "ppu_identical_samples": 300,
+      "oam_identical_samples": 300,
+      "apu_sha256": "9daed54006a768b2fd5f081c5b684e71a0a5617d10ac50c33e736cb21b90b8e1",
+      "identical_pcm_bytes": 1916844,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 4,
+      "exact_next_room_samples": 0,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 42,
+      "changed_screenshots": 258,
+      "rooms": {
+        "04/F98B": 260,
+        "10/098B": 40
+      },
+      "verified_backdrop_samples": 258,
+      "minimum_exact_backdrop_pixels": 162323
+    }
+  },
+  "total_frames_per_build": 5560,
+  "native_samples_per_type": 2780,
+  "exact_black_samples": 106,
+  "exact_next_room_samples": 270,
+  "verified_backdrop_samples": 1957,
+  "maximum_verified_vertical_scroll": 512,
+  "room_exit_reached": true,
+  "coverage_limit": "Full vertical room and next-room arrival; next-room scenery remains future work.",
+  "shared_native_chr_hashes_verified": 24,
+  "unchanged_prior_pack_files": 82,
+  "pack_files": 85,
+  "observed_enemy_tiles_and_flips": [
+    "02D8/native",
+    "02D9/native",
+    "02DA/native",
+    "02DB/native",
+    "02DC/native",
+    "02DC/mirrored",
+    "02DD/native",
+    "02DD/mirrored"
+  ],
+  "lava_palette_samples": {
+    "0F161606": 819,
+    "0F060616": 887,
+    "0F122131": 438,
+    "0F001020": 2,
+    "0F071737": 1
+  },
+  "pixel_exact_complete_sprite_samples": {
+    "eye/native": 177,
+    "ghoul_4/native": 8,
+    "shot_dc/native": 53,
+    "ghoul_0/native": 9,
+    "shot_dc/mirrored": 60,
+    "shot_dd/mirrored": 31,
+    "ghoul_2/native": 10,
+    "ghoul_1/native": 7,
+    "ghoul_3/mirrored": 20,
+    "ghoul_4/mirrored": 10,
+    "ghoul_0/mirrored": 4,
+    "ghoul_2/mirrored": 11,
+    "shot_dd/native": 21,
+    "ghoul_5/mirrored": 6,
+    "ghoul_5/native": 9,
+    "ghoul_3/native": 9,
+    "ghoul_1/mirrored": 2
+  },
+  "sprite_examples": {
+    "eye/native": {
+      "case": "descent",
+      "frame": 20,
+      "box": [
+        304,
+        142,
+        336,
+        174
+      ]
+    },
+    "ghoul_4/native": {
+      "case": "descent",
+      "frame": 700,
+      "box": [
+        296,
+        224,
+        328,
+        256
+      ]
+    },
+    "shot_dc/native": {
+      "case": "descent",
+      "frame": 720,
+      "box": [
+        152,
+        376,
+        168,
+        392
+      ]
+    },
+    "ghoul_0/native": {
+      "case": "descent",
+      "frame": 720,
+      "box": [
+        244,
+        194,
+        276,
+        242
+      ]
+    },
+    "shot_dc/mirrored": {
+      "case": "descent",
+      "frame": 740,
+      "box": [
+        304,
+        198,
+        320,
+        214
+      ]
+    },
+    "shot_dd/mirrored": {
+      "case": "descent",
+      "frame": 740,
+      "box": [
+        118,
+        400,
+        134,
+        416
+      ]
+    },
+    "ghoul_2/native": {
+      "case": "descent",
+      "frame": 740,
+      "box": [
+        82,
+        426,
+        114,
+        458
+      ]
+    },
+    "ghoul_1/native": {
+      "case": "descent",
+      "frame": 760,
+      "box": [
+        136,
+        232,
+        168,
+        280
+      ]
+    },
+    "ghoul_3/mirrored": {
+      "case": "descent",
+      "frame": 780,
+      "box": [
+        78,
+        438,
+        110,
+        470
+      ]
+    },
+    "ghoul_4/mirrored": {
+      "case": "descent",
+      "frame": 880,
+      "box": [
+        78,
+        436,
+        110,
+        468
+      ]
+    },
+    "ghoul_0/mirrored": {
+      "case": "descent",
+      "frame": 940,
+      "box": [
+        102,
+        370,
+        134,
+        418
+      ]
+    },
+    "ghoul_2/mirrored": {
+      "case": "descent",
+      "frame": 960,
+      "box": [
+        146,
+        330,
+        178,
+        362
+      ]
+    },
+    "shot_dd/native": {
+      "case": "descent",
+      "frame": 1000,
+      "box": [
+        272,
+        400,
+        288,
+        416
+      ]
+    },
+    "ghoul_5/mirrored": {
+      "case": "descent",
+      "frame": 1020,
+      "box": [
+        212,
+        376,
+        244,
+        408
+      ]
+    },
+    "ghoul_5/native": {
+      "case": "descent",
+      "frame": 1080,
+      "box": [
+        258,
+        372,
+        290,
+        404
+      ]
+    },
+    "ghoul_3/native": {
+      "case": "descent",
+      "frame": 1160,
+      "box": [
+        178,
+        306,
+        210,
+        338
+      ]
+    },
+    "ghoul_1/mirrored": {
+      "case": "combat_respawn",
+      "frame": 880,
+      "box": [
+        322,
+        342,
+        354,
+        390
+      ]
+    }
+  }
+}

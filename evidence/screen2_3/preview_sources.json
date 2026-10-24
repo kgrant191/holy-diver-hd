@@ -1,0 +1,54 @@
+{
+  "stills": [
+    [
+      "Vertical cave / native platform edges",
+      "descent",
+      400
+    ],
+    [
+      "Floating eyes and reused ghoul art",
+      "descent",
+      1000
+    ],
+    [
+      "Lower chamber / hot lava pool",
+      "combat_respawn",
+      1200
+    ],
+    [
+      "Frozen pool / full descent toward the exit",
+      "descent",
+      1540
+    ]
+  ],
+  "clips": [
+    [
+      "descent",
+      180,
+      620,
+      "Entry and downward camera scroll"
+    ],
+    [
+      "descent",
+      700,
+      1080,
+      "Floating eyes / shared ghoul artwork"
+    ],
+    [
+      "combat_respawn",
+      1000,
+      1240,
+      "Hot lava at the bottom of the shaft"
+    ],
+    [
+      "descent",
+      1380,
+      1640,
+      "Blizzard ice crossing and next-room transition"
+    ]
+  ],
+  "capture_stride": 2,
+  "fps": 30,
+  "retouched": false,
+  "audio": false
+}
