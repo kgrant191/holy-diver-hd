@@ -1,0 +1,6 @@
+{
+  "combat_respawn": {
+    "frames": 2400,
+    "input": "right=(frame>=20 and frame<300)or(frame>=600 and frame<900)or(frame>=1200 and frame<1500)or(frame>=1800 and frame<2100),left=(frame>=300 and frame<600)or(frame>=900 and frame<1200)or(frame>=1500 and frame<1800)or(frame>=2100),b=frame>=30 and frame%20<3"
+  }
+}

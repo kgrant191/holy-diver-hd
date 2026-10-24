@@ -1,0 +1,61 @@
+{
+  "case": "combat_respawn",
+  "still_frame": 240,
+  "clips": [
+    [
+      160,
+      480
+    ],
+    [
+      680,
+      1000
+    ]
+  ],
+  "closeups": {
+    "02DC/native": {
+      "case": "combat_respawn",
+      "frame": 90,
+      "box": [
+        312,
+        174,
+        328,
+        190
+      ]
+    },
+    "02DD/mirrored": {
+      "case": "combat_respawn",
+      "frame": 180,
+      "box": [
+        280,
+        202,
+        296,
+        218
+      ]
+    },
+    "02DC/mirrored": {
+      "case": "combat_respawn",
+      "frame": 190,
+      "box": [
+        272,
+        196,
+        288,
+        212
+      ]
+    },
+    "02DD/native": {
+      "case": "combat_respawn",
+      "frame": 230,
+      "box": [
+        300,
+        280,
+        316,
+        296
+      ]
+    }
+  },
+  "closeup_scale": 6,
+  "capture_stride": 2,
+  "fps": 30,
+  "retouched": false,
+  "audio": false
+}

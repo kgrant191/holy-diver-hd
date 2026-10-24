@@ -2,7 +2,13 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Current review candidate — feature/screen2-3
+## Current review repair — feature/screen2-3
+
+**0.6.1** changes the floating-eye projectiles into blue teardrops, as requested. Pointed tops, rounded liquid bodies and cobalt/cyan highlights replace the fire-like art. Only the two projectile cells and installed README change; the other 83 pack files, mapping file, eye bodies, scenery and unrelated fireballs remain byte-identical.
+
+Focused paired checks pass **2,400 frames per build** with 1,200 equal RAM/PPU/OAM samples per type and exact APU/equal-length PCM. All 637 changed captures are confined to eye-projectile bounds; 563 others remain exact. Both tear identities and their mirrored forms have complete pixel-exact live matches. See `docs/SCREEN2_3_REVIEW.md` and `evidence/screen2_3_review/`. The earlier full-room/exit tests remain below; the repair replay covers combat, scrolling and death/respawn. The install ZIP still contains 85 root files. User approval and push/PR/Actions/adoption remain pending.
+
+## Superseded 0.6.0 candidate — feature/screen2-3
 
 **0.6.0** adds the vertical cave from the user's next save, based on locally approved 0.5.1. Reuses the accepted cave panorama, gold terrain, ghouls, lava/ice, pickups, player and HUD through 98 aliases. The new artwork is a compact ivory/teal floating eye with a crimson spiked rim; both shot identities use the accepted fireball source within measured native bounds. Six nonsolid wall-pattern tiles reveal the stationary distant cave layer while platforms scroll vertically.
 

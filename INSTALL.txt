@@ -1,5 +1,7 @@
-HOLY DIVER HD 0.6.0 — DEVELOPMENT REVIEW BUILD
+HOLY DIVER HD 0.6.1 — DEVELOPMENT REVIEW BUILD
 Stage 2, screen 3 vertical cave. Based on approved 0.5.1.
+
+The floating eye now drops blue teardrops with rounded liquid bodies.
 
 Adds the floating eye and its shots; reuses the approved cave backdrop, gold
 platforms, ghouls, lava/ice, Randy and HUD. Preserves native vertical scrolling

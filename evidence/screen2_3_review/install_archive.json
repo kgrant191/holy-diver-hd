@@ -1,0 +1,10 @@
+{
+  "version": "0.6.1",
+  "root_file_count": 85,
+  "flat_archive": true,
+  "nested_zip": false,
+  "crc_valid": true,
+  "all_expected_sha256_match": true,
+  "install_zip_sha256": "59a638ada00da36143afb897e050b84dab3cf40a0d78c79a7b38145f92165985",
+  "github_actions_artifact_checked": false
+}

@@ -111,7 +111,7 @@
         80,
         0
       ],
-      "kind": "shared fireball source"
+      "kind": "blue teardrop"
     },
     {
       "identity": "02DD",
@@ -120,7 +120,7 @@
         96,
         0
       ],
-      "kind": "shared fireball source"
+      "kind": "blue teardrop"
     }
   ],
   "native_collision_modified": false,

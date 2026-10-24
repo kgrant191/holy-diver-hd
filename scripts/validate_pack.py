@@ -81,6 +81,13 @@ assert vertical['background_rules']==18 and vertical['background_scroll']==[0,0]
 assert not vertical['native_collision_modified'] and not vertical['previous_artwork_modified']
 assert vertical['eye_size']==[32,32]
 vertical_atlas=Image.open(pack/imgs[34]).convert('RGBA')
+prior_vertical=np.array(Image.open(root/'evidence/screen2_3_review/baseline_0.6.0_atlas.png').convert('RGBA'))
+tear_cells=np.zeros(prior_vertical.shape[:2],dtype=bool)
+for mapping in vertical['mappings']:
+ if mapping['identity'] in ['02DC','02DD']:
+  x,y=mapping['atlas'];tear_cells[y:y+16,x:x+16]=True
+assert not np.any(np.any(prior_vertical!=np.array(vertical_atlas),axis=2)&~tear_cells)
+assert hashlib.sha256((pack/'hires.txt').read_bytes()).hexdigest()==json.loads((root/'evidence/0.6.0-pack-sha256.json').read_text())['hires.txt']
 for mapping in vertical['mappings']:
  if mapping['kind']=='cave backdrop reveal':
   x,y=mapping['atlas'];assert not vertical_atlas.crop((x,y,x+16,y+16)).getbbox()

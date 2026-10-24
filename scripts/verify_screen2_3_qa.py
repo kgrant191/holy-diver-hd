@@ -12,7 +12,7 @@ old=json.loads((root/'evidence/0.5.1-pack-sha256.json').read_text())
 new=json.loads((root/'evidence/approved-pack-sha256.json').read_text())
 routes=json.loads((root/'scripts/screen2_3_routes.json').read_text())
 bg=np.array(Image.open(root/'build/Holy_Diver_(Tr)/Stage2_Cave_Background.png').convert('RGB'))[:,:512]
-report=dict(baseline='0.5.1',candidate='0.6.0',controller_only=True,capture_stride=2,cases={})
+report=dict(baseline='0.5.1',candidate=(root/'VERSION').read_text().strip(),controller_only=True,capture_stride=2,cases={})
 observed=set();palettes=Counter();matches=Counter();examples={};max_scroll=0
 sources=[('eye',root/'art/screen2_3/eye_registered.png',0xd8,1),
          ('shot_dc',root/'art/screen2_3/eye_shot_02DC.png',0xdc,2),

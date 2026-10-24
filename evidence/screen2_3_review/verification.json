@@ -1,0 +1,81 @@
+{
+  "baseline": "0.6.0",
+  "candidate": "0.6.1",
+  "controller_only": true,
+  "capture_stride": 2,
+  "cases": {
+    "combat_respawn": {
+      "emulated_frames": 2400,
+      "state_sha256": "a84d2f19c107be53b9d76e78f8095ae9cf7861badbf8052555e0879dd5749df3",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({right=(frame>=20 and frame<300)or(frame>=600 and frame<900)or(frame>=1200 and frame<1500)or(frame>=1800 and frame<2100),left=(frame>=300 and frame<600)or(frame>=900 and frame<1200)or(frame>=1500 and frame<1800)or(frame>=2100),b=frame>=30 and frame%20<3},0)",
+      "ram_identical_samples": 1200,
+      "ppu_identical_samples": 1200,
+      "oam_identical_samples": 1200,
+      "apu_sha256": "bcf71838adf964258dcf2719f3beeb29e37f589d633aa89534d004da1bfd9f70",
+      "identical_pcm_bytes": 7667372,
+      "shutdown_tail_bytes": 0,
+      "changed_screenshots": 637,
+      "identical_screenshots": 563,
+      "exact_black_samples": 6,
+      "maximum_changed_pixels": 564,
+      "all_changes_within_eye_projectile_bounds": true,
+      "exact_old_and_new_sprite_positions_used": 5
+    }
+  },
+  "total_frames_per_build": 2400,
+  "unchanged_pack_files": 83,
+  "changed_atlas_cells": [
+    "02DC",
+    "02DD"
+  ],
+  "mapping_file_unchanged": true,
+  "pixel_exact_teardrop_samples": {
+    "02DC/native": 56,
+    "02DD/mirrored": 32,
+    "02DC/mirrored": 54,
+    "02DD/native": 22
+  },
+  "sprite_examples": {
+    "02DC/native": {
+      "case": "combat_respawn",
+      "frame": 90,
+      "box": [
+        312,
+        174,
+        328,
+        190
+      ]
+    },
+    "02DD/mirrored": {
+      "case": "combat_respawn",
+      "frame": 120,
+      "box": [
+        280,
+        240,
+        296,
+        256
+      ]
+    },
+    "02DC/mirrored": {
+      "case": "combat_respawn",
+      "frame": 190,
+      "box": [
+        272,
+        196,
+        288,
+        212
+      ]
+    },
+    "02DD/native": {
+      "case": "combat_respawn",
+      "frame": 230,
+      "box": [
+        300,
+        280,
+        316,
+        296
+      ]
+    }
+  }
+}

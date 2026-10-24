@@ -52,8 +52,8 @@ The entirely underground backdrop uses indigo/plum depth and faint lava glow. Th
 
 The original narrow pale/teal ceiling enemy becomes a folded-wing Gothic bat and the same creature with wings open. Keep its central lower body within the native two-cell bottom row, and both wing tips in the upper four-cell rows. Use actual playback to inspect the wing/body joins, fireball timing and silhouettes. Sources/prompts are under `art/generated/screen2_2_*`; native reference and registration are under `art/screen2_2/`.
 
-## Stage 2 vertical cave (0.6.0 review candidate)
+## Stage 2 vertical cave (0.6.1 review candidate)
 
 Reuse the approved cave panorama as a stationary distant layer while the native gold platforms scroll down the shaft. Clear only the six nonsolid purple wall-pattern identities. Preserve all terrain edges, lava/ice, ghoul poses and shared player/HUD artwork.
 
-The new enemy is a floating eye, with a compact ivory eyeball, teal iris/pupil and short crimson spiked rim. Register the complete body at 32×32 HD across its native four tiles. The two projectile shapes reuse the accepted fireball source within their measured native bounds (DC: X1–6/Y0–7, DD: X0–6/Y1–7). Original OAM preserves position, trajectory, flips and cadence. Source and prompt: `art/generated/screen2_3_eye_generated.png` and `screen2_3_prompts.json`; registration: `scripts/build_screen2_3.py`.
+The new enemy is a floating eye, with a compact ivory eyeball, teal iris/pupil and short crimson spiked rim. Register the complete body at 32×32 HD across its native four tiles. The 0.6.1 review replaces the fire-like shots with smooth blue teardrops, preserving their measured native bounds (DC: X1–6/Y0–7, DD: X0–6/Y1–7). Original OAM preserves position, trajectory, flips and cadence. Source and prompt: `art/generated/screen2_3_eye_generated.png` and `screen2_3_prompts.json`; the tear source/prompt are `screen2_3_tear_generated.png` and `screen2_3_tear_prompt.json`. Registration: `scripts/build_screen2_3.py`.

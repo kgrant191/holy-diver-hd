@@ -48,12 +48,14 @@ eye=register(source.crop(source.getbbox()),(32,32));eye.save(art/'eye_registered
 for i,t in enumerate(range(0x2d8,0x2dc)):
     x=i%2*16;y=i//2*16;tile(t,'FF060C30',eye.crop((x,y,x+16,y+16)),'floating eye')
 
-# The two native shot identities retain distinct sizes and cadence, reusing
-# the accepted fireball source. OAM controls trajectory and flips as before.
-shot_source=Image.open(root/'art/boss1/boss_fireball_registered.png')
+# The eye sheds blue tears. Preserve both native projectile bounds and OAM
+# timing/flips; only these two atlas cells change in the 0.6.1 review repair.
+shot_source=Image.open(root/'art/generated/screen2_3_tear_generated.png').convert('RGBA')
+shot_source.putalpha(shot_source.getchannel('A').point(lambda v:255 if v>=120 else 0))
+shot_source=shot_source.crop(shot_source.getbbox())
 for t,size,offset in [(0x2dc,(12,16),(2,0)),(0x2dd,(14,14),(0,2))]:
     im=Image.new('RGBA',(16,16));im.paste(register(shot_source,size),offset)
-    im.save(art/f'eye_shot_{t:04X}.png');tile(t,'FF301116',im,'shared fireball source')
+    im.save(art/f'eye_shot_{t:04X}.png');tile(t,'FF301116',im,'blue teardrop')
 
 backgrounds=[]
 guards=[(t,'0F071737')for t in [*range(0x32e,0x334),*range(0x35b,0x35f),0x3a1,0x3a2]]
