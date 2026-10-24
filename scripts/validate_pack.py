@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==36
-assert counts['tile']==6012
-assert counts['background']==171
-assert counts['condition']==1538
+assert len(imgs)==37
+assert counts['tile']==6403
+assert counts['background']==229
+assert counts['condition']==1602
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -67,8 +67,19 @@ for p in baseline.glob('*.png'):
   assert boot.size==(16,32)
   expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
+# Crimson-room additions must preserve the exact 0.7.1 pack.
+pre_crimson=re.sub(r'^# BEGIN SCREEN2_5 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_5 \1\n','',content,flags=re.M|re.S)
+reviewed_071=json.loads((root/'evidence/0.7.1-pack-sha256.json').read_text())
+assert hashlib.sha256(pre_crimson.encode()).hexdigest()==reviewed_071['hires.txt']
+for name,digest in reviewed_071.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior runtime bytes changed'
+assert imgs[36]=='Stage2_Crimson_Cave_Tiles_2x.png'
+crimson=json.loads((root/'art/screen2_5/registration.json').read_text())
+assert crimson['shared_aliases']==359 and crimson['new_tile_rules']==32
+assert crimson['background_rules']==58
 # The stair review adds twelve rules and unused atlas cells only.
-pre_stairs=re.sub(r'^# BEGIN SCREEN2_4_STAIRS\n.*?^# END SCREEN2_4_STAIRS\n','',content,flags=re.M|re.S)
+pre_stairs=re.sub(r'^# BEGIN SCREEN2_4_STAIRS\n.*?^# END SCREEN2_4_STAIRS\n','',pre_crimson,flags=re.M|re.S)
 reviewed_070=json.loads((root/'evidence/0.7.0-pack-sha256.json').read_text())
 assert hashlib.sha256(pre_stairs.encode()).hexdigest()==reviewed_070['hires.txt']
 prior_stair_atlas=Image.open(root/'art/screen2_4/Stage2_Second_Cave_Tiles_2x_0.7.0.png').convert('RGBA')
@@ -76,7 +87,7 @@ current_stair_atlas=Image.open(pack/'Stage2_Second_Cave_Tiles_2x.png').convert('
 for box in [(0,0,128,16),(0,16,16,32)]:
  assert prior_stair_atlas.crop(box).tobytes()==current_stair_atlas.crop(box).tobytes()
 # The second horizontal cave must preserve every approved 0.6.1 asset/rule.
-pre_second_cave=re.sub(r'^# BEGIN SCREEN2_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_4 \1\n','',content,flags=re.M|re.S)
+pre_second_cave=re.sub(r'^# BEGIN SCREEN2_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_4 \1\n','',pre_crimson,flags=re.M|re.S)
 approved_061=json.loads((root/'evidence/0.6.1-pack-sha256.json').read_text())
 assert hashlib.sha256(pre_second_cave.encode()).hexdigest()==approved_061['hires.txt']
 for name,digest in approved_061.items():

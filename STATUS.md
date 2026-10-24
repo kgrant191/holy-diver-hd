@@ -2,7 +2,15 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Active review candidate — 0.7.1, feature/screen2-4
+## Active review candidate — 0.8.0, feature/screen2-5
+
+Adds the crimson cave reached by jumping up the repaired stairs. A new large-scale red cavern panorama replaces the tiny repeating wall motif, and a new atlas registers shaded crimson mineral columns within their native outlines. Reuses 359 existing rules for gold terrain/stairs, lava/ice, ghouls, bats and eyes with blue tears; player/HUD/items remain shared. All 84 previous runtime assets stay byte-identical. Two new installed PNGs bring the pack to 88 root files.
+
+The branch is stacked on the unapproved 0.7.1 stair repair at `937c7c7`; both review branches are retained in the source bundle. Approved main remains 0.6.1. No merge/release is authorized. Results and precise coverage are in `docs/SCREEN2_5.md` and `evidence/screen2_5/`.
+
+Five paired controller routes pass 6,200 frames/build with 3,100 exact native-memory samples per type and identical full PCM/APU. They preserve 76 black captures, 848 outside-room pictures (including the 300-picture stair walk) and 56 menu pictures. The new panorama has 211 source-pixel matches; folded bats, eyes and blue tears also match their reused source artwork. Live coverage reaches camera scroll 281, the first bat and several eye platforms, combat in both player directions, Blizzard flashes, pause and death/return. The far 2-5 exit remains unverified. Local install ZIP CRC/layout and all 88 file hashes pass; source push, PRs and Actions checks remain pending.
+
+## Stair review candidate — 0.7.1, feature/screen2-4
 
 Repairs twelve original stair identities at the end of screen 2-4 with the existing gold texture and exact native contours. Two controller-only routes pass 1,800 frames/build with 900 exact samples per native-memory type and identical full PCM/APU. All changes remain inside the native stair cells; 332 next-room pictures remain exact. The supplied end state extends coverage to both stair flights and the upward exit into screen 2-5, without claiming traversal of the previously untested middle stretch. Only hires.txt, the ceiling atlas's previously unused cells and installed README change from 0.7.0. No approval/merge/release is requested yet. See `docs/SCREEN2_4_STAIRS.md`.
 

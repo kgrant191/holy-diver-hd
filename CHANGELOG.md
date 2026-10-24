@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 — Screen 2-5 crimson cave candidate (2026-10-24)
+
+- Add a deep crimson cavern panorama with large mineral formations and shaded red foreground columns.
+- Reuse approved gold terrain, bats, eyes with blue tears, lava/ice and shared player/HUD assets through 359 aliases.
+- Include the 0.7.1 stair repair; preserve all 84 previous runtime files.
+- Keep both review branches unmerged; main remains approved 0.6.1.
+
 ## 0.7.1 — Screen 2-4 stair repair candidate (2026-10-24)
 
 - Register twelve original stair tiles using approved gold texture and native outer contours.

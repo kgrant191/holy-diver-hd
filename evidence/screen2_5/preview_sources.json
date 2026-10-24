@@ -1,0 +1,58 @@
+{
+  "stills": [
+    [
+      "2-4 stairs / gold texture inside the original step edges",
+      "stair_walk",
+      20
+    ],
+    [
+      "2-5 entrance / broad crimson formations and deep recesses",
+      "traversal",
+      200
+    ],
+    [
+      "2-5 platforms / reused floating eyes and blue tears",
+      "traversal",
+      600
+    ]
+  ],
+  "clips": [
+    [
+      "stair_walk",
+      20,
+      380,
+      "2-4: both stair flights and landing"
+    ],
+    [
+      "traversal",
+      60,
+      200,
+      "Jumping into the crimson cave"
+    ],
+    [
+      "traversal",
+      350,
+      660,
+      "Crimson formations, platforms and blue tears"
+    ],
+    [
+      "combat",
+      800,
+      1280,
+      "Reused bat and native combat"
+    ],
+    [
+      "freeze_thaw",
+      340,
+      500,
+      "Native Blizzard cast and black flashes"
+    ]
+  ],
+  "stairs_baseline": "0.7.0",
+  "cave_baseline": "0.7.1",
+  "candidate": "0.8.0",
+  "capture_stride": 2,
+  "fps": 30,
+  "retouched": false,
+  "audio": false
+}

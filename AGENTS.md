@@ -2,9 +2,9 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
-## Active review branch
+## Active review branches
 
-- `feature/screen2-4` contains 0.7.1 for review. Approved main remains 0.6.1. Read `docs/SCREEN2_4.md` for reuse, input hashes and bounded live coverage; the separate stair repair verifies the upward exit from the new end state (`docs/SCREEN2_4_STAIRS.md`). Do not describe the candidate as approved or the full middle-room traversal as tested.
+- `feature/screen2-4` contains the 0.7.1 stair repair; `feature/screen2-5` is stacked on it with the 0.8.0 crimson cave. Both remain unapproved, and approved main remains 0.6.1. Read `docs/SCREEN2_4_STAIRS.md` and `docs/SCREEN2_5.md` for exact coverage. Preserve the broader red formations and native foreground column outlines; do not restore the rejected tight repeating wall texture.
 
 ## Preserve approved behavior
 

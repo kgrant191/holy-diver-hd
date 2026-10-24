@@ -1,0 +1,22 @@
+{
+  "traversal": {
+    "frames": 1600,
+    "input_code": "local m=emu.memType.nesInternalRam\nlocal room=emu.read(0x78,m)+256*emu.read(0x79,m)\nlocal st=emu.read(0x300,m)\nlocal sc=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal x=emu.read(0x4e0,m)\nlocal y=emu.read(0x4f0,m)\nlocal keys={}\nif frame<260 then\n keys.left=frame>=20 and frame<155\n keys.a=(frame>=20 and frame<55)or(frame>=85 and frame<120)\nelseif room==0x8d9d then\n if sc<768 then cameraReady=true end\n local wx=x+(cameraReady and sc or 0)\n local function tile(xx,yy)\n  xx=(xx+(cameraReady and 0 or 256))%512;yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x47 and t<=0x4a)or(t>=0x75 and t<=0x80)end\n if not jumpAt then jumpAt=260 end\n local ahead=solid(tile(wx+8,y+1));local wall=solid(tile(wx+40,y-12))\n if st<2 and frame-jumpAt>65 and (not ahead or wall) then jumpAt=frame end\n local age=frame-jumpAt\n keys.right=age>=13\n keys.a=age>=3 and age<(wx>=280 and 15 or 33)\n if wx>=280 then keys.right=age>=4 end\n if st<2 and not ahead and age>30 and age<=65 then keys.right=false end\n keys.b=false\nend\nemu.setInput(keys,0)"
+  },
+  "combat": {
+    "frames": 1800,
+    "input_code": "local keys={}\nif frame<360 then\n keys.left=frame>=20 and frame<155\n keys.right=frame>=270 and frame<345\n keys.a=(frame>=20 and frame<55)or(frame>=85 and frame<120)or(frame>=260 and frame<295)\nelse\n local m=emu.memType.nesInternalRam\n local sc=emu.read(0x60,m)+256*emu.read(0x61,m)\n local wx=emu.read(0x4e0,m)+(sc<768 and sc or 0)\n local f=(frame-360)%240\n keys.right=f<55 and wx<175\n keys.left=f>=55 and f<110 and wx>135\n keys.up=f>=115 and f<150\n keys.down=f>=160 and f<195\n keys.a=f>=205 and f<220\n keys.b=frame%20<3\nend\nemu.setInput(keys,0)"
+  },
+  "freeze_thaw": {
+    "frames": 1600,
+    "input": "left=frame>=20 and frame<155,a=(frame>=20 and frame<55)or(frame>=85 and frame<120),select=frame>=320 and frame<324,b=frame>=350 and frame<354"
+  },
+  "menu": {
+    "frames": 600,
+    "input": "left=frame>=20 and frame<155,a=(frame>=20 and frame<55)or(frame>=85 and frame<120),start=(frame>=400 and frame<404)or(frame>=540 and frame<544),right=frame>=440 and frame<444,left=frame>=480 and frame<484"
+  },
+  "stair_walk": {
+    "frames": 600,
+    "input": "right=frame>=20 and frame<160,left=frame>=200 and frame<400"
+  }
+}

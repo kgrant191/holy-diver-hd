@@ -61,3 +61,7 @@ The new enemy is a floating eye, with a compact ivory eyeball, teal iris/pupil a
 ## Stage 2 second horizontal cave (0.7.0 candidate)
 
 Reuse the approved cave panorama, gold terrain, brown winged demons and downward arrows, faceless pulsing pink/red rocks, and lava/ice. The complete native pattern bank matches the exterior. New ceiling cells use the accepted gold texture and native lower-edge masks. Clear the nonsolid red/ochre wall motif to expose the cave. Preserve native flips, sprite footprints and terrain boundaries. See `SCREEN2_4.md`; this screen introduces no new painted source.
+
+## Stage 2 crimson cave (0.8.0 candidate)
+
+Keep this room distinctly red: broad carnelian stalactites, coral-lit mineral edges, dark burgundy recesses and distant plum silhouettes. The initial small repeating flowstone registration looked too tight in live play; represent that nonsolid wall layer with the full panorama instead. Keep brighter crimson foreground columns within their native outlines, using broad source facets and side shading for depth. Gold terrain/stairs, bats and eyes/blue tears reuse approved assets. The earlier caves and their backgrounds remain exact. Sources and built-in image-generation prompts are under `art/generated/screen2_5_*`; runtime registration is in `scripts/build_screen2_5.py`.

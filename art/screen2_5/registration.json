@@ -1,0 +1,299 @@
+{
+  "scope": "s25Room&s25DataLo&s25DataHi",
+  "shared_aliases": 359,
+  "new_tile_rules": 32,
+  "atlas_cells": 13,
+  "background_rules": 58,
+  "mappings": [
+    {
+      "identity": "0371",
+      "palette": "0F061626",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "0372",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "0373",
+      "palette": "0F061626",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "0374",
+      "palette": "0F061626",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "036D",
+      "palette": "0F061626",
+      "atlas": [
+        64,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "0370",
+      "palette": "0F061626",
+      "atlas": [
+        80,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "03A3",
+      "palette": "0F061626",
+      "atlas": [
+        96,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "03A4",
+      "palette": "0F061626",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "03A5",
+      "palette": "0F061626",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "03A6",
+      "palette": "0F061626",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "03A7",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "034F",
+      "palette": "0F061626",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "crimson mineral column"
+    },
+    {
+      "identity": "035F",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0360",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0361",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0362",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0363",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0364",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0365",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0366",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0367",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0368",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "crimson panorama reveal"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "empty cave space"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F061627",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "empty cave space"
+    },
+    {
+      "identity": "036E",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    },
+    {
+      "identity": "036F",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    },
+    {
+      "identity": "039B",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    },
+    {
+      "identity": "039C",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    },
+    {
+      "identity": "039D",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    },
+    {
+      "identity": "039E",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    },
+    {
+      "identity": "039F",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    },
+    {
+      "identity": "03A0",
+      "palette": "0F061626",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "distant cave reveal"
+    }
+  ],
+  "native_collision_modified": false,
+  "previous_artwork_modified": false
+}

@@ -1,5 +1,8 @@
-HOLY DIVER HD 0.7.1 — DEVELOPMENT REVIEW CANDIDATE
-Stage 2, screen 4 stair repair. Based on the 0.7.0 review candidate.
+HOLY DIVER HD 0.8.0 — DEVELOPMENT REVIEW CANDIDATE
+Stage 2, screen 5 crimson cave, including the screen 4 stair repair.
+
+New crimson mineral columns and hanging flowstone retain the red cave character.
+Reuses approved gold terrain, cave depth, bats, eyes with blue tears and lava/ice.
 
 Registers all twelve stair tiles with the existing gold texture and native edges.
 
