@@ -1,0 +1,5 @@
+{
+  "method": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: a tiny 2D game projectile sprite for a Gothic SNES/GBA-quality remaster. Create ONE smooth blue falling TEARDROP, pointed narrow tip at the TOP and a rounded heavy bulb at the BOTTOM, straight vertical and centered. Rich cobalt blue shaded edge, medium blue body, small pale cyan/white wet highlight. Clearly liquid water, compact clean teardrop silhouette readable at only 12x16 pixels, crisp edge and simple shading, no flame shape, no fire texture, no orange/red/yellow, no sparks, no smoky trails, no background, no text, no extra droplets. True transparent alpha background with generous transparent margin around the single droplet. Keep the outer edge opaque enough for pixel-sprite registration; avoid a soft glow.",
+  "request": "the eyes should drop blue to look like tears not look like fire"
+}

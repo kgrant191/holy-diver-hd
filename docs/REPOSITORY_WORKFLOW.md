@@ -16,6 +16,10 @@ VERSION is the build's source of truth. Start at 0.0.1 while the game pack is in
 
 Historical v12–v15.1 build names remain unchanged in original assets and evidence. They are provenance labels, not semantic versions. Keep version-bearing documentation, INSTALL.txt and approved pack hashes aligned with VERSION. Review intentional pack changes before refreshing evidence/approved-pack-sha256.json; retain evidence/v15.1-pack-sha256.json as the original import reference.
 
+## Current stacked handoff
+
+The user approved local 0.5.1 on feature/screen2-2; remote main remains 0.4.1 until that branch is pushed and adopted. The 0.6.0 review branch feature/screen2-3 builds on the approved local branch. Its ZIP-wrapped incremental bundle includes both refs and excludes objects already on main. Push both refs using the included Downloads-based commands, then verify each remote head before PR/Actions work. Do not claim either branch has merged merely because its bundle exists.
+
 ## Publishing and storage
 
 GitHub integration access does not automatically authenticate shell git commands. For artwork-heavy changes, export an incremental Git bundle based on the remote feature head, wrap it in a downloadable ZIP, and provide exact fetch/push commands. The user downloads and pushes using their existing local credentials. Verify the remote head afterward, then manage the existing PR and inspect the actual Actions artifact with the GitHub integration. Small text-only changes may use the integration directly. Do not send large encoded image payloads through chat or tool arguments. Never store account tokens in the repo.
@@ -25,3 +29,7 @@ Build ZIPs are excluded from commits. CI produces downloadable artifacts for tes
 Rollback folders remain because current build and validation scripts read them. Git deduplicates unchanged file content. Migrate those dependencies deliberately before removing old snapshots.
 
 Keep raw captures/audio/video under local work/ or the existing handoff archives. Commit selected evidence and verification reports alongside visual changes. Build outputs are disposable; source art and registration metadata are not.
+
+The user also approved 0.6.1 on 2026-10-24. Both remote feature refs remain absent at the approval check. The existing v0.6.1 source ZIP is still the artwork handoff: screen2-2 at `2a6022930c45a40f79b313d1838ded4285af1492` and screen2-3 at `29bf3b688010fd46863103c2974c8ae88f3c1c62`. Publish the later small text-only approval changes through the integration once those reviewed refs exist, without retransferring the artwork bundle or modifying the reviewed runtime files.
+
+Both branches are now pushed and PRs #6/#7 are open. Their Actions builds and actual downloaded 84/85-file artifacts are verified. Automatic approval review rejected merging PR #6 because the current PR needs explicit merge authorization; do not retry or bypass that block until the user explicitly asks to merge. PR #7 stays stacked on screen2-2 until #6 is merged, then should be retargeted to main. No merge or release has occurred.
