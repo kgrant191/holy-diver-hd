@@ -1,0 +1,32 @@
+{
+  "clips": [
+    [
+      "entry_combat",
+      2,
+      400,
+      "Cave entry and ceiling bats"
+    ],
+    [
+      "entry_combat",
+      500,
+      900,
+      "Shared ghoul artwork / both directions"
+    ],
+    [
+      "crossing",
+      800,
+      1100,
+      "Blizzard ice / shared gold terrain"
+    ],
+    [
+      "crossing",
+      1320,
+      1740,
+      "Native hot-to-ice fall transition"
+    ]
+  ],
+  "captured_stride": 2,
+  "fps": 30,
+  "retouched": false,
+  "audio": false
+}

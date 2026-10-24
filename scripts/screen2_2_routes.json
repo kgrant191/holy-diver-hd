@@ -1,0 +1,18 @@
+{
+  "entry_combat": {
+    "frames": 1100,
+    "input": "right=(frame>=20 and frame<400)or(frame>=760 and frame<920),left=frame>=500 and frame<740,b=frame>=30 and frame%90>=35 and frame%90<55 and frame%12<3,a=frame>=160 and frame%90<30"
+  },
+  "cast_thaw": {
+    "frames": 900,
+    "input": "select=frame>=20 and frame<24,b=frame>=50 and frame<54"
+  },
+  "crossing": {
+    "frames": 3000,
+    "input_code": "local m=emu.memType.nesInternalRam\nlocal st=emu.read(0x300,m)\nlocal sx=emu.read(0x4E0,m)\nlocal scroll=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal wx=sx+(scroll<1200 and scroll or 0)\nlocal magic=emu.read(0x490,m)\nlocal room=emu.read(0x72,m)\nif not mode then mode=0;stopAt=420;phase=0;phaseStart=0;oldMagic=magic end\nlocal keys={right=frame>=170,a=false,b=false,select=false}\nif frame<170 then\n keys.select=(frame>=20 and frame<24)or(frame>=155 and frame<159)\n keys.b=frame>=50 and frame<54\nelseif room==0x10 then\n if phase==0 and wx>=stopAt and magic>=10 then phase=1;phaseStart=frame;oldMagic=magic end\n if phase==1 then\n  keys.right=false\n  if st<2 then phase=2;phaseStart=frame end\n elseif phase==2 then\n  keys.right=false;keys.select=frame-phaseStart<4\n  if frame-phaseStart>=8 then keys.b=frame%12<3 end\n  if magic<oldMagic then phase=3;phaseStart=frame end\n elseif phase==3 then\n  keys.right=false\n  if frame-phaseStart>=110 then phase=4;phaseStart=frame end\n elseif phase==4 then\n  keys.select=frame-phaseStart<4\n  if frame-phaseStart>=5 then phase=0;stopAt=wx+240 end\n else\n  keys.a=frame%90<30\n  keys.b=frame%90>=35 and frame%90<55 and frame%12<3\n end\nend\nemu.setInput(keys,0)"
+  },
+  "menu": {
+    "frames": 260,
+    "input": "start=(frame>=20 and frame<24)or(frame>=180 and frame<184),right=frame>=60 and frame<64,left=frame>=110 and frame<114"
+  }
+}

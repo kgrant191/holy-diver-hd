@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==33
-assert counts['tile']==5219
-assert counts['background']==55
-assert counts['condition']==1383
+assert len(imgs)==34
+assert counts['tile']==5542
+assert counts['background']==106
+assert counts['condition']==1464
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -67,8 +67,16 @@ for p in baseline.glob('*.png'):
   assert boot.size==(16,32)
   expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
+# The new cave must preserve every approved exterior/earlier asset and rule.
+pre_cave=re.sub(r'^# BEGIN SCREEN2_2 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_2 \1\n','',content,flags=re.M|re.S)
+approved_041=json.loads((root/'evidence/0.4.1-pack-sha256.json').read_text())
+assert hashlib.sha256(pre_cave.encode()).hexdigest()==approved_041['hires.txt']
+for name,digest in approved_041.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.4.1 bytes changed'
+assert imgs[33]=='Stage2_Cave_Tiles_2x.png'
 # Stage 2 additions must strip back to the exact approved 0.3.5 mapping.
-pre_stage2=re.sub(r'^# BEGIN SCREEN2_1 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_1 \1\n','',content,flags=re.M|re.S)
+pre_stage2=re.sub(r'^# BEGIN SCREEN2_1 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_1 \1\n','',pre_cave,flags=re.M|re.S)
 approved_035=json.loads((root/'evidence/0.3.5-pack-sha256.json').read_text())
 assert hashlib.sha256(pre_stage2.encode()).hexdigest()==approved_035['hires.txt']
 for name,digest in approved_035.items():

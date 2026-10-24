@@ -1,0 +1,10 @@
+{
+  "archive": "Holy_Diver_HD_v0.5.0.zip",
+  "pack_files": 84,
+  "crc_ok": true,
+  "flat_root": true,
+  "nested_zip": false,
+  "all_sha256_match": true,
+  "sha256": "bd0aadd6f28accd49ffbee38256ed8846755fabef3d7091b85fbc978e6921267",
+  "source_bundle_rebuild": "Fresh main-only clone fetched the incremental bundle and rebuilt all 84 expected file hashes exactly."
+}

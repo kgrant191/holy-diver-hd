@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.5.1 — approved 2026-10-24
+
+- Remove the reddish hanging foreground decoration so the existing cave backdrop shows through.
+- Animate the hot vertical falls downward in sixteen phases, keeping tile-row joins continuous and frozen Blizzard ice static. Pools retain their approved artwork and native palette pulses.
+- Preserve all player/enemy, gold-platform, ice and background source pixels, native gameplay and audio. Only the cave atlas, mappings and installed README change from 0.5.0; 81 other pack files stay exact.
+- User approved the cave visuals and requested the next screen. Preserve the same documented partial-cave traversal coverage. Approval changes only installed README; all 83 runtime files stay exact. Remote main remains 0.4.1 until push/PR/Actions/adoption. No release requested.
+
+## 0.5.0 — Stage 2 screen 2 review candidate (2026-10-24)
+
+- Add a continuous dark volcanic cave, burgundy native hanging formations, gold ceiling edges and two pale/teal ceiling-bat poses with the existing fireball source.
+- Reuse approved gold terrain, lava/ice pools, pickups and six ghoul poses. Translate the ghoul’s 24 identical graphics tiles and its standing-pose anchors to this room’s six-slot-shifted bank layout.
+- Derive vertical lava/ice falls from approved pool texture; native palettes retain hot pulses, Blizzard freeze and thaw. Rendered-tile guards preserve native blackouts.
+- Preserve all 80 prior asset files exactly. Add two PNGs; only hires.txt and installed README change among existing files. No ROM/collision/audio changes.
+- Live coverage reaches the first lava fall and opposite ledge, including combat, both directions, pause, freeze/thaw and death/respawn. The full cave exit remains untested. Main stays approved 0.4.1; this candidate awaits review.
+
 ## 0.4.1 — approved 2026-10-23
 
 - Keep the cave opening dark from its first visible columns, using the left jamb with a screen-boundary guard; the far wall no longer has to be onscreen.

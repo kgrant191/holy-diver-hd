@@ -1,0 +1,354 @@
+{
+  "baseline": "0.4.1",
+  "candidate": "0.5.1",
+  "controller_only": true,
+  "capture_stride": 2,
+  "cases": {
+    "entry_combat": {
+      "emulated_frames": 1100,
+      "state_sha256": "bffc454e176bee738d053802aa12a3558dba58a17400e1033148f7c0291d4db7",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({right=(frame>=20 and frame<400)or(frame>=760 and frame<920),left=frame>=500 and frame<740,b=frame>=30 and frame%90>=35 and frame%90<55 and frame%12<3,a=frame>=160 and frame%90<30},0)",
+      "ram_identical_samples": 550,
+      "ppu_identical_samples": 550,
+      "oam_identical_samples": 550,
+      "apu_sha256": "566525d30ae8f843339e6a642d7308ffbdaa417b835d1d2b84b4237e57752422",
+      "identical_pcm_bytes": 3514212,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 1,
+      "exact_outside_cave_samples": 1,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 93,
+      "changed_screenshots": 457,
+      "rooms": {
+        "10": 547,
+        "04": 3
+      }
+    },
+    "cast_thaw": {
+      "emulated_frames": 900,
+      "state_sha256": "bffc454e176bee738d053802aa12a3558dba58a17400e1033148f7c0291d4db7",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({select=frame>=20 and frame<24,b=frame>=50 and frame<54},0)",
+      "ram_identical_samples": 450,
+      "ppu_identical_samples": 450,
+      "oam_identical_samples": 450,
+      "apu_sha256": "71e88c4c8582979fddde95c98a53180b3649c378abadc59a32b50c7573929651",
+      "identical_pcm_bytes": 2875268,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 62,
+      "exact_outside_cave_samples": 0,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 62,
+      "changed_screenshots": 388,
+      "rooms": {
+        "10": 450
+      }
+    },
+    "crossing": {
+      "emulated_frames": 3000,
+      "state_sha256": "bffc454e176bee738d053802aa12a3558dba58a17400e1033148f7c0291d4db7",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "local m=emu.memType.nesInternalRam\nlocal st=emu.read(0x300,m)\nlocal sx=emu.read(0x4E0,m)\nlocal scroll=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal wx=sx+(scroll<1200 and scroll or 0)\nlocal magic=emu.read(0x490,m)\nlocal room=emu.read(0x72,m)\nif not mode then mode=0;stopAt=420;phase=0;phaseStart=0;oldMagic=magic end\nlocal keys={right=frame>=170,a=false,b=false,select=false}\nif frame<170 then\n keys.select=(frame>=20 and frame<24)or(frame>=155 and frame<159)\n keys.b=frame>=50 and frame<54\nelseif room==0x10 then\n if phase==0 and wx>=stopAt and magic>=10 then phase=1;phaseStart=frame;oldMagic=magic end\n if phase==1 then\n  keys.right=false\n  if st<2 then phase=2;phaseStart=frame end\n elseif phase==2 then\n  keys.right=false;keys.select=frame-phaseStart<4\n  if frame-phaseStart>=8 then keys.b=frame%12<3 end\n  if magic<oldMagic then phase=3;phaseStart=frame end\n elseif phase==3 then\n  keys.right=false\n  if frame-phaseStart>=110 then phase=4;phaseStart=frame end\n elseif phase==4 then\n  keys.select=frame-phaseStart<4\n  if frame-phaseStart>=5 then phase=0;stopAt=wx+240 end\n else\n  keys.a=frame%90<30\n  keys.b=frame%90>=35 and frame%90<55 and frame%12<3\n end\nend\nemu.setInput(keys,0)",
+      "ram_identical_samples": 1500,
+      "ppu_identical_samples": 1500,
+      "oam_identical_samples": 1500,
+      "apu_sha256": "3a53ea9fee2b06c13abcf75ae50b977e52256bb5b2264180e76f61576202824f",
+      "identical_pcm_bytes": 9584220,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 189,
+      "exact_outside_cave_samples": 93,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 375,
+      "changed_screenshots": 1125,
+      "rooms": {
+        "10": 1403,
+        "04": 97
+      }
+    },
+    "menu": {
+      "emulated_frames": 260,
+      "state_sha256": "bffc454e176bee738d053802aa12a3558dba58a17400e1033148f7c0291d4db7",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({start=(frame>=20 and frame<24)or(frame>=180 and frame<184),right=frame>=60 and frame<64,left=frame>=110 and frame<114},0)",
+      "ram_identical_samples": 130,
+      "ppu_identical_samples": 130,
+      "oam_identical_samples": 130,
+      "apu_sha256": "61cf1b2633648d9af939a423e14273078cd1100f55ba1ccd64d493a059138baa",
+      "identical_pcm_bytes": 830636,
+      "shutdown_tail_bytes": 3192,
+      "exact_black_samples": 1,
+      "exact_outside_cave_samples": 77,
+      "exact_menu_samples": 67,
+      "exact_screenshots": 82,
+      "changed_screenshots": 48,
+      "rooms": {
+        "10": 49,
+        "04": 81
+      }
+    },
+    "approach": {
+      "emulated_frames": 420,
+      "state_sha256": "383f3249ecabae9238d6ec2cdbd8d52ef0e57b8fb8634bec0e7203527fb12c10",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({right=frame>=20},0)",
+      "ram_identical_samples": 210,
+      "ppu_identical_samples": 210,
+      "oam_identical_samples": 210,
+      "apu_sha256": "dd2d537ce6dc092ddfac72763752d7aa56e918ecd047d0e9f57ac85723d53c93",
+      "identical_pcm_bytes": 1341792,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 5,
+      "exact_outside_cave_samples": 91,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 95,
+      "changed_screenshots": 115,
+      "rooms": {
+        "18": 93,
+        "10": 117
+      }
+    }
+  },
+  "total_frames_per_build": 5680,
+  "native_samples_per_type": 2840,
+  "exact_black_samples": 258,
+  "exact_outside_cave_samples": 262,
+  "maximum_verified_scroll": 569,
+  "room_exit_reached": false,
+  "coverage_limit": "Supplied entry through the first lava fall and opposite ledge, death/respawn, menus, freeze/thaw; full cave exit not reached.",
+  "shared_native_chr_hashes_verified": 24,
+  "unchanged_prior_pack_files": 80,
+  "pack_files": 84,
+  "observed_enemy_tiles_and_flips": [
+    "028E/native",
+    "028E/mirrored",
+    "028F/native",
+    "028F/mirrored",
+    "0290/native",
+    "0290/mirrored",
+    "0291/native",
+    "0291/mirrored",
+    "0292/native",
+    "0292/mirrored",
+    "0293/native",
+    "0293/mirrored",
+    "0294/native",
+    "0294/mirrored",
+    "0295/native",
+    "0295/mirrored",
+    "0296/native",
+    "0296/mirrored",
+    "0297/native",
+    "0297/mirrored",
+    "0298/native",
+    "0298/mirrored",
+    "0299/native",
+    "0299/mirrored",
+    "029A/native",
+    "029A/mirrored",
+    "029B/native",
+    "029B/mirrored",
+    "029C/native",
+    "029C/mirrored",
+    "029D/native",
+    "029D/mirrored",
+    "029E/native",
+    "029E/mirrored",
+    "029F/native",
+    "029F/mirrored",
+    "02A0/native",
+    "02A0/mirrored",
+    "02A1/native",
+    "02A1/mirrored",
+    "02A2/native",
+    "02A2/mirrored",
+    "02A3/native",
+    "02A3/mirrored",
+    "02A4/native",
+    "02A4/mirrored",
+    "02A5/native",
+    "02A5/mirrored",
+    "02A6/native",
+    "02A7/native",
+    "02A8/native",
+    "02A9/native",
+    "02AA/native",
+    "02AB/native",
+    "02AC/native",
+    "02AD/native",
+    "02AE/native",
+    "02AF/native",
+    "02B0/native",
+    "02B1/native",
+    "02B2/native",
+    "02B3/native",
+    "02B4/native",
+    "02B5/native",
+    "02B6/native"
+  ],
+  "lava_palette_samples": {
+    "0F161606": 659,
+    "0F060616": 764,
+    "0F122131": 1141,
+    "0F001020": 1,
+    "0F071737": 1
+  },
+  "pixel_exact_complete_sprite_samples": {
+    "bat_folded/native": 1865,
+    "bat_open/native": 75,
+    "ghoul_5/mirrored": 12,
+    "ghoul_2/native": 14,
+    "ghoul_3/native": 255,
+    "ghoul_4/native": 13,
+    "ghoul_1/mirrored": 8,
+    "ghoul_0/mirrored": 7,
+    "ghoul_2/mirrored": 10,
+    "ghoul_3/mirrored": 10,
+    "ghoul_4/mirrored": 8,
+    "ghoul_5/native": 9,
+    "ghoul_1/native": 25,
+    "ghoul_0/native": 27
+  },
+  "sprite_examples": {
+    "bat_folded/native": {
+      "case": "entry_combat",
+      "frame": 2,
+      "box": [
+        252,
+        18,
+        284,
+        66
+      ]
+    },
+    "bat_open/native": {
+      "case": "entry_combat",
+      "frame": 120,
+      "box": [
+        286,
+        22,
+        350,
+        70
+      ]
+    },
+    "ghoul_5/mirrored": {
+      "case": "entry_combat",
+      "frame": 324,
+      "box": [
+        220,
+        308,
+        252,
+        340
+      ]
+    },
+    "ghoul_2/native": {
+      "case": "entry_combat",
+      "frame": 400,
+      "box": [
+        74,
+        318,
+        106,
+        350
+      ]
+    },
+    "ghoul_3/native": {
+      "case": "entry_combat",
+      "frame": 404,
+      "box": [
+        64,
+        330,
+        96,
+        362
+      ]
+    },
+    "ghoul_4/native": {
+      "case": "entry_combat",
+      "frame": 410,
+      "box": [
+        48,
+        352,
+        80,
+        384
+      ]
+    },
+    "ghoul_1/mirrored": {
+      "case": "entry_combat",
+      "frame": 426,
+      "box": [
+        104,
+        342,
+        136,
+        390
+      ]
+    },
+    "ghoul_0/mirrored": {
+      "case": "entry_combat",
+      "frame": 434,
+      "box": [
+        124,
+        342,
+        156,
+        390
+      ]
+    },
+    "ghoul_2/mirrored": {
+      "case": "entry_combat",
+      "frame": 460,
+      "box": [
+        192,
+        328,
+        224,
+        360
+      ]
+    },
+    "ghoul_3/mirrored": {
+      "case": "entry_combat",
+      "frame": 466,
+      "box": [
+        208,
+        312,
+        240,
+        344
+      ]
+    },
+    "ghoul_4/mirrored": {
+      "case": "entry_combat",
+      "frame": 474,
+      "box": [
+        228,
+        300,
+        260,
+        332
+      ]
+    },
+    "ghoul_5/native": {
+      "case": "entry_combat",
+      "frame": 548,
+      "box": [
+        132,
+        332,
+        164,
+        364
+      ]
+    },
+    "ghoul_1/native": {
+      "case": "entry_combat",
+      "frame": 618,
+      "box": [
+        376,
+        312,
+        408,
+        360
+      ]
+    },
+    "ghoul_0/native": {
+      "case": "entry_combat",
+      "frame": 626,
+      "box": [
+        372,
+        326,
+        404,
+        374
+      ]
+    }
+  }
+}

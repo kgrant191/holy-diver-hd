@@ -1,5 +1,12 @@
-HOLY DIVER HD 0.4.1 — APPROVED DEVELOPMENT BUILD
-Stage 2, screen 1 and cave/enemy repairs. Approved by the user on 2026-10-23.
+HOLY DIVER HD 0.5.1 — APPROVED DEVELOPMENT BUILD
+Stage 2, screen 2 cave. Approved by the user on 2026-10-24.
+
+Removes the reddish hanging decoration so the cave backdrop shows through.
+Hot lava falls flow downward; Blizzard ice stays still. Retains pale ceiling bats
+and the dark volcanic cave. Reuses approved gold terrain, purple ghoul poses, pools,
+pickups, Randy and HUD. Native gameplay, collision and audio stay unchanged.
+
+0.4.1 added the approved Stage 2 exterior and cave/enemy repairs.
 
 Adds the volcanic Gothic exterior, native gold platforms, lava/Blizzard ice,
 new flying and tumbling enemies, breakable gold blocks and the exit cliff.

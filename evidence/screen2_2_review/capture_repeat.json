@@ -1,0 +1,11 @@
+{
+  "first_run": "crossing-first-capture",
+  "mismatched_frame": 2536,
+  "observation": "One screenshot has a different bat/Randy pose despite identical native RAM/PPU/OAM and APU; all earlier changed pixels are within the requested art. Repeating the full crossing with unchanged installed bytes; no verifier exception added.",
+  "cause": "Unconfirmed capture/render timing; repeat result recorded after validation.",
+  "candidate_repeat": "The same single screenshot difference persists at frame 2536; native state/audio and pack bytes remain exact. Retaining both candidate captures and recapturing the full 0.5.0 baseline crossing to isolate the older screenshot.",
+  "final_result": "The fresh 0.5.0 baseline crossing passes the unchanged strict verifier against the repeated 0.5.1 capture. All five final cases pass without exceptions.",
+  "baseline_repeat_resolved": true,
+  "baseline_original_frame_sha256": "230d84a9a7bea9beb0c3a852b887e8476b80172da437ee70b61a0c0c1373bb20",
+  "baseline_repeat_frame_sha256": "6b6c8452ac2572295447fa1a1bb6c49d6dba327747203d2c588c465a0bf52424"
+}
