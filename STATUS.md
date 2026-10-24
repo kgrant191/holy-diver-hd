@@ -2,9 +2,9 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Active review candidate — 0.9.0, feature/screen2-6
+## Approved continuation baseline — 0.9.0, feature/screen2-6
 
-The user moved on to screen 2-6 and requested automatic reuse of finished enemies and scenery. The build adds 485 shared Stage 2 fallback mappings after all room-specific rules. Exact native identities and palettes reuse existing artwork, retaining pose anchors and lava animation conditions. The new room reuses the red cave panorama, original brown terrain and bats; only the two-pose walking dragon is newly painted. Its horizontal shot uses the existing fireball source. All 87 prior runtime assets remain byte-identical; one new atlas brings the pack to 90 root files.
+The user approved the delivered 0.9.0 on 2026-10-24 and requested the level 2 boss next. Approval is recorded in `evidence/screen2_6/approval.json`; runtime files and hashes remain exact. The user previously moved on to screen 2-6 and requested automatic reuse of finished enemies and scenery. The build adds 485 shared Stage 2 fallback mappings after all room-specific rules. Exact native identities and palettes reuse existing artwork, retaining pose anchors and lava animation conditions. The new room reuses the red cave panorama, original brown terrain and bats; only the two-pose walking dragon is newly painted. Its horizontal shot uses the existing fireball source. All 87 prior runtime assets remain byte-identical; one new atlas brings the pack to 90 root files.
 
 Seven paired routes pass 9,580 frames per build, with 4,790 identical samples per RAM/PPU/OAM/PPU-view type, identical APU writes and 30,605,608 identical common PCM bytes. One run has a 3,192-byte shutdown-buffer tail difference. Live source matches cover both dragon strides and both directions, both fireball directions, folded/open bats and 310 panorama pictures. Native blackouts and menus remain exact. Prior-room regression preserves 1,441 pictures including all 300 stair captures. Its only 59 changed pictures show a previously unmapped 1-up now using the existing approved figurine; all differences stay inside that native item footprint, with source pixels and surrounding scenery verified.
 

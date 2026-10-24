@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.9.0 on `feature/screen2-6`; approved main: 0.6.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.9.0 on `feature/screen2-6`; main: 0.6.1 pending source adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 **Screen 2-6 and shared artwork (0.9.0).** Known Stage 2 enemies, terrain, stairs, lava/ice and items now have shared fallback mappings, so matching native identities and palettes reuse their finished artwork in later rooms. Specific room mappings keep priority. Screen 2-6 reuses the crimson cave, original brown terrain and bats; the only new painted subject is its two-pose walking dragon. Its fireball reuses the existing source. See [screen notes and coverage](docs/SCREEN2_6.md).
 
