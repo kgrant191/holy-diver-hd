@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Active review branches
 
-- `feature/screen2-4` contains the 0.7.1 stair repair; `feature/screen2-5` is stacked on it with the 0.8.2 ceiling review. Approved main remains 0.6.1. On 2026-10-24 the user accepted the 0.8.1 cut-stone stairs ("stairs look good"); preserve their exact bytes. The user rejected the faint roof outline because head bumps and bat attachment points were unclear. Restore solid foreground ceiling geometry, with dark charcoal/plum stone distinct from the red background. Foreground red columns remain removed. Read `docs/SCREEN2_5_ROOF.md` for current coverage. The overall build remains under review; stair acceptance does not authorize merging either branch.
+- `feature/screen2-4` contains the earlier 0.7.1 stair repair; `feature/screen2-5` contains the 0.8.3 brown-ceiling restoration. Approved main remains 0.6.1. On 2026-10-24 the user accepted the 0.8.1 cut-stone stairs ("stairs look good"); preserve their exact bytes. They rejected the 0.8.2 charcoal/plum ceiling and requested the original brown ceiling. Restore the exact earlier brown atlas cells, without recoloring or generating replacements. Foreground red columns remain removed. See `docs/SCREEN2_5_BROWN_ROOF.md`. The overall build remains under review; neither stair acceptance nor the roof restoration authorizes merging.
 
 ## Preserve approved behavior
 

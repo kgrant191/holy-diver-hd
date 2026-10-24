@@ -1,0 +1,11 @@
+{
+  "version": "0.8.3",
+  "artifact": "Holy_Diver_HD_v0.8.3.zip",
+  "bytes": 13458188,
+  "sha256": "c448565122f2f1960a363b23f30d3e874ab11dfacdf2459289222d8221637e46",
+  "root_files": 89,
+  "crc_pass": true,
+  "all_expected_sha256_match": true,
+  "nested_archives": false,
+  "source": "local build; Actions pending user push"
+}

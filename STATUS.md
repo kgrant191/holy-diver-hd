@@ -2,7 +2,15 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Active review candidate — 0.8.2, feature/screen2-5
+## Active review candidate — 0.8.3, feature/screen2-5
+
+The user rejected the charcoal/plum roof and requested the original brown ceiling. This restores 46 exact original atlas-cell references from 0.8.0. The accepted 0.8.1 stairs, red panorama, removed red columns, gold platforms and health jug remain intact. All 87 runtime assets from 0.8.1 stay byte-identical. The rejected roof atlas is excluded; the install returns to 89 root files.
+
+Five paired routes pass 6,800 frames per build, with 3,400 identical RAM/PPU/OAM/PPU-view samples per type, identical APU writes and all 21,724,228 PCM bytes (zero shutdown-tail difference). All 300 stair captures remain exact, along with 1,479 outside-room pictures, 80 black captures and 56 menu captures. Every one of the 1,652 changed images stays within ceiling cells; 1,748 images remain identical. Source checks find 67,420 exact original ceiling-cell matches across 12 observed identities, 143 complete folded bats with visible ceiling contact, and 26,391 unchanged gold floor-body cells. The native head-bump Y progression remains exact. All before/after installation hashes match the final 89-file pack.
+
+The local ZIP passes CRC, flat-layout and all 89 hashes; the actual comparison/video show the restored brown roof. Coverage reaches the hot lava fall at camera scroll 482, then death/return. The far exit, uninterrupted middle of 2-4 and live handled-health-jug pickup remain unverified. See `docs/SCREEN2_5_BROWN_ROOF.md` and `evidence/screen2_5_brown_roof/`. The source bundle contains both feature refs; current accepted stairs and ceiling are on feature/screen2-5, while feature/screen2-4 retains 0.7.1. Approved main remains 0.6.1; source push, PRs and Actions remain pending. No merge or release is authorized.
+
+## Rejected ceiling candidate — 0.8.2, feature/screen2-5
 
 The user accepted the 0.8.1 stairs but found the faint roof outline unclear. This revision restores the complete solid ceiling silhouette in charcoal/plum stone with a lighter lower edge, making head-bump boundaries and bat attachment points visible against the red cave. All 87 previous runtime assets remain exact, including the accepted stairs; red foreground columns remain removed. One new atlas brings the pack to 90 root files.
 

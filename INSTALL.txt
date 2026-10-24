@@ -1,8 +1,8 @@
-HOLY DIVER HD 0.8.2 — DEVELOPMENT REVIEW CANDIDATE
-Stage 2 cave ceiling: visible foreground stone and unchanged approved stairs.
+HOLY DIVER HD 0.8.3 — DEVELOPMENT REVIEW CANDIDATE
+Stage 2 cave ceiling: original brown artwork and unchanged approved stairs.
 
-Restores the full overhead silhouette in dark charcoal/plum stone with a clear
-lower edge, so head-bump boundaries and bat attachment points are visible.
+Restores the exact original brown ceiling artwork and full overhead silhouette,
+so head-bump boundaries and bat attachment points are visible.
 Keeps the red cave panorama, gold platforms and removal of foreground red rocks.
 Preserves the previously added opaque red/brass handled health jug.
 

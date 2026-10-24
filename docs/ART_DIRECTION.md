@@ -73,3 +73,7 @@ The user rejected the rock-textured stairs, repeated red columns and heavy brown
 ## Readable ceiling (0.8.2 candidate; supersedes the roof direction above)
 
 The user accepted the 0.8.1 stairs but found the transparent roof and thin outline insufficient: the player can bump their head, and bats need a visible surface to hang from. Keep the stairs exact and restore the complete foreground ceiling silhouette. Use dense charcoal/plum stone with subdued red reflections and a readable lower edge, separate from the brighter crimson panorama. Preserve gold ground platforms and removal of the rejected red foreground columns. Readability of physical obstacles takes priority over exposing more background. Source and exact built-in image-generation prompt: `art/generated/screen2_5_roof_generated.png` and `screen2_5_roof_prompt.json`; registration: `scripts/build_screen2_5_roof.py`.
+
+## Original brown ceiling (0.8.3; supersedes the charcoal/plum roof)
+
+The user rejected the 0.8.2 treatment: "no lets go back to what we had originally with the brown". Restore the exact original 0.8.0 brown ceiling pixels, native shapes and registrations. Keep the accepted 0.8.1 cut-stone stairs, red background and removed red columns. Reuse the existing atlas sources recorded in `art/screen2_5_roof/previous_geometry.json`; do not generate or recolor a replacement.

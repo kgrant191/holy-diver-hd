@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.3 — Original brown ceiling restored (2026-10-24)
+
+- Restore the original brown ceiling by referencing its exact existing artwork in all 46 ceiling identities; remove the rejected charcoal/plum atlas from the build.
+- Preserve the accepted stairs, red cave panorama, gold platforms, health jug and removal of red columns. All 87 runtime assets from 0.8.1 remain byte-identical.
+- Return the install pack to 89 root files. Main remains approved 0.6.1; this candidate remains under review.
+
 ## 0.8.2 — Readable cave ceiling candidate (2026-10-24)
 
 - Restore the full screen 2-5 ceiling silhouette in dark charcoal/plum stone with a visible lower edge, making low overhangs and bat attachment points clear.
