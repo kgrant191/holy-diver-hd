@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.1 — Cave scenery and lava-flow review fixes (2026-10-24)
+
+- Remove the reddish hanging foreground decoration so the existing cave backdrop shows through.
+- Animate the hot vertical falls downward in sixteen phases, keeping tile-row joins continuous and frozen Blizzard ice static. Pools retain their approved artwork and native palette pulses.
+- Preserve all player/enemy, gold-platform, ice and background source pixels, native gameplay and audio. Only the cave atlas, mappings and installed README change from 0.5.0; 81 other pack files stay exact.
+- Retain main at approved 0.4.1; this is a review candidate with the same documented partial-cave traversal coverage.
+
 ## 0.5.0 — Stage 2 screen 2 review candidate (2026-10-24)
 
 - Add a continuous dark volcanic cave, burgundy native hanging formations, gold ceiling edges and two pale/teal ceiling-bat poses with the existing fireball source.

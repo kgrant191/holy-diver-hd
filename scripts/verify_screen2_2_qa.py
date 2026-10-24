@@ -13,7 +13,7 @@ old=json.loads((root/'evidence/0.4.1-pack-sha256.json').read_text())
 new=json.loads((root/'evidence/approved-pack-sha256.json').read_text())
 routes=json.loads((root/'scripts/screen2_2_routes.json').read_text())
 routes.update(json.loads((root/'scripts/screen2_2_approach_routes.json').read_text()))
-report=dict(baseline='0.4.1',candidate='0.5.0',controller_only=True,capture_stride=2,cases={})
+report=dict(baseline='0.4.1',candidate=(root/'VERSION').read_text().strip(),controller_only=True,capture_stride=2,cases={})
 observed=set();palettes=Counter();matches=Counter();examples={};max_scroll=0
 poses=[]
 for i,pose in enumerate(json.loads((root/'art/screen1_3/ghoul_poses.json').read_text())):

@@ -1,0 +1,72 @@
+{
+  "baseline": "0.5.0",
+  "candidate": "0.5.1",
+  "cases": {
+    "entry_combat": {
+      "frames": 1100,
+      "paired_memory_samples_per_type": 550,
+      "changed_screenshots": 457,
+      "exact_screenshots": 93,
+      "exact_black_samples": 1,
+      "identical_pcm_bytes": 3514212,
+      "shutdown_tail_bytes": 0
+    },
+    "cast_thaw": {
+      "frames": 900,
+      "paired_memory_samples_per_type": 450,
+      "changed_screenshots": 388,
+      "exact_screenshots": 62,
+      "exact_black_samples": 62,
+      "identical_pcm_bytes": 2875268,
+      "shutdown_tail_bytes": 0
+    },
+    "crossing": {
+      "frames": 3000,
+      "paired_memory_samples_per_type": 1500,
+      "changed_screenshots": 1125,
+      "exact_screenshots": 375,
+      "exact_black_samples": 189,
+      "identical_pcm_bytes": 9584220,
+      "shutdown_tail_bytes": 0
+    },
+    "menu": {
+      "frames": 260,
+      "paired_memory_samples_per_type": 130,
+      "changed_screenshots": 48,
+      "exact_screenshots": 82,
+      "exact_black_samples": 1,
+      "identical_pcm_bytes": 830636,
+      "shutdown_tail_bytes": 3192
+    },
+    "approach": {
+      "frames": 420,
+      "paired_memory_samples_per_type": 210,
+      "changed_screenshots": 115,
+      "exact_screenshots": 95,
+      "exact_black_samples": 5,
+      "identical_pcm_bytes": 1341792,
+      "shutdown_tail_bytes": 0
+    }
+  },
+  "total_frames_per_build": 5680,
+  "unchanged_pack_files": 81,
+  "unchanged_cave_tile_variants": 35,
+  "removed_red_tile_variants": 10,
+  "hot_fall_animation": {
+    "phases": 16,
+    "frames_per_phase": 2,
+    "downward_hd_pixels_per_phase": 2
+  },
+  "actual_hot_flow_samples": {
+    "pairs": 173,
+    "downward_2px": 173,
+    "upward_2px": 0,
+    "identical": 0
+  },
+  "actual_frozen_samples": {
+    "pairs": 222,
+    "stationary": 222
+  },
+  "distinct_hot_crops": 23,
+  "change_bounds": "Removed red decoration and hot falls only; other tile pixels and 81 pack files exact."
+}

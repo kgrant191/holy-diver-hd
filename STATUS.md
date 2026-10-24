@@ -4,6 +4,16 @@ Updated: 2026-10-24 (UTC).
 
 ## Current review candidate — feature/screen2-2
 
+**0.5.1** revises the cave after the user requested removal of the reddish rock layer and waterfall motion in the lava falls. The ten decorative red tile identities now expose the unchanged cave backdrop. Hot fall tiles use a continuous sixteen-phase downward loop, advancing two HD pixels every two emulated frames. Each body row and the loop seam align; the native hot palettes still pulse and select the static ice artwork during Blizzard. All six ice fall tiles and every other cave tile variant retain their source pixels.
+
+Only `hires.txt`, `Stage2_Cave_Tiles_2x.png` and installed `README.txt` change from 0.5.0; all 81 other pack files remain exact. The pack still contains 84 root files. `evidence/0.5.0-pack-sha256.json` pins the prior candidate; `approved-pack-sha256.json` describes the current review build, not user approval. See `docs/SCREEN2_2_REVIEW.md` and `evidence/screen2_2_review/` for paired native-state/audio, unchanged-art bounds and measured downward-motion/frozen-state checks.
+
+Final paired checks pass 5,680 frames per build and 2,840 native-memory samples per type, preserving APU/common PCM, 258 black captures and 262 outside-cave captures. The rendered fall advances downward in all 173 stable-palette pairs; all 222 frozen pairs stay stationary. A fresh capture of the unchanged 0.5.0 crossing resolved one older screenshot discrepancy; the final verifier has no exceptions.
+
+Coverage remains the supplied entry through the first fall and opposite ledge, both-direction combat, menus, Blizzard freeze/thaw, death/respawn and the previous-room approach. Full cave exit coverage remains unverified. Main remains approved 0.4.1. This branch is ready for review only; user push, PR, Actions artifact verification and approval remain pending. No merge or release is authorized.
+
+## Superseded 0.5.0 review candidate — feature/screen2-2
+
 **0.5.0**, based on approved main `14434d6ff9604db085a968eda12b317d43474c47`. The supplied `Holy_Diver_HD_1(8).mss` starts inside the Stage 2 cave. Reuse is explicit: 86 aliases point to approved terrain, pools, items, snow and purple ghoul art. The ghoul's 24 native tiles are byte-identical copies shifted six slots within the new bank, so both tile rules and standing-pose anchors are translated. Randy and HUD were already shared. New work covers the cave backdrop/formations, ceiling bats and vertical fall registration.
 
 The candidate contains 84 root files. All 80 prior files other than hires.txt and README.txt remain exact; only those two change and two PNGs are added. `evidence/0.4.1-pack-sha256.json` pins approved main. The historical `approved-pack-sha256.json` filename describes this branch's candidate and does not grant approval. See `docs/SCREEN2_2.md`, the actual Mesen comparison and `evidence/screen2_2/verification.json`.

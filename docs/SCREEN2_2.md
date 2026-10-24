@@ -1,4 +1,6 @@
-# Stage 2 screen 2 cave — 0.5.0 review candidate
+# Stage 2 screen 2 cave — original 0.5.0 candidate
+
+Superseded by the [0.5.1 review fixes](SCREEN2_2_REVIEW.md), which remove the red decorative layer and animate hot falls. The measurements below describe the original candidate.
 
 Branch `feature/screen2-2` starts at approved main `14434d6ff9604db085a968eda12b317d43474c47` (0.4.1). The user supplied the cave-entry state and asked why recurring enemies and lava appeared to require the same work again. The implementation reuses approved art wherever the native graphics match. New rooms primarily need identity/palette registration, scenery and live validation; they do not require redrawing every recurring object.
 

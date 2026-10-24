@@ -44,10 +44,10 @@ The reviewed direction (0.4.1) replaces the initial hooded skull with a brown wi
 
 The red enemy is FACELESS: pale pink stone scaffold with rounded crimson lobes pulsing through its cracks, in three native poses. No eyes, mouth, skull or facial ridges. The supplied original-game close-up is the anatomy reference. The cave opening must stay dark as soon as any of it enters the viewport; neighbor probes must not wrap across the left screen edge.
 
-## Stage 2 cave (0.5.0 review candidate)
+## Stage 2 cave (0.5.1 review candidate)
 
 Reuse approved gold platforms, purple ghouls, lava/ice, pickups, player and HUD. Distinguish artwork reuse from native identity registration: the cave's ghoul graphics move six slots earlier in its CHR bank, and pose-anchor conditions must move with them. Keep the repaired sharp standing heads ahead of broad rolling rules.
 
-The entirely underground backdrop uses indigo/plum depth and faint lava glow. Burgundy hanging formations follow the original outer silhouettes; internal black rock cracks are material detail, not transparent holes. Ceiling gold uses the approved floor material. Vertical falls derive from the approved pool body turned to flow down, with the original hot/ice palettes.
+The entirely underground backdrop uses indigo/plum depth and faint lava glow. The user requested removal of the reddish hanging layer in the 0.5.1 review: clear those decorative identities to expose the existing cave panorama. Keep the gold ceiling and platforms. Hot vertical falls use sixteen downward translation phases with continuous tile joins; the native ice palette selects the unchanged static frozen tiles. Preserve approved pool artwork. The earlier generated red-rock source remains provenance, not a build input.
 
 The original narrow pale/teal ceiling enemy becomes a folded-wing Gothic bat and the same creature with wings open. Keep its central lower body within the native two-cell bottom row, and both wing tips in the upper four-cell rows. Use actual playback to inspect the wing/body joins, fireball timing and silhouettes. Sources/prompts are under `art/generated/screen2_2_*`; native reference and registration are under `art/screen2_2/`.

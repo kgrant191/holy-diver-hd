@@ -15,7 +15,7 @@ conditions = ['<condition>s22Room,memoryCheckConstant,0072,==,10',
               '<condition>s22DataLo,memoryCheckConstant,0078,==,09',
               '<condition>s22DataHi,memoryCheckConstant,0079,==,8B']
 rules, metadata, aliases = [], [], []
-atlas = Image.new('RGBA', (256, 128))
+atlas = Image.new('RGBA', (256, 256))
 cache = {}
 
 def register(im, size):
@@ -25,7 +25,7 @@ def register(im, size):
     im.putalpha(alpha)
     return im
 
-def tile(t, pal, im, kind):
+def tile(t, pal, im, kind, condition=scope):
     assert im.size == (16,16)
     digest = hashlib.sha256(im.tobytes()).hexdigest()
     if digest not in cache:
@@ -33,7 +33,7 @@ def tile(t, pal, im, kind):
         assert xy[1]+16<=atlas.height
         atlas.paste(im,xy);cache[digest]=xy
     x,y=cache[digest]
-    rules.append(f'[{scope}]<tile>33,{t:04X},{pal},{x},{y},1,N')
+    rules.append(f'[{condition}]<tile>33,{t:04X},{pal},{x},{y},1,N')
     metadata.append(dict(identity=f'{t:04X}',palette=pal,atlas=[x,y],kind=kind))
 
 # The cave uses the same CHR identities and palettes as the exterior for
@@ -76,9 +76,6 @@ def mask(t):
     im.putdata([255 if ((b[y]|b[y+8])>>(7-x))&1 else 0 for y in range(8)for x in range(8)])
     return im.resize((16,16),Image.Resampling.NEAREST)
 
-rock_source=Image.open(gen/'screen2_2_rock_generated.png')
-cx,cy=rock_source.width//2,rock_source.height//2
-rock=register(rock_source.crop((cx-128,cy-128,cx+128,cy+128)),(32,32))
 gold=Image.open(root/'art/layers/50_floor.png').convert('RGBA').crop((256,880,320,912))
 gold=register(gold,(32,32))
 def outline_mask(ts, hanging):
@@ -92,33 +89,39 @@ def outline_mask(ts, hanging):
             else:a[ys[0]:,x]=255
     return Image.fromarray(a)
 gold_edge=outline_mask(list(range(0x35b,0x35f)),True)
-red_start=outline_mask(list(range(0x35f,0x363)),False)
-red_end=outline_mask([0x367,0x368],True)
-for t in range(0x35b,0x369):
-    material=gold if t<0x35f else rock
-    first=0x35b if t<0x35f else 0x35f if t<0x363 else 0x363 if t<0x367 else 0x367
-    n=t-first;x=(n%2)*16;y=(n//2)*16
-    cell=material.crop((x,y,x+16,y+16))
-    shape=gold_edge if t<0x35f else red_start if t<0x363 else red_end if t>=0x367 else None
-    if shape is not None:cell.putalpha(shape.crop((x,y,x+16,y+16)))
-    tile(t,'0F071737' if t<0x35f else '0F061627',cell,
-         'gold ceiling edge' if t<0x35f else 'burgundy cave formation')
+for t in range(0x35b,0x35f):
+    n=t-0x35b;x=(n%2)*16;y=(n//2)*16
+    cell=gold.crop((x,y,x+16,y+16));cell.putalpha(gold_edge.crop((x,y,x+16,y+16)))
+    tile(t,'0F071737',cell,'gold ceiling edge')
+# User review: remove the reddish decorative layer to expose the existing
+# cave panorama. Native tile identities/geometry and background guards stay.
+for t in range(0x35f,0x369):
+    tile(t,'0F061627',Image.new('RGBA',(16,16)),'removed red decoration')
 for t in [0x3a1,0x3a2]:
     x=(t-0x3a1)*16
     cell=gold.crop((x,0,x+16,16));cell.putalpha(mask(t))
     tile(t,'0F071737',cell,'native platform underside')
 
-# The vertical falls use the accepted pool artwork, turned so its mineral
-# streaks run down the shaft. Native palettes still control lava versus ice.
+# The fall body alternates 8B/8C and 8D/8E rows. Shift one continuous 32px
+# texture DOWN by 2 HD pixels every two frames, including across cell joins.
+# Descending frameRange conditions must precede the unconditional phase 0.
+# Only hot palettes animate; retain every existing ice tile pixel exactly.
+for phase in range(1,16):
+    conditions.append(f'<condition>s22FallPhase{phase},frameRange,32,{phase*2}')
 for name,pals in [('lava',['0F161606','0F060616']),('ice',['0F122131'])]:
     im=Image.open(root/f'art/screen2_1/{name}_registered.png').convert('RGBA')
     im=im.crop((0,16,32,48)).transpose(Image.Transpose.ROTATE_90)
-    for phase,pal in enumerate(pals):
+    for palette_phase,pal in enumerate(pals):
         variant=im.copy()
-        if phase:
+        if palette_phase:
             a=np.array(variant);a[:,:,:3]=(a[:,:,:3]*.83).astype('uint8');variant=Image.fromarray(a)
-        for t,(x,y) in zip(range(0x389,0x38f),[(0,0),(16,0),(0,0),(16,0),(0,16),(16,16)]):
-            tile(t,pal,variant.crop((x,y,x+16,y+16)),name+' fall')
+        phases=range(15,-1,-1) if name=='lava' else [0]
+        for phase in phases:
+            frame=Image.fromarray(np.roll(np.array(variant),phase*2,axis=0))
+            top=16 if name=='lava' else 0
+            condition=scope+(f'&s22FallPhase{phase}' if phase else '')
+            for t,(x,y) in zip(range(0x389,0x38f),[(0,top),(16,top),(0,0),(16,0),(0,16),(16,16)]):
+                tile(t,pal,frame.crop((x,y,x+16,y+16)),name+' fall',condition)
 
 source=Image.open(gen/'screen2_2_bat_generated.png').convert('RGBA')
 split=round(source.width*.3)

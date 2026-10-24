@@ -1,8 +1,9 @@
-HOLY DIVER HD 0.5.0 — DEVELOPMENT REVIEW BUILD
+HOLY DIVER HD 0.5.1 — DEVELOPMENT REVIEW BUILD
 Stage 2, screen 2 cave. Based on approved 0.4.1; awaiting user review.
 
-Adds the dark volcanic cave, burgundy hanging formations, pale ceiling bats,
-and lava/ice falls. Reuses approved gold terrain, purple ghoul poses, pools,
+Removes the reddish hanging decoration so the cave backdrop shows through.
+Hot lava falls flow downward; Blizzard ice stays still. Retains pale ceiling bats
+and the dark volcanic cave. Reuses approved gold terrain, purple ghoul poses, pools,
 pickups, Randy and HUD. Native gameplay, collision and audio stay unchanged.
 
 0.4.1 added the approved Stage 2 exterior and cave/enemy repairs.

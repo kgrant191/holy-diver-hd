@@ -32,9 +32,9 @@ for line in lines:
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
 assert len(imgs)==34
-assert counts['tile']==5362
+assert counts['tile']==5542
 assert counts['background']==106
-assert counts['condition']==1449
+assert counts['condition']==1464
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'

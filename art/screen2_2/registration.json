@@ -1,8 +1,8 @@
 {
   "scope": "s22Room&s22DataLo&s22DataHi",
   "shared_aliases": 86,
-  "new_tile_rules": 57,
-  "atlas_cells": 44,
+  "new_tile_rules": 237,
+  "atlas_cells": 92,
   "mappings": [
     {
       "identity": "0300",
@@ -98,97 +98,97 @@
       "identity": "035F",
       "palette": "0F061627",
       "atlas": [
-        80,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0360",
       "palette": "0F061627",
       "atlas": [
-        96,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0361",
       "palette": "0F061627",
       "atlas": [
-        112,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0362",
       "palette": "0F061627",
       "atlas": [
-        128,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0363",
       "palette": "0F061627",
       "atlas": [
-        144,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0364",
       "palette": "0F061627",
       "atlas": [
-        160,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0365",
       "palette": "0F061627",
       "atlas": [
-        112,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0366",
       "palette": "0F061627",
       "atlas": [
-        128,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0367",
       "palette": "0F061627",
       "atlas": [
-        176,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "0368",
       "palette": "0F061627",
       "atlas": [
-        192,
+        0,
         0
       ],
-      "kind": "burgundy cave formation"
+      "kind": "removed red decoration"
     },
     {
       "identity": "03A1",
       "palette": "0F071737",
       "atlas": [
-        208,
+        80,
         0
       ],
       "kind": "native platform underside"
@@ -197,7 +197,7 @@
       "identity": "03A2",
       "palette": "0F071737",
       "atlas": [
-        224,
+        96,
         0
       ],
       "kind": "native platform underside"
@@ -206,6 +206,114 @@
       "identity": "0389",
       "palette": "0F161606",
       "atlas": [
+        112,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        208,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        224,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
         240,
         0
       ],
@@ -216,6 +324,438 @@
       "palette": "0F161606",
       "atlas": [
         0,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        16,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        32,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        240,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        48,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        64,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        80,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        96,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        48,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        64,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        112,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        128,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        144,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        160,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        112,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        128,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        176,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        192,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        208,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        224,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        176,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        192,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        240,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        32,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        240,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        48,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        64,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        80,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        96,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        48,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        64,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        208,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        224,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        208,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        224,
+        0
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        16,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        32,
         16
       ],
       "kind": "lava fall"
@@ -258,25 +798,25 @@
     },
     {
       "identity": "0389",
-      "palette": "0F060616",
+      "palette": "0F161606",
       "atlas": [
-        48,
+        80,
         16
       ],
       "kind": "lava fall"
     },
     {
       "identity": "038A",
-      "palette": "0F060616",
+      "palette": "0F161606",
       "atlas": [
-        64,
+        96,
         16
       ],
       "kind": "lava fall"
     },
     {
       "identity": "038B",
-      "palette": "0F060616",
+      "palette": "0F161606",
       "atlas": [
         48,
         16
@@ -285,7 +825,7 @@
     },
     {
       "identity": "038C",
-      "palette": "0F060616",
+      "palette": "0F161606",
       "atlas": [
         64,
         16
@@ -294,7 +834,7 @@
     },
     {
       "identity": "038D",
-      "palette": "0F060616",
+      "palette": "0F161606",
       "atlas": [
         80,
         16
@@ -303,7 +843,7 @@
     },
     {
       "identity": "038E",
-      "palette": "0F060616",
+      "palette": "0F161606",
       "atlas": [
         96,
         16
@@ -312,10 +852,1090 @@
     },
     {
       "identity": "0389",
-      "palette": "0F122131",
+      "palette": "0F161606",
+      "atlas": [
+        144,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        160,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
       "atlas": [
         112,
         16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        128,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        144,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        160,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        208,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        224,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        176,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        192,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        208,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        224,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        32,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        240,
+        16
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        32,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F161606",
+      "atlas": [
+        80,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F161606",
+      "atlas": [
+        96,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F161606",
+      "atlas": [
+        48,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F161606",
+      "atlas": [
+        64,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F161606",
+      "atlas": [
+        80,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F161606",
+      "atlas": [
+        96,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        112,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        128,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        144,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        160,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        112,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        128,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        176,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        192,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        208,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        224,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        176,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        192,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        240,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        16,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        32,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        240,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        48,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        64,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        80,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        96,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        48,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        64,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        112,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        128,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        144,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        160,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        112,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        128,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        176,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        192,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        208,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        224,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        176,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        192,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        240,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        16,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        32,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        240,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        48,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        64,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        80,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        96,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        48,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        64,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        144,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        160,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        112,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        128,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        144,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        160,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        208,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        224,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        176,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        192,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        208,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        224,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        16,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        32,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        240,
+        32
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        16,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        32,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        80,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        96,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        48,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        64,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        80,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        96,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        144,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        160,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        112,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        128,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        144,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        160,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        208,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        224,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        176,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        192,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        208,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        224,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        16,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        32,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        240,
+        48
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        0,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        16,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        32,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F060616",
+      "atlas": [
+        80,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038A",
+      "palette": "0F060616",
+      "atlas": [
+        96,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038B",
+      "palette": "0F060616",
+      "atlas": [
+        48,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038C",
+      "palette": "0F060616",
+      "atlas": [
+        64,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038D",
+      "palette": "0F060616",
+      "atlas": [
+        80,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "038E",
+      "palette": "0F060616",
+      "atlas": [
+        96,
+        64
+      ],
+      "kind": "lava fall"
+    },
+    {
+      "identity": "0389",
+      "palette": "0F122131",
+      "atlas": [
+        112,
+        64
       ],
       "kind": "ice fall"
     },
@@ -324,7 +1944,7 @@
       "palette": "0F122131",
       "atlas": [
         128,
-        16
+        64
       ],
       "kind": "ice fall"
     },
@@ -333,7 +1953,7 @@
       "palette": "0F122131",
       "atlas": [
         112,
-        16
+        64
       ],
       "kind": "ice fall"
     },
@@ -342,7 +1962,7 @@
       "palette": "0F122131",
       "atlas": [
         128,
-        16
+        64
       ],
       "kind": "ice fall"
     },
@@ -351,7 +1971,7 @@
       "palette": "0F122131",
       "atlas": [
         144,
-        16
+        64
       ],
       "kind": "ice fall"
     },
@@ -360,7 +1980,7 @@
       "palette": "0F122131",
       "atlas": [
         160,
-        16
+        64
       ],
       "kind": "ice fall"
     },
@@ -369,7 +1989,7 @@
       "palette": "FF10300C",
       "atlas": [
         176,
-        16
+        64
       ],
       "kind": "bat folded"
     },
@@ -378,7 +1998,7 @@
       "palette": "FF10300C",
       "atlas": [
         192,
-        16
+        64
       ],
       "kind": "bat folded"
     },
@@ -387,7 +2007,7 @@
       "palette": "FF10300C",
       "atlas": [
         208,
-        16
+        64
       ],
       "kind": "bat folded"
     },
@@ -396,7 +2016,7 @@
       "palette": "FF10300C",
       "atlas": [
         224,
-        16
+        64
       ],
       "kind": "bat folded"
     },
@@ -405,7 +2025,7 @@
       "palette": "FF10300C",
       "atlas": [
         240,
-        16
+        64
       ],
       "kind": "bat folded"
     },
@@ -414,7 +2034,7 @@
       "palette": "FF10300C",
       "atlas": [
         0,
-        32
+        80
       ],
       "kind": "bat folded"
     },
@@ -423,7 +2043,7 @@
       "palette": "FF10300C",
       "atlas": [
         16,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -432,7 +2052,7 @@
       "palette": "FF10300C",
       "atlas": [
         32,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -441,7 +2061,7 @@
       "palette": "FF10300C",
       "atlas": [
         48,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -450,7 +2070,7 @@
       "palette": "FF10300C",
       "atlas": [
         64,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -459,7 +2079,7 @@
       "palette": "FF10300C",
       "atlas": [
         80,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -468,7 +2088,7 @@
       "palette": "FF10300C",
       "atlas": [
         96,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -477,7 +2097,7 @@
       "palette": "FF10300C",
       "atlas": [
         112,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -486,7 +2106,7 @@
       "palette": "FF10300C",
       "atlas": [
         128,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -495,7 +2115,7 @@
       "palette": "FF10300C",
       "atlas": [
         144,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -504,7 +2124,7 @@
       "palette": "FF10300C",
       "atlas": [
         160,
-        32
+        80
       ],
       "kind": "bat open"
     },
@@ -513,7 +2133,7 @@
       "palette": "FF301116",
       "atlas": [
         176,
-        32
+        80
       ],
       "kind": "shared fireball source"
     }

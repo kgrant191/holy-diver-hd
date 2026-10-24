@@ -1,0 +1,49 @@
+{
+  "stills": [
+    [
+      "Removed red decoration / continuous cave backdrop",
+      "entry_combat",
+      20
+    ],
+    [
+      "Hot fall / downward flow shown in the video",
+      "crossing",
+      2300
+    ],
+    [
+      "Blizzard ice / stationary frozen fall",
+      "crossing",
+      1700
+    ]
+  ],
+  "clips": [
+    [
+      "entry_combat",
+      2,
+      180,
+      "Cave backdrop revealed"
+    ],
+    [
+      "crossing",
+      2240,
+      2480,
+      "Hot fall flows downward"
+    ],
+    [
+      "crossing",
+      1600,
+      1840,
+      "Blizzard ice stays still"
+    ],
+    [
+      "crossing",
+      2080,
+      2240,
+      "Native thaw restores the hot flow"
+    ]
+  ],
+  "capture_stride": 2,
+  "fps": 30,
+  "retouched": false,
+  "audio": false
+}
