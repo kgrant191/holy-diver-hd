@@ -5,7 +5,7 @@
 - Replace the floating eyes’ fire-like shots with blue teardrops: cobalt/cyan liquid shading, pointed tops and rounded bases.
 - Preserve the two native projectile bounds, positions, flips and timing. Only the two projectile atlas cells and installed README change; all 83 other pack files, including hires.txt, remain exact.
 - Preserve the eye bodies, cave, platforms, ghouls, lava/ice, player and other enemies’ fireballs.
-- User approved the vertical cave and blue-tear repair. Approval bookkeeping changes only installed README; all 84 runtime files retain the reviewed hashes. Both artwork branches and approval bookkeeping are published. PRs #6/#7 and both actual Actions artifacts are verified; merges await explicit user authorization following automatic approval review. No public release requested.
+- User approved the vertical cave and blue-tear repair. Approval bookkeeping changes only installed README; all 84 runtime files retain the reviewed hashes. Both artwork branches and approval bookkeeping are published. The user explicitly authorized both merges ("merge it"); PRs #6/#7 are merged, and PR/main Actions plus the actual 84/85-file artifacts are verified. No public release requested.
 
 ## 0.6.0 — Stage 2 screen 3 review candidate (2026-10-24)
 
@@ -20,7 +20,7 @@
 - Remove the reddish hanging foreground decoration so the existing cave backdrop shows through.
 - Animate the hot vertical falls downward in sixteen phases, keeping tile-row joins continuous and frozen Blizzard ice static. Pools retain their approved artwork and native palette pulses.
 - Preserve all player/enemy, gold-platform, ice and background source pixels, native gameplay and audio. Only the cave atlas, mappings and installed README change from 0.5.0; 81 other pack files stay exact.
-- User approved the cave visuals and requested the next screen. Preserve the same documented partial-cave traversal coverage. Approval changes only installed README; all 83 runtime files stay exact. Remote main remains 0.4.1 until push/PR/Actions/adoption. No release requested.
+- User approved the cave visuals and requested the next screen. Preserve the same documented partial-cave traversal coverage. Approval changes only installed README; all 83 runtime files stay exact. Merged through PR #6 after explicit user authorization; PR/main Actions and their 84-file artifacts are verified. Included in approved main 0.6.1. No release requested.
 
 ## 0.5.0 — Stage 2 screen 2 review candidate (2026-10-24)
 

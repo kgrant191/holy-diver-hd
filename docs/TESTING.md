@@ -151,7 +151,7 @@ The 84-file candidate archive must pass CRC, root layout, no-nested-ZIP and ever
 
 See [SCREEN2_2_REVIEW.md](SCREEN2_2_REVIEW.md). Repeat the five cave/approach routes against 0.5.1. Compare with the retained 0.5.0 replays using `verify_screen2_2_review.py`; additionally use `verify_screen2_2_qa.py` with approved 0.4.1 to retain the original full native/pose coverage. The review verifier limits image changes to red decoration/hot-fall source colors and the measured partial-alpha HUD edges that blend over them. It requires every unaffected cave tile variant and 81 other pack files to stay exact. It verifies actual downward pixel translation and stationary Blizzard ice from an unobstructed fall segment with a stationary camera. Inspect the actual motion video as well as numerical checks. No RAM edits are used.
 
-0.5.1 visuals were approved on 2026-10-24. The reviewed manifest remains pinned in `0.5.1-reviewed-pack-sha256.json`; approval changes only installed README. All 83 runtime hashes remain exact, so the live evidence still applies. Remote adoption and Actions verification remain pending.
+0.5.1 visuals were approved on 2026-10-24. The reviewed manifest remains pinned in `0.5.1-reviewed-pack-sha256.json`; approval changes only installed README. All 83 runtime hashes remain exact, so the live evidence still applies. PR #6 and main Actions builds and their actual 84-file artifacts were subsequently verified; the work is included in approved main 0.6.1.
 
 ## Stage 2 vertical cave (0.6.0 candidate)
 
@@ -164,3 +164,5 @@ Four paired routes pass 5,560 frames/build and 2,780 exact samples per native-me
 Replay `screen2_3_review_routes.json` with the same cave runner and user state. Compare against the retained 0.6.0 combat/respawn capture using `verify_screen2_3_review.py`; commands and limits are in `docs/SCREEN2_3_REVIEW.md`. The 2,400-frame paired run preserves 1,200 native samples/type and equal full PCM/APU. Differences in 637 captures are confined to the eye shots; 563 captures remain identical. Source-atlas checks constrain changes to exactly two cells; 83 other installed files are hash-identical. Both tear shapes and mirrors are verified from actual sprite pixels.
 
 Approval bookkeeping for 0.6.1 changes only installed README.txt. All 84 runtime files retain the reviewed hashes, so no additional emulator run is required for the documentation-only approval update. The reviewed manifest is retained separately; the build/expected-hash check verifies the approved installation.
+
+PRs #6/#7 were merged after the user explicitly authorized them. The final 0.6.1 PR run 40053346170 and main run 40053648543 passed. Both actual downloaded artifacts contain 85 root files, with every approved hash matching, valid ZIP CRCs and no nested ZIP. Adoption documentation changes no runtime files. See `evidence/screen2_3_review/{pr_artifact,main_artifact,approval}.json`.

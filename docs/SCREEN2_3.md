@@ -2,7 +2,7 @@
 
 The original implementation and its verification are retained below. The approved 0.6.1 build replaces only the eye projectiles with blue tears; see [review repair](SCREEN2_3_REVIEW.md).
 
-The user approved 0.5.1 and supplied `Holy_Diver_HD_1(9).mss` for the next screen. This candidate is on `feature/screen2-3`, stacked on locally approved `feature/screen2-2`. GitHub adoption of 0.5.1 remains pending; remote main is still 0.4.1. The source handoff includes both branch refs. No public release or tag is requested.
+The user approved 0.5.1 and supplied `Holy_Diver_HD_1(9).mss` for the next screen. The original candidate was on `feature/screen2-3`, stacked on approved `feature/screen2-2`. Both were subsequently merged through PRs #6/#7 after the user explicitly authorized them. Main now contains approved 0.6.1, including the blue-tear repair. No public release or tag was created.
 
 ## Artwork and reuse
 

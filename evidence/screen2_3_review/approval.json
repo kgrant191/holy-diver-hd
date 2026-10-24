@@ -7,13 +7,12 @@
     "README.txt"
   ],
   "identical_runtime_files": 84,
-  "remote_main": "14434d6ff9604db085a968eda12b317d43474c47",
   "existing_source_zip_remains_valid": true,
   "artwork_push_heads": {
     "feature/screen2-2": "2a6022930c45a40f79b313d1838ded4285af1492",
     "feature/screen2-3": "29bf3b688010fd46863103c2974c8ae88f3c1c62"
   },
-  "adoption": "Both artwork branches and approval record are published; PR builds and actual artifacts verified. Merge pending explicit user authorization.",
+  "adoption": "Merged through the explicitly authorized PR; PR/main builds and actual artifacts verified. Included in approved main 0.6.1.",
   "release_requested": false,
   "approved_install_zip_root_files": 85,
   "approved_install_zip_crc_and_hashes_valid": true,
@@ -32,6 +31,16 @@
     "action": "Merge PR #6 into main",
     "reason": "Build approval was not treated as explicit authorization to merge the current PR.",
     "merge_performed": false,
-    "retry_requires_explicit_user_merge_authorization": true
-  }
+    "retry_requires_explicit_user_merge_authorization": true,
+    "resolved": true,
+    "resolution_quote": "merge it",
+    "resolved_date": "2026-10-24"
+  },
+  "merge_authorization_quote": "merge it",
+  "merge_authorized_date": "2026-10-24",
+  "pull_request": 7,
+  "merge_commit": "40d67dbf516eaea5b2a20e3ad9a8093a7d7b347a",
+  "merged": true,
+  "pr_and_main_artifacts_independently_verified": true,
+  "remote_main_at_approval": "14434d6ff9604db085a968eda12b317d43474c47"
 }

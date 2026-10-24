@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Preserve approved behavior
 
-- Current approved development version: 0.6.1, accepted in chat on 2026-10-24 ("approved"). Includes approved 0.5.1 and the vertical cave with blue eye tears. Approved locally on feature/screen2-3; both feature branches are pushed, PRs #6/#7 and their downloaded Actions artifacts are verified, and remote main remains 0.4.1 pending merge. Automatic approval review rejected the PR #6 merge because explicit authorization to merge the current PR is required; do not retry until the user explicitly authorizes the merges. See STATUS.md for approval and verification. Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
+- Current approved development version on main: 0.6.1. Includes the Stage 2 cave/lava flow (PR #6) and vertical cave with blue eye tears (PR #7). The user explicitly authorized both merges on 2026-10-24 ("merge it"); both are merged. PR/main Actions builds and actual downloaded 84/85-file artifacts were verified. See STATUS.md and evidence/screen2_3_review/approval.json. Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.
 - Preserve the title sequence: clean splash, first Start reveals PRESS START, second Start starts play. Preserve the exact Entrance_SFX_Priority.ips bytes.
 - Randy's normal/Twin Fire art is shared across matching native identities. Fix shared assets/mappings where appropriate instead of adding needless room-specific copies.
 - The red winged-skull drop is a bracelet. Its collected Start/pause-menu icon must use the same bracelet artwork.

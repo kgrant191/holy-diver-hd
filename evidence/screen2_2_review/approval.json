@@ -7,8 +7,14 @@
     "README.txt"
   ],
   "identical_runtime_files": 83,
-  "remote_feature_branch_present": false,
-  "remote_main": "14434d6ff9604db085a968eda12b317d43474c47",
-  "adoption": "Push, PR and actual Actions artifact verification pending.",
-  "release_requested": false
+  "adoption": "Merged through the explicitly authorized PR; PR/main builds and actual artifacts verified. Included in approved main 0.6.1.",
+  "release_requested": false,
+  "merge_authorization_quote": "merge it",
+  "merge_authorized_date": "2026-10-24",
+  "pull_request": 6,
+  "merge_commit": "e3d957fc75e80ba9a6d9c6dd5afe61be6c557470",
+  "merged": true,
+  "pr_and_main_artifacts_independently_verified": true,
+  "remote_main_at_approval": "14434d6ff9604db085a968eda12b317d43474c47",
+  "remote_feature_branch_present_at_approval": false
 }

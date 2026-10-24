@@ -1,6 +1,6 @@
 # Repository workflow
 
-Repository: kgrant191/holy-diver-hd. Approved development version on main is 0.4.1, covering the Stage 2 exterior and cave/enemy repairs through PR #5. PR and main Actions builds and their actual 82-file artifacts were verified before/after the user-authorized merge. Previous version 0.3.5 adds the first boss, Blizzard chamber and recovery pickups through PR #4, following screen 1-4 in 0.2.1 (PR #3), screen 1-3 in 0.1.1 (PR #2), the 0.0.2 title/ledge corrections and the initial 0.0.1 import of historical v15.1 artwork. Use temporary branches for later screen or character work and merge accepted changes into main. Keep release changes in CHANGELOG.md and current state in STATUS.md.
+Repository: kgrant191/holy-diver-hd. Approved development version on main is 0.6.1, covering the Stage 2 cave and flowing lava (PR #6), vertical cave and blue eye tears (PR #7), and all previous approved work. The user explicitly authorized both merges on 2026-10-24. PR and main Actions builds and their actual 84/85-file artifacts were verified. Use focused feature branches for subsequent screens and keep approval/adoption records in STATUS.md and evidence/.
 
 Use the active chat for bug reports, task priorities, feedback and approval. GitHub Issues and a TASKS.md backlog are not part of the current workflow. Prepare each requested change on a focused branch, test it, and open a PR with evidence and an Actions artifact. Revise the same branch for feedback. The user can merge or explicitly authorize the assistant to merge after approval. A proposed version on a branch is a review candidate until accepted.
 
@@ -16,9 +16,9 @@ VERSION is the build's source of truth. Start at 0.0.1 while the game pack is in
 
 Historical v12–v15.1 build names remain unchanged in original assets and evidence. They are provenance labels, not semantic versions. Keep version-bearing documentation, INSTALL.txt and approved pack hashes aligned with VERSION. Review intentional pack changes before refreshing evidence/approved-pack-sha256.json; retain evidence/v15.1-pack-sha256.json as the original import reference.
 
-## Current stacked handoff
+## Completed stacked handoff
 
-The user approved local 0.5.1 on feature/screen2-2; remote main remains 0.4.1 until that branch is pushed and adopted. The 0.6.0 review branch feature/screen2-3 builds on the approved local branch. Its ZIP-wrapped incremental bundle includes both refs and excludes objects already on main. Push both refs using the included Downloads-based commands, then verify each remote head before PR/Actions work. Do not claim either branch has merged merely because its bundle exists.
+The user pushed feature/screen2-2 at 2a60229 and feature/screen2-3 at 29bf3b6, then approval/check bookkeeping was published through the integration. After explicit merge authorization, PR #6 merged first and PR #7 was retargeted to main and merged. The approved baseline is now 0.6.1. Preserve the same ZIP-wrapped bundle workflow for future artwork changes; keep review candidates separate until approved.
 
 ## Publishing and storage
 
@@ -29,7 +29,3 @@ Build ZIPs are excluded from commits. CI produces downloadable artifacts for tes
 Rollback folders remain because current build and validation scripts read them. Git deduplicates unchanged file content. Migrate those dependencies deliberately before removing old snapshots.
 
 Keep raw captures/audio/video under local work/ or the existing handoff archives. Commit selected evidence and verification reports alongside visual changes. Build outputs are disposable; source art and registration metadata are not.
-
-The user also approved 0.6.1 on 2026-10-24. Both remote feature refs remain absent at the approval check. The existing v0.6.1 source ZIP is still the artwork handoff: screen2-2 at `2a6022930c45a40f79b313d1838ded4285af1492` and screen2-3 at `29bf3b688010fd46863103c2974c8ae88f3c1c62`. Publish the later small text-only approval changes through the integration once those reviewed refs exist, without retransferring the artwork bundle or modifying the reviewed runtime files.
-
-Both branches are now pushed and PRs #6/#7 are open. Their Actions builds and actual downloaded 84/85-file artifacts are verified. Automatic approval review rejected merging PR #6 because the current PR needs explicit merge authorization; do not retry or bypass that block until the user explicitly asks to merge. PR #7 stays stacked on screen2-2 until #6 is merged, then should be retargeted to main. No merge or release has occurred.
