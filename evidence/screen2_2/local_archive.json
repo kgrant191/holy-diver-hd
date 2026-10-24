@@ -5,5 +5,6 @@
   "flat_root": true,
   "nested_zip": false,
   "all_sha256_match": true,
-  "sha256": "ce1374e17068fd9024072ddafd8ca7581fabb1a26ba731c07085bd648c44f15b"
+  "sha256": "bd0aadd6f28accd49ffbee38256ed8846755fabef3d7091b85fbc978e6921267",
+  "source_bundle_rebuild": "Fresh main-only clone fetched the incremental bundle and rebuilt all 84 expected file hashes exactly."
 }
