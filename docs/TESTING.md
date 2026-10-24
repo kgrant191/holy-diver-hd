@@ -159,6 +159,8 @@ Use the unchanged `Holy_Diver_HD_1(9).mss` with `scripts/screen2_3_routes.json` 
 
 Four paired routes pass 5,560 frames/build and 2,780 exact samples per native-memory type, preserving APU/common PCM, 106 native black frames, 270 completed next-room captures and the pause menu. All 1,957 actual full-color wall samples reveal the stationary approved panorama. The full vertical scroll reaches 512, crosses frozen lava and exits into the next room. Eye body, both shot shapes/flips and all six ghoul poses/both directions have exact complete-sprite matches in actual captures. Native death grayscale/emphasis and subsequent scenery disable are inspected separately from source-RGB matching; unchanged palette RAM does not imply full-color rendering. All 82 previous non-mapping/non-readme files remain hash-identical.
 
-## Blue-tear repair (0.6.1)
+## Blue-tear repair (approved 0.6.1)
 
 Replay `screen2_3_review_routes.json` with the same cave runner and user state. Compare against the retained 0.6.0 combat/respawn capture using `verify_screen2_3_review.py`; commands and limits are in `docs/SCREEN2_3_REVIEW.md`. The 2,400-frame paired run preserves 1,200 native samples/type and equal full PCM/APU. Differences in 637 captures are confined to the eye shots; 563 captures remain identical. Source-atlas checks constrain changes to exactly two cells; 83 other installed files are hash-identical. Both tear shapes and mirrors are verified from actual sprite pixels.
+
+Approval bookkeeping for 0.6.1 changes only installed README.txt. All 84 runtime files retain the reviewed hashes, so no additional emulator run is required for the documentation-only approval update. The reviewed manifest is retained separately; the build/expected-hash check verifies the approved installation.

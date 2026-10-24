@@ -29,3 +29,5 @@ Build ZIPs are excluded from commits. CI produces downloadable artifacts for tes
 Rollback folders remain because current build and validation scripts read them. Git deduplicates unchanged file content. Migrate those dependencies deliberately before removing old snapshots.
 
 Keep raw captures/audio/video under local work/ or the existing handoff archives. Commit selected evidence and verification reports alongside visual changes. Build outputs are disposable; source art and registration metadata are not.
+
+The user also approved 0.6.1 on 2026-10-24. Both remote feature refs remain absent at the approval check. The existing v0.6.1 source ZIP is still the artwork handoff: screen2-2 at `2a6022930c45a40f79b313d1838ded4285af1492` and screen2-3 at `29bf3b688010fd46863103c2974c8ae88f3c1c62`. Publish the later small text-only approval changes through the integration once those reviewed refs exist, without retransferring the artwork bundle or modifying the reviewed runtime files.

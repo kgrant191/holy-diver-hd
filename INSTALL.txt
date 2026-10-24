@@ -1,5 +1,5 @@
-HOLY DIVER HD 0.6.1 — DEVELOPMENT REVIEW BUILD
-Stage 2, screen 3 vertical cave. Based on approved 0.5.1.
+HOLY DIVER HD 0.6.1 — APPROVED DEVELOPMENT BUILD
+Stage 2, screen 3 vertical cave. Approved by the user on 2026-10-24.
 
 The floating eye now drops blue teardrops with rounded liquid bodies.
 

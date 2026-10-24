@@ -2,11 +2,11 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Current review repair — feature/screen2-3
+## Latest approved version — feature/screen2-3 (adoption pending)
 
 **0.6.1** changes the floating-eye projectiles into blue teardrops, as requested. Pointed tops, rounded liquid bodies and cobalt/cyan highlights replace the fire-like art. Only the two projectile cells and installed README change; the other 83 pack files, mapping file, eye bodies, scenery and unrelated fireballs remain byte-identical.
 
-Focused paired checks pass **2,400 frames per build** with 1,200 equal RAM/PPU/OAM samples per type and exact APU/equal-length PCM. All 637 changed captures are confined to eye-projectile bounds; 563 others remain exact. Both tear identities and their mirrored forms have complete pixel-exact live matches. See `docs/SCREEN2_3_REVIEW.md` and `evidence/screen2_3_review/`. The earlier full-room/exit tests remain below; the repair replay covers combat, scrolling and death/respawn. The install ZIP still contains 85 root files. User approval and push/PR/Actions/adoption remain pending.
+Focused paired checks pass **2,400 frames per build** with 1,200 equal RAM/PPU/OAM samples per type and exact APU/equal-length PCM. All 637 changed captures are confined to eye-projectile bounds; 563 others remain exact. Both tear identities and their mirrored forms have complete pixel-exact live matches. See `docs/SCREEN2_3_REVIEW.md` and `evidence/screen2_3_review/`. The earlier full-room/exit tests remain below; the repair replay covers combat, scrolling and death/respawn. The install ZIP still contains 85 root files. The user approved v0.6.1 in chat on 2026-10-24 ("approved"). Reviewed artwork commit: `29bf3b688010fd46863103c2974c8ae88f3c1c62`. Both feature branches are still absent from GitHub; main remains `14434d6ff9604db085a968eda12b317d43474c47`. Push/PR/Actions/adoption remain pending. Approval bookkeeping changes only installed README.txt; all 84 runtime files stay byte-identical. `0.6.1-reviewed-pack-sha256.json` preserves the accepted review bytes; `0.6.1-pack-sha256.json` and `approved-pack-sha256.json` pin the approved installation bytes. See `evidence/screen2_3_review/approval.json`. The already-delivered 0.6.1 source ZIP remains valid for the artwork push (screen2-2 at 2a60229, screen2-3 at 29bf3b6); publish this small text-only approval commit through the integration afterward. No release/tag is requested.
 
 ## Superseded 0.6.0 candidate — feature/screen2-3
 
@@ -18,7 +18,7 @@ The pack contains 85 root files. Only hires.txt and installed README change amon
 
 The source bundle includes both feature/screen2-2 (approved 0.5.1) and feature/screen2-3 (this candidate), based on remote main 14434d6. Local build, install-archive and replay validation are complete. User push, PR/Actions artifact checks and adoption are pending. No release/tag is requested.
 
-## Latest approved version — feature/screen2-2 (adoption pending)
+## Previous approved version — feature/screen2-2 (adoption pending)
 
 **0.5.1** revises the cave after the user requested removal of the reddish rock layer and waterfall motion in the lava falls. The ten decorative red tile identities now expose the unchanged cave backdrop. Hot fall tiles use a continuous sixteen-phase downward loop, advancing two HD pixels every two emulated frames. Each body row and the loop seam align; the native hot palettes still pulse and select the static ice artwork during Blizzard. All six ice fall tiles and every other cave tile variant retain their source pixels.
 

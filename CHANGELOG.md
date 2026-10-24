@@ -1,10 +1,11 @@
 # Changelog
 
-## 0.6.1 — blue-tear review repair (2026-10-24)
+## 0.6.1 — approved 2026-10-24
 
 - Replace the floating eyes’ fire-like shots with blue teardrops: cobalt/cyan liquid shading, pointed tops and rounded bases.
 - Preserve the two native projectile bounds, positions, flips and timing. Only the two projectile atlas cells and installed README change; all 83 other pack files, including hires.txt, remain exact.
 - Preserve the eye bodies, cave, platforms, ghouls, lava/ice, player and other enemies’ fireballs.
+- User approved the vertical cave and blue-tear repair. Approval bookkeeping changes only installed README; all 84 runtime files retain the reviewed hashes. Both artwork branches still need pushing before PR/Actions/adoption. No public release requested.
 
 ## 0.6.0 — Stage 2 screen 3 review candidate (2026-10-24)
 

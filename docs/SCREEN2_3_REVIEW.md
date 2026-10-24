@@ -1,4 +1,4 @@
-# Blue tears — 0.6.1 review repair
+# Blue tears — approved 0.6.1
 
 The user requested that the eyes drop blue tears instead of fire. The two eye-projectile atlas cells now use a cobalt/cyan liquid teardrop, with a pointed top, rounded base and small wet highlight. Both native footprints stay exact: `02DC` uses X1–6/Y0–7 and `02DD` uses X0–6/Y1–7. Native OAM controls movement, timing and mirroring.
 
@@ -26,4 +26,4 @@ python scripts/verify_screen2_3_review.py --before work/screen2_3/after --after 
 python scripts/export_screen2_3_review.py --before work/screen2_3/after --after work/screen2_3_review/after --out evidence/screen2_3_review
 ```
 
-This is a review candidate on `feature/screen2-3`, based on locally approved 0.5.1. The bundle includes both pending feature branches. `0.6.0-pack-sha256.json` preserves the previous candidate; `0.6.1-pack-sha256.json` and `approved-pack-sha256.json` pin this repair candidate, without implying user approval. Push/PR/Actions/adoption remain pending; no release or tag is created.
+The user approved 0.6.1 on 2026-10-24 ("approved"), accepting the vertical cave and blue tears at reviewed commit `29bf3b688010fd46863103c2974c8ae88f3c1c62`. Both feature branches still await the artwork push; the already-delivered source ZIP remains valid. Documentation-only approval bookkeeping can be published through the integration after that push. `0.6.1-reviewed-pack-sha256.json` preserves the accepted review; `0.6.1-pack-sha256.json` and `approved-pack-sha256.json` pin the approved installation. Only installed README changes during approval; all 84 runtime files remain exact. Push/PR/Actions/adoption are pending; no release/tag is requested.

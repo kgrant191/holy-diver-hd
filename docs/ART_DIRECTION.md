@@ -52,7 +52,7 @@ The entirely underground backdrop uses indigo/plum depth and faint lava glow. Th
 
 The original narrow pale/teal ceiling enemy becomes a folded-wing Gothic bat and the same creature with wings open. Keep its central lower body within the native two-cell bottom row, and both wing tips in the upper four-cell rows. Use actual playback to inspect the wing/body joins, fireball timing and silhouettes. Sources/prompts are under `art/generated/screen2_2_*`; native reference and registration are under `art/screen2_2/`.
 
-## Stage 2 vertical cave (0.6.1 review candidate)
+## Stage 2 vertical cave (approved 0.6.1)
 
 Reuse the approved cave panorama as a stationary distant layer while the native gold platforms scroll down the shaft. Clear only the six nonsolid purple wall-pattern identities. Preserve all terrain edges, lava/ice, ghoul poses and shared player/HUD artwork.
 

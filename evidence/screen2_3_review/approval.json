@@ -1,0 +1,24 @@
+{
+  "approved_version": "0.6.1",
+  "approval_quote": "approved",
+  "approved_date": "2026-10-24",
+  "reviewed_commit": "29bf3b688010fd46863103c2974c8ae88f3c1c62",
+  "changed_pack_files": [
+    "README.txt"
+  ],
+  "identical_runtime_files": 84,
+  "remote_feature_branches": {
+    "feature/screen2-2": null,
+    "feature/screen2-3": null
+  },
+  "remote_main": "14434d6ff9604db085a968eda12b317d43474c47",
+  "existing_source_zip_remains_valid": true,
+  "artwork_push_heads": {
+    "feature/screen2-2": "2a6022930c45a40f79b313d1838ded4285af1492",
+    "feature/screen2-3": "29bf3b688010fd46863103c2974c8ae88f3c1c62"
+  },
+  "adoption": "User pushes the already-delivered artwork bundle; assistant publishes text-only approval bookkeeping through the integration, then handles PRs/Actions. No merge claimed.",
+  "release_requested": false,
+  "approved_install_zip_root_files": 85,
+  "approved_install_zip_crc_and_hashes_valid": true
+}
