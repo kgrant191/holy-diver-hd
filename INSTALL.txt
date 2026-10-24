@@ -1,5 +1,9 @@
-HOLY DIVER HD 0.9.0 — DEVELOPMENT REVIEW CANDIDATE
-Stage 2 screen 2-6: shared finished artwork and a new walking dragon.
+HOLY DIVER HD 0.10.0 — DEVELOPMENT REVIEW CANDIDATE
+Level 2 boss: rooted demon, reused cave and actors, Breaker spell reward.
+
+Preserves the user-approved 0.9.0 artwork and shared Stage 2 mappings.
+The boss follows native hit/defeat palettes, and Breaker has a new tome and
+announcement. Native gameplay, controller timing and audio are unchanged.
 
 Known Stage 2 enemies, terrain, stairs, lava/ice and pickups use shared fallback
 mappings when their native tile IDs and palettes match. Room-specific artwork

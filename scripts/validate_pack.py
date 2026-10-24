@@ -31,9 +31,19 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==39
+assert len(imgs)==40
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
+total_counts=counts.copy()
+boss2=json.loads((root/'art/boss2/registration.json').read_text())
+for kind in ['tile','background','condition']:
+ counts[kind]-=boss2[{'tile':'tile_rules','background':'background_rules','condition':'conditions'}[kind]]
+content=re.sub(r'^# BEGIN BOSS2 (IMAGES|CONDITIONS|MAPPINGS|ALIASES)\n.*?^# END BOSS2 \1\n','',content,flags=re.M|re.S)
+reviewed_090=json.loads((root/'evidence/0.9.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==reviewed_090['hires.txt']
+for name,digest in reviewed_090.items():
+ if name not in {'README.txt','hires.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved asset changed'
+assert imgs[39]=='Boss2_Tiles_2x.png'
 screen26=json.loads((root/'art/screen2_6/registration.json').read_text())
 shared=json.loads((root/'art/shared_stage2/registration.json').read_text())
 assert counts['tile']==6997+screen26['tile_rules']+shared['tile_rules']
@@ -284,5 +294,5 @@ assert len(re.findall(r'\[randyDefeated\]<tile>',approved_rules))==64
 assert len(re.findall(r'\[randyDefeated\]<tile>',content))==192
 assert '<condition>randyDefeated,memoryCheckConstant,0440,==,00' in content
 assert not re.search(r'<tile>25,7[4-7],FF160636,',content)
-result={'supported_rom_sha1':sha.lower(),'scale':2,'atlas_count':len(imgs),**counts,'references_and_bounds_valid':True,'conditional_priority_valid':True,'rom_patch_bytes':56,'patch_scope':'entrance priorities and conditional thunder masking','replacement_audio':False}
+result={'supported_rom_sha1':sha.lower(),'scale':2,'atlas_count':len(imgs),**total_counts,'references_and_bounds_valid':True,'conditional_priority_valid':True,'rom_patch_bytes':56,'patch_scope':'entrance priorities and conditional thunder masking','replacement_audio':False}
 print(json.dumps(result,indent=2))

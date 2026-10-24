@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.10.0 — Level 2 boss and Breaker candidate (2026-10-24)
+
+- Add the wall-root demon with its complete native background-tile layout, palette-driven hit phases, disappearance and victory silhouette flash.
+- Reuse existing brown cave texture, crimson panorama, fireball, Randy poses and HUD. Add verified physical-bank 04 actor aliases with remapped pose anchors.
+- Add the Breaker tome and announcement, retaining native collection, fade timing and the existing Stage 3 title card.
+- Preserve all 88 previous runtime assets. Add one atlas, a derived native victory-flash background and one spell card, for 93 installed root files.
+
 ## 0.9.0 — Screen 2-6 and shared Stage 2 artwork (approved 2026-10-24)
 
 - Add 485 shared fallback rules for finished Stage 2 enemies, terrain, stairs, lava/ice, effects and items. Exact native identities and palettes select existing art; room-specific and pose/animation rules retain priority.

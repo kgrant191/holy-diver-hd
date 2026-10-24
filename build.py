@@ -23,6 +23,7 @@ subprocess.run([sys.executable,str(r/'scripts/build_screen2_5.py')],cwd=r,check=
 subprocess.run([sys.executable,str(r/'scripts/build_screen2_5_review.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_screen2_5_brown_roof.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_screen2_6.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_boss2.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_shared_stage2.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)

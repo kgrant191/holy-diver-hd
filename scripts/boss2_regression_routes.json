@@ -1,0 +1,10 @@
+{
+  "walk_right": {
+    "frames": 720,
+    "input": "right=frame>=20,b=frame%30<4"
+  },
+  "poses": {
+    "frames": 600,
+    "input": "left=frame>=20 and frame<50,right=frame>=180 and frame<210,up=(frame>=60 and frame<100)or(frame>=220 and frame<260),down=(frame>=110 and frame<150)or(frame>=270 and frame<310),b=frame>=60 and frame<310 and frame%12<3,a=frame>=360 and frame<390"
+  }
+}

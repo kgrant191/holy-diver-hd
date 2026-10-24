@@ -2,6 +2,16 @@
 
 Updated: 2026-10-24 (UTC).
 
+## Review candidate — 0.10.0, feature/2-boss
+
+Adds the Level 2 wall-root demon in its complete native tile layout, its hit/defeat palette phases, Breaker tome and announcement. Reuses the crimson cave panorama, original brown terrain texture, Randy poses, HUD and fireball source. The boss's new graphics bank has 366 verified actor aliases with remapped pose anchors. All 88 earlier runtime asset files stay byte-identical; three additions bring the pack to 93 root files.
+
+Five paired controller routes pass 5,740 frames per build, with 2,870 identical RAM/PPU/OAM/PPU-view samples per type, identical APU writes and all 18,337,804 PCM bytes (zero shutdown-tail difference). Source checks find 64 ordinary whole-visible boss matches, one gold hit phase and one black victory silhouette; one match shows the entire unclipped boss. The flash additionally matches 21,859 pale cave pixels because its end-frame palette has already reset. Complete fireball/tome matches total 74/18. The defeated boss reveals 15,494 exact cave pixels, and ten announcement samples match the Breaker card. All 660 prior 2-6 captures remain exact, along with 736 outside-room pictures and 20 native black captures.
+
+Coverage includes the boss defeat, Breaker collection/announcement, existing Stage 3 card/arrival, and Breaker pause-menu selection. The initial one-frame early announcement is repaired with a rendered-letter guard; all final candidate/regression runs use the delivered hashes. Stage cards 1–3 are verified; cards 4–6 and later Breaker interactions remain untested. Previous far 2-5/2-6 exit and handled-health-jug pickup limits remain. See `docs/BOSS2.md` and `evidence/boss2/validation.json`.
+
+The 93-file install ZIP passes CRC, flat-layout and every hash. Comparison and video use actual Mesen captures. The source bundle includes all four feature refs through `feature/2-boss`; screen2-6 also records the user's 0.9.0 approval. Main remains 0.6.1. User push, PRs and Actions artifact checks remain pending; the boss artwork is a review candidate.
+
 ## Approved continuation baseline — 0.9.0, feature/screen2-6
 
 The user approved the delivered 0.9.0 on 2026-10-24 and requested the level 2 boss next. Approval is recorded in `evidence/screen2_6/approval.json`; runtime files and hashes remain exact. The user previously moved on to screen 2-6 and requested automatic reuse of finished enemies and scenery. The build adds 485 shared Stage 2 fallback mappings after all room-specific rules. Exact native identities and palettes reuse existing artwork, retaining pose anchors and lava animation conditions. The new room reuses the red cave panorama, original brown terrain and bats; only the two-pose walking dragon is newly painted. Its horizontal shot uses the existing fireball source. All 87 prior runtime assets remain byte-identical; one new atlas brings the pack to 90 root files.
@@ -204,7 +214,7 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 ## Known limits
 
 - This is a partial HD overhaul, not a finished all-stage pack.
-- All six stage names and life counts 0–9 are mapped; live card coverage is Stages 1–2 and counts 4/3/2. Stages 3–6 remain untested.
+- All six stage names and life counts 0–9 are mapped; live card coverage is Stages 1–3 and counts 4/3/2. Stages 4–6 remain untested.
 - Native player tiles $33–$35 are now measured and covered as crouching wind-up legs. Tile $3C remains unclassified; investigate only when a live route uses it.
 - The earlier report of Randy fully reverting to original art during death was not independently reproduced. Shared defeat fallbacks exist, and current recorded death poses remain HD.
 - Old scripts remain for provenance. build.py is the supported build entry point.
