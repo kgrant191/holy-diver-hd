@@ -31,12 +31,28 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==38
-assert counts['tile']==6951
+assert len(imgs)==39
+assert counts['tile']==7461
 assert counts['background']==229
 assert counts['condition']==1689
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
+# The readable ceiling is additive and leaves all accepted stair/item bytes exact.
+content=re.sub(r'^# BEGIN SCREEN2_5_ROOF (IMAGES|MAPPINGS)\n.*?^# END SCREEN2_5_ROOF \1\n','',content,flags=re.M|re.S)
+reviewed_081=json.loads((root/'evidence/0.8.1-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==reviewed_081['hires.txt']
+for name,digest in reviewed_081.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior runtime bytes changed'
+assert imgs[38]=='Stage2_Crimson_Ceiling_2x.png'
+roof=json.loads((root/'art/screen2_5_roof/registration.json').read_text())
+assert roof['tile_rules']==510 and roof['floor_preservation_rules']==464 and roof['ceiling_identities']==46
+roof_atlas=Image.open(pack/imgs[38]).convert('RGBA')
+for m in roof['mappings']:
+ x,y=m['atlas'];prior=m['previous_source'];px,py=prior['xy']
+ previous=Image.open(pack/prior['image']).convert('RGBA').crop((px,py,px+16,py+16))
+ assert np.array_equal(np.array(roof_atlas.crop((x,y,x+16,y+16)))[:,:,3],np.array(previous)[:,:,3]),m['identity']+' ceiling silhouette changed'
+assert not roof['stairs_modified'] and not roof['collision_modified']
 # Review overrides are additive; all 86 earlier runtime assets stay exact.
 content=re.sub(r'^# BEGIN SCREEN2_5_REVIEW (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_5_REVIEW \1\n','',content,flags=re.M|re.S)
 reviewed_080=json.loads((root/'evidence/0.8.0-pack-sha256.json').read_text())

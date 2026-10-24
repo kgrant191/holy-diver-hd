@@ -4,7 +4,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Active review branches
 
-- `feature/screen2-4` contains the 0.7.1 stair repair; `feature/screen2-5` is stacked on it with the 0.8.1 visual review. Both remain unapproved, and approved main remains 0.6.1. The user rejected gold rock stairs, heavy brown ceiling fill and foreground red columns. Current review uses distinct cut-stone steps, exposes the crimson panorama, retains gold platforms/slim overhead boundaries and maps the previously missing four-tile health jug. Read `docs/SCREEN2_5_REVIEW.md` for current coverage. Do not restore the rejected foreground columns or repeating wall texture.
+- `feature/screen2-4` contains the 0.7.1 stair repair; `feature/screen2-5` is stacked on it with the 0.8.2 ceiling review. Approved main remains 0.6.1. On 2026-10-24 the user accepted the 0.8.1 cut-stone stairs ("stairs look good"); preserve their exact bytes. The user rejected the faint roof outline because head bumps and bat attachment points were unclear. Restore solid foreground ceiling geometry, with dark charcoal/plum stone distinct from the red background. Foreground red columns remain removed. Read `docs/SCREEN2_5_ROOF.md` for current coverage. The overall build remains under review; stair acceptance does not authorize merging either branch.
 
 ## Preserve approved behavior
 

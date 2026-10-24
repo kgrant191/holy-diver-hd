@@ -1,0 +1,324 @@
+{
+  "0330": {
+    "image": "Stage2_Exterior_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "0331": {
+    "image": "Stage2_Exterior_Tiles_2x.png",
+    "xy": [
+      64,
+      0
+    ]
+  },
+  "0332": {
+    "image": "Stage2_Exterior_Tiles_2x.png",
+    "xy": [
+      80,
+      0
+    ]
+  },
+  "0333": {
+    "image": "Stage2_Exterior_Tiles_2x.png",
+    "xy": [
+      96,
+      0
+    ]
+  },
+  "035B": {
+    "image": "Stage2_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "035C": {
+    "image": "Stage2_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "035D": {
+    "image": "Stage2_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "035E": {
+    "image": "Stage2_Cave_Tiles_2x.png",
+    "xy": [
+      64,
+      0
+    ]
+  },
+  "0350": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "0351": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "0352": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "0353": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "0354": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "0355": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "0356": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "0357": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "0358": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "0359": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "035A": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "0369": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "036A": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "036B": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "036C": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "0381": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "0382": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "0383": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "0384": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "0385": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "0386": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "0387": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "0388": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "038F": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "0390": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "0391": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "0392": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "0393": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      48,
+      0
+    ]
+  },
+  "0394": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      0,
+      0
+    ]
+  },
+  "0395": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      16,
+      0
+    ]
+  },
+  "0396": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      32,
+      0
+    ]
+  },
+  "0397": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      64,
+      0
+    ]
+  },
+  "0398": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      80,
+      0
+    ]
+  },
+  "0399": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      96,
+      0
+    ]
+  },
+  "039A": {
+    "image": "Stage2_Second_Cave_Tiles_2x.png",
+    "xy": [
+      112,
+      0
+    ]
+  },
+  "034B": {
+    "image": "Stage2_Exterior_Tiles_2x.png",
+    "xy": [
+      304,
+      0
+    ]
+  },
+  "034C": {
+    "image": "Stage2_Exterior_Tiles_2x.png",
+    "xy": [
+      320,
+      0
+    ]
+  },
+  "034D": {
+    "image": "Stage2_Exterior_Tiles_2x.png",
+    "xy": [
+      336,
+      0
+    ]
+  }
+}

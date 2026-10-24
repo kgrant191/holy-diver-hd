@@ -2,13 +2,21 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Active review candidate — 0.8.1, feature/screen2-5
+## Active review candidate — 0.8.2, feature/screen2-5
+
+The user accepted the 0.8.1 stairs but found the faint roof outline unclear. This revision restores the complete solid ceiling silhouette in charcoal/plum stone with a lighter lower edge, making head-bump boundaries and bat attachment points visible against the red cave. All 87 previous runtime assets remain exact, including the accepted stairs; red foreground columns remain removed. One new atlas brings the pack to 90 root files.
+
+Five paired routes pass 6,800 frames/build and 3,400 exact native samples/type, with identical full PCM and APU. All 300 stair captures, 1,479 outside-room pictures, 80 black captures and 56 menu captures remain exact. The 1,652 changed captures stay inside ceiling cells. Source checks pass 67,420 ceiling matches over 12 observed identities, 143 complete hanging-bat/ceiling contacts and 26,391 unchanged gold floor-body cells. All 46 ceiling identities preserve their earlier alpha contours. See `docs/SCREEN2_5_ROOF.md` and `evidence/screen2_5_roof/`.
+
+Coverage reaches the hot lava fall at camera scroll 482, including the low-overhang jump, then death/return. The far exit, uninterrupted middle of 2-4 and live handled-health-jug pickup remain unverified. The install ZIP passes all 90 hashes, CRC and root-layout checks; the comparison video decodes successfully. The source bundle includes both feature refs. The accepted stair appearance is on feature/screen2-5; feature/screen2-4 retains its earlier 0.7.1 source. Approved main remains 0.6.1; user push, PRs and Actions checks remain pending. No merge or release is authorized.
+
+## Superseded review candidate — 0.8.1, feature/screen2-5
 
 Responds to the user's rejected rock stairs, heavy brown ceiling and foreground red columns. Uses pale-edged cut-stone treads in both rooms, removes the ceiling fill/columns in 2-5 and retains the accepted panorama, gold platforms and slim overhead boundaries. The health screenshot reveals a previously unmapped four-tile handled jug; new opaque red/brass art covers its five exact native CHR groups. All 86 previous runtime assets remain byte-identical; one atlas brings the install to 89 root files.
 
 Five paired controller routes pass 6,800 frames/build with 3,400 exact native samples/type and identical full PCM/APU. They preserve 80 black captures, 259 outside-room captures and 56 menu captures; 25,569 gold platform-body cell checks and 352 complete stair matches pass. Coverage extends to camera scroll 482 and the lava fall, then death/return. The far exit remains unverified. The jug mapping, native bounds and opacity are checked statically; the actual pickup is not reached, so a save with that jug visible is needed for its live check. See `docs/SCREEN2_5_REVIEW.md` and `evidence/screen2_5_review/`.
 
-The final stair appearance is on feature/screen2-5; feature/screen2-4 retains the earlier 0.7.1 candidate. Both refs remain in the source bundle, unmerged and unapproved. Approved main remains 0.6.1. Local ZIP hashes/CRC/layout pass; user push, PRs and Actions checks remain pending.
+The final stair appearance is on feature/screen2-5; feature/screen2-4 retains the earlier 0.7.1 candidate. Both refs remain in the source bundle and unmerged. The user subsequently accepted the 0.8.1 stair appearance; the ceiling direction was superseded by 0.8.2. Approved main remains 0.6.1. Local ZIP hashes/CRC/layout pass; user push, PRs and Actions checks remain pending.
 
 ## Superseded review candidate — 0.8.0, feature/screen2-5
 

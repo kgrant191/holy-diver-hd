@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.2 — Readable cave ceiling candidate (2026-10-24)
+
+- Restore the full screen 2-5 ceiling silhouette in dark charcoal/plum stone with a visible lower edge, making low overhangs and bat attachment points clear.
+- Preserve the user-accepted 0.8.1 cut-stone stairs, red panorama, gold platforms, enemies, health jug and removal of red foreground columns.
+- Add one ceiling atlas and scoped overrides; all 87 previous runtime assets stay byte-identical (90 installed root files).
+- Keep the overall candidate unmerged and under review; main remains approved 0.6.1.
+
 ## 0.8.1 — Cave visual review candidate (2026-10-24)
 
 - Replace rock-textured stairs in 2-4/2-5 with cut-stone steps and pale tread edges.
