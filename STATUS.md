@@ -2,6 +2,14 @@
 
 Updated: 2026-10-24 (UTC).
 
+## Active review candidate — 0.7.0, feature/screen2-4
+
+The next horizontal cave reuses the approved panorama, gold terrain, winged demons with downward arrows, faceless pulsing rock enemies, lava/ice, player, pickups and HUD. All 512 native patterns match the earlier exterior bank. The only new installed image is a 128×64 ceiling-registration atlas using the existing gold texture; 304 aliases reuse previous mappings and 44 new rules fit additional ceiling edges and clear nonsolid wall patterns. All 83 prior runtime assets remain byte-identical. The install ZIP contains 86 root files.
+
+Paired controller checks pass 12,760 frames/build and 6,380 exact native-memory samples per type, preserving APU/common PCM, 257 black captures and 1,427 outside-room pictures. All 647 measured hot-fall pairs move downward; all 456 ice pairs stay stationary. Live coverage includes the previous-room approach, combat/poses, menus, death/respawn, breakable-block ledges and the first two falls/pool, reaching camera scroll 537. The far exit remains unverified.
+
+This is a review candidate based on approved main `5fdae8a88920ad6612d9f01ee913d85af6837209`; approval, source-bundle push, PR and Actions checks are pending. No merge or release/tag is authorized for this candidate. The historical `approved-pack-sha256.json` filename pins the candidate bytes on this branch and does not grant approval. See `docs/SCREEN2_4.md` and `evidence/screen2_4/` for exact tests and coverage. Full room exit coverage is not claimed.
+
 ## Current approved version on main — 0.6.1
 
 **0.6.1** changes the floating-eye projectiles into blue teardrops, as requested. Pointed tops, rounded liquid bodies and cobalt/cyan highlights replace the fire-like art. Only the two projectile cells and installed README change; the other 83 pack files, mapping file, eye bodies, scenery and unrelated fireballs remain byte-identical.

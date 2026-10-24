@@ -18,6 +18,7 @@ subprocess.run([sys.executable,str(r/'scripts/build_recovery_items.py')],cwd=r,c
 subprocess.run([sys.executable,str(r/'scripts/build_screen2_1.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_screen2_2.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_screen2_3.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_screen2_4.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'

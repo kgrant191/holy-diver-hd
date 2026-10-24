@@ -77,3 +77,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Stage 2 screen 3 vertical cave (0.6.0 candidate)
 
 `Holy_Diver_HD_1(9).mss` — SHA-256 `a84d2f19c107be53b9d76e78f8095ae9cf7861badbf8052555e0879dd5749df3`. The 9,067-byte user input is unchanged and excluded from Git. Use `scripts/screen2_3_routes.json` with the existing `run_screen2_2_qa.py --state` replay runner. See `docs/SCREEN2_3.md`.
+
+## Stage 2 screen 4 horizontal cave (0.7.0 candidate)
+
+`Holy_Diver_HD_1(10).mss` — SHA-256 `ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a`. The 10,439-byte supplied file is unchanged and excluded from Git. Use `scripts/screen2_4_routes.json` with `run_screen2_2_qa.py --state`. The separate approach route uses the retained screen 3 state above. See `docs/SCREEN2_4.md`.

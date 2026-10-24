@@ -1,0 +1,12 @@
+{
+  "version": "0.7.0",
+  "artifact": "local install ZIP",
+  "file_count": 86,
+  "root_layout": true,
+  "nested_zip": false,
+  "crc_passed": true,
+  "all_expected_sha256_match": true,
+  "zip_sha256": "f7d8278f9fecc64b1bbbf2e80318cb84a8a831b95e88108581c9394682665f62",
+  "zip_bytes": 12674620,
+  "github_actions_artifact_verified": false
+}

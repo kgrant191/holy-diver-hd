@@ -1,0 +1,409 @@
+{
+  "scope": "s24Room&s24DataLo&s24DataHi",
+  "shared_aliases": 304,
+  "new_tile_rules": 44,
+  "atlas_cells": 9,
+  "mappings": [
+    {
+      "identity": "0350",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0351",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0352",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0353",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0354",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0355",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0356",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0357",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0358",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0359",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "035A",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0369",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "036A",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "036B",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "036C",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0381",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0382",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0383",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0384",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0385",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0386",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0387",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0388",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "038F",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0390",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0391",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0392",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0393",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0394",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0395",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0396",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "shared gold ceiling texture"
+    },
+    {
+      "identity": "0397",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        0
+      ],
+      "kind": "native ceiling lower contour"
+    },
+    {
+      "identity": "0398",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        0
+      ],
+      "kind": "native ceiling lower contour"
+    },
+    {
+      "identity": "0399",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        0
+      ],
+      "kind": "native ceiling lower contour"
+    },
+    {
+      "identity": "039A",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "native ceiling lower contour"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "036E",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "036F",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039B",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039C",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039D",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039E",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "039F",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    },
+    {
+      "identity": "03A0",
+      "palette": "0F061828",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "cave backdrop reveal"
+    }
+  ],
+  "background_rules": 47,
+  "reused_background": "Stage2_Cave_Background.png",
+  "new_painted_sources": 0,
+  "native_collision_modified": false,
+  "previous_artwork_modified": false
+}

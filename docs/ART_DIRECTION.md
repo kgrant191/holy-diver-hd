@@ -57,3 +57,7 @@ The original narrow pale/teal ceiling enemy becomes a folded-wing Gothic bat and
 Reuse the approved cave panorama as a stationary distant layer while the native gold platforms scroll down the shaft. Clear only the six nonsolid purple wall-pattern identities. Preserve all terrain edges, lava/ice, ghoul poses and shared player/HUD artwork.
 
 The new enemy is a floating eye, with a compact ivory eyeball, teal iris/pupil and short crimson spiked rim. Register the complete body at 32×32 HD across its native four tiles. The 0.6.1 review replaces the fire-like shots with smooth blue teardrops, preserving their measured native bounds (DC: X1–6/Y0–7, DD: X0–6/Y1–7). Original OAM preserves position, trajectory, flips and cadence. Source and prompt: `art/generated/screen2_3_eye_generated.png` and `screen2_3_prompts.json`; the tear source/prompt are `screen2_3_tear_generated.png` and `screen2_3_tear_prompt.json`. Registration: `scripts/build_screen2_3.py`.
+
+## Stage 2 second horizontal cave (0.7.0 candidate)
+
+Reuse the approved cave panorama, gold terrain, brown winged demons and downward arrows, faceless pulsing pink/red rocks, and lava/ice. The complete native pattern bank matches the exterior. New ceiling cells use the accepted gold texture and native lower-edge masks. Clear the nonsolid red/ochre wall motif to expose the cave. Preserve native flips, sprite footprints and terrain boundaries. See `SCREEN2_4.md`; this screen introduces no new painted source.

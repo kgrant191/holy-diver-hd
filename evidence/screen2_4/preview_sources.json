@@ -1,0 +1,54 @@
+{
+  "stills": [
+    [
+      "Cave entrance / reused winged demon and downward arrow",
+      "combat_respawn",
+      200
+    ],
+    [
+      "Reused faceless pulsing rock and gold terrain",
+      "combat_respawn",
+      440
+    ],
+    [
+      "Hot lava falls / approved downward flow",
+      "hot_falls",
+      1600
+    ],
+    [
+      "Blizzard / approved frozen falls and pool",
+      "traversal",
+      1600
+    ]
+  ],
+  "clips": [
+    [
+      "combat_respawn",
+      40,
+      440,
+      "Shared demons, arrows and pulsing rocks"
+    ],
+    [
+      "traversal",
+      700,
+      1240,
+      "Gold ceiling and platforms / scrolling cave"
+    ],
+    [
+      "hot_falls",
+      1400,
+      1800,
+      "Downward lava flow"
+    ],
+    [
+      "traversal",
+      1400,
+      1840,
+      "Frozen falls / native Blizzard behavior"
+    ]
+  ],
+  "capture_stride": 2,
+  "fps": 30,
+  "retouched": false,
+  "audio": false
+}

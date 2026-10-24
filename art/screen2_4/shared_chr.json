@@ -1,0 +1,10 @@
+{
+  "pattern_table_sha256": "035e8cc9c2e4995a59065c4e539df8ee1ec9121c6ece56e21545a646057712ba",
+  "bytes_compared": 8192,
+  "all_512_native_tiles_identical_to_exterior": true,
+  "source_scope": "18/A189",
+  "target_scope": "10/AD8C",
+  "source_state_sha256": "383f3249ecabae9238d6ec2cdbd8d52ef0e57b8fb8634bec0e7203527fb12c10",
+  "target_state_sha256": "ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a",
+  "baseline_pack": "0.6.1"
+}

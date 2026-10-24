@@ -1,0 +1,369 @@
+{
+  "baseline": "0.6.1",
+  "candidate": "0.7.0",
+  "emulator": "MesenCE 2.2.1",
+  "controller_only": true,
+  "ram_writes": false,
+  "capture_stride": 2,
+  "cases": {
+    "combat_respawn": {
+      "emulated_frames": 2800,
+      "state_sha256": "ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({right=(frame>=20 and frame<380)or(frame>=800 and frame<1000),left=frame>=400 and frame<740,b=frame>=30 and frame<1000 and frame%20<3,a=frame>=160 and frame<1000 and frame%90<30},0)",
+      "ram_identical_samples": 1400,
+      "ppu_identical_samples": 1400,
+      "oam_identical_samples": 1400,
+      "apu_sha256": "fd2426eba457deda0a9b597a64ba7ef35e453c3a77881d9ba48fb5f5cf78c166",
+      "identical_pcm_bytes": 8945268,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 2,
+      "exact_outside_room_samples": 95,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 189,
+      "changed_screenshots": 1211,
+      "rooms": {
+        "10/AD8C": 1303,
+        "04/0000": 97
+      },
+      "player_states": {
+        "00": 713,
+        "01": 229,
+        "04": 104,
+        "07": 2,
+        "02": 134,
+        "0A": 91,
+        "16": 127
+      },
+      "lava_palette_samples": {
+        "0F161606": 647,
+        "0F060616": 654,
+        "0F001020": 2
+      },
+      "covered_cave_samples": 1211,
+      "exact_panorama_samples": 121,
+      "ram_scroll_range_including_transition_values": [
+        0,
+        100
+      ]
+    },
+    "freeze_thaw": {
+      "emulated_frames": 1000,
+      "state_sha256": "ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({select=frame>=20 and frame<24,b=frame>=50 and frame<54},0)",
+      "ram_identical_samples": 500,
+      "ppu_identical_samples": 500,
+      "oam_identical_samples": 500,
+      "apu_sha256": "0f3947d63691a2cbc833ee947b2858153bc32528b4e67be9b398a0111eec5f51",
+      "identical_pcm_bytes": 3194740,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 62,
+      "exact_outside_room_samples": 0,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 62,
+      "changed_screenshots": 438,
+      "rooms": {
+        "10/AD8C": 500
+      },
+      "player_states": {
+        "00": 466,
+        "04": 34
+      },
+      "lava_palette_samples": {
+        "0F161606": 95,
+        "0F060616": 120,
+        "0F122131": 285
+      },
+      "covered_cave_samples": 438,
+      "exact_panorama_samples": 44,
+      "ram_scroll_range_including_transition_values": [
+        512,
+        512
+      ]
+    },
+    "menu": {
+      "emulated_frames": 260,
+      "state_sha256": "ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({start=(frame>=20 and frame<24)or(frame>=180 and frame<184),right=frame>=60 and frame<64,left=frame>=110 and frame<114},0)",
+      "ram_identical_samples": 130,
+      "ppu_identical_samples": 130,
+      "oam_identical_samples": 130,
+      "apu_sha256": "6d907be07e42060a6a95e423e8a81f6acb7d4d7532d0bb6c3ee9c406b4d03623",
+      "identical_pcm_bytes": 830636,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 1,
+      "exact_outside_room_samples": 79,
+      "exact_menu_samples": 67,
+      "exact_screenshots": 82,
+      "changed_screenshots": 48,
+      "rooms": {
+        "10/AD8C": 49,
+        "04/FFFF": 81
+      },
+      "player_states": {
+        "00": 130
+      },
+      "lava_palette_samples": {
+        "0F161606": 23,
+        "0F060616": 25,
+        "0F071737": 1
+      },
+      "covered_cave_samples": 47,
+      "exact_panorama_samples": 5,
+      "ram_scroll_range_including_transition_values": null
+    },
+    "poses": {
+      "emulated_frames": 600,
+      "state_sha256": "ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "emu.setInput({left=frame>=20 and frame<50,right=frame>=180 and frame<210,up=(frame>=60 and frame<100)or(frame>=220 and frame<260),down=(frame>=110 and frame<150)or(frame>=270 and frame<310),b=frame>=60 and frame<310 and frame%12<3,a=frame>=360 and frame<390},0)",
+      "ram_identical_samples": 300,
+      "ppu_identical_samples": 300,
+      "oam_identical_samples": 300,
+      "apu_sha256": "b166322ec178914bc95d4caf6bb24e8d0b8e552a60540aa71144ffe13569ddeb",
+      "identical_pcm_bytes": 1916844,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 2,
+      "exact_outside_room_samples": 284,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 284,
+      "changed_screenshots": 16,
+      "rooms": {
+        "10/AD8C": 15,
+        "04/F98B": 285
+      },
+      "player_states": {
+        "00": 172,
+        "01": 24,
+        "05": 28,
+        "04": 25,
+        "03": 15,
+        "06": 23,
+        "02": 13
+      },
+      "lava_palette_samples": {
+        "0F161606": 7,
+        "0F060616": 8
+      },
+      "covered_cave_samples": 15,
+      "exact_panorama_samples": 1,
+      "ram_scroll_range_including_transition_values": null
+    },
+    "traversal": {
+      "emulated_frames": 3400,
+      "state_sha256": "ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "local m=emu.memType.nesInternalRam\nlocal st=emu.read(0x300,m)\nlocal sc=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal wx=emu.read(0x4e0,m)+(frame>300 and sc or 0)\nif not mode then mode=0;at=0 end\nlocal keys={right=frame>=20,a=frame>=80 and frame%90<30,b=frame>=80 and frame%90>=10 and frame%90<55 and frame%8<3}\nif mode==0 and wx>=280 and st<2 then mode=1;at=frame end\nif mode==1 then\n local g=frame-at\n local f=g\n keys={up=f>=3 and f<95,b=f>=3 and f<95 and f%12<3,a=f>=140 and f<175,right=f>=150}\n if f>230 then mode=2;at=frame end\nelseif mode==2 then\n local y=emu.read(0x4f0,m)\n local function tile(x,yy)\n  local xx=x%512;local yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x47 and t<=0x4a)end\n local ahead=tile(wx+16,y+1)\n local wall=tile(wx+12,y-12)\n if not jumpAt then jumpAt=-100; spellAt=-1000; spellPhase=0; prepared=false; prepAt=-1 end\n keys={right=true}\n if st<2 and frame-jumpAt>42 and (not solid(ahead)or solid(wall)) then jumpAt=frame end\n keys.a=frame-jumpAt<30\n local age=frame-jumpAt\n keys.b=(age>=4 and age<50 and age%12>=4 and age%12<7)or(age>55 and st<2 and solid(ahead)and not solid(wall)and frame%60<3)\n local lava=false\n for yy=40,208,16 do local t=tile(wx+48,yy);if t>=0x89 and t<=0x8e then lava=true end end\n if spellPhase==0 and lava and emu.read(0x3f05,emu.memType.nesPpuMemory)~=0x12 and emu.read(0x490,m)>=10 and st<2 then spellPhase=1;spellAt=frame end\n if spellPhase==1 then\n  local f=frame-spellAt\n  keys={select=(f<4)or(f>=115 and f<119),b=f>=10 and f<14}\n  if f>=125 then spellPhase=0 end\n end\n\n if not prepared and wx>=390 and wx<416 and st<2 and prepAt<0 then prepAt=frame end\n if prepAt>=0 and not prepared then\n  local f=frame-prepAt\n  keys={a=f<180 and f%90<30,b=f<180 and f%90>=4 and f%90<50 and f%12>=4 and f%12<7}\n  if f>=180+40 then prepared=true;jumpAt=-100 end\n end\n\nend\nemu.setInput(keys,0)",
+      "ram_identical_samples": 1700,
+      "ppu_identical_samples": 1700,
+      "oam_identical_samples": 1700,
+      "apu_sha256": "792ee9b58c0be4bdf4f1d4c3e85224d593d847f069ef3a092587f7028f50d05c",
+      "identical_pcm_bytes": 10862116,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 95,
+      "exact_outside_room_samples": 95,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 281,
+      "changed_screenshots": 1419,
+      "rooms": {
+        "10/AD8C": 1603,
+        "04/0000": 97
+      },
+      "player_states": {
+        "00": 162,
+        "01": 365,
+        "02": 495,
+        "07": 2,
+        "04": 428,
+        "05": 35,
+        "0A": 90,
+        "16": 123
+      },
+      "lava_palette_samples": {
+        "0F161606": 479,
+        "0F060616": 552,
+        "0F122131": 571,
+        "0F001020": 1
+      },
+      "covered_cave_samples": 1419,
+      "exact_panorama_samples": 142,
+      "ram_scroll_range_including_transition_values": [
+        0,
+        537
+      ]
+    },
+    "hot_falls": {
+      "emulated_frames": 2400,
+      "state_sha256": "ce8fd0ed2f9316c7edd64eef51a532e38325185c394a224371fcd7a944d7f47a",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "controller_route": "local m=emu.memType.nesInternalRam\nlocal st=emu.read(0x300,m)\nlocal sc=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal wx=emu.read(0x4e0,m)+(frame>300 and sc or 0)\nif not mode then mode=0;at=0 end\nlocal keys={right=frame>=20,a=frame>=80 and frame%90<30,b=frame>=80 and frame%90>=10 and frame%90<55 and frame%8<3}\nif mode==0 and wx>=280 and st<2 then mode=1;at=frame end\nif mode==1 then\n local g=frame-at\n local f=g\n keys={up=f>=3 and f<95,b=f>=3 and f<95 and f%12<3,a=f>=140 and f<175,right=f>=150}\n if f>230 then mode=2;at=frame end\nelseif mode==2 then\n local y=emu.read(0x4f0,m)\n local function tile(x,yy)\n  local xx=x%512;local yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x47 and t<=0x4a)end\n local ahead=tile(wx+16,y+1)\n local wall=tile(wx+12,y-12)\n if not jumpAt then jumpAt=-100; spellAt=-1000; spellPhase=0; prepared=false; prepAt=-1 end\n keys={right=true}\n if st<2 and frame-jumpAt>42 and (not solid(ahead)or solid(wall)) then jumpAt=frame end\n keys.a=frame-jumpAt<30\n local age=frame-jumpAt\n keys.b=(age>=4 and age<50 and age%12>=4 and age%12<7)or(age>55 and st<2 and solid(ahead)and not solid(wall)and frame%60<3)\n local lava=false\n for yy=40,208,16 do local t=tile(wx+48,yy);if t>=0x89 and t<=0x8e then lava=true end end\n if spellPhase==0 and lava and emu.read(0x3f05,emu.memType.nesPpuMemory)~=0x12 and emu.read(0x490,m)>=10 and st<2 then spellPhase=1;spellAt=frame end\n if spellPhase==1 then\n  local f=frame-spellAt\n  keys={select=(f<4)or(f>=115 and f<119),b=f>=10 and f<14}\n  if f>=125 then spellPhase=0 end\n end\n\n if not prepared and wx>=390 and wx<416 and st<2 and prepAt<0 then prepAt=frame end\n if prepAt>=0 and not prepared then\n  local f=frame-prepAt\n  keys={a=f<180 and f%90<30,b=f<180 and f%90>=4 and f%90<50 and f%12>=4 and f%12<7}\n  if f>=180+40 then prepared=true;jumpAt=-100 end\n end\n\nend\nif mode==2 and wx>=520 then keys={} end\nemu.setInput(keys,0)",
+      "ram_identical_samples": 1200,
+      "ppu_identical_samples": 1200,
+      "oam_identical_samples": 1200,
+      "apu_sha256": "a43b67cf1986e818802a4ed51a4b5685a9151b1117f2a7cde99f82ff41f7fc05",
+      "identical_pcm_bytes": 7667372,
+      "shutdown_tail_bytes": 0,
+      "exact_black_samples": 0,
+      "exact_outside_room_samples": 0,
+      "exact_menu_samples": 0,
+      "exact_screenshots": 0,
+      "changed_screenshots": 1200,
+      "rooms": {
+        "10/AD8C": 1200
+      },
+      "player_states": {
+        "00": 658,
+        "01": 189,
+        "02": 267,
+        "07": 2,
+        "04": 49,
+        "05": 35
+      },
+      "lava_palette_samples": {
+        "0F161606": 595,
+        "0F060616": 605
+      },
+      "covered_cave_samples": 1200,
+      "exact_panorama_samples": 120,
+      "ram_scroll_range_including_transition_values": [
+        93,
+        395
+      ]
+    }
+  },
+  "total_frames_per_build": 10460,
+  "native_samples_per_type": 5230,
+  "exact_black_samples": 162,
+  "exact_outside_room_samples": 553,
+  "covered_cave_samples": 4330,
+  "exact_panorama_samples": 433,
+  "pixel_exact_complete_sprite_samples": {
+    "imp_4/mirrored": 27,
+    "imp_3/mirrored": 15,
+    "imp_4/native": 10,
+    "imp_5/mirrored": 3,
+    "arrow/native": 31,
+    "imp_6/native": 9,
+    "lava_1/native": 18,
+    "lava_2/native": 9,
+    "lava_0/native": 8,
+    "imp_6/mirrored": 3,
+    "imp_3/native": 9
+  },
+  "sprite_examples": {
+    "imp_4/mirrored": {
+      "case": "combat_respawn",
+      "frame": 40,
+      "box": [
+        196,
+        216,
+        260,
+        280
+      ]
+    },
+    "imp_3/mirrored": {
+      "case": "combat_respawn",
+      "frame": 80,
+      "box": [
+        216,
+        120,
+        280,
+        184
+      ]
+    },
+    "imp_4/native": {
+      "case": "combat_respawn",
+      "frame": 120,
+      "box": [
+        262,
+        184,
+        326,
+        248
+      ]
+    },
+    "imp_5/mirrored": {
+      "case": "combat_respawn",
+      "frame": 160,
+      "box": [
+        222,
+        184,
+        286,
+        232
+      ]
+    },
+    "arrow/native": {
+      "case": "combat_respawn",
+      "frame": 200,
+      "box": [
+        212,
+        356,
+        228,
+        388
+      ]
+    },
+    "imp_6/native": {
+      "case": "combat_respawn",
+      "frame": 280,
+      "box": [
+        86,
+        152,
+        150,
+        200
+      ]
+    },
+    "lava_1/native": {
+      "case": "combat_respawn",
+      "frame": 320,
+      "box": [
+        14,
+        314,
+        62,
+        362
+      ]
+    },
+    "lava_2/native": {
+      "case": "combat_respawn",
+      "frame": 360,
+      "box": [
+        116,
+        322,
+        164,
+        370
+      ]
+    },
+    "lava_0/native": {
+      "case": "combat_respawn",
+      "frame": 440,
+      "box": [
+        294,
+        282,
+        342,
+        330
+      ]
+    },
+    "imp_6/mirrored": {
+      "case": "combat_respawn",
+      "frame": 680,
+      "box": [
+        262,
+        208,
+        326,
+        256
+      ]
+    },
+    "imp_3/native": {
+      "case": "combat_respawn",
+      "frame": 760,
+      "box": [
+        196,
+        192,
+        260,
+        256
+      ]
+    }
+  },
+  "unchanged_prior_runtime_files": 83,
+  "pack_files": 86
+}

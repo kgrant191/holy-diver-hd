@@ -31,10 +31,10 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==35
-assert counts['tile']==5652
-assert counts['background']==124
-assert counts['condition']==1485
+assert len(imgs)==36
+assert counts['tile']==6000
+assert counts['background']==171
+assert counts['condition']==1538
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 baseline=root/'rollback/approved_v15'
@@ -67,8 +67,27 @@ for p in baseline.glob('*.png'):
   assert boot.size==(16,32)
   expected.paste(boot,(16,32))
   assert np.array_equal(np.array(expected),np.array(Image.open(pack/p.name).convert('RGBA'))),p.name
-# The vertical chamber must preserve every approved cave asset and rule.
-pre_vertical=re.sub(r'^# BEGIN SCREEN2_3 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_3 \1\n','',content,flags=re.M|re.S)
+# The second horizontal cave must preserve every approved 0.6.1 asset/rule.
+pre_second_cave=re.sub(r'^# BEGIN SCREEN2_4 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_4 \1\n','',content,flags=re.M|re.S)
+approved_061=json.loads((root/'evidence/0.6.1-pack-sha256.json').read_text())
+assert hashlib.sha256(pre_second_cave.encode()).hexdigest()==approved_061['hires.txt']
+for name,digest in approved_061.items():
+ if name not in {'README.txt','hires.txt'}:
+  assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved 0.6.1 bytes changed'
+assert imgs[35]=='Stage2_Second_Cave_Tiles_2x.png'
+second_cave=json.loads((root/'art/screen2_4/registration.json').read_text())
+assert second_cave['shared_aliases']==304 and second_cave['new_tile_rules']==44
+assert second_cave['background_rules']==47 and second_cave['new_painted_sources']==0
+assert not second_cave['native_collision_modified'] and not second_cave['previous_artwork_modified']
+second_cave_atlas=Image.open(pack/imgs[35]).convert('RGBA')
+cleared=[]
+for mapping in second_cave['mappings']:
+ if mapping['kind']=='cave backdrop reveal':
+  x,y=mapping['atlas'];assert not second_cave_atlas.crop((x,y,x+16,y+16)).getbbox()
+  cleared.append(mapping['identity'])
+assert cleared==['0300','036E','036F','039B','039C','039D','039E','039F','03A0']
+# The vertical chamber must preserve every approved earlier cave asset/rule.
+pre_vertical=re.sub(r'^# BEGIN SCREEN2_3 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_3 \1\n','',pre_second_cave,flags=re.M|re.S)
 approved_051=json.loads((root/'evidence/0.5.1-pack-sha256.json').read_text())
 assert hashlib.sha256(pre_vertical.encode()).hexdigest()==approved_051['hires.txt']
 for name,digest in approved_051.items():
@@ -87,7 +106,7 @@ for mapping in vertical['mappings']:
  if mapping['identity'] in ['02DC','02DD']:
   x,y=mapping['atlas'];tear_cells[y:y+16,x:x+16]=True
 assert not np.any(np.any(prior_vertical!=np.array(vertical_atlas),axis=2)&~tear_cells)
-assert hashlib.sha256((pack/'hires.txt').read_bytes()).hexdigest()==json.loads((root/'evidence/0.6.0-pack-sha256.json').read_text())['hires.txt']
+assert hashlib.sha256(pre_second_cave.encode()).hexdigest()==json.loads((root/'evidence/0.6.0-pack-sha256.json').read_text())['hires.txt']
 for mapping in vertical['mappings']:
  if mapping['kind']=='cave backdrop reveal':
   x,y=mapping['atlas'];assert not vertical_atlas.crop((x,y,x+16,y+16)).getbbox()

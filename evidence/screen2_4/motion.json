@@ -1,0 +1,37 @@
+{
+  "hot_fall": {
+    "pairs": 647,
+    "downward_2px": 647,
+    "upward_2px": 0,
+    "stationary": 0
+  },
+  "frozen_fall": {
+    "pairs": 456,
+    "stationary": 456
+  },
+  "distinct_hot_crops": 31,
+  "capture_stride": 2,
+  "hd_pixels_down_per_capture": 2,
+  "examples": {
+    "hot": {
+      "case": "hot_falls",
+      "frame": 1204,
+      "box": [
+        466,
+        160,
+        490,
+        224
+      ]
+    },
+    "ice": {
+      "case": "traversal",
+      "frame": 1368,
+      "box": [
+        306,
+        160,
+        330,
+        224
+      ]
+    }
+  }
+}
