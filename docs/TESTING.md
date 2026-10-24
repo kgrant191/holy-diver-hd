@@ -150,3 +150,5 @@ The 84-file candidate archive must pass CRC, root layout, no-nested-ZIP and ever
 ## Cave decoration and falling-lava review (0.5.1 candidate)
 
 See [SCREEN2_2_REVIEW.md](SCREEN2_2_REVIEW.md). Repeat the five cave/approach routes against 0.5.1. Compare with the retained 0.5.0 replays using `verify_screen2_2_review.py`; additionally use `verify_screen2_2_qa.py` with approved 0.4.1 to retain the original full native/pose coverage. The review verifier limits image changes to red decoration/hot-fall source colors and the measured partial-alpha HUD edges that blend over them. It requires every unaffected cave tile variant and 81 other pack files to stay exact. It verifies actual downward pixel translation and stationary Blizzard ice from an unobstructed fall segment with a stationary camera. Inspect the actual motion video as well as numerical checks. No RAM edits are used.
+
+0.5.1 visuals were approved on 2026-10-24. The reviewed manifest remains pinned in `0.5.1-reviewed-pack-sha256.json`; approval changes only installed README. All 83 runtime hashes remain exact, so the live evidence still applies. Remote adoption and Actions verification remain pending.

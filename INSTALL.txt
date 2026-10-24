@@ -1,5 +1,5 @@
-HOLY DIVER HD 0.5.1 — DEVELOPMENT REVIEW BUILD
-Stage 2, screen 2 cave. Based on approved 0.4.1; awaiting user review.
+HOLY DIVER HD 0.5.1 — APPROVED DEVELOPMENT BUILD
+Stage 2, screen 2 cave. Approved by the user on 2026-10-24.
 
 Removes the reddish hanging decoration so the cave backdrop shows through.
 Hot lava falls flow downward; Blizzard ice stays still. Retains pale ceiling bats

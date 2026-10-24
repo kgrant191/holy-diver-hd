@@ -1,8 +1,8 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved development version on main: 0.4.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved development version: 0.5.1; remote main remains 0.4.1 pending push/adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
-**Current branch: 0.5.1 review candidate (`feature/screen2-2`).** Removes the reddish hanging decoration to reveal the cave backdrop and restores downward flow to hot lava falls. Blizzard ice stays still. Retains 0.5.0's ceiling bats and shared terrain, pools, ghouls, player and HUD. Main remains approved 0.4.1. See [review fixes](docs/SCREEN2_2_REVIEW.md), [original cave implementation](docs/SCREEN2_2.md) and [live comparison](evidence/screen2_2_review/comparison.png).
+**Approved 0.5.1 (`feature/screen2-2`), accepted on 2026-10-24.** Removes the reddish hanging decoration to reveal the cave backdrop and restores downward flow to hot lava falls. Blizzard ice stays still. Retains 0.5.0's ceiling bats and shared terrain, pools, ghouls, player and HUD. Main remains approved 0.4.1. See [review fixes](docs/SCREEN2_2_REVIEW.md), [original cave implementation](docs/SCREEN2_2.md) and [live comparison](evidence/screen2_2_review/comparison.png).
 
 Version 0.4.1 fixes the cave entrance showing clouds before its far wall appears, replaces the flyers with brown winged demons that face their travel direction and drop downward arrows, and restores the red enemies to faceless pink-shell forms with pulsing crimson lobes. See [review repairs](docs/SCREEN2_1_REVIEW.md). Approved by the user on 2026-10-23 and merged through [PR #5](https://github.com/kgrant191/holy-diver-hd/pull/5). PR and main Actions builds passed; both downloaded artifacts contain 82 root files with exact approved hashes and no nested ZIP.
 

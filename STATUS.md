@@ -2,7 +2,7 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Current review candidate — feature/screen2-2
+## Latest approved version — feature/screen2-2 (adoption pending)
 
 **0.5.1** revises the cave after the user requested removal of the reddish rock layer and waterfall motion in the lava falls. The ten decorative red tile identities now expose the unchanged cave backdrop. Hot fall tiles use a continuous sixteen-phase downward loop, advancing two HD pixels every two emulated frames. Each body row and the loop seam align; the native hot palettes still pulse and select the static ice artwork during Blizzard. All six ice fall tiles and every other cave tile variant retain their source pixels.
 
@@ -10,7 +10,7 @@ Only `hires.txt`, `Stage2_Cave_Tiles_2x.png` and installed `README.txt` change f
 
 Final paired checks pass 5,680 frames per build and 2,840 native-memory samples per type, preserving APU/common PCM, 258 black captures and 262 outside-cave captures. The rendered fall advances downward in all 173 stable-palette pairs; all 222 frozen pairs stay stationary. A fresh capture of the unchanged 0.5.0 crossing resolved one older screenshot discrepancy; the final verifier has no exceptions.
 
-Coverage remains the supplied entry through the first fall and opposite ledge, both-direction combat, menus, Blizzard freeze/thaw, death/respawn and the previous-room approach. Full cave exit coverage remains unverified. Main remains approved 0.4.1. This branch is ready for review only; user push, PR, Actions artifact verification and approval remain pending. No merge or release is authorized.
+Coverage remains the supplied entry through the first fall and opposite ledge, both-direction combat, menus, Blizzard freeze/thaw, death/respawn and the previous-room approach. Full cave exit coverage remains unverified. Main remains approved 0.4.1. The user approved the visuals in chat on 2026-10-24 ("looks good. ok next screen is here in this save state"). Reviewed commit: `8d67d65eae7f32a8df5eb3283e0e34b1a3967460`. GitHub currently has no feature/screen2-2 ref and main remains `14434d6ff9604db085a968eda12b317d43474c47`; push, PR, actual Actions artifact verification and adoption are pending. Only installed README changes during approval bookkeeping; all 83 runtime files retain the reviewed hashes. Continue new work from this approved local baseline without claiming a merge occurred. No release was requested.
 
 ## Superseded 0.5.0 review candidate — feature/screen2-2
 

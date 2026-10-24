@@ -44,7 +44,7 @@ The reviewed direction (0.4.1) replaces the initial hooded skull with a brown wi
 
 The red enemy is FACELESS: pale pink stone scaffold with rounded crimson lobes pulsing through its cracks, in three native poses. No eyes, mouth, skull or facial ridges. The supplied original-game close-up is the anatomy reference. The cave opening must stay dark as soon as any of it enters the viewport; neighbor probes must not wrap across the left screen edge.
 
-## Stage 2 cave (0.5.1 review candidate)
+## Stage 2 cave (approved 0.5.1)
 
 Reuse approved gold platforms, purple ghouls, lava/ice, pickups, player and HUD. Distinguish artwork reuse from native identity registration: the cave's ghoul graphics move six slots earlier in its CHR bank, and pose-anchor conditions must move with them. Keep the repaired sharp standing heads ahead of broad rolling rules.
 

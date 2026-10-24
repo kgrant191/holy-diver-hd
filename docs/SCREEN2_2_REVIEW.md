@@ -1,4 +1,4 @@
-# Cave scenery and falling-lava fixes — 0.5.1 candidate
+# Cave scenery and falling-lava fixes — approved 0.5.1
 
 The user requested removal of the reddish hanging rocks to expose the cave backdrop, and downward motion on the lava falls. This updates the existing `feature/screen2-2` branch from 0.5.0. Main remains approved 0.4.1.
 
@@ -32,4 +32,4 @@ Motion checks use an unobstructed section of the fall with a stationary camera, 
 
 An isolated crossing screenshot showed different player/bat poses despite identical native state. The complete candidate crossing was repeated with unchanged bytes; the discrepancy persisted. A fresh capture of the unchanged 0.5.0 baseline then passed the same strict comparison across all five cases. See `capture_repeat.json`. No exception is added to the final verification.
 
-The comparison image and silent side-by-side video contain unretouched Mesen captures. Two-frame samples play at 30 fps for original gameplay speed. Coverage reaches the first fall and opposite ledge, including freeze/thaw and death/respawn; the full cave exit remains unverified. This is a review build. User push, PR, actual Actions artifact verification and approval remain pending; no merge or public release is authorized.
+The comparison image and silent side-by-side video contain unretouched Mesen captures. Two-frame samples play at 30 fps for original gameplay speed. Coverage reaches the first fall and opposite ledge, including freeze/thaw and death/respawn; the full cave exit remains unverified. Approved by the user in chat on 2026-10-24. The reviewed hash manifest is preserved as `0.5.1-reviewed-pack-sha256.json`; approval updates only installed README. All 83 runtime files remain identical. Push, PR, actual Actions artifact verification and adoption remain pending; no public release was requested.
