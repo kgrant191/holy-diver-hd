@@ -85,3 +85,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Screen 2-4 stairs / 2-5 approach (2026-10-24)
 
 `Holy_Diver_HD_1(20261024-155045).mss` — SHA-256 `8a67bbf57e6d756e36f4f6f42934d27b40c6266d95f6fc24118244c89e53ee40`, 9,383 bytes. Unchanged, excluded from Git. Starts at the upper stair flight in screen 2-4; jump left/up to enter 2-5.
+
+## Screen 2-6 (2026-10-24)
+
+`Holy_Diver_HD_1(20261024-223733).mss` — SHA-256 `60945ccab9020ab3fdde2247161a5f119c5ac32d4ec5af3e6385f0aa187df0b2`, 9,650 bytes. The unchanged user save starts the next cave (room 10, data pointer 8E8D). Use `run_screen2_5_qa.py` with `scripts/screen2_6_routes.json`; bytes remain local and excluded from Git. Previous-room regression uses the stair/2-5 approach save above.

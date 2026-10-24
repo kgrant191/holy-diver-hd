@@ -1,0 +1,22 @@
+{
+  "walk_right": {
+    "frames": 720,
+    "input": "right=frame>=20,b=frame%30<4"
+  },
+  "poses": {
+    "frames": 600,
+    "input": "left=frame>=20 and frame<50,right=frame>=180 and frame<210,up=(frame>=60 and frame<100)or(frame>=220 and frame<260),down=(frame>=110 and frame<150)or(frame>=270 and frame<310),b=frame>=60 and frame<310 and frame%12<3,a=frame>=360 and frame<390"
+  },
+  "freeze_thaw": {
+    "frames": 1000,
+    "input": "start=(frame>=10 and frame<14)or(frame>=100 and frame<104),down=frame>=50 and frame<54,select=(frame>=120 and frame<124)or(frame>=300 and frame<304),b=frame>=150 and frame<154"
+  },
+  "menu": {
+    "frames": 260,
+    "input": "start=(frame>=20 and frame<24)or(frame>=180 and frame<184),down=frame>=60 and frame<64,up=frame>=110 and frame<114"
+  },
+  "traversal": {
+    "frames": 4000,
+    "input_code": "local m=emu.memType.nesInternalRam\nlocal room=emu.read(0x78,m)+256*emu.read(0x79,m)\nlocal st=emu.read(0x300,m)\nlocal x=emu.read(0x4e0,m)\nlocal y=emu.read(0x4f0,m)\nlocal keys={}\nif room==0x8e8d then\n local view=emu.getState()\n local tmp=view['ppu.tmpVideoRamAddr']\n local offset=(tmp%32)*8+view['ppu.xScroll']+((math.floor(tmp/1024)%2)*256)\n local function tile(xx,yy)\n  xx=(xx+offset)%512;yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x46 and t<=0x5e)or(t>=0x69 and t<=0x6c)or(t>=0x75 and t<=0x88)or(t>=0x8f and t<=0x9a)end\n if not jumpAt then jumpAt=-100;spellAt=-1000;spellPhase=0;stuck=0;lastX=x;lastScroll=0 end\n local sc=emu.read(0x60,m)+256*emu.read(0x61,m)\n if x==lastX and sc==lastScroll and st<2 then stuck=stuck+1 else stuck=0 end\n lastX=x;lastScroll=sc\n local ahead=solid(tile(x+16,y+2));local wall=solid(tile(x+16,y-12))\n local dragonNear=false\n for i=0,252,4 do\n  local oy=emu.read(i,emu.memType.nesSpriteRam);local ot=emu.read(i+1,emu.memType.nesSpriteRam);local ox=emu.read(i+3,emu.memType.nesSpriteRam);local attr=emu.read(i+2,emu.memType.nesSpriteRam)\n  local left=ox-((math.floor(attr/64)%2==1)and 24 or 16)\n  if oy<239 and ot==0xb7 and left-x>=8 and left-x<=48 then dragonNear=true end\n end\n if frame>=20 and st<2 and frame-jumpAt>48 and (not ahead or (wall and stuck>8) or dragonNear)then jumpAt=frame end\n local age=frame-jumpAt\n keys.right=frame>=20\n keys.a=age>=0 and age<30\n keys.b=frame>=20 and frame%8<3\nend\nemu.setInput(keys,0)"
+  }
+}

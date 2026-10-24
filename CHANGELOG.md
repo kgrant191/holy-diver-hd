@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.0 — Screen 2-6 and shared Stage 2 artwork (2026-10-24)
+
+- Add 485 shared fallback rules for finished Stage 2 enemies, terrain, stairs, lava/ice, effects and items. Exact native identities and palettes select existing art; room-specific and pose/animation rules retain priority.
+- Reuse the crimson panorama, original brown terrain, bats and existing fireball source in screen 2-6. Register two additional solid terrain identities with existing brown cells.
+- Add the new walking dragon in two native poses with shared upper-body cells and original hardware mirroring. This is the only new painted subject.
+- Preserve all 87 prior runtime assets; add one atlas for a 90-file install. Keep main and prior feature refs unchanged.
+
 ## 0.8.3 — Original brown ceiling restored (2026-10-24)
 
 - Restore the original brown ceiling by referencing its exact existing artwork in all 46 ceiling identities; remove the rejected charcoal/plum atlas from the build.

@@ -2,7 +2,17 @@
 
 Updated: 2026-10-24 (UTC).
 
-## Active review candidate — 0.8.3, feature/screen2-5
+## Active review candidate — 0.9.0, feature/screen2-6
+
+The user moved on to screen 2-6 and requested automatic reuse of finished enemies and scenery. The build adds 485 shared Stage 2 fallback mappings after all room-specific rules. Exact native identities and palettes reuse existing artwork, retaining pose anchors and lava animation conditions. The new room reuses the red cave panorama, original brown terrain and bats; only the two-pose walking dragon is newly painted. Its horizontal shot uses the existing fireball source. All 87 prior runtime assets remain byte-identical; one new atlas brings the pack to 90 root files.
+
+Seven paired routes pass 9,580 frames per build, with 4,790 identical samples per RAM/PPU/OAM/PPU-view type, identical APU writes and 30,605,608 identical common PCM bytes. One run has a 3,192-byte shutdown-buffer tail difference. Live source matches cover both dragon strides and both directions, both fireball directions, folded/open bats and 310 panorama pictures. Native blackouts and menus remain exact. Prior-room regression preserves 1,441 pictures including all 300 stair captures. Its only 59 changed pictures show a previously unmapped 1-up now using the existing approved figurine; all differences stay inside that native item footprint, with source pixels and surrounding scenery verified.
+
+Coverage reaches camera scroll 249 in 2-6, with combat, jumps, spell selection, Blizzard flashes and death/return. The far exit and a new hot/frozen lava crossing remain unverified. Earlier 2-5 exit and handled-health-jug pickup limits remain. See `docs/SCREEN2_6.md` and `evidence/screen2_6/validation.json`. The 90-file install ZIP passes CRC, flat-layout and every hash; the actual comparison/video are verified.
+
+The source bundle includes feature/screen2-4, feature/screen2-5 and feature/screen2-6, with the current combined work on screen2-6. Older refs and approved main 0.6.1 remain unchanged. Moving to the next screen is continuation, not merge authorization. User push, PRs and Actions artifact checks remain pending.
+
+## Prior continuation baseline — 0.8.3, feature/screen2-5
 
 The user rejected the charcoal/plum roof and requested the original brown ceiling. This restores 46 exact original atlas-cell references from 0.8.0. The accepted 0.8.1 stairs, red panorama, removed red columns, gold platforms and health jug remain intact. All 87 runtime assets from 0.8.1 stay byte-identical. The rejected roof atlas is excluded; the install returns to 89 root files.
 

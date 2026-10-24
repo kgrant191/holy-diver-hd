@@ -77,3 +77,9 @@ The user accepted the 0.8.1 stairs but found the transparent roof and thin outli
 ## Original brown ceiling (0.8.3; supersedes the charcoal/plum roof)
 
 The user rejected the 0.8.2 treatment: "no lets go back to what we had originally with the brown". Restore the exact original 0.8.0 brown ceiling pixels, native shapes and registrations. Keep the accepted 0.8.1 cut-stone stairs, red background and removed red columns. Reuse the existing atlas sources recorded in `art/screen2_5_roof/previous_geometry.json`; do not generate or recolor a replacement.
+
+## Screen 2-6 and shared artwork (0.9.0 candidate)
+
+Finished art is shared whenever native tile identity and palette match. Keep room overrides before shared fallbacks and retain pose anchors, lava phases and native flip behavior. Different tile slots or palettes need proven registration aliases, not another redraw. Do not make decorative transparency global: a later room may use a different wall composition.
+
+Use the accepted crimson panorama with the restored original brown solid terrain and existing bats. The only new painted subject is the orange/gold bipedal winged dragon: long open snout, small ember-red wings, clawed hands and two walking leg poses. Native artwork faces left; OAM mirrors the full creature right. Share its 18 upper-body cells exactly between poses so the head and torso do not wobble. Fit the whole silhouette inside the measured native tile footprint without clipping. The horizontal shot reuses the approved boss fireball source. Sources, native reference, prompt and registration are under `art/screen2_6/` and `art/generated/screen2_6_*`.

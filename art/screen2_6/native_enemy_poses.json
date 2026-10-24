@@ -1,0 +1,416 @@
+[
+  {
+    "frame": 190,
+    "flipped": false,
+    "size": [
+      48,
+      40
+    ],
+    "parts": [
+      {
+        "identity": "02B8",
+        "xy": [
+          32,
+          0
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BA",
+        "xy": [
+          0,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BC",
+        "xy": [
+          16,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BE",
+        "xy": [
+          32,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C0",
+        "xy": [
+          0,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C2",
+        "xy": [
+          16,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C4",
+        "xy": [
+          32,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C6",
+        "xy": [
+          0,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C8",
+        "xy": [
+          16,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02CA",
+        "xy": [
+          32,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02CC",
+        "xy": [
+          24,
+          32
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02CE",
+        "xy": [
+          40,
+          32
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02B7",
+        "xy": [
+          16,
+          0
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02B9",
+        "xy": [
+          40,
+          0
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BB",
+        "xy": [
+          8,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BD",
+        "xy": [
+          24,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BF",
+        "xy": [
+          40,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C1",
+        "xy": [
+          8,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C3",
+        "xy": [
+          24,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C5",
+        "xy": [
+          40,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C7",
+        "xy": [
+          8,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C9",
+        "xy": [
+          24,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02CB",
+        "xy": [
+          40,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02CD",
+        "xy": [
+          32,
+          32
+        ],
+        "attr": 1
+      }
+    ],
+    "image": "native_0190.png"
+  },
+  {
+    "frame": 240,
+    "flipped": false,
+    "size": [
+      48,
+      40
+    ],
+    "parts": [
+      {
+        "identity": "02B8",
+        "xy": [
+          32,
+          0
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BA",
+        "xy": [
+          0,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BC",
+        "xy": [
+          16,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BE",
+        "xy": [
+          32,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C0",
+        "xy": [
+          0,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C2",
+        "xy": [
+          16,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C4",
+        "xy": [
+          32,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C6",
+        "xy": [
+          0,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C8",
+        "xy": [
+          16,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02D0",
+        "xy": [
+          32,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02D2",
+        "xy": [
+          16,
+          32
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02D4",
+        "xy": [
+          32,
+          32
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02B7",
+        "xy": [
+          16,
+          0
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02B9",
+        "xy": [
+          40,
+          0
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BB",
+        "xy": [
+          8,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BD",
+        "xy": [
+          24,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02BF",
+        "xy": [
+          40,
+          8
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C1",
+        "xy": [
+          8,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C3",
+        "xy": [
+          24,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C5",
+        "xy": [
+          40,
+          16
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02C7",
+        "xy": [
+          8,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02CF",
+        "xy": [
+          24,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02D1",
+        "xy": [
+          40,
+          24
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02D3",
+        "xy": [
+          24,
+          32
+        ],
+        "attr": 1
+      },
+      {
+        "identity": "02D5",
+        "xy": [
+          40,
+          32
+        ],
+        "attr": 1
+      }
+    ],
+    "image": "native_0240.png"
+  }
+]
