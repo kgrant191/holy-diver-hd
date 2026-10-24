@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 — Stage 2 screen 2 review candidate (2026-10-24)
+
+- Add a continuous dark volcanic cave, burgundy native hanging formations, gold ceiling edges and two pale/teal ceiling-bat poses with the existing fireball source.
+- Reuse approved gold terrain, lava/ice pools, pickups and six ghoul poses. Translate the ghoul’s 24 identical graphics tiles and its standing-pose anchors to this room’s six-slot-shifted bank layout.
+- Derive vertical lava/ice falls from approved pool texture; native palettes retain hot pulses, Blizzard freeze and thaw. Rendered-tile guards preserve native blackouts.
+- Preserve all 80 prior asset files exactly. Add two PNGs; only hires.txt and installed README change among existing files. No ROM/collision/audio changes.
+- Live coverage reaches the first lava fall and opposite ledge, including combat, both directions, pause, freeze/thaw and death/respawn. The full cave exit remains untested. Main stays approved 0.4.1; this candidate awaits review.
+
 ## 0.4.1 — approved 2026-10-23
 
 - Keep the cave opening dark from its first visible columns, using the left jamb with a screen-boundary guard; the far wall no longer has to be onscreen.

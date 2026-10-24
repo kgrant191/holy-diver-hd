@@ -1,6 +1,14 @@
 # Current status
 
-Updated: 2026-10-23 (America/New_York).
+Updated: 2026-10-24 (UTC).
+
+## Current review candidate — feature/screen2-2
+
+**0.5.0**, based on approved main `14434d6ff9604db085a968eda12b317d43474c47`. The supplied `Holy_Diver_HD_1(8).mss` starts inside the Stage 2 cave. Reuse is explicit: 86 aliases point to approved terrain, pools, items, snow and purple ghoul art. The ghoul's 24 native tiles are byte-identical copies shifted six slots within the new bank, so both tile rules and standing-pose anchors are translated. Randy and HUD were already shared. New work covers the cave backdrop/formations, ceiling bats and vertical fall registration.
+
+The candidate contains 84 root files. All 80 prior files other than hires.txt and README.txt remain exact; only those two change and two PNGs are added. `evidence/0.4.1-pack-sha256.json` pins approved main. The historical `approved-pack-sha256.json` filename describes this branch's candidate and does not grant approval. See `docs/SCREEN2_2.md`, the actual Mesen comparison and `evidence/screen2_2/verification.json`.
+
+Coverage is deliberately bounded: entry through the first lava fall and opposite ledge, combat/pose/direction checks, Blizzard freeze/thaw, pause menu, death/respawn and the previous-room approach. The full cave exit has not been reached in these controller-only replays. Do not describe the whole room or later rooms as completely tested. Paired verification passes 5,680 emulated frames per build, with 2,840 equal RAM/PPU/OAM samples per type, identical APU/common PCM, 258 exact black captures and 262 unchanged outside-cave captures. Actual images contain 1,866 complete folded-bat and 74 open-bat matches, plus all six ghoul poses in both directions. The local ZIP and incremental source bundle are for review; user push, PR, Actions artifact verification and approval are pending. No merge or release is authorized for 0.5.0.
 
 ## Current approved version — main baseline
 

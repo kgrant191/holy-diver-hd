@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Cave entry / folded ceiling bats",
+    "case": "entry_combat",
+    "frame": 20,
+    "retouched": false
+  },
+  {
+    "label": "Open-wing ceiling bat",
+    "case": "entry_combat",
+    "frame": 120,
+    "retouched": false
+  },
+  {
+    "label": "Reused approved ghoul artwork",
+    "case": "entry_combat",
+    "frame": 626,
+    "retouched": false
+  },
+  {
+    "label": "Hot lava fall",
+    "case": "crossing",
+    "frame": 1400,
+    "retouched": false
+  },
+  {
+    "label": "Blizzard ice fall",
+    "case": "crossing",
+    "frame": 1600,
+    "retouched": false
+  }
+]

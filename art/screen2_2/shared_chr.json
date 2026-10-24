@@ -1,0 +1,129 @@
+{
+  "ghoul_exact_copies": [
+    {
+      "source": "0094",
+      "target": "028E",
+      "native_pattern_sha256": "ccedc4a39af981d2f09935e943c5325ba65f1b92d1c747dcfb20e807823c8823"
+    },
+    {
+      "source": "0095",
+      "target": "028F",
+      "native_pattern_sha256": "aa78032a2ae3b6c691355aadc952945feeec4ac0b4ecff3e51cb39b821bdc5c3"
+    },
+    {
+      "source": "0096",
+      "target": "0290",
+      "native_pattern_sha256": "64772809af53d2457932cd6801f526a81a149072021fcce6dcaaf32d46fd368e"
+    },
+    {
+      "source": "0097",
+      "target": "0291",
+      "native_pattern_sha256": "16a9907ffe446a4194c553a37438a29c99af6362b104a42e920c0c17473a0a70"
+    },
+    {
+      "source": "0098",
+      "target": "0292",
+      "native_pattern_sha256": "a6e51004c5a9c9ea43c4669b449373f402d8775842d6f3fae83575d7f8dadc86"
+    },
+    {
+      "source": "0099",
+      "target": "0293",
+      "native_pattern_sha256": "ebf65d7291be53eff158552e373756a042bd00ebe2bbfbb1895ca3d41503f8bf"
+    },
+    {
+      "source": "009A",
+      "target": "0294",
+      "native_pattern_sha256": "39d435707193b04658e67bc4609f518d4b2b99373cceac91fc9a773d8134695d"
+    },
+    {
+      "source": "009B",
+      "target": "0295",
+      "native_pattern_sha256": "24e9d8305f1e1dab05f4645015c5da47a0494d1a614d118c9cb0e20b6c760f00"
+    },
+    {
+      "source": "009C",
+      "target": "0296",
+      "native_pattern_sha256": "c88a5fdc58ed77265084253a6bd53f34c1b86fba8f756ca962b3d0b5ad00960b"
+    },
+    {
+      "source": "009D",
+      "target": "0297",
+      "native_pattern_sha256": "3a634393f7483bab8280c4c4afc278119f15633a7d85b179db2c61d4b6921f94"
+    },
+    {
+      "source": "009E",
+      "target": "0298",
+      "native_pattern_sha256": "39d435707193b04658e67bc4609f518d4b2b99373cceac91fc9a773d8134695d"
+    },
+    {
+      "source": "009F",
+      "target": "0299",
+      "native_pattern_sha256": "9679d4e6608f61e697026529f1e9577f78a6c6dee39f0a6901bcb829191b88a2"
+    },
+    {
+      "source": "00A0",
+      "target": "029A",
+      "native_pattern_sha256": "371e6e9ed178c111275037395b60b9faeedbf65c152b10d4febe86095ab6dcbb"
+    },
+    {
+      "source": "00A1",
+      "target": "029B",
+      "native_pattern_sha256": "81f34f0c573228f6c01d3e7313ab982a4f3245f3c82818cfa685878165240a11"
+    },
+    {
+      "source": "00A2",
+      "target": "029C",
+      "native_pattern_sha256": "eaa164e7b13a4fffaf360dc02dd86f11b77baf752dd47cf9fd65c7347a3931fb"
+    },
+    {
+      "source": "00A3",
+      "target": "029D",
+      "native_pattern_sha256": "828a468ecdea8a10c83e245f6b481d228118d8fe39ce422ed8e82963b1b31abe"
+    },
+    {
+      "source": "00A4",
+      "target": "029E",
+      "native_pattern_sha256": "1fb974a0a9bb4c98c457fc649642fadce8c09d366cb6d996bb16890f16941dc2"
+    },
+    {
+      "source": "00A5",
+      "target": "029F",
+      "native_pattern_sha256": "fccdef868cff318b1d8a63d7912dda986f5e1bf402bfc09ce8f10973f2de3a46"
+    },
+    {
+      "source": "00A6",
+      "target": "02A0",
+      "native_pattern_sha256": "f0d760dab71bc3311ebed15e07cff10654f6de5b4f9033614978c9d873387d55"
+    },
+    {
+      "source": "00A7",
+      "target": "02A1",
+      "native_pattern_sha256": "aa829454d4bbb73c3dcd984210311888740efa13e2cee17712a599026327ba72"
+    },
+    {
+      "source": "00A8",
+      "target": "02A2",
+      "native_pattern_sha256": "262a139ac1b4aac0d23f196950dca84ebcddedc474f05277a6a3d2d05686c171"
+    },
+    {
+      "source": "00A9",
+      "target": "02A3",
+      "native_pattern_sha256": "3e24151ff46ee949c8d77c52454ccb2bb360f4624f6a58a3e137a7d300e62178"
+    },
+    {
+      "source": "00AA",
+      "target": "02A4",
+      "native_pattern_sha256": "7be3da609739e117807646a4df10f2fac111b2fc3b0ac46b09788f114ca3e046"
+    },
+    {
+      "source": "00AB",
+      "target": "02A5",
+      "native_pattern_sha256": "6745bfe940fe9fd1ba133190f1561dd1a3ca3e1e503a0c1e60e849bd6e21abb2"
+    }
+  ],
+  "same_bank_terrain": [
+    "032E-0333",
+    "0334,0341-0345"
+  ],
+  "new_fall_tiles": "0389-038E reuse registered pool art"
+}

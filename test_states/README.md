@@ -69,3 +69,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Stage 2 cave-entry review (0.4.1)
 
 - `Holy_Diver_HD_1(7).mss` — SHA-256 `383f3249ecabae9238d6ec2cdbd8d52ef0e57b8fb8634bec0e7203527fb12c10`. User supplied just before the exit cliff. Walk right after frame 20 for 420 frames; covers partial doorway reveal, full approach, native transition and next-room arrival. Bytes remain local and excluded from Git.
+
+## Stage 2 screen 2 cave (0.5.0 candidate)
+
+`Holy_Diver_HD_1(8).mss` — SHA-256 `bffc454e176bee738d053802aa12a3558dba58a17400e1033148f7c0291d4db7`. Pass unchanged to `run_screen2_2_qa.py --state`. The 9,052-byte user input remains outside Git. The approach regression uses the retained `Holy_Diver_HD_1(7).mss` above. Routes and exact scope are in `docs/SCREEN2_2.md`.

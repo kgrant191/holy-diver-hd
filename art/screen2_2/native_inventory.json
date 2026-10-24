@@ -1,0 +1,602 @@
+[
+  {
+    "tile": "0300",
+    "palette": "0F061627",
+    "samples": 198396
+  },
+  {
+    "tile": "0300",
+    "palette": "0F071737",
+    "samples": 1529576
+  },
+  {
+    "tile": "0301",
+    "palette": "0F041625",
+    "samples": 117660
+  },
+  {
+    "tile": "0302",
+    "palette": "0F041625",
+    "samples": 1765
+  },
+  {
+    "tile": "0303",
+    "palette": "0F041625",
+    "samples": 1765
+  },
+  {
+    "tile": "0304",
+    "palette": "0F041625",
+    "samples": 1765
+  },
+  {
+    "tile": "0305",
+    "palette": "0F041625",
+    "samples": 1765
+  },
+  {
+    "tile": "0306",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0307",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0308",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0309",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "030A",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "030B",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "030C",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "030D",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "030E",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "030F",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0310",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0311",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0312",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0313",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0314",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0315",
+    "palette": "0F041625",
+    "samples": 1769
+  },
+  {
+    "tile": "0316",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "0317",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "0318",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "0319",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "031A",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "031B",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "031C",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "031D",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "031E",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "031F",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "0320",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "0321",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "0322",
+    "palette": "0F061627",
+    "samples": 1238
+  },
+  {
+    "tile": "0323",
+    "palette": "0F061627",
+    "samples": 1774
+  },
+  {
+    "tile": "0324",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "0325",
+    "palette": "0F061627",
+    "samples": 1072
+  },
+  {
+    "tile": "0326",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "0327",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "0328",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "0329",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "032A",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "032B",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "032C",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "032D",
+    "palette": "0F061627",
+    "samples": 536
+  },
+  {
+    "tile": "032E",
+    "palette": "0F071737",
+    "samples": 111106
+  },
+  {
+    "tile": "032F",
+    "palette": "0F071737",
+    "samples": 111106
+  },
+  {
+    "tile": "0330",
+    "palette": "0F071737",
+    "samples": 452516
+  },
+  {
+    "tile": "0331",
+    "palette": "0F071737",
+    "samples": 452516
+  },
+  {
+    "tile": "0332",
+    "palette": "0F071737",
+    "samples": 342834
+  },
+  {
+    "tile": "0333",
+    "palette": "0F071737",
+    "samples": 342834
+  },
+  {
+    "tile": "0334",
+    "palette": "0F060616",
+    "samples": 10304
+  },
+  {
+    "tile": "0334",
+    "palette": "0F122131",
+    "samples": 3674
+  },
+  {
+    "tile": "0334",
+    "palette": "0F161606",
+    "samples": 9560
+  },
+  {
+    "tile": "0335",
+    "palette": "0F071737",
+    "samples": 12964
+  },
+  {
+    "tile": "0336",
+    "palette": "0F071737",
+    "samples": 12964
+  },
+  {
+    "tile": "0337",
+    "palette": "0F071737",
+    "samples": 27366
+  },
+  {
+    "tile": "0338",
+    "palette": "0F071737",
+    "samples": 29197
+  },
+  {
+    "tile": "0339",
+    "palette": "0F071737",
+    "samples": 12964
+  },
+  {
+    "tile": "033A",
+    "palette": "0F071737",
+    "samples": 12964
+  },
+  {
+    "tile": "033B",
+    "palette": "0F071737",
+    "samples": 27366
+  },
+  {
+    "tile": "033C",
+    "palette": "0F071737",
+    "samples": 27366
+  },
+  {
+    "tile": "033D",
+    "palette": "0F071737",
+    "samples": 2912
+  },
+  {
+    "tile": "033E",
+    "palette": "0F071737",
+    "samples": 2912
+  },
+  {
+    "tile": "033F",
+    "palette": "0F071737",
+    "samples": 2912
+  },
+  {
+    "tile": "0340",
+    "palette": "0F071737",
+    "samples": 2912
+  },
+  {
+    "tile": "0341",
+    "palette": "0F060616",
+    "samples": 10304
+  },
+  {
+    "tile": "0341",
+    "palette": "0F122131",
+    "samples": 3674
+  },
+  {
+    "tile": "0341",
+    "palette": "0F161606",
+    "samples": 9560
+  },
+  {
+    "tile": "0342",
+    "palette": "0F060616",
+    "samples": 20608
+  },
+  {
+    "tile": "0342",
+    "palette": "0F122131",
+    "samples": 7348
+  },
+  {
+    "tile": "0342",
+    "palette": "0F161606",
+    "samples": 19120
+  },
+  {
+    "tile": "0343",
+    "palette": "0F060616",
+    "samples": 20608
+  },
+  {
+    "tile": "0343",
+    "palette": "0F122131",
+    "samples": 7348
+  },
+  {
+    "tile": "0343",
+    "palette": "0F161606",
+    "samples": 19120
+  },
+  {
+    "tile": "0344",
+    "palette": "0F060616",
+    "samples": 10304
+  },
+  {
+    "tile": "0344",
+    "palette": "0F122131",
+    "samples": 3674
+  },
+  {
+    "tile": "0344",
+    "palette": "0F161606",
+    "samples": 9560
+  },
+  {
+    "tile": "0345",
+    "palette": "0F060616",
+    "samples": 10304
+  },
+  {
+    "tile": "0345",
+    "palette": "0F122131",
+    "samples": 3674
+  },
+  {
+    "tile": "0345",
+    "palette": "0F161606",
+    "samples": 9560
+  },
+  {
+    "tile": "034B",
+    "palette": "0F071737",
+    "samples": 1831
+  },
+  {
+    "tile": "034C",
+    "palette": "0F071737",
+    "samples": 1831
+  },
+  {
+    "tile": "034D",
+    "palette": "0F071737",
+    "samples": 1831
+  },
+  {
+    "tile": "035B",
+    "palette": "0F071737",
+    "samples": 95968
+  },
+  {
+    "tile": "035C",
+    "palette": "0F071737",
+    "samples": 95968
+  },
+  {
+    "tile": "035D",
+    "palette": "0F071737",
+    "samples": 95968
+  },
+  {
+    "tile": "035E",
+    "palette": "0F071737",
+    "samples": 95968
+  },
+  {
+    "tile": "035F",
+    "palette": "0F061627",
+    "samples": 96880
+  },
+  {
+    "tile": "0360",
+    "palette": "0F061627",
+    "samples": 96880
+  },
+  {
+    "tile": "0361",
+    "palette": "0F061627",
+    "samples": 96880
+  },
+  {
+    "tile": "0362",
+    "palette": "0F061627",
+    "samples": 96880
+  },
+  {
+    "tile": "0363",
+    "palette": "0F061627",
+    "samples": 339505
+  },
+  {
+    "tile": "0364",
+    "palette": "0F061627",
+    "samples": 339505
+  },
+  {
+    "tile": "0365",
+    "palette": "0F061627",
+    "samples": 339505
+  },
+  {
+    "tile": "0366",
+    "palette": "0F061627",
+    "samples": 339505
+  },
+  {
+    "tile": "0367",
+    "palette": "0F061627",
+    "samples": 96888
+  },
+  {
+    "tile": "0368",
+    "palette": "0F061627",
+    "samples": 96888
+  },
+  {
+    "tile": "0389",
+    "palette": "0F060616",
+    "samples": 1972
+  },
+  {
+    "tile": "0389",
+    "palette": "0F122131",
+    "samples": 552
+  },
+  {
+    "tile": "0389",
+    "palette": "0F161606",
+    "samples": 1730
+  },
+  {
+    "tile": "038A",
+    "palette": "0F060616",
+    "samples": 1972
+  },
+  {
+    "tile": "038A",
+    "palette": "0F122131",
+    "samples": 552
+  },
+  {
+    "tile": "038A",
+    "palette": "0F161606",
+    "samples": 1730
+  },
+  {
+    "tile": "038B",
+    "palette": "0F060616",
+    "samples": 19672
+  },
+  {
+    "tile": "038B",
+    "palette": "0F122131",
+    "samples": 5440
+  },
+  {
+    "tile": "038B",
+    "palette": "0F161606",
+    "samples": 17252
+  },
+  {
+    "tile": "038C",
+    "palette": "0F060616",
+    "samples": 19672
+  },
+  {
+    "tile": "038C",
+    "palette": "0F122131",
+    "samples": 5440
+  },
+  {
+    "tile": "038C",
+    "palette": "0F161606",
+    "samples": 17252
+  },
+  {
+    "tile": "038D",
+    "palette": "0F060616",
+    "samples": 17700
+  },
+  {
+    "tile": "038D",
+    "palette": "0F122131",
+    "samples": 4888
+  },
+  {
+    "tile": "038D",
+    "palette": "0F161606",
+    "samples": 15522
+  },
+  {
+    "tile": "038E",
+    "palette": "0F060616",
+    "samples": 17700
+  },
+  {
+    "tile": "038E",
+    "palette": "0F122131",
+    "samples": 4888
+  },
+  {
+    "tile": "038E",
+    "palette": "0F161606",
+    "samples": 15522
+  },
+  {
+    "tile": "03A1",
+    "palette": "0F071737",
+    "samples": 1424
+  },
+  {
+    "tile": "03A2",
+    "palette": "0F071737",
+    "samples": 1424
+  }
+]
