@@ -1,0 +1,2082 @@
+{
+  "tile_rules": 387,
+  "first_cell": 1280,
+  "added_cells": 219,
+  "palettes": [
+    "0F170F17",
+    "0F070F07"
+  ],
+  "hidden_palette": "310F0F0F",
+  "empty_cell": [
+    0,
+    0
+  ],
+  "mappings": [
+    {
+      "identity": "0559",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "055A",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0561",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0562",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "05A6",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "05A7",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "055B",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "055C",
+      "palette": "0F170F17",
+      "xy": [
+        16,
+        320
+      ]
+    },
+    {
+      "identity": "0563",
+      "palette": "0F170F17",
+      "xy": [
+        32,
+        320
+      ]
+    },
+    {
+      "identity": "0564",
+      "palette": "0F170F17",
+      "xy": [
+        48,
+        320
+      ]
+    },
+    {
+      "identity": "05A8",
+      "palette": "0F170F17",
+      "xy": [
+        64,
+        320
+      ]
+    },
+    {
+      "identity": "05A9",
+      "palette": "0F170F17",
+      "xy": [
+        80,
+        320
+      ]
+    },
+    {
+      "identity": "055D",
+      "palette": "0F170F17",
+      "xy": [
+        96,
+        320
+      ]
+    },
+    {
+      "identity": "055E",
+      "palette": "0F170F17",
+      "xy": [
+        112,
+        320
+      ]
+    },
+    {
+      "identity": "0565",
+      "palette": "0F170F17",
+      "xy": [
+        128,
+        320
+      ]
+    },
+    {
+      "identity": "0566",
+      "palette": "0F170F17",
+      "xy": [
+        144,
+        320
+      ]
+    },
+    {
+      "identity": "0567",
+      "palette": "0F170F17",
+      "xy": [
+        160,
+        320
+      ]
+    },
+    {
+      "identity": "0568",
+      "palette": "0F170F17",
+      "xy": [
+        176,
+        320
+      ]
+    },
+    {
+      "identity": "05AA",
+      "palette": "0F170F17",
+      "xy": [
+        192,
+        320
+      ]
+    },
+    {
+      "identity": "05AB",
+      "palette": "0F170F17",
+      "xy": [
+        208,
+        320
+      ]
+    },
+    {
+      "identity": "05AC",
+      "palette": "0F170F17",
+      "xy": [
+        224,
+        320
+      ]
+    },
+    {
+      "identity": "05AD",
+      "palette": "0F170F17",
+      "xy": [
+        240,
+        320
+      ]
+    },
+    {
+      "identity": "055F",
+      "palette": "0F170F17",
+      "xy": [
+        256,
+        320
+      ]
+    },
+    {
+      "identity": "0560",
+      "palette": "0F170F17",
+      "xy": [
+        272,
+        320
+      ]
+    },
+    {
+      "identity": "0569",
+      "palette": "0F170F17",
+      "xy": [
+        288,
+        320
+      ]
+    },
+    {
+      "identity": "056A",
+      "palette": "0F170F17",
+      "xy": [
+        304,
+        320
+      ]
+    },
+    {
+      "identity": "056B",
+      "palette": "0F170F17",
+      "xy": [
+        320,
+        320
+      ]
+    },
+    {
+      "identity": "056C",
+      "palette": "0F170F17",
+      "xy": [
+        336,
+        320
+      ]
+    },
+    {
+      "identity": "05AE",
+      "palette": "0F170F17",
+      "xy": [
+        352,
+        320
+      ]
+    },
+    {
+      "identity": "05AF",
+      "palette": "0F170F17",
+      "xy": [
+        368,
+        320
+      ]
+    },
+    {
+      "identity": "05B0",
+      "palette": "0F170F17",
+      "xy": [
+        384,
+        320
+      ]
+    },
+    {
+      "identity": "05B1",
+      "palette": "0F170F17",
+      "xy": [
+        400,
+        320
+      ]
+    },
+    {
+      "identity": "056D",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "056E",
+      "palette": "0F170F17",
+      "xy": [
+        416,
+        320
+      ]
+    },
+    {
+      "identity": "0573",
+      "palette": "0F170F17",
+      "xy": [
+        432,
+        320
+      ]
+    },
+    {
+      "identity": "0574",
+      "palette": "0F170F17",
+      "xy": [
+        448,
+        320
+      ]
+    },
+    {
+      "identity": "0575",
+      "palette": "0F170F17",
+      "xy": [
+        464,
+        320
+      ]
+    },
+    {
+      "identity": "0576",
+      "palette": "0F170F17",
+      "xy": [
+        480,
+        320
+      ]
+    },
+    {
+      "identity": "05B2",
+      "palette": "0F170F17",
+      "xy": [
+        496,
+        320
+      ]
+    },
+    {
+      "identity": "05B3",
+      "palette": "0F170F17",
+      "xy": [
+        512,
+        320
+      ]
+    },
+    {
+      "identity": "05B4",
+      "palette": "0F170F17",
+      "xy": [
+        528,
+        320
+      ]
+    },
+    {
+      "identity": "05C1",
+      "palette": "0F170F17",
+      "xy": [
+        544,
+        320
+      ]
+    },
+    {
+      "identity": "05C2",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "056F",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0570",
+      "palette": "0F170F17",
+      "xy": [
+        560,
+        320
+      ]
+    },
+    {
+      "identity": "0577",
+      "palette": "0F170F17",
+      "xy": [
+        576,
+        320
+      ]
+    },
+    {
+      "identity": "0578",
+      "palette": "0F170F17",
+      "xy": [
+        592,
+        320
+      ]
+    },
+    {
+      "identity": "0579",
+      "palette": "0F170F17",
+      "xy": [
+        608,
+        320
+      ]
+    },
+    {
+      "identity": "057A",
+      "palette": "0F170F17",
+      "xy": [
+        624,
+        320
+      ]
+    },
+    {
+      "identity": "05B5",
+      "palette": "0F170F17",
+      "xy": [
+        640,
+        320
+      ]
+    },
+    {
+      "identity": "05B6",
+      "palette": "0F170F17",
+      "xy": [
+        656,
+        320
+      ]
+    },
+    {
+      "identity": "05B7",
+      "palette": "0F170F17",
+      "xy": [
+        672,
+        320
+      ]
+    },
+    {
+      "identity": "05B8",
+      "palette": "0F170F17",
+      "xy": [
+        688,
+        320
+      ]
+    },
+    {
+      "identity": "05C3",
+      "palette": "0F170F17",
+      "xy": [
+        704,
+        320
+      ]
+    },
+    {
+      "identity": "05C4",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0571",
+      "palette": "0F170F17",
+      "xy": [
+        720,
+        320
+      ]
+    },
+    {
+      "identity": "057B",
+      "palette": "0F170F17",
+      "xy": [
+        736,
+        320
+      ]
+    },
+    {
+      "identity": "057C",
+      "palette": "0F170F17",
+      "xy": [
+        752,
+        320
+      ]
+    },
+    {
+      "identity": "057D",
+      "palette": "0F170F17",
+      "xy": [
+        768,
+        320
+      ]
+    },
+    {
+      "identity": "057E",
+      "palette": "0F170F17",
+      "xy": [
+        784,
+        320
+      ]
+    },
+    {
+      "identity": "05B9",
+      "palette": "0F170F17",
+      "xy": [
+        800,
+        320
+      ]
+    },
+    {
+      "identity": "05BA",
+      "palette": "0F170F17",
+      "xy": [
+        816,
+        320
+      ]
+    },
+    {
+      "identity": "05BB",
+      "palette": "0F170F17",
+      "xy": [
+        832,
+        320
+      ]
+    },
+    {
+      "identity": "05BC",
+      "palette": "0F170F17",
+      "xy": [
+        848,
+        320
+      ]
+    },
+    {
+      "identity": "05C5",
+      "palette": "0F170F17",
+      "xy": [
+        864,
+        320
+      ]
+    },
+    {
+      "identity": "05C6",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0572",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "057F",
+      "palette": "0F170F17",
+      "xy": [
+        880,
+        320
+      ]
+    },
+    {
+      "identity": "0580",
+      "palette": "0F170F17",
+      "xy": [
+        896,
+        320
+      ]
+    },
+    {
+      "identity": "0581",
+      "palette": "0F170F17",
+      "xy": [
+        912,
+        320
+      ]
+    },
+    {
+      "identity": "0582",
+      "palette": "0F170F17",
+      "xy": [
+        928,
+        320
+      ]
+    },
+    {
+      "identity": "05BD",
+      "palette": "0F170F17",
+      "xy": [
+        944,
+        320
+      ]
+    },
+    {
+      "identity": "05BE",
+      "palette": "0F170F17",
+      "xy": [
+        960,
+        320
+      ]
+    },
+    {
+      "identity": "05BF",
+      "palette": "0F170F17",
+      "xy": [
+        976,
+        320
+      ]
+    },
+    {
+      "identity": "05C0",
+      "palette": "0F170F17",
+      "xy": [
+        992,
+        320
+      ]
+    },
+    {
+      "identity": "05C7",
+      "palette": "0F170F17",
+      "xy": [
+        1008,
+        320
+      ]
+    },
+    {
+      "identity": "05C8",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0583",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0586",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        336
+      ]
+    },
+    {
+      "identity": "0587",
+      "palette": "0F170F17",
+      "xy": [
+        16,
+        336
+      ]
+    },
+    {
+      "identity": "0588",
+      "palette": "0F170F17",
+      "xy": [
+        32,
+        336
+      ]
+    },
+    {
+      "identity": "0589",
+      "palette": "0F170F17",
+      "xy": [
+        48,
+        336
+      ]
+    },
+    {
+      "identity": "05C9",
+      "palette": "0F170F17",
+      "xy": [
+        64,
+        336
+      ]
+    },
+    {
+      "identity": "05CA",
+      "palette": "0F170F17",
+      "xy": [
+        80,
+        336
+      ]
+    },
+    {
+      "identity": "05CB",
+      "palette": "0F170F17",
+      "xy": [
+        96,
+        336
+      ]
+    },
+    {
+      "identity": "0584",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "058A",
+      "palette": "0F170F17",
+      "xy": [
+        112,
+        336
+      ]
+    },
+    {
+      "identity": "058B",
+      "palette": "0F170F17",
+      "xy": [
+        128,
+        336
+      ]
+    },
+    {
+      "identity": "058C",
+      "palette": "0F170F17",
+      "xy": [
+        144,
+        336
+      ]
+    },
+    {
+      "identity": "058D",
+      "palette": "0F170F17",
+      "xy": [
+        160,
+        336
+      ]
+    },
+    {
+      "identity": "05CC",
+      "palette": "0F170F17",
+      "xy": [
+        176,
+        336
+      ]
+    },
+    {
+      "identity": "05CD",
+      "palette": "0F170F17",
+      "xy": [
+        192,
+        336
+      ]
+    },
+    {
+      "identity": "05CE",
+      "palette": "0F170F17",
+      "xy": [
+        208,
+        336
+      ]
+    },
+    {
+      "identity": "05CF",
+      "palette": "0F170F17",
+      "xy": [
+        224,
+        336
+      ]
+    },
+    {
+      "identity": "0585",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "058E",
+      "palette": "0F170F17",
+      "xy": [
+        240,
+        336
+      ]
+    },
+    {
+      "identity": "058F",
+      "palette": "0F170F17",
+      "xy": [
+        256,
+        336
+      ]
+    },
+    {
+      "identity": "0590",
+      "palette": "0F170F17",
+      "xy": [
+        272,
+        336
+      ]
+    },
+    {
+      "identity": "0591",
+      "palette": "0F170F17",
+      "xy": [
+        288,
+        336
+      ]
+    },
+    {
+      "identity": "05D0",
+      "palette": "0F170F17",
+      "xy": [
+        304,
+        336
+      ]
+    },
+    {
+      "identity": "05D1",
+      "palette": "0F170F17",
+      "xy": [
+        320,
+        336
+      ]
+    },
+    {
+      "identity": "05D2",
+      "palette": "0F170F17",
+      "xy": [
+        336,
+        336
+      ]
+    },
+    {
+      "identity": "05D3",
+      "palette": "0F170F17",
+      "xy": [
+        352,
+        336
+      ]
+    },
+    {
+      "identity": "0592",
+      "palette": "0F170F17",
+      "xy": [
+        368,
+        336
+      ]
+    },
+    {
+      "identity": "0593",
+      "palette": "0F170F17",
+      "xy": [
+        384,
+        336
+      ]
+    },
+    {
+      "identity": "0594",
+      "palette": "0F170F17",
+      "xy": [
+        400,
+        336
+      ]
+    },
+    {
+      "identity": "0595",
+      "palette": "0F170F17",
+      "xy": [
+        416,
+        336
+      ]
+    },
+    {
+      "identity": "05D4",
+      "palette": "0F170F17",
+      "xy": [
+        432,
+        336
+      ]
+    },
+    {
+      "identity": "05D5",
+      "palette": "0F170F17",
+      "xy": [
+        448,
+        336
+      ]
+    },
+    {
+      "identity": "05D6",
+      "palette": "0F170F17",
+      "xy": [
+        464,
+        336
+      ]
+    },
+    {
+      "identity": "05D7",
+      "palette": "0F170F17",
+      "xy": [
+        480,
+        336
+      ]
+    },
+    {
+      "identity": "0596",
+      "palette": "0F170F17",
+      "xy": [
+        496,
+        336
+      ]
+    },
+    {
+      "identity": "059A",
+      "palette": "0F170F17",
+      "xy": [
+        512,
+        336
+      ]
+    },
+    {
+      "identity": "059B",
+      "palette": "0F170F17",
+      "xy": [
+        528,
+        336
+      ]
+    },
+    {
+      "identity": "059C",
+      "palette": "0F170F17",
+      "xy": [
+        544,
+        336
+      ]
+    },
+    {
+      "identity": "059D",
+      "palette": "0F170F17",
+      "xy": [
+        560,
+        336
+      ]
+    },
+    {
+      "identity": "05D8",
+      "palette": "0F170F17",
+      "xy": [
+        576,
+        336
+      ]
+    },
+    {
+      "identity": "05D9",
+      "palette": "0F170F17",
+      "xy": [
+        592,
+        336
+      ]
+    },
+    {
+      "identity": "0597",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "059E",
+      "palette": "0F170F17",
+      "xy": [
+        608,
+        336
+      ]
+    },
+    {
+      "identity": "059F",
+      "palette": "0F170F17",
+      "xy": [
+        624,
+        336
+      ]
+    },
+    {
+      "identity": "05A0",
+      "palette": "0F170F17",
+      "xy": [
+        640,
+        336
+      ]
+    },
+    {
+      "identity": "05A1",
+      "palette": "0F170F17",
+      "xy": [
+        656,
+        336
+      ]
+    },
+    {
+      "identity": "05DA",
+      "palette": "0F170F17",
+      "xy": [
+        672,
+        336
+      ]
+    },
+    {
+      "identity": "05DB",
+      "palette": "0F170F17",
+      "xy": [
+        688,
+        336
+      ]
+    },
+    {
+      "identity": "05A2",
+      "palette": "0F170F17",
+      "xy": [
+        704,
+        336
+      ]
+    },
+    {
+      "identity": "05A3",
+      "palette": "0F170F17",
+      "xy": [
+        720,
+        336
+      ]
+    },
+    {
+      "identity": "05A4",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "05A5",
+      "palette": "0F170F17",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0559",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "055A",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0561",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0562",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "05A6",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "05A7",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "055B",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "055C",
+      "palette": "0F070F07",
+      "xy": [
+        736,
+        336
+      ]
+    },
+    {
+      "identity": "0563",
+      "palette": "0F070F07",
+      "xy": [
+        752,
+        336
+      ]
+    },
+    {
+      "identity": "0564",
+      "palette": "0F070F07",
+      "xy": [
+        768,
+        336
+      ]
+    },
+    {
+      "identity": "05A8",
+      "palette": "0F070F07",
+      "xy": [
+        784,
+        336
+      ]
+    },
+    {
+      "identity": "05A9",
+      "palette": "0F070F07",
+      "xy": [
+        800,
+        336
+      ]
+    },
+    {
+      "identity": "055D",
+      "palette": "0F070F07",
+      "xy": [
+        816,
+        336
+      ]
+    },
+    {
+      "identity": "055E",
+      "palette": "0F070F07",
+      "xy": [
+        832,
+        336
+      ]
+    },
+    {
+      "identity": "0565",
+      "palette": "0F070F07",
+      "xy": [
+        848,
+        336
+      ]
+    },
+    {
+      "identity": "0566",
+      "palette": "0F070F07",
+      "xy": [
+        864,
+        336
+      ]
+    },
+    {
+      "identity": "0567",
+      "palette": "0F070F07",
+      "xy": [
+        880,
+        336
+      ]
+    },
+    {
+      "identity": "0568",
+      "palette": "0F070F07",
+      "xy": [
+        896,
+        336
+      ]
+    },
+    {
+      "identity": "05AA",
+      "palette": "0F070F07",
+      "xy": [
+        912,
+        336
+      ]
+    },
+    {
+      "identity": "05AB",
+      "palette": "0F070F07",
+      "xy": [
+        928,
+        336
+      ]
+    },
+    {
+      "identity": "05AC",
+      "palette": "0F070F07",
+      "xy": [
+        944,
+        336
+      ]
+    },
+    {
+      "identity": "05AD",
+      "palette": "0F070F07",
+      "xy": [
+        960,
+        336
+      ]
+    },
+    {
+      "identity": "055F",
+      "palette": "0F070F07",
+      "xy": [
+        976,
+        336
+      ]
+    },
+    {
+      "identity": "0560",
+      "palette": "0F070F07",
+      "xy": [
+        992,
+        336
+      ]
+    },
+    {
+      "identity": "0569",
+      "palette": "0F070F07",
+      "xy": [
+        1008,
+        336
+      ]
+    },
+    {
+      "identity": "056A",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        352
+      ]
+    },
+    {
+      "identity": "056B",
+      "palette": "0F070F07",
+      "xy": [
+        16,
+        352
+      ]
+    },
+    {
+      "identity": "056C",
+      "palette": "0F070F07",
+      "xy": [
+        32,
+        352
+      ]
+    },
+    {
+      "identity": "05AE",
+      "palette": "0F070F07",
+      "xy": [
+        48,
+        352
+      ]
+    },
+    {
+      "identity": "05AF",
+      "palette": "0F070F07",
+      "xy": [
+        64,
+        352
+      ]
+    },
+    {
+      "identity": "05B0",
+      "palette": "0F070F07",
+      "xy": [
+        80,
+        352
+      ]
+    },
+    {
+      "identity": "05B1",
+      "palette": "0F070F07",
+      "xy": [
+        96,
+        352
+      ]
+    },
+    {
+      "identity": "056D",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "056E",
+      "palette": "0F070F07",
+      "xy": [
+        112,
+        352
+      ]
+    },
+    {
+      "identity": "0573",
+      "palette": "0F070F07",
+      "xy": [
+        128,
+        352
+      ]
+    },
+    {
+      "identity": "0574",
+      "palette": "0F070F07",
+      "xy": [
+        144,
+        352
+      ]
+    },
+    {
+      "identity": "0575",
+      "palette": "0F070F07",
+      "xy": [
+        160,
+        352
+      ]
+    },
+    {
+      "identity": "0576",
+      "palette": "0F070F07",
+      "xy": [
+        176,
+        352
+      ]
+    },
+    {
+      "identity": "05B2",
+      "palette": "0F070F07",
+      "xy": [
+        192,
+        352
+      ]
+    },
+    {
+      "identity": "05B3",
+      "palette": "0F070F07",
+      "xy": [
+        208,
+        352
+      ]
+    },
+    {
+      "identity": "05B4",
+      "palette": "0F070F07",
+      "xy": [
+        224,
+        352
+      ]
+    },
+    {
+      "identity": "05C1",
+      "palette": "0F070F07",
+      "xy": [
+        240,
+        352
+      ]
+    },
+    {
+      "identity": "05C2",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "056F",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0570",
+      "palette": "0F070F07",
+      "xy": [
+        256,
+        352
+      ]
+    },
+    {
+      "identity": "0577",
+      "palette": "0F070F07",
+      "xy": [
+        272,
+        352
+      ]
+    },
+    {
+      "identity": "0578",
+      "palette": "0F070F07",
+      "xy": [
+        288,
+        352
+      ]
+    },
+    {
+      "identity": "0579",
+      "palette": "0F070F07",
+      "xy": [
+        304,
+        352
+      ]
+    },
+    {
+      "identity": "057A",
+      "palette": "0F070F07",
+      "xy": [
+        320,
+        352
+      ]
+    },
+    {
+      "identity": "05B5",
+      "palette": "0F070F07",
+      "xy": [
+        336,
+        352
+      ]
+    },
+    {
+      "identity": "05B6",
+      "palette": "0F070F07",
+      "xy": [
+        352,
+        352
+      ]
+    },
+    {
+      "identity": "05B7",
+      "palette": "0F070F07",
+      "xy": [
+        368,
+        352
+      ]
+    },
+    {
+      "identity": "05B8",
+      "palette": "0F070F07",
+      "xy": [
+        384,
+        352
+      ]
+    },
+    {
+      "identity": "05C3",
+      "palette": "0F070F07",
+      "xy": [
+        400,
+        352
+      ]
+    },
+    {
+      "identity": "05C4",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0571",
+      "palette": "0F070F07",
+      "xy": [
+        416,
+        352
+      ]
+    },
+    {
+      "identity": "057B",
+      "palette": "0F070F07",
+      "xy": [
+        432,
+        352
+      ]
+    },
+    {
+      "identity": "057C",
+      "palette": "0F070F07",
+      "xy": [
+        448,
+        352
+      ]
+    },
+    {
+      "identity": "057D",
+      "palette": "0F070F07",
+      "xy": [
+        464,
+        352
+      ]
+    },
+    {
+      "identity": "057E",
+      "palette": "0F070F07",
+      "xy": [
+        480,
+        352
+      ]
+    },
+    {
+      "identity": "05B9",
+      "palette": "0F070F07",
+      "xy": [
+        496,
+        352
+      ]
+    },
+    {
+      "identity": "05BA",
+      "palette": "0F070F07",
+      "xy": [
+        512,
+        352
+      ]
+    },
+    {
+      "identity": "05BB",
+      "palette": "0F070F07",
+      "xy": [
+        528,
+        352
+      ]
+    },
+    {
+      "identity": "05BC",
+      "palette": "0F070F07",
+      "xy": [
+        544,
+        352
+      ]
+    },
+    {
+      "identity": "05C5",
+      "palette": "0F070F07",
+      "xy": [
+        560,
+        352
+      ]
+    },
+    {
+      "identity": "05C6",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0572",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "057F",
+      "palette": "0F070F07",
+      "xy": [
+        576,
+        352
+      ]
+    },
+    {
+      "identity": "0580",
+      "palette": "0F070F07",
+      "xy": [
+        592,
+        352
+      ]
+    },
+    {
+      "identity": "0581",
+      "palette": "0F070F07",
+      "xy": [
+        608,
+        352
+      ]
+    },
+    {
+      "identity": "0582",
+      "palette": "0F070F07",
+      "xy": [
+        624,
+        352
+      ]
+    },
+    {
+      "identity": "05BD",
+      "palette": "0F070F07",
+      "xy": [
+        640,
+        352
+      ]
+    },
+    {
+      "identity": "05BE",
+      "palette": "0F070F07",
+      "xy": [
+        656,
+        352
+      ]
+    },
+    {
+      "identity": "05BF",
+      "palette": "0F070F07",
+      "xy": [
+        672,
+        352
+      ]
+    },
+    {
+      "identity": "05C0",
+      "palette": "0F070F07",
+      "xy": [
+        688,
+        352
+      ]
+    },
+    {
+      "identity": "05C7",
+      "palette": "0F070F07",
+      "xy": [
+        704,
+        352
+      ]
+    },
+    {
+      "identity": "05C8",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0583",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "0586",
+      "palette": "0F070F07",
+      "xy": [
+        720,
+        352
+      ]
+    },
+    {
+      "identity": "0587",
+      "palette": "0F070F07",
+      "xy": [
+        736,
+        352
+      ]
+    },
+    {
+      "identity": "0588",
+      "palette": "0F070F07",
+      "xy": [
+        752,
+        352
+      ]
+    },
+    {
+      "identity": "0589",
+      "palette": "0F070F07",
+      "xy": [
+        768,
+        352
+      ]
+    },
+    {
+      "identity": "05C9",
+      "palette": "0F070F07",
+      "xy": [
+        784,
+        352
+      ]
+    },
+    {
+      "identity": "05CA",
+      "palette": "0F070F07",
+      "xy": [
+        800,
+        352
+      ]
+    },
+    {
+      "identity": "05CB",
+      "palette": "0F070F07",
+      "xy": [
+        816,
+        352
+      ]
+    },
+    {
+      "identity": "0584",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "058A",
+      "palette": "0F070F07",
+      "xy": [
+        832,
+        352
+      ]
+    },
+    {
+      "identity": "058B",
+      "palette": "0F070F07",
+      "xy": [
+        848,
+        352
+      ]
+    },
+    {
+      "identity": "058C",
+      "palette": "0F070F07",
+      "xy": [
+        864,
+        352
+      ]
+    },
+    {
+      "identity": "058D",
+      "palette": "0F070F07",
+      "xy": [
+        880,
+        352
+      ]
+    },
+    {
+      "identity": "05CC",
+      "palette": "0F070F07",
+      "xy": [
+        896,
+        352
+      ]
+    },
+    {
+      "identity": "05CD",
+      "palette": "0F070F07",
+      "xy": [
+        912,
+        352
+      ]
+    },
+    {
+      "identity": "05CE",
+      "palette": "0F070F07",
+      "xy": [
+        928,
+        352
+      ]
+    },
+    {
+      "identity": "05CF",
+      "palette": "0F070F07",
+      "xy": [
+        944,
+        352
+      ]
+    },
+    {
+      "identity": "0585",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "058E",
+      "palette": "0F070F07",
+      "xy": [
+        960,
+        352
+      ]
+    },
+    {
+      "identity": "058F",
+      "palette": "0F070F07",
+      "xy": [
+        976,
+        352
+      ]
+    },
+    {
+      "identity": "0590",
+      "palette": "0F070F07",
+      "xy": [
+        992,
+        352
+      ]
+    },
+    {
+      "identity": "0591",
+      "palette": "0F070F07",
+      "xy": [
+        1008,
+        352
+      ]
+    },
+    {
+      "identity": "05D0",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        368
+      ]
+    },
+    {
+      "identity": "05D1",
+      "palette": "0F070F07",
+      "xy": [
+        16,
+        368
+      ]
+    },
+    {
+      "identity": "05D2",
+      "palette": "0F070F07",
+      "xy": [
+        32,
+        368
+      ]
+    },
+    {
+      "identity": "05D3",
+      "palette": "0F070F07",
+      "xy": [
+        48,
+        368
+      ]
+    },
+    {
+      "identity": "0592",
+      "palette": "0F070F07",
+      "xy": [
+        64,
+        368
+      ]
+    },
+    {
+      "identity": "0593",
+      "palette": "0F070F07",
+      "xy": [
+        80,
+        368
+      ]
+    },
+    {
+      "identity": "0594",
+      "palette": "0F070F07",
+      "xy": [
+        96,
+        368
+      ]
+    },
+    {
+      "identity": "0595",
+      "palette": "0F070F07",
+      "xy": [
+        112,
+        368
+      ]
+    },
+    {
+      "identity": "05D4",
+      "palette": "0F070F07",
+      "xy": [
+        128,
+        368
+      ]
+    },
+    {
+      "identity": "05D5",
+      "palette": "0F070F07",
+      "xy": [
+        144,
+        368
+      ]
+    },
+    {
+      "identity": "05D6",
+      "palette": "0F070F07",
+      "xy": [
+        160,
+        368
+      ]
+    },
+    {
+      "identity": "05D7",
+      "palette": "0F070F07",
+      "xy": [
+        176,
+        368
+      ]
+    },
+    {
+      "identity": "0596",
+      "palette": "0F070F07",
+      "xy": [
+        192,
+        368
+      ]
+    },
+    {
+      "identity": "059A",
+      "palette": "0F070F07",
+      "xy": [
+        208,
+        368
+      ]
+    },
+    {
+      "identity": "059B",
+      "palette": "0F070F07",
+      "xy": [
+        224,
+        368
+      ]
+    },
+    {
+      "identity": "059C",
+      "palette": "0F070F07",
+      "xy": [
+        240,
+        368
+      ]
+    },
+    {
+      "identity": "059D",
+      "palette": "0F070F07",
+      "xy": [
+        256,
+        368
+      ]
+    },
+    {
+      "identity": "05D8",
+      "palette": "0F070F07",
+      "xy": [
+        272,
+        368
+      ]
+    },
+    {
+      "identity": "05D9",
+      "palette": "0F070F07",
+      "xy": [
+        288,
+        368
+      ]
+    },
+    {
+      "identity": "0597",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "059E",
+      "palette": "0F070F07",
+      "xy": [
+        304,
+        368
+      ]
+    },
+    {
+      "identity": "059F",
+      "palette": "0F070F07",
+      "xy": [
+        320,
+        368
+      ]
+    },
+    {
+      "identity": "05A0",
+      "palette": "0F070F07",
+      "xy": [
+        336,
+        368
+      ]
+    },
+    {
+      "identity": "05A1",
+      "palette": "0F070F07",
+      "xy": [
+        352,
+        368
+      ]
+    },
+    {
+      "identity": "05DA",
+      "palette": "0F070F07",
+      "xy": [
+        368,
+        368
+      ]
+    },
+    {
+      "identity": "05DB",
+      "palette": "0F070F07",
+      "xy": [
+        384,
+        368
+      ]
+    },
+    {
+      "identity": "05A2",
+      "palette": "0F070F07",
+      "xy": [
+        400,
+        368
+      ]
+    },
+    {
+      "identity": "05A3",
+      "palette": "0F070F07",
+      "xy": [
+        416,
+        368
+      ]
+    },
+    {
+      "identity": "05A4",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    },
+    {
+      "identity": "05A5",
+      "palette": "0F070F07",
+      "xy": [
+        0,
+        320
+      ]
+    }
+  ],
+  "source": "art/boss2/wall_0F270027.png",
+  "native_gameplay_modified": false
+}

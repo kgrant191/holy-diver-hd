@@ -4,8 +4,8 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Active review branches
 
-- Current candidate: **0.10.0 on `feature/2-boss`**, based on user-approved 0.9.0. The user said "approved. now the boss room for level 2." on 2026-10-24; approval is recorded in `evidence/screen2_6/approval.json`. Preserve all 0.9.0 runtime assets, original brown ceiling and accepted cut-stone stairs. Main remains 0.6.1 pending source adoption.
-- The current source handoff includes `feature/screen2-4`, `feature/screen2-5`, `feature/screen2-6` and `feature/2-boss`. Older refs stay at their earlier source commits; screen2-6 includes the 0.9.0 approval record. No release/tag is requested. Boss artwork remains a review candidate.
+- Current candidate: **0.10.1 on `feature/2-boss`**, based on user-approved 0.9.0. The user said "approved. now the boss room for level 2." on 2026-10-24; approval is recorded in `evidence/screen2_6/approval.json`. Preserve all 0.9.0 runtime assets, original brown ceiling and accepted cut-stone stairs. Main remains 0.6.1 pending source adoption.
+- The current source handoff includes `feature/screen2-4`, `feature/screen2-5`, `feature/screen2-6` and `feature/2-boss`. Older refs stay at their earlier source commits; screen2-6 includes the 0.9.0 approval record. No release/tag is requested. Boss artwork remains a review candidate. The 0.10.1 repair covers both gold defeat-fade palettes and removes the dead boss silhouette during Breaker flashes; preserve the native room flash.
 - Finished artwork must be reused for matching native identities/palettes. `build_shared_stage2.py` runs last, after all specific rules. Verified new-bank aliases retain pose conditions; put broad aliases after existing specific rules. Never globally clear scenery. See `docs/SCREEN2_6.md` and `docs/BOSS2.md`.
 
 ## Preserve approved behavior

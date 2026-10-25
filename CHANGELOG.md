@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.1 — Boss defeat and pickup repair (2026-10-24)
+
+- Map both gold defeat-fade palettes to the existing HD boss, preventing a brief fallback to the original artwork.
+- Clear the defeated boss during the Breaker pickup flash while retaining the cave flash and native timing.
+- Reuse existing art; preserve every old atlas cell and all 90 other runtime files. The install remains 93 files.
+
 ## 0.10.0 — Level 2 boss and Breaker candidate (2026-10-24)
 
 - Add the wall-root demon with its complete native background-tile layout, palette-driven hit phases, disappearance and victory silhouette flash.

@@ -1,6 +1,8 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.10.0 on `feature/2-boss`; approved artwork baseline: 0.9.0; main: 0.6.1 pending source adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.10.1 on `feature/2-boss`; approved artwork baseline: 0.9.0; main: 0.6.1 pending source adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+
+**Boss defeat/pickup repair (0.10.1).** Keeps the HD boss through both gold defeat-fade palettes and removes its outline during the Breaker pickup flash. All other artwork and native gameplay/audio remain intact. See [repair verification](docs/BOSS2_REVIEW.md).
 
 **Level 2 boss and Breaker (0.10.0).** Adds the complete wall-root demon, native hit/defeat palette phases, a new Breaker tome and its announcement. Reuses the existing cave, brown rock texture, actor poses, HUD and fireball. The supplied state supports a controller-only victory and collection route through the existing Stage 3 title card. See [boss notes](docs/BOSS2.md).
 
@@ -58,7 +60,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.10.0.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.10.1.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

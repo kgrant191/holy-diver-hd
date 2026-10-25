@@ -1,0 +1,6 @@
+{
+  "pickup": {
+    "frames": 1600,
+    "input": "right=frame>=400 and frame<520"
+  }
+}

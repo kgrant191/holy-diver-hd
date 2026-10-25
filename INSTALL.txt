@@ -1,5 +1,8 @@
-HOLY DIVER HD 0.10.0 — DEVELOPMENT REVIEW CANDIDATE
-Level 2 boss: rooted demon, reused cave and actors, Breaker spell reward.
+HOLY DIVER HD 0.10.1 — DEVELOPMENT REVIEW CANDIDATE
+Level 2 boss: repaired defeat fades and removed post-pickup boss outline.
+
+The gold defeat fade retains the HD boss through both darker palette steps.
+The defeated boss stays hidden during the Breaker pickup flash.
 
 Preserves the user-approved 0.9.0 artwork and shared Stage 2 mappings.
 The boss follows native hit/defeat palettes, and Breaker has a new tome and

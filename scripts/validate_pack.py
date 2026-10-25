@@ -35,6 +35,24 @@ assert len(imgs)==40
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+boss2_review=json.loads((root/'art/boss2_review/registration.json').read_text())
+counts['tile']-=boss2_review['tile_rules']
+review_block=re.search(r'^# BEGIN BOSS2_REVIEW\n(.*?)^# END BOSS2_REVIEW\n',content,flags=re.M|re.S)
+assert review_block and len(review_block.group(1).splitlines())==boss2_review['tile_rules']
+assert review_block.end()<=content.index('# BEGIN BOSS2 MAPPINGS')
+content=content[:review_block.start()]+content[review_block.end():]
+previous_boss=json.loads((root/'evidence/0.10.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==previous_boss['hires.txt']
+for name,digest in previous_boss.items():
+ if name not in {'README.txt','hires.txt','Boss2_Tiles_2x.png'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' previous boss asset changed'
+boss_base=np.array(Image.open(root/'art/boss2/Boss2_Tiles_2x.png').convert('RGBA'))
+boss_now=np.array(Image.open(pack/'Boss2_Tiles_2x.png').convert('RGBA'))
+allowed=np.zeros(boss_base.shape[:2],dtype=bool)
+for record in boss2_review['mappings']:
+ x,y=record['xy'];allowed[y:y+16,x:x+16]=True
+assert not boss_base[allowed].any()
+assert np.array_equal(boss_base[~allowed],boss_now[~allowed])
+assert not boss2_review['native_gameplay_modified']
 boss2=json.loads((root/'art/boss2/registration.json').read_text())
 for kind in ['tile','background','condition']:
  counts[kind]-=boss2[{'tile':'tile_rules','background':'background_rules','condition':'conditions'}[kind]]

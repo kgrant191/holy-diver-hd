@@ -1,4 +1,6 @@
-# Level 2 wall boss and Breaker — 0.10.0 candidate
+# Level 2 wall boss and Breaker — original 0.10.0 candidate
+
+Superseded by the [0.10.1 defeat/pickup repair](BOSS2_REVIEW.md). The 0.10.0 checks below are historical; the user reported a gold-fade fallback and rejected the post-pickup black silhouette.
 
 The user approved the delivered 0.9.0 artwork and requested the Level 2 boss next on 2026-10-24. `feature/2-boss` starts after the approval record on `feature/screen2-6`; the installed 0.9.0 bytes and expected manifest remain unchanged. Main is still 0.6.1 pending the source-push/PR workflow.
 

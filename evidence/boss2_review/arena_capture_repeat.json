@@ -1,0 +1,22 @@
+{
+  "initial_difference": {
+    "frame": 484,
+    "pixels": 1830,
+    "region": "Randy and projectiles; outside changed boss tiles",
+    "native_state_and_audio_equal": true
+  },
+  "repeat": {
+    "frames_per_build": 720,
+    "exact_image_pairs": 360,
+    "baseline_matches_first_candidate": true,
+    "candidate_matches_first_candidate": true,
+    "installed_manifests_unchanged": true
+  },
+  "cause": "Unconfirmed one-frame capture discrepancy in retained 0.10.0 baseline; did not recur in complete paired replay.",
+  "sha256": {
+    "retained_baseline": "269429595126ed2817dcfe7e8480d4a9f08135375981d8a23906650e160f1f9b",
+    "first_candidate": "d394ab6c22bc36e28dc5525b976000d4c80ec7430112daf7fda262e9648e9aca",
+    "repeat_baseline": "d394ab6c22bc36e28dc5525b976000d4c80ec7430112daf7fda262e9648e9aca",
+    "repeat_candidate": "d394ab6c22bc36e28dc5525b976000d4c80ec7430112daf7fda262e9648e9aca"
+  }
+}

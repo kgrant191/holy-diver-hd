@@ -1,8 +1,18 @@
 # Current status
 
-Updated: 2026-10-24 (UTC).
+Updated: 2026-10-24 (America/New_York).
 
-## Review candidate — 0.10.0, feature/2-boss
+## Review candidate — 0.10.1, feature/2-boss
+
+Fixes both reported boss reappearances. The new save defeats the boss on the gold hit palette; its two darker fade palettes were missing, briefly exposing the original NES art. They now use dimmer versions of the existing HD boss. The native Breaker flash previously selected a deliberate black boss silhouette; the repair uses the existing transparent cell so the defeated boss stays gone while the cave flash remains. No new painting is introduced.
+
+Four final paired routes pass 6,020 frames per build and 3,810 identical RAM/PPU/OAM/PPU-view samples per type. APU writes and 19,232,332 common PCM bytes match; the new-save run has one 3,196-byte shutdown-buffer tail difference. The new save is captured every frame, with one identical empty initial capture. All 38 changed pictures stay within the boss tile coverage: eight samples for each gold fade and 22 samples clearing the pickup echo across both victory routes. Every non-sprite pixel in that coverage matches the HD fade source or pale cave pixels. The other 3,771 valid pictures remain exact, including 810 combat/pose/arena pictures and the existing announcement, Stage 3 transition and pause menu.
+
+One retained 0.10.0 arena picture differed around Randy/projectiles despite identical native state/audio. A complete paired 720-frame repeat with unchanged pack manifests has all 360 images exact and matches the first candidate replay. The cause of the old capture discrepancy is unconfirmed and recorded in `evidence/boss2_review/arena_capture_repeat.json`; no image exception is accepted by the final verifier.
+
+Only hires.txt, the boss atlas's previously unused cells and installed README change from 0.10.0; all 90 other runtime files remain byte-identical. The 93-file ZIP passes CRC, flat-layout and all hashes. Actual comparison/video show both repairs. See `docs/BOSS2_REVIEW.md` and `evidence/boss2_review/validation.json`. Earlier coverage limits remain. Source push, PRs and Actions checks are pending; the bundle retains all four feature refs and main remains 0.6.1.
+
+## Superseded review candidate — 0.10.0, feature/2-boss
 
 Adds the Level 2 wall-root demon in its complete native tile layout, its hit/defeat palette phases, Breaker tome and announcement. Reuses the crimson cave panorama, original brown terrain texture, Randy poses, HUD and fireball source. The boss's new graphics bank has 366 verified actor aliases with remapped pose anchors. All 88 earlier runtime asset files stay byte-identical; three additions bring the pack to 93 root files.
 
