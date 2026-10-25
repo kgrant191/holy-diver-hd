@@ -2,6 +2,12 @@
 
 Updated: 2026-10-24 (America/New_York).
 
+## Review candidate — 0.10.2, fix/breaker-randy-transition
+
+Repairs the reported original-Randy flash after collecting Breaker. The three final native fade palettes were absent from the boss bank’s player aliases. The repair keeps the existing normal/Twin Fire artwork and every pose condition, using three brightness steps inside the boss room. No images are created or modified. Only hires.txt and installed README change; all 91 other files match approved 0.10.1.
+
+The supplied defeat state and earlier boss state reproduce the defect in both costumes. Paired controller replays cover both pickup routes, an alternate pickup timing and combat/pose regression. The automatic pickup animation holds Randy facing right; mirrored combat poses are checked unchanged, and the aliases retain native mirror behavior. See `docs/BREAKER_RANDY.md` for exact coverage and `evidence/breaker_randy/validation.json` for results. Awaiting user review; main remains approved 0.10.1.
+
 ## Approved baseline — 0.10.1, main
 
 The user approved the delivered 0.10.1 on 2026-10-24 ("approved"). `evidence/boss2_review/approval.json` records the reviewed artwork commit and exact installation hashes. Approval bookkeeping changes only source documentation; all 93 installation files and the delivered install ZIP remain unchanged. The historical review label in the frozen installed README is retained to preserve those exact bytes. The user authorized “merge them all”; all four feature branches are merged through PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8), [#9](https://github.com/kgrant191/holy-diver-hd/pull/9), [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) and [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). Main now contains approved 0.10.1. See `evidence/stage2_adoption/merges.json` for the exact merge commits and main builds.

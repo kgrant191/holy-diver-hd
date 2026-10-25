@@ -1,0 +1,43 @@
+{
+  "source_rules": 314,
+  "tile_rules": 942,
+  "conditions": 546,
+  "palette_phases": {
+    "FF300036": [
+      [
+        "FF200F26",
+        ".65"
+      ],
+      [
+        "FF100F16",
+        ".30"
+      ],
+      [
+        "FF000F06",
+        ".12"
+      ]
+    ],
+    "FF221136": [
+      [
+        "FF120126",
+        ".65"
+      ],
+      [
+        "FF020F16",
+        ".30"
+      ],
+      [
+        "FF0F0F06",
+        ".12"
+      ]
+    ]
+  },
+  "source_atlases": [
+    "Randy_Entrance_2x.png",
+    "Randy_Equipped_2x.png",
+    "Randy_Upward_2x.png"
+  ],
+  "new_artwork": false,
+  "scope": "b2Room&b2Lo&b2Hi",
+  "pose_order_preserved": true
+}

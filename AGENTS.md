@@ -2,6 +2,10 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
+## Active repair
+
+- `fix/breaker-randy-transition` contains review candidate 0.10.2. The user reported original Randy briefly appearing after Breaker pickup. All artwork is reused; only hires.txt and installed version notes change. Main remains approved 0.10.1 until the user accepts this repair. See `docs/BREAKER_RANDY.md` and `evidence/breaker_randy/validation.json`.
+
 ## Approved main and source history
 
 - Approved continuation baseline: **0.10.1 on `main`**. The user approved the delivered boss and defeat/pickup repairs on 2026-10-24; see `evidence/boss2_review/approval.json`. Preserve all 93 reviewed installation files exactly, including the original brown ceiling, accepted stairs and shared Stage 2 artwork. PRs #8–#11 are merged into main after the user authorized all four merges.

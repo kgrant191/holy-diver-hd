@@ -1,0 +1,9 @@
+{
+  "version": "0.10.2",
+  "zip_sha256": "a0c5fc20528684943be363935fd51673eb12edb25cd90db7f75e680832146d8d",
+  "root_files": 93,
+  "crc_valid": true,
+  "all_expected_hashes_match": true,
+  "nested_zip": false,
+  "unchanged_files_from_0_10_1": 91
+}

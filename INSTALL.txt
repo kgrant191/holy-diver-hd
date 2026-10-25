@@ -1,5 +1,8 @@
-HOLY DIVER HD 0.10.1 — DEVELOPMENT REVIEW CANDIDATE
-Level 2 boss: repaired defeat fades and removed post-pickup boss outline.
+HOLY DIVER HD 0.10.2 — DEVELOPMENT REVIEW CANDIDATE
+Breaker pickup: retain HD Randy through the final three darkening steps.
+
+Reuses the exact approved Randy artwork, with native fade timing and poses.
+Preserves the complete approved 0.10.1 boss, cave, items and shared artwork.
 
 The gold defeat fade retains the HD boss through both darker palette steps.
 The defeated boss stays hidden during the Breaker pickup flash.

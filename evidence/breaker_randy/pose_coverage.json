@@ -1,0 +1,13 @@
+{
+  "route": "combat_poses",
+  "mirrors": [
+    false,
+    true
+  ],
+  "palettes": [
+    "FF221136",
+    "FF300036"
+  ],
+  "all_450_images_unchanged": true,
+  "pickup_fade_mirror_coverage": "Only native unmirrored/right-facing pickup observed. Controller input does not turn Randy during the automatic transition."
+}
