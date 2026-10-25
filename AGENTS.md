@@ -2,6 +2,13 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
+## Current review branch
+
+- 0.11.0 on `feature/level3-opening` is an unapproved candidate for the first three Level 3 rooms. Approved main is still 0.10.2. See `docs/LEVEL3_OPENING.md` and `evidence/level3_opening/`.
+- The `.mmo` input embeds the correct starting state and matches the project's ROM. Use `run_mesen_movie.py` with the stock MesenCE 2.2.1 native core, configuration shim and synchronized screenshot observer. Do not replace it with MesenAI. Input bytes remain outside Git.
+- NES endFrame fires before video submission; asynchronous HD decode can otherwise produce a one-frame capture mismatch. `sync_movie_capture.cpp` waits for the pending decode and then calls the original screenshot routine without changing pixels or native state.
+- New Level 3 scenery rules are limited to the three measured room pointers; actor aliases use proven native CHR copies. Preserve original conditional priority and the last shared Stage 2 fallback block.
+
 ## Approved latest repair
 
 - The user approved 0.10.2 and authorized its merge on 2026-10-24 ("approved. merge it"). PR #12 is merged; main is the approved 0.10.2 baseline. The repair keeps HD Randy through the three final Breaker pickup fades. Preserve all 93 reviewed installation bytes. Approval and artifact records are in `evidence/breaker_randy/`. See `docs/BREAKER_RANDY.md` and `evidence/breaker_randy/validation.json`.

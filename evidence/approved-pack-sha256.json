@@ -45,7 +45,7 @@
   "Nave_Background.png": "865db833ec3e690b8cbb48c45a03fd997aa179e91cbc3d87f6dad395a0d43dbe",
   "Nave_Tiles_2x.png": "8796de7817b6624a03a1b8ee116357d3827b791eb7ed2ea686ea0c41d9721069",
   "Pause_HD.png": "37b6cebce0f74774c5340cb4f3a0b50962a07e72627f0d26974257bb00b5f614",
-  "README.txt": "70d7a9e4bf4e8f303939f6557c9044ef9022c1d0b100afca775ae4f199e84873",
+  "README.txt": "8459169dae2d427d4500cbee3f9c6cdd137ec2a351c7ff3aee6939b62a468e28",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -61,6 +61,8 @@
   "Stage2_Exterior_Tiles_2x.png": "99483b39a33a2bffaaa3eae1d0bea1e3fdb1d2c45b4f040d1ff2c4c14e6e264a",
   "Stage2_Second_Cave_Tiles_2x.png": "f672bbc941a05cb1ed5d58a248be222f7237b07375c477b61590bdddc928cfdf",
   "Stage2_Vertical_Cave_Tiles_2x.png": "d016af2f1141f72d5ddccc702c13a7374bea38cd343d76f4d95f5c44423910bb",
+  "Stage3_Forest_Background.png": "a04853d7a5c1ee4e3552c2651936d2c81baa552a68d1b4fb8c9bc9fe50a51662",
+  "Stage3_Opening_Tiles_2x.png": "15c34a4a160fd58114144f0c82d8afa2d9dedd4dcf95ad4e9aca1e0abf3aa0b3",
   "Stage_Lives_0.png": "244bbc09afe63c78917120ded5a7565cc9e29da2d8dd82814b801ccb0b0a2dbf",
   "Stage_Lives_1.png": "d10fd0a18eb2d3b985da7c1b7bfc0519596c40403651f562285832ece86bf35c",
   "Stage_Lives_2.png": "3f8b58c686ba82542113f492fa74acda4fa6a800fdd985a74aca0636ee503a4d",
@@ -91,5 +93,5 @@
   "Tree_Court_Tiles_2x.png": "1fb4fe99e944ec4b110d0eb215dd00124bac17d5c4fa13ac8a9dd6334a066c44",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "6f958a15a341eef5b941e678b290b8e31dd286098d0466f26bbd6e908f1f76a9"
+  "hires.txt": "b80067d5afd2e6856acb695d090cb067e682af919e156cfbab22caae875feb33"
 }

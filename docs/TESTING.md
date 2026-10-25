@@ -216,3 +216,7 @@ See [BOSS2_REVIEW.md](BOSS2_REVIEW.md). The new gold-defeat save is captured eve
 ## Randy during Breaker pickup (approved 0.10.2)
 
 See [BREAKER_RANDY.md](BREAKER_RANDY.md). Capture the supplied defeat state every frame; pair the earlier victory and combat/pose routes as regression. Verify native RAM/PPU/OAM/view and APU/PCM, changed pixels confined to Randy, and visible HD sprite pixels through every final fade phase. The native orbiting effects can occlude part of the source; report the tested pixel count. Preserve every earlier installed image exactly.
+
+## Level 3 movie workflow (0.11.0 review candidate)
+
+See [LEVEL3_OPENING.md](LEVEL3_OPENING.md) for standard `.mmo` replay with its embedded starting state, exact native-core/header versions, synchronized screenshot observer, full paired memory/audio checks, and input-only edge routes. This replaces the need for separate user states for the captured route. Never claim a whole-level or boss test from this opening/corridor recording.

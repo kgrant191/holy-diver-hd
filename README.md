@@ -50,6 +50,10 @@ Version 0.1.1 sharpens the standing ghoul and covers both crouching attack phase
 
 ![Randy arm repair in actual Mesen captures](evidence/arm_repair/Holy_Diver_v15_Comparison.png)
 
+## Level 3 opening review — 0.11.0
+
+The review branch adds the forest approach, tree climb, and stone shaft from a standard Mesen movie. It reuses the approved player, HUD and returning enemies, and adds the new forest scenery and small creatures. Later Level 3 scenery and its boss remain unfinished. See [scope and live checks](docs/LEVEL3_OPENING.md). Approved main stays at 0.10.2 until review.
+
 ## Build
 
 Use Python 3.12:
@@ -64,7 +68,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.10.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.11.0.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

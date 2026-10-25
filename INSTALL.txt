@@ -1,3 +1,7 @@
+Holy Diver HD 0.11.0 — Level 3 opening review build
+
+Adds the forest approach, tree climb, and stone shaft from the supplied Mesen movie. Later Level 3 scenery and its boss remain unfinished. Reuses approved Randy, HUD, eye/tears, ceiling bats, lava/ice and existing terrain materials. Native gameplay/audio unchanged.
+
 HOLY DIVER HD 0.10.2 — DEVELOPMENT REVIEW CANDIDATE
 Breaker pickup: retain HD Randy through the final three darkening steps.
 

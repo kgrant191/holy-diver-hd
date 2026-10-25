@@ -97,3 +97,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Boss defeat/pickup repair — 0.10.1
 
 `Holy_Diver_HD_2(6).mss` (12,013 bytes), SHA-256 `6cfdc375c9620d42e989e96ce4e855babe06f3d54fd49aa28d0de9bf7a408345`. Supplied on 2026-10-24; begins during the gold boss-defeat phase and automatically collects Breaker after the fade. Use `scripts/boss2_review_routes.json`. Bytes are excluded from Git. The earlier boss save remains the regression input.
+
+## Level 3 movie input
+
+`Holy_Diver_HD.mmo`: SHA-256 `c6c3f99a7204f5052c1758ef44ffb4387d2ebc5a8534127a0ddde60ccfde74cd`, 6,883 controller frames. Embedded SaveState SHA-256 `956c402469389e969b3443c8c5c5019458e5f1d65e8830f63f815b928a23f5f0`. MesenCE 2.2.1 / movie format 3; supported translated ROM SHA-1 matches the project. Ends paused in the later Level 3 corridor, before the boss. Keep the input outside Git; see `docs/LEVEL3_OPENING.md`.

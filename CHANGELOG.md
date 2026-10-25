@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.0 — Level 3 opening (review candidate, 2026-10-25)
+
+- Add the forest approach, wide-tree climb and stone shaft, registered to native terrain and room boundaries.
+- Add ember-creature and small crimson flyer animation frames; share approved Randy, HUD, eyes/tears, ceiling bats, weapons, lava and ice through verified native identities.
+- Preserve every previous artwork/audio-patch file and exact prior mapping blocks.
+- Add reproducible Mesen movie playback, paired native state/audio verification and synchronized HD screenshot capture; derive edge tests by controller-input changes only.
+- Later Level 3 scenery and the boss remain unfinished. No release, approval, push or merge is implied.
+
+
 ## 0.10.2 — Randy during Breaker pickup (approved 2026-10-24)
 
 - Approve and merge PR #12 into main after explicit user authorization; preserve all 93 reviewed installation bytes.

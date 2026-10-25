@@ -1,6 +1,14 @@
 # Current status
 
-Updated: 2026-10-24 (America/New_York).
+Updated: 2026-10-25 (UTC).
+
+## Review candidate — 0.11.0, feature/level3-opening
+
+Builds the first three Level 3 rooms from the user's Mesen movie: forest approach, tree climb and masonry shaft. Adds the night forest panorama, wide-tree bark, three ember-creature forms and two crimson flyer forms. Reuses approved Randy/HUD/weapon poses, eyes and blue tears, ceiling bats, lava/ice, brown terrain, branches and nave masonry. The following corridor retains its original scenery while verified shared actor aliases also work there.
+
+Approved main remains 0.10.2. This candidate is not approved, pushed or merged. All 91 prior files other than hires.txt and installed README are byte-identical, and removing the marked Level 3 blocks restores the exact approved mapping bytes. The current expected manifest describes the candidate; evidence/0.10.2-pack-sha256.json retains approved main.
+
+The full recorded route supplies three-room traversal, both Randy costumes, combat, Blizzard, menus, and transition into the next corridor. A native-core movie harness now supports embedded-state .mmo inputs, continuous audio capture and a synchronized screenshot observer. See docs/LEVEL3_OPENING.md and evidence/level3_opening/ for measured results and remaining coverage limits. Later Level 3 scenery and its boss remain unfinished; the supplied recording is enough to start the next corridor batch without another recording.
 
 ## Approved baseline — 0.10.2, main
 
@@ -237,3 +245,5 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 - The earlier report of Randy fully reverting to original art during death was not independently reproduced. Shared defeat fallbacks exist, and current recorded death poses remain HD.
 - Old scripts remain for provenance. build.py is the supported build entry point.
 - Full historical capture runs/videos and original savestates remain in the prior source/handoff archives. The repository keeps compact evidence and exact rollback inputs.
+
+Remaining native artwork in the opening: the red spinning creature (068A–06AF family) and unmapped effects. This batch replaces the three rooms of scenery, selected new creatures and proven shared actors; it does not complete every Level 3 sprite. The existing recording covers this remaining work and the following corridor.
