@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "assets": [
+    {
+      "key": "stair",
+      "prompt": "Use case: stylized-concept. Asset type: production texture/sprite source for a dark Gothic 2D side-scrolling game at SNES/GBA quality. Generate ONE single rectangular dressed-stone stair tread block, straight-on side elevation, isolated on a transparent background. The object is a wide flat slab, approximately 4:1 width to height. It must read as an intentionally carved stair step, not rough cave rocks: flat level top with a narrow pale warm limestone/brass bevel, broad cool charcoal-blue cut-stone front face, one subtle recessed rectangular panel, crisp squared corners, weathered tool marks sparingly. Slight warm edge light against deep blue-black shadow below the lip. Keep geometry planar and rectangular, no perspective angle, no extra blocks, no stairs diagram, no text, no floor, no drop shadow outside silhouette, no glow. Strong simple forms readable when the whole object is reduced to 32 by 12 pixels. Generous transparent margin."
+    },
+    {
+      "key": "jug",
+      "prompt": "Use case: stylized-concept. Asset type: production game pickup sprite source for a dark Gothic 2D side-scrolling platformer. Generate ONE large health restoration flask with a short narrow neck, wide sturdy round red body, small loop handle on its right, and antique brass stopper, neck collar, handle and base. Isolated on truly transparent background. Straight-on front view, nearly square silhouette. Ruby-red opaque enamel vessel, not see-through glass: solid dark burgundy side shading, bright warm crimson central fill, ivory edge reflection and substantial brass outline so it stays readable in front of a bright red cavern. The empty hole inside the handle should be transparent but the bottle body must be fully opaque. Compact handsome SNES/GBA hand-painted pixel-art-inspired item, large clear shapes, no face, no symbols, no text, no external glow, no cast shadow, no other objects. Designed for reduction to a 30 by 30 pixel sprite with the handle included."
+    }
+  ]
+}

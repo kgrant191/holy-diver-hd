@@ -176,3 +176,25 @@ The whole native pattern bank matches the approved exterior. Static validation r
 ## Screen 2-4 stairs (0.7.1 candidate)
 
 The supplied end state exercises all twelve stair identities and the upper exit. `screen2_4_stairs_routes.json` and `verify_screen2_4_stairs.py` verify 1,800 paired frames/build, 900 exact native samples/type, equal full PCM/APU, changes confined to stair cells and 332 unchanged next-room pictures. See [SCREEN2_4_STAIRS.md](SCREEN2_4_STAIRS.md).
+
+## Screen 2-5 crimson cave (0.8.0 candidate)
+
+Use the same end state with `run_screen2_5_qa.py`, `screen2_5_routes.json` and `verify_screen2_5_qa.py`. Five routes pass 6,200 paired frames/build and 3,100 exact RAM/PPU/OAM/PPU-view samples per type, identical APU and full PCM, 76 exact black captures, 848 outside-room captures and 56 menu captures. All 300 final stair-walk pictures match 0.7.1. The panorama matches its source pixels in 211 sampled pictures; complete reused sprite matches cover the folded bat, eye and tear-DC. Other registered forms remain byte-preserved, without claiming fresh complete-sprite coverage.
+
+The runner adds actual PPU page/fine-scroll metadata at every capture: logical camera RAM remains stale at the room entrance and resets early during return. Source comparisons use the integer PPU positions traversed between adjacent two-frame samples. The live route reaches camera scroll 281 and the first bat/eye platforms, with both player directions, combat casts, Blizzard flashes, pause, death and return. It does not reach the far exit or establish a new lava freeze test. See [SCREEN2_5.md](SCREEN2_5.md) for exact commands and coverage. The install ZIP passes CRC/root-layout and all 88 expected SHA-256 checks; Actions awaits the user's source-bundle push.
+
+## Cave visual review (0.8.1 candidate)
+
+Run `screen2_5_review_routes.json` through `run_screen2_5_qa.py`, then `verify_screen2_5_review.py`. Five paired routes pass 6,800 frames/build and 3,400 exact RAM/PPU/OAM/PPU-view samples/type, identical full PCM/APU, 80 black captures, 259 outside-room pictures, 56 menu pictures, 25,569 gold floor-body cell checks and 352 complete stair-source matches. The stair alpha contours equal 0.8.0; 2-4 changes are confined to those cells. The extended route reaches camera scroll 482 and the hot lava fall before death/return. The far exit remains unverified.
+
+The handled health jug is not reached. `health_jug_static.json` records native CHR identity, geometry and binary-alpha/opaque-body checks, without claiming a live pickup or collection. A save at that jug is needed to close the live coverage gap. Exact commands, sources, scope and remaining limits are in [SCREEN2_5_REVIEW.md](SCREEN2_5_REVIEW.md). The ZIP passes all 89 expected hashes, CRC and root-layout checks.
+
+## Readable cave ceiling (0.8.2 candidate)
+
+Use `screen2_5_roof_routes.json` with `run_screen2_5_qa.py`, comparing the final 0.8.1 and 0.8.2 packs through `verify_screen2_5_roof.py`. The 6,800 paired frames/build preserve 3,400 RAM/PPU/OAM/PPU-view samples per type, every APU write and all full PCM bytes (zero shutdown-tail difference). All 300 stair captures remain exact. The verifier restricts image changes to the 46 roof identities, preserving gold floor cells through their cap-above conditions; it handles partial left-edge tiles and measured PPU scroll phases. Runtime matches cover 12 roof identities and 143 complete folded bats against ceiling geometry. Static validation preserves all 46 old alpha contours and every one of the 87 prior runtime assets.
+
+Inspect the actual bat attachment and low-overhang captures, not only the source atlas. All 1,652 changed pictures stay inside ceiling cells; 1,748 pictures remain exact, including 80 black, 1,479 outside-room and 56 menu pictures. Source checks include 67,420 roof-cell matches and 26,391 unchanged gold floor-body cells. The native jump is interrupted under the restored overhang with identical Y progression. The silent video labels that segment half speed. Exact commands, results and remaining coverage limits are in [SCREEN2_5_ROOF.md](SCREEN2_5_ROOF.md). The ZIP passes all 90 hashes, CRC and flat-layout checks. Actions awaits source push.
+
+## Original brown ceiling restoration (0.8.3 candidate)
+
+Use the unchanged `screen2_5_roof_routes.json` with the same runner and save. `verify_screen2_5_brown_roof.py` compares fresh 0.8.3 captures against the retained final 0.8.1 baseline, requiring exact native state/audio, unchanged stairs/platforms, ceiling-only image changes and exact original brown source pixels. The 6,800 paired frames pass all checks; all 300 stair captures remain identical. See [SCREEN2_5_BROWN_ROOF.md](SCREEN2_5_BROWN_ROOF.md) for full counts and bounded coverage. Static validation checks all 46 original atlas-cell references and all 87 previous runtime hashes. The ZIP has 89 root files and no rejected ceiling atlas. Actual preview images compare 0.8.2 with 0.8.3; the head-bump video is labeled half speed.

@@ -1,0 +1,179 @@
+{
+  "baseline": "0.8.1",
+  "candidate": "0.8.3",
+  "controller_only": true,
+  "ram_writes": false,
+  "capture_stride": 2,
+  "cases": {
+    "stair_walk": {
+      "frames": 600,
+      "input": {
+        "state_sha256": "8a67bbf57e6d756e36f4f6f42934d27b40c6266d95f6fc24118244c89e53ee40",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=frame>=20 and frame<160,left=frame>=200 and frame<400},0)"
+      },
+      "identical_samples_per_native_type": 300,
+      "apu_sha256": "2b6f85ef3846c8bde835f7651e8c0ae7671a750baea7e995998df8bcd9753ef8",
+      "identical_pcm_bytes": 1916844,
+      "shutdown_tail_bytes": 0,
+      "max_camera_scroll": 0,
+      "exact_images": 300,
+      "exact_outside_room_images": 300,
+      "exact_stair_walk_images": 300
+    },
+    "traversal": {
+      "frames": 1600,
+      "input": {
+        "state_sha256": "8a67bbf57e6d756e36f4f6f42934d27b40c6266d95f6fc24118244c89e53ee40",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "local m=emu.memType.nesInternalRam\nlocal room=emu.read(0x78,m)+256*emu.read(0x79,m)\nlocal st=emu.read(0x300,m)\nlocal sc=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal x=emu.read(0x4e0,m)\nlocal y=emu.read(0x4f0,m)\nlocal keys={}\nif frame<260 then\n keys.left=frame>=20 and frame<155\n keys.a=(frame>=20 and frame<55)or(frame>=85 and frame<120)\nelseif room==0x8d9d then\n if sc<768 then cameraReady=true end\n local wx=x+(cameraReady and sc or 0)\n local function tile(xx,yy)\n  xx=(xx+(cameraReady and 0 or 256))%512;yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x47 and t<=0x4a)or(t>=0x75 and t<=0x80)end\n if not jumpAt then jumpAt=260 end\n local ahead=solid(tile(wx+8,y+1));local wall=solid(tile(wx+40,y-12))\n if st<2 and frame-jumpAt>65 and (not ahead or wall) then jumpAt=frame end\n local age=frame-jumpAt\n keys.right=age>=13\n keys.a=age>=3 and age<(wx>=280 and 15 or 33)\n if wx>=280 then keys.right=age>=4 end\n if st<2 and not ahead and age>30 and age<=65 then keys.right=false end\n keys.b=false\nend\nemu.setInput(keys,0)"
+      },
+      "identical_samples_per_native_type": 800,
+      "apu_sha256": "64e8a213401f0022292fdc1142d16275519dc11aac27640984f003f26be72ec7",
+      "identical_pcm_bytes": 5111584,
+      "shutdown_tail_bytes": 0,
+      "max_camera_scroll": 281,
+      "exact_images": 474,
+      "exact_outside_room_images": 376,
+      "exact_black_images": 7,
+      "changed_images": 326,
+      "exact_gold_floor_cells": 5638,
+      "exact_ceiling_cells": 12636,
+      "complete_folded_bat_matches": 25,
+      "bat_ceiling_contacts": 25
+    },
+    "freeze_thaw": {
+      "frames": 1600,
+      "input": {
+        "state_sha256": "8a67bbf57e6d756e36f4f6f42934d27b40c6266d95f6fc24118244c89e53ee40",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({left=frame>=20 and frame<155,a=(frame>=20 and frame<55)or(frame>=85 and frame<120),select=frame>=320 and frame<324,b=frame>=350 and frame<354},0)"
+      },
+      "identical_samples_per_native_type": 800,
+      "apu_sha256": "dc0887c2a765de238cf4f53f9a8c893cc9b3f24264571abaae47f7eb41f72a38",
+      "identical_pcm_bytes": 5111584,
+      "shutdown_tail_bytes": 0,
+      "max_camera_scroll": 0,
+      "exact_images": 111,
+      "exact_outside_room_images": 45,
+      "exact_black_images": 64,
+      "changed_images": 689,
+      "exact_gold_floor_cells": 10412,
+      "exact_ceiling_cells": 30034,
+      "complete_folded_bat_matches": 69,
+      "bat_ceiling_contacts": 69
+    },
+    "menu": {
+      "frames": 600,
+      "input": {
+        "state_sha256": "8a67bbf57e6d756e36f4f6f42934d27b40c6266d95f6fc24118244c89e53ee40",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({left=frame>=20 and frame<155,a=(frame>=20 and frame<55)or(frame>=85 and frame<120),start=(frame>=400 and frame<404)or(frame>=540 and frame<544),right=frame>=440 and frame<444,left=frame>=480 and frame<484},0)"
+      },
+      "identical_samples_per_native_type": 300,
+      "apu_sha256": "e2a1a346d965e17e868ca7402a717cc70c95b049f985d25a7b8487767e5a4625",
+      "identical_pcm_bytes": 1916844,
+      "shutdown_tail_bytes": 0,
+      "max_camera_scroll": 0,
+      "exact_images": 88,
+      "exact_outside_room_images": 82,
+      "exact_black_images": 3,
+      "changed_images": 212,
+      "exact_gold_floor_cells": 3014,
+      "exact_ceiling_cells": 9439,
+      "complete_folded_bat_matches": 22,
+      "bat_ceiling_contacts": 22,
+      "exact_menu_images": 56
+    },
+    "extended_traversal": {
+      "frames": 2400,
+      "input": {
+        "state_sha256": "8a67bbf57e6d756e36f4f6f42934d27b40c6266d95f6fc24118244c89e53ee40",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "local m=emu.memType.nesInternalRam\nlocal room=emu.read(0x78,m)+256*emu.read(0x79,m)\nlocal st=emu.read(0x300,m)\nlocal sc=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal x=emu.read(0x4e0,m)\nlocal y=emu.read(0x4f0,m)\nlocal keys={}\nif frame<260 then\n keys.left=frame>=20 and frame<155\n keys.a=(frame>=20 and frame<55)or(frame>=85 and frame<120)\nelseif room==0x8d9d then\n if sc<768 then cameraReady=true end\n local wx=x+(cameraReady and sc or 0)\n local function tile(xx,yy)\n  xx=(xx+(cameraReady and 0 or 256))%512;yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x47 and t<=0x4a)or(t>=0x75 and t<=0x80)end\n if not jumpAt then jumpAt=260 end\n local ahead=solid(tile(wx+8,y+1));local wall=solid(tile(wx+40,y-12))\n if st<2 and frame-jumpAt>65 and ((wx<360 and (not ahead or wall)) or (wx>=360 and wx%64>=62)) then jumpAt=frame end\n local age=frame-jumpAt\n keys.right=age>=13\n keys.a=age>=3 and age<(wx>=280 and wx<360 and 15 or 33)\n if wx>=280 then keys.right=age>=4 end\n if st<2 and not ahead and age>30 and age<=65 then keys.right=false end\n keys.b=false\nend\nemu.setInput(keys,0)"
+      },
+      "identical_samples_per_native_type": 1200,
+      "apu_sha256": "affdb049622f27059f9d361bd47e8baa68160fdacd4937b752169a857986fbab",
+      "identical_pcm_bytes": 7667372,
+      "shutdown_tail_bytes": 0,
+      "max_camera_scroll": 482,
+      "exact_images": 775,
+      "exact_outside_room_images": 676,
+      "exact_black_images": 6,
+      "changed_images": 425,
+      "exact_gold_floor_cells": 7327,
+      "exact_ceiling_cells": 15311,
+      "complete_folded_bat_matches": 27,
+      "bat_ceiling_contacts": 27
+    }
+  },
+  "total_frames_per_build": 6800,
+  "native_samples_per_type": 3400,
+  "observed_ceiling_identities": {
+    "0332": 14063,
+    "0330": 14063,
+    "0333": 14062,
+    "0331": 14062,
+    "0381": 876,
+    "0383": 876,
+    "0382": 882,
+    "0384": 882,
+    "035B": 2582,
+    "035D": 2582,
+    "035C": 2579,
+    "035E": 2579
+  },
+  "bat_attachment_examples": [
+    {
+      "case": "traversal",
+      "frame": 120,
+      "bat_box": [
+        368,
+        144,
+        400,
+        192
+      ]
+    },
+    {
+      "case": "traversal",
+      "frame": 140,
+      "bat_box": [
+        368,
+        144,
+        400,
+        192
+      ]
+    },
+    {
+      "case": "traversal",
+      "frame": 160,
+      "bat_box": [
+        368,
+        144,
+        400,
+        192
+      ]
+    }
+  ],
+  "head_bump_example": {
+    "case": "extended_traversal",
+    "frames": [
+      620,
+      622,
+      624,
+      626,
+      628
+    ],
+    "feet_y": [
+      150,
+      145,
+      140,
+      140,
+      141
+    ],
+    "jump_button_still_held_in_route": true
+  },
+  "unchanged_prior_runtime_files": 87,
+  "pack_files": 89,
+  "approved_stairs_unchanged": true
+}

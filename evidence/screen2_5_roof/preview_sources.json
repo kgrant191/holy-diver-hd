@@ -1,0 +1,58 @@
+{
+  "baseline": "0.8.1",
+  "candidate": "0.8.2",
+  "stills": [
+    [
+      "Solid foreground ceiling / visible bat attachment",
+      "traversal",
+      200
+    ],
+    [
+      "Low overhang / native head-bump position",
+      "extended_traversal",
+      624
+    ]
+  ],
+  "clips": [
+    [
+      "traversal",
+      100,
+      240,
+      "Bats hang from a solid foreground ceiling",
+      1
+    ],
+    [
+      "extended_traversal",
+      540,
+      650,
+      "Low ceiling and head bumps / half speed",
+      2
+    ],
+    [
+      "extended_traversal",
+      700,
+      840,
+      "Ceiling silhouette at the lava-fall approach",
+      1
+    ],
+    [
+      "stair_walk",
+      20,
+      180,
+      "Approved stairs remain unchanged",
+      1
+    ],
+    [
+      "freeze_thaw",
+      340,
+      500,
+      "Native Blizzard flashes preserved",
+      1
+    ]
+  ],
+  "fps": 30,
+  "capture_stride": 2,
+  "retouched": false,
+  "audio": false,
+  "head_bump_clip_speed": 0.5
+}

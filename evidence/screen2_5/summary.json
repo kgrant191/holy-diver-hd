@@ -1,0 +1,40 @@
+{
+  "baseline": "0.7.1",
+  "candidate": "0.8.0",
+  "controller_only": true,
+  "ram_writes": false,
+  "total_frames_per_build": 6200,
+  "native_samples_per_type": 3100,
+  "exact_black_images": 76,
+  "exact_outside_room_images": 848,
+  "exact_panorama_images": 211,
+  "complete_sprite_matches": {
+    "bat_folded/native": 190,
+    "eye/native": 11,
+    "tear_DC/native": 11
+  },
+  "unchanged_prior_runtime_files": 84,
+  "pack_files": 88,
+  "stair_repair_frames_per_build": 1800,
+  "stair_repair_samples_per_type": 900,
+  "all_native_audio_equal": true,
+  "maximum_2_5_camera_scroll": 281,
+  "far_2_5_exit_verified": false,
+  "uninterrupted_2_4_traversal_verified": false,
+  "source_files": {
+    "art/generated/screen2_5_background_generated.png": "3451d5c6a46b39c967abb5f7cc3febfb8716e60f37dc093196e95f7db34967e5",
+    "art/generated/screen2_5_background_prompt.json": "659e50d36ceffe971891de54447d8dad56c546ea25380a6430e3a63fac8c8a8c",
+    "art/generated/screen2_5_crimson_generated.png": "d58b54aa4bc391368451dfaf5639bfb1a2697b2be282e3e7247f49f7a530fc12",
+    "art/generated/screen2_5_crimson_prompt.json": "19538d8cde19f21363e7ca53f19ceb0ffebc65041c6d0d6310b7149833ecd5ff"
+  },
+  "preview_files": {
+    "comparison.png": {
+      "bytes": 809475,
+      "sha256": "3f0d7d85f85fcdac63c6d3a6143b9269ccaaf885ad4c2ef6484df1d0c8cdd588"
+    },
+    "review.mp4": {
+      "bytes": 2985794,
+      "sha256": "78b1dfc8a42bf462f5672f3376d464309b2b11dcd4e6a671d8b42cc79a629110"
+    }
+  }
+}

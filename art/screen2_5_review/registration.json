@@ -1,0 +1,849 @@
+{
+  "tile_rules": 548,
+  "conditions": 87,
+  "atlas_cells": 29,
+  "mappings": [
+    {
+      "identity": "0375",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0375",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0376",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0376",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0377",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0377",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0378",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0378",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0379",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0379",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037A",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037A",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037B",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037B",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037C",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037C",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037D",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037D",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037E",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037E",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037F",
+      "palette": "0F071737",
+      "atlas": [
+        128,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "037F",
+      "palette": "0F071737",
+      "atlas": [
+        128,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0380",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        0
+      ],
+      "scope": "s24Room&s24DataLo&s24DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0380",
+      "palette": "0F071737",
+      "atlas": [
+        144,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "carved stair tread"
+    },
+    {
+      "identity": "0371",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "0372",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "0373",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "0374",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "036D",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "0370",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "03A3",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "03A4",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "03A5",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "03A6",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "03A7",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "034F",
+      "palette": "0F061626",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "red decoration removed"
+    },
+    {
+      "identity": "0330",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "0331",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "0332",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "0333",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "0381",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "0382",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "0383",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "0384",
+      "palette": "0F071737",
+      "atlas": [
+        160,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "ceiling fill removed; floor bodies retained above"
+    },
+    {
+      "identity": "035B",
+      "palette": "0F071737",
+      "atlas": [
+        176,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "035C",
+      "palette": "0F071737",
+      "atlas": [
+        192,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "035D",
+      "palette": "0F071737",
+      "atlas": [
+        208,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "035E",
+      "palette": "0F071737",
+      "atlas": [
+        224,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0369",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "036A",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "036B",
+      "palette": "0F071737",
+      "atlas": [
+        16,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "036C",
+      "palette": "0F071737",
+      "atlas": [
+        32,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "038F",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0390",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0391",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0392",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0393",
+      "palette": "0F071737",
+      "atlas": [
+        240,
+        0
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0394",
+      "palette": "0F071737",
+      "atlas": [
+        0,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0395",
+      "palette": "0F071737",
+      "atlas": [
+        48,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0396",
+      "palette": "0F071737",
+      "atlas": [
+        64,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0397",
+      "palette": "0F071737",
+      "atlas": [
+        80,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0398",
+      "palette": "0F071737",
+      "atlas": [
+        96,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0399",
+      "palette": "0F071737",
+      "atlas": [
+        112,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "039A",
+      "palette": "0F071737",
+      "atlas": [
+        128,
+        16
+      ],
+      "scope": "s25Room&s25DataLo&s25DataHi",
+      "kind": "slim overhead boundary"
+    },
+    {
+      "identity": "0276",
+      "palette": "FF301116",
+      "atlas": [
+        144,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0277",
+      "palette": "FF301116",
+      "atlas": [
+        160,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0278",
+      "palette": "FF301116",
+      "atlas": [
+        176,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0279",
+      "palette": "FF301116",
+      "atlas": [
+        192,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "068E",
+      "palette": "FF301116",
+      "atlas": [
+        144,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "068F",
+      "palette": "FF301116",
+      "atlas": [
+        160,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0690",
+      "palette": "FF301116",
+      "atlas": [
+        176,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0691",
+      "palette": "FF301116",
+      "atlas": [
+        192,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0A8E",
+      "palette": "FF301116",
+      "atlas": [
+        144,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0A8F",
+      "palette": "FF301116",
+      "atlas": [
+        160,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0A90",
+      "palette": "FF301116",
+      "atlas": [
+        176,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0A91",
+      "palette": "FF301116",
+      "atlas": [
+        192,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0C8E",
+      "palette": "FF301116",
+      "atlas": [
+        144,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0C8F",
+      "palette": "FF301116",
+      "atlas": [
+        160,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0C90",
+      "palette": "FF301116",
+      "atlas": [
+        176,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "0C91",
+      "palette": "FF301116",
+      "atlas": [
+        192,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "129A",
+      "palette": "FF301116",
+      "atlas": [
+        144,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "129B",
+      "palette": "FF301116",
+      "atlas": [
+        160,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "129C",
+      "palette": "FF301116",
+      "atlas": [
+        176,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    },
+    {
+      "identity": "129D",
+      "palette": "FF301116",
+      "atlas": [
+        192,
+        16
+      ],
+      "scope": null,
+      "kind": "opaque handled health jug"
+    }
+  ],
+  "previous_runtime_assets_modified": false,
+  "collision_modified": false
+}

@@ -1,0 +1,36 @@
+{
+  "version": "0.8.2",
+  "baseline": "0.8.1",
+  "frames_per_build": 6800,
+  "native_samples_per_type": 3400,
+  "identical_pcm_bytes": 21724228,
+  "shutdown_tail_bytes": 0,
+  "exact_images": 1748,
+  "exact_outside_room_images": 1479,
+  "exact_stair_walk_images": 300,
+  "exact_black_images": 80,
+  "changed_images": 1652,
+  "exact_gold_floor_cells": 26391,
+  "exact_ceiling_cells": 67420,
+  "complete_folded_bat_matches": 143,
+  "bat_ceiling_contacts": 143,
+  "exact_menu_images": 56,
+  "registered_ceiling_identities": 46,
+  "observed_ceiling_identities": 12,
+  "max_camera_scroll": 482,
+  "previous_runtime_assets_unchanged": 87,
+  "installed_files": 90,
+  "visual_review": [
+    "Restored opaque roof clearly separates solid terrain from the red panorama.",
+    "Folded bats hang against visible stone.",
+    "Low overhang remains visible when the jump is cut short.",
+    "Gold platforms and accepted stairs remain exact."
+  ],
+  "limits": [
+    "Far screen 2-5 exit not reached.",
+    "Uninterrupted middle of screen 2-4 remains unverified.",
+    "Handled health jug live pickup not reached; existing art and mappings unchanged.",
+    "Freeze route covers entrance spell flashes, not a fresh frozen-lava crossing."
+  ],
+  "approval_scope": "0.8.1 stair appearance only; overall candidate still under review; no merge or release authorization"
+}

@@ -1,11 +1,18 @@
-HOLY DIVER HD 0.7.1 — DEVELOPMENT REVIEW CANDIDATE
-Stage 2, screen 4 stair repair. Based on the 0.7.0 review candidate.
+HOLY DIVER HD 0.8.3 — DEVELOPMENT REVIEW CANDIDATE
+Stage 2 cave ceiling: original brown artwork and unchanged approved stairs.
 
-Registers all twelve stair tiles with the existing gold texture and native edges.
+Restores the exact original brown ceiling artwork and full overhead silhouette,
+so head-bump boundaries and bat attachment points are visible.
+Keeps the red cave panorama, gold platforms and removal of foreground red rocks.
+Preserves the previously added opaque red/brass handled health jug.
+
+The user accepted the cut-stone stairs; their artwork remains byte-identical.
+
+Earlier included features:
 
 Reuses the approved cave backdrop, gold terrain, winged demons, downward arrows,
-pulsing rock enemies, lava/ice, player, pickups and HUD. Adds native ceiling
-shape registration using the existing gold texture. No new painted source art.
+pulsing rock enemies, lava/ice, player, pickups and HUD. The earlier screen 2-4
+ceiling registration reuses its existing gold texture.
 Native collision, controller behavior, timing and audio remain unchanged.
 
 0.6.1 added the approved screen 3 vertical cave and blue tears.

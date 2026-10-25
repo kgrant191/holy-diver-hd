@@ -61,3 +61,19 @@ The new enemy is a floating eye, with a compact ivory eyeball, teal iris/pupil a
 ## Stage 2 second horizontal cave (0.7.0 candidate)
 
 Reuse the approved cave panorama, gold terrain, brown winged demons and downward arrows, faceless pulsing pink/red rocks, and lava/ice. The complete native pattern bank matches the exterior. New ceiling cells use the accepted gold texture and native lower-edge masks. Clear the nonsolid red/ochre wall motif to expose the cave. Preserve native flips, sprite footprints and terrain boundaries. See `SCREEN2_4.md`; this screen introduces no new painted source.
+
+## Stage 2 crimson cave (0.8.0 candidate)
+
+Keep this room distinctly red: broad carnelian stalactites, coral-lit mineral edges, dark burgundy recesses and distant plum silhouettes. The initial small repeating flowstone registration looked too tight in live play; represent that nonsolid wall layer with the full panorama instead. Keep brighter crimson foreground columns within their native outlines, using broad source facets and side shading for depth. Gold terrain/stairs, bats and eyes/blue tears reuse approved assets. The earlier caves and their backgrounds remain exact. Sources and built-in image-generation prompts are under `art/generated/screen2_5_*`; runtime registration is in `scripts/build_screen2_5.py`.
+
+## Cave visual review (0.8.1 candidate; supersedes the foreground direction above)
+
+The user rejected the rock-textured stairs, repeated red columns and heavy brown ceiling hiding the stronger red backdrop. Use pale-edged cut-stone steps with cool dark faces, retaining native contours. Remove the red columns and ceiling fill; keep gold platforms and only slim dark crimson overhead boundaries. Do not add coral in their place: the selected direction is the open existing panorama. The newly identified handled health jug uses opaque ruby enamel and brass edging/handle so the vessel reads against red scenery. It is separate from the accepted two-tile HP/Magic bottles, which stay exact. Built-in source images and exact prompts are under `art/generated/screen2_5_*`; registrations and user references are under `art/screen2_5_review/`. See `SCREEN2_5_REVIEW.md` for the live-check limits.
+
+## Readable ceiling (0.8.2 candidate; supersedes the roof direction above)
+
+The user accepted the 0.8.1 stairs but found the transparent roof and thin outline insufficient: the player can bump their head, and bats need a visible surface to hang from. Keep the stairs exact and restore the complete foreground ceiling silhouette. Use dense charcoal/plum stone with subdued red reflections and a readable lower edge, separate from the brighter crimson panorama. Preserve gold ground platforms and removal of the rejected red foreground columns. Readability of physical obstacles takes priority over exposing more background. Source and exact built-in image-generation prompt: `art/generated/screen2_5_roof_generated.png` and `screen2_5_roof_prompt.json`; registration: `scripts/build_screen2_5_roof.py`.
+
+## Original brown ceiling (0.8.3; supersedes the charcoal/plum roof)
+
+The user rejected the 0.8.2 treatment: "no lets go back to what we had originally with the brown". Restore the exact original 0.8.0 brown ceiling pixels, native shapes and registrations. Keep the accepted 0.8.1 cut-stone stairs, red background and removed red columns. Reuse the existing atlas sources recorded in `art/screen2_5_roof/previous_geometry.json`; do not generate or recolor a replacement.

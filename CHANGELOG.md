@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.8.3 — Original brown ceiling restored (2026-10-24)
+
+- Restore the original brown ceiling by referencing its exact existing artwork in all 46 ceiling identities; remove the rejected charcoal/plum atlas from the build.
+- Preserve the accepted stairs, red cave panorama, gold platforms, health jug and removal of red columns. All 87 runtime assets from 0.8.1 remain byte-identical.
+- Return the install pack to 89 root files. Main remains approved 0.6.1; this candidate remains under review.
+
+## 0.8.2 — Readable cave ceiling candidate (2026-10-24)
+
+- Restore the full screen 2-5 ceiling silhouette in dark charcoal/plum stone with a visible lower edge, making low overhangs and bat attachment points clear.
+- Preserve the user-accepted 0.8.1 cut-stone stairs, red panorama, gold platforms, enemies, health jug and removal of red foreground columns.
+- Add one ceiling atlas and scoped overrides; all 87 previous runtime assets stay byte-identical (90 installed root files).
+- Keep the overall candidate unmerged and under review; main remains approved 0.6.1.
+
+## 0.8.1 — Cave visual review candidate (2026-10-24)
+
+- Replace rock-textured stairs in 2-4/2-5 with cut-stone steps and pale tread edges.
+- Remove foreground red columns and heavy brown ceiling fill in 2-5, exposing the accepted crimson panorama while preserving gold platforms and slim overhead boundaries.
+- Map the previously uncovered four-tile handled health jug to opaque red/brass artwork, shared across five byte-identical native CHR groups.
+- Preserve all 86 previous runtime assets, native gameplay and audio; add one atlas (89 installed root files).
+- Keep both review branches unmerged; approved main remains 0.6.1.
+
+## 0.8.0 — Screen 2-5 crimson cave candidate (2026-10-24)
+
+- Add a deep crimson cavern panorama with large mineral formations and shaded red foreground columns.
+- Reuse approved gold terrain, bats, eyes with blue tears, lava/ice and shared player/HUD assets through 359 aliases.
+- Include the 0.7.1 stair repair; preserve all 84 previous runtime files.
+- Keep both review branches unmerged; main remains approved 0.6.1.
+
 ## 0.7.1 — Screen 2-4 stair repair candidate (2026-10-24)
 
 - Register twelve original stair tiles using approved gold texture and native outer contours.

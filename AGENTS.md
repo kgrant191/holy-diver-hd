@@ -2,9 +2,9 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
-## Active review branch
+## Active review branches
 
-- `feature/screen2-4` contains 0.7.1 for review. Approved main remains 0.6.1. Read `docs/SCREEN2_4.md` for reuse, input hashes and bounded live coverage; the separate stair repair verifies the upward exit from the new end state (`docs/SCREEN2_4_STAIRS.md`). Do not describe the candidate as approved or the full middle-room traversal as tested.
+- `feature/screen2-4` contains the earlier 0.7.1 stair repair; `feature/screen2-5` contains the 0.8.3 brown-ceiling restoration. Approved main remains 0.6.1. On 2026-10-24 the user accepted the 0.8.1 cut-stone stairs ("stairs look good"); preserve their exact bytes. They rejected the 0.8.2 charcoal/plum ceiling and requested the original brown ceiling. Restore the exact earlier brown atlas cells, without recoloring or generating replacements. Foreground red columns remain removed. See `docs/SCREEN2_5_BROWN_ROOF.md`. The overall build remains under review; neither stair acceptance nor the roof restoration authorizes merging.
 
 ## Preserve approved behavior
 

@@ -1,0 +1,11 @@
+{
+  "version": "0.8.1",
+  "file_count": 89,
+  "root_layout": true,
+  "nested_zip": false,
+  "crc_passed": true,
+  "all_expected_sha256_match": true,
+  "zip_bytes": 13457975,
+  "zip_sha256": "54dda6e01bb20e27124c914a865f3e7f5095547b4158ea5996cb46120769a7b3",
+  "github_actions_artifact_verified": false
+}

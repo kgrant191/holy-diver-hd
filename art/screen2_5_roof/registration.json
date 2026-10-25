@@ -1,0 +1,708 @@
+{
+  "scope": "s25Room&s25DataLo&s25DataHi",
+  "tile_rules": 510,
+  "floor_preservation_rules": 464,
+  "ceiling_identities": 46,
+  "atlas_cells": 14,
+  "source_crop": [
+    0,
+    0,
+    209,
+    209
+  ],
+  "mappings": [
+    {
+      "identity": "0330",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Exterior_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0331",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Exterior_Tiles_2x.png",
+        "xy": [
+          64,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0332",
+      "atlas": [
+        32,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Exterior_Tiles_2x.png",
+        "xy": [
+          80,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0333",
+      "atlas": [
+        48,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Exterior_Tiles_2x.png",
+        "xy": [
+          96,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "034B",
+      "atlas": [
+        48,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Exterior_Tiles_2x.png",
+        "xy": [
+          304,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "034C",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Exterior_Tiles_2x.png",
+        "xy": [
+          320,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "034D",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Exterior_Tiles_2x.png",
+        "xy": [
+          336,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0350",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0351",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0352",
+      "atlas": [
+        32,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0353",
+      "atlas": [
+        48,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0354",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0355",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0356",
+      "atlas": [
+        32,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0357",
+      "atlas": [
+        48,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0358",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0359",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "035A",
+      "atlas": [
+        32,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "035B",
+      "atlas": [
+        64,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "035C",
+      "atlas": [
+        80,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "035D",
+      "atlas": [
+        96,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "035E",
+      "atlas": [
+        112,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Cave_Tiles_2x.png",
+        "xy": [
+          64,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0369",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "036A",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "036B",
+      "atlas": [
+        128,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "036C",
+      "atlas": [
+        144,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0381",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0382",
+      "atlas": [
+        32,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0383",
+      "atlas": [
+        48,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0384",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0385",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0386",
+      "atlas": [
+        32,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0387",
+      "atlas": [
+        48,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0388",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "038F",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0390",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0391",
+      "atlas": [
+        128,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0392",
+      "atlas": [
+        144,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0393",
+      "atlas": [
+        0,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          48,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0394",
+      "atlas": [
+        16,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          0,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0395",
+      "atlas": [
+        128,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          16,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0396",
+      "atlas": [
+        144,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          32,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0397",
+      "atlas": [
+        160,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          64,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0398",
+      "atlas": [
+        176,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          80,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "0399",
+      "atlas": [
+        192,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          96,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    },
+    {
+      "identity": "039A",
+      "atlas": [
+        208,
+        0
+      ],
+      "previous_source": {
+        "image": "Stage2_Second_Cave_Tiles_2x.png",
+        "xy": [
+          112,
+          0
+        ]
+      },
+      "alpha_unchanged": true
+    }
+  ],
+  "collision_modified": false,
+  "stairs_modified": false,
+  "previous_runtime_assets_modified": false
+}

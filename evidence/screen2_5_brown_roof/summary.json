@@ -1,0 +1,33 @@
+{
+  "version": "0.8.3",
+  "baseline": "0.8.1",
+  "frames_per_build": 6800,
+  "native_samples_per_type": 3400,
+  "identical_pcm_bytes": 21724228,
+  "shutdown_tail_bytes": 0,
+  "exact_images": 1748,
+  "exact_outside_room_images": 1479,
+  "exact_stair_walk_images": 300,
+  "exact_black_images": 80,
+  "changed_images": 1652,
+  "exact_gold_floor_cells": 26391,
+  "exact_ceiling_cells": 67420,
+  "complete_folded_bat_matches": 143,
+  "bat_ceiling_contacts": 143,
+  "exact_menu_images": 56,
+  "registered_original_ceiling_cells": 46,
+  "observed_ceiling_identities": 12,
+  "original_artwork_reused_exactly": true,
+  "accepted_stairs_unchanged": true,
+  "installed_files": 89,
+  "previous_runtime_assets_unchanged": 87,
+  "coverage": "Stairs, entrance, bats, low overhang, eyes, hot lava fall at scroll 482, Blizzard flashes, menu, death/return.",
+  "limits": [
+    "Far screen 2-5 exit not reached.",
+    "Uninterrupted middle of screen 2-4 remains unverified.",
+    "Handled health jug live pickup not reached.",
+    "No new frozen-lava crossing test."
+  ],
+  "visual_review": "Actual captures show original brown roof at hanging bats and low overhang; gold platforms, red cave background and approved stairs retained.",
+  "approval": "Brown ceiling restoration requested; overall build still under review; no merge/release authorized."
+}

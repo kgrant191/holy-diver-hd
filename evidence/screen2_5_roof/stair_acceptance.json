@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24",
+  "user_statement": "stairs look good",
+  "scope": "cut-stone stairs only; overall candidate remains under review",
+  "reviewed_commit": "d8c96d123c2ea19756ab80fdb0bde3a50bdcaa14",
+  "sha256": {
+    "art/generated/screen2_5_stair_tread_generated.png": "fe34cf565223797a940c41fa81f372ea6725e6505f573b1ee4c878e39170dd62",
+    "art/screen2_5_review/stair_0375.png": "b71392fd863694791971215f5736444a4ebd10b8f396244a3ccbbfb25dbbf83d",
+    "art/screen2_5_review/stair_0379.png": "e37ccae8af1bdb13557090b03150830c8bda78fc346ebe822ad9d51b60d331e2",
+    "art/screen2_5_review/stair_037D.png": "0ed4261890d7183f96efa8380b602790118256c6b8b4c43cf3a5f07bd11592bd",
+    "art/screen2_5_review/Stage2_Cave_Review_2x.png": "6fc0c6e57ce34fb7c1f6ae1e3c5899c0b96f92a44c025711a9649484564c845f"
+  },
+  "merge_authorized": false
+}
