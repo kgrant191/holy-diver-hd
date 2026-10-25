@@ -2,6 +2,8 @@
 
 Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.10.1 on `feature/2-boss` (2026-10-24); main: 0.6.1 pending source adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
+The approved work is published in stacked PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8) → [#9](https://github.com/kgrant191/holy-diver-hd/pull/9) → [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) → [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). Initial Actions builds and all four downloaded installation artifacts pass independent hash/layout checks. See STATUS.md for adoption details.
+
 **Boss defeat/pickup repair (0.10.1).** Keeps the HD boss through both gold defeat-fade palettes and removes its outline during the Breaker pickup flash. All other artwork and native gameplay/audio remain intact. See [repair verification](docs/BOSS2_REVIEW.md).
 
 **Level 2 boss and Breaker (0.10.0).** Adds the complete wall-root demon, native hit/defeat palette phases, a new Breaker tome and its announcement. Reuses the existing cave, brown rock texture, actor poses, HUD and fireball. The supplied state supports a controller-only victory and collection route through the existing Stage 3 title card. See [boss notes](docs/BOSS2.md).

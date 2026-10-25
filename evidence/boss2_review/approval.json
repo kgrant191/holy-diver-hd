@@ -10,5 +10,6 @@
   "all_reviewed_pack_bytes_preserved": true,
   "install_zip_sha256": "1ee94f603fedd22e1b320b19add7d9320665ede4ed14727339834825edfab10d",
   "scope": "Level 2 boss appearance, Breaker presentation and both defeat/pickup repairs accepted.",
-  "remote_adoption": "Four feature branches remain unpublished; main verified at 5fdae8a88920ad6612d9f01ee913d85af6837209. Source push, PR and Actions workflow pending."
+  "remote_adoption": "Published in PR #11, stacked on PRs #8\u2013#10. Initial Actions builds and all four downloaded artifacts verified. Main remains 0.6.1; merge pending.",
+  "pull_request": 11
 }

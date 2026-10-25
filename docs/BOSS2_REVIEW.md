@@ -87,5 +87,6 @@ coverage limits remain; this repair does not test every later use of Breaker.
 
 The source ZIP includes all four pending feature refs through `feature/2-boss`
 against main 0.6.1, with exact Downloads-based fetch/push commands. Earlier
-branches remain unchanged. User push, PRs and Actions artifact verification
-remain pending. The user approved 0.10.1 on 2026-10-24; the approval record preserves every reviewed installation byte. No merge or release has been performed.
+branches remain unchanged. All four branches are published as stacked PRs #8–#11. Initial Actions builds
+and downloaded artifacts pass; the boss artifact contains all 93 exact files.
+Main adoption remains pending. The user approved 0.10.1 on 2026-10-24; the approval record preserves every reviewed installation byte. No merge or release has been performed.
