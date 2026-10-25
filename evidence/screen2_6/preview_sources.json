@@ -1,0 +1,47 @@
+{
+  "baseline": "0.8.3",
+  "candidate": "0.9.0",
+  "stills": [
+    [
+      "Reused cave and bat / new dragon facing left",
+      "walk_right",
+      240
+    ],
+    [
+      "Native right-facing dragon / reused fireball source",
+      "walk_right",
+      364
+    ]
+  ],
+  "clips": [
+    [
+      "walk_right",
+      100,
+      260,
+      "Reused cave scenery and hanging bat / new dragon"
+    ],
+    [
+      "walk_right",
+      270,
+      400,
+      "Dragon turns with native motion and fires horizontally"
+    ],
+    [
+      "poses",
+      320,
+      450,
+      "Existing open-wing bat artwork follows the native pose"
+    ],
+    [
+      "freeze_thaw",
+      130,
+      250,
+      "Native Blizzard flashes and timing preserved"
+    ]
+  ],
+  "fps": 30,
+  "capture_stride": 2,
+  "retouched": false,
+  "audio": false,
+  "normal_speed": true
+}

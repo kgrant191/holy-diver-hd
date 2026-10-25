@@ -1,0 +1,545 @@
+{
+  "scope": "s26Room&s26DataLo&s26DataHi",
+  "tile_rules": 54,
+  "conditions": 84,
+  "background_rules": 78,
+  "atlas_cells": 34,
+  "new_painted_assets": [
+    "walking dragon"
+  ],
+  "reused_projectile": "art/boss1/boss_fireball_registered.png",
+  "reused_background": "Stage2_Crimson_Cave_Background.png",
+  "new_brown_registrations": {
+    "0346": "0330",
+    "034E": "0332"
+  },
+  "dragon_clipped_pixels": [
+    0,
+    0
+  ],
+  "shared_dragon_cells": 18,
+  "mappings": [
+    {
+      "identity": "02B7",
+      "palette": "FF162730",
+      "atlas": [
+        0,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02B8",
+      "palette": "FF162730",
+      "atlas": [
+        16,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02B9",
+      "palette": "FF162730",
+      "atlas": [
+        32,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02BA",
+      "palette": "FF162730",
+      "atlas": [
+        48,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02BB",
+      "palette": "FF162730",
+      "atlas": [
+        64,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02BC",
+      "palette": "FF162730",
+      "atlas": [
+        80,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02BD",
+      "palette": "FF162730",
+      "atlas": [
+        96,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02BE",
+      "palette": "FF162730",
+      "atlas": [
+        112,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02BF",
+      "palette": "FF162730",
+      "atlas": [
+        128,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C0",
+      "palette": "FF162730",
+      "atlas": [
+        144,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C1",
+      "palette": "FF162730",
+      "atlas": [
+        160,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C2",
+      "palette": "FF162730",
+      "atlas": [
+        176,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C3",
+      "palette": "FF162730",
+      "atlas": [
+        192,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C4",
+      "palette": "FF162730",
+      "atlas": [
+        208,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C5",
+      "palette": "FF162730",
+      "atlas": [
+        224,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C6",
+      "palette": "FF162730",
+      "atlas": [
+        240,
+        0
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C7",
+      "palette": "FF162730",
+      "atlas": [
+        0,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C8",
+      "palette": "FF162730",
+      "atlas": [
+        16,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02C9",
+      "palette": "FF162730",
+      "atlas": [
+        32,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02CA",
+      "palette": "FF162730",
+      "atlas": [
+        48,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02CB",
+      "palette": "FF162730",
+      "atlas": [
+        64,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02CC",
+      "palette": "FF162730",
+      "atlas": [
+        80,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02CD",
+      "palette": "FF162730",
+      "atlas": [
+        96,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02CE",
+      "palette": "FF162730",
+      "atlas": [
+        112,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02CF",
+      "palette": "FF162730",
+      "atlas": [
+        128,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02D0",
+      "palette": "FF162730",
+      "atlas": [
+        144,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02D1",
+      "palette": "FF162730",
+      "atlas": [
+        160,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02D2",
+      "palette": "FF162730",
+      "atlas": [
+        176,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02D3",
+      "palette": "FF162730",
+      "atlas": [
+        192,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02D4",
+      "palette": "FF162730",
+      "atlas": [
+        208,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02D5",
+      "palette": "FF162730",
+      "atlas": [
+        224,
+        16
+      ],
+      "kind": "walking dragon",
+      "scope": null
+    },
+    {
+      "identity": "02D6",
+      "palette": "FF162730",
+      "atlas": [
+        240,
+        16
+      ],
+      "kind": "reused fireball",
+      "scope": null
+    },
+    {
+      "identity": "02D7",
+      "palette": "FF162730",
+      "atlas": [
+        0,
+        32
+      ],
+      "kind": "reused fireball",
+      "scope": null
+    },
+    {
+      "identity": "039B",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "shared crimson background reveal",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "039C",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "shared crimson background reveal",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "039D",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "shared crimson background reveal",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "039E",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "shared crimson background reveal",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "039F",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "shared crimson background reveal",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "03A0",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "shared crimson background reveal",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "035F",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0360",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0361",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0362",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0363",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0364",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0365",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0366",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0367",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0368",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "nonsolid hanging decoration removed",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F061626",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "cave space",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F071727",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "cave space",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    },
+    {
+      "identity": "0300",
+      "palette": "0F081737",
+      "atlas": [
+        16,
+        32
+      ],
+      "kind": "cave space",
+      "scope": "s26Room&s26DataLo&s26DataHi"
+    }
+  ],
+  "previous_runtime_assets_modified": false,
+  "native_gameplay_modified": false
+}

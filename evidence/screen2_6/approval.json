@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-24",
+  "user_statement": "approved. now the boss room for level 2.",
+  "approved_version": "0.9.0",
+  "approved_commit": "82c4222a604b7fa3f0fe42a97a00947b7623095f",
+  "runtime_hashes": "evidence/0.9.0-pack-sha256.json",
+  "scope": "Delivered 0.9.0 appearance and shared artwork accepted; continue with level 2 boss",
+  "remote_adoption": "Pending source push and PR/Actions workflow"
+}

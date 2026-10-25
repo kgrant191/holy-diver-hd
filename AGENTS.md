@@ -4,6 +4,8 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Active review branches
 
+- Current continuation: **0.9.0 on `feature/screen2-6`**, based on 0.8.3. The user moved on to screen 2-6 and requested automatic reuse of finished enemies and scenery. Preserve the original brown ceiling and accepted cut-stone stairs. `scripts/build_shared_stage2.py` appends exact-identity/palette fallback mappings after room-specific rules. Reuse an existing asset before considering new art; register aliases only after checking native identities. Do not globally clear scenery or remove pose/animation conditions. The new dragon is the only newly painted subject. See `docs/SCREEN2_6.md`; full room traversal remains unverified. The source bundle includes screen2-4, screen2-5 and screen2-6. Moving to the next room does not authorize merging these branches.
+
 - `feature/screen2-4` contains the earlier 0.7.1 stair repair; `feature/screen2-5` contains the 0.8.3 brown-ceiling restoration. Approved main remains 0.6.1. On 2026-10-24 the user accepted the 0.8.1 cut-stone stairs ("stairs look good"); preserve their exact bytes. They rejected the 0.8.2 charcoal/plum ceiling and requested the original brown ceiling. Restore the exact earlier brown atlas cells, without recoloring or generating replacements. Foreground red columns remain removed. See `docs/SCREEN2_5_BROWN_ROOF.md`. The overall build remains under review; neither stair acceptance nor the roof restoration authorizes merging.
 
 ## Preserve approved behavior

@@ -1,6 +1,8 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.8.3 on `feature/screen2-5`; approved main: 0.6.1.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.9.0 on `feature/screen2-6`; main: 0.6.1 pending source adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+
+**Screen 2-6 and shared artwork (0.9.0).** Known Stage 2 enemies, terrain, stairs, lava/ice and items now have shared fallback mappings, so matching native identities and palettes reuse their finished artwork in later rooms. Specific room mappings keep priority. Screen 2-6 reuses the crimson cave, original brown terrain and bats; the only new painted subject is its two-pose walking dragon. Its fireball reuses the existing source. See [screen notes and coverage](docs/SCREEN2_6.md).
 
 **Original brown ceiling (0.8.3).** Restores the exact brown ceiling artwork from 0.8.0, with the approved cut-stone stairs intact. Reuses existing atlas cells; no new artwork. See [restoration notes](docs/SCREEN2_5_BROWN_ROOF.md).
 
@@ -54,7 +56,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.8.3.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.9.0.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

@@ -31,12 +31,31 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==38
-assert counts['tile']==6997
-assert counts['background']==229
-assert counts['condition']==1689
+assert len(imgs)==39
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
+screen26=json.loads((root/'art/screen2_6/registration.json').read_text())
+shared=json.loads((root/'art/shared_stage2/registration.json').read_text())
+assert counts['tile']==6997+screen26['tile_rules']+shared['tile_rules']
+assert counts['background']==229+screen26['background_rules']
+assert counts['condition']==1689+screen26['conditions']
+assert screen26['new_painted_assets']==['walking dragon'] and screen26['dragon_clipped_pixels']==[0,0]
+assert screen26['shared_dragon_cells']==18
+shared_block=re.search(r'^# BEGIN SCREEN2_SHARED\n(.*?)^# END SCREEN2_SHARED\n\Z',content,flags=re.M|re.S)
+assert shared_block and shared_block.group(1).splitlines()==[r['rule']for r in shared['records']]
+prior_content=content[:shared_block.start()]
+for record in shared['records']:
+ assert record['source_rule'] in prior_content.splitlines()
+ source_fields=record['source_rule'].split('<tile>')[1].split(',')
+ fields=record['rule'].split('<tile>')[1].split(',')
+ assert fields[:2]+fields[3:]==source_fields[:2]+source_fields[3:]
+ assert fields[2]==source_fields[2] or (source_fields[2],fields[2])==('0F071737','0F081737')
+content=re.sub(r'^# BEGIN SCREEN2_6 (IMAGES|CONDITIONS|MAPPINGS)\n.*?^# END SCREEN2_6 \1\n','',prior_content,flags=re.M|re.S)
+reviewed_083=json.loads((root/'evidence/0.8.3-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==reviewed_083['hires.txt']
+for name,digest in reviewed_083.items():
+ if name not in {'README.txt','hires.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior artwork changed'
+assert imgs[38]=='Stage2_Dragon_2x.png'
 # Restore the exact original brown cells, preserving the accepted stair/item art.
 geometry=json.loads((root/'art/screen2_5_roof/previous_geometry.json').read_text())
 roof_block=re.search(r'^# BEGIN SCREEN2_5_BROWN_ROOF\n(.*?)^# END SCREEN2_5_BROWN_ROOF\n',content,flags=re.M|re.S)
