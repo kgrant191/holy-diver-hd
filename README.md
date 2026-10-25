@@ -1,10 +1,10 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.10.1 on `main` (merged 2026-10-24).** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.10.2 on `main` (merged 2026-10-24).** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 The approved work is merged through PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8) → [#9](https://github.com/kgrant191/holy-diver-hd/pull/9) → [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) → [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). All four PR and main merge builds pass. Their downloaded installation artifacts pass independent hash/layout checks. See STATUS.md for adoption details.
 
-**Breaker Randy repair (0.10.2 review candidate).** Keeps the existing HD Randy poses through all three final pickup-fade palettes in both normal and Twin Fire costumes. All artwork files remain byte-identical to approved 0.10.1. See [repair verification](docs/BREAKER_RANDY.md).
+**Approved Breaker Randy repair (0.10.2).** Keeps the existing HD Randy poses through all three final pickup-fade palettes in both normal and Twin Fire costumes. All artwork files remain byte-identical to approved 0.10.1. Approved by the user and merged through [PR #12](https://github.com/kgrant191/holy-diver-hd/pull/12). See [repair verification](docs/BREAKER_RANDY.md).
 
 **Boss defeat/pickup repair (0.10.1).** Keeps the HD boss through both gold defeat-fade palettes and removes its outline during the Breaker pickup flash. All other artwork and native gameplay/audio remain intact. See [repair verification](docs/BOSS2_REVIEW.md).
 

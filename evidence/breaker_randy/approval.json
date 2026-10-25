@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-24",
+  "timezone": "America/New_York",
+  "user_statement": "approved. merge it",
+  "approved_version": "0.10.2",
+  "approved_commit": "4f99ea82425535bc80f6d5763418e9b760185379",
+  "pull_request": 12,
+  "main_merge_commit": "5dfe67afd3862283c47e72aff06360da5f5834e6",
+  "runtime_hashes": "evidence/0.10.2-pack-sha256.json",
+  "installed_files": 93,
+  "all_reviewed_pack_bytes_preserved": true,
+  "install_zip_sha256": "a0c5fc20528684943be363935fd51673eb12edb25cd90db7f75e680832146d8d",
+  "scope": "Keep HD Randy through the final Breaker pickup fade steps in normal and Twin Fire costumes.",
+  "main_merge_tree_matches_reviewed_head": true
+}

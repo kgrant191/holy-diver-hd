@@ -1,4 +1,4 @@
-# Randy during Breaker pickup — 0.10.2 review candidate
+# Randy during Breaker pickup — approved 0.10.2
 
 The user reported original Randy briefly appearing after collecting Breaker.
 Actual Mesen frames reproduce the fallback during the final 24-frame fade,
@@ -71,4 +71,7 @@ Run `python build.py`, `python scripts/verify_release.py`, and
 Mesen captures with explicitly labeled nearest-neighbor detail enlargement.
 
 Mesen format reference: https://www.mesen.ca/docs/hdpacks/
-The repair is awaiting user review; approved main remains 0.10.1.
+The user approved the delivered 0.10.2 pack and authorized merging PR #12 on
+2026-10-24. Main now contains the repair. Approval records and PR/main artifact
+checks are under `evidence/breaker_randy/`. All 93 reviewed installation files
+remain exact; the installed README retains its historical review label.

@@ -213,6 +213,6 @@ Use the supplied boss state and `boss2_routes.json` with `run_screen2_5_qa.py`; 
 
 See [BOSS2_REVIEW.md](BOSS2_REVIEW.md). The new gold-defeat save is captured every frame through both reported reappearances, with the original three boss routes as regression. Final checks cover 6,020 frames/build, 3,810 native samples/type, identical APU/common PCM (one 3,196-byte shutdown tail), 38 changes confined to boss tiles and 3,771 exact images. Each changed boss tile's non-sprite pixels must match the complete HD fade source or exposed pale cave pixels. The one empty initial image is recorded. An isolated retained arena capture discrepancy is documented; a complete unchanged-pack repeat passes all 360 images. Only hires.txt, unused boss-atlas cells and README change; 90 other runtime files stay exact. The old black silhouette expectation is historical and no longer applies to this repair.
 
-## Randy during Breaker pickup (0.10.2 candidate)
+## Randy during Breaker pickup (approved 0.10.2)
 
 See [BREAKER_RANDY.md](BREAKER_RANDY.md). Capture the supplied defeat state every frame; pair the earlier victory and combat/pose routes as regression. Verify native RAM/PPU/OAM/view and APU/PCM, changed pixels confined to Randy, and visible HD sprite pixels through every final fade phase. The native orbiting effects can occlude part of the source; report the tested pixel count. Preserve every earlier installed image exactly.
