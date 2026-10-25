@@ -30,10 +30,10 @@ Rollback folders remain because current build and validation scripts read them. 
 
 Keep raw captures/audio/video under local work/ or the existing handoff archives. Commit selected evidence and verification reports alongside visual changes. Build outputs are disposable; source art and registration metadata are not.
 
-## Open Stage 2 adoption stack (2026-10-24)
+## Completed Stage 2 adoption stack (2026-10-24)
 
-The user pushed all four refs and requested PRs/checks. PR #8 targets main;
-#9 targets feature/screen2-4; #10 targets feature/screen2-5; #11 targets
+The user pushed all four refs and requested PRs/checks. PR #8 initially targeted
+main; #9 targeted feature/screen2-4; #10 targeted feature/screen2-5; #11 targeted
 feature/screen2-6. Initial builds pass at the pushed heads, and actual downloaded
 artifacts independently match all 86, 89, 90 and 93 expected files respectively.
 The archive digests, CRCs and flat layouts also pass. Records are in
@@ -42,7 +42,11 @@ The archive digests, CRCs and flat layouts also pass. Records are in
 `evidence/screen2_6/pr_artifact.json` and
 `evidence/boss2_review/pr_artifact.json`.
 
-Merge in order #8 → #9 → #10 → #11, retargeting each successor to main and
-checking its new merge build. The user requested PRs/checks in this step;
-no merge, release or tag has been performed. Adoption bookkeeping is text only
-and changes none of the 93 approved installation files.
+After the user instructed “merge them all”, PRs #8 → #9 → #10 → #11 merged
+in order, retargeting each successor to main. Each merge tree exactly matches
+its reviewed head. All four main builds and actual downloaded artifacts pass
+every expected hash, archive digest, CRC and flat-layout check. Main is now
+approved 0.10.1. Exact commits/runs are in `evidence/stage2_adoption/merges.json`;
+archive checks are in the corresponding `main_artifact.json` records.
+No release or tag was created. Adoption bookkeeping changes none of the
+93 approved installation files.

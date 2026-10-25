@@ -2,7 +2,7 @@
 
 ## 0.10.1 — Boss defeat and pickup repair (approved 2026-10-24)
 
-- Publish stacked PRs #8–#11 and record successful initial Actions builds plus independently verified 86/89/90/93-file artifacts. All tested installation bytes remain unchanged.
+- Merge PRs #8–#11 into main in dependency order after explicit user authorization. Record successful PR/main builds and independently verified 86/89/90/93-file artifacts; all tested installation bytes remain unchanged.
 - Map both gold defeat-fade palettes to the existing HD boss, preventing a brief fallback to the original artwork.
 - Clear the defeated boss during the Breaker pickup flash while retaining the cave flash and native timing.
 - Reuse existing art; preserve every old atlas cell and all 90 other runtime files. The install remains 93 files.

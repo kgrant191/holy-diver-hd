@@ -1,0 +1,14 @@
+{
+  "pr": 9,
+  "version": "0.8.3",
+  "run_id": 40146288908,
+  "head_sha": "a592888ba2413c3a9bd3d798d5f8fed56d70f4b2",
+  "artifact_id": 12580417604,
+  "artifact_sha256": "37100416899a5c7944f65e9867bacf186667dadc40c75ed95e7ace221a936163",
+  "root_file_count": 89,
+  "all_expected_hashes_match": true,
+  "crc_valid": true,
+  "nested_zip": false,
+  "downloaded_and_independently_verified": true,
+  "url": "https://github.com/kgrant191/holy-diver-hd/actions/runs/40146288908/artifacts/12580417604"
+}

@@ -1,0 +1,54 @@
+{
+  "user_statement": "merge them all",
+  "merge_method": "merge",
+  "final_version": "0.10.1",
+  "final_merge_sha": "822aecea6155f45ce3fa8fc3872cec68d83266d6",
+  "all_merge_trees_match_reviewed_heads": true,
+  "release_or_tag_created": false,
+  "merges": [
+    {
+      "pr": 8,
+      "version": "0.7.1",
+      "reviewed_head": "937c7c799b51860ab2efa0e64587f1e5a339788e",
+      "merge_sha": "5638a1fe3820a41b141e24d25242cc8ea056d796",
+      "merged_at": "2026-10-25T00:19:32Z",
+      "base": "main",
+      "run_id": 40146247624,
+      "conclusion": "success",
+      "artifact_record": "evidence/screen2_4/main_artifact.json"
+    },
+    {
+      "pr": 9,
+      "version": "0.8.3",
+      "reviewed_head": "da41081b65f3abe94c5a44858900733423936550",
+      "merge_sha": "a592888ba2413c3a9bd3d798d5f8fed56d70f4b2",
+      "merged_at": "2026-10-25T00:20:09Z",
+      "base": "main",
+      "run_id": 40146288908,
+      "conclusion": "success",
+      "artifact_record": "evidence/screen2_5_brown_roof/main_artifact.json"
+    },
+    {
+      "pr": 10,
+      "version": "0.9.0",
+      "reviewed_head": "56e4ffef7c7aaa6090a4cfa104f02ef1b9cfa1ef",
+      "merge_sha": "a12492062934336218c7c8589af43aaed8240cc1",
+      "merged_at": "2026-10-25T00:20:29Z",
+      "base": "main",
+      "run_id": 40146311510,
+      "conclusion": "success",
+      "artifact_record": "evidence/screen2_6/main_artifact.json"
+    },
+    {
+      "pr": 11,
+      "version": "0.10.1",
+      "reviewed_head": "f8b9d67a476ac8c8fa29bac71259e8c477853ce4",
+      "merge_sha": "822aecea6155f45ce3fa8fc3872cec68d83266d6",
+      "merged_at": "2026-10-25T00:20:53Z",
+      "base": "main",
+      "run_id": 40146338303,
+      "conclusion": "success",
+      "artifact_record": "evidence/boss2_review/main_artifact.json"
+    }
+  ]
+}
