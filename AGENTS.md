@@ -4,9 +4,9 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Active review branches
 
-- Current continuation: **0.9.0 on `feature/screen2-6`**, based on 0.8.3. The user moved on to screen 2-6 and requested automatic reuse of finished enemies and scenery. Preserve the original brown ceiling and accepted cut-stone stairs. `scripts/build_shared_stage2.py` appends exact-identity/palette fallback mappings after room-specific rules. Reuse an existing asset before considering new art; register aliases only after checking native identities. Do not globally clear scenery or remove pose/animation conditions. The new dragon is the only newly painted subject. See `docs/SCREEN2_6.md`; full room traversal remains unverified. The source bundle includes screen2-4, screen2-5 and screen2-6. Moving to the next room does not authorize merging these branches.
-
-- `feature/screen2-4` contains the earlier 0.7.1 stair repair; `feature/screen2-5` contains the 0.8.3 brown-ceiling restoration. Approved main remains 0.6.1. On 2026-10-24 the user accepted the 0.8.1 cut-stone stairs ("stairs look good"); preserve their exact bytes. They rejected the 0.8.2 charcoal/plum ceiling and requested the original brown ceiling. Restore the exact earlier brown atlas cells, without recoloring or generating replacements. Foreground red columns remain removed. See `docs/SCREEN2_5_BROWN_ROOF.md`. The overall build remains under review; neither stair acceptance nor the roof restoration authorizes merging.
+- Approved continuation baseline: **0.10.1 on `feature/2-boss`**. The user approved the delivered boss and defeat/pickup repairs on 2026-10-24; see `evidence/boss2_review/approval.json`. Preserve all 93 reviewed installation files exactly, including the original brown ceiling, accepted stairs and shared Stage 2 artwork. Main remains 0.6.1 pending source adoption.
+- The current source handoff includes `feature/screen2-4`, `feature/screen2-5`, `feature/screen2-6` and `feature/2-boss`. Older refs stay at their earlier source commits; screen2-6 includes the 0.9.0 approval record. No release/tag is requested. Boss artwork is approved; PRs #8–#11 are open in dependency order (screen2-4 → screen2-5 → screen2-6 → 2-boss). Initial Actions builds and all four downloaded artifacts pass. Main adoption remains pending. The 0.10.1 repair covers both gold defeat-fade palettes and removes the dead boss silhouette during Breaker flashes; preserve the native room flash.
+- Finished artwork must be reused for matching native identities/palettes. `build_shared_stage2.py` runs last, after all specific rules. Verified new-bank aliases retain pose conditions; put broad aliases after existing specific rules. Never globally clear scenery. See `docs/SCREEN2_6.md` and `docs/BOSS2.md`.
 
 ## Preserve approved behavior
 
@@ -26,7 +26,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 - Perform routine emulator testing here when inputs/tools are available; do not ask the user to perform it instead.
 - Only one Mesen process at a time. Do not replace its pack or overwrite the audio-capture library during a run.
 - The first screenshot after loading a state can be empty. endFrame OAM can describe the next pose; screenshots are authoritative for visual claims.
-- Report coverage precisely. Stage cards 1–2 are verified in live play; cards 3–6 remain mapped but untested.
+- Report coverage precisely. Stage cards 1–3 are verified in live play; cards 4–6 remain mapped but untested.
 - Review and document intentionally changed files before updating expected hashes; do not weaken validation merely to make it pass.
 
 ## Repository workflow

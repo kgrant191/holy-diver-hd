@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "references": [
+    "art/generated/boss2_wall_generated.png",
+    "art/boss2/native_wall_reference_full.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: complete transparent Holy Diver HD boss-wall artwork. Image 1 is the painted boss style to preserve; image 2 is the COMPLETE original native boss anatomy/layout and must control composition. The first painting only represented the left half. Recompose and extend it into the complete boss in a 3:4 width:height canvas. Preserve the coral-pink fleshy roots, ivory bone highlights, deep wine shadows and violet-blue glow from image 1. Match image 2's layout: a SMALL skull-like face in LEFT PROFILE at about x=24%, y=58%, its mouth faces left; behind it, centered around x=55%, y=48%, is a MUCH LARGER swollen exposed purple-blue heart/brain-like organ enclosed by curved pink rib/root tendrils. This is one creature rooted in the cave wall, not a second head. Broad branching roots above extend from x=5% to x=85%, some rightward branches reach x=95%; hanging roots taper down primarily below the small face. The complete creature fits within the image with clear transparent margin, and must have NO cut-off right side. Keep its asymmetrical native silhouette and interconnected anatomy. Detailed SNES/GBA pixel-art shading, sharp readable shapes when reduced to 192x256. TRUE transparent background, no gradient, no backdrop, no terrain, no projectile, no text, no ground or shadows. Do not enlarge the small face to dominate the organ behind it."
+}

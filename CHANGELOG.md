@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.10.1 — Boss defeat and pickup repair (approved 2026-10-24)
+
+- Publish stacked PRs #8–#11 and record successful initial Actions builds plus independently verified 86/89/90/93-file artifacts. All tested installation bytes remain unchanged.
+- Map both gold defeat-fade palettes to the existing HD boss, preventing a brief fallback to the original artwork.
+- Clear the defeated boss during the Breaker pickup flash while retaining the cave flash and native timing.
+- Reuse existing art; preserve every old atlas cell and all 90 other runtime files. The install remains 93 files.
+
+## 0.10.0 — Level 2 boss and Breaker candidate (2026-10-24)
+
+- Add the wall-root demon with its complete native background-tile layout, palette-driven hit phases, disappearance and victory silhouette flash.
+- Reuse existing brown cave texture, crimson panorama, fireball, Randy poses and HUD. Add verified physical-bank 04 actor aliases with remapped pose anchors.
+- Add the Breaker tome and announcement, retaining native collection, fade timing and the existing Stage 3 title card.
+- Preserve all 88 previous runtime assets. Add one atlas, a derived native victory-flash background and one spell card, for 93 installed root files.
+
 ## 0.9.0 — Screen 2-6 and shared Stage 2 artwork (approved 2026-10-24)
 
 - Add 485 shared fallback rules for finished Stage 2 enemies, terrain, stairs, lava/ice, effects and items. Exact native identities and palettes select existing art; room-specific and pose/animation rules retain priority.

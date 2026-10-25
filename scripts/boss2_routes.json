@@ -1,0 +1,14 @@
+{
+  "victory": {
+    "frames": 2800,
+    "input": "right=(frame<100)or(frame>=1100 and frame<1280),b=frame<900 and frame%8<3,a=frame<900 and frame%100<25,start=(frame>=1800 and frame<1804)or(frame>=2100 and frame<2104),down=(frame>=1840 and frame<1844)or(frame>=1900 and frame<1904)"
+  },
+  "poses": {
+    "frames": 900,
+    "input": "right=frame>=40 and frame<80,left=frame>=300 and frame<330,a=(frame>=150 and frame<180)or(frame>=350 and frame<375),up=frame>=400 and frame<440,down=frame>=500 and frame<540,select=frame>=550 and frame<554,b=((frame>=180 and frame<220)or(frame>=400 and frame<440)or(frame>=500 and frame<540)or(frame>=600 and frame<640))and frame%10<3"
+  },
+  "arena": {
+    "frames": 720,
+    "input": "right=frame>=20 and frame<200,left=frame>=260 and frame<480,a=frame>=140 and frame<166,b=frame>=160 and frame<240 and frame%10<3"
+  }
+}

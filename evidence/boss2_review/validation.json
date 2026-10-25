@@ -1,0 +1,117 @@
+{
+  "baseline": "0.10.0",
+  "candidate": "0.10.1",
+  "controller_only": true,
+  "ram_writes": false,
+  "unchanged_runtime_assets": 90,
+  "pack_files": 93,
+  "cases": {
+    "pickup": {
+      "frames": 1600,
+      "capture_stride": 1,
+      "before_path": "work/boss2_review/before/pickup",
+      "after_path": "work/boss2_review/after/pickup",
+      "native_samples_per_type": 1600,
+      "input": {
+        "state_sha256": "6cfdc375c9620d42e989e96ce4e855babe06f3d54fd49aa28d0de9bf7a408345",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=frame>=400 and frame<520},0)"
+      },
+      "apu_sha256": "a750ad2cf6c496947bc9385e87652ae5568d67ffe050b829b8ad03d9299df6d7",
+      "identical_common_pcm_bytes": 5111584,
+      "shutdown_tail_bytes": 3196,
+      "image_checks": {
+        "empty_initial_capture": 1,
+        "identical_images": 1568,
+        "changed_images": 31,
+        "0F170F17": 8,
+        "0F070F07": 8,
+        "hidden_pickup_echo": 15
+      },
+      "examples": {
+        "0F170F17": {
+          "frame": 171,
+          "scroll": 57,
+          "exact_pixels": 30016
+        },
+        "0F070F07": {
+          "frame": 179,
+          "scroll": 57,
+          "exact_pixels": 30464
+        },
+        "hidden_pickup_echo": {
+          "frame": 252,
+          "scroll": 57,
+          "exact_pixels": 31232
+        }
+      }
+    },
+    "original_victory": {
+      "frames": 2800,
+      "capture_stride": 2,
+      "before_path": "work/boss2/after/victory",
+      "after_path": "work/boss2_review/regression_after/victory",
+      "native_samples_per_type": 1400,
+      "input": {
+        "state_sha256": "3dc10e1f35dda26171678ca6548fc3f974635b6e9face870525398c1a658f7e6",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=(frame<100)or(frame>=1100 and frame<1280),b=frame<900 and frame%8<3,a=frame<900 and frame%100<25,start=(frame>=1800 and frame<1804)or(frame>=2100 and frame<2104),down=(frame>=1840 and frame<1844)or(frame>=1900 and frame<1904)},0)"
+      },
+      "apu_sha256": "5c657e90e4899eaffad8c50bca971793ec3a06850524c3b288e77a5a0c5b936f",
+      "identical_common_pcm_bytes": 8945268,
+      "shutdown_tail_bytes": 0,
+      "image_checks": {
+        "identical_images": 1393,
+        "changed_images": 7,
+        "hidden_pickup_echo": 7
+      },
+      "examples": {
+        "hidden_pickup_echo": {
+          "frame": 1110,
+          "scroll": 36,
+          "exact_pixels": 31488
+        }
+      }
+    },
+    "original_poses": {
+      "frames": 900,
+      "capture_stride": 2,
+      "before_path": "work/boss2/after/poses",
+      "after_path": "work/boss2_review/regression_after/poses",
+      "native_samples_per_type": 450,
+      "input": {
+        "state_sha256": "3dc10e1f35dda26171678ca6548fc3f974635b6e9face870525398c1a658f7e6",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=frame>=40 and frame<80,left=frame>=300 and frame<330,a=(frame>=150 and frame<180)or(frame>=350 and frame<375),up=frame>=400 and frame<440,down=frame>=500 and frame<540,select=frame>=550 and frame<554,b=((frame>=180 and frame<220)or(frame>=400 and frame<440)or(frame>=500 and frame<540)or(frame>=600 and frame<640))and frame%10<3},0)"
+      },
+      "apu_sha256": "9a9ad4fa80d9c7254b2412fb301debb9a6baf2996ee8d32e10e9c1d984827bc2",
+      "identical_common_pcm_bytes": 2875268,
+      "shutdown_tail_bytes": 0,
+      "image_checks": {
+        "identical_images": 450
+      },
+      "examples": {}
+    },
+    "original_arena": {
+      "frames": 720,
+      "capture_stride": 2,
+      "before_path": "work/boss2_review/arena_repeat_before/arena",
+      "after_path": "work/boss2_review/arena_repeat_after/arena",
+      "native_samples_per_type": 360,
+      "input": {
+        "state_sha256": "3dc10e1f35dda26171678ca6548fc3f974635b6e9face870525398c1a658f7e6",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=frame>=20 and frame<200,left=frame>=260 and frame<480,a=frame>=140 and frame<166,b=frame>=160 and frame<240 and frame%10<3},0)"
+      },
+      "apu_sha256": "780fbb3a664c1eb8fd22a5dfcb29a4b06247f6c6dbc695a73039b208786c7996",
+      "identical_common_pcm_bytes": 2300212,
+      "shutdown_tail_bytes": 0,
+      "image_checks": {
+        "identical_images": 360
+      },
+      "examples": {}
+    }
+  },
+  "total_frames_per_build": 6020,
+  "native_samples_per_type": 3810
+}

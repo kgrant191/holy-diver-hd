@@ -1,9 +1,12 @@
 {
   "Blizzard_Acquired.png": "abce817fb0c3fd526582a5f4ffdebef3d18c04a47cea4f518b88bb038226b126",
   "Blizzard_Ascent_Background.png": "34b7a0b3cb075da78f6787fab34a4c57b20edf458fc10554cda38f383e2ca2d3",
+  "Boss2_Cave_Flash.png": "a6c47b9bfb788f2be53ebc08e590afca2c108726b6cbe438fcd6b5c9093ec129",
+  "Boss2_Tiles_2x.png": "b6ecee92ac016183555a6c80b08d76df975f8a2374b24457dfb4bf070e4f09bc",
   "Boss_Hall_Flash.png": "e54f079ca4da97f1c569cbaade2e93c560c9ed777b2035dcefa65fb560a8fa0b",
   "Boss_Tiles_2x.png": "081882b0fbd8ceb3c3df56be6c17e630fe88d1d3f89a9d78bd0cc6ded1a2b9c9",
   "Bracelet_2x.png": "cd24136af569456c9de612c8a714bf6d011c3217c574e78e9195c94c7343cc43",
+  "Breaker_Acquired.png": "a4804f96ba1829aafc8655df0398c4433c50e79f00006501e17929d5af36e7ad",
   "Chr_00_0.png": "1dbcb13f888a03b80c4ce0d1a27240ecfd2080ff721030424e825d5fd9bfd51d",
   "Chr_01_0.png": "f69d42b3dd82e7be3c0d5acd5791cb86c598d62ff348d4646ff1e6bb043ddd54",
   "Chr_01_1.png": "89bce461f6efbe3e06d8fc0e75d647bec99cb6911e07b6e299159ca26025d936",
@@ -42,7 +45,7 @@
   "Nave_Background.png": "865db833ec3e690b8cbb48c45a03fd997aa179e91cbc3d87f6dad395a0d43dbe",
   "Nave_Tiles_2x.png": "8796de7817b6624a03a1b8ee116357d3827b791eb7ed2ea686ea0c41d9721069",
   "Pause_HD.png": "37b6cebce0f74774c5340cb4f3a0b50962a07e72627f0d26974257bb00b5f614",
-  "README.txt": "5485c8eafe49f7c57995fb9b88677b137939378ee0a2f6d060a7566a0715916c",
+  "README.txt": "1024f16712ab653559555b654140d64f2f82ff6bc03f0519a988f63c5a1c5919",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -88,5 +91,5 @@
   "Tree_Court_Tiles_2x.png": "1fb4fe99e944ec4b110d0eb215dd00124bac17d5c4fa13ac8a9dd6334a066c44",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "48177d5c340cc231d49fed0bef9c1e00b7e69205f5b80e40163c3493aecbc0e6"
+  "hires.txt": "1ca48892afce364b3a814c10d4ed5f15ef2c1de6959411ae1b4ee6ac6ac6a052"
 }

@@ -89,3 +89,11 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Screen 2-6 (2026-10-24)
 
 `Holy_Diver_HD_1(20261024-223733).mss` — SHA-256 `60945ccab9020ab3fdde2247161a5f119c5ac32d4ec5af3e6385f0aa187df0b2`, 9,650 bytes. The unchanged user save starts the next cave (room 10, data pointer 8E8D). Use `run_screen2_5_qa.py` with `scripts/screen2_6_routes.json`; bytes remain local and excluded from Git. Previous-room regression uses the stair/2-5 approach save above.
+
+## Level 2 boss (2026-10-24)
+
+`Holy_Diver_HD_1(20261024-231216).mss` — SHA-256 `3dc10e1f35dda26171678ca6548fc3f974635b6e9face870525398c1a658f7e6`, 4,690 bytes. Unchanged, excluded from Git. Starts during entry into boss room 08/data pointer 8F7D. The controller routes in `scripts/boss2_routes.json` cover combat, victory, Breaker collection, announcement and Stage 3 arrival. Run with `run_screen2_5_qa.py`; the prior 2-6 save supplies the regression routes.
+
+## Boss defeat/pickup repair — 0.10.1
+
+`Holy_Diver_HD_2(6).mss` (12,013 bytes), SHA-256 `6cfdc375c9620d42e989e96ce4e855babe06f3d54fd49aa28d0de9bf7a408345`. Supplied on 2026-10-24; begins during the gold boss-defeat phase and automatically collects Breaker after the fade. Use `scripts/boss2_review_routes.json`. Bytes are excluded from Git. The earlier boss save remains the regression input.

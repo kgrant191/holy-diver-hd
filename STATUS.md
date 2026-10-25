@@ -1,6 +1,28 @@
 # Current status
 
-Updated: 2026-10-24 (UTC).
+Updated: 2026-10-24 (America/New_York).
+
+## Approved continuation baseline — 0.10.1, feature/2-boss
+
+The user approved the delivered 0.10.1 on 2026-10-24 ("approved"). `evidence/boss2_review/approval.json` records the reviewed artwork commit and exact installation hashes. Approval bookkeeping changes only source documentation; all 93 installation files and the delivered install ZIP remain unchanged. The historical review label in the frozen installed README is retained to preserve those exact bytes. The four feature branches are published and open as PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8), [#9](https://github.com/kgrant191/holy-diver-hd/pull/9), [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) and [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). Main remains 0.6.1.
+
+Fixes both reported boss reappearances. The new save defeats the boss on the gold hit palette; its two darker fade palettes were missing, briefly exposing the original NES art. They now use dimmer versions of the existing HD boss. The native Breaker flash previously selected a deliberate black boss silhouette; the repair uses the existing transparent cell so the defeated boss stays gone while the cave flash remains. No new painting is introduced.
+
+Four final paired routes pass 6,020 frames per build and 3,810 identical RAM/PPU/OAM/PPU-view samples per type. APU writes and 19,232,332 common PCM bytes match; the new-save run has one 3,196-byte shutdown-buffer tail difference. The new save is captured every frame, with one identical empty initial capture. All 38 changed pictures stay within the boss tile coverage: eight samples for each gold fade and 22 samples clearing the pickup echo across both victory routes. Every non-sprite pixel in that coverage matches the HD fade source or pale cave pixels. The other 3,771 valid pictures remain exact, including 810 combat/pose/arena pictures and the existing announcement, Stage 3 transition and pause menu.
+
+One retained 0.10.0 arena picture differed around Randy/projectiles despite identical native state/audio. A complete paired 720-frame repeat with unchanged pack manifests has all 360 images exact and matches the first candidate replay. The cause of the old capture discrepancy is unconfirmed and recorded in `evidence/boss2_review/arena_capture_repeat.json`; no image exception is accepted by the final verifier.
+
+Only hires.txt, the boss atlas's previously unused cells and installed README change from 0.10.0; all 90 other runtime files remain byte-identical. The 93-file ZIP passes CRC, flat-layout and all hashes. Actual comparison/video show both repairs. See `docs/BOSS2_REVIEW.md` and `evidence/boss2_review/validation.json`. Earlier coverage limits remain. All four initial PR builds pass. Downloaded artifacts contain 86/89/90/93 root files for 0.7.1/0.8.3/0.9.0/0.10.1; every expected SHA-256, archive digest and ZIP CRC matches, with no nested ZIP. Records are in the corresponding `pr_artifact.json` files. The PRs form the dependency chain main → screen2-4 → screen2-5 → screen2-6 → 2-boss. Merge in that order, retargeting each successor to main after its predecessor merges. No merge or release has been performed. This adoption-record commit changes no build input or installation byte.
+
+## Superseded review candidate — 0.10.0, feature/2-boss
+
+Adds the Level 2 wall-root demon in its complete native tile layout, its hit/defeat palette phases, Breaker tome and announcement. Reuses the crimson cave panorama, original brown terrain texture, Randy poses, HUD and fireball source. The boss's new graphics bank has 366 verified actor aliases with remapped pose anchors. All 88 earlier runtime asset files stay byte-identical; three additions bring the pack to 93 root files.
+
+Five paired controller routes pass 5,740 frames per build, with 2,870 identical RAM/PPU/OAM/PPU-view samples per type, identical APU writes and all 18,337,804 PCM bytes (zero shutdown-tail difference). Source checks find 64 ordinary whole-visible boss matches, one gold hit phase and one black victory silhouette; one match shows the entire unclipped boss. The flash additionally matches 21,859 pale cave pixels because its end-frame palette has already reset. Complete fireball/tome matches total 74/18. The defeated boss reveals 15,494 exact cave pixels, and ten announcement samples match the Breaker card. All 660 prior 2-6 captures remain exact, along with 736 outside-room pictures and 20 native black captures.
+
+Coverage includes the boss defeat, Breaker collection/announcement, existing Stage 3 card/arrival, and Breaker pause-menu selection. The initial one-frame early announcement is repaired with a rendered-letter guard; all final candidate/regression runs use the delivered hashes. Stage cards 1–3 are verified; cards 4–6 and later Breaker interactions remain untested. Previous far 2-5/2-6 exit and handled-health-jug pickup limits remain. See `docs/BOSS2.md` and `evidence/boss2/validation.json`.
+
+The 93-file install ZIP passes CRC, flat-layout and every hash. Comparison and video use actual Mesen captures. The source bundle includes all four feature refs through `feature/2-boss`; screen2-6 also records the user's 0.9.0 approval. Main remains 0.6.1. User push, PRs and Actions artifact checks remain pending; the boss artwork is a review candidate.
 
 ## Approved continuation baseline — 0.9.0, feature/screen2-6
 
@@ -204,7 +226,7 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 ## Known limits
 
 - This is a partial HD overhaul, not a finished all-stage pack.
-- All six stage names and life counts 0–9 are mapped; live card coverage is Stages 1–2 and counts 4/3/2. Stages 3–6 remain untested.
+- All six stage names and life counts 0–9 are mapped; live card coverage is Stages 1–3 and counts 4/3/2. Stages 4–6 remain untested.
 - Native player tiles $33–$35 are now measured and covered as crouching wind-up legs. Tile $3C remains unclassified; investigate only when a live route uses it.
 - The earlier report of Randy fully reverting to original art during death was not independently reproduced. Shared defeat fallbacks exist, and current recorded death poses remain HD.
 - Old scripts remain for provenance. build.py is the supported build entry point.

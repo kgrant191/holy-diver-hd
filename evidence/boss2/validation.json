@@ -1,0 +1,188 @@
+{
+  "baseline": "0.9.0",
+  "candidate": "0.10.0",
+  "controller_only": true,
+  "ram_writes": false,
+  "emulator": "MesenCE 2.2.1",
+  "capture_stride": 2,
+  "cases": {
+    "victory": {
+      "frames": 2800,
+      "samples_per_native_type": 1400,
+      "apu_sha256": "5c657e90e4899eaffad8c50bca971793ec3a06850524c3b288e77a5a0c5b936f",
+      "identical_common_pcm_bytes": 8945268,
+      "shutdown_tail_bytes": 0,
+      "input": {
+        "state_sha256": "3dc10e1f35dda26171678ca6548fc3f974635b6e9face870525398c1a658f7e6",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=(frame<100)or(frame>=1100 and frame<1280),b=frame<900 and frame%8<3,a=frame<900 and frame%100<25,start=(frame>=1800 and frame<1804)or(frame>=2100 and frame<2104),down=(frame>=1840 and frame<1844)or(frame>=1900 and frame<1904)},0)"
+      },
+      "exact_black_images": 12,
+      "exact_outside_images": 718,
+      "exact_breaker_card_samples": 10,
+      "changed_images": 672,
+      "boss_removed_source_pixels": 15494,
+      "rooms": {
+        "0000": 204,
+        "7d8f": 584,
+        "8a98": 461,
+        "ffff": 151
+      },
+      "boss_palettes": {
+        "0F041424": 1,
+        "0F0F0F0F": 169,
+        "0F121626": 308,
+        "0F270027": 75,
+        "0F221636": 6,
+        "0F071607": 2,
+        "0F220036": 2,
+        "0F020616": 9,
+        "0F0F0F06": 4,
+        "310F0F0F": 8
+      },
+      "player_palettes": {
+        "0F300036": 344,
+        "0F0F0F0F": 5,
+        "0F221136": 215,
+        "31300036": 8,
+        "0F200F26": 4,
+        "0F100F16": 4,
+        "0F000F06": 4
+      }
+    },
+    "poses": {
+      "frames": 900,
+      "samples_per_native_type": 450,
+      "apu_sha256": "9a9ad4fa80d9c7254b2412fb301debb9a6baf2996ee8d32e10e9c1d984827bc2",
+      "identical_common_pcm_bytes": 2875268,
+      "shutdown_tail_bytes": 0,
+      "input": {
+        "state_sha256": "3dc10e1f35dda26171678ca6548fc3f974635b6e9face870525398c1a658f7e6",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=frame>=40 and frame<80,left=frame>=300 and frame<330,a=(frame>=150 and frame<180)or(frame>=350 and frame<375),up=frame>=400 and frame<440,down=frame>=500 and frame<540,select=frame>=550 and frame<554,b=((frame>=180 and frame<220)or(frame>=400 and frame<440)or(frame>=500 and frame<540)or(frame>=600 and frame<640))and frame%10<3},0)"
+      },
+      "exact_black_images": 4,
+      "exact_outside_images": 9,
+      "exact_breaker_card_samples": 0,
+      "changed_images": 436,
+      "boss_removed_source_pixels": 0,
+      "rooms": {
+        "0000": 10,
+        "7d8f": 440
+      },
+      "boss_palettes": {
+        "0F041424": 1,
+        "0F0F0F0F": 2,
+        "0F121626": 372,
+        "0F270027": 50,
+        "0F221636": 6,
+        "0F071607": 2,
+        "0F220036": 2,
+        "0F020616": 5
+      },
+      "player_palettes": {
+        "0F300036": 176,
+        "0F0F0F0F": 1,
+        "0F221136": 263
+      }
+    },
+    "arena": {
+      "frames": 720,
+      "samples_per_native_type": 360,
+      "apu_sha256": "780fbb3a664c1eb8fd22a5dfcb29a4b06247f6c6dbc695a73039b208786c7996",
+      "identical_common_pcm_bytes": 2300212,
+      "shutdown_tail_bytes": 0,
+      "input": {
+        "state_sha256": "3dc10e1f35dda26171678ca6548fc3f974635b6e9face870525398c1a658f7e6",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "controller_route": "emu.setInput({right=frame>=20 and frame<200,left=frame>=260 and frame<480,a=frame>=140 and frame<166,b=frame>=160 and frame<240 and frame%10<3},0)"
+      },
+      "exact_black_images": 4,
+      "exact_outside_images": 9,
+      "exact_breaker_card_samples": 0,
+      "changed_images": 346,
+      "boss_removed_source_pixels": 0,
+      "rooms": {
+        "0000": 10,
+        "7d8f": 350
+      },
+      "boss_palettes": {
+        "0F041424": 1,
+        "0F0F0F0F": 2,
+        "0F121626": 277,
+        "0F270027": 56,
+        "0F221636": 6,
+        "0F071607": 2,
+        "0F220036": 1,
+        "0F020616": 5
+      },
+      "player_palettes": {
+        "0F300036": 1,
+        "0F0F0F0F": 1,
+        "0F221136": 348
+      }
+    }
+  },
+  "regression": {
+    "walk_right": {
+      "frames": 720,
+      "samples_per_native_type": 360,
+      "apu_sha256": "af4e95fc4d4eb4ac4d955e60955821c90b6bb543c1ca5e8c3cb9c22a85e2067c",
+      "identical_common_pcm_bytes": 2300212,
+      "shutdown_tail_bytes": 0,
+      "exact_images": 360
+    },
+    "poses": {
+      "frames": 600,
+      "samples_per_native_type": 300,
+      "apu_sha256": "09db12e098ca686ce562fb90564e2c28bff300f5bfe0aa1439488f73fffeed59",
+      "identical_common_pcm_bytes": 1916844,
+      "shutdown_tail_bytes": 0,
+      "exact_images": 300
+    }
+  },
+  "whole_visible_boss_matches": {
+    "0F121626": 64,
+    "310F0F0F": 1,
+    "0F270027": 1
+  },
+  "full_unclipped_boss_matches": 1,
+  "complete_sprite_matches": {
+    "fireball": 74,
+    "breaker": 18
+  },
+  "examples": {
+    "wall/0F121626": {
+      "case": "victory",
+      "frame": 180,
+      "scroll": 32,
+      "end_frame_palette": "0F121626",
+      "exact_flash_background_pixels": 0
+    },
+    "fireball": {
+      "case": "victory",
+      "frame": 290
+    },
+    "breaker": {
+      "case": "victory",
+      "frame": 910
+    },
+    "wall/310F0F0F": {
+      "case": "victory",
+      "frame": 1120,
+      "scroll": 36,
+      "end_frame_palette": "0F0F0F0F",
+      "exact_flash_background_pixels": 21859
+    },
+    "wall/0F270027": {
+      "case": "arena",
+      "frame": 140,
+      "scroll": 38,
+      "end_frame_palette": "0F270027",
+      "exact_flash_background_pixels": 0
+    }
+  },
+  "unchanged_prior_runtime_assets": 88,
+  "pack_files": 93,
+  "total_frames_per_build": 5740
+}

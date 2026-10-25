@@ -29,3 +29,20 @@ Build ZIPs are excluded from commits. CI produces downloadable artifacts for tes
 Rollback folders remain because current build and validation scripts read them. Git deduplicates unchanged file content. Migrate those dependencies deliberately before removing old snapshots.
 
 Keep raw captures/audio/video under local work/ or the existing handoff archives. Commit selected evidence and verification reports alongside visual changes. Build outputs are disposable; source art and registration metadata are not.
+
+## Open Stage 2 adoption stack (2026-10-24)
+
+The user pushed all four refs and requested PRs/checks. PR #8 targets main;
+#9 targets feature/screen2-4; #10 targets feature/screen2-5; #11 targets
+feature/screen2-6. Initial builds pass at the pushed heads, and actual downloaded
+artifacts independently match all 86, 89, 90 and 93 expected files respectively.
+The archive digests, CRCs and flat layouts also pass. Records are in
+`evidence/screen2_4/pr_artifact.json`,
+`evidence/screen2_5_brown_roof/pr_artifact.json`,
+`evidence/screen2_6/pr_artifact.json` and
+`evidence/boss2_review/pr_artifact.json`.
+
+Merge in order #8 → #9 → #10 → #11, retargeting each successor to main and
+checking its new merge build. The user requested PRs/checks in this step;
+no merge, release or tag has been performed. Adoption bookkeeping is text only
+and changes none of the 93 approved installation files.
