@@ -1,5 +1,7 @@
 # Level 3 opening — 0.11.0 review candidate
 
+Historical 0.11.0 review, superseded by [0.11.1 corrections](LEVEL3_REVIEW.md). The small B6–B9 frames described below as emergence are actually projectiles and are corrected in 0.11.1.
+
 The supplied standard Mesen movie is sufficient to build several connected rooms. This candidate covers the forest approach (`10/988A`), tree climb (`04/997A`) and masonry shaft (`04/99F2`). These are the native room mode and data-pointer signatures, not guessed screenshot numbers. The subsequent corridor keeps its original scenery; shared approved actors now follow their proven native graphics copies there too. The boss is not reached.
 
 ## Artwork and registration

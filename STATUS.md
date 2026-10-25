@@ -2,7 +2,11 @@
 
 Updated: 2026-10-25 (UTC).
 
-## Review candidate — 0.11.0, feature/level3-opening
+## Current review — 0.11.1, feature/level3-opening
+
+Addresses all four requested corrections: spinning blade-ring enemy, flame shots for the first golden creature, an insect-like winged eye, and continuous knotted oak surfaces. All 93 prior assets other than mappings/installed README remain exact; three new PNGs bring the pack to 98 files. Approved main is still 0.10.2; this branch is not approved, pushed or merged. Full movie and pixel/geometry checks are documented in docs/LEVEL3_REVIEW.md and evidence/level3_review/.
+
+## Superseded review — 0.11.0, feature/level3-opening
 
 Builds the first three Level 3 rooms from the user's Mesen movie: forest approach, tree climb and masonry shaft. Adds the night forest panorama, wide-tree bark, three ember-creature forms and two crimson flyer forms. Reuses approved Randy/HUD/weapon poses, eyes and blue tears, ceiling bats, lava/ice, brown terrain, branches and nave masonry. The following corridor retains its original scenery while verified shared actor aliases also work there.
 
@@ -246,4 +250,4 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 - Old scripts remain for provenance. build.py is the supported build entry point.
 - Full historical capture runs/videos and original savestates remain in the prior source/handoff archives. The repository keeps compact evidence and exact rollback inputs.
 
-Remaining native artwork in the opening: the red spinning creature (068A–06AF family) and unmapped effects. This batch replaces the three rooms of scenery, selected new creatures and proven shared actors; it does not complete every Level 3 sprite. The existing recording covers this remaining work and the following corridor.
+Historical 0.11.0 limitation: the spinning creature was left native. The 0.11.1 review now adds its 0695–06AF frames and corrects the projectiles, flyer and bark. Other native effects and later-room scenery remain future work; the existing recording covers the next corridor.

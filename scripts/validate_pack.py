@@ -31,10 +31,19 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==41
+assert len(imgs)==42
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+level3_review=json.loads((root/'art/level3_review/registration.json').read_text())
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=level3_review[field]
+for section in ['IMAGES','CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN LEVEL3_REVIEW '+section+r'\n.*?^# END LEVEL3_REVIEW '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+prior_review=json.loads((root/'evidence/0.11.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==prior_review['hires.txt'],'Earlier mappings changed'
+for name,digest in prior_review.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' earlier art changed'
 level3=json.loads((root/'art/level3_opening/registration.json').read_text())
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=level3[field]
 for section in ['IMAGES','CONDITIONS','MAPPINGS','ALIASES']:

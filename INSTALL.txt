@@ -1,3 +1,7 @@
+Holy Diver HD 0.11.1 — Level 3 review corrections
+
+Adds the three-phase spinning blade-ring enemy, correct flame projectiles for the golden creature, insect wings/antennae for the small flying eye, and continuous shaded bark surfaces. Native gameplay and sound remain unchanged. Later Level 3 rooms and boss remain unfinished.
+
 Holy Diver HD 0.11.0 — Level 3 opening review build
 
 Adds the forest approach, tree climb, and stone shaft from the supplied Mesen movie. Later Level 3 scenery and its boss remain unfinished. Reuses approved Randy, HUD, eye/tears, ceiling bats, lava/ice and existing terrain materials. Native gameplay/audio unchanged.

@@ -95,3 +95,7 @@ The 0.10.1 repair retains the same boss through the two darker gold defeat palet
 ## Level 3 opening (0.11.0 review candidate)
 
 Use a midnight-blue and muted forest-teal wooded backdrop with distant Gothic ruins. Keep bright brown terrain and branch collision edges readable. Broad trees use vertical warm-brown bark, with the approved branches tied to native positions. The stone shaft reuses approved navy nave masonry and solid columns behind warm brown ledges. New golden ember creatures preserve their compact curled anatomy and shared head between poses; tiny crimson flyers retain their slim body and two native wing positions. Source prompts and registrations are under `art/generated/level3_*` and `art/level3_opening/`. See `LEVEL3_OPENING.md` for native scopes and verification.
+
+## Level 3 review (0.11.1)
+
+The small winged eye is an insect: antennae, tucked legs and rounded veined rose membranes, not bat wings. The spinner is a crimson thorn-ring with three pale curved blades and an open center. First-creature shots use the existing fireball art in their measured half-height footprints. Giant trees use broad continuous knotted oak and subdued moss, shaded within their original outline; avoid tiny repeated vertical strips. See LEVEL3_REVIEW.md.

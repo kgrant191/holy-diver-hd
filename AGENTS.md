@@ -4,7 +4,8 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 ## Current review branch
 
-- 0.11.0 on `feature/level3-opening` is an unapproved candidate for the first three Level 3 rooms. Approved main is still 0.10.2. See `docs/LEVEL3_OPENING.md` and `evidence/level3_opening/`.
+- 0.11.1 on `feature/level3-opening` supersedes the unapproved 0.11.0 candidate. It corrects the spinning enemy, first-creature projectiles, insect flyer and continuous bark surfaces. Approved main remains 0.10.2. See `docs/LEVEL3_REVIEW.md` and `evidence/level3_review/`.
+- Preserve the complete native wood masks, including partially visible top-row cells. The two 32×16 frames at 06B6–06B9 are projectiles, not body/emergence poses.
 - The `.mmo` input embeds the correct starting state and matches the project's ROM. Use `run_mesen_movie.py` with the stock MesenCE 2.2.1 native core, configuration shim and synchronized screenshot observer. Do not replace it with MesenAI. Input bytes remain outside Git.
 - NES endFrame fires before video submission; asynchronous HD decode can otherwise produce a one-frame capture mismatch. `sync_movie_capture.cpp` waits for the pending decode and then calls the original screenshot routine without changing pixels or native state.
 - New Level 3 scenery rules are limited to the three measured room pointers; actor aliases use proven native CHR copies. Preserve original conditional priority and the last shared Stage 2 fallback block.

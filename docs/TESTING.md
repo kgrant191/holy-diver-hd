@@ -220,3 +220,7 @@ See [BREAKER_RANDY.md](BREAKER_RANDY.md). Capture the supplied defeat state ever
 ## Level 3 movie workflow (0.11.0 review candidate)
 
 See [LEVEL3_OPENING.md](LEVEL3_OPENING.md) for standard `.mmo` replay with its embedded starting state, exact native-core/header versions, synchronized screenshot observer, full paired memory/audio checks, and input-only edge routes. This replaces the need for separate user states for the captured route. Never claim a whole-level or boss test from this opening/corridor recording.
+
+## Level 3 review corrections (0.11.1)
+
+Run the unchanged movie through the synchronized native-core harness, then `verify_level3_review.py` against the retained 0.11.0 capture. Require every new sprite pose, exact native state/audio, unchanged old assets, changes confined to requested artwork and agreement between the wood masks and native cells. Check the top of the climb and forest doorway during motion. Commands and coverage: `LEVEL3_REVIEW.md`.

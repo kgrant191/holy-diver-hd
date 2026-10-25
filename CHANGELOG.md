@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.11.1 — Level 3 review corrections
+
+- Create the three-phase crimson spinning blade-ring enemy.
+- Correct the golden creature's two projectile frames using the approved fireball source.
+- Replace the tiny bat-like flyer with an insect and cover both observed ordinary palettes.
+- Replace repeating bark strips with continuous shaded wood surfaces following the native geometry.
+- Preserve all previous artwork bytes, native gameplay and sound; add scoped movie/pixel/wood-mask verification.
+
 ## 0.11.0 — Level 3 opening (review candidate, 2026-10-25)
 
 - Add the forest approach, wide-tree climb and stone shaft, registered to native terrain and room boundaries.
