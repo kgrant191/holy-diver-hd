@@ -1,0 +1,44 @@
+{
+  "baseline": "0.7.0",
+  "candidate": "0.7.1",
+  "cases": {
+    "stair_walk": {
+      "frames": 600,
+      "identical_samples_per_memory_type": 300,
+      "identical_pcm_bytes": 1916844,
+      "shutdown_tail_bytes": 0,
+      "changed_images": 300,
+      "exact_images": 0,
+      "unchanged_next_room_images": 0,
+      "exact_black_images": 0
+    },
+    "ascent": {
+      "frames": 1200,
+      "identical_samples_per_memory_type": 600,
+      "identical_pcm_bytes": 3833688,
+      "shutdown_tail_bytes": 0,
+      "changed_images": 165,
+      "exact_images": 435,
+      "unchanged_next_room_images": 332,
+      "exact_black_images": 7
+    }
+  },
+  "controller_only": true,
+  "ram_writes": false,
+  "total_frames_per_build": 1800,
+  "native_stair_identities": {
+    "0375": 6990,
+    "0376": 6990,
+    "0377": 6990,
+    "0378": 6990,
+    "0379": 6990,
+    "037A": 6990,
+    "037D": 4203,
+    "037E": 4203,
+    "037B": 6990,
+    "037C": 6990,
+    "037F": 4203,
+    "0380": 4203
+  },
+  "unchanged_pack_files": 83
+}

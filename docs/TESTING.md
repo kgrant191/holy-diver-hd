@@ -166,3 +166,13 @@ Replay `screen2_3_review_routes.json` with the same cave runner and user state. 
 Approval bookkeeping for 0.6.1 changes only installed README.txt. All 84 runtime files retain the reviewed hashes, so no additional emulator run is required for the documentation-only approval update. The reviewed manifest is retained separately; the build/expected-hash check verifies the approved installation.
 
 PRs #6/#7 were merged after the user explicitly authorized them. The final 0.6.1 PR run 40053346170 and main run 40053648543 passed. Both actual downloaded artifacts contain 85 root files, with every approved hash matching, valid ZIP CRCs and no nested ZIP. Adoption documentation changes no runtime files. See `evidence/screen2_3_review/{pr_artifact,main_artifact,approval}.json`.
+
+## Stage 2 second horizontal cave (0.7.0 candidate)
+
+Use MesenCE 2.2.1, `screen2_4_routes.json` and the existing cave runner with the user's unchanged `Holy_Diver_HD_1(10).mss`. Run the separate approach route from the preceding screen 3 state. `verify_screen2_4_qa.py` compares approved 0.6.1 and candidate captures for native RAM/PPU/OAM, APU/common PCM, blackouts, menu/outside-room preservation, complete sprites and source panorama pixels. `verify_screen2_4_motion.py` measures actual two-HD-pixel downward fall translation and stationary Blizzard ice from consecutive captures with a stationary camera. Commands, exact input hashes, results and coverage limits are in [SCREEN2_4.md](SCREEN2_4.md).
+
+The whole native pattern bank matches the approved exterior. Static validation removes the SCREEN2_4 blocks to recover the exact 0.6.1 mapping, and checks all 83 prior runtime file hashes. The initial live preview exposed two unmapped wall-tip identities beneath platforms; the final build clears 036E/036F with the surrounding nonsolid wall. Final candidate replays are repeated after that mapping correction. Build/CRC/hash checks require 86 root files and no nested ZIP. Actions remains pending the user's source-bundle push.
+
+## Screen 2-4 stairs (0.7.1 candidate)
+
+The supplied end state exercises all twelve stair identities and the upper exit. `screen2_4_stairs_routes.json` and `verify_screen2_4_stairs.py` verify 1,800 paired frames/build, 900 exact native samples/type, equal full PCM/APU, changes confined to stair cells and 332 unchanged next-room pictures. See [SCREEN2_4_STAIRS.md](SCREEN2_4_STAIRS.md).

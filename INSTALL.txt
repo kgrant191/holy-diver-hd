@@ -1,5 +1,14 @@
-HOLY DIVER HD 0.6.1 — APPROVED DEVELOPMENT BUILD
-Stage 2, screen 3 vertical cave. Approved by the user on 2026-10-24.
+HOLY DIVER HD 0.7.1 — DEVELOPMENT REVIEW CANDIDATE
+Stage 2, screen 4 stair repair. Based on the 0.7.0 review candidate.
+
+Registers all twelve stair tiles with the existing gold texture and native edges.
+
+Reuses the approved cave backdrop, gold terrain, winged demons, downward arrows,
+pulsing rock enemies, lava/ice, player, pickups and HUD. Adds native ceiling
+shape registration using the existing gold texture. No new painted source art.
+Native collision, controller behavior, timing and audio remain unchanged.
+
+0.6.1 added the approved screen 3 vertical cave and blue tears.
 
 The floating eye now drops blue teardrops with rounded liquid bodies.
 

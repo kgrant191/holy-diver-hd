@@ -1,0 +1,6 @@
+{
+  "approach": {
+    "frames": 2300,
+    "input_code": "local m=emu.memType.nesInternalRam\nlocal scroll=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal st=emu.read(0x300,m)\nlocal magic=emu.read(0x490,m)\nif not phase then phase=0;at=0;oldMagic=magic end\nlocal keys={}\nif frame<170 then\n keys.select=(frame>=20 and frame<24)or(frame>=155 and frame<159)\n keys.b=frame>=50 and frame<54\nelse\n local f=frame-150\n keys.right=(f<300)or(f>=600 and f<900)or(f>=1200 and f<1500)\n keys.left=(f>=300 and f<600)or(f>=900 and f<1200)\n keys.b=frame%20<3\n if scroll>=350 and scroll<=512 and phase==0 and st<2 then phase=1;at=frame;oldMagic=magic end\n if phase==1 then\n  keys={select=frame-at<4,b=frame-at>=8 and frame%12<3}\n  if magic<oldMagic then phase=2;at=frame end\n elseif phase==2 then\n  keys={}\n  if frame-at>=110 then phase=3;at=frame end\n elseif phase==3 then\n  keys={select=frame-at<4}\n  if frame-at>=5 then phase=4 end\n elseif phase==4 and scroll>=480 and scroll<=512 then\n  keys={right=true,b=frame%20<3,a=frame%100<35}\n end\nend\nemu.setInput(keys,0)"
+  }
+}

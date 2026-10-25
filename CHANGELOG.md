@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.7.1 — Screen 2-4 stair repair candidate (2026-10-24)
+
+- Register twelve original stair tiles using approved gold texture and native outer contours.
+- Verify both stair flights and the upward transition from the supplied end state; preserve native state/audio and every next-room image.
+- Keep 83 pack files and all previously used ceiling-atlas cells exact.
+
+## 0.7.0 — Stage 2 screen 4 review candidate (2026-10-24)
+
+- Reuse the approved cave panorama, gold terrain, winged demons and arrows, pulsing rocks, lava/ice, player and HUD.
+- Register additional ceiling shapes with the accepted gold texture; reveal the cave behind the nonsolid red/ochre wall pattern.
+- Preserve all 83 existing runtime assets; only mappings and installed README change, with one small ceiling atlas added.
+- Verify 12,760 paired emulated frames/build, preserved native state/audio and actual downward lava/static ice; full room exit remains unverified.
+- Review candidate on feature/screen2-4; approved main remains 0.6.1.
+
 ## 0.6.1 — approved 2026-10-24
 
 - Replace the floating eyes’ fire-like shots with blue teardrops: cobalt/cyan liquid shading, pointed tops and rounded bases.

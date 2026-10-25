@@ -1,0 +1,10 @@
+{
+  "stair_walk": {
+    "frames": 600,
+    "input": "right=frame>=20 and frame<160,left=frame>=200 and frame<400"
+  },
+  "ascent": {
+    "frames": 1200,
+    "input": "left=frame>=20 and frame<155,right=frame>=260+10,a=(frame>=20 and frame<55)or(frame>=85 and frame<120)or(frame>=260 and (frame-260)%100<35),b=frame>=450 and frame%20<3"
+  }
+}

@@ -2,6 +2,10 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
+## Active review branch
+
+- `feature/screen2-4` contains 0.7.1 for review. Approved main remains 0.6.1. Read `docs/SCREEN2_4.md` for reuse, input hashes and bounded live coverage; the separate stair repair verifies the upward exit from the new end state (`docs/SCREEN2_4_STAIRS.md`). Do not describe the candidate as approved or the full middle-room traversal as tested.
+
 ## Preserve approved behavior
 
 - Current approved development version on main: 0.6.1. Includes the Stage 2 cave/lava flow (PR #6) and vertical cave with blue eye tears (PR #7). The user explicitly authorized both merges on 2026-10-24 ("merge it"); both are merged. PR/main Actions builds and actual downloaded 84/85-file artifacts were verified. See STATUS.md and evidence/screen2_3_review/approval.json. Imported artwork baseline: historical v15.1. Preserve approved artwork and native gameplay except for the user's requested change.

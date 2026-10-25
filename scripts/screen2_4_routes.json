@@ -1,0 +1,26 @@
+{
+  "combat_respawn": {
+    "frames": 2800,
+    "input": "right=(frame>=20 and frame<380)or(frame>=800 and frame<1000),left=frame>=400 and frame<740,b=frame>=30 and frame<1000 and frame%20<3,a=frame>=160 and frame<1000 and frame%90<30"
+  },
+  "freeze_thaw": {
+    "frames": 1000,
+    "input": "select=frame>=20 and frame<24,b=frame>=50 and frame<54"
+  },
+  "menu": {
+    "frames": 260,
+    "input": "start=(frame>=20 and frame<24)or(frame>=180 and frame<184),right=frame>=60 and frame<64,left=frame>=110 and frame<114"
+  },
+  "poses": {
+    "frames": 600,
+    "input": "left=frame>=20 and frame<50,right=frame>=180 and frame<210,up=(frame>=60 and frame<100)or(frame>=220 and frame<260),down=(frame>=110 and frame<150)or(frame>=270 and frame<310),b=frame>=60 and frame<310 and frame%12<3,a=frame>=360 and frame<390"
+  },
+  "traversal": {
+    "frames": 3400,
+    "input_code": "local m=emu.memType.nesInternalRam\nlocal st=emu.read(0x300,m)\nlocal sc=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal wx=emu.read(0x4e0,m)+(frame>300 and sc or 0)\nif not mode then mode=0;at=0 end\nlocal keys={right=frame>=20,a=frame>=80 and frame%90<30,b=frame>=80 and frame%90>=10 and frame%90<55 and frame%8<3}\nif mode==0 and wx>=280 and st<2 then mode=1;at=frame end\nif mode==1 then\n local g=frame-at\n local f=g\n keys={up=f>=3 and f<95,b=f>=3 and f<95 and f%12<3,a=f>=140 and f<175,right=f>=150}\n if f>230 then mode=2;at=frame end\nelseif mode==2 then\n local y=emu.read(0x4f0,m)\n local function tile(x,yy)\n  local xx=x%512;local yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x47 and t<=0x4a)end\n local ahead=tile(wx+16,y+1)\n local wall=tile(wx+12,y-12)\n if not jumpAt then jumpAt=-100; spellAt=-1000; spellPhase=0; prepared=false; prepAt=-1 end\n keys={right=true}\n if st<2 and frame-jumpAt>42 and (not solid(ahead)or solid(wall)) then jumpAt=frame end\n keys.a=frame-jumpAt<30\n local age=frame-jumpAt\n keys.b=(age>=4 and age<50 and age%12>=4 and age%12<7)or(age>55 and st<2 and solid(ahead)and not solid(wall)and frame%60<3)\n local lava=false\n for yy=40,208,16 do local t=tile(wx+48,yy);if t>=0x89 and t<=0x8e then lava=true end end\n if spellPhase==0 and lava and emu.read(0x3f05,emu.memType.nesPpuMemory)~=0x12 and emu.read(0x490,m)>=10 and st<2 then spellPhase=1;spellAt=frame end\n if spellPhase==1 then\n  local f=frame-spellAt\n  keys={select=(f<4)or(f>=115 and f<119),b=f>=10 and f<14}\n  if f>=125 then spellPhase=0 end\n end\n\n if not prepared and wx>=390 and wx<416 and st<2 and prepAt<0 then prepAt=frame end\n if prepAt>=0 and not prepared then\n  local f=frame-prepAt\n  keys={a=f<180 and f%90<30,b=f<180 and f%90>=4 and f%90<50 and f%12>=4 and f%12<7}\n  if f>=180+40 then prepared=true;jumpAt=-100 end\n end\n\nend\nemu.setInput(keys,0)"
+  },
+  "hot_falls": {
+    "frames": 2400,
+    "input_code": "local m=emu.memType.nesInternalRam\nlocal st=emu.read(0x300,m)\nlocal sc=emu.read(0x60,m)+256*emu.read(0x61,m)\nlocal wx=emu.read(0x4e0,m)+(frame>300 and sc or 0)\nif not mode then mode=0;at=0 end\nlocal keys={right=frame>=20,a=frame>=80 and frame%90<30,b=frame>=80 and frame%90>=10 and frame%90<55 and frame%8<3}\nif mode==0 and wx>=280 and st<2 then mode=1;at=frame end\nif mode==1 then\n local g=frame-at\n local f=g\n keys={up=f>=3 and f<95,b=f>=3 and f<95 and f%12<3,a=f>=140 and f<175,right=f>=150}\n if f>230 then mode=2;at=frame end\nelseif mode==2 then\n local y=emu.read(0x4f0,m)\n local function tile(x,yy)\n  local xx=x%512;local yy=yy%240\n  return emu.read(0x2000+math.floor(xx/256)*0x400+math.floor(yy/8)*32+math.floor(xx%256/8),emu.memType.nesPpuMemory)\n end\n local function solid(t)return (t>=0x2e and t<=0x33)or(t>=0x47 and t<=0x4a)end\n local ahead=tile(wx+16,y+1)\n local wall=tile(wx+12,y-12)\n if not jumpAt then jumpAt=-100; spellAt=-1000; spellPhase=0; prepared=false; prepAt=-1 end\n keys={right=true}\n if st<2 and frame-jumpAt>42 and (not solid(ahead)or solid(wall)) then jumpAt=frame end\n keys.a=frame-jumpAt<30\n local age=frame-jumpAt\n keys.b=(age>=4 and age<50 and age%12>=4 and age%12<7)or(age>55 and st<2 and solid(ahead)and not solid(wall)and frame%60<3)\n local lava=false\n for yy=40,208,16 do local t=tile(wx+48,yy);if t>=0x89 and t<=0x8e then lava=true end end\n if spellPhase==0 and lava and emu.read(0x3f05,emu.memType.nesPpuMemory)~=0x12 and emu.read(0x490,m)>=10 and st<2 then spellPhase=1;spellAt=frame end\n if spellPhase==1 then\n  local f=frame-spellAt\n  keys={select=(f<4)or(f>=115 and f<119),b=f>=10 and f<14}\n  if f>=125 then spellPhase=0 end\n end\n\n if not prepared and wx>=390 and wx<416 and st<2 and prepAt<0 then prepAt=frame end\n if prepAt>=0 and not prepared then\n  local f=frame-prepAt\n  keys={a=f<180 and f%90<30,b=f<180 and f%90>=4 and f%90<50 and f%12>=4 and f%12<7}\n  if f>=180+40 then prepared=true;jumpAt=-100 end\n end\n\nend\nif mode==2 and wx>=520 then keys={} end\nemu.setInput(keys,0)"
+  }
+}

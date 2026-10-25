@@ -1,0 +1,70 @@
+{
+  "total_frames_per_build": 12760,
+  "native_samples_per_type": 6380,
+  "exact_black_samples": 257,
+  "exact_outside_room_samples": 1427,
+  "covered_cave_samples": 4511,
+  "exact_panorama_samples": 451,
+  "baseline": "0.6.1",
+  "candidate": "0.7.0",
+  "pack_files": 86,
+  "unchanged_prior_runtime_files": 83,
+  "all_native_memory_and_apu_exact": true,
+  "all_common_pcm_exact": true,
+  "maximum_audio_shutdown_tail_bytes": 0,
+  "complete_sprite_matches": {
+    "imp_4/mirrored": 28,
+    "imp_3/mirrored": 16,
+    "imp_4/native": 12,
+    "imp_5/mirrored": 4,
+    "arrow/native": 35,
+    "imp_6/native": 9,
+    "lava_1/native": 18,
+    "lava_2/native": 9,
+    "lava_0/native": 8,
+    "imp_6/mirrored": 5,
+    "imp_3/native": 10,
+    "imp_5/native": 1
+  },
+  "traversal_maximum_camera_scroll": 537,
+  "full_room_exit_verified": false,
+  "live_scope": "Entrance, both directions, casts, pause, breakable-block ledges, first two falls and pool, Blizzard freeze/thaw, death/respawn, previous vertical-room approach.",
+  "manifest_sha256": "873a17c8ab45d5f1b94d7b18e7605298d6ae2aa9db54ba32a5fc3805befb4518",
+  "motion": {
+    "hot_fall": {
+      "pairs": 647,
+      "downward_2px": 647,
+      "upward_2px": 0,
+      "stationary": 0
+    },
+    "frozen_fall": {
+      "pairs": 456,
+      "stationary": 456
+    },
+    "distinct_hot_crops": 31,
+    "capture_stride": 2,
+    "hd_pixels_down_per_capture": 2,
+    "examples": {
+      "hot": {
+        "case": "hot_falls",
+        "frame": 1204,
+        "box": [
+          466,
+          160,
+          490,
+          224
+        ]
+      },
+      "ice": {
+        "case": "traversal",
+        "frame": 1368,
+        "box": [
+          306,
+          160,
+          330,
+          224
+        ]
+      }
+    }
+  }
+}
