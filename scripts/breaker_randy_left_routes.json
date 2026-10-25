@@ -1,0 +1,6 @@
+{
+  "left_pickup": {
+    "frames": 1600,
+    "input": "right=(frame<100)or(frame>=1000 and frame<1030),left=frame>=1050 and frame<1150,b=frame<900 and frame%8<3,a=(frame<900 and frame%100<25)or(frame>=1000 and frame<1024)"
+  }
+}

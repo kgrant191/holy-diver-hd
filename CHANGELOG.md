@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.2 — Randy during Breaker pickup (review candidate 2026-10-24)
+
+- Retain HD Randy through the final three native pickup-fade steps in normal and Twin Fire costumes.
+- Reuse all existing pose cells and their first-match conditions with scoped palette/brightness aliases; preserve native mirroring.
+- Change only hires.txt and installed version notes; preserve all 91 other installation files, including the approved boss repairs.
+
 ## 0.10.1 — Boss defeat and pickup repair (approved 2026-10-24)
 
 - Merge PRs #8–#11 into main in dependency order after explicit user authorization. Record successful PR/main builds and independently verified 86/89/90/93-file artifacts; all tested installation bytes remain unchanged.

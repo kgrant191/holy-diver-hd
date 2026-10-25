@@ -35,6 +35,24 @@ assert len(imgs)==40
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+breaker_randy=json.loads((root/'art/breaker_randy/registration.json').read_text())
+counts['tile']-=breaker_randy['tile_rules']
+counts['condition']-=breaker_randy['conditions']
+fade_block=re.search(r'^# BEGIN BREAKER_RANDY\n(.*?)^# END BREAKER_RANDY\n',content,flags=re.M|re.S)
+assert fade_block and fade_block.end()<=content.index('# BEGIN BOSS2_REVIEW')
+fade_lines=fade_block.group(1).splitlines()
+assert sum('<tile>' in line for line in fade_lines)==942
+assert sum('<condition>' in line for line in fade_lines)==breaker_randy['conditions']
+for line in fade_lines:
+ if '<tile>' in line:
+  assert line.startswith('[b2Room&b2Lo&b2Hi')
+  fields=line.split('<tile>')[1].split(',')
+  assert fields[0] in {'18','19','22'} and fields[5] in {'.65','.30','.12'}
+content=content[:fade_block.start()]+content[fade_block.end():]
+previous_randy=json.loads((root/'evidence/0.10.1-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==previous_randy['hires.txt']
+for name,digest in previous_randy.items():
+ if name not in {'README.txt','hires.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved artwork changed'
 boss2_review=json.loads((root/'art/boss2_review/registration.json').read_text())
 counts['tile']-=boss2_review['tile_rules']
 review_block=re.search(r'^# BEGIN BOSS2_REVIEW\n(.*?)^# END BOSS2_REVIEW\n',content,flags=re.M|re.S)

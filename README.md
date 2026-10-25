@@ -4,6 +4,8 @@ Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver 
 
 The approved work is merged through PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8) → [#9](https://github.com/kgrant191/holy-diver-hd/pull/9) → [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) → [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). All four PR and main merge builds pass. Their downloaded installation artifacts pass independent hash/layout checks. See STATUS.md for adoption details.
 
+**Breaker Randy repair (0.10.2 review candidate).** Keeps the existing HD Randy poses through all three final pickup-fade palettes in both normal and Twin Fire costumes. All artwork files remain byte-identical to approved 0.10.1. See [repair verification](docs/BREAKER_RANDY.md).
+
 **Boss defeat/pickup repair (0.10.1).** Keeps the HD boss through both gold defeat-fade palettes and removes its outline during the Breaker pickup flash. All other artwork and native gameplay/audio remain intact. See [repair verification](docs/BOSS2_REVIEW.md).
 
 **Level 2 boss and Breaker (0.10.0).** Adds the complete wall-root demon, native hit/defeat palette phases, a new Breaker tome and its announcement. Reuses the existing cave, brown rock texture, actor poses, HUD and fireball. The supplied state supports a controller-only victory and collection route through the existing Stage 3 title card. See [boss notes](docs/BOSS2.md).
@@ -62,7 +64,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.10.1.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.10.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 
