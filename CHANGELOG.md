@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.10.1 — Boss defeat and pickup repair (2026-10-24)
+## 0.10.1 — Boss defeat and pickup repair (approved 2026-10-24)
 
 - Map both gold defeat-fade palettes to the existing HD boss, preventing a brief fallback to the original artwork.
 - Clear the defeated boss during the Breaker pickup flash while retaining the cave flash and native timing.

@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Review candidate: 0.10.1 on `feature/2-boss`; approved artwork baseline: 0.9.0; main: 0.6.1 pending source adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.10.1 on `feature/2-boss` (2026-10-24); main: 0.6.1 pending source adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 **Boss defeat/pickup repair (0.10.1).** Keeps the HD boss through both gold defeat-fade palettes and removes its outline during the Breaker pickup flash. All other artwork and native gameplay/audio remain intact. See [repair verification](docs/BOSS2_REVIEW.md).
 

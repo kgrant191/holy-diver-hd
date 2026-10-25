@@ -84,7 +84,7 @@ Finished art is shared whenever native tile identity and palette match. Keep roo
 
 Use the accepted crimson panorama with the restored original brown solid terrain and existing bats. The only new painted subject is the orange/gold bipedal winged dragon: long open snout, small ember-red wings, clawed hands and two walking leg poses. Native artwork faces left; OAM mirrors the full creature right. Share its 18 upper-body cells exactly between poses so the head and torso do not wobble. Fit the whole silhouette inside the measured native tile footprint without clipping. The horizontal shot reuses the approved boss fireball source. Sources, native reference, prompt and registration are under `art/screen2_6/` and `art/generated/screen2_6_*`.
 
-## Level 2 wall boss (0.10.0 candidate)
+## Level 2 wall boss (approved in 0.10.1)
 
 The boss is a small left-facing demonic skull joined to a much larger violet organ behind it, enclosed by branching coral-pink roots and ivory ridges. Preserve that native asymmetry: the face must not dominate the organ. Its full measured footprint spans two nametables, 192×256 HD pixels. The first narrow source represented only the visible left half and is provenance; use `boss2_wall_full_generated.png` for the full creature. Retain a coherent face/organ connection and fit the roots within the measured tile coverage. Native palette changes control hit phases and disappearance.
 

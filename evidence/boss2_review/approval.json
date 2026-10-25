@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24",
+  "timezone": "America/New_York",
+  "user_statement": "approved",
+  "approved_version": "0.10.1",
+  "approved_commit": "efe33056e5d2e75815c482b1bcba34a4ea83b505",
+  "branch": "feature/2-boss",
+  "runtime_hashes": "evidence/0.10.1-pack-sha256.json",
+  "installed_files": 93,
+  "all_reviewed_pack_bytes_preserved": true,
+  "install_zip_sha256": "1ee94f603fedd22e1b320b19add7d9320665ede4ed14727339834825edfab10d",
+  "scope": "Level 2 boss appearance, Breaker presentation and both defeat/pickup repairs accepted.",
+  "remote_adoption": "Four feature branches remain unpublished; main verified at 5fdae8a88920ad6612d9f01ee913d85af6837209. Source push, PR and Actions workflow pending."
+}

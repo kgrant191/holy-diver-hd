@@ -2,7 +2,9 @@
 
 Updated: 2026-10-24 (America/New_York).
 
-## Review candidate — 0.10.1, feature/2-boss
+## Approved continuation baseline — 0.10.1, feature/2-boss
+
+The user approved the delivered 0.10.1 on 2026-10-24 ("approved"). `evidence/boss2_review/approval.json` records the reviewed artwork commit and exact installation hashes. Approval bookkeeping changes only source documentation; all 93 installation files and the delivered install ZIP remain unchanged. The historical review label in the frozen installed README is retained to preserve those exact bytes. The four feature branches are still unpublished on GitHub; main remains 0.6.1.
 
 Fixes both reported boss reappearances. The new save defeats the boss on the gold hit palette; its two darker fade palettes were missing, briefly exposing the original NES art. They now use dimmer versions of the existing HD boss. The native Breaker flash previously selected a deliberate black boss silhouette; the repair uses the existing transparent cell so the defeated boss stays gone while the cave flash remains. No new painting is introduced.
 
