@@ -1,8 +1,12 @@
 # Current status
 
-## Approved continuation — 0.15.0, feature/level3-finale
+## Approved baseline — 0.15.0, main
 
-Based on approved 0.14.0, recorded in source-only approval commit d18f058. The new 4,812-frame recording covers the final moss climb (9F1A), boss (9F92), defeat, Overdrive collection/announcement, Stage 4 card and the first 38 frames of the next-stage arrival. The two new rooms are implemented; later Stage 4 scenery remains unfinished. The approved 106-file pack preserves all 102 previous art/audio files and recovers exact approved 0.14.0 mappings when its marked additions are removed. Main remains 0.10.2. The user approved the delivered pack and authorized PRs and merges for the complete five-branch Level 3 chain on 2026-10-26. The branches are now pushed; adoption is in progress. All 106 reviewed installation bytes stay frozen. No release tag or GitHub Release is requested. See evidence/level3_finale/approval.json. All 3,902 paired native samples/type and complete APU/PCM comparisons pass. Evidence includes 167 complete actor-source matches, 40 scenery reconstructions, all four defeat-flash colors and all three observed normal-costume fades. See docs/LEVEL3_FINALE.md and evidence/level3_finale/.
+The user approved the completed Level 3 pack and authorized all five PRs and merges on 2026-10-26. PRs #13 → #14 → #15 → #16 → #17 are merged into main in dependency order, with each successor retargeted to main. Every merge tree matches its reviewed branch head. All five PR builds and all five main merge builds passed; all ten downloaded artifacts match their complete expected manifests, archive digests, CRCs and flat install layouts. The final pack retains all 106 reviewed installation bytes, including historical README wording. See evidence/stage3_adoption/ and evidence/level3_finale/approval.json.
+
+Main now includes the Level 3 opening/detail fixes, lava/Breaker work, independent multi-fish stabilization, green Poison Moss Land scenery, final climb, boss and Overdrive sequence. Live review evidence includes 3,902 paired native samples/type with exact full audio, 167 actor-source matches, 40 scenery reconstructions, all four defeat-flash colors and all three observed normal-costume pickup fades. The approved cumulative baseline is 0.15.0; historical review entries below describe their original delivery state.
+
+Next: Level 4 / Golden Temple, from a focused branch based on main. Its title card and recorded initial arrival are covered; later scenery and encounters remain unfinished. No release tag or GitHub Release was requested or created.
 
 Updated: 2026-10-26 (America/New_York).
 

@@ -1,8 +1,8 @@
 # Holy Diver HD
 
-**Approved 0.15.0 on `feature/level3-finale` (2026-10-26).** Completes the newly recorded final climb and boss arena with the approved green moss scenery, a pink horned boss, living thorny growths and curved shots. Adds the Overdrive orb/announcement and verifies the Golden Temple title card. Native gameplay and audio remain unchanged. See [finale notes](docs/LEVEL3_FINALE.md).
+**Approved 0.15.0 on `main` (merged 2026-10-26).** Completes the newly recorded final climb and boss arena with the approved green moss scenery, a pink horned boss, living thorny growths and curved shots. Adds the Overdrive orb/announcement and verifies the Golden Temple title card. Native gameplay and audio remain unchanged. See [finale notes](docs/LEVEL3_FINALE.md).
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved continuation baseline: 0.15.0 on `feature/level3-finale` (approved 2026-10-26). The user authorized adoption of all five Level 3 branches; main remains at merged 0.10.2 until those PRs are merged.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved baseline: 0.15.0 on `main`.** All five Level 3 PRs [#13](https://github.com/kgrant191/holy-diver-hd/pull/13)–[#17](https://github.com/kgrant191/holy-diver-hd/pull/17) are merged. All PR/main builds and ten independently downloaded install artifacts pass. See `evidence/stage3_adoption/`. Level 4 scenery is next. Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 **Approved 0.14.0 on `feature/poison-moss-land`.** Gives the eight completed/recorded Level 3 areas their own green moss forest, ivy-covered Gothic ruins and emerald masonry. Preserves platform contours, existing wood, actors, fish stabilization, lava/ice and native gameplay/audio. See [Poison Moss Land](docs/POISON_MOSS.md).
 

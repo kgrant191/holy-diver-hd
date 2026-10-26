@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-26",
+  "timezone": "America/New_York",
+  "approved_version": "0.15.0",
+  "user_authorization": "approved.  lets PR and merge it all so we can move on to level 4",
+  "merge_method": "merge",
+  "merge_order": [
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "records": [
+    {
+      "pr": 13,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/13",
+      "branch": "feature/level3-opening",
+      "head_sha": "9eb0678f0ba3ee9aed9d19481c6eacb5f89fdd58",
+      "main_merge_sha": "7a83b5409e467d29e3dbdc75da7c077de0bbac68",
+      "merged_at": "2026-10-26T11:53:43Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr13_artifact.json",
+      "main_artifact": "main13_artifact.json"
+    },
+    {
+      "pr": 14,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/14",
+      "branch": "feature/level3-lava",
+      "head_sha": "fb1fb4d35b73711cbf6a8f82682322eb21941234",
+      "main_merge_sha": "5929e6774447654bb2acd11d547b736666ceb542",
+      "merged_at": "2026-10-26T11:54:47Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr14_artifact.json",
+      "main_artifact": "main14_artifact.json"
+    },
+    {
+      "pr": 15,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/15",
+      "branch": "feature/level3-caves",
+      "head_sha": "06a53b9326b0f39f36eec3e95180381647257672",
+      "main_merge_sha": "119bbc884455bb3cc5368d896b40e2a14b932684",
+      "merged_at": "2026-10-26T11:55:48Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr15_artifact.json",
+      "main_artifact": "main15_artifact.json"
+    },
+    {
+      "pr": 16,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/16",
+      "branch": "feature/poison-moss-land",
+      "head_sha": "d18f0589ba5b5becd5dd6c766c72eaac48dc1c5b",
+      "main_merge_sha": "c9a28842d2b2a79b5d3bf5e7b925dd5c3fec6d49",
+      "merged_at": "2026-10-26T11:56:23Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr16_artifact.json",
+      "main_artifact": "main16_artifact.json"
+    },
+    {
+      "pr": 17,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/17",
+      "branch": "feature/level3-finale",
+      "head_sha": "709e91394ce523ad9815c8de6f68041007fbb44e",
+      "main_merge_sha": "034c602121ec96854e04e0ad413e17f615241478",
+      "merged_at": "2026-10-26T11:57:31Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr17_artifact.json",
+      "main_artifact": "main17_artifact.json"
+    }
+  ],
+  "release_tag_created": false
+}

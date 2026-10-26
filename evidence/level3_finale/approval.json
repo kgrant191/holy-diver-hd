@@ -18,5 +18,16 @@
   "install_zip_sha256": "4ee841c025e28c236a605f20959d3c57a1e8d2383e8e4de0253f7139d73fedf0",
   "approval_bookkeeping": "Source documentation only; installed README remains frozen.",
   "next_area": "Level 4 Golden Temple",
-  "release_tag_requested": false
+  "release_tag_requested": false,
+  "pull_requests": [
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "main_merge_commit": "034c602121ec96854e04e0ad413e17f615241478",
+  "all_merge_trees_match_reviewed_heads": true,
+  "all_pr_and_merge_builds_pass": true,
+  "downloaded_pr_and_merge_artifacts_verified": 10
 }

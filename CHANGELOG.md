@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.15.0 — 2026-10-26 (approved)
+## 0.15.0 — 2026-10-26 (approved and merged)
+
+- Merge all five Level 3 PRs (#13–#17) into main after user authorization. All PR/main builds and ten downloaded artifacts pass; preserve all 106 reviewed installation bytes. Level 4 scenery is the next task.
 
 - User approved the delivered pack and authorized PRs and merges for all five Level 3 branches. Record approval in source only; preserve all 106 reviewed install files and their frozen hashes.
 
