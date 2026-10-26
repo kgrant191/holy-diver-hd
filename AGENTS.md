@@ -2,7 +2,14 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
-## Current Level 3 caves review — 0.13.0
+## Current Poison Moss Land review — 0.14.0
+
+- Work is on `feature/poison-moss-land`, based on 0.13.0 at 06a53b9. The user explicitly requested a greener Level 3 distinct from the reused caves/rocks. This direction supersedes the historical Level 3 brown/cave reuse instructions below; Stage 1/2 remain unchanged.
+- `build_poison_moss.py` runs after shared fallbacks and inserts its scoped overrides before existing mappings, preserving original priority. Three newly painted sources supply a moss forest, overgrown Gothic ruins and green masonry. Preserve every terrain alpha contour and all original native guards, including solid supports 0796/0797. Preserve continuous oak overlays and branch wood.
+- All 99 prior art/audio files and all fish mappings remain exact. Only Level 3 scenery references change, plus installed README. Removing the marked overrides and reversing recorded background substitutions must recover exact 0.13.0 hires.txt.
+- This is unapproved. Main 0.10.2 and approved continuation 0.11.2 remain pinned. Live coverage is the eight recorded rooms, including only the beginning of 9DEE. See docs/POISON_MOSS.md.
+
+## Previous Level 3 caves review — 0.13.0
 
 - Work is on `feature/level3-caves`, based on review 0.12.2 at fb1fb4d. The user still saw fish shaking in the next room, where several fish appear together. 0.12.2's one-fish/one-room guard was insufficient.
 - `build_big_fish_motion.py` now registers each complete fish independently at its native player-relative horizontal hover equilibrium. Match the actual tile origin; preserve the stock Mesen 2.2.1 mirrored-origin workaround pairing originPositionCheckX with positionCheckX. An origin-only mirrored guard changes isolated pixel stripes and is incorrect. Do not change native movement, hit blinking or source poses. Partly clipped boundary sprites retain original registration.
@@ -46,7 +53,7 @@ Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before chan
 
 - Approved continuation baseline: **0.10.2 on `main`**. The user approved the delivered boss and defeat/pickup repairs on 2026-10-24; see `evidence/boss2_review/approval.json`. Preserve all 93 reviewed installation files exactly, including the original brown ceiling, accepted stairs and shared Stage 2 artwork. PRs #8–#11 are merged into main after the user authorized all four merges.
 - The current source handoff includes `feature/screen2-4`, `feature/screen2-5`, `feature/screen2-6` and `feature/2-boss`. Older refs stay at their earlier source commits; screen2-6 includes the 0.9.0 approval record. No release/tag is requested. Boss artwork is approved; PRs #8–#11 merged in dependency order (screen2-4 → screen2-5 → screen2-6 → 2-boss), retargeting each successor to main. PR/main builds and all downloaded artifacts pass. See `evidence/stage2_adoption/merges.json` and the four `main_artifact.json` records. The 0.10.1 repair covers both gold defeat-fade palettes and removes the dead boss silhouette during Breaker flashes; preserve the native room flash.
-- Finished artwork must be reused for matching native identities/palettes. `build_shared_stage2.py` runs last, after all specific rules. Verified new-bank aliases retain pose conditions; put broad aliases after existing specific rules. Never globally clear scenery. See `docs/SCREEN2_6.md` and `docs/BOSS2.md`.
+- Finished artwork must be reused for matching native identities/palettes. `build_shared_stage2.py` appends fallbacks after all specific rules; the Poison Moss postprocessor preserves that priority. Verified new-bank aliases retain pose conditions; put broad aliases after existing specific rules. Never globally clear scenery. See `docs/SCREEN2_6.md` and `docs/BOSS2.md`.
 
 ## Preserve approved behavior
 

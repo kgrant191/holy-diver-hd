@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.14.0 — Poison Moss Land scenery review
+
+- Replace reused Level 3 cave/rock scenery with new green moss forest and overgrown Gothic ruins across the eight completed/recorded rooms.
+- Add moss-topped emerald masonry, carved steps and solid ceiling/support art inside exact existing terrain contours.
+- Preserve all earlier art/audio files, wood overlays, actor artwork, fish stabilization, lava/ice and native gameplay. Main 0.10.2 and approved continuation 0.11.2 remain pinned; this candidate awaits review.
+
+
 ## 0.13.0 — 2026-10-25 (review)
 
 - Correct remaining large-fish hover shake with independent per-sprite registration, including multiple fish moving in opposite phases. Preserve original artwork, native vertical motion and hit blinking.

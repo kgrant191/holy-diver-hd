@@ -1,0 +1,64 @@
+{
+  "controller_only": true,
+  "samples": [
+    {
+      "frame": 5531,
+      "native_object_anchor": [
+        221,
+        112
+      ],
+      "sprite_origin": [
+        221,
+        96
+      ]
+    },
+    {
+      "frame": 5560,
+      "native_object_anchor": [
+        221,
+        112
+      ],
+      "sprite_origin": [
+        221,
+        96
+      ]
+    },
+    {
+      "frame": 5619,
+      "native_object_anchor": [
+        17,
+        112
+      ],
+      "sprite_origin": [
+        17,
+        96
+      ]
+    },
+    {
+      "frame": 5731,
+      "native_object_anchor": [
+        73,
+        112
+      ],
+      "sprite_origin": [
+        73,
+        96
+      ]
+    },
+    {
+      "frame": 5732,
+      "native_object_anchor": [
+        74,
+        113
+      ],
+      "sprite_origin": [
+        74,
+        97
+      ]
+    }
+  ],
+  "open_left_connection": true,
+  "last_supported_frame": 5731,
+  "first_fall_frame": 5732,
+  "all_terrain_alpha_masks_preserved": true
+}
