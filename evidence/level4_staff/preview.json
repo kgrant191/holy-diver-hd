@@ -1,0 +1,37 @@
+{
+  "frames": 695,
+  "fps": 30,
+  "seconds": 23.166666666666668,
+  "playback_speed": 1,
+  "game_images_unretouched": true,
+  "source_segments": [
+    [
+      300,
+      650,
+      "Indoor background through the climb"
+    ],
+    [
+      900,
+      1200,
+      "Complete upper ornaments and staff pickup"
+    ],
+    [
+      1520,
+      1680,
+      "The same staff in the Start menu"
+    ],
+    [
+      2500,
+      2800,
+      "Transition into the outdoor arena"
+    ],
+    [
+      3160,
+      3310,
+      "Armored sentinel \u2014 native movement and attacks"
+    ]
+  ],
+  "final_still_frame": 3200,
+  "final_still_seconds": 2,
+  "silent": true
+}

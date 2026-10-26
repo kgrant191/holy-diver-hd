@@ -1,0 +1,4 @@
+{
+  "tool": "image_gen",
+  "prompt": "Correct ONLY the arms of this attack-pose sprite. The first image is the edit target; the second image is a native pose-layout study, use its FOURTH/rightmost panel to guide which arm goes where. Keep the exact canvas, helmet facing right, chest cannon opening, body, legs, feet, colors and transparency. Close the hand on the LEFT SIDE OF THE IMAGE into a compact fist and bend that arm toward the chest. Move the open hand to the RIGHT SIDE OF THE IMAGE and extend that forearm to the right, with its hand at chest level. The far upper-right corner above that extended hand must be empty/transparent; the upper right shoulder must not reach into that corner. Keep both arms in the upper third of the figure, never at hip level. Keep the character exactly the same size and the feet fixed. One sprite only, no text, no reference panels."
+}

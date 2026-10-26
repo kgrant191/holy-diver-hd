@@ -1,0 +1,12 @@
+{
+  "files": [
+    "item_enemy_aliases.json",
+    "native_inventory.json",
+    "native_patterns.json",
+    "native_sentinel_layouts.json",
+    "observed_backgrounds.json",
+    "stable_backgrounds.json",
+    "stable_view_guards.json"
+  ],
+  "all_exact": true
+}

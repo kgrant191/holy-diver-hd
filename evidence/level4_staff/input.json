@@ -1,0 +1,11 @@
+{
+  "filename": "Holy_Diver_HD(8).mmo",
+  "bytes": 10367,
+  "sha256": "478f9616cf0ea3073f2e99930e80b83f634a2a927b99b5ab5efde869fcacddda",
+  "embedded_state_sha256": "346d0d8f28de7d24a7ab316a5fbd8210df438ca45dfd41513d4c56c362d09def",
+  "movie_frames": 3632,
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "source_commit": "55382eb0fc3d07c37447dabf1939cdc670455944",
+  "candidate_branch": "feature/golden-temple-staff",
+  "ram_writes": false
+}

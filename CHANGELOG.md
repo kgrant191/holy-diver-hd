@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.18.0 — 2026-10-26 — review candidate
+
+- Repair intermittent AC61 panorama loss and complete both upper ornament layouts.
+- Update the staff pickup and its Start/pause-menu icon with the same gold source.
+- Apply outdoor scenery to ACD9 through byte-proven 0D-bank mappings, retaining worn masonry and native platform shapes.
+- Reuse HD Randy/HUD through the 0C bank; add four native armored-sentinel poses, hit palettes and the existing projectile artwork.
+- Preserve all 110 earlier art/audio/patch assets, native gameplay/audio and the exact recoverable 0.17.0 mapping layer.
+
 ## 0.17.0 — Golden Temple hall and courtyard (review)
 
 - Extend the approved indoor hall and outdoor courtyard treatments through the supplied recording, returning indoors at AC61.

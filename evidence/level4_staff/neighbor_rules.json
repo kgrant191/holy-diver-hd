@@ -1,0 +1,7 @@
+{
+  "unique_ordered_chains": 12,
+  "screen_coordinate_cases": 737280,
+  "safe_reads": 691200,
+  "blocked_branches": 46080,
+  "unsafe_reads": 0
+}

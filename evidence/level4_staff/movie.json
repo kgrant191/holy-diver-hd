@@ -1,0 +1,286 @@
+{
+  "movie_sha256": "478f9616cf0ea3073f2e99930e80b83f634a2a927b99b5ab5efde869fcacddda",
+  "movie_frames": 3632,
+  "native_samples_per_type": 1816,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 11609412,
+  "pcm_sha256": "b758cf04cca5a131b1b98364e22e23f0801b0fd6be95ddd66b63d143239fbec9",
+  "apu_sha256": "6eb246f098f3323f24f79b6f27de746f4288b324929f6e4748a1d3014b633174",
+  "image_checks": {
+    "unchanged": 265,
+    "changed": 1551,
+    "visible_pause_samples": 129,
+    "native_black": 9,
+    "native_background_disabled": 90
+  },
+  "background_samples": {
+    "AC61": 1221,
+    "ACD9": 297
+  },
+  "minimum_exact_panorama_pixels": {
+    "AC61": 121228,
+    "ACD9": 110202
+  },
+  "complete_source_matches": {
+    "staff": 79,
+    "ornament_alt": 81,
+    "ornament": 41,
+    "sentinel_0_FF102030_normal": 1,
+    "sentinel_2_FF061530_mirror": 5,
+    "sentinel_0_FF061530_mirror": 11,
+    "sentinel_1_FF061530_mirror": 11,
+    "sentinel_0_FF102030_mirror": 1,
+    "sentinel_3_FF061530_mirror": 4,
+    "sentinel_2_FF122232_mirror": 1
+  },
+  "source_examples": {
+    "staff": [
+      {
+        "frame": 740,
+        "positions": [
+          [
+            40,
+            8
+          ]
+        ]
+      },
+      {
+        "frame": 750,
+        "positions": [
+          [
+            40,
+            8
+          ]
+        ]
+      },
+      {
+        "frame": 760,
+        "positions": [
+          [
+            40,
+            8
+          ]
+        ]
+      }
+    ],
+    "ornament_alt": [
+      {
+        "frame": 880,
+        "positions": [
+          [
+            384,
+            2
+          ]
+        ]
+      },
+      {
+        "frame": 890,
+        "positions": [
+          [
+            384,
+            8
+          ]
+        ]
+      },
+      {
+        "frame": 900,
+        "positions": [
+          [
+            384,
+            8
+          ]
+        ]
+      }
+    ],
+    "ornament": [
+      {
+        "frame": 2530,
+        "positions": [
+          [
+            0,
+            192
+          ]
+        ]
+      },
+      {
+        "frame": 2540,
+        "positions": [
+          [
+            0,
+            192
+          ]
+        ]
+      },
+      {
+        "frame": 2600,
+        "positions": [
+          [
+            0,
+            192
+          ]
+        ]
+      }
+    ],
+    "sentinel_0_FF102030_normal": [
+      {
+        "frame": 2750,
+        "positions": [
+          [
+            336,
+            220
+          ]
+        ]
+      }
+    ],
+    "sentinel_2_FF061530_mirror": [
+      {
+        "frame": 2760,
+        "positions": [
+          [
+            316,
+            260
+          ]
+        ]
+      },
+      {
+        "frame": 2890,
+        "positions": [
+          [
+            376,
+            288
+          ]
+        ]
+      },
+      {
+        "frame": 2950,
+        "positions": [
+          [
+            392,
+            288
+          ]
+        ]
+      }
+    ],
+    "sentinel_0_FF061530_mirror": [
+      {
+        "frame": 2780,
+        "positions": [
+          [
+            308,
+            288
+          ]
+        ]
+      },
+      {
+        "frame": 2820,
+        "positions": [
+          [
+            294,
+            288
+          ]
+        ]
+      },
+      {
+        "frame": 2850,
+        "positions": [
+          [
+            316,
+            288
+          ]
+        ]
+      }
+    ],
+    "sentinel_1_FF061530_mirror": [
+      {
+        "frame": 2860,
+        "positions": [
+          [
+            334,
+            288
+          ]
+        ]
+      },
+      {
+        "frame": 2920,
+        "positions": [
+          [
+            404,
+            288
+          ]
+        ]
+      },
+      {
+        "frame": 2930,
+        "positions": [
+          [
+            400,
+            288
+          ]
+        ]
+      }
+    ],
+    "sentinel_0_FF102030_mirror": [
+      {
+        "frame": 2870,
+        "positions": [
+          [
+            350,
+            288
+          ]
+        ]
+      }
+    ],
+    "sentinel_3_FF061530_mirror": [
+      {
+        "frame": 2900,
+        "positions": [
+          [
+            396,
+            288
+          ]
+        ]
+      },
+      {
+        "frame": 2960,
+        "positions": [
+          [
+            392,
+            288
+          ]
+        ]
+      },
+      {
+        "frame": 3100,
+        "positions": [
+          [
+            392,
+            288
+          ]
+        ]
+      }
+    ],
+    "sentinel_2_FF122232_mirror": [
+      {
+        "frame": 3290,
+        "positions": [
+          [
+            360,
+            288
+          ]
+        ]
+      }
+    ]
+  },
+  "menu_staff_matches": 113,
+  "death_actor_extent": [
+    12,
+    208,
+    350,
+    416
+  ],
+  "earlier_movie_images_exact": false,
+  "neighbor_diagnostic": "Enabled during candidate replay; no invalid read reported",
+  "coverage_limit": "Recorded encounter ends with player death; sentinel defeat and later areas are not tested"
+}

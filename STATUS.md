@@ -1,5 +1,9 @@
 # Current status
 
+## Golden Temple staff hall and outdoor arena — 0.18.0 review
+
+Work is on `feature/golden-temple-staff` from the frozen 0.17.0 continuation. The newly recorded AC61 climb now retains its interior panorama and complete upper ornaments. The staff pickup and Start-menu icon share one source. ACD9/mode18 uses the outdoor scenery and the physical 0D background bank; the 0C actor bank reuses finished Randy/HUD poses and adds the recorded armored sentinel. Main remains approved 0.15.0, and 0.16.3 remains the last explicitly approved Level 4 pack. No push, PR, merge or release is requested. Paired checks pass 8,018 frames per build and 4,009 native samples per type, with exact full audio and all 2,193 earlier images. All 113 install hashes and flat ZIP checks pass. See docs/LEVEL4_STAFF.md and evidence/level4_staff/ for the final paired checks. The recording ends with player death; sentinel victory and later rooms remain untested.
+
 ## Golden Temple continuation — 0.17.0 review
 
 Work is on feature/golden-temple-courtyard from approved 0.16.3. The next hall AAF9 uses the enclosed interior; AB71 uses the exterior; the recorded AC61 re-entry returns indoors. The wings pickup and eight-orb fire chain have new art. All earlier assets remain exact. Main is still approved 0.15.0. No push, PR, merge or release is requested. Paired checks pass 13,054 frames per build, 4,361 native samples per type, exact full PCM/APU and all 2,168 earlier screenshots. Both candidate replays complete with the crash detector enabled. All 112 install hashes and flat ZIP checks pass. See docs/LEVEL4_COURTYARD.md and evidence/level4_courtyard/.

@@ -1,5 +1,9 @@
 # Art direction
 
+## Staff hall and outdoor arena — 0.18.0
+
+Reuse the accepted temple backgrounds, worn solid stone, cracked breakables and complete carved ornaments. Keep the staff slender and gold with a curled head and green inset; use the same registered source in the pickup and menu. The outdoor sentinel has crimson armor, brass trim and a closed helmet, with coherent steps and chest-cannon attack inside its original native footprint. Preserve shared torso pixels, full joints, native mirrors and hit flashes. No new scenery art is needed.
+
 ## Golden Temple courtyard continuation — 0.17.0
 
 Reuse the accepted enclosed hall and exterior panorama, with carved interior columns, worn solid sandstone and distinctly cracked breakables. The fire-chain courtyard remains outside until AC61. Ivory/slate wings and amber fire beads retain the original item/enemy footprints. Existing gargoyle art supplies the gold-stone courtyard ornaments. Palette-specific wall/window removal must never clear physical stair cells.
