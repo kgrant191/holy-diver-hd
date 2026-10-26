@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Golden Temple entry and drops — 0.16.2
+
+Run the exhaustive column-neighbor bounds/truth-table check through validate_pack.py. Replay the unchanged full movie with check_hd_neighbor_bounds.cpp observing the stock core, then pair it against retained 0.16.1 with verify_level4_repairs.py. Require exact native state/full audio, all non-pickup pixels unchanged, and complete heart/crystal source matches. The earlier uninstrumented success did not establish neighbor-read safety. See LEVEL4_REPAIRS.md for the reproduced invalid read, tooling limits and exact coverage.
+
 ## Build (no ROM required)
 
 Use Python 3.12 and requirements.txt. Run `python build.py`, then `python scripts/verify_release.py`. The latter compares every built file against evidence/approved-pack-sha256.json. The original evidence/v15.1-pack-sha256.json remains as the historical import reference: version 0.0.1 changes only README.txt, and all 70 runtime files match exactly. The DejaVu font/license are bundled in art/fonts/.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.16.2 — 2026-10-26 (Golden Temple crash and pickups)
+
+- Guard indoor pillar neighbor lookups against the screen edge, avoiding the stock Mesen one-past-screen read reproduced on entry. Preserve rendering through explicit off-screen alternatives.
+- Map missing small health/magic drops to existing heart/crystal cells in Level 4 and byte-identical banks. Preserve prior artwork/audio/patch files and native gameplay.
+- Add an invalid-read diagnostic, exhaustive short-circuit bounds regression, paired full-movie checks and actual entry preview. Awaiting review; no emulator modification required.
+
 ## 0.16.1 — 2026-10-26 (Golden Temple masonry review)
 
 - Replace square slabs with worn beveled horizontal stone in the native staggered layout.

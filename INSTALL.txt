@@ -1,9 +1,9 @@
-HOLY DIVER HD 0.16.1 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.16.2 — DEVELOPMENT REVIEW CANDIDATE
 
-The Golden Temple now opens outdoors, then enters enclosed golden halls.
-Refines the foreground with worn beveled stone, distinct cracked breakable
-blocks and coherent carved indoor columns. Preserves both backgrounds,
-outdoor columns, enemies and the corrected OVERDRIVE lettering/spell art.
+Fixes an unsafe indoor-pillar neighbor lookup at the bottom screen edge
+that can crash Mesen when entering the temple. Small health and magic drops
+now reuse the existing HD heart and crystal art in Level 4 and matching banks.
+Preserves all 0.16.1 artwork, backgrounds, masonry, pillars and Overdrive fixes.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

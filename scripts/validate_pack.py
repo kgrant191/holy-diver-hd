@@ -35,6 +35,30 @@ assert len(imgs)==49
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+repairs=json.loads((root/'art/level4_repairs/registration.json').read_text())
+from verify_temple_neighbor_rules import verify as verify_neighbor_rules
+assert verify_neighbor_rules(root)['unsafe_evaluations']==0
+pickup_patterns=json.loads((root/'art/level4_repairs/pickup_patterns.json').read_text())
+for pickup in repairs['pickups']:
+ assert pickup_patterns[pickup['tile']]==pickup['native_pattern']
+ assert pickup['rule'] in lines
+ source=pickup['source_rule'].split('<tile>')[1].split(',');target=pickup['rule'].split('<tile>')[1].split(',')
+ assert source[:1]+source[2:]==target[:1]+target[2:]
+ assert pickup_patterns[source[1]]==pickup_patterns[target[1]]
+# Recover the entire previous candidate before applying its frozen checks.
+assert not repairs['artwork_changed']
+for change in repairs['neighbor_rewrites']:
+ replacement='\n'.join(change['replacements'])+'\n'
+ assert content.count(replacement)==1
+ content=content.replace(replacement,change['original']+'\n')
+for section in ['CONDITIONS','PICKUPS']:
+ content,n=re.subn(r'^# BEGIN TEMPLE_REPAIRS '+section+r'\n.*?^# END TEMPLE_REPAIRS '+section+r'\n','',content,flags=re.M|re.S);assert n==1
+previous_repairs=json.loads((root/'evidence/0.16.1-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==previous_repairs['hires.txt'],'0.16.1 mapping recovery failed'
+for name,digest in previous_repairs.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior art changed'
+assert {p.name for p in pack.iterdir()if p.is_file()}==set(previous_repairs)
+counts['tile']-=repairs['extra_tile_rules'];counts['condition']-=repairs['extra_conditions']
 masonry=json.loads((root/'art/level4_masonry/registration.json').read_text())
 counts['tile']-=masonry['tile_rules'];counts['condition']-=masonry['conditions']
 for section in ['IMAGES','CONDITIONS','MAPPINGS']:

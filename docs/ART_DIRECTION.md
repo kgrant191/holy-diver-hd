@@ -1,5 +1,9 @@
 # Art direction
 
+## Golden Temple crash/pickup repair — 0.16.2
+
+No new artwork. Preserve every 0.16.1 PNG, including all masonry, columns and backgrounds. Small health/magic drops reuse the exact earlier heart and blue crystal cells. Bound neighbor checks without changing intended off-screen column ends. See LEVEL4_REPAIRS.md.
+
 ## Golden Temple foreground revision — 0.16.1
 
 The user accepted the backgrounds and outdoor fluted columns. Preserve them exactly. Replace plain square slabs with worn, beveled, broad horizontal sandstone in staggered courses. Breakable blocks have a darker recessed face, chipped frame and a clear branching fracture. Indoor structural supports use ornate carved capitals, continuous flutes and molded bases within native geometry. Do not change scenery to solve foreground problems. Exact image-generation prompts: art/generated/level4_masonry_prompts.json.

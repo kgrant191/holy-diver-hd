@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current repair — Golden Temple 0.16.2
+
+- The user reports old small drops outdoors and a crash entering the temple. The diagnostic catches a stock Mesen tileNearby read at index61440 (one past the screen) on entry. Do not call the earlier successful uninstrumented replay proof of memory safety.
+- build_level4_repairs.py bounds all new pillar neighbor evaluations, including inverted checks, while preserving off-screen/no-neighbor behavior. Keep the exhaustive bounds regression in validate_pack.py. Do not ship or require the diagnostic observer.
+- Reuse exact atlas25 heart/crystal pixels for byte-proven pickup aliases; earlier conditional/menu rules retain priority. Every 0.16.1 image/audio/patch file stays exact. See docs/LEVEL4_REPAIRS.md and evidence/level4_repairs/.
+- 0.16.2 remains a review candidate on feature/golden-temple. Main stays approved 0.15.0; no merge/release authorization is implied.
+
 ## Current revision — Golden Temple 0.16.1
 
 - The user accepted the 0.16.0 backgrounds and outdoor fluted columns, but rejected its square slabs and indoor block-stack supports. Preserve those accepted assets exactly; this is partial art acceptance, not whole-pack approval.

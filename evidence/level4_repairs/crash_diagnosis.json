@@ -1,0 +1,16 @@
+{
+  "observation": "Diagnostic guard aborted before an actual one-past-screen tileNearby read during stock-core playback of 0.16.1. This is a reproducible invalid read, not the user platform crash log.",
+  "trigger": "HD_NEIGHBOR_ONE_PAST_END name=!masonryAA090B780F172737below2 frame=120343 x=0 y=224 dx=0 dy=16 index=61440 tile=0B78",
+  "replay_frame": 4046,
+  "last_saved_progress": 4020,
+  "screen_pixels": 61440,
+  "valid_indices": [
+    0,
+    61439
+  ],
+  "source": "Core/NES/HdPacks/HdPackConditions.h:365",
+  "emulator_version": "MesenCE 2.2.1",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "movie_sha256": "f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca",
+  "diagnostic_does_not_ship": true
+}

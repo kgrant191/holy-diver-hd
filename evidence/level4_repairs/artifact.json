@@ -1,0 +1,14 @@
+{
+  "version": "0.16.2",
+  "files": 110,
+  "flat_layout": true,
+  "crc_valid": true,
+  "all_hashes_match": true,
+  "only_changed_files": [
+    "hires.txt",
+    "README.txt"
+  ],
+  "preserved_assets": 108,
+  "zip_sha256": "51359b1e0a0f38bae594f34acc148659d0993afa693588e0729c8aed18d3b01c",
+  "bytes": 21414245
+}
