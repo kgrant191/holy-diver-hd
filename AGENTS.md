@@ -1,5 +1,13 @@
 # Holy Diver HD working instructions
 
+## Current continuation — dragon/items 0.19.0
+
+- Both 20261026-202217/202440 states start in ACD9/mode18 before the dragon pickup. Native pickup is0CB1–B4, form0C94–AF, shot0CB0, star0C74. Three observed whole112x48 layouts share exact cells. Native mirrors, movement, blinking and timing remain authoritative; no RAM edits.
+- Thin outdoor columns0B03–0B39 plus exact copied capitals are decorative. Clear only proven scoped rules and their courtyard/arena clones. B78–7B are physical masonry; B7C–87 include stairs. Do not clear those families.
+- Form uses FF190927, pickup/fire FF301116. Keep native31 universal-color flash: HD foreground aliases retain bounds before neighbor probes, with no full-color panorama during the flash.
+- Brighter staff remains16x32 with the identical menu source. Small heart/magic overrides are scoped to the seven recorded temple rooms; preserve earlier conditional mappings. All111 earlier installed art/audio/patch files stay byte-exact.
+- Candidate branch feature/temple-dragon-items starts at frozen0.18.0. Main remains approved0.15.0; last explicit Level4 approval0.16.3. No publication or merge authorized. See docs/LEVEL4_DRAGON.md and paired evidence.
+
 ## Current continuation — staff hall and outdoor arena 0.18.0
 
 - AC61/mode04 is indoors through the staff climb; ACD9/mode18 is outdoors. The recording ends with player death, not sentinel defeat. Do not claim victory or later-room coverage.

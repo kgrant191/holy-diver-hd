@@ -1,0 +1,381 @@
+[
+  {
+    "name": "pose_0",
+    "count": 568,
+    "examples": [
+      {
+        "capture": "dragon_flight_before",
+        "frame": 148,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 150,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 152,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 154,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 156,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 158,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 160,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 162,
+        "mirror": false
+      }
+    ],
+    "layout": [
+      [
+        "0C94",
+        8,
+        0
+      ],
+      [
+        "0C95",
+        16,
+        0
+      ],
+      [
+        "0C96",
+        24,
+        0
+      ],
+      [
+        "0C97",
+        32,
+        0
+      ],
+      [
+        "0C98",
+        0,
+        8
+      ],
+      [
+        "0C99",
+        8,
+        8
+      ],
+      [
+        "0C9A",
+        16,
+        8
+      ],
+      [
+        "0C9B",
+        24,
+        8
+      ],
+      [
+        "0C9C",
+        32,
+        8
+      ],
+      [
+        "0C9D",
+        40,
+        8
+      ],
+      [
+        "0C9E",
+        48,
+        8
+      ],
+      [
+        "0C9F",
+        16,
+        16
+      ],
+      [
+        "0CA0",
+        24,
+        16
+      ],
+      [
+        "0CA1",
+        32,
+        16
+      ],
+      [
+        "0CA2",
+        40,
+        16
+      ],
+      [
+        "0CA3",
+        48,
+        16
+      ]
+    ]
+  },
+  {
+    "name": "pose_1",
+    "count": 344,
+    "examples": [
+      {
+        "capture": "dragon_flight_before",
+        "frame": 221,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 222,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 223,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 224,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 225,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 226,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 227,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 228,
+        "mirror": false
+      }
+    ],
+    "layout": [
+      [
+        "0C98",
+        0,
+        8
+      ],
+      [
+        "0C9D",
+        40,
+        8
+      ],
+      [
+        "0C9E",
+        48,
+        8
+      ],
+      [
+        "0C9F",
+        16,
+        16
+      ],
+      [
+        "0CA0",
+        24,
+        16
+      ],
+      [
+        "0CA1",
+        32,
+        16
+      ],
+      [
+        "0CA2",
+        40,
+        16
+      ],
+      [
+        "0CA3",
+        48,
+        16
+      ],
+      [
+        "0CA4",
+        16,
+        0
+      ],
+      [
+        "0CA5",
+        24,
+        0
+      ],
+      [
+        "0CA6",
+        32,
+        0
+      ],
+      [
+        "0CA7",
+        8,
+        8
+      ],
+      [
+        "0CAA",
+        32,
+        8
+      ],
+      [
+        "0CAE",
+        16,
+        8
+      ],
+      [
+        "0CAF",
+        24,
+        8
+      ]
+    ]
+  },
+  {
+    "name": "pose_2",
+    "count": 189,
+    "examples": [
+      {
+        "capture": "dragon_flight_before",
+        "frame": 267,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 268,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 291,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 292,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 293,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 294,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 295,
+        "mirror": false
+      },
+      {
+        "capture": "dragon_flight_before",
+        "frame": 296,
+        "mirror": false
+      }
+    ],
+    "layout": [
+      [
+        "0C94",
+        8,
+        0
+      ],
+      [
+        "0C95",
+        16,
+        0
+      ],
+      [
+        "0C96",
+        24,
+        0
+      ],
+      [
+        "0C97",
+        32,
+        0
+      ],
+      [
+        "0C98",
+        0,
+        8
+      ],
+      [
+        "0C99",
+        8,
+        8
+      ],
+      [
+        "0C9A",
+        16,
+        8
+      ],
+      [
+        "0C9B",
+        24,
+        8
+      ],
+      [
+        "0C9C",
+        32,
+        8
+      ],
+      [
+        "0C9D",
+        40,
+        8
+      ],
+      [
+        "0C9E",
+        48,
+        8
+      ],
+      [
+        "0C9F",
+        16,
+        16
+      ],
+      [
+        "0CA0",
+        24,
+        16
+      ],
+      [
+        "0CA1",
+        32,
+        16
+      ],
+      [
+        "0CA2",
+        40,
+        16
+      ],
+      [
+        "0CAD",
+        48,
+        16
+      ]
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "version": "0.19.0",
+  "review_candidate": true,
+  "approved_main": "0.15.0",
+  "last_explicit_level4_approval": "0.16.3",
+  "paired_routes": 5,
+  "frames_per_build": 18283,
+  "native_samples_per_type": 7774,
+  "exact_pcm_bytes": 58440012,
+  "all_native_and_audio_exact": true,
+  "all_visual_changes_scoped": true,
+  "all_three_dragon_poses_both_directions": true,
+  "staff_gameplay_and_menu": true,
+  "small_heart_and_magic": true,
+  "prior_assets_byte_exact": 111,
+  "installed_files": 114,
+  "neighbor_screen_coordinate_cases": 614400,
+  "unsafe_neighbor_reads": 0,
+  "candidate_log_sha256": {
+    "flight": "d4114c7b1c196b237fa32ed38bc20ea1ad3fa5bd20d72f23d968c9c8860ce8dd",
+    "a": "a1ada4ff3c0c0ec5956b37f52f4eb388ca9df33c30a2201087a615dd4b15b7b0",
+    "hall": "17794d0c52c2af9f074f035895bfa0683b7f25b70837dfd08aa3efa4ffcb2daf",
+    "courtyard": "8896f55bc67c07d118a64acca7868019061eea6651c35e0fe7a62f6421c0e69a",
+    "opening": "8acafa7018fcf3253760dc4003189ad7d0dac8f7e170193abbe4cf71b4bbf793"
+  },
+  "coverage_limit": "Dragon routes stay in ACD9. Sentinel defeat sequence and later rooms were not tested."
+}

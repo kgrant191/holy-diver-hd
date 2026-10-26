@@ -1,0 +1,5 @@
+{
+  "tool": "image_gen",
+  "source": "art/generated/player_dragon_raised.png",
+  "prompt": "Use case: precise-object-edit. Asset type: alternate animation pose of this exact player dragon sprite. Edit ONLY the wings: lower and fold both wings into the flattened back-swept stroke shown by the middle pose of the second reference. Keep the dragon's tail, body, legs, neck, horns, face, closed mouth, palette, lighting, direction, scale and placement exactly the same as the first image. The dragon still faces RIGHT. The folded wing starts over the middle of the torso and sweeps toward the left, and is substantially lower and narrower at the top than the raised wing. Keep gold membranes visible. Do not rotate or shift the body. Genuine transparent background, no extra sprites, labels, effects or scenery. Detailed crisp emerald/bronze Gothic pixel art matching the first image. Entire body stays visible within the same wide canvas."
+}

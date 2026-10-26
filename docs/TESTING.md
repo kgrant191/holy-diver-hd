@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Dragon, items and decorative columns — 0.19.0
+
+Pair both unchanged user states through the987-frame flight and610-frame A-button routes at stride1. Replay movie8/movie7 at stride2 and movie6 at stride4 against frozen0.18.0. Require exact RAM/PPU/OAM/view, APU and full PCM, plus pixel differences confined to requested item/form/column cells and native pickup-flash foreground. Verify every observed dragon pose in both orientations, transformation/star/fire, staff in gameplay/menu, and both small drops. Keep the stock-core neighbor diagnostic active and exhaust copied flash-condition bounds. See LEVEL4_DRAGON.md.
+
 ## Staff hall and outdoor arena — 0.18.0
 
 Replay unchanged Holy_Diver_HD(8).mmo against 0.17.0 and final0.18.0 at stride2, then replay Holy_Diver_HD(7).mmo at stride2 as regression. Require exact paired RAM/PPU/OAM/view, APU writes and full PCM with verify_level4_staff.py. Check the panorama throughout every stable full-color gameplay sample; require actual complete staff/menu, both ornaments, all four sentinel layouts, observed hit palettes and both native orientations. Menus may change only inside the staff's32x32 icon. Every earlier movie screenshot remains exact. Exhaust new neighbor bounds through verify_staff_neighbor_rules.py and run the existing invalid-read diagnostic during both candidate replays. See LEVEL4_STAFF.md for commands and limits.

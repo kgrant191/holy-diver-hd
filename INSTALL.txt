@@ -1,10 +1,9 @@
-HOLY DIVER HD 0.18.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.19.0 — DEVELOPMENT REVIEW CANDIDATE
 
-Repairs the staff hall's disappearing background and incomplete upper ornaments.
-The gold staff uses the same artwork in the room and Start/pause menu.
-The following arena uses the outdoor Golden Temple scenery, finished player/HUD
-art and a crimson armored sentinel with native walking, attack and hit phases.
-Keeps earlier temple masonry, stairs, wings, item drops and entry-crash repair.
+Updates the dragon pickup, flying form, wing animation and fire breath.
+Improves the staff and small recovery drops with brighter, stronger silhouettes.
+Removes the non-solid decorative foreground columns in recorded temple rooms.
+Keeps physical stonework, stairs, backgrounds and native pickup/hit flashes.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

@@ -1,0 +1,108 @@
+{
+  "movie_sha256": "478f9616cf0ea3073f2e99930e80b83f634a2a927b99b5ab5efde869fcacddda",
+  "movie_frames": 3632,
+  "native_samples_per_type": 1816,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 11609412,
+  "pcm_sha256": "b758cf04cca5a131b1b98364e22e23f0801b0fd6be95ddd66b63d143239fbec9",
+  "apu_sha256": "6eb246f098f3323f24f79b6f27de746f4288b324929f6e4748a1d3014b633174",
+  "image_checks": {
+    "identical": 1176,
+    "scoped_changes": 640,
+    "native_black": 9
+  },
+  "changes_confined_to_requested_artwork": true,
+  "panorama_samples": {
+    "AC61": 1224,
+    "ACD9": 301
+  },
+  "native_flash_samples": 0,
+  "complete_source_matches": {
+    "heart": 36,
+    "magic": 2,
+    "staff": 78
+  },
+  "source_examples": {
+    "heart": [
+      {
+        "frame": 560,
+        "positions": [
+          [
+            396,
+            226
+          ]
+        ]
+      },
+      {
+        "frame": 570,
+        "positions": [
+          [
+            396,
+            252
+          ]
+        ]
+      },
+      {
+        "frame": 580,
+        "positions": [
+          [
+            396,
+            252
+          ]
+        ]
+      }
+    ],
+    "magic": [
+      {
+        "frame": 650,
+        "positions": [
+          [
+            414,
+            126
+          ]
+        ]
+      },
+      {
+        "frame": 660,
+        "positions": [
+          [
+            414,
+            166
+          ]
+        ]
+      }
+    ],
+    "staff": [
+      {
+        "frame": 740,
+        "positions": [
+          [
+            40,
+            8
+          ]
+        ]
+      },
+      {
+        "frame": 750,
+        "positions": [
+          [
+            40,
+            8
+          ]
+        ]
+      },
+      {
+        "frame": 760,
+        "positions": [
+          [
+            40,
+            8
+          ]
+        ]
+      }
+    ]
+  },
+  "neighbor_diagnostic": "Enabled during replay; no invalid read reported"
+}

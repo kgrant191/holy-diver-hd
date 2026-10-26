@@ -1,0 +1,5 @@
+{
+  "tool": "image_gen",
+  "source": "art/generated/player_dragon_raised.png",
+  "prompt": "Use case: stylized-concept. Asset type: one Holy Diver HD dragon-transformation pickup icon, to read at 32 by 32 pixels. Create a compact square enchanted dragon emblem with an emerald-green dragon head in RIGHT-facing profile, small ivory horns, bright mint scale highlights and an amber eye, matching the supplied dragon creature reference. A dark navy inset behind the head and a narrow carved gold frame with a luminous ivory rim make it stand out against gold architecture. The head is bold and fills most of the icon. Gothic SNES/GBA hand-painted pixel-art style, crisp chunky color clusters, saturated green against deep blue, restrained gold. Single complete icon, flat front view, no perspective. Fully opaque object interior and genuinely transparent outside its silhouette. No letters, text, scenery, soft glow haze, ground shadow, extra items or labels."
+}

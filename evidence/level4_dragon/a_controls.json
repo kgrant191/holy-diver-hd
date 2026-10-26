@@ -1,0 +1,206 @@
+{
+  "movie_sha256": "ba05a820ddbbcbd84091efc5bd77a1f17b4e342374d64048650fe91b1cb54127",
+  "movie_frames": 610,
+  "native_samples_per_type": 610,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 1954912,
+  "pcm_sha256": "737355eb5ce8ea351d61ef1448a53e8fdcbc4be27986075f203f5f232bfad1a2",
+  "apu_sha256": "23bd80c93d30ff4f35f57418bb5feb00cf9645797d77cccb5b31c913fdbe215d",
+  "image_checks": {
+    "empty_initial": 1,
+    "scoped_changes": 578,
+    "identical": 31
+  },
+  "changes_confined_to_requested_artwork": true,
+  "panorama_samples": {
+    "ACD9": 583
+  },
+  "native_flash_samples": 15,
+  "complete_source_matches": {
+    "dragon_pickup": 8,
+    "transform_star": 12,
+    "dragon_0_right": 10,
+    "dragon_1_right": 5,
+    "dragon_0_left": 11,
+    "dragon_1_left": 7
+  },
+  "source_examples": {
+    "dragon_pickup": [
+      {
+        "frame": 10,
+        "positions": [
+          [
+            314,
+            352
+          ]
+        ]
+      },
+      {
+        "frame": 20,
+        "positions": [
+          [
+            314,
+            352
+          ]
+        ]
+      },
+      {
+        "frame": 30,
+        "positions": [
+          [
+            314,
+            352
+          ]
+        ]
+      }
+    ],
+    "transform_star": [
+      {
+        "frame": 90,
+        "positions": [
+          [
+            206,
+            382
+          ]
+        ]
+      },
+      {
+        "frame": 100,
+        "positions": [
+          [
+            270,
+            328
+          ]
+        ]
+      },
+      {
+        "frame": 110,
+        "positions": [
+          [
+            244,
+            322
+          ]
+        ]
+      }
+    ],
+    "dragon_0_right": [
+      {
+        "frame": 210,
+        "positions": [
+          [
+            200,
+            336
+          ]
+        ]
+      },
+      {
+        "frame": 220,
+        "positions": [
+          [
+            200,
+            338
+          ]
+        ]
+      },
+      {
+        "frame": 240,
+        "positions": [
+          [
+            200,
+            330
+          ]
+        ]
+      }
+    ],
+    "dragon_1_right": [
+      {
+        "frame": 230,
+        "positions": [
+          [
+            200,
+            336
+          ]
+        ]
+      },
+      {
+        "frame": 250,
+        "positions": [
+          [
+            200,
+            304
+          ]
+        ]
+      },
+      {
+        "frame": 260,
+        "positions": [
+          [
+            200,
+            274
+          ]
+        ]
+      }
+    ],
+    "dragon_0_left": [
+      {
+        "frame": 360,
+        "positions": [
+          [
+            200,
+            218
+          ]
+        ]
+      },
+      {
+        "frame": 420,
+        "positions": [
+          [
+            200,
+            218
+          ]
+        ]
+      },
+      {
+        "frame": 510,
+        "positions": [
+          [
+            200,
+            218
+          ]
+        ]
+      }
+    ],
+    "dragon_1_left": [
+      {
+        "frame": 370,
+        "positions": [
+          [
+            200,
+            218
+          ]
+        ]
+      },
+      {
+        "frame": 380,
+        "positions": [
+          [
+            200,
+            218
+          ]
+        ]
+      },
+      {
+        "frame": 410,
+        "positions": [
+          [
+            200,
+            218
+          ]
+        ]
+      }
+    ]
+  },
+  "neighbor_diagnostic": "Enabled during replay; no invalid read reported"
+}

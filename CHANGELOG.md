@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.19.0 — 2026-10-26 — review candidate
+
+- Add emerald/gold dragon pickup, raised/folded wings, firing jaw, flame projectile and transformation twinkle.
+- Increase staff silhouette and contrast; share its source with the Start-menu icon. Brighten small health and magic drops in recorded temple rooms.
+- Remove identified non-solid foreground columns while retaining platforms, structural masonry and stairs.
+- Preserve native pickup/hit flashes, gameplay/audio and all111 earlier art/audio/patch assets. Exact0.18.0 mappings remain recoverable.
+
 ## 0.18.0 — 2026-10-26 — review candidate
 
 - Repair intermittent AC61 panorama loss and complete both upper ornament layouts.

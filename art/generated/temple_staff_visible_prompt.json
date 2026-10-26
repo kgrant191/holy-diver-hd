@@ -1,0 +1,5 @@
+{
+  "tool": "image_gen",
+  "source": "art/generated/temple_staff.png",
+  "prompt": "Use case: precise-object-edit. Asset type: Holy Diver HD collectible staff source, intended to read at just 16 by 32 pixels in a dark Gothic 2D action game. Edit the supplied existing gold crozier staff. Keep the curled crozier head, green emerald inset, upright silhouette and transparent background. Improve readability against bright gold architecture: make the long shaft substantially thicker, about one quarter of the width of the head; use a luminous ivory central highlight along its full length, strong pale cyan rim light and a crisp deep navy outer contour around the entire staff. Keep gold accents and an emerald gem, but separate them clearly from the dark outline. Compact the upper head so the entire staff fits a one-to-two width-to-height rectangle rather than an extremely tall narrow wand. Polished SNES/GBA hand-painted pixel-art treatment, strong simple readable shapes, fully opaque interior, no soft blur, no big glow cloud. One complete item only, centered, no text, scenery, border, ground or extra objects. Genuine transparency."
+}

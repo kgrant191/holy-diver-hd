@@ -1,0 +1,327 @@
+{
+  "movie_sha256": "3d9355539a64b85318d12b5d598429378fdb2a174c216928aede17ccbbeed4a6",
+  "movie_frames": 987,
+  "native_samples_per_type": 987,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 3159328,
+  "pcm_sha256": "fe5c66110490f9822b092630fcf84b26e8101820fff7c791943cf251e158427d",
+  "apu_sha256": "2313138724515174ecc25f48eaffd745125ffd0b1194e18e48b86603111b1099",
+  "image_checks": {
+    "empty_initial": 1,
+    "scoped_changes": 946,
+    "identical": 40,
+    "native_black": 3
+  },
+  "changes_confined_to_requested_artwork": true,
+  "panorama_samples": {
+    "ACD9": 908
+  },
+  "native_flash_samples": 15,
+  "complete_source_matches": {
+    "dragon_pickup": 8,
+    "transform_star": 12,
+    "dragon_0_right": 14,
+    "dragon_1_right": 8,
+    "dragon_shot": 30,
+    "dragon_2_right": 6,
+    "dragon_2_left": 10,
+    "dragon_1_left": 9,
+    "dragon_0_left": 17,
+    "staff": 4
+  },
+  "source_examples": {
+    "dragon_pickup": [
+      {
+        "frame": 10,
+        "positions": [
+          [
+            314,
+            352
+          ]
+        ]
+      },
+      {
+        "frame": 20,
+        "positions": [
+          [
+            314,
+            352
+          ]
+        ]
+      },
+      {
+        "frame": 30,
+        "positions": [
+          [
+            314,
+            352
+          ]
+        ]
+      }
+    ],
+    "transform_star": [
+      {
+        "frame": 90,
+        "positions": [
+          [
+            206,
+            382
+          ]
+        ]
+      },
+      {
+        "frame": 100,
+        "positions": [
+          [
+            270,
+            328
+          ]
+        ]
+      },
+      {
+        "frame": 110,
+        "positions": [
+          [
+            244,
+            322
+          ]
+        ]
+      }
+    ],
+    "dragon_0_right": [
+      {
+        "frame": 210,
+        "positions": [
+          [
+            200,
+            336
+          ]
+        ]
+      },
+      {
+        "frame": 220,
+        "positions": [
+          [
+            200,
+            338
+          ]
+        ]
+      },
+      {
+        "frame": 240,
+        "positions": [
+          [
+            200,
+            330
+          ]
+        ]
+      }
+    ],
+    "dragon_1_right": [
+      {
+        "frame": 230,
+        "positions": [
+          [
+            200,
+            336
+          ]
+        ]
+      },
+      {
+        "frame": 250,
+        "positions": [
+          [
+            200,
+            304
+          ]
+        ]
+      },
+      {
+        "frame": 260,
+        "positions": [
+          [
+            200,
+            274
+          ]
+        ]
+      }
+    ],
+    "dragon_shot": [
+      {
+        "frame": 270,
+        "positions": [
+          [
+            316,
+            274
+          ]
+        ]
+      },
+      {
+        "frame": 280,
+        "positions": [
+          [
+            380,
+            274
+          ]
+        ]
+      },
+      {
+        "frame": 290,
+        "positions": [
+          [
+            430,
+            274
+          ]
+        ]
+      }
+    ],
+    "dragon_2_right": [
+      {
+        "frame": 300,
+        "positions": [
+          [
+            200,
+            234
+          ]
+        ]
+      },
+      {
+        "frame": 340,
+        "positions": [
+          [
+            200,
+            234
+          ]
+        ]
+      },
+      {
+        "frame": 630,
+        "positions": [
+          [
+            200,
+            282
+          ]
+        ]
+      }
+    ],
+    "dragon_2_left": [
+      {
+        "frame": 460,
+        "positions": [
+          [
+            200,
+            234
+          ]
+        ]
+      },
+      {
+        "frame": 700,
+        "positions": [
+          [
+            200,
+            282
+          ]
+        ]
+      },
+      {
+        "frame": 730,
+        "positions": [
+          [
+            200,
+            280
+          ]
+        ]
+      }
+    ],
+    "dragon_1_left": [
+      {
+        "frame": 470,
+        "positions": [
+          [
+            200,
+            234
+          ]
+        ]
+      },
+      {
+        "frame": 530,
+        "positions": [
+          [
+            200,
+            130
+          ]
+        ]
+      },
+      {
+        "frame": 540,
+        "positions": [
+          [
+            200,
+            116
+          ]
+        ]
+      }
+    ],
+    "dragon_0_left": [
+      {
+        "frame": 480,
+        "positions": [
+          [
+            200,
+            234
+          ]
+        ]
+      },
+      {
+        "frame": 510,
+        "positions": [
+          [
+            200,
+            188
+          ]
+        ]
+      },
+      {
+        "frame": 520,
+        "positions": [
+          [
+            200,
+            158
+          ]
+        ]
+      }
+    ],
+    "staff": [
+      {
+        "frame": 910,
+        "positions": [
+          [
+            88,
+            208
+          ]
+        ]
+      },
+      {
+        "frame": 920,
+        "positions": [
+          [
+            88,
+            208
+          ]
+        ]
+      },
+      {
+        "frame": 930,
+        "positions": [
+          [
+            88,
+            208
+          ]
+        ]
+      }
+    ]
+  },
+  "neighbor_diagnostic": "Enabled during replay; no invalid read reported"
+}
