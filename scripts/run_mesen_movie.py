@@ -82,9 +82,12 @@ a.Pause()
 sid=a.LoadScript(b'movie_capture',str(OUT).encode(),script.encode(),-1)
 print('script',sid,flush=True)
 a.SetEmulationFlag(4,True);a.Resume()
+# Longer recordings and dense HD condition sets need a proportional wall limit.
+# This changes only the watchdog, never emulation timing or controller input.
+wall_timeout=max(240,movie_frames/20+60)
 started=time.monotonic()
 try:
- while a.MoviePlaying() and time.monotonic()-started<240:time.sleep(.1)
+ while a.MoviePlaying() and time.monotonic()-started<wall_timeout:time.sleep(.1)
  ended=not a.MoviePlaying();a.Pause();a.TakeScreenshot()
  b=C.create_string_buffer(50000);a.GetScriptLog(sid,b,len(b));(OUT/'script.log').write_bytes(b.value)
  a.GetLog(b,len(b));(OUT/'emulator.log').write_bytes(b.value)

@@ -1,0 +1,11 @@
+{
+  "movie_sha256": "facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db",
+  "frames": 7592,
+  "entries": {
+    "Input.txt": "ccd0149db32fdbdca718b69dc947a8100d504fba16d9547b8990fc9b8ea5b4f9",
+    "GameSettings.txt": "9eb91900eae8d3439621c3b476079c75efcdd4fb1bd1e4c559c32f0d881a82e5",
+    "SaveState.mss": "8f7b46bf47a489e4105a0023e4b2f37fa7d8507a3b52d799ac56be8fdf891c6d"
+  },
+  "controller_only": true,
+  "ram_writes": false
+}

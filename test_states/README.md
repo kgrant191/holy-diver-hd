@@ -109,3 +109,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Large-fish motion movie (2026-10-25)
 
 `Holy_Diver_HD(3).mmo`: 1,200 input frames, Mesen 2.2.1, SHA-256 `ace46ac61dabd9485e19cbd1599ad8518192d60b9894ef714c8204678ec14a18`. Embedded state SHA-256 `3539a1929e1ca0996449ec064f78c2e3ced076cee3f6232af8302a7bc4f7dadf`. Same supported translated ROM. Input bytes remain outside Git. Shows large-fish hovering in both directions, dive/turn and damage.
+
+## Level 3 next caves recording — 0.13.0 review
+
+Local input `Holy_Diver_HD(4).mmo`: 7,592 frames; movie SHA-256 `facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db`. Embedded state SHA-256 `8f7b46bf47a489e4105a0023e4b2f37fa7d8507a3b52d799ac56be8fdf891c6d`; input SHA-256 `ccd0149db32fdbdca718b69dc947a8100d504fba16d9547b8990fc9b8ea5b4f9`. Standard MesenCE 2.2.1 and the existing supported ROM. Bytes remain outside Git. See docs/LEVEL3_CAVES.md.

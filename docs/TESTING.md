@@ -241,3 +241,9 @@ Use the same full corridor movie at stride one against retained 0.12.0 and 0.12.
 ## Large-fish hover stability — 0.12.2
 
 Use the new 1,200-frame user movie at stride one and the previous 3,705-frame corridor movie at stride one. Pair the 821-frame Blizzard derivative at stride one. `verify_big_fish_motion.py` compares all sampled native state and full APU/PCM, restricts differences to the large fish and eligible movement state, checks preserved source pixels and proves zero horizontal oscillation in three measured hover windows. The original-art probe disables only the ten large-fish mappings. See BIG_FISH_MOTION.md.
+
+## Next Level 3 caves and multi-fish hover — 0.13.0
+
+Replay the supplied 7,592-frame movie with the synchronized MesenCE 2.2.1 harness, pairing 0.12.2 and 0.13.0 at stride two. Capture the first 2,200 frames at stride one for individual-fish source fits and simultaneous opposite-phase hover. Replay the prior 1,200-frame hover movie at stride one. Use make_level3_cave_edge.py for controller-only backtracking through the open left entrance, a pause, and slow traversal/walk-off of the complete new carved-cap platform. The runner's proportional wall-clock watchdog does not alter emulation timing or input.
+
+Use verify_level3_caves.py for paired memory, APU, full PCM, unchanged menus/blackouts and source sprites; use verify_level3_cave_scenery.py for native-PPU reconstruction in both horizontal and vertical scrolling. Inventory all four nametables and retain solid 0796/0797 supports in the later corridor. Docs/LEVEL3_CAVES.md records exact coverage and limits.

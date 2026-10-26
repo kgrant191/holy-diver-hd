@@ -1,0 +1,43 @@
+{
+  "version": "0.13.0",
+  "review_only": true,
+  "routes": {
+    "full": {
+      "movie_frames": 7592,
+      "capture_stride": 2,
+      "paired_native_samples_per_type": 3796,
+      "identical_apu_writes": 18883,
+      "identical_pcm_bytes": 24260576
+    },
+    "fish": {
+      "movie_frames": 7592,
+      "capture_stride": 1,
+      "paired_native_samples_per_type": 2200,
+      "identical_apu_writes": 18883,
+      "identical_pcm_bytes": 24260576
+    },
+    "previous_hover": {
+      "movie_frames": 1200,
+      "capture_stride": 1,
+      "paired_native_samples_per_type": 1200,
+      "identical_apu_writes": 2103,
+      "identical_pcm_bytes": 3839808
+    },
+    "edge": {
+      "movie_frames": 6000,
+      "capture_stride": 1,
+      "paired_native_samples_per_type": 531,
+      "identical_apu_writes": 15845,
+      "identical_pcm_bytes": 19174552
+    }
+  },
+  "paired_samples_per_type": 7727,
+  "native_gameplay_audio_unchanged": true,
+  "fish_stable_source_samples": 516,
+  "scenery_source_checks": 58,
+  "edge_source_checks": 5,
+  "all_scenery_source_match_fraction": 1.0,
+  "previous_art_audio_files_exact": 98,
+  "new_atlases": 1,
+  "total_pack_files": 101
+}

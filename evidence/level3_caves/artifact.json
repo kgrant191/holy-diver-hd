@@ -1,0 +1,16 @@
+{
+  "version": "0.13.0",
+  "review_only": true,
+  "pack_files": 101,
+  "changed_prior_files": [
+    "README.txt",
+    "hires.txt"
+  ],
+  "new_files": [
+    "Stage3_Caves_Tiles_2x.png"
+  ],
+  "unchanged_prior_files": 98,
+  "zip_sha256": "09fdcbaad61b5bd2d9acda87b46a9563501c46eff1ad5ac5aaee3344d17d9f29",
+  "flat_install": true,
+  "crc_ok": true
+}

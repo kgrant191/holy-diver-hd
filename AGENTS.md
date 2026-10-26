@@ -2,7 +2,15 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
-## Current large-fish hover review — 0.12.2
+## Current Level 3 caves review — 0.13.0
+
+- Work is on `feature/level3-caves`, based on review 0.12.2 at fb1fb4d. The user still saw fish shaking in the next room, where several fish appear together. 0.12.2's one-fish/one-room guard was insufficient.
+- `build_big_fish_motion.py` now registers each complete fish independently at its native player-relative horizontal hover equilibrium. Match the actual tile origin; preserve the stock Mesen 2.2.1 mirrored-origin workaround pairing originPositionCheckX with positionCheckX. An origin-only mirrored guard changes isolated pixel stripes and is incorrect. Do not change native movement, hit blinking or source poses. Partly clipped boundary sprites retain original registration.
+- `build_level3_caves.py` covers room pointers 9B96, 9C86, 9CFE and the recorded beginning of 9DEE, with modes 10/04/10/14. Inventory all four PPU nametables: the vertical room uses the second vertical page. Native 0796/0797 with 0F0A1A29 in 9CFE/9DEE are solid supports, not removable decoration; only the measured 9C86 dark wall palette is decorative.
+- Reuse approved cave, brown rock, carved stone, lava/ice, bats and blade rings. The green floating creature is the only new painted source; its twelve-cell 64×64 footprint and missing upper-left/lower-right cells are preserved. All 98 previous art/audio files remain exact.
+- This is unapproved. Main 0.10.2 and approved continuation 0.11.2 remain pinned. See docs/LEVEL3_CAVES.md and evidence/level3_caves/.
+
+## Previous large-fish hover review — 0.12.2
 
 - The user's new movie demonstrates native horizontal hover oscillation in the large fish without damage. 0.12.1 repaired a separate small-fish color problem; do not claim it addressed this report.
 - Keep the original painted fish and native gameplay exact. `build_big_fish_motion.py` adds ±1 HD-pixel registrations only for the measured one-fish hover/cruise state in room 9AA6. Preserve both mirrors, original fin/vertical motion, attacks and hit blinking. Multiple-fish ambiguity falls back to original art.

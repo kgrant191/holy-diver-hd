@@ -1,0 +1,75 @@
+{
+  "source": "Actual Mesen captures, fixed crops only, no interpolation or tracking",
+  "silent": true,
+  "fps": 60,
+  "frames": 1720,
+  "seconds": 28.666666666666668,
+  "clips": [
+    {
+      "label": "Two fish, opposite hover phases",
+      "start": 1960,
+      "end": 2030,
+      "stride": 1,
+      "repeats": 1,
+      "crop": [
+        0,
+        48,
+        256,
+        288
+      ]
+    },
+    {
+      "label": "Same frames at quarter speed",
+      "start": 1960,
+      "end": 2030,
+      "stride": 1,
+      "repeats": 4,
+      "crop": [
+        0,
+        48,
+        256,
+        288
+      ]
+    },
+    {
+      "label": "Green creature and frozen lava",
+      "start": 2700,
+      "end": 3000,
+      "stride": 2,
+      "repeats": 2,
+      "crop": null
+    },
+    {
+      "label": "Vertical cave and blade rings",
+      "start": 4460,
+      "end": 4820,
+      "stride": 2,
+      "repeats": 2,
+      "crop": null
+    },
+    {
+      "label": "Stone platforms and native edges",
+      "start": 5480,
+      "end": 5720,
+      "stride": 2,
+      "repeats": 2,
+      "crop": null
+    },
+    {
+      "label": "Frozen pools and thawing",
+      "start": 6140,
+      "end": 6500,
+      "stride": 2,
+      "repeats": 2,
+      "crop": null
+    },
+    {
+      "label": "Beginning of the bat descent",
+      "start": 6870,
+      "end": 6980,
+      "stride": 2,
+      "repeats": 2,
+      "crop": null
+    }
+  ]
+}

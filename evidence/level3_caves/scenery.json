@@ -1,0 +1,585 @@
+{
+  "checks": [
+    {
+      "frame": 120,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 118,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 158808,
+      "terrain_pixels": 48768,
+      "unmapped": {}
+    },
+    {
+      "frame": 240,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 238,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 143780,
+      "terrain_pixels": 50328,
+      "unmapped": {}
+    },
+    {
+      "frame": 360,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 358,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 155104,
+      "terrain_pixels": 45096,
+      "unmapped": {}
+    },
+    {
+      "frame": 480,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 478,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 169332,
+      "terrain_pixels": 47616,
+      "unmapped": {}
+    },
+    {
+      "frame": 600,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 598,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 163096,
+      "terrain_pixels": 48128,
+      "unmapped": {}
+    },
+    {
+      "frame": 720,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 718,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 168844,
+      "terrain_pixels": 48896,
+      "unmapped": {}
+    },
+    {
+      "frame": 840,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 838,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 168940,
+      "terrain_pixels": 63024,
+      "unmapped": {}
+    },
+    {
+      "frame": 960,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 958,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 169632,
+      "terrain_pixels": 67280,
+      "unmapped": {}
+    },
+    {
+      "frame": 1080,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1078,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 162200,
+      "terrain_pixels": 62796,
+      "unmapped": {}
+    },
+    {
+      "frame": 1200,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1198,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 157056,
+      "terrain_pixels": 60368,
+      "unmapped": {}
+    },
+    {
+      "frame": 1320,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1318,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 175648,
+      "terrain_pixels": 66760,
+      "unmapped": {}
+    },
+    {
+      "frame": 1440,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1438,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 181168,
+      "terrain_pixels": 63720,
+      "unmapped": {}
+    },
+    {
+      "frame": 1560,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1558,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 163832,
+      "terrain_pixels": 52576,
+      "unmapped": {}
+    },
+    {
+      "frame": 1680,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1678,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 153180,
+      "terrain_pixels": 53072,
+      "unmapped": {}
+    },
+    {
+      "frame": 1800,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1798,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 160180,
+      "terrain_pixels": 69632,
+      "unmapped": {}
+    },
+    {
+      "frame": 1920,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 1918,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 157248,
+      "terrain_pixels": 68208,
+      "unmapped": {}
+    },
+    {
+      "frame": 2040,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2038,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 157848,
+      "terrain_pixels": 66720,
+      "unmapped": {}
+    },
+    {
+      "frame": 2160,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2158,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 166192,
+      "terrain_pixels": 66448,
+      "unmapped": {}
+    },
+    {
+      "frame": 2280,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2278,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 162112,
+      "terrain_pixels": 63168,
+      "unmapped": {}
+    },
+    {
+      "frame": 2400,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2398,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 176128,
+      "terrain_pixels": 65280,
+      "unmapped": {}
+    },
+    {
+      "frame": 2520,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2518,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 178208,
+      "terrain_pixels": 53312,
+      "unmapped": {}
+    },
+    {
+      "frame": 2640,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2638,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 171072,
+      "terrain_pixels": 61888,
+      "unmapped": {}
+    },
+    {
+      "frame": 2760,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2758,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 161920,
+      "terrain_pixels": 74848,
+      "unmapped": {}
+    },
+    {
+      "frame": 2880,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2878,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 158580,
+      "terrain_pixels": 76000,
+      "unmapped": {}
+    },
+    {
+      "frame": 3000,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 2998,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 159608,
+      "terrain_pixels": 76000,
+      "unmapped": {}
+    },
+    {
+      "frame": 3120,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3118,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 167720,
+      "terrain_pixels": 70944,
+      "unmapped": {}
+    },
+    {
+      "frame": 3240,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3238,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 160760,
+      "terrain_pixels": 69952,
+      "unmapped": {}
+    },
+    {
+      "frame": 3360,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3358,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 159824,
+      "terrain_pixels": 66912,
+      "unmapped": {}
+    },
+    {
+      "frame": 3480,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3478,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 155148,
+      "terrain_pixels": 66312,
+      "unmapped": {}
+    },
+    {
+      "frame": 3600,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3598,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 155912,
+      "terrain_pixels": 66648,
+      "unmapped": {}
+    },
+    {
+      "frame": 3720,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3718,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 156944,
+      "terrain_pixels": 67224,
+      "unmapped": {}
+    },
+    {
+      "frame": 3840,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3838,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 155840,
+      "terrain_pixels": 66520,
+      "unmapped": {}
+    },
+    {
+      "frame": 3960,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 3958,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 154432,
+      "terrain_pixels": 65560,
+      "unmapped": {}
+    },
+    {
+      "frame": 4080,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 4078,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 170560,
+      "terrain_pixels": 63088,
+      "unmapped": {}
+    },
+    {
+      "frame": 4200,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 4198,
+      "scroll_adjustment": -1,
+      "exposed_pixels": 178208,
+      "terrain_pixels": 51780,
+      "unmapped": {}
+    },
+    {
+      "frame": 4320,
+      "room": "9B96",
+      "fraction": 1.0,
+      "ppu_frame": 4318,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 184240,
+      "terrain_pixels": 63788,
+      "unmapped": {}
+    },
+    {
+      "frame": 4440,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 4438,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 153588,
+      "terrain_pixels": 64264,
+      "unmapped": {}
+    },
+    {
+      "frame": 4560,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 4558,
+      "scroll_adjustment": -3,
+      "exposed_pixels": 169632,
+      "terrain_pixels": 65520,
+      "unmapped": {}
+    },
+    {
+      "frame": 4680,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 4678,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 169868,
+      "terrain_pixels": 33596,
+      "unmapped": {}
+    },
+    {
+      "frame": 4800,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 4798,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 170440,
+      "terrain_pixels": 64920,
+      "unmapped": {}
+    },
+    {
+      "frame": 4920,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 4918,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 169708,
+      "terrain_pixels": 66996,
+      "unmapped": {}
+    },
+    {
+      "frame": 5040,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 5038,
+      "scroll_adjustment": -2,
+      "exposed_pixels": 177312,
+      "terrain_pixels": 35736,
+      "unmapped": {}
+    },
+    {
+      "frame": 5160,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 5158,
+      "scroll_adjustment": -4,
+      "exposed_pixels": 173840,
+      "terrain_pixels": 38272,
+      "unmapped": {}
+    },
+    {
+      "frame": 5280,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 5278,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 176080,
+      "terrain_pixels": 32000,
+      "unmapped": {}
+    },
+    {
+      "frame": 5400,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 5398,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 175904,
+      "terrain_pixels": 32256,
+      "unmapped": {}
+    },
+    {
+      "frame": 5520,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5518,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 176696,
+      "terrain_pixels": 82712,
+      "unmapped": {}
+    },
+    {
+      "frame": 5640,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5638,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 182848,
+      "terrain_pixels": 72700,
+      "unmapped": {}
+    },
+    {
+      "frame": 5760,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5758,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 162732,
+      "terrain_pixels": 64144,
+      "unmapped": {}
+    },
+    {
+      "frame": 5880,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5878,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 164448,
+      "terrain_pixels": 64736,
+      "unmapped": {}
+    },
+    {
+      "frame": 6000,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5998,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 172736,
+      "terrain_pixels": 69952,
+      "unmapped": {}
+    },
+    {
+      "frame": 6120,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 6118,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 168368,
+      "terrain_pixels": 54308,
+      "unmapped": {}
+    },
+    {
+      "frame": 6240,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 6238,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 174688,
+      "terrain_pixels": 59548,
+      "unmapped": {}
+    },
+    {
+      "frame": 6360,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 6358,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 172128,
+      "terrain_pixels": 75860,
+      "unmapped": {}
+    },
+    {
+      "frame": 6480,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 6478,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 162040,
+      "terrain_pixels": 71864,
+      "unmapped": {}
+    },
+    {
+      "frame": 6600,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 6598,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 161292,
+      "terrain_pixels": 89816,
+      "unmapped": {}
+    },
+    {
+      "frame": 6720,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 6718,
+      "scroll_adjustment": 1,
+      "exposed_pixels": 176912,
+      "terrain_pixels": 73620,
+      "unmapped": {}
+    },
+    {
+      "frame": 6840,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 6838,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 175416,
+      "terrain_pixels": 65468,
+      "unmapped": {}
+    },
+    {
+      "frame": 6960,
+      "room": "9DEE",
+      "fraction": 1.0,
+      "ppu_frame": 6958,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 172492,
+      "terrain_pixels": 56396,
+      "unmapped": {}
+    }
+  ],
+  "minimum_match": 1.0
+}
