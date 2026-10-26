@@ -1,0 +1,38 @@
+{
+  "version": "0.15.0",
+  "movie_sha256": "32f2d9617ca290845983ab67918a8f0f9ed312ee7cd5a4ec5881ff51d299db42",
+  "movie_frames": 4812,
+  "capture_stride": 1,
+  "paired_native_samples_per_type": 985,
+  "identical_apu_writes": 13981,
+  "identical_pcm_bytes": 15379208,
+  "counts": {
+    "changed_images": 978,
+    "exact_images": 7,
+    "exact_blackouts": 7
+  },
+  "rooms": {
+    "9F92": 985
+  },
+  "source_matches": {
+    "overdrive/h0v0": 12
+  },
+  "source_examples": {
+    "overdrive/h0v0": {
+      "frame": 4208,
+      "xy": [
+        240,
+        256
+      ],
+      "opaque_pixels": 527
+    }
+  },
+  "cards": {},
+  "preserved_native_flash_colors": {
+    "108,6,0": 244,
+    "181,49,32": 67,
+    "234,158,34": 56,
+    "192,223,255": 15
+  },
+  "native_gameplay_unchanged": true
+}

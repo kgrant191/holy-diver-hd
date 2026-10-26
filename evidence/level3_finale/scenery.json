@@ -1,0 +1,375 @@
+{
+  "checks": [
+    {
+      "frame": 240,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 238,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 171488,
+      "terrain_pixels": 62260,
+      "unmapped": {}
+    },
+    {
+      "frame": 360,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 358,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 169048,
+      "terrain_pixels": 47900,
+      "unmapped": {}
+    },
+    {
+      "frame": 480,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 478,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 167936,
+      "terrain_pixels": 60144,
+      "unmapped": {}
+    },
+    {
+      "frame": 600,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 598,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 168608,
+      "terrain_pixels": 61620,
+      "unmapped": {}
+    },
+    {
+      "frame": 720,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 718,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 167576,
+      "terrain_pixels": 49316,
+      "unmapped": {}
+    },
+    {
+      "frame": 840,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 838,
+      "scroll_adjustment": -2,
+      "exposed_pixels": 163424,
+      "terrain_pixels": 35588,
+      "unmapped": {}
+    },
+    {
+      "frame": 960,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 958,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 156196,
+      "terrain_pixels": 34484,
+      "unmapped": {}
+    },
+    {
+      "frame": 1080,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 1078,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 174880,
+      "terrain_pixels": 38320,
+      "unmapped": {}
+    },
+    {
+      "frame": 1200,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 1198,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 171544,
+      "terrain_pixels": 33480,
+      "unmapped": {}
+    },
+    {
+      "frame": 1320,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 1318,
+      "scroll_adjustment": -2,
+      "exposed_pixels": 172304,
+      "terrain_pixels": 38384,
+      "unmapped": {}
+    },
+    {
+      "frame": 1440,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 1438,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 177968,
+      "terrain_pixels": 72383,
+      "unmapped": {}
+    },
+    {
+      "frame": 1560,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 1558,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 155636,
+      "terrain_pixels": 63718,
+      "unmapped": {}
+    },
+    {
+      "frame": 1680,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 1678,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 155616,
+      "terrain_pixels": 60456,
+      "unmapped": {}
+    },
+    {
+      "frame": 1800,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 1798,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 154204,
+      "terrain_pixels": 64394,
+      "unmapped": {}
+    },
+    {
+      "frame": 1920,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 1918,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 150232,
+      "terrain_pixels": 67516,
+      "unmapped": {}
+    },
+    {
+      "frame": 2040,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2038,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 154728,
+      "terrain_pixels": 65209,
+      "unmapped": {}
+    },
+    {
+      "frame": 2160,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2158,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 151012,
+      "terrain_pixels": 63983,
+      "unmapped": {}
+    },
+    {
+      "frame": 2280,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2278,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 154768,
+      "terrain_pixels": 62266,
+      "unmapped": {}
+    },
+    {
+      "frame": 2400,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2398,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 151344,
+      "terrain_pixels": 54478,
+      "unmapped": {}
+    },
+    {
+      "frame": 2520,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2518,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 172884,
+      "terrain_pixels": 70448,
+      "unmapped": {}
+    },
+    {
+      "frame": 2640,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2638,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 160668,
+      "terrain_pixels": 59411,
+      "unmapped": {}
+    },
+    {
+      "frame": 2760,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2758,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 170336,
+      "terrain_pixels": 67021,
+      "unmapped": {}
+    },
+    {
+      "frame": 2880,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2878,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 156144,
+      "terrain_pixels": 65994,
+      "unmapped": {}
+    },
+    {
+      "frame": 3000,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 2998,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 136180,
+      "terrain_pixels": 57490,
+      "unmapped": {}
+    },
+    {
+      "frame": 3120,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 3118,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 170336,
+      "terrain_pixels": 66994,
+      "unmapped": {}
+    },
+    {
+      "frame": 3240,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 3238,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 145640,
+      "terrain_pixels": 60595,
+      "unmapped": {}
+    },
+    {
+      "frame": 3360,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 3358,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 182848,
+      "terrain_pixels": 74496,
+      "unmapped": {}
+    },
+    {
+      "frame": 3480,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 3478,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 182848,
+      "terrain_pixels": 74496,
+      "unmapped": {}
+    },
+    {
+      "frame": 3600,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 3598,
+      "scroll_adjustment": 4,
+      "exposed_pixels": 167376,
+      "terrain_pixels": 70368,
+      "unmapped": {}
+    },
+    {
+      "frame": 3720,
+      "room": "9F92",
+      "fraction": 0.9987941506737444,
+      "ppu_frame": 3718,
+      "scroll_adjustment": 4,
+      "exposed_pixels": 156736,
+      "terrain_pixels": 50457,
+      "unmapped": {}
+    },
+    {
+      "frame": 3840,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 3838,
+      "scroll_adjustment": 4,
+      "exposed_pixels": 175680,
+      "terrain_pixels": 48148,
+      "unmapped": {}
+    },
+    {
+      "frame": 3960,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 3958,
+      "scroll_adjustment": 4,
+      "exposed_pixels": 149136,
+      "terrain_pixels": 35785,
+      "unmapped": {}
+    },
+    {
+      "frame": 4080,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 4078,
+      "scroll_adjustment": 4,
+      "exposed_pixels": 150224,
+      "terrain_pixels": 36441,
+      "unmapped": {}
+    },
+    {
+      "frame": 4200,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 4198,
+      "scroll_adjustment": 4,
+      "exposed_pixels": 182848,
+      "terrain_pixels": 37568,
+      "unmapped": {}
+    },
+    {
+      "frame": 4356,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 4354,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 175976,
+      "terrain_pixels": 33984,
+      "unmapped": {}
+    },
+    {
+      "frame": 4364,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 4362,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 175200,
+      "terrain_pixels": 33984,
+      "unmapped": {}
+    },
+    {
+      "frame": 4372,
+      "room": "9F92",
+      "fraction": 1.0,
+      "ppu_frame": 4370,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 176352,
+      "terrain_pixels": 33984,
+      "unmapped": {}
+    }
+  ],
+  "minimum_match": 0.9987941506737444
+}

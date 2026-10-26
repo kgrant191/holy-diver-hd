@@ -1,0 +1,9 @@
+{
+  "version": "0.15.0",
+  "files": 106,
+  "sha256": "4ee841c025e28c236a605f20959d3c57a1e8d2383e8e4de0253f7139d73fedf0",
+  "crc_valid": true,
+  "flat_root": true,
+  "exact_manifest": true,
+  "no_nested_zip": true
+}

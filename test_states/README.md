@@ -113,3 +113,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Level 3 next caves recording — 0.13.0 review
 
 Local input `Holy_Diver_HD(4).mmo`: 7,592 frames; movie SHA-256 `facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db`. Embedded state SHA-256 `8f7b46bf47a489e4105a0023e4b2f37fa7d8507a3b52d799ac56be8fdf891c6d`; input SHA-256 `ccd0149db32fdbdca718b69dc947a8100d504fba16d9547b8990fc9b8ea5b4f9`. Standard MesenCE 2.2.1 and the existing supported ROM. Bytes remain outside Git. See docs/LEVEL3_CAVES.md.
+
+## Level 3 finale movie — 0.15.0 review
+
+`Holy_Diver_HD(5).mmo`: 4,812 frames; SHA-256 `32f2d9617ca290845983ab67918a8f0f9ed312ee7cd5a4ec5881ff51d299db42`. Embedded state SHA-256 `56b9f1bbf104d4d4671801e1eb8f30223d6620971c58c60b5a51a440950fd4d2`. Same supported translated ROM and stock MesenCE 2.2.1. Covers final climb, boss, Overdrive and Stage 4 arrival. `make_level3_finale_edge.py` derives the 1,740-frame input-only edge route; hashes are in evidence/level3_finale/edge_input.json. Movie, embedded state and ROM remain outside Git.

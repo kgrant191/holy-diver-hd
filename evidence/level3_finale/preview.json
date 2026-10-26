@@ -1,0 +1,55 @@
+{
+  "source": "Actual paired Mesen captures; no pixel editing or motion interpolation",
+  "silent": true,
+  "fps": 60,
+  "capture_stride": 2,
+  "frames": 1944,
+  "seconds": 32.4,
+  "clips": [
+    {
+      "label": "Final moss climb",
+      "start": 500,
+      "end": 900
+    },
+    {
+      "label": "Upper platforms and exit",
+      "start": 1180,
+      "end": 1420
+    },
+    {
+      "label": "Boss emerging from the ceiling",
+      "start": 1720,
+      "end": 1960
+    },
+    {
+      "label": "Boss emerging from the floor",
+      "start": 2480,
+      "end": 2720
+    },
+    {
+      "label": "Defeat and native flashes",
+      "start": 3400,
+      "end": 3600
+    },
+    {
+      "label": "Living growths disappear",
+      "start": 3860,
+      "end": 4100
+    },
+    {
+      "label": "Overdrive pickup and fade",
+      "start": 4206,
+      "end": 4380
+    },
+    {
+      "label": "Overdrive acquired",
+      "start": 4400,
+      "end": 4490
+    },
+    {
+      "label": "Golden Temple title card",
+      "start": 4600,
+      "end": 4720
+    }
+  ]
+}

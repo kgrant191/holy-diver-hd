@@ -1,0 +1,46 @@
+{
+  "version": "0.15.0",
+  "baseline": "approved 0.14.0",
+  "review_only": true,
+  "total_paired_native_samples_per_type": 3902,
+  "identical_full_apu_and_pcm": true,
+  "unchanged_previous_art_audio_files": 102,
+  "old_hires_recovered_exactly": true,
+  "source_matches": 167,
+  "scenery_samples": 40,
+  "scenery_minimum_match": 0.9987941506737444,
+  "fade_samples": 11,
+  "fade_source_pixels": 15366,
+  "native_flash_colors": {
+    "108,6,0": 244,
+    "181,49,32": 67,
+    "234,158,34": 56,
+    "192,223,255": 15
+  },
+  "edge": {
+    "left_stop_native_xy": [
+      23,
+      157
+    ],
+    "pause_frames": [
+      1340,
+      1369
+    ],
+    "last_support_frame": 1405,
+    "last_support_native_xy": [
+      41,
+      157
+    ],
+    "first_fall_frame": 1406,
+    "first_fall_native_xy": [
+      42,
+      158
+    ]
+  },
+  "coverage_limits": [
+    "Only the supplied route and controller-only edge derivative; no full-game regression replay.",
+    "Normal-costume final pickup fades are live-verified; Twin Fire fade aliases are not separately exercised here.",
+    "Stage 4 scenery is unfinished; only its title card and first recorded arrival frames are covered.",
+    "Scenery comparisons exclude HUD, observed actor bounds and changing native cells; minimum 99.879% exposed-pixel agreement, with one residual removal-interval sample."
+  ]
+}

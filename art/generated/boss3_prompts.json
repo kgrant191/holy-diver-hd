@@ -1,0 +1,21 @@
+[
+  {
+    "name": "boss3_head",
+    "ref": "/workspace/scratch/f833f91713ba/holy-diver-hd/art/level3_finale/boss_native_reference.png",
+    "prompt": "Use case: style-transfer. Repaint the attached native NES boss sprite as one sharp, polished, hand-painted SNES/GBA-remaster enemy sprite on a genuinely transparent background. This is the new boss head for Holy Diver HD's Poison Moss Land. Preserve the exact recognizable overall shape and front view: a tall pink/coral organic armored demon head, two long pointed upper horns/fins, wide rounded lower face with narrow fierce eyes, ivory-pink ribbed ridges, dark burgundy central groove, and a small rounded lower central jaw/tongue. Pink and pale coral highlights must stand out against dark emerald foliage. The head points downward in this unflipped source. No limbs, wings, vines, extra bodies, base, shadow, scenery or text. It will fit a 64x96 game sprite: leave the outer left/right quarter of the TOP SIXTH and BOTTOM SIXTH completely transparent; only the central half may occupy those rows. Middle four sixths may use full width. Keep all extremities comfortably inside the canvas; no cropped horns or jaw. One coherent complete head, no alternate poses. Preserve real alpha."
+  },
+  {
+    "name": "boss3_growth",
+    "ref": "/workspace/scratch/f833f91713ba/work/level3_finale/pod_reference.png",
+    "prompt": "Use case: style-transfer. Repaint ONLY the green thorny growth in this NES reference as a single isolated background boss growth for a detailed hand-painted SNES/GBA-style Gothic action-game remaster. Remove the player, black backdrop, floor and all other objects. A wide squat, poisonous green organic mound, two rounded ridged lobes flowing into one body, ragged upward thorn/grass spikes, a subtle dark central opening from which a creature can emerge, fibrous emerald bark skin and lime moss highlights. Front/side-on flat game view, no perspective ground plane. The silhouette is about 8 units wide and 3 units high (target128x48 pixels), flat fully filled lower edge, upper irregular spikes; no hanging roots below the baseline. Keep the lower body dense and opaque, with transparent background only above/outside the silhouette. Dark forest green and emerald, moderate yellow-green highlights, readable large forms rather than microscopic texture. One complete growth, no separate characters, face, eyes, text or shadow. Real transparent alpha."
+  },
+  {
+    "name": "boss3_shots",
+    "ref": "/workspace/scratch/f833f91713ba/holy-diver-hd/art/level3_finale/shots_native_reference.png",
+    "prompt": "Use case: style-transfer. Repaint these THREE small native NES curved projectiles as a coherent three-pose sprite sheet for a hand-painted Gothic SNES/GBA-remaster game. Preserve each curved silhouette and its orientation from the reference: left is a slender curved hooked coral wisp, middle nearly vertical with gentle bends, right an S-shaped wisp. All are the SAME thin pink/coral poison flame or sinuous energy tendril, with a bright pale pink core and dark crimson edge, tapering ends. No head, eyes, wings, circular explosion, trailing particles or glow outside the body. Exactly three isolated nonoverlapping forms arranged LEFT TO RIGHT with generous transparent gaps, aligned at same top and bottom, identical overall height. Target game sizes are32x48,16x48,32x48 pixels, respectively, so keep each form narrow and crisp at small scale. No letters, borders, scenery or shadows. Genuinely transparent background."
+  },
+  {
+    "name": "boss3_overdrive",
+    "prompt": "Use case: stylized-concept. One isolated collectible Overdrive magic orb for a polished hand-painted Gothic SNES/GBA-remaster game. A compact perfectly readable circular ruby-red and hot ivory energy core, contained by a thin antique-gold engraved ring with four tiny symmetric accents. A simple blazing sunburst rune at the center evokes intensified fire magic. Front-on flat game pickup icon, designed to remain clear at32x32 pixels. The complete silhouette fits inside a circle with a small transparent margin. Restrained crimson shadow, orange-red enamel, warm ivory highlight and antique gold; crisp edges, no external glow, flying sparks, motion trails, background, platform, book, lettering or cast shadow. Genuinely transparent background."
+  }
+]

@@ -1,5 +1,9 @@
 # Art direction
 
+## Final moss climb and boss — 0.15.0 review
+
+Continue the approved emerald ruins and exact moss-covered platform contours through 9F1A and 9F92. The boss has a coral/pink horned organic face with ivory ridges and burgundy recesses, emerging vertically from thorny green ceiling/floor growths. Its three curved attacks use one consistent pink treatment inside their native staggered footprints. Overdrive is a ruby/ivory sunburst orb with restrained gold accents. Reuse approved Randy, HUD, round shots and intermission framing. Keep native destruction, screen flashes and camera shake. Sources/prompts: art/generated/boss3_*; registrations and native references: art/level3_finale/.
+
 ## Poison Moss Land — current Level 3 direction, 0.14.0
 
 The user's green-level request supersedes earlier Level 3 instructions to reuse brown rock and cave panoramas. Use deep forest green, emerald masonry, subdued teal mist, brighter moss on standing surfaces and ivy-covered Gothic ruins. Give the opening forest and interior ruins distinct painted panoramas. Preserve exact platform/ceiling contours and solid supports; keep existing oak trunks and branches, actors and lava/ice. This retheme is limited to the eight recorded rooms, not the unfinished remainder or earlier stages. Sources and prompts: art/generated/poison_moss_*; registration: art/poison_moss/.

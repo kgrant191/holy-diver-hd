@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.15.0 — 2026-10-26 (review)
+
+- Finish the recorded final green climb and boss arena with reused moss ruins/platforms. Add coherent pink boss head, living thorny growths, three curved-shot poses and the Overdrive orb.
+- Preserve native emergence/occlusion, tile removal, flashes, camera shake, gameplay and audio. Keep shared HD Randy/HUD through the boss bank and pickup fades.
+- Add the Overdrive announcement, activate the existing Golden Temple card for its recorded palette, and carry shared actors into the recorded Stage 4 arrival. Stage 4 scenery remains unfinished.
+- Preserve all 102 existing art/audio files; add one atlas and one spell card. Paired movie, consecutive defeat-frame and controller-only edge checks are recorded in evidence/level3_finale/.
+
 ## 0.14.0 — Poison Moss Land scenery (approved 2026-10-26)
 
 - Replace reused Level 3 cave/rock scenery with new green moss forest and overgrown Gothic ruins across the eight completed/recorded rooms.

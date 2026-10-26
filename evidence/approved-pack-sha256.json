@@ -32,6 +32,7 @@
   "EntranceScene.png": "b0990ec36ec1475cd99684902a3039abce1d9f1fe8d4972e87e13f31ef96412c",
   "Entrance_SFX_Priority.ips": "92e16b8f7c585ddef42827fc16088788f8f49488748b94179822d2ba4828d01e",
   "Intermission_HD.png": "58275986a1f0f2214efa0989d14ef84de832aa039b7d10a1a08f15ed7e97dc50",
+  "Level3_Finale_Tiles_2x.png": "92d9d7244f10f1d617b4897df3ff127851cf49ce7a87df13cdd53d089d982afb",
   "Lives_Lives_0.png": "f59cc3e30fc0f44a8fd7a1b44f82dccd001ee355738ac969fd3bfb30f9d07f22",
   "Lives_Lives_1.png": "9e28f99647b4c009eb0672a747676e9f24cda8e4f947074844b49f3f8d436bc9",
   "Lives_Lives_2.png": "d1c71e90dd768c45d7ce65df03f73d8634fd1ffc50dfd8c9f4bfa99b86261c70",
@@ -44,11 +45,12 @@
   "Lives_Lives_9.png": "68519f7d8fed39b916627ddd8748800dd3aca1a8a45630aeb4a934d7f16d618d",
   "Nave_Background.png": "865db833ec3e690b8cbb48c45a03fd997aa179e91cbc3d87f6dad395a0d43dbe",
   "Nave_Tiles_2x.png": "8796de7817b6624a03a1b8ee116357d3827b791eb7ed2ea686ea0c41d9721069",
+  "Overdrive_Acquired.png": "1a3f82c408af6041600dd329fae1be72b8db522369e779de817c1763fc7a8b0d",
   "Pause_HD.png": "37b6cebce0f74774c5340cb4f3a0b50962a07e72627f0d26974257bb00b5f614",
   "Poison_Moss_Forest_Background.png": "2dc0da73c30d74717e8c584ec7a23425739d1c21a4859fad5872f1f6126af813",
   "Poison_Moss_Ruins_Background.png": "8f592f6b0b078e87186dd258e5a3f6c986a0f7fba5cd91c3c02219341695b1b7",
   "Poison_Moss_Tiles_2x.png": "d6c08a1b474bb44f97cc3ea6af2db973dfab1a468c8c5d0bbadf7906407f53b1",
-  "README.txt": "107b05262efa07d8cfd066f23e7fb5eeab430282b7cdd9602733666d2fb088d0",
+  "README.txt": "d7b979dd2335884f0feb83b28830f9049806f22cbeef6d18c2c26e9fd82eb44d",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -102,5 +104,5 @@
   "Tree_Court_Tiles_2x.png": "1fb4fe99e944ec4b110d0eb215dd00124bac17d5c4fa13ac8a9dd6334a066c44",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "bf043d23efaefafd84c05fe944e3327630fde77063caabc2e907a6eec7c405d8"
+  "hires.txt": "4ed92173c93a1e81d1c9d356bae5b2ee63c25d9aa33ae92908e63bc1e6aacd10"
 }

@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "frame": 1320,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 1319,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 174944,
+      "terrain_pixels": 30064,
+      "unmapped": {}
+    },
+    {
+      "frame": 1440,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 1439,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 178432,
+      "terrain_pixels": 61852,
+      "unmapped": {}
+    },
+    {
+      "frame": 1560,
+      "room": "9F1A",
+      "fraction": 1.0,
+      "ppu_frame": 1559,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 177992,
+      "terrain_pixels": 62004,
+      "unmapped": {}
+    }
+  ],
+  "minimum_match": 1.0
+}
