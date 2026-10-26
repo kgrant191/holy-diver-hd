@@ -108,3 +108,7 @@ The requested round projectile is native 0694/FF301116 and reuses the exact appr
 ## Level 3 lava corridor — 0.12.0 review
 
 Reuse the approved dark cave panorama, brown terrain, complete native platform caps and carved step material. Map hot lava and Blizzard ice to exact approved atlas cells. The large fish is copper-orange with ivory fangs and a tall dorsal fin; small fish reuse that painted source with correct native facing. Breaker uses cobalt/cyan charge, release and bolts; rotate the registered release/bolt for upward casts. The menu boot is the exact collectible artwork, not a second design. Preserve the native stepped silhouettes and sprite-cell footprints. Sources, mappings and live coverage are documented in LEVEL3_LAVA.md.
+
+## Large-fish hover review — 0.12.2
+
+Keep the exact copper fish design and both existing poses. Register each complete pose with a one-HD-pixel horizontal offset for the measured native hover movement state, reversing local offsets under hardware mirroring. Preserve native vertical bob, fin motion and all attack/hit states. Do not sharpen or repaint the artwork to address position jitter.

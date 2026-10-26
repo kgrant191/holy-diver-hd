@@ -35,6 +35,21 @@ assert len(imgs)==44
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+fish_stability=json.loads((root/'art/big_fish_motion/registration.json').read_text())
+counts['tile']-=fish_stability['tile_rules'];counts['condition']-=fish_stability['conditions']
+for section in ['CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN BIG_FISH_STABILITY '+section+r'\n.*?^# END BIG_FISH_STABILITY '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+prior_fish=json.loads((root/'evidence/0.12.1-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==prior_fish['hires.txt'],'Earlier mappings changed outside fish stabilization'
+for name,digest in prior_fish.items():
+ if name not in {'hires.txt','README.txt','Stage3_Lava_Tiles_2x.png'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name
+base_fish_atlas=np.array(Image.open(root/'art/level3_lava/Stage3_Lava_Tiles_2x.png').convert('RGBA'))
+current_fish_atlas=np.array(Image.open(pack/'Stage3_Lava_Tiles_2x.png').convert('RGBA'))
+assert np.array_equal(current_fish_atlas[:496],base_fish_atlas[:496])
+assert np.array_equal(current_fish_atlas[496:,320:],base_fish_atlas[496:,320:])
+assert not base_fish_atlas[496:,:,3].any()
+assert not fish_stability['native_gameplay_modified']
 level3_lava=json.loads((root/'art/level3_lava/registration.json').read_text())
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=level3_lava[field]
 for section in ['IMAGES','CONDITIONS','MAPPINGS']:

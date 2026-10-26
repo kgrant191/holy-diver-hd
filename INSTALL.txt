@@ -1,3 +1,7 @@
+Holy Diver HD 0.12.2 — large-fish hover stability review
+
+Steadies the large fish during its horizontal hover oscillation using graphics-only half-pixel registration. The existing fish design, attacks, movement, hitboxes and damage blinking are preserved. Includes the small-fish color consistency repair.
+
 Holy Diver HD 0.12.1 — fish animation color consistency review
 
 Keeps the reviewed fish design. The small fish now shares colors between its animation poses, preventing stationary body details from shimmering. Large fish and native hit blinking are unchanged.

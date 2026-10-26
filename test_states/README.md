@@ -105,3 +105,7 @@ Inputs stay outside Git. Pass these unchanged files to `run_screen2_1_qa.py`:
 ## Level 3 lava corridor movie
 
 `Holy_Diver_HD(2).mmo` (3,705 frames) embeds the boot-owned starting state. SHA-256: `b13e4d21d182ea84f5e9614d839db71c765f26d4874b4a6cbea5b91e8332699d`; state: `2306869106294ce3111a22fc02f298dcd3f60593e0adec6839afbc1a90426671`. Movie and derivative bytes stay outside Git. See `docs/LEVEL3_LAVA.md` and `art/level3_lava/routes.json` for controller-only Breaker, Blizzard and platform-edge probes.
+
+## Large-fish motion movie (2026-10-25)
+
+`Holy_Diver_HD(3).mmo`: 1,200 input frames, Mesen 2.2.1, SHA-256 `ace46ac61dabd9485e19cbd1599ad8518192d60b9894ef714c8204678ec14a18`. Embedded state SHA-256 `3539a1929e1ca0996449ec064f78c2e3ced076cee3f6232af8302a7bc4f7dadf`. Same supported translated ROM. Input bytes remain outside Git. Shows large-fish hovering in both directions, dive/turn and damage.

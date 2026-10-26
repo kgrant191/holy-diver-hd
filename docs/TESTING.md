@@ -237,3 +237,7 @@ Replay the supplied 3,705-frame movie with stride 2; derive Breaker direction/pa
 ## Fish motion consistency — 0.12.1
 
 Use the same full corridor movie at stride one against retained 0.12.0 and 0.12.1. `verify_fish_motion.py` requires consecutive native samples, complete paired audio, unchanged mappings, image differences confined to the small alternate pose, exact static head/body pixels, and runtime source matches in both directions. Preserve native large-fish hit blinking. See FISH_MOTION.md.
+
+## Large-fish hover stability — 0.12.2
+
+Use the new 1,200-frame user movie at stride one and the previous 3,705-frame corridor movie at stride one. Pair the 821-frame Blizzard derivative at stride one. `verify_big_fish_motion.py` compares all sampled native state and full APU/PCM, restricts differences to the large fish and eligible movement state, checks preserved source pixels and proves zero horizontal oscillation in three measured hover windows. The original-art probe disables only the ten large-fish mappings. See BIG_FISH_MOTION.md.

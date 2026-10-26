@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.12.2 — Large-fish hover stability (review candidate, 2026-10-25)
+
+- Reproduce the reported large-fish shake with the new 1,200-frame movie and confirm the same one-NES-pixel horizontal oscillation in the original sprite.
+- Cancel that visual oscillation with half-NES-pixel sprite registration, preserving the painted design, native fins/vertical bob, attacks, hitboxes, damage blinking and audio.
+- Guard the correction by the recorded room and one-fish hover/cruise state; retain original registration for other states or multiple fish. Preserve every existing atlas cell and all other runtime assets.
+- Verify three uninterrupted hover windows in both directions and replay the earlier corridor and Blizzard input.
+
 ## 0.12.1 — Fish motion color consistency (review candidate, 2026-10-25)
 
 - Correct animation shimmer in the small fish: use a shared palette and preserve static head/body pixels across poses. Keep the first small pose and both large poses exact.

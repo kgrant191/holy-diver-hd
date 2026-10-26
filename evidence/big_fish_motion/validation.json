@@ -1,0 +1,13 @@
+{
+  "version": "0.12.2",
+  "total_emulated_frames_per_build": 5726,
+  "total_paired_native_samples_per_type": 5726,
+  "identical_apu_writes": 11784,
+  "identical_pcm_bytes": 18311440,
+  "changed_images": 1742,
+  "exact_images": 3981,
+  "exact_attack_or_damage_images": 448,
+  "all_three_hover_windows_pass": true,
+  "no_source_failures": true,
+  "initial_empty_images": 3
+}

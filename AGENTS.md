@@ -2,7 +2,14 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
-## Current fish motion review — 0.12.1
+## Current large-fish hover review — 0.12.2
+
+- The user's new movie demonstrates native horizontal hover oscillation in the large fish without damage. 0.12.1 repaired a separate small-fish color problem; do not claim it addressed this report.
+- Keep the original painted fish and native gameplay exact. `build_big_fish_motion.py` adds ±1 HD-pixel registrations only for the measured one-fish hover/cruise state in room 9AA6. Preserve both mirrors, original fin/vertical motion, attacks and hit blinking. Multiple-fish ambiguity falls back to original art.
+- Do not shift individual limbs or redraw the fish. The complete 48×48 source shifts together inside its measured margin, with no clipping. Original atlas cells remain exact; the twenty new cells occupy X0–319/Y496–511.
+- See docs/BIG_FISH_MOTION.md and evidence/big_fish_motion/. 0.12.2 is unapproved; main 0.10.2 and approved continuation 0.11.2 remain pinned.
+
+## Previous small-fish motion review — 0.12.1
 
 - The user clarified motion blur/glitching, not a request to sharpen or redesign the fish. Preserve original generated art, both large poses and the first small pose. The small alternate pose now shares the base palette and static head/body pixels. Keep reserved atlas slots so all existing mappings stay exact.
 - Native large-fish hit blinking is present in OAM and must remain. Do not describe generic alternate-frame flicker as an HD mapping bug. Capture consecutive frames for motion defects; stride two cannot reveal every alternating phase.

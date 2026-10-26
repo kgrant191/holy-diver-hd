@@ -1,0 +1,26 @@
+{
+  "movie_sha256": "ace46ac61dabd9485e19cbd1599ad8518192d60b9894ef714c8204678ec14a18",
+  "frames": 1200,
+  "paired_native_samples_per_type": 1200,
+  "identical_pcm_bytes": 3839808,
+  "removed_tile_ids": [
+    "06DD",
+    "06DE",
+    "06DF",
+    "06E0",
+    "06E1",
+    "06E2",
+    "06E3",
+    "06E4",
+    "06E5",
+    "06E6"
+  ],
+  "only_palette": "FF301627",
+  "native_hover_x_hd_pixels": [
+    242,
+    244
+  ],
+  "native_oscillation_hd_pixels": 2,
+  "all_native_state_and_apu_equal": true,
+  "original_sprite_probe": true
+}

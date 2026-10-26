@@ -1,0 +1,70 @@
+{
+  "source": "consecutive actual Mesen captures; static crop; no tracking or postprocessing",
+  "fps": 60,
+  "frames": 1200,
+  "duration_seconds": 20.0,
+  "clips": [
+    [
+      "Left-facing hover",
+      300,
+      450,
+      [
+        184,
+        64,
+        440,
+        256
+      ],
+      1
+    ],
+    [
+      "Left-facing hover",
+      300,
+      450,
+      [
+        184,
+        64,
+        440,
+        256
+      ],
+      4
+    ],
+    [
+      "Right-facing hover",
+      780,
+      840,
+      [
+        0,
+        64,
+        256,
+        256
+      ],
+      1
+    ],
+    [
+      "Right-facing hover",
+      780,
+      840,
+      [
+        0,
+        64,
+        256,
+        256
+      ],
+      4
+    ],
+    [
+      "Dive and turn: original movement",
+      470,
+      620,
+      [
+        0,
+        48,
+        256,
+        240
+      ],
+      1
+    ]
+  ],
+  "interpolation": false,
+  "silent": true
+}

@@ -2,7 +2,15 @@
 
 Updated: 2026-10-25 (America/New_York).
 
-## Current review — 0.12.1, feature/level3-lava
+## Current review — 0.12.2, feature/level3-lava
+
+The new 1,200-frame movie reproduces the actual report: the large fish shifts horizontally by one native pixel every frame while hovering, without being hit. The original sprite and HD fish share this native OAM oscillation. The previous small-fish fix did not address this reported motion.
+
+A graphics-only correction offsets the complete existing large-fish art by ±1 HD pixel in the observed horizontal hover/cruise state. This cancels the two-HD-pixel alternation at hover equilibrium while retaining the native vertical bob and fin animation. It is scoped to mode 10 / room 9AA6, exactly one active type-26 fish, fractional horizontal speed CC with high byte 00/80, and no damage timer. Both native mirror directions are handled. Other states and ambiguous multiple-fish cases retain the original registration. No emulated state or IPS is modified.
+
+Only hires.txt, unused cells in Stage3_Lava_Tiles_2x.png and installed README change; all 97 other installation files and every existing atlas cell stay exact. The source fish images are unchanged. See docs/BIG_FISH_MOTION.md and evidence/big_fish_motion/. All three paired routes pass 5726 frames per build with identical native state/APU/PCM; all 313 measured hover pictures have zero horizontal shake and unchanged vertical motion. This review is not approved or published. Approved continuation baseline remains 0.11.2; main remains 0.10.2.
+
+## Previous review — 0.12.1, feature/level3-lava
 
 The user clarified that the fish looked blurry/glitchy during movement, not in still artwork. No sharpening or new design is applied. Independent per-frame adaptive color reduction made all 227 visible pixels in the small fish's two poses change; only the fin should move. Reuse the first pose's palette and exact pixels wherever its scaled source is static. Both large-fish poses and the first small-fish pose remain exact. Existing atlas slots are preserved, so hires.txt and all other runtime mappings stay byte-identical to 0.12.0.
 

@@ -65,3 +65,7 @@ approved continuation baseline remains 0.11.2. No approval, push, PR, merge,
 release or tag is implied by the handoff.
 
 Measured result: 3705 paired samples for each native memory type, 8144 identical APU writes and 11842628 identical PCM bytes. 562 changed images stay inside the alternate small-fish cells; 3142 valid images remain exact. The one empty initial screenshot is paired and excluded from pixel comparison. Both small poses match their registered sources in both directions, and both large poses match unchanged.
+
+## Follow-up — 0.12.2
+
+The new movie establishes native horizontal hover jitter in the large fish without a hit. The earlier observation of stable artwork referred to consistent tile registration; it did not measure horizontal positional stability. The native hit blink is a separate effect. See BIG_FISH_MOTION.md for the reproduced issue and graphics-only hover correction.
