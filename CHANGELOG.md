@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.12.1 — Fish motion color consistency (review candidate, 2026-10-25)
+
+- Correct animation shimmer in the small fish: use a shared palette and preserve static head/body pixels across poses. Keep the first small pose and both large poses exact.
+- Preserve native fin timing and hit blinking; change only two cells in the lava atlas plus installed version notes. Mappings and 98 other installation files remain exact.
+- Inspect consecutive frames and pair the full movie at stride one to expose animation behavior missed by earlier even-frame sampling.
+
 ## 0.12.0 — Level 3 lava corridor (review candidate, 2026-10-25)
 
 - Match the Start/pause-menu boot to the approved collectible.

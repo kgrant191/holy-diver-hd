@@ -1,0 +1,14 @@
+{
+  "version": "0.12.1",
+  "review_candidate": true,
+  "install_sha256": "7b02c37e6cf52d02ff72cca600eda1cc0b0fed633bdc30437bf7708060a854cd",
+  "files": 100,
+  "flat_layout": true,
+  "crc_ok": true,
+  "all_expected_hashes_match": true,
+  "changed_files_from_0_12_0": [
+    "Stage3_Lava_Tiles_2x.png",
+    "README.txt"
+  ],
+  "unchanged_files": 98
+}

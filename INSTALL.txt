@@ -1,3 +1,7 @@
+Holy Diver HD 0.12.1 — fish animation color consistency review
+
+Keeps the reviewed fish design. The small fish now shares colors between its animation poses, preventing stationary body details from shimmering. Large fish and native hit blinking are unchanged.
+
 Holy Diver HD 0.12.0 — Level 3 lava corridor review
 
 Adds the lava corridor, two fish poses and small fish forms. Reuses the approved cave, brown terrain, carved steps, lava/ice and boot art on the pause menu. Completes Breaker charge, release and travelling effects for horizontal and upward casts. Native gameplay and sound remain unchanged. Later Level 3 scenery and the boss remain unfinished.

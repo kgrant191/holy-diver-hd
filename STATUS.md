@@ -2,7 +2,13 @@
 
 Updated: 2026-10-25 (America/New_York).
 
-## Current review — 0.12.0, feature/level3-lava
+## Current review — 0.12.1, feature/level3-lava
+
+The user clarified that the fish looked blurry/glitchy during movement, not in still artwork. No sharpening or new design is applied. Independent per-frame adaptive color reduction made all 227 visible pixels in the small fish's two poses change; only the fin should move. Reuse the first pose's palette and exact pixels wherever its scaled source is static. Both large-fish poses and the first small-fish pose remain exact. Existing atlas slots are preserved, so hires.txt and all other runtime mappings stay byte-identical to 0.12.0.
+
+Consecutive-frame investigation also identifies the large fish's blink after impact in native OAM: eight cells alternate with none. That native hit blink is preserved. The report does not establish that every perceived motion artifact on the user's display has been reproduced. See docs/FISH_MOTION.md and evidence/fish_motion/. The full 3,705-frame stride-one pair passes: 562 images change only inside the small alternate pose, 3142 valid images remain exact, and native memory/APU/full PCM match. This candidate remains unapproved and unpublished; approved continuation baseline is 0.11.2 and main stays 0.10.2.
+
+## Previous review — 0.12.0, feature/level3-lava
 
 Implements the next supplied recording: the Start/pause-menu boot now uses the approved collectible, the complete recorded lava corridor reuses approved cave/brown terrain/carved steps, large and small fish receive two painted poses each, and hot/frozen lava uses exact existing atlas cells. Breaker now has all 21 native charge/release/flight identities, including upward release/bolts, both directions and both observed spell palettes. Source-identical copies in twelve banks share the replacements; only the recorded bank has fresh live coverage.
 

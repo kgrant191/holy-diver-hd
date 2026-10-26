@@ -21,6 +21,9 @@ def obj(path):
 def cell(t,pal,im,kind,sc=''):
  assert im.size==(16,16)
  key=hashlib.sha256(im.tobytes()).hexdigest()
+ # Preserve the existing atlas slots even when the repaired small-fish head
+ # now duplicates the first pose. Later scenery/spell cells must not move.
+ if kind=='fish_small_1':key+=f'/{t:04X}'
  if key not in cache:
   n=len(cache);xy=(n%32*16,n//32*16);assert xy[1]<512;cache[key]=xy;atlas.paste(im,xy)
  x,y=cache[key];rules.append(('['+sc+']'if sc else '')+f'<tile>43,{t:04X},{pal},{x},{y},1,N')
@@ -54,8 +57,18 @@ for t,y in [(0x6e5,16),(0x6e6,32)]:cell(t,'FF301627',alt.crop((32,y,48,y+16)),'f
 poses.append(dict(name='fish_1',rows=[[None,0x6dd,0x6de],[0x6df,0x6e0,0x6e5],[0x6e2,0x6e3,0x6e6]],palettes=['FF301627'],size=[48,48]))
 # Small native forms face right before OAM mirroring; the large fish faces left.
 # Keep their moving head aligned with the measured native travel direction.
-for i,src in enumerate([fish,alt]):
- small=Image.new('RGBA',(32,16));small.paste(reg(src.transpose(Image.Transpose.FLIP_LEFT_RIGHT),(30,14)),(1,1));sprite(f'fish_small_{i}',small,[[0x6ef+i*2,0x6f0+i*2]],['FF301627'])
+small_raw=[src.transpose(Image.Transpose.FLIP_LEFT_RIGHT).resize((30,14),Image.Resampling.LANCZOS)for src in [fish,alt]]
+# Keep the reviewed first pose exact. Independent adaptive palettes made every
+# visible pixel in the second pose change, including the stationary head/body.
+# Reuse the first pose's palette and exact pixels wherever the source is static.
+small_base=reg(fish.transpose(Image.Transpose.FLIP_LEFT_RIGHT),(30,14))
+small_palette=small_raw[0].convert('RGB').quantize(colors=64)
+small_alt=small_raw[1].convert('RGB').quantize(palette=small_palette,dither=Image.Dither.NONE).convert('RGBA')
+small_alt.putalpha(small_raw[1].getchannel('A').point(lambda v:255 if v>=128 else 0))
+stable=np.all(np.array(small_raw[0])==np.array(small_raw[1]),axis=2)
+small_pixels=np.array(small_alt);small_pixels[stable]=np.array(small_base)[stable]
+for i,src in enumerate([small_base,Image.fromarray(small_pixels)]):
+ small=Image.new('RGBA',(32,16));small.paste(src,(1,1));sprite(f'fish_small_{i}',small,[[0x6ef+i*2,0x6f0+i*2]],['FF301627'])
 # Native Breaker uses three horizontal phases plus distinct upward identities.
 source=Image.open(r/'art/generated/level3_breaker_generated.png').convert('RGBA');a=np.array(source)
 xs=np.flatnonzero(np.any(a[:,:,3]>=128,axis=0));groups=np.split(xs,np.flatnonzero(np.diff(xs)>source.width*.02)+1);assert len(groups)==3

@@ -2,7 +2,13 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
-## Current Level 3 lava review — 0.12.0
+## Current fish motion review — 0.12.1
+
+- The user clarified motion blur/glitching, not a request to sharpen or redesign the fish. Preserve original generated art, both large poses and the first small pose. The small alternate pose now shares the base palette and static head/body pixels. Keep reserved atlas slots so all existing mappings stay exact.
+- Native large-fish hit blinking is present in OAM and must remain. Do not describe generic alternate-frame flicker as an HD mapping bug. Capture consecutive frames for motion defects; stride two cannot reveal every alternating phase.
+- See docs/FISH_MOTION.md and evidence/fish_motion/. 0.12.1 is unapproved, based on review 0.12.0; 0.11.2 remains the approved continuation baseline. Main is 0.10.2.
+
+## Previous Level 3 lava review — 0.12.0
 
 - Work is on `feature/level3-lava`, based on approved `feature/level3-opening` at 9eb0678. The new corridor, menu boot, fish and Breaker casts are a review candidate, not approved. Preserve the frozen 0.11.2 manifest; main remains 0.10.2. See docs/LEVEL3_LAVA.md.
 - Lava room scenery is limited to RAM mode 10 / room 9AA6 and exact hot/ice palette guards. Menu boots are background IDs 0971–0974; reuse the approved collectible art. Small unflipped fish point right; native OAM mirroring makes the left-moving form face left.
