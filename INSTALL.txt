@@ -1,3 +1,9 @@
+Holy Diver HD 0.15.0 — Poison Moss Land finale review
+
+Completes the two newly recorded screens: the final green climb and the boss arena. Reuses approved moss scenery and returning actors. Adds the pink boss head, thorny growths, curved shots, Overdrive orb and spell announcement. Restores shared HD Randy/HUD in the boss bank and next-stage arrival, and applies the existing Golden Temple stage card to its native palette.
+
+Native movement, collision, combat, destruction, defeat flashes and audio remain unchanged. Approved 0.14.0 art and mappings are preserved. Stage 4 scenery remains unfinished. This is a review candidate; no merge or release is implied.
+
 Holy Diver HD 0.14.0 — Poison Moss Land visual review
 
 Gives the completed Level 3 rooms a distinct green identity: a misty moss forest, overgrown Gothic ruins, emerald masonry, moss-covered ledges and sage stone steps. All existing platform/ceiling contours, oak trunks/branches, enemies, fish corrections, lava/ice and native gameplay/audio are retained.

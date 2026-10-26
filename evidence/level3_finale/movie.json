@@ -1,0 +1,133 @@
+{
+  "version": "0.15.0",
+  "movie_sha256": "32f2d9617ca290845983ab67918a8f0f9ed312ee7cd5a4ec5881ff51d299db42",
+  "movie_frames": 4812,
+  "capture_stride": 2,
+  "paired_native_samples_per_type": 2406,
+  "identical_apu_writes": 13981,
+  "identical_pcm_bytes": 15379208,
+  "counts": {
+    "exact_images": 170,
+    "exact_prior_room_or_pause": 95,
+    "exact_blackouts": 73,
+    "changed_images": 2236,
+    "Stage4_sprite_only_images": 19
+  },
+  "rooms": {
+    "9DEE": 77,
+    "FFFF": 19,
+    "9F1A": 618,
+    "9F92": 1478,
+    "0000": 194,
+    "A865": 20
+  },
+  "source_matches": {
+    "boss_head/h0v1": 20,
+    "shot_0/h0v1": 2,
+    "shot_2/h0v1": 3,
+    "shot_2/h0v0": 17,
+    "shot_1/h0v0": 20,
+    "shot_0/h0v0": 18,
+    "boss_head/h0v0": 11,
+    "reused_round_shot": 61,
+    "shot_1/h0v1": 3,
+    "overdrive/h0v0": 12
+  },
+  "source_examples": {
+    "boss_head/h0v1": {
+      "frame": 1560,
+      "xy": [
+        94,
+        122
+      ],
+      "opaque_pixels": 3752
+    },
+    "shot_0/h0v1": {
+      "frame": 1576,
+      "xy": [
+        110,
+        122
+      ],
+      "opaque_pixels": 283
+    },
+    "shot_2/h0v1": {
+      "frame": 1584,
+      "xy": [
+        110,
+        146
+      ],
+      "opaque_pixels": 398
+    },
+    "shot_2/h0v0": {
+      "frame": 1592,
+      "xy": [
+        118,
+        116
+      ],
+      "opaque_pixels": 398
+    },
+    "shot_1/h0v0": {
+      "frame": 1600,
+      "xy": [
+        148,
+        126
+      ],
+      "opaque_pixels": 281
+    },
+    "shot_0/h0v0": {
+      "frame": 1608,
+      "xy": [
+        158,
+        168
+      ],
+      "opaque_pixels": 283
+    },
+    "boss_head/h0v0": {
+      "frame": 1760,
+      "xy": [
+        346,
+        226
+      ],
+      "opaque_pixels": 3752
+    },
+    "reused_round_shot": {
+      "frame": 1904,
+      "xy": [
+        118,
+        122
+      ],
+      "opaque_pixels": 97
+    },
+    "shot_1/h0v1": {
+      "frame": 2136,
+      "xy": [
+        122,
+        134
+      ],
+      "opaque_pixels": 281
+    },
+    "overdrive/h0v0": {
+      "frame": 4208,
+      "xy": [
+        240,
+        256
+      ],
+      "opaque_pixels": 527
+    }
+  },
+  "cards": {
+    "Overdrive": {
+      "frame": 4400,
+      "exact_source_pixels": 183808
+    },
+    "Stage4": {
+      "frame": 4600,
+      "exact_source_pixels": 188416
+    }
+  },
+  "preserved_native_flash_colors": {
+    "108,6,0": 184,
+    "192,223,255": 7
+  },
+  "native_gameplay_unchanged": true
+}

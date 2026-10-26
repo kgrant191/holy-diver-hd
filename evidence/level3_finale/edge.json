@@ -1,0 +1,22 @@
+{
+  "version": "0.15.0",
+  "movie_sha256": "fce6ebf78a684fd05631d6206a281c8a08166f697fe6a90e269cf9e9d11f0483",
+  "movie_frames": 1740,
+  "capture_stride": 1,
+  "paired_native_samples_per_type": 511,
+  "identical_apu_writes": 4109,
+  "identical_pcm_bytes": 5564972,
+  "counts": {
+    "changed_images": 449,
+    "exact_images": 62,
+    "exact_blackouts": 62
+  },
+  "rooms": {
+    "9F1A": 511
+  },
+  "source_matches": {},
+  "source_examples": {},
+  "cards": {},
+  "preserved_native_flash_colors": {},
+  "native_gameplay_unchanged": true
+}

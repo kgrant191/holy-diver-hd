@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "frame": 4356,
+      "oam_frame": 4354,
+      "hd_offset": [
+        2,
+        2
+      ],
+      "palette": "FF200F26",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4358,
+      "oam_frame": 4356,
+      "hd_offset": [
+        2,
+        4
+      ],
+      "palette": "FF200F26",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4360,
+      "oam_frame": 4358,
+      "hd_offset": [
+        2,
+        4
+      ],
+      "palette": "FF200F26",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4362,
+      "oam_frame": 4362,
+      "hd_offset": [
+        -2,
+        -4
+      ],
+      "palette": "FF100F16",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4364,
+      "oam_frame": 4362,
+      "hd_offset": [
+        2,
+        6
+      ],
+      "palette": "FF100F16",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4366,
+      "oam_frame": 4364,
+      "hd_offset": [
+        2,
+        4
+      ],
+      "palette": "FF100F16",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4368,
+      "oam_frame": 4366,
+      "hd_offset": [
+        2,
+        6
+      ],
+      "palette": "FF100F16",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4370,
+      "oam_frame": 4370,
+      "hd_offset": [
+        -2,
+        -6
+      ],
+      "palette": "FF000F06",
+      "source_pixels": 1416,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4372,
+      "oam_frame": 4372,
+      "hd_offset": [
+        -2,
+        -6
+      ],
+      "palette": "FF000F06",
+      "source_pixels": 1346,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4374,
+      "oam_frame": 4372,
+      "hd_offset": [
+        2,
+        6
+      ],
+      "palette": "FF000F06",
+      "source_pixels": 1346,
+      "maximum_rgb_error": 1
+    },
+    {
+      "frame": 4376,
+      "oam_frame": 4374,
+      "hd_offset": [
+        2,
+        -4
+      ],
+      "palette": "FF000F06",
+      "source_pixels": 1346,
+      "maximum_rgb_error": 1
+    }
+  ]
+}

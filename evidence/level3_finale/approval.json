@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-26",
+  "timezone": "America/New_York",
+  "user_statement": "approved.  lets PR and merge it all so we can move on to level 4",
+  "push_confirmation": "pushed",
+  "approved_version": "0.15.0",
+  "approved_commit": "1710edc9d6d1fb78ade9af05cd9286b293e811c2",
+  "approved_branches": {
+    "feature/level3-opening": "9eb0678f0ba3ee9aed9d19481c6eacb5f89fdd58",
+    "feature/level3-lava": "fb1fb4d35b73711cbf6a8f82682322eb21941234",
+    "feature/level3-caves": "06a53b9326b0f39f36eec3e95180381647257672",
+    "feature/poison-moss-land": "d18f0589ba5b5becd5dd6c766c72eaac48dc1c5b",
+    "feature/level3-finale": "1710edc9d6d1fb78ade9af05cd9286b293e811c2"
+  },
+  "runtime_hashes": "evidence/0.15.0-pack-sha256.json",
+  "installed_files": 106,
+  "all_reviewed_pack_bytes_preserved": true,
+  "install_zip_sha256": "4ee841c025e28c236a605f20959d3c57a1e8d2383e8e4de0253f7139d73fedf0",
+  "approval_bookkeeping": "Source documentation only; installed README remains frozen.",
+  "next_area": "Level 4 Golden Temple",
+  "release_tag_requested": false
+}
