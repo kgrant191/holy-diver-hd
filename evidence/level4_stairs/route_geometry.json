@@ -1,0 +1,120 @@
+{
+  "controller_only": true,
+  "rows": [
+    {
+      "frame": 30,
+      "world_anchor_x": 474,
+      "player_y": 112,
+      "room": "AA09"
+    },
+    {
+      "frame": 80,
+      "world_anchor_x": 429,
+      "player_y": 71,
+      "room": "AA09"
+    },
+    {
+      "frame": 100,
+      "world_anchor_x": 409,
+      "player_y": 47,
+      "room": "AA09"
+    },
+    {
+      "frame": 110,
+      "world_anchor_x": 400,
+      "player_y": 48,
+      "room": "AA09"
+    },
+    {
+      "frame": 120,
+      "world_anchor_x": 390,
+      "player_y": 48,
+      "room": "AA09"
+    },
+    {
+      "frame": 130,
+      "world_anchor_x": 390,
+      "player_y": 48,
+      "room": "AA09"
+    },
+    {
+      "frame": 140,
+      "world_anchor_x": 390,
+      "player_y": 48,
+      "room": "AA09"
+    },
+    {
+      "frame": 150,
+      "world_anchor_x": 388,
+      "player_y": 29,
+      "room": "AA81"
+    },
+    {
+      "frame": 160,
+      "world_anchor_x": 383,
+      "player_y": 180,
+      "room": "AA81"
+    },
+    {
+      "frame": 200,
+      "world_anchor_x": 359,
+      "player_y": 192,
+      "room": "AA81"
+    },
+    {
+      "frame": 280,
+      "world_anchor_x": 397,
+      "player_y": 49,
+      "room": "AA09"
+    },
+    {
+      "frame": 290,
+      "world_anchor_x": 406,
+      "player_y": 48,
+      "room": "AA09"
+    },
+    {
+      "frame": 300,
+      "world_anchor_x": 416,
+      "player_y": 52,
+      "room": "AA09"
+    },
+    {
+      "frame": 310,
+      "world_anchor_x": 426,
+      "player_y": 68,
+      "room": "AA09"
+    },
+    {
+      "frame": 320,
+      "world_anchor_x": 435,
+      "player_y": 80,
+      "room": "AA09"
+    },
+    {
+      "frame": 330,
+      "world_anchor_x": 445,
+      "player_y": 81,
+      "room": "AA09"
+    },
+    {
+      "frame": 340,
+      "world_anchor_x": 455,
+      "player_y": 94,
+      "room": "AA09"
+    },
+    {
+      "frame": 350,
+      "world_anchor_x": 464,
+      "player_y": 112,
+      "room": "AA09"
+    },
+    {
+      "frame": 358,
+      "world_anchor_x": 464,
+      "player_y": 112,
+      "room": "AA09"
+    }
+  ],
+  "notes": "Native coordinates are paired byte-exact before/after. Visual inspection includes the supplied landing, the upper stair landing at frame120 and descending contact at frame320. The jump route enters AA81, falls back to AA09 and returns to the lower landing."
+}

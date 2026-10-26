@@ -1,5 +1,11 @@
 # Holy Diver HD working instructions
 
+## Current stair repair — Golden Temple 0.16.3
+
+- The supplied 20261026-181741 state proves 0B7C–0B7F are descending stairs, not decoration. build_level4_stairs.py overrides the erroneous clear rules with 24 room/palette mappings. Preserve their native top surface and joined sloped underside. Do not apply the historical scenery classification to these cells.
+- Reuse existing stone RGB; preserve every 0.16.2 asset and its neighbor bounds/pickup fixes. The additional atlas is index49. Opposite-facing 0B80–0B87 remain exact.
+- Require paired save-state movement and full-movie checks through verify_level4_stairs.py, with native state/full audio equality and stair-only image differences. See docs/LEVEL4_STAIRS.md. Candidate is unapproved on feature/golden-temple; main remains 0.15.0.
+
 ## Current repair — Golden Temple 0.16.2
 
 - The user reports old small drops outdoors and a crash entering the temple. The diagnostic catches a stock Mesen tileNearby read at index61440 (one past the screen) on entry. Do not call the earlier successful uninstrumented replay proof of memory safety.

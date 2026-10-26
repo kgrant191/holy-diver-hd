@@ -1,0 +1,194 @@
+{
+  "movie_frames": 8668,
+  "native_samples_per_type": 2168,
+  "movie_sha256": "f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca",
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 27698116,
+  "pcm_sha256": "ae449541f642034e4f4b9240542ca0497b0b0a0eb4db005a85e2b7b282a377ab",
+  "apu_sha256": "4589c0c235f4df356084b9e1e52f42df2ca0e6a6b6d27e719540e127f9f1f2b5",
+  "image_checks": {
+    "identical": 1611,
+    "native_black": 40,
+    "stair_only": 557
+  },
+  "changes_confined_to_stair_cells": true,
+  "complete_step_source_matches": 274,
+  "examples": [
+    {
+      "frame": 5720,
+      "positions": [
+        [
+          470,
+          64
+        ]
+      ]
+    },
+    {
+      "frame": 5740,
+      "positions": [
+        [
+          430,
+          64
+        ],
+        [
+          462,
+          96
+        ]
+      ]
+    },
+    {
+      "frame": 5760,
+      "positions": [
+        [
+          392,
+          64
+        ],
+        [
+          424,
+          96
+        ],
+        [
+          456,
+          128
+        ]
+      ]
+    },
+    {
+      "frame": 5780,
+      "positions": [
+        [
+          406,
+          64
+        ],
+        [
+          438,
+          96
+        ],
+        [
+          470,
+          128
+        ]
+      ]
+    },
+    {
+      "frame": 5800,
+      "positions": [
+        [
+          390,
+          64
+        ],
+        [
+          422,
+          96
+        ],
+        [
+          454,
+          128
+        ]
+      ]
+    },
+    {
+      "frame": 5820,
+      "positions": [
+        [
+          350,
+          64
+        ],
+        [
+          382,
+          96
+        ],
+        [
+          414,
+          128
+        ],
+        [
+          446,
+          160
+        ],
+        [
+          478,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 5840,
+      "positions": [
+        [
+          384,
+          64
+        ],
+        [
+          416,
+          96
+        ],
+        [
+          448,
+          128
+        ],
+        [
+          480,
+          160
+        ]
+      ]
+    },
+    {
+      "frame": 5860,
+      "positions": [
+        [
+          392,
+          64
+        ],
+        [
+          424,
+          96
+        ],
+        [
+          456,
+          128
+        ]
+      ]
+    },
+    {
+      "frame": 5880,
+      "positions": [
+        [
+          352,
+          64
+        ],
+        [
+          416,
+          128
+        ],
+        [
+          448,
+          160
+        ],
+        [
+          480,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 5900,
+      "positions": [
+        [
+          312,
+          64
+        ],
+        [
+          376,
+          128
+        ],
+        [
+          440,
+          192
+        ]
+      ]
+    }
+  ]
+}

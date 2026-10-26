@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Golden Temple stairs — 0.16.3 review.** Restores the stair flight incorrectly cleared as decoration, using existing gold stone and its native outline. Preserves the entry-crash fix and HD item drops. [Repair and tests](docs/LEVEL4_STAIRS.md).
+
 **Golden Temple repair — 0.16.2 review.** Bounds-checks indoor pillar lookups to avoid a one-past-screen read on temple entry. Small health/magic drops reuse the finished heart/crystal art. All 0.16.1 artwork remains exact. [Diagnosis and verification](docs/LEVEL4_REPAIRS.md).
 
 **Golden Temple refinement — 0.16.1 review.** Worn beveled stone replaces the square slabs; breakable blocks have distinct cracked inset faces; indoor supports have carved capitals and continuous fluted shafts. Preserves the backgrounds and outdoor pillars the user liked. [Revision and verification](docs/LEVEL4_MASONRY.md).
@@ -86,7 +88,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.16.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.16.3.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

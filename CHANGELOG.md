@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.16.3 — 2026-10-26 (Golden Temple stair visibility)
+
+- Restore the descending 0B7C–0B7F stair family mistakenly cleared as background decoration. Reuse the existing gold stone within the joined native step silhouette.
+- Preserve the entry-crash repair, HD item drops, all earlier artwork and native gameplay/audio.
+- Add supplied-state climb/descent and full-recording regression checks plus an actual before/after preview. Awaiting review.
+
 ## 0.16.2 — 2026-10-26 (Golden Temple crash and pickups)
 
 - Guard indoor pillar neighbor lookups against the screen edge, avoiding the stock Mesen one-past-screen read reproduced on entry. Preserve rendering through explicit off-screen alternatives.

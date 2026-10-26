@@ -33,7 +33,7 @@
   "Stage3_Review_Tiles_2x.png": "5afa677e4dd2c842608b60c4063a46a93af85e484b49dce53502f6d51d0102ea",
   "Overdrive_Acquired.png": "1a3f82c408af6041600dd329fae1be72b8db522369e779de817c1763fc7a8b0d",
   "Lives_Lives_9.png": "68519f7d8fed39b916627ddd8748800dd3aca1a8a45630aeb4a934d7f16d618d",
-  "README.txt": "8beb7b379ac28061bb16af9b520674441dec3f74fe384e7a397b869c70fae8c0",
+  "README.txt": "1fffb228c2b9682fa8830a6acb0236b3c313aec7472e6031b966742d94f89f83",
   "Lives_Lives_8.png": "457b904aa3f6b196c763b7b6a2a12d58843f9d63d350e86725bfa8e81d4809b7",
   "Nave_Background.png": "865db833ec3e690b8cbb48c45a03fd997aa179e91cbc3d87f6dad395a0d43dbe",
   "Chr_0E_0.png": "3435ff37dcb0717e14d27ebac4c1dc2eb30caf86ee8783430d8a4048ca4bf48e",
@@ -42,7 +42,7 @@
   "Chr_0F_6.png": "f076e097ca6656de94ca690a885ed71b2df32dd6bf7fa86c52e13c8d1c8870a5",
   "Golden_Temple_Exterior.png": "31c86d284a272200b5ab573e3f893fcd087424d3dca1dc2445c79913be7cd1f7",
   "Title_Lightning_1.png": "a04b6fbb2e6f4c40a6b4eada597811b6e3e27f9bdffa35beada35b53c6207cfc",
-  "hires.txt": "8f56852c078bf38f57104b18cf2709275f46e1eedf1390edf86c0d4a55ed8747",
+  "hires.txt": "2c1091f095318d9e0df64064a191070c5e3fb97e9b4e3fa898090e9865eb4994",
   "Lives_Lives_3.png": "47fd6cb833d7cd39bbe30e42862c58b72b8b01f886e3213fea56ac815eb320cc",
   "Stage3_Forest_Background.png": "a04853d7a5c1ee4e3552c2651936d2c81baa552a68d1b4fb8c9bc9fe50a51662",
   "Stage_Lives_2.png": "3f8b58c686ba82542113f492fa74acda4fa6a800fdd985a74aca0636ee503a4d",
@@ -108,5 +108,6 @@
   "Stage_Title_2.png": "ece6d226995c2b8d87787dc1521e9e5931e0d379e1817e9286e53e7044e67af3",
   "Tree_Court_Tiles_2x.png": "1fb4fe99e944ec4b110d0eb215dd00124bac17d5c4fa13ac8a9dd6334a066c44",
   "Boss_Tiles_2x.png": "081882b0fbd8ceb3c3df56be6c17e630fe88d1d3f89a9d78bd0cc6ded1a2b9c9",
-  "Chr_00_0.png": "1dbcb13f888a03b80c4ce0d1a27240ecfd2080ff721030424e825d5fd9bfd51d"
+  "Chr_00_0.png": "1dbcb13f888a03b80c4ce0d1a27240ecfd2080ff721030424e825d5fd9bfd51d",
+  "Golden_Temple_Stairs_2x.png": "085064888b02fb9e0242bb0b6a50697fad1a553af1de1c5f13f2e8200679e64b"
 }

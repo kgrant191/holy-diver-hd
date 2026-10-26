@@ -122,3 +122,7 @@ Local input `Holy_Diver_HD(4).mmo`: 7,592 frames; movie SHA-256 `facbd98578ae026
 ## Golden Temple recording — 2026-10-26
 
 Holy_Diver_HD(6).mmo: 8,668 frames, SHA-256 `f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca`. The locally attached movie embeds its starting state. Derive input-only spell/edge routes with scripts/make_level4_routes.py; their hashes and retained-state digest are in evidence/level4/routes.json. Movie/state bytes remain outside Git.
+
+## Golden Temple missing stairs — 2026-10-26
+
+`Holy_Diver_HD_1(20261026-181741).mss`: 9,478 bytes, SHA-256 `1e572fa95b436b4276051354d5fc19b409194fd5b57aabbcd05ec12b0c03ed4b`. Starts at the lower landing of the descending AA09 stair flight. Keep unchanged and outside Git. `make_level4_stair_routes.py` uses this exact state with the existing movie settings for controller-only inspection, walk and jump/return routes. See docs/LEVEL4_STAIRS.md.

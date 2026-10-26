@@ -1,5 +1,9 @@
 # Current status
 
+## Current Golden Temple stair repair — 0.16.3
+
+The user's new save identifies a missing descending stair flight in AA09. Native 0B7C–0B7F were wrongly cleared as scenery. Scoped overrides now restore them with existing gold stone and a joined native silhouette. All 108 prior assets and the 0.16.2 crash/pickup fixes stay exact. Controller-only walk/jump routes and the full recording are paired against 0.16.2; see docs/LEVEL4_STAIRS.md and evidence/level4_stairs/ for accepted results. The 111-file candidate awaits review on feature/golden-temple; main remains approved 0.15.0.
+
 ## Current Golden Temple repair — 0.16.2
 
 The user found old small drops outdoors and a crash entering the temple. A diagnostic replay catches a one-past-screen read in the pillar checks at frame4046. Position guards now prevent it while preserving column rendering. Small health/magic drops reuse the existing heart/crystal cells through proven shared-bank mappings. All 108 prior assets stay exact. The full 8,668-frame movie completes with the invalid-read observer active; all 2,168 native samples per type and full audio match. Only small-pickup pixels change; all 92 complete source matches pass. See docs/LEVEL4_REPAIRS.md and evidence/level4_repairs/. Candidate remains on feature/golden-temple; main is approved 0.15.0.

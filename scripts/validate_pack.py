@@ -31,10 +31,29 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==49
+assert len(imgs)==50
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+stairs=json.loads((root/'art/level4_stairs/registration.json').read_text())
+assert not stairs['native_gameplay_modified'] and not stairs['prior_artwork_modified']
+stair_image=Image.open(pack/'Golden_Temple_Stairs_2x.png').convert('RGBA')
+assert stair_image.size==(32,32)
+assert np.array_equal(np.array(stair_image.getchannel('A')),np.array(stairs['alpha'],dtype=np.uint8))
+source=Image.open(root/stairs['source']).convert('RGBA')
+assert np.array_equal(np.array(stair_image)[:,:,:3],np.array(source)[:,:,:3])
+for m in stairs['mappings']:
+ assert int(m['tile'],16)in range(0xb7c,0xb80) and m['rule'] in lines
+ assert lines.index(m['rule'])<lines.index(m['overridden_rule'])
+ assert m['scope'].startswith(('templeA865Mode&','templeAA09Mode&','templeAA81Mode&'))
+for section in ['IMAGES','MAPPINGS']:
+ content,n=re.subn(r'^# BEGIN TEMPLE_STAIRS '+section+r'\n.*?^# END TEMPLE_STAIRS '+section+r'\n','',content,flags=re.M|re.S);assert n==1
+previous_stairs=json.loads((root/'evidence/0.16.2-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==previous_stairs['hires.txt'],'0.16.2 mappings changed'
+for name,digest in previous_stairs.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior asset changed'
+assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Stairs_2x.png'}==set(previous_stairs)
+counts['tile']-=stairs['tile_rules']
 repairs=json.loads((root/'art/level4_repairs/registration.json').read_text())
 from verify_temple_neighbor_rules import verify as verify_neighbor_rules
 assert verify_neighbor_rules(root)['unsafe_evaluations']==0
@@ -57,7 +76,7 @@ previous_repairs=json.loads((root/'evidence/0.16.1-pack-sha256.json').read_text(
 assert hashlib.sha256(content.encode()).hexdigest()==previous_repairs['hires.txt'],'0.16.1 mapping recovery failed'
 for name,digest in previous_repairs.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior art changed'
-assert {p.name for p in pack.iterdir()if p.is_file()}==set(previous_repairs)
+assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Stairs_2x.png'}==set(previous_repairs)
 counts['tile']-=repairs['extra_tile_rules'];counts['condition']-=repairs['extra_conditions']
 masonry=json.loads((root/'art/level4_masonry/registration.json').read_text())
 counts['tile']-=masonry['tile_rules'];counts['condition']-=masonry['conditions']
@@ -68,7 +87,7 @@ previous_masonry=json.loads((root/'evidence/0.16.0-pack-sha256.json').read_text(
 assert hashlib.sha256(content.encode()).hexdigest()==previous_masonry['hires.txt'],'0.16.0 mappings changed'
 for name,digest in previous_masonry.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior art changed'
-current_files={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Masonry_2x.png'}
+current_files={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Masonry_2x.png','Golden_Temple_Stairs_2x.png'}
 assert current_files==set(previous_masonry)
 assert not masonry['backgrounds_modified'] and not masonry['outdoor_columns_modified']
 for m in masonry['mappings']:

@@ -1,5 +1,9 @@
 # Art direction
 
+## Golden Temple stair visibility — 0.16.3
+
+Restore the missing descending stair family with the exact existing gold stone RGB. Join each native four-cell silhouette before slicing; keep its standing surface and sloped underside. Preserve all prior artwork and the opposite-facing stairs. See LEVEL4_STAIRS.md.
+
 ## Golden Temple crash/pickup repair — 0.16.2
 
 No new artwork. Preserve every 0.16.1 PNG, including all masonry, columns and backgrounds. Small health/magic drops reuse the exact earlier heart and blue crystal cells. Bound neighbor checks without changing intended off-screen column ends. See LEVEL4_REPAIRS.md.

@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Golden Temple stairs — 0.16.3
+
+Use the unchanged 20261026-181741 save with make_level4_stair_routes.py. Pair its walk, jump and slow-edge routes at stride one, plus the full original movie at stride four, through verify_level4_stairs.py. Require exact native state/full PCM/APU, stair-only pixel changes and complete step-source matches. Inspect the supplied landing, upper contact, descent, room wrap, left stop and right walk-off. Retain the invalid-neighbor observer. See LEVEL4_STAIRS.md for coverage and excluded investigation attempts.
+
 ## Golden Temple entry and drops — 0.16.2
 
 Run the exhaustive column-neighbor bounds/truth-table check through validate_pack.py. Replay the unchanged full movie with check_hd_neighbor_bounds.cpp observing the stock core, then pair it against retained 0.16.1 with verify_level4_repairs.py. Require exact native state/full audio, all non-pickup pixels unchanged, and complete heart/crystal source matches. The earlier uninstrumented success did not establish neighbor-read safety. See LEVEL4_REPAIRS.md for the reproduced invalid read, tooling limits and exact coverage.

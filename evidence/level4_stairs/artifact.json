@@ -1,0 +1,17 @@
+{
+  "version": "0.16.3",
+  "files": 111,
+  "flat_layout": true,
+  "crc_valid": true,
+  "all_hashes_match": true,
+  "new_files": [
+    "Golden_Temple_Stairs_2x.png"
+  ],
+  "changed_files": [
+    "hires.txt",
+    "README.txt"
+  ],
+  "preserved_assets": 108,
+  "zip_bytes": 21417007,
+  "zip_sha256": "63f623bf027122ceeeb2702db73d277db9411430188ea46c7d31c5aa026e6acc"
+}
