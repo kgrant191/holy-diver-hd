@@ -216,3 +216,16 @@ See [BOSS2_REVIEW.md](BOSS2_REVIEW.md). The new gold-defeat save is captured eve
 ## Randy during Breaker pickup (approved 0.10.2)
 
 See [BREAKER_RANDY.md](BREAKER_RANDY.md). Capture the supplied defeat state every frame; pair the earlier victory and combat/pose routes as regression. Verify native RAM/PPU/OAM/view and APU/PCM, changed pixels confined to Randy, and visible HD sprite pixels through every final fade phase. The native orbiting effects can occlude part of the source; report the tested pixel count. Preserve every earlier installed image exactly.
+
+## Level 3 movie workflow (0.11.0 review candidate)
+
+See [LEVEL3_OPENING.md](LEVEL3_OPENING.md) for standard `.mmo` replay with its embedded starting state, exact native-core/header versions, synchronized screenshot observer, full paired memory/audio checks, and input-only edge routes. This replaces the need for separate user states for the captured route. Never claim a whole-level or boss test from this opening/corridor recording.
+
+## Level 3 review corrections (0.11.1)
+
+Run the unchanged movie through the synchronized native-core harness, then `verify_level3_review.py` against the retained 0.11.0 capture. Require every new sprite pose, exact native state/audio, unchanged old assets, changes confined to requested artwork and agreement between the wood masks and native cells. Check the top of the climb and forest doorway during motion. Commands and coverage: `LEVEL3_REVIEW.md`.
+
+
+## Level 3 round shot, branches and collectible boot (0.11.2)
+
+Use the unchanged embedded-state movie and synchronized native-core runner. Compare against the retained final 0.11.1 movie with verify_level3_details.py. Require exact native RAM/PPU/OAM/view, APU and complete PCM; changed pixels must stay within the actual shot, collectible and branch masks. Require complete boot/shot source matches and actual unoccluded branch source pixels. Static validation preserves every branch alpha mask and all previous runtime assets. Controller-only derivatives start on the lowest branch, move to its left support edge, pause, then walk slowly right across the full supported span and off the right collision edge. The trunk is a backdrop here, so do not assume it blocks movement. See LEVEL3_DETAILS.md for measurements.

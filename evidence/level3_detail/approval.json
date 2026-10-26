@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "user_statement": "approved",
+  "approved_version": "0.11.2",
+  "approved_commit": "2af047e1d9dd50175c6004433fa230139b907a50",
+  "branch": "feature/level3-opening",
+  "main_version": "0.10.2",
+  "main_merge_pending": true,
+  "runtime_hashes": "evidence/0.11.2-pack-sha256.json",
+  "installed_files": 99,
+  "all_reviewed_pack_bytes_preserved": true,
+  "install_zip_sha256": "49ad7cc8365627aab374ddfa55b1eee14d6b0ebf7d46d49f00c03d03462b4f90",
+  "scope": "Level 3 opening and final review artwork, including the actual round projectile, solid oak branches and boot collectible.",
+  "source_only_approval_record": true
+}

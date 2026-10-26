@@ -1,0 +1,118 @@
+{
+  "baseline": "0.11.1",
+  "candidate": "0.11.2",
+  "movie_frames": 1796,
+  "paired_native_samples_per_type": 173,
+  "apu_write_count": 4630,
+  "apu_sha256": "428ecca442873a98b4c8bc254807c96a995ab6f58980d90e752532472bc342e3",
+  "identical_pcm_bytes": 5743876,
+  "pcm_sha256": "7190d46866ff134c7d78afe6977fd5bb838d60a492d97b6b843a934411f3d65d",
+  "movie_sha256": "ff6dbfd8f5e038176e5d69f631019ead71ce032144d1eaf08aeff1be79d58d3d",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "controller_only": true,
+  "ram_writes": false,
+  "pack_files": 99,
+  "unchanged_prior_runtime_files": 96,
+  "counts": {
+    "changed_images": 173
+  },
+  "sprite_matches": {},
+  "sprite_examples": {},
+  "branch_source_checks": [
+    {
+      "frame": 1632,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5112
+    },
+    {
+      "frame": 1648,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4876
+    },
+    {
+      "frame": 1664,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5120
+    },
+    {
+      "frame": 1680,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5120
+    },
+    {
+      "frame": 1696,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4904
+    },
+    {
+      "frame": 1712,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4880
+    },
+    {
+      "frame": 1728,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5232
+    },
+    {
+      "frame": 1744,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5592
+    },
+    {
+      "frame": 1760,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5700
+    },
+    {
+      "frame": 1776,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5700
+    },
+    {
+      "frame": 1792,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5700
+    }
+  ],
+  "limits": [
+    "Earlier levels and boss are not replayed afresh.",
+    "Original branch alpha contours remain exact; native collision and all gameplay are unchanged."
+  ],
+  "branch_walk": {
+    "left_stop_frames": [
+      1665,
+      1676
+    ],
+    "left_stop_position": [
+      90,
+      368
+    ],
+    "slow_right_walk_frames": [
+      1677,
+      1740
+    ],
+    "grounded_x_range": [
+      90,
+      137
+    ],
+    "grounded_y": 368,
+    "first_fall_frame": 1741,
+    "first_fall_position": [
+      138,
+      369
+    ]
+  }
+}

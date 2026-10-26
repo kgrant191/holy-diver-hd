@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.11.2 — 2026-10-25 (approved)
+
+- Record user approval of the delivered build; preserve all 99 installed bytes and the exact ZIP. Source publication and merge remain pending.
+- Map the actual round enemy shot at 0694/FF301116 to the approved small fireball. Correct the earlier identification in the working notes.
+- Paint the magenta boot collectible with an ivory cuff and brass buckle; register its four native cells as one sprite. Randy’s artwork is unchanged.
+- Replace split branch strips with coherent two-row oak bodies, preserving all nine native alpha contours, platform boundaries and gameplay.
+- Add a single atlas while preserving all 96 prior non-mapping/non-README installation files. Native movie checks and a controller-only branch-edge route accompany the candidate.
+
+## 0.11.1 — Level 3 review corrections
+
+- Create the three-phase crimson spinning blade-ring enemy.
+- Correct the golden creature's two projectile frames using the approved fireball source.
+- Replace the tiny bat-like flyer with an insect and cover both observed ordinary palettes.
+- Replace repeating bark strips with continuous shaded wood surfaces following the native geometry.
+- Preserve all previous artwork bytes, native gameplay and sound; add scoped movie/pixel/wood-mask verification.
+
+## 0.11.0 — Level 3 opening (review candidate, 2026-10-25)
+
+- Add the forest approach, wide-tree climb and stone shaft, registered to native terrain and room boundaries.
+- Add ember-creature and small crimson flyer animation frames; share approved Randy, HUD, eyes/tears, ceiling bats, weapons, lava and ice through verified native identities.
+- Preserve every previous artwork/audio-patch file and exact prior mapping blocks.
+- Add reproducible Mesen movie playback, paired native state/audio verification and synchronized HD screenshot capture; derive edge tests by controller-input changes only.
+- Later Level 3 scenery and the boss remain unfinished. No release, approval, push or merge is implied.
+
+
 ## 0.10.2 — Randy during Breaker pickup (approved 2026-10-24)
 
 - Approve and merge PR #12 into main after explicit user authorization; preserve all 93 reviewed installation bytes.

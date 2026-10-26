@@ -1,0 +1,505 @@
+{
+  "baseline": "0.11.0",
+  "candidate": "0.11.1",
+  "movie_frames": 6883,
+  "paired_native_samples_per_type": 1721,
+  "apu_write_count": 15528,
+  "apu_sha256": "66a5becdb775c3e87e8e7c09435d25c3b568482cfafeac0bcc8f74dcc48ec79f",
+  "identical_pcm_bytes": 21995512,
+  "pcm_sha256": "32ca1a4481f0affd9fb3c753015702edc302ce947ea4b99144dfcb5eac66a517",
+  "movie_sha256": "c6c3f99a7204f5052c1758ef44ffb4387d2ebc5a8534127a0ddde60ccfde74cd",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "controller_only": true,
+  "ram_writes": false,
+  "pack_files": 98,
+  "unchanged_prior_runtime_files": 93,
+  "counts": {
+    "exact_images": 1251,
+    "exact_black_images": 52,
+    "changed_images": 470,
+    "exact_wood_geometry_images": 231,
+    "exact_pause_images": 101
+  },
+  "sprite_matches": {
+    "ember_shot_0/native": 10,
+    "ember_shot_1/native": 11,
+    "spinner_2/native": 55,
+    "spinner_0/native": 56,
+    "spinner_1/native": 38,
+    "insect_1/native": 202,
+    "insect_0/native": 233
+  },
+  "sprite_examples": {
+    "ember_shot_0/native": {
+      "frame": 248,
+      "box": [
+        362,
+        272,
+        394,
+        288
+      ]
+    },
+    "ember_shot_1/native": {
+      "frame": 256,
+      "box": [
+        346,
+        272,
+        378,
+        288
+      ]
+    },
+    "spinner_2/native": {
+      "frame": 544,
+      "box": [
+        462,
+        208,
+        510,
+        256
+      ]
+    },
+    "spinner_0/native": {
+      "frame": 548,
+      "box": [
+        452,
+        230,
+        500,
+        278
+      ]
+    },
+    "spinner_1/native": {
+      "frame": 552,
+      "box": [
+        450,
+        216,
+        498,
+        264
+      ]
+    },
+    "insect_1/native": {
+      "frame": 916,
+      "box": [
+        476,
+        208,
+        508,
+        240
+      ]
+    },
+    "insect_0/native": {
+      "frame": 924,
+      "box": [
+        460,
+        208,
+        492,
+        240
+      ]
+    }
+  },
+  "missing_templates": [],
+  "wood_source_checks": [
+    {
+      "frame": 992,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 6128
+    },
+    {
+      "frame": 1008,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 14304
+    },
+    {
+      "frame": 1024,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 21964
+    },
+    {
+      "frame": 1040,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 24504
+    },
+    {
+      "frame": 1056,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 30088
+    },
+    {
+      "frame": 1072,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 38260
+    },
+    {
+      "frame": 1088,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 42044
+    },
+    {
+      "frame": 1104,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 45928
+    },
+    {
+      "frame": 1120,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 46960
+    },
+    {
+      "frame": 1136,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 51780
+    },
+    {
+      "frame": 1152,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 55984
+    },
+    {
+      "frame": 1168,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 60608
+    },
+    {
+      "frame": 1184,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 64724
+    },
+    {
+      "frame": 1200,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": -1,
+      "pixels": 71800
+    },
+    {
+      "frame": 1216,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 78608
+    },
+    {
+      "frame": 1232,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 78864
+    },
+    {
+      "frame": 1312,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 81676
+    },
+    {
+      "frame": 1328,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 81676
+    },
+    {
+      "frame": 1344,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 81676
+    },
+    {
+      "frame": 1360,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 80500
+    },
+    {
+      "frame": 1376,
+      "room": "forest",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 74144
+    },
+    {
+      "frame": 1408,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 85136
+    },
+    {
+      "frame": 1424,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 82696
+    },
+    {
+      "frame": 1440,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 82440
+    },
+    {
+      "frame": 1456,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 83704
+    },
+    {
+      "frame": 1472,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 84976
+    },
+    {
+      "frame": 1488,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 85008
+    },
+    {
+      "frame": 1504,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 85008
+    },
+    {
+      "frame": 1520,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 85008
+    },
+    {
+      "frame": 1536,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 84896
+    },
+    {
+      "frame": 1552,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 84532
+    },
+    {
+      "frame": 1568,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 85584
+    },
+    {
+      "frame": 1584,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 85584
+    },
+    {
+      "frame": 1600,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 85412
+    },
+    {
+      "frame": 1616,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 83848
+    },
+    {
+      "frame": 1632,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 80992
+    },
+    {
+      "frame": 1648,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 80440
+    },
+    {
+      "frame": 1664,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 80192
+    },
+    {
+      "frame": 1680,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 3,
+      "pixels": 79344
+    },
+    {
+      "frame": 1696,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 96624
+    },
+    {
+      "frame": 1712,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 96592
+    },
+    {
+      "frame": 1728,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 2,
+      "pixels": 97280
+    },
+    {
+      "frame": 1744,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 95744
+    },
+    {
+      "frame": 1760,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 2,
+      "pixels": 84704
+    },
+    {
+      "frame": 1776,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 1,
+      "pixels": 80144
+    },
+    {
+      "frame": 1792,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 78112
+    },
+    {
+      "frame": 1808,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 1,
+      "pixels": 69008
+    },
+    {
+      "frame": 1824,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 68992
+    },
+    {
+      "frame": 1840,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 3,
+      "pixels": 66036
+    },
+    {
+      "frame": 1856,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 1,
+      "pixels": 58464
+    },
+    {
+      "frame": 1872,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 58272
+    },
+    {
+      "frame": 1888,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 2,
+      "pixels": 54440
+    },
+    {
+      "frame": 1904,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 53640
+    },
+    {
+      "frame": 1920,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 52188
+    },
+    {
+      "frame": 1936,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 51680
+    },
+    {
+      "frame": 1952,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 51412
+    },
+    {
+      "frame": 1968,
+      "room": "tree",
+      "match_fraction": 1.0,
+      "camera_delta": 0,
+      "pixels": 51504
+    }
+  ],
+  "wood_geometry_errors": [],
+  "limits": [
+    "Supplied route covers the three opening rooms and following corridor; no boss coverage.",
+    "Earlier levels retain exact assets and mapping bytes; not replayed afresh."
+  ]
+}

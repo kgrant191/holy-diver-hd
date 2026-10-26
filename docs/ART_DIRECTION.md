@@ -91,3 +91,16 @@ The boss is a small left-facing demonic skull joined to a much larger violet org
 Reuse the accepted brown rock texture and crimson panorama. The new room has different native contour cells, so register that same texture inside their shapes. The boss fireballs reuse the first boss's finished source. Breaker is a crimson leather/brass tome with a bright fracture rune, and its announcement uses the existing intermission design. All prompts and image-generation inputs are under `art/generated/boss2_*`; registered assets and native references are under `art/boss2/`.
 
 The 0.10.1 repair retains the same boss through the two darker gold defeat palettes. After disappearance it must stay gone, including the Breaker pickup flash; the earlier black boss silhouette was rejected. Keep the native pale cave flash and timing. This is a mapping/palette repair using existing art.
+
+## Level 3 opening (0.11.0 review candidate)
+
+Use a midnight-blue and muted forest-teal wooded backdrop with distant Gothic ruins. Keep bright brown terrain and branch collision edges readable. Broad trees use vertical warm-brown bark, with the approved branches tied to native positions. The stone shaft reuses approved navy nave masonry and solid columns behind warm brown ledges. New golden ember creatures preserve their compact curled anatomy and shared head between poses; tiny crimson flyers retain their slim body and two native wing positions. Source prompts and registrations are under `art/generated/level3_*` and `art/level3_opening/`. See `LEVEL3_OPENING.md` for native scopes and verification.
+
+## Level 3 review (0.11.1)
+
+The small winged eye is an insect: antennae, tucked legs and rounded veined rose membranes, not bat wings. The spinner is a crimson thorn-ring with three pale curved blades and an open center. First-creature shots use the existing fireball art in their measured half-height footprints. Giant trees use broad continuous knotted oak and subdued moss, shaded within their original outline; avoid tiny repeated vertical strips. See LEVEL3_REVIEW.md.
+
+
+## Level 3 detail review — 0.11.2
+
+The requested round projectile is native 0694/FF301116 and reuses the exact approved 12×12 fireball inside its 16×16 HD cell. The boot is the magenta collectible (068A–068D/FF301525), with a pale folded cuff and left-pointing toe; do not alter Randy’s worn boots. Branches must be one continuous two-row oak body with a mossy upper edge, never duplicate thin strips with empty centers. Keep their nine original alpha masks exactly; do not extend walkable-looking paint beyond the original contour. Built-in image-generation sources and exact prompts are retained under art/generated/level3_*_generated.png and level3_detail_prompts.json.

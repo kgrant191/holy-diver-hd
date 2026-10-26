@@ -1,6 +1,26 @@
 # Current status
 
-Updated: 2026-10-24 (America/New_York).
+Updated: 2026-10-25 (America/New_York).
+
+## Approved continuation baseline — 0.11.2, feature/level3-opening
+
+The user approved the delivered 0.11.2 by saying "approved" on 2026-10-25 (America/New_York). `evidence/level3_detail/approval.json` pins the reviewed artwork commit and install ZIP. All 99 reviewed installation files, including the historical review label in the installed README, stay exact. This is the baseline for further Level 3 work; source publication, PR/Actions and merge remain pending.
+
+Addresses the newly identified round shot (0694), the collectible boot (068A–068D), and split-looking branch surfaces (0768–0770). The shot reuses the approved small fireball; the boot and branches use new painted sources. The branches retain every original alpha contour. All 96 prior runtime assets other than mappings/README are exact; one new atlas brings the pack to 99 files. Approved main remains 0.10.2; the branch is not pushed or merged. See docs/LEVEL3_DETAILS.md and evidence/level3_detail/.
+
+The previous review changed 06B6–06B9, which were incorrectly identified as the reported projectile. The screenshot and native OAM identify 0694 as the actual round shot; this version adds that mapping. The old B6–B9 artwork remains unchanged pending separate confirmation of its role.
+
+## Previous review — 0.11.1, feature/level3-opening
+
+Addresses all four requested corrections: spinning blade-ring enemy, flame shots for the first golden creature, an insect-like winged eye, and continuous knotted oak surfaces. All 93 prior assets other than mappings/installed README remain exact; three new PNGs bring the pack to 98 files. Approved main is still 0.10.2; this branch is not approved, pushed or merged. Full movie and pixel/geometry checks are documented in docs/LEVEL3_REVIEW.md and evidence/level3_review/.
+
+## Superseded review — 0.11.0, feature/level3-opening
+
+Builds the first three Level 3 rooms from the user's Mesen movie: forest approach, tree climb and masonry shaft. Adds the night forest panorama, wide-tree bark, three ember-creature forms and two crimson flyer forms. Reuses approved Randy/HUD/weapon poses, eyes and blue tears, ceiling bats, lava/ice, brown terrain, branches and nave masonry. The following corridor retains its original scenery while verified shared actor aliases also work there.
+
+Approved main remains 0.10.2. This candidate is not approved, pushed or merged. All 91 prior files other than hires.txt and installed README are byte-identical, and removing the marked Level 3 blocks restores the exact approved mapping bytes. The current expected manifest describes the candidate; evidence/0.10.2-pack-sha256.json retains approved main.
+
+The full recorded route supplies three-room traversal, both Randy costumes, combat, Blizzard, menus, and transition into the next corridor. A native-core movie harness now supports embedded-state .mmo inputs, continuous audio capture and a synchronized screenshot observer. See docs/LEVEL3_OPENING.md and evidence/level3_opening/ for measured results and remaining coverage limits. Later Level 3 scenery and its boss remain unfinished; the supplied recording is enough to start the next corridor batch without another recording.
 
 ## Approved baseline — 0.10.2, main
 
@@ -237,3 +257,5 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 - The earlier report of Randy fully reverting to original art during death was not independently reproduced. Shared defeat fallbacks exist, and current recorded death poses remain HD.
 - Old scripts remain for provenance. build.py is the supported build entry point.
 - Full historical capture runs/videos and original savestates remain in the prior source/handoff archives. The repository keeps compact evidence and exact rollback inputs.
+
+Historical 0.11.0 limitation: the spinning creature was left native. The 0.11.1 review now adds its 0695–06AF frames and corrects the projectiles, flyer and bark. Other native effects and later-room scenery remain future work; the existing recording covers the next corridor.

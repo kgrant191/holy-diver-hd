@@ -31,10 +31,43 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==40
+assert len(imgs)==43
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+level3_detail=json.loads((root/'art/level3_detail/registration.json').read_text())
+counts['tile']-=level3_detail['tile_rules']
+for section in ['IMAGES','MAPPINGS']:
+ pattern=r'^# BEGIN LEVEL3_DETAIL '+section+r'\n.*?^# END LEVEL3_DETAIL '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+prior_detail=json.loads((root/'evidence/0.11.1-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==prior_detail['hires.txt'],'Previous review mappings changed'
+for name,digest in prior_detail.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' previous review art changed'
+detail_atlas=np.array(Image.open(pack/'Stage3_Detail_Tiles_2x.png').convert('RGBA'))
+native_masks=json.loads((root/'art/level3_opening/registration.json').read_text())['terrain_masks']
+assert {m['tile']for m in level3_detail['mappings']}=={'0694','068A','068B','068C','068D',*[f'{t:04X}'for t in range(0x768,0x771)]}
+for m in level3_detail['mappings']:
+ if m['kind']=='branch':
+  x,y=m['xy'];assert np.array_equal(detail_atlas[y:y+16,x:x+16,3],np.array(native_masks[f"tree:{m['tile']}:0F091929"]))
+level3_review=json.loads((root/'art/level3_review/registration.json').read_text())
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=level3_review[field]
+for section in ['IMAGES','CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN LEVEL3_REVIEW '+section+r'\n.*?^# END LEVEL3_REVIEW '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+prior_review=json.loads((root/'evidence/0.11.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==prior_review['hires.txt'],'Earlier mappings changed'
+for name,digest in prior_review.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' earlier art changed'
+level3=json.loads((root/'art/level3_opening/registration.json').read_text())
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=level3[field]
+for section in ['IMAGES','CONDITIONS','MAPPINGS','ALIASES']:
+ pattern=r'^# BEGIN LEVEL3_OPENING '+section+r'\n.*?^# END LEVEL3_OPENING '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+prior_level3=json.loads((root/'evidence/0.10.2-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==prior_level3['hires.txt'],'Existing mappings changed'
+for name,digest in prior_level3.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved art changed'
 breaker_randy=json.loads((root/'art/breaker_randy/registration.json').read_text())
 counts['tile']-=breaker_randy['tile_rules']
 counts['condition']-=breaker_randy['conditions']

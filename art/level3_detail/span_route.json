@@ -1,0 +1,27 @@
+{
+  "frames": 1796,
+  "sha256": "ff6dbfd8f5e038176e5d69f631019ead71ce032144d1eaf08aeff1be79d58d3d",
+  "input_sha256": "e3afd966c1737e657458258f67bfe7c867b77a99b1e8895cae91ae678c48c019",
+  "source_movie_sha256": "c6c3f99a7204f5052c1758ef44ffb4387d2ebc5a8534127a0ddde60ccfde74cd",
+  "starting_state_sha256": "956c402469389e969b3443c8c5c5019458e5f1d65e8830f63f815b928a23f5f0",
+  "input_only": true,
+  "prefix_frames": 1628,
+  "sequence": [
+    [
+      "L",
+      36
+    ],
+    [
+      "neutral",
+      12
+    ],
+    [
+      "R 3/4 frames",
+      100
+    ],
+    [
+      "neutral",
+      20
+    ]
+  ]
+}

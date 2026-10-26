@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.10.2 on `main` (merged 2026-10-24).** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved continuation baseline: 0.11.2 on `feature/level3-opening` (approved 2026-10-25). Main remains at merged 0.10.2 pending adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 The approved work is merged through PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8) → [#9](https://github.com/kgrant191/holy-diver-hd/pull/9) → [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) → [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). All four PR and main merge builds pass. Their downloaded installation artifacts pass independent hash/layout checks. See STATUS.md for adoption details.
 
@@ -50,6 +50,18 @@ Version 0.1.1 sharpens the standing ghoul and covers both crouching attack phase
 
 ![Randy arm repair in actual Mesen captures](evidence/arm_repair/Holy_Diver_v15_Comparison.png)
 
+## Approved Level 3 detail corrections — 0.11.2
+
+Updates the round enemy shot identified in the screenshot, the magenta boot collectible, and solid two-row oak branches. Existing branch contours and all 96 previous runtime assets remain exact. See [detail notes and verification](docs/LEVEL3_DETAILS.md).
+
+## Previous Level 3 review — 0.11.1
+
+Adds the spinning blade-ring enemy, two small flame sprites, an insect interpretation of the small winged eye, and continuous shaded bark. See [review notes and verification](docs/LEVEL3_REVIEW.md).
+
+## Original Level 3 opening review — 0.11.0
+
+The review branch adds the forest approach, tree climb, and stone shaft from a standard Mesen movie. It reuses the approved player, HUD and returning enemies, and adds the new forest scenery and small creatures. Later Level 3 scenery and its boss remain unfinished. See [scope and live checks](docs/LEVEL3_OPENING.md). Approved main stays at 0.10.2 until review.
+
 ## Build
 
 Use Python 3.12:
@@ -64,7 +76,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.10.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.11.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

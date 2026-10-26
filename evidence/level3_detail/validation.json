@@ -1,0 +1,269 @@
+{
+  "baseline": "0.11.1",
+  "candidate": "0.11.2",
+  "movie_frames": 6883,
+  "paired_native_samples_per_type": 1721,
+  "apu_write_count": 15528,
+  "apu_sha256": "66a5becdb775c3e87e8e7c09435d25c3b568482cfafeac0bcc8f74dcc48ec79f",
+  "identical_pcm_bytes": 21995512,
+  "pcm_sha256": "32ca1a4481f0affd9fb3c753015702edc302ce947ea4b99144dfcb5eac66a517",
+  "movie_sha256": "c6c3f99a7204f5052c1758ef44ffb4387d2ebc5a8534127a0ddde60ccfde74cd",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "controller_only": true,
+  "ram_writes": false,
+  "pack_files": 99,
+  "unchanged_prior_runtime_files": 96,
+  "counts": {
+    "exact_images": 1498,
+    "exact_black_images": 52,
+    "changed_images": 223,
+    "exact_pause_images": 101
+  },
+  "sprite_matches": {
+    "round_shot/native": 49,
+    "boot/native": 25
+  },
+  "sprite_examples": {
+    "round_shot/native": {
+      "frame": 376,
+      "box": [
+        274,
+        86,
+        290,
+        102
+      ]
+    },
+    "boot/native": {
+      "frame": 2252,
+      "box": [
+        176,
+        446,
+        208,
+        478
+      ]
+    }
+  },
+  "branch_source_checks": [
+    {
+      "frame": 1408,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5700
+    },
+    {
+      "frame": 1424,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5700
+    },
+    {
+      "frame": 1440,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5480
+    },
+    {
+      "frame": 1456,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4864
+    },
+    {
+      "frame": 1472,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4344
+    },
+    {
+      "frame": 1488,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4344
+    },
+    {
+      "frame": 1504,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4344
+    },
+    {
+      "frame": 1520,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4344
+    },
+    {
+      "frame": 1536,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4448
+    },
+    {
+      "frame": 1552,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5188
+    },
+    {
+      "frame": 1568,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5096
+    },
+    {
+      "frame": 1584,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4076
+    },
+    {
+      "frame": 1600,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 3660
+    },
+    {
+      "frame": 1616,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 3884
+    },
+    {
+      "frame": 1632,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4608
+    },
+    {
+      "frame": 1648,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4960
+    },
+    {
+      "frame": 1664,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5228
+    },
+    {
+      "frame": 1680,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -6,
+      "pixels": 5612
+    },
+    {
+      "frame": 1696,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 6216
+    },
+    {
+      "frame": 1712,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 6712
+    },
+    {
+      "frame": 1728,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -4,
+      "pixels": 5424
+    },
+    {
+      "frame": 1744,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 6172
+    },
+    {
+      "frame": 1760,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -4,
+      "pixels": 5832
+    },
+    {
+      "frame": 1776,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -2,
+      "pixels": 5956
+    },
+    {
+      "frame": 1792,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 6000
+    },
+    {
+      "frame": 1808,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -2,
+      "pixels": 6160
+    },
+    {
+      "frame": 1824,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5924
+    },
+    {
+      "frame": 1840,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -6,
+      "pixels": 5580
+    },
+    {
+      "frame": 1856,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -2,
+      "pixels": 5932
+    },
+    {
+      "frame": 1872,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 6348
+    },
+    {
+      "frame": 1888,
+      "match_fraction": 1.0,
+      "camera_delta_hd": -4,
+      "pixels": 4864
+    },
+    {
+      "frame": 1904,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4212
+    },
+    {
+      "frame": 1920,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4556
+    },
+    {
+      "frame": 1936,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 4988
+    },
+    {
+      "frame": 1952,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5120
+    },
+    {
+      "frame": 1968,
+      "match_fraction": 1.0,
+      "camera_delta_hd": 0,
+      "pixels": 5120
+    }
+  ],
+  "limits": [
+    "Earlier levels and boss are not replayed afresh.",
+    "Original branch alpha contours remain exact; native collision and all gameplay are unchanged."
+  ]
+}

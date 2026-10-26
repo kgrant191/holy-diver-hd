@@ -1,0 +1,10 @@
+{
+  "version": "0.11.0",
+  "status": "unapproved review candidate",
+  "archive": "Holy_Diver_HD_v0.11.0.zip",
+  "sha256": "c293d4a70c55f5ba1086d91d41168f94a479f2e406f5967fca2ec031c933cb96",
+  "root_files": 95,
+  "nested_archives": false,
+  "crc_verified": true,
+  "installed_manifest_matches": true
+}

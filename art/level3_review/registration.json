@@ -1,0 +1,1148 @@
+{
+  "tile_rules": 114,
+  "conditions": 2,
+  "background_rules": 404,
+  "mappings": [
+    {
+      "tile": "0695",
+      "palette": "FF002630",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0695",
+      "palette": "FF162631",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0696",
+      "palette": "FF002630",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0696",
+      "palette": "FF162631",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0697",
+      "palette": "FF002630",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0697",
+      "palette": "FF162631",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0698",
+      "palette": "FF002630",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0698",
+      "palette": "FF162631",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0699",
+      "palette": "FF002630",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "0699",
+      "palette": "FF162631",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069A",
+      "palette": "FF002630",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069A",
+      "palette": "FF162631",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069B",
+      "palette": "FF002630",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069B",
+      "palette": "FF162631",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069C",
+      "palette": "FF002630",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069C",
+      "palette": "FF162631",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069D",
+      "palette": "FF002630",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069D",
+      "palette": "FF162631",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "spinner_0",
+      "scope": ""
+    },
+    {
+      "tile": "069E",
+      "palette": "FF002630",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "069E",
+      "palette": "FF162631",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "069F",
+      "palette": "FF002630",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "069F",
+      "palette": "FF162631",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A0",
+      "palette": "FF002630",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A0",
+      "palette": "FF162631",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A1",
+      "palette": "FF002630",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A1",
+      "palette": "FF162631",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A2",
+      "palette": "FF002630",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A2",
+      "palette": "FF162631",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A3",
+      "palette": "FF002630",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A3",
+      "palette": "FF162631",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A4",
+      "palette": "FF002630",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A4",
+      "palette": "FF162631",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A5",
+      "palette": "FF002630",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A5",
+      "palette": "FF162631",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A6",
+      "palette": "FF002630",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A6",
+      "palette": "FF162631",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "spinner_1",
+      "scope": ""
+    },
+    {
+      "tile": "06A7",
+      "palette": "FF002630",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06A7",
+      "palette": "FF162631",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06A8",
+      "palette": "FF002630",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06A8",
+      "palette": "FF162631",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06A9",
+      "palette": "FF002630",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06A9",
+      "palette": "FF162631",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AA",
+      "palette": "FF002630",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AA",
+      "palette": "FF162631",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AB",
+      "palette": "FF002630",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AB",
+      "palette": "FF162631",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AC",
+      "palette": "FF002630",
+      "xy": [
+        368,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AC",
+      "palette": "FF162631",
+      "xy": [
+        368,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AD",
+      "palette": "FF002630",
+      "xy": [
+        384,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AD",
+      "palette": "FF162631",
+      "xy": [
+        384,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AE",
+      "palette": "FF002630",
+      "xy": [
+        400,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AE",
+      "palette": "FF162631",
+      "xy": [
+        400,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AF",
+      "palette": "FF002630",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06AF",
+      "palette": "FF162631",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "spinner_2",
+      "scope": ""
+    },
+    {
+      "tile": "06B6",
+      "palette": "FF172737",
+      "xy": [
+        432,
+        0
+      ],
+      "kind": "ember_shot_0",
+      "scope": ""
+    },
+    {
+      "tile": "06B7",
+      "palette": "FF172737",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "ember_shot_0",
+      "scope": ""
+    },
+    {
+      "tile": "06B8",
+      "palette": "FF172737",
+      "xy": [
+        464,
+        0
+      ],
+      "kind": "ember_shot_1",
+      "scope": ""
+    },
+    {
+      "tile": "06B9",
+      "palette": "FF172737",
+      "xy": [
+        480,
+        0
+      ],
+      "kind": "ember_shot_1",
+      "scope": ""
+    },
+    {
+      "tile": "06E7",
+      "palette": "FF162631",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06E7",
+      "palette": "FF002630",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06E8",
+      "palette": "FF162631",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06E8",
+      "palette": "FF002630",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06E9",
+      "palette": "FF162631",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06E9",
+      "palette": "FF002630",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06EA",
+      "palette": "FF162631",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06EA",
+      "palette": "FF002630",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "insect_0",
+      "scope": ""
+    },
+    {
+      "tile": "06EB",
+      "palette": "FF162631",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "06EB",
+      "palette": "FF002630",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "06EC",
+      "palette": "FF162631",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "06EC",
+      "palette": "FF002630",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "06ED",
+      "palette": "FF162631",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "06ED",
+      "palette": "FF002630",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "06EE",
+      "palette": "FF162631",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "06EE",
+      "palette": "FF002630",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "insect_1",
+      "scope": ""
+    },
+    {
+      "tile": "0752",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0753",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0754",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0755",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0756",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0757",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0758",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0759",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "075A",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "075B",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "075C",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "075D",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0762",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0763",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0764",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0765",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0766",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0767",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_forestRoom&l3_forestLo&l3_forestHi"
+    },
+    {
+      "tile": "0752",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0753",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0754",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0755",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0756",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0757",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0758",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0759",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "075A",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "075B",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "075C",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "075D",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "075E",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "075F",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0760",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0761",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0762",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0763",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0764",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0765",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0766",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0767",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "wood supplied by continuous native-aligned surface",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    }
+  ],
+  "atlas_cells": 40
+}

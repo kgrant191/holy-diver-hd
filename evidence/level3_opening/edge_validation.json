@@ -1,0 +1,149 @@
+{
+  "entrance_left_stop": {
+    "movie_sha256": "fb47876600eb206de9f058345f2fb461854677dfabd6180a2ce511b0f811633f",
+    "movie_frames": 570,
+    "paired_native_samples": 285,
+    "identical_pcm_bytes": 1827124,
+    "pcm_sha256": "dcdd2bb2e7c12d9c6660938b2703a8ec1051d6ce3193dde69b9969df5b33908d",
+    "apu_write_count": 1096,
+    "apu_sha256": "b29c33c27ff542342a5e43728ed81d3a466726ecbd29736d36c87d5b99698bad",
+    "controller_only": true,
+    "ram_writes": false,
+    "trajectory": {
+      "held_left_frames": 90,
+      "stationary_window": [
+        42,
+        82
+      ],
+      "world_position": [
+        23,
+        176
+      ]
+    }
+  },
+  "raised_ledge_slow_walkoff": {
+    "movie_sha256": "7850b6903bf36885c16e4555cb85108e18e97d2c6ec1df3d47e0f0d4f7691283",
+    "movie_frames": 800,
+    "paired_native_samples": 400,
+    "identical_pcm_bytes": 2561912,
+    "pcm_sha256": "08d6d61fd26eec5fd4463d7a3d77bdda0023c23d29313cf32524810eb1dd49ce",
+    "apu_write_count": 1790,
+    "apu_sha256": "91cb9acce1312585ab333b636e2409df284cf06546fa0fb8448350eb3374efc5",
+    "controller_only": true,
+    "ram_writes": false,
+    "trajectory": {
+      "no_jump_input_after_frame": 640,
+      "checked_window": [
+        744,
+        784
+      ],
+      "positions": [
+        [
+          744,
+          448,
+          112
+        ],
+        [
+          746,
+          450,
+          112
+        ],
+        [
+          748,
+          452,
+          112
+        ],
+        [
+          750,
+          453,
+          112
+        ],
+        [
+          752,
+          453,
+          112
+        ],
+        [
+          754,
+          454,
+          112
+        ],
+        [
+          756,
+          456,
+          112
+        ],
+        [
+          758,
+          458,
+          112
+        ],
+        [
+          760,
+          460,
+          113
+        ],
+        [
+          762,
+          462,
+          114
+        ],
+        [
+          764,
+          464,
+          116
+        ],
+        [
+          766,
+          466,
+          118
+        ],
+        [
+          768,
+          468,
+          121
+        ],
+        [
+          770,
+          470,
+          124
+        ],
+        [
+          772,
+          472,
+          128
+        ],
+        [
+          774,
+          473,
+          128
+        ],
+        [
+          776,
+          475,
+          128
+        ],
+        [
+          778,
+          477,
+          128
+        ],
+        [
+          780,
+          479,
+          128
+        ],
+        [
+          782,
+          480,
+          128
+        ],
+        [
+          784,
+          480,
+          128
+        ]
+      ]
+    }
+  }
+}

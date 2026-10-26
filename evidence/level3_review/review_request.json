@@ -1,0 +1,21 @@
+{
+  "status": "unapproved review candidate",
+  "version": "0.11.1",
+  "previous": "0.11.0",
+  "request": [
+    "Create the spinning enemy.",
+    "Update the first enemy projectiles.",
+    "Make the winged eyeball look more like an insect than a bat.",
+    "Improve the wood texture."
+  ],
+  "references": [
+    {
+      "file": "art/level3_review/user_insect_reference.png",
+      "sha256": "c1619e982bf8d70a7aa0d3cf9e8814afb524cf542a9ed1dd78b5ba52c55bbb1c"
+    },
+    {
+      "file": "art/level3_review/user_wood_reference.png",
+      "sha256": "18412ca0a32935ed67af7a67396fdcb3db05d6dd282d87cea86c8767ac29c7c4"
+    }
+  ]
+}
