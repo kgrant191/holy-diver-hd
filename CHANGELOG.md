@@ -1,10 +1,10 @@
 # Changelog
 
-## 0.14.0 — Poison Moss Land scenery review
+## 0.14.0 — Poison Moss Land scenery (approved 2026-10-26)
 
 - Replace reused Level 3 cave/rock scenery with new green moss forest and overgrown Gothic ruins across the eight completed/recorded rooms.
 - Add moss-topped emerald masonry, carved steps and solid ceiling/support art inside exact existing terrain contours.
-- Preserve all earlier art/audio files, wood overlays, actor artwork, fish stabilization, lava/ice and native gameplay. Main 0.10.2 and approved continuation 0.11.2 remain pinned; this candidate awaits review.
+- Preserve all earlier art/audio files, wood overlays, actor artwork, fish stabilization, lava/ice and native gameplay. Approved by the user on 2026-10-26 as the new continuation baseline. All 104 reviewed install files stay exact; main remains 0.10.2 pending adoption.
 
 
 ## 0.13.0 — 2026-10-25 (review)

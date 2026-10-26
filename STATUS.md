@@ -1,12 +1,12 @@
 # Current status
 
-Updated: 2026-10-26 (UTC).
+Updated: 2026-10-26 (America/New_York).
 
-## Current review — 0.14.0, feature/poison-moss-land
+## Approved continuation — 0.14.0, feature/poison-moss-land
 
 The user requested a greener Poison Moss Land instead of reused caves and rocks. New painted forest and overgrown Gothic ruin panoramas, with green mossy masonry, cover all eight completed/recorded Level 3 rooms. Existing wood, all terrain alpha contours, actors, independent fish hover stabilization, lava/ice, collision and sound are preserved. Later portions of the descent and the boss remain unfinished.
 
-This candidate adds three runtime images and changes only hires.txt and installed README among the previous 101 files. All 99 previous art/audio files remain exact. The 104-file pack is review-only; main remains approved 0.10.2 and the approved continuation remains 0.11.2. Final paired checks pass 6,048 captured native samples per type across three replays with identical full audio. All 204 actor-source matches and 63 scenery/edge reconstructions pass exactly. See docs/POISON_MOSS.md and evidence/poison_moss/ for completed checks and coverage.
+This candidate adds three runtime images and changes only hires.txt and installed README among the previous 101 files. All 99 previous art/audio files remain exact. The user approved the delivered 104-file pack on 2026-10-26. All reviewed installation bytes, including the historical review label in README.txt, remain frozen. This is the new continuation baseline; main remains approved 0.10.2 pending publication/adoption. Final paired checks pass 6,048 captured native samples per type across three replays with identical full audio. All 204 actor-source matches and 63 scenery/edge reconstructions pass exactly. See docs/POISON_MOSS.md and evidence/poison_moss/ for completed checks and coverage.
 
 ## Previous review — 0.13.0, feature/level3-caves
 

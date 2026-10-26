@@ -1,4 +1,6 @@
-# Poison Moss Land — 0.14.0 review
+# Poison Moss Land — approved 0.14.0
+
+Approved by the user on 2026-10-26. All 104 reviewed installation files remain byte-identical, including installed README. The source-only approval record is evidence/poison_moss/approval.json; historical review notes below describe the delivered candidate. This becomes the new continuation baseline; publication and merge are separate.
 
 The user asked for Level 3 to look greener and distinct from the reused caves and rocks. This candidate is on `feature/poison-moss-land`, based on unapproved 0.13.0 at `06a53b9326b0f39f36eec3e95180381647257672`. Main remains approved 0.10.2 and the approved continuation remains 0.11.2. This handoff does not push, open a PR, merge, tag or release.
 

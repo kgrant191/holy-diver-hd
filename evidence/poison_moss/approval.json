@@ -1,0 +1,14 @@
+{
+  "version": "0.14.0",
+  "approved_date": "2026-10-26",
+  "timezone": "America/New_York",
+  "user_statement": "approved. Now im showing 2 more screens that need work. the last screen is the boss",
+  "reviewed_source_commit": "d7ea85a446a54b52da1958d23c1afb26dfb5cc0b",
+  "branch": "feature/poison-moss-land",
+  "install_zip_sha256": "ab4748f2ab9247961a4fb686f94c95635d3c3130795b484c91e64cb0eb9eb8dd",
+  "pack_manifest": "evidence/0.14.0-pack-sha256.json",
+  "all_104_reviewed_install_files_unchanged": true,
+  "scope": "Approves the delivered 0.14.0 pack, including earlier Level 3 work and fish corrections; requests continuation through the new movie.",
+  "publication": "No source push, PR, merge, tag or release requested in this message.",
+  "main_remains": "0.10.2"
+}

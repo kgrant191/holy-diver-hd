@@ -2,12 +2,12 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
-## Current Poison Moss Land review — 0.14.0
+## Approved Poison Moss Land continuation — 0.14.0
 
 - Work is on `feature/poison-moss-land`, based on 0.13.0 at 06a53b9. The user explicitly requested a greener Level 3 distinct from the reused caves/rocks. This direction supersedes the historical Level 3 brown/cave reuse instructions below; Stage 1/2 remain unchanged.
 - `build_poison_moss.py` runs after shared fallbacks and inserts its scoped overrides before existing mappings, preserving original priority. Three newly painted sources supply a moss forest, overgrown Gothic ruins and green masonry. Preserve every terrain alpha contour and all original native guards, including solid supports 0796/0797. Preserve continuous oak overlays and branch wood.
 - All 99 prior art/audio files and all fish mappings remain exact. Only Level 3 scenery references change, plus installed README. Removing the marked overrides and reversing recorded background substitutions must recover exact 0.13.0 hires.txt.
-- This is unapproved. Main 0.10.2 and approved continuation 0.11.2 remain pinned. Live coverage is the eight recorded rooms, including only the beginning of 9DEE. See docs/POISON_MOSS.md.
+- The user approved the complete delivered 0.14.0 pack on 2026-10-26. Preserve all 104 reviewed installation files exactly for approval bookkeeping; keep installed README frozen. Main remains 0.10.2. This is the continuation baseline, including previous Level 3 work and fish corrections. See evidence/poison_moss/approval.json and docs/POISON_MOSS.md.
 
 ## Previous Level 3 caves review — 0.13.0
 
