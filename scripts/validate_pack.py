@@ -31,10 +31,29 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==47
+assert len(imgs)==48
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+temple=json.loads((root/'art/level4/registration.json').read_text())
+temple_files={'Golden_Temple_Tiles_2x.png','Golden_Temple_Exterior.png','Golden_Temple_Interior.png'}
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=temple[field]
+for section in ['IMAGES','CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN GOLDEN_TEMPLE '+section+r'\n.*?^# END GOLDEN_TEMPLE '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+previous_temple=json.loads((root/'evidence/0.15.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==previous_temple['hires.txt'],'Approved 0.15.0 mappings changed'
+for name,digest in previous_temple.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved artwork changed'
+assert {p.name for p in pack.iterdir() if p.is_file()}-set(previous_temple)==temple_files
+for fit in temple['actor_fits'].values():assert fit['clipped_pixels']==0
+temple_patterns=json.loads((root/'art/level4/native_patterns.json').read_text())
+for key,aliases in json.loads((root/'art/level4/overdrive_aliases.json').read_text()).items():
+ for alias in aliases:assert bytes.fromhex(temple_patterns[key])==bytes.fromhex(temple_patterns[alias])
+for record in temple['mappings']:
+ if record['kind'] in {'native collision masonry','outdoor gold column','nonsolid scenery reveal','temple entrance facade','dark entrance'}:
+  assert record['scope'].startswith(('templeA865Mode&templeA865Lo&templeA865Hi','templeAA09Mode&templeAA09Lo&templeAA09Hi','templeAA81Mode&templeAA81Lo&templeAA81Hi'))
+historical_files={p.name for p in pack.iterdir() if p.is_file()}-temple_files
 finale=json.loads((root/'art/level3_finale/registration.json').read_text())
 finale_files={'Level3_Finale_Tiles_2x.png','Overdrive_Acquired.png'}
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=finale[field]
@@ -45,7 +64,7 @@ previous_finale=json.loads((root/'evidence/0.14.0-pack-sha256.json').read_text()
 assert hashlib.sha256(content.encode()).hexdigest()==previous_finale['hires.txt'],'Approved 0.14.0 mappings changed'
 for name,digest in previous_finale.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved artwork changed'
-assert set(p.name for p in pack.iterdir()if p.is_file())-set(previous_finale)==finale_files
+assert historical_files-set(previous_finale)==finale_files
 assert not finale['native_gameplay_modified']and not finale['previous_runtime_art_modified']
 assert finale['boss_fit']['clipped_pixels']==0
 shared_finale=json.loads((root/'art/level3_finale/shared_patterns.json').read_text())
@@ -64,7 +83,7 @@ previous_moss=json.loads((root/'evidence/0.13.0-pack-sha256.json').read_text())
 assert hashlib.sha256(content.encode()).hexdigest()==previous_moss['hires.txt'],'Rules changed beyond requested Level 3 scenery'
 for name,digest in previous_moss.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' previous artwork changed'
-assert set(p.name for p in pack.iterdir()if p.is_file())-set(previous_moss)==moss_files|finale_files
+assert historical_files-set(previous_moss)==moss_files|finale_files
 moss_atlas=Image.open(pack/'Poison_Moss_Tiles_2x.png').convert('RGBA');moss_sources={}
 for m in moss['mappings']:
  f=m['source_rule'].split('<tile>')[1].split(',');idx=int(f[0]);x,y=map(int,f[3:5]);xx,yy=m['xy']
@@ -90,7 +109,7 @@ assert not caves['native_gameplay_modified']
 previous_caves=json.loads((root/'evidence/0.12.2-pack-sha256.json').read_text())
 for name,digest in previous_caves.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest, name+' previous artwork changed'
-assert set(p.name for p in pack.iterdir() if p.is_file())-set(previous_caves)=={'Stage3_Caves_Tiles_2x.png'}|moss_files|finale_files
+assert historical_files-set(previous_caves)=={'Stage3_Caves_Tiles_2x.png'}|moss_files|finale_files
 cave_atlas=np.array(Image.open(pack/'Stage3_Caves_Tiles_2x.png').convert('RGBA'))
 for m in caves['mappings']:
  if 'xy'not in m:continue

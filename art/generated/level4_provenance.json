@@ -1,0 +1,30 @@
+{
+  "generator": "OpenAI image_gen.imagegen",
+  "briefs_are_summaries": true,
+  "assets": {
+    "temple_exterior.png": "Outdoor Golden Temple approach: open twilight navy sky, distant gilded temple silhouettes and mountain valley; subdued painterly Gothic game backdrop. No foreground platforms or text.",
+    "temple_interior.png": "Enclosed Golden Temple hall: dark navy stone walls, gilded arches, carved pilasters, shadowed recesses, warm gold trim; no sky or outdoor landscape, no platforms or text.",
+    "temple_masonry.png": "Golden ashlar masonry texture with warm highlights, dark recessed joints and carved aged stone surfaces.",
+    "temple_column.png": "Isolated fluted gold classical temple column with broad carved capital, straight shaft and transparent surroundings.",
+    "temple_boulder.png": "Compact irregular golden stone boulder, deep crevices, readable round silhouette, transparent background.",
+    "temple_gargoyle.png": "Golden flying gargoyle matching the native reference silhouette: long head, two wings, bent legs, curled tail; transparent background.",
+    "temple_gargoyle_alt.png": "Alternate wingbeat of the same golden gargoyle; preserve the head, torso, colors and proportions.",
+    "temple_guardian.png": "Compact ivory and muted olive horned guardian matching the native irregular footprint, skeletal armored forms; transparent background.",
+    "overdrive_orb.png": "Compact cobalt blue and ivory magical spiked ring/orb, bright pale core, restrained gold rim and transparent background.",
+    "temple_wave.png": "Narrow tall crescent wave shaped like a left parenthesis, ivory core, gold and cyan edging; transparent background."
+  },
+  "registration": "scripts/build_level4.py",
+  "registration_operations": [
+    "crop transparent margin",
+    "resize to measured native footprints",
+    "binary alpha",
+    "palette reduction",
+    "atlas slicing",
+    "whole-pose native mirroring"
+  ],
+  "reference_files": [
+    "art/level4/dragon_reference.png",
+    "art/level4/knight_reference.png"
+  ],
+  "note": "The Overdrive cast is 0A8A\u20130A8D. The narrow CB\u2013CF crescent is the gargoyle attack; separate input tests established this identity."
+}

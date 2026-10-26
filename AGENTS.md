@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current review — Golden Temple 0.16.0
+
+- Work is on feature/golden-temple from approved main 2f38abeb. The user requested an outdoor first area, indoor next area, corrected Overdrive spelling and updated spell graphics. The 109-file candidate is awaiting review; do not merge or label approved.
+- Scenery scopes: mode1C/A865 outdoors, mode08/AA09 and mode08/AA81 indoors. Keep rendered guards including 0F071723 at frame6500. Background priority1 stays behind actors. Preserve native collision contours and continuous shafts.
+- The actual Overdrive cast is 0A8A–0A8D, an orbiting orb, with ten CHR-proven bank copies. Select enables selected magic. 088B–088E is the acquisition orb; CB–CF is the gargoyle crescent attack, not the player spell.
+- Preserve all 104 previous art/audio files and exact recoverable 0.15.0 mappings. New scope/provenance/evidence: docs/LEVEL4_GOLDEN_TEMPLE.md, art/level4/, evidence/level4/. The source handoff is a ZIP-wrapped incremental bundle. Later temple areas/boss remain untested.
+
 ## Approved baseline — 0.15.0 on main
 
 - The user approved 0.15.0 and authorized all five Level 3 merges on 2026-10-26. PRs #13–#17 are merged into main in dependency order. All PR/main builds pass, and all ten downloaded artifacts match their frozen hashes and flat install layouts. Preserve all 106 reviewed installation bytes, including the historical installed README. See evidence/level3_finale/approval.json and evidence/stage3_adoption/.

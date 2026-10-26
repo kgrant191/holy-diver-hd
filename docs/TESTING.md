@@ -255,3 +255,8 @@ Pair the unchanged 6,883-frame opening movie at stride four against 0.13.0, the 
 ## Level 3 finale — 0.15.0
 
 Replay the full 4,812-frame movie at stride two against exact approved 0.14.0. Capture frames 3,400–4,384 consecutively in a separate complete paired replay to inspect alternating defeat flashes. Use make_level3_finale_edge.py for the controller-only far-left stop, pause, slow full-span traverse and right walk-off. Pair native RAM/PPU/OAM/view, APU writes and full PCM with verify_level3_finale.py. Require exact prior-room/pause/blackout images, both boss orientations, all three curved shots, Overdrive and both cards; Stage 4 changes stay inside shared sprite bounds. Use verify_level3_finale_scenery.py for native PPU reconstruction including both measured defeat-shake offsets (0/4), and verify_level3_finale_fades.py for HD Randy source pixels in all three observed normal-costume fades. See LEVEL3_FINALE.md for commands, measured results and coverage limits.
+
+
+## Golden Temple — 0.16.0 review
+
+Use the supplied 8,668-frame movie against approved 0.15.0 and final 0.16.0. Pair all native state and full audio through verify_level4.py; generate controller-only Overdrive and platform routes with make_level4_routes.py. The actual spell is 0A8A–0A8D; CB–CF is an enemy attack. Verify source panoramas/stone through verify_level4_scenery.py. Scope, commands and bounded coverage: LEVEL4_GOLDEN_TEMPLE.md.

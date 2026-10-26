@@ -35,6 +35,7 @@ subprocess.run([sys.executable,str(r/'scripts/build_level3_caves.py')],cwd=r,che
 subprocess.run([sys.executable,str(r/'scripts/build_shared_stage2.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_poison_moss.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level3_finale.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_level4.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'

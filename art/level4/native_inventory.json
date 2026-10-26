@@ -1,0 +1,7250 @@
+{
+  "rooms": {
+    "A865": {
+      "first": 2,
+      "last": 4040,
+      "samples": 953,
+      "banks": [
+        {
+          "sprite_base": "0A00",
+          "background_base": "0B00",
+          "count": 953
+        }
+      ]
+    },
+    "FFFF": {
+      "first": 88,
+      "last": 6864,
+      "samples": 97,
+      "banks": []
+    },
+    "AA09": {
+      "first": 4044,
+      "last": 6656,
+      "samples": 640,
+      "banks": [
+        {
+          "sprite_base": "0A00",
+          "background_base": "0B00",
+          "count": 640
+        }
+      ]
+    },
+    "AA81": {
+      "first": 6660,
+      "last": 8668,
+      "samples": 429,
+      "banks": [
+        {
+          "sprite_base": "0A00",
+          "background_base": "0B00",
+          "count": 429
+        }
+      ]
+    },
+    "0000": {
+      "first": 8260,
+      "last": 8452,
+      "samples": 49,
+      "banks": [
+        {
+          "sprite_base": "1E00",
+          "background_base": "1F00",
+          "count": 49
+        }
+      ]
+    }
+  },
+  "sprites": {
+    "A865": [
+      {
+        "tile": "0A00",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 953,
+        "example": 2
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 422,
+        "example": 252
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 2520
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 281,
+        "example": 2
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 47,
+        "example": 3056
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 422,
+        "example": 252
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 2520
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 275,
+        "example": 2
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 44,
+        "example": 3056
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 395,
+        "example": 252
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 2520
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 245,
+        "example": 2
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 41,
+        "example": 3068
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 395,
+        "example": 252
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 2520
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 245,
+        "example": 2
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 41,
+        "example": 3068
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 395,
+        "example": 252
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 2520
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 245,
+        "example": 2
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 41,
+        "example": 3068
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 138,
+        "example": 252
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 2776
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 86,
+        "example": 2
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 3148
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 138,
+        "example": 252
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 2776
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 86,
+        "example": 2
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 3148
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 138,
+        "example": 252
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 2776
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 86,
+        "example": 2
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 3148
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 138,
+        "example": 252
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 2776
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 86,
+        "example": 2
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 3148
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 58,
+        "example": 276
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 19,
+        "example": 64
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 58,
+        "example": 276
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 19,
+        "example": 64
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 58,
+        "example": 276
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 19,
+        "example": 64
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 58,
+        "example": 276
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 19,
+        "example": 64
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 49,
+        "example": 276
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 18,
+        "example": 64
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 49,
+        "example": 276
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 18,
+        "example": 64
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 49,
+        "example": 276
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 18,
+        "example": 64
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 49,
+        "example": 276
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2780
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 18,
+        "example": 64
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 3316
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 25,
+        "example": 280
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 2784
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 5,
+        "example": 72
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3320
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 9,
+        "example": 308
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 1,
+        "example": 80
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 9,
+        "example": 308
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 1,
+        "example": 80
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 9,
+        "example": 308
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 1,
+        "example": 80
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 9,
+        "example": 308
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 1,
+        "example": 80
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 288
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 28,
+        "example": 1728
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 288
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 28,
+        "example": 1728
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 288
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 28,
+        "example": 1728
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 288
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 28,
+        "example": 1728
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 288
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 28,
+        "example": 1728
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 288
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 28,
+        "example": 1728
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 6,
+        "example": 288
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 3,
+        "example": 2032
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 6,
+        "example": 288
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 3,
+        "example": 2032
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 6,
+        "example": 288
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 3,
+        "example": 2032
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 6,
+        "example": 288
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 3,
+        "example": 2032
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 27,
+        "example": 904
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 30,
+        "example": 1732
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 3,
+        "example": 3056
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 27,
+        "example": 904
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 36,
+        "example": 1732
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 6,
+        "example": 3056
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 27,
+        "example": 904
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 30,
+        "example": 1732
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 3,
+        "example": 3056
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 27,
+        "example": 904
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 30,
+        "example": 1732
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 3,
+        "example": 3056
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 36,
+        "example": 380
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 5,
+        "example": 2520
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 1668
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 11,
+        "example": 3068
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 36,
+        "example": 380
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 5,
+        "example": 2520
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 1668
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 11,
+        "example": 3068
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 36,
+        "example": 380
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 5,
+        "example": 2520
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 1668
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 11,
+        "example": 3068
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 36,
+        "example": 380
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 5,
+        "example": 2520
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 1668
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 11,
+        "example": 3068
+      },
+      {
+        "tile": "0A33",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 3416
+      },
+      {
+        "tile": "0A34",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 3416
+      },
+      {
+        "tile": "0A35",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 3416
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 248,
+        "example": 320
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 20,
+        "example": 2596
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 179,
+        "example": 1664
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 3056
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 248,
+        "example": 320
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 20,
+        "example": 2596
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 179,
+        "example": 1664
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 3056
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 248,
+        "example": 320
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 20,
+        "example": 2596
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 179,
+        "example": 1664
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 3056
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 248,
+        "example": 320
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 20,
+        "example": 2596
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 179,
+        "example": 1664
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 3056
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 248,
+        "example": 320
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 20,
+        "example": 2596
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 179,
+        "example": 1664
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 3056
+      },
+      {
+        "tile": "0A3B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 8,
+        "example": 1352
+      },
+      {
+        "tile": "0A3B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 46,
+        "example": 1728
+      },
+      {
+        "tile": "0A3B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 3144
+      },
+      {
+        "tile": "0A3D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 1352
+      },
+      {
+        "tile": "0A3D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 23,
+        "example": 1728
+      },
+      {
+        "tile": "0A3D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A3E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 1352
+      },
+      {
+        "tile": "0A3E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 23,
+        "example": 1728
+      },
+      {
+        "tile": "0A3E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A3F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 1352
+      },
+      {
+        "tile": "0A3F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 23,
+        "example": 1728
+      },
+      {
+        "tile": "0A3F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 2,
+        "example": 3144
+      },
+      {
+        "tile": "0A40",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 6,
+        "example": 2036
+      },
+      {
+        "tile": "0A40",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 3,
+        "example": 3148
+      },
+      {
+        "tile": "0A41",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 6,
+        "example": 2036
+      },
+      {
+        "tile": "0A41",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 3,
+        "example": 3148
+      },
+      {
+        "tile": "0A42",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 6,
+        "example": 2036
+      },
+      {
+        "tile": "0A42",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 3,
+        "example": 3148
+      },
+      {
+        "tile": "0A43",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 94,
+        "example": 1732
+      },
+      {
+        "tile": "0A43",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 8,
+        "example": 3056
+      },
+      {
+        "tile": "0A44",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 38,
+        "example": 2036
+      },
+      {
+        "tile": "0A47",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 142,
+        "example": 488
+      },
+      {
+        "tile": "0A48",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 236,
+        "example": 332
+      },
+      {
+        "tile": "0A49",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 62,
+        "example": 2732
+      },
+      {
+        "tile": "0A4A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 62,
+        "example": 2732
+      },
+      {
+        "tile": "0A50",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 953,
+        "example": 2
+      },
+      {
+        "tile": "0A51",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 4675,
+        "example": 2
+      },
+      {
+        "tile": "0A52",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 50,
+        "example": 3844
+      },
+      {
+        "tile": "0A53",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 40,
+        "example": 3932
+      },
+      {
+        "tile": "0A54",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 954,
+        "example": 2
+      },
+      {
+        "tile": "0A55",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 953,
+        "example": 2
+      },
+      {
+        "tile": "0A56",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 1325,
+        "example": 2
+      },
+      {
+        "tile": "0A57",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 67,
+        "example": 2
+      },
+      {
+        "tile": "0A58",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 445,
+        "example": 484
+      },
+      {
+        "tile": "0A59",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 47,
+        "example": 2188
+      },
+      {
+        "tile": "0A5A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 426,
+        "example": 1748
+      },
+      {
+        "tile": "0A5B",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 23,
+        "example": 1656
+      },
+      {
+        "tile": "0A5C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 272,
+        "example": 2
+      },
+      {
+        "tile": "0A5D",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 40,
+        "example": 1196
+      },
+      {
+        "tile": "0A5E",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 72,
+        "example": 908
+      },
+      {
+        "tile": "0A5F",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 143,
+        "example": 292
+      },
+      {
+        "tile": "0A60",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 952
+      },
+      {
+        "tile": "0A61",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 952
+      },
+      {
+        "tile": "0A62",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 952
+      },
+      {
+        "tile": "0A63",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 952
+      },
+      {
+        "tile": "0A64",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A65",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A66",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A67",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A68",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A69",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A6A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A6B",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 9,
+        "example": 956
+      },
+      {
+        "tile": "0A6C",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A6C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 14,
+        "example": 332
+      },
+      {
+        "tile": "0A6D",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A6D",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 14,
+        "example": 332
+      },
+      {
+        "tile": "0A6E",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A6E",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 16,
+        "example": 332
+      },
+      {
+        "tile": "0A6F",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A6F",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 16,
+        "example": 332
+      },
+      {
+        "tile": "0A70",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A70",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 16,
+        "example": 332
+      },
+      {
+        "tile": "0A71",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A71",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 16,
+        "example": 332
+      },
+      {
+        "tile": "0A72",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A72",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 16,
+        "example": 332
+      },
+      {
+        "tile": "0A73",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 9,
+        "example": 432
+      },
+      {
+        "tile": "0A73",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 15,
+        "example": 332
+      },
+      {
+        "tile": "0A74",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 16,
+        "example": 2188
+      },
+      {
+        "tile": "0A75",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A75",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A76",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A76",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A77",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A77",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A78",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A78",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A79",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A79",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A7A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A7A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A7B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A7B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A7C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A7C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A7D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 30,
+        "example": 908
+      },
+      {
+        "tile": "0A7D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1664
+      },
+      {
+        "tile": "0A7E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 14,
+        "example": 924
+      },
+      {
+        "tile": "0A7E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1672
+      },
+      {
+        "tile": "0A7F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 14,
+        "example": 924
+      },
+      {
+        "tile": "0A7F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1672
+      },
+      {
+        "tile": "0A80",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 14,
+        "example": 924
+      },
+      {
+        "tile": "0A80",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1672
+      },
+      {
+        "tile": "0A81",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 14,
+        "example": 924
+      },
+      {
+        "tile": "0A81",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 2,
+        "example": 1672
+      },
+      {
+        "tile": "0A82",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 158,
+        "example": 932
+      },
+      {
+        "tile": "0A82",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 20,
+        "example": 1680
+      },
+      {
+        "tile": "0A83",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 153,
+        "example": 932
+      },
+      {
+        "tile": "0A83",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 20,
+        "example": 1680
+      },
+      {
+        "tile": "0A8A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 216,
+        "example": 292
+      },
+      {
+        "tile": "0A8B",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 216,
+        "example": 292
+      },
+      {
+        "tile": "0A8C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 216,
+        "example": 292
+      },
+      {
+        "tile": "0A8D",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 216,
+        "example": 292
+      },
+      {
+        "tile": "0A94",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 241,
+        "example": 924
+      },
+      {
+        "tile": "0A97",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 122,
+        "example": 428
+      },
+      {
+        "tile": "0A98",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 122,
+        "example": 428
+      },
+      {
+        "tile": "0A99",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 151,
+        "example": 428
+      },
+      {
+        "tile": "0A9A",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 78,
+        "example": 360
+      },
+      {
+        "tile": "0A9B",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 79,
+        "example": 360
+      },
+      {
+        "tile": "0A9C",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 77,
+        "example": 360
+      },
+      {
+        "tile": "0A9D",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 78,
+        "example": 360
+      },
+      {
+        "tile": "0A9E",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 79,
+        "example": 360
+      },
+      {
+        "tile": "0A9F",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 77,
+        "example": 360
+      },
+      {
+        "tile": "0AA0",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 78,
+        "example": 360
+      },
+      {
+        "tile": "0AA1",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 79,
+        "example": 360
+      },
+      {
+        "tile": "0AA2",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 77,
+        "example": 360
+      },
+      {
+        "tile": "0AA3",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 86,
+        "example": 364
+      },
+      {
+        "tile": "0AA4",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 87,
+        "example": 364
+      },
+      {
+        "tile": "0AA5",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 86,
+        "example": 364
+      },
+      {
+        "tile": "0AA6",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 86,
+        "example": 364
+      },
+      {
+        "tile": "0AA7",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 87,
+        "example": 364
+      },
+      {
+        "tile": "0AA8",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 86,
+        "example": 364
+      },
+      {
+        "tile": "0AA9",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 86,
+        "example": 364
+      },
+      {
+        "tile": "0AAA",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 87,
+        "example": 364
+      },
+      {
+        "tile": "0AAB",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 86,
+        "example": 364
+      },
+      {
+        "tile": "0AAC",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 81,
+        "example": 368
+      },
+      {
+        "tile": "0AAD",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 81,
+        "example": 368
+      },
+      {
+        "tile": "0AAE",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 80,
+        "example": 368
+      },
+      {
+        "tile": "0AAF",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 81,
+        "example": 368
+      },
+      {
+        "tile": "0AB0",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 81,
+        "example": 368
+      },
+      {
+        "tile": "0AB1",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 80,
+        "example": 368
+      },
+      {
+        "tile": "0AB2",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 81,
+        "example": 368
+      },
+      {
+        "tile": "0AB3",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 81,
+        "example": 368
+      },
+      {
+        "tile": "0AB4",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 80,
+        "example": 368
+      },
+      {
+        "tile": "0AB5",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 34,
+        "example": 916
+      },
+      {
+        "tile": "0AB5",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 40,
+        "example": 3720
+      },
+      {
+        "tile": "0AB6",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 34,
+        "example": 916
+      },
+      {
+        "tile": "0AB6",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 40,
+        "example": 3720
+      },
+      {
+        "tile": "0AB7",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 34,
+        "example": 916
+      },
+      {
+        "tile": "0AB7",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 39,
+        "example": 3752
+      },
+      {
+        "tile": "0AB8",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 69,
+        "example": 916
+      },
+      {
+        "tile": "0AB8",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 81,
+        "example": 3720
+      },
+      {
+        "tile": "0AB9",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 68,
+        "example": 916
+      },
+      {
+        "tile": "0AB9",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 81,
+        "example": 3720
+      },
+      {
+        "tile": "0ABA",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 34,
+        "example": 916
+      },
+      {
+        "tile": "0ABA",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 39,
+        "example": 3752
+      },
+      {
+        "tile": "0ABB",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 31,
+        "example": 920
+      },
+      {
+        "tile": "0ABB",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 39,
+        "example": 3752
+      },
+      {
+        "tile": "0ABC",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 65,
+        "example": 916
+      },
+      {
+        "tile": "0ABC",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 81,
+        "example": 3720
+      },
+      {
+        "tile": "0ABD",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 65,
+        "example": 916
+      },
+      {
+        "tile": "0ABD",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 81,
+        "example": 3720
+      },
+      {
+        "tile": "0ABE",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 65,
+        "example": 916
+      },
+      {
+        "tile": "0ABE",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 81,
+        "example": 3720
+      },
+      {
+        "tile": "0ABF",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 32,
+        "example": 916
+      },
+      {
+        "tile": "0ABF",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 39,
+        "example": 3752
+      },
+      {
+        "tile": "0AC0",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 30,
+        "example": 920
+      },
+      {
+        "tile": "0AC0",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 39,
+        "example": 3752
+      },
+      {
+        "tile": "0AC1",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 63,
+        "example": 916
+      },
+      {
+        "tile": "0AC1",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 81,
+        "example": 3720
+      },
+      {
+        "tile": "0AC2",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 56,
+        "example": 916
+      },
+      {
+        "tile": "0AC2",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 79,
+        "example": 3728
+      },
+      {
+        "tile": "0AC3",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 39,
+        "example": 920
+      },
+      {
+        "tile": "0AC3",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 77,
+        "example": 3736
+      },
+      {
+        "tile": "0AC4",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 35,
+        "example": 928
+      },
+      {
+        "tile": "0AC4",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 41,
+        "example": 3724
+      },
+      {
+        "tile": "0AC5",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 35,
+        "example": 928
+      },
+      {
+        "tile": "0AC5",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 41,
+        "example": 3724
+      },
+      {
+        "tile": "0AC6",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 35,
+        "example": 928
+      },
+      {
+        "tile": "0AC6",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 40,
+        "example": 3728
+      },
+      {
+        "tile": "0AC7",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 33,
+        "example": 928
+      },
+      {
+        "tile": "0AC7",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 40,
+        "example": 3728
+      },
+      {
+        "tile": "0AC8",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 30,
+        "example": 928
+      },
+      {
+        "tile": "0AC8",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 38,
+        "example": 3736
+      },
+      {
+        "tile": "0AC9",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 33,
+        "example": 928
+      },
+      {
+        "tile": "0AC9",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 40,
+        "example": 3728
+      },
+      {
+        "tile": "0ACA",
+        "palette": "FF26173A",
+        "flip": 0,
+        "count": 30,
+        "example": 928
+      },
+      {
+        "tile": "0ACA",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 38,
+        "example": 3736
+      },
+      {
+        "tile": "0ACB",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 3936
+      },
+      {
+        "tile": "0ACC",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 14,
+        "example": 3960
+      },
+      {
+        "tile": "0ACD",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 14,
+        "example": 3960
+      },
+      {
+        "tile": "0ACE",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 3936
+      },
+      {
+        "tile": "0ACF",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 3,
+        "example": 3948
+      },
+      {
+        "tile": "0AEE",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 17,
+        "example": 1104
+      },
+      {
+        "tile": "0AEF",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 17,
+        "example": 1104
+      },
+      {
+        "tile": "0AF0",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 17,
+        "example": 1112
+      },
+      {
+        "tile": "0AF1",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 17,
+        "example": 1112
+      },
+      {
+        "tile": "0AF2",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 147,
+        "example": 1120
+      },
+      {
+        "tile": "0AF2",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 337,
+        "example": 1168
+      },
+      {
+        "tile": "0AF3",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 147,
+        "example": 1120
+      },
+      {
+        "tile": "0AF3",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 331,
+        "example": 1168
+      },
+      {
+        "tile": "0AF4",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 147,
+        "example": 1120
+      },
+      {
+        "tile": "0AF4",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 337,
+        "example": 1168
+      },
+      {
+        "tile": "0AF5",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 120,
+        "example": 1128
+      },
+      {
+        "tile": "0AF5",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 296,
+        "example": 1168
+      },
+      {
+        "tile": "0AF6",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 27,
+        "example": 1120
+      },
+      {
+        "tile": "0AF6",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 35,
+        "example": 1188
+      },
+      {
+        "tile": "0AF7",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 27,
+        "example": 1120
+      },
+      {
+        "tile": "0AF7",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 19,
+        "example": 1188
+      },
+      {
+        "tile": "0AF8",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 616,
+        "example": 1100
+      },
+      {
+        "tile": "0AF9",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 612,
+        "example": 1100
+      },
+      {
+        "tile": "0AFA",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 616,
+        "example": 1100
+      },
+      {
+        "tile": "0AFB",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 612,
+        "example": 1100
+      }
+    ],
+    "AA09": [
+      {
+        "tile": "0A00",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 640,
+        "example": 4044
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 57,
+        "example": 6180
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 6384
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 253,
+        "example": 4048
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 44,
+        "example": 4624
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 55,
+        "example": 6180
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 6384
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 249,
+        "example": 4048
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 44,
+        "example": 4624
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 55,
+        "example": 6180
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 6384
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 204,
+        "example": 4048
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 40,
+        "example": 4708
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 55,
+        "example": 6180
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 6384
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 204,
+        "example": 4048
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 40,
+        "example": 4708
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 55,
+        "example": 6180
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 27,
+        "example": 6384
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 204,
+        "example": 4048
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 40,
+        "example": 4708
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 47,
+        "example": 6180
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 13,
+        "example": 6384
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 124,
+        "example": 4048
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 12,
+        "example": 4624
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 47,
+        "example": 6180
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 13,
+        "example": 6384
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 124,
+        "example": 4048
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 12,
+        "example": 4624
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 47,
+        "example": 6180
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 13,
+        "example": 6384
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 124,
+        "example": 4048
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 12,
+        "example": 4624
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 47,
+        "example": 6180
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 13,
+        "example": 6384
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 124,
+        "example": 4048
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 12,
+        "example": 4624
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6484
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 15,
+        "example": 6364
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 60,
+        "example": 4092
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 4628
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6484
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 15,
+        "example": 6364
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 60,
+        "example": 4092
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 4628
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6484
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 15,
+        "example": 6364
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 60,
+        "example": 4092
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 4628
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6484
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 15,
+        "example": 6364
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 60,
+        "example": 4092
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 4628
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6484
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6364
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 44,
+        "example": 4092
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 4628
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6484
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6364
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 44,
+        "example": 4092
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 4628
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6484
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6364
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 44,
+        "example": 4092
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 4628
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6484
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6364
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 44,
+        "example": 4092
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 4628
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 32,
+        "example": 4100
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6492
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 8,
+        "example": 6368
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4044
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 9,
+        "example": 4696
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6500
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 7,
+        "example": 6376
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 4108
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4700
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6500
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 7,
+        "example": 6376
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 4108
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4700
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6500
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 7,
+        "example": 6376
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 4108
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4700
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6500
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 7,
+        "example": 6376
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 16,
+        "example": 4108
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4700
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 47,
+        "example": 4172
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 47,
+        "example": 4172
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 47,
+        "example": 4172
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 47,
+        "example": 4172
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 47,
+        "example": 4172
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 47,
+        "example": 4172
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4172
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4172
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4172
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6228
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 33,
+        "example": 4172
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 7,
+        "example": 4632
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 45,
+        "example": 4284
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4624
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6232
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 49,
+        "example": 4176
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4624
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 45,
+        "example": 4284
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4624
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 45,
+        "example": 4284
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 4,
+        "example": 4624
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 14,
+        "example": 5168
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 1,
+        "example": 5832
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 14,
+        "example": 5168
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 1,
+        "example": 5832
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 14,
+        "example": 5168
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 1,
+        "example": 5832
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 14,
+        "example": 5168
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 1,
+        "example": 5832
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 6444
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 14,
+        "example": 6432
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 115,
+        "example": 4264
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 31,
+        "example": 5024
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 6444
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 14,
+        "example": 6432
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 115,
+        "example": 4264
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 31,
+        "example": 5024
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 6444
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 14,
+        "example": 6432
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 115,
+        "example": 4264
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 31,
+        "example": 5024
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 6444
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 14,
+        "example": 6432
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 115,
+        "example": 4264
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 31,
+        "example": 5024
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 10,
+        "example": 6444
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 14,
+        "example": 6432
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 115,
+        "example": 4264
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 31,
+        "example": 5024
+      },
+      {
+        "tile": "0A3B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 28,
+        "example": 4200
+      },
+      {
+        "tile": "0A3D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 14,
+        "example": 4200
+      },
+      {
+        "tile": "0A3E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 14,
+        "example": 4200
+      },
+      {
+        "tile": "0A3F",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 14,
+        "example": 4200
+      },
+      {
+        "tile": "0A40",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6232
+      },
+      {
+        "tile": "0A40",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 4,
+        "example": 4176
+      },
+      {
+        "tile": "0A41",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6232
+      },
+      {
+        "tile": "0A41",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 4,
+        "example": 4176
+      },
+      {
+        "tile": "0A42",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6232
+      },
+      {
+        "tile": "0A42",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 4,
+        "example": 4176
+      },
+      {
+        "tile": "0A43",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 149,
+        "example": 4236
+      },
+      {
+        "tile": "0A43",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 38,
+        "example": 4648
+      },
+      {
+        "tile": "0A44",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 72,
+        "example": 4176
+      },
+      {
+        "tile": "0A4B",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 37,
+        "example": 6372
+      },
+      {
+        "tile": "0A4C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 37,
+        "example": 6372
+      },
+      {
+        "tile": "0A50",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 640,
+        "example": 4044
+      },
+      {
+        "tile": "0A51",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 335,
+        "example": 4044
+      },
+      {
+        "tile": "0A52",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 493,
+        "example": 4044
+      },
+      {
+        "tile": "0A53",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 2372,
+        "example": 4044
+      },
+      {
+        "tile": "0A54",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 640,
+        "example": 4044
+      },
+      {
+        "tile": "0A55",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 640,
+        "example": 4044
+      },
+      {
+        "tile": "0A56",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 1246,
+        "example": 4044
+      },
+      {
+        "tile": "0A57",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 34,
+        "example": 6524
+      },
+      {
+        "tile": "0A58",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 6328
+      },
+      {
+        "tile": "0A5A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 24,
+        "example": 6232
+      },
+      {
+        "tile": "0A5C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 567,
+        "example": 4044
+      },
+      {
+        "tile": "0A60",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 63,
+        "example": 4128
+      },
+      {
+        "tile": "0A61",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 63,
+        "example": 4128
+      },
+      {
+        "tile": "0A62",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 63,
+        "example": 4128
+      },
+      {
+        "tile": "0A63",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 63,
+        "example": 4128
+      },
+      {
+        "tile": "0A64",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4136
+      },
+      {
+        "tile": "0A65",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4136
+      },
+      {
+        "tile": "0A66",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 72,
+        "example": 4136
+      },
+      {
+        "tile": "0A67",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4136
+      },
+      {
+        "tile": "0A68",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 72,
+        "example": 4136
+      },
+      {
+        "tile": "0A69",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4136
+      },
+      {
+        "tile": "0A6A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4136
+      },
+      {
+        "tile": "0A6B",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 72,
+        "example": 4136
+      },
+      {
+        "tile": "0A6C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4144
+      },
+      {
+        "tile": "0A6D",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4144
+      },
+      {
+        "tile": "0A6E",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4144
+      },
+      {
+        "tile": "0A6F",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 70,
+        "example": 4152
+      },
+      {
+        "tile": "0A70",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4144
+      },
+      {
+        "tile": "0A71",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 70,
+        "example": 4152
+      },
+      {
+        "tile": "0A72",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4144
+      },
+      {
+        "tile": "0A73",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 74,
+        "example": 4144
+      },
+      {
+        "tile": "0A94",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 51,
+        "example": 4044
+      },
+      {
+        "tile": "0A97",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 137,
+        "example": 4472
+      },
+      {
+        "tile": "0A98",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 137,
+        "example": 4472
+      },
+      {
+        "tile": "0A99",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 164,
+        "example": 4472
+      },
+      {
+        "tile": "0A9A",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 99,
+        "example": 4428
+      },
+      {
+        "tile": "0A9B",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 102,
+        "example": 4428
+      },
+      {
+        "tile": "0A9C",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4428
+      },
+      {
+        "tile": "0A9D",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 99,
+        "example": 4428
+      },
+      {
+        "tile": "0A9E",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 102,
+        "example": 4428
+      },
+      {
+        "tile": "0A9F",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4428
+      },
+      {
+        "tile": "0AA0",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 99,
+        "example": 4428
+      },
+      {
+        "tile": "0AA1",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 102,
+        "example": 4428
+      },
+      {
+        "tile": "0AA2",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4428
+      },
+      {
+        "tile": "0AA3",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 99,
+        "example": 4432
+      },
+      {
+        "tile": "0AA4",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 100,
+        "example": 4432
+      },
+      {
+        "tile": "0AA5",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4432
+      },
+      {
+        "tile": "0AA6",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 99,
+        "example": 4432
+      },
+      {
+        "tile": "0AA7",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 100,
+        "example": 4432
+      },
+      {
+        "tile": "0AA8",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4432
+      },
+      {
+        "tile": "0AA9",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 99,
+        "example": 4432
+      },
+      {
+        "tile": "0AAA",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 100,
+        "example": 4432
+      },
+      {
+        "tile": "0AAB",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4432
+      },
+      {
+        "tile": "0AAC",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 98,
+        "example": 4424
+      },
+      {
+        "tile": "0AAD",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4424
+      },
+      {
+        "tile": "0AAE",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 100,
+        "example": 4436
+      },
+      {
+        "tile": "0AAF",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 98,
+        "example": 4424
+      },
+      {
+        "tile": "0AB0",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4424
+      },
+      {
+        "tile": "0AB1",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 100,
+        "example": 4436
+      },
+      {
+        "tile": "0AB2",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 98,
+        "example": 4424
+      },
+      {
+        "tile": "0AB3",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 101,
+        "example": 4424
+      },
+      {
+        "tile": "0AB4",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 100,
+        "example": 4436
+      },
+      {
+        "tile": "0AB8",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AB9",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0ABC",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0ABD",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0ABE",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC1",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC2",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC3",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC4",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC5",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC6",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC7",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC8",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AC9",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0ACA",
+        "palette": "FF26173A",
+        "flip": 64,
+        "count": 1,
+        "example": 4044
+      },
+      {
+        "tile": "0AD0",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD1",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD2",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD3",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD4",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD5",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD6",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD7",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD8",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0AD9",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 30,
+        "example": 4172
+      },
+      {
+        "tile": "0ADA",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 526,
+        "example": 4048
+      },
+      {
+        "tile": "0ADB",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 526,
+        "example": 4048
+      },
+      {
+        "tile": "0ADC",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 526,
+        "example": 4048
+      },
+      {
+        "tile": "0ADD",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 526,
+        "example": 4048
+      },
+      {
+        "tile": "0ADE",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 263,
+        "example": 4048
+      },
+      {
+        "tile": "0ADF",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 263,
+        "example": 4048
+      },
+      {
+        "tile": "0AE0",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 279,
+        "example": 4104
+      },
+      {
+        "tile": "0AEE",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 4,
+        "example": 4540
+      },
+      {
+        "tile": "0AEF",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 4,
+        "example": 4540
+      },
+      {
+        "tile": "0AF0",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 4,
+        "example": 4548
+      },
+      {
+        "tile": "0AF1",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 4,
+        "example": 4548
+      },
+      {
+        "tile": "0AF2",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 233,
+        "example": 4556
+      },
+      {
+        "tile": "0AF2",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 10,
+        "example": 4044
+      },
+      {
+        "tile": "0AF3",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 233,
+        "example": 4556
+      },
+      {
+        "tile": "0AF3",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 10,
+        "example": 4044
+      },
+      {
+        "tile": "0AF4",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 233,
+        "example": 4556
+      },
+      {
+        "tile": "0AF4",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 10,
+        "example": 4044
+      },
+      {
+        "tile": "0AF5",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 207,
+        "example": 4564
+      },
+      {
+        "tile": "0AF5",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 7,
+        "example": 4044
+      },
+      {
+        "tile": "0AF6",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 26,
+        "example": 4556
+      },
+      {
+        "tile": "0AF6",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 3,
+        "example": 4044
+      },
+      {
+        "tile": "0AF7",
+        "palette": "FF172737",
+        "flip": 0,
+        "count": 26,
+        "example": 4556
+      },
+      {
+        "tile": "0AF7",
+        "palette": "FF172737",
+        "flip": 64,
+        "count": 3,
+        "example": 4044
+      }
+    ],
+    "AA81": [
+      {
+        "tile": "0A00",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 429,
+        "example": 6660
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 35,
+        "example": 6720
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 30,
+        "example": 6664
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 36,
+        "example": 7008
+      },
+      {
+        "tile": "0A01",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 150,
+        "example": 7276
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 35,
+        "example": 6720
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 30,
+        "example": 6664
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 36,
+        "example": 7008
+      },
+      {
+        "tile": "0A02",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 149,
+        "example": 7276
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 31,
+        "example": 6720
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 29,
+        "example": 6660
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 9,
+        "example": 7036
+      },
+      {
+        "tile": "0A03",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 120,
+        "example": 7276
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 31,
+        "example": 6720
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 29,
+        "example": 6660
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 9,
+        "example": 7036
+      },
+      {
+        "tile": "0A04",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 120,
+        "example": 7276
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 31,
+        "example": 6720
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 29,
+        "example": 6660
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 9,
+        "example": 7036
+      },
+      {
+        "tile": "0A05",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 120,
+        "example": 7276
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 28,
+        "example": 6720
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 25,
+        "example": 6684
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 36,
+        "example": 7008
+      },
+      {
+        "tile": "0A06",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 88,
+        "example": 7320
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 28,
+        "example": 6720
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 25,
+        "example": 6684
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 36,
+        "example": 7008
+      },
+      {
+        "tile": "0A07",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 88,
+        "example": 7320
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 28,
+        "example": 6720
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 25,
+        "example": 6684
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 36,
+        "example": 7008
+      },
+      {
+        "tile": "0A08",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 88,
+        "example": 7320
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 28,
+        "example": 6720
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 25,
+        "example": 6684
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 36,
+        "example": 7008
+      },
+      {
+        "tile": "0A09",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 88,
+        "example": 7320
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6688
+      },
+      {
+        "tile": "0A0A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 30,
+        "example": 7268
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6688
+      },
+      {
+        "tile": "0A0B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 30,
+        "example": 7268
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6688
+      },
+      {
+        "tile": "0A0C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 30,
+        "example": 7268
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6688
+      },
+      {
+        "tile": "0A0D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 30,
+        "example": 7268
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 3,
+        "example": 6688
+      },
+      {
+        "tile": "0A0E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 7268
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 3,
+        "example": 6688
+      },
+      {
+        "tile": "0A0F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 7268
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 3,
+        "example": 6688
+      },
+      {
+        "tile": "0A10",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 7268
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 2,
+        "example": 6716
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 3,
+        "example": 6688
+      },
+      {
+        "tile": "0A11",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 20,
+        "example": 7268
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A12",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A13",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A14",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A15",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A16",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A17",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A18",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A19",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A1A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A1B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 4,
+        "example": 6692
+      },
+      {
+        "tile": "0A1C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 13,
+        "example": 7340
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 6700
+      },
+      {
+        "tile": "0A1D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 10,
+        "example": 7348
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 6700
+      },
+      {
+        "tile": "0A1E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 10,
+        "example": 7348
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 6700
+      },
+      {
+        "tile": "0A1F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 10,
+        "example": 7348
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 6700
+      },
+      {
+        "tile": "0A20",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 10,
+        "example": 7348
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6908
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A21",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 74,
+        "example": 7284
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6908
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A22",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 74,
+        "example": 7284
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6908
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A23",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 74,
+        "example": 7284
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6908
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A24",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 74,
+        "example": 7284
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6908
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A25",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 74,
+        "example": 7284
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6908
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A26",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 74,
+        "example": 7284
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6988
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A27",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 7316
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6988
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A28",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 7316
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6988
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A29",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 7316
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 3,
+        "example": 6988
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 1,
+        "example": 7644
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 29,
+        "example": 7012
+      },
+      {
+        "tile": "0A2A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 5,
+        "example": 7316
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6912
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 7648
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 27,
+        "example": 7008
+      },
+      {
+        "tile": "0A2B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 29,
+        "example": 7288
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6912
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 7648
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 27,
+        "example": 7008
+      },
+      {
+        "tile": "0A2C",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 30,
+        "example": 7288
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6912
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 7648
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 27,
+        "example": 7008
+      },
+      {
+        "tile": "0A2D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 29,
+        "example": 7288
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 4,
+        "example": 6912
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 2,
+        "example": 7648
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF300036",
+        "flip": 0,
+        "count": 27,
+        "example": 7008
+      },
+      {
+        "tile": "0A2E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 29,
+        "example": 7288
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6904
+      },
+      {
+        "tile": "0A2F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 7324
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6904
+      },
+      {
+        "tile": "0A30",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 7324
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6904
+      },
+      {
+        "tile": "0A31",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 7324
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 7,
+        "example": 6904
+      },
+      {
+        "tile": "0A32",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 16,
+        "example": 7324
+      },
+      {
+        "tile": "0A33",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 1,
+        "example": 6908
+      },
+      {
+        "tile": "0A33",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 58,
+        "example": 7328
+      },
+      {
+        "tile": "0A34",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 1,
+        "example": 6908
+      },
+      {
+        "tile": "0A34",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 58,
+        "example": 7328
+      },
+      {
+        "tile": "0A35",
+        "palette": "FF221136",
+        "flip": 0,
+        "count": 1,
+        "example": 6908
+      },
+      {
+        "tile": "0A35",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 58,
+        "example": 7328
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 6,
+        "example": 6660
+      },
+      {
+        "tile": "0A36",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 46,
+        "example": 7276
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 6,
+        "example": 6660
+      },
+      {
+        "tile": "0A37",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 46,
+        "example": 7276
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 6,
+        "example": 6660
+      },
+      {
+        "tile": "0A38",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 46,
+        "example": 7276
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 6,
+        "example": 6660
+      },
+      {
+        "tile": "0A39",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 46,
+        "example": 7276
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF221136",
+        "flip": 64,
+        "count": 6,
+        "example": 6660
+      },
+      {
+        "tile": "0A3A",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 46,
+        "example": 7276
+      },
+      {
+        "tile": "0A3B",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 22,
+        "example": 7284
+      },
+      {
+        "tile": "0A3D",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 11,
+        "example": 7284
+      },
+      {
+        "tile": "0A3E",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 11,
+        "example": 7284
+      },
+      {
+        "tile": "0A3F",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 11,
+        "example": 7284
+      },
+      {
+        "tile": "0A40",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 1,
+        "example": 7872
+      },
+      {
+        "tile": "0A41",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 1,
+        "example": 7872
+      },
+      {
+        "tile": "0A42",
+        "palette": "FF300036",
+        "flip": 64,
+        "count": 1,
+        "example": 7872
+      },
+      {
+        "tile": "0A43",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 7020
+      },
+      {
+        "tile": "0A43",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 51,
+        "example": 7288
+      },
+      {
+        "tile": "0A47",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 106,
+        "example": 6964
+      },
+      {
+        "tile": "0A48",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 8,
+        "example": 7372
+      },
+      {
+        "tile": "0A50",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 429,
+        "example": 6660
+      },
+      {
+        "tile": "0A51",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 386,
+        "example": 7392
+      },
+      {
+        "tile": "0A52",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 214,
+        "example": 6660
+      },
+      {
+        "tile": "0A53",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 1545,
+        "example": 6660
+      },
+      {
+        "tile": "0A54",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 429,
+        "example": 6660
+      },
+      {
+        "tile": "0A55",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 429,
+        "example": 6660
+      },
+      {
+        "tile": "0A56",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 552,
+        "example": 6660
+      },
+      {
+        "tile": "0A57",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 93,
+        "example": 6660
+      },
+      {
+        "tile": "0A58",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 61,
+        "example": 7408
+      },
+      {
+        "tile": "0A5C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 245,
+        "example": 6660
+      },
+      {
+        "tile": "0A5D",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 152,
+        "example": 7652
+      },
+      {
+        "tile": "0A5F",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 184,
+        "example": 6916
+      },
+      {
+        "tile": "0A60",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 40,
+        "example": 6936
+      },
+      {
+        "tile": "0A60",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8508
+      },
+      {
+        "tile": "0A61",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 40,
+        "example": 6936
+      },
+      {
+        "tile": "0A61",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8508
+      },
+      {
+        "tile": "0A62",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 39,
+        "example": 6936
+      },
+      {
+        "tile": "0A62",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8508
+      },
+      {
+        "tile": "0A63",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 39,
+        "example": 6936
+      },
+      {
+        "tile": "0A63",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8508
+      },
+      {
+        "tile": "0A64",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6940
+      },
+      {
+        "tile": "0A64",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A65",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6940
+      },
+      {
+        "tile": "0A65",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A66",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6940
+      },
+      {
+        "tile": "0A66",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A67",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6940
+      },
+      {
+        "tile": "0A67",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A68",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6940
+      },
+      {
+        "tile": "0A68",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A69",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6940
+      },
+      {
+        "tile": "0A69",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A6A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 45,
+        "example": 6940
+      },
+      {
+        "tile": "0A6A",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A6B",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 44,
+        "example": 6944
+      },
+      {
+        "tile": "0A6B",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 2,
+        "example": 8500
+      },
+      {
+        "tile": "0A6C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 6948
+      },
+      {
+        "tile": "0A6C",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A6D",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 48,
+        "example": 6956
+      },
+      {
+        "tile": "0A6D",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A6E",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6956
+      },
+      {
+        "tile": "0A6E",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A6F",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 48,
+        "example": 6956
+      },
+      {
+        "tile": "0A6F",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A70",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 46,
+        "example": 6956
+      },
+      {
+        "tile": "0A70",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A71",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 47,
+        "example": 6956
+      },
+      {
+        "tile": "0A71",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A72",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 47,
+        "example": 6956
+      },
+      {
+        "tile": "0A72",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A73",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 47,
+        "example": 6956
+      },
+      {
+        "tile": "0A73",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 3,
+        "example": 7312
+      },
+      {
+        "tile": "0A8A",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 308,
+        "example": 6916
+      },
+      {
+        "tile": "0A8A",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 214,
+        "example": 7652
+      },
+      {
+        "tile": "0A8B",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 308,
+        "example": 6916
+      },
+      {
+        "tile": "0A8B",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 214,
+        "example": 7652
+      },
+      {
+        "tile": "0A8C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 308,
+        "example": 6916
+      },
+      {
+        "tile": "0A8C",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 214,
+        "example": 7652
+      },
+      {
+        "tile": "0A8D",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 308,
+        "example": 6916
+      },
+      {
+        "tile": "0A8D",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 214,
+        "example": 7652
+      },
+      {
+        "tile": "0AD0",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD1",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD2",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD3",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD4",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD5",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD6",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD7",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD8",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0AD9",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 46,
+        "example": 6964
+      },
+      {
+        "tile": "0ADA",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 726,
+        "example": 6668
+      },
+      {
+        "tile": "0ADB",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 730,
+        "example": 6668
+      },
+      {
+        "tile": "0ADC",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 726,
+        "example": 6668
+      },
+      {
+        "tile": "0ADD",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 730,
+        "example": 6668
+      },
+      {
+        "tile": "0ADE",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 363,
+        "example": 6668
+      },
+      {
+        "tile": "0ADF",
+        "palette": "FF10300C",
+        "flip": 0,
+        "count": 365,
+        "example": 6668
+      },
+      {
+        "tile": "0AE0",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 416,
+        "example": 6888
+      },
+      {
+        "tile": "0AE2",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE2",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 140,
+        "example": 7464
+      },
+      {
+        "tile": "0AE3",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE3",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 144,
+        "example": 7456
+      },
+      {
+        "tile": "0AE4",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE4",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 144,
+        "example": 7456
+      },
+      {
+        "tile": "0AE5",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE5",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 143,
+        "example": 7460
+      },
+      {
+        "tile": "0AE6",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE6",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 140,
+        "example": 7464
+      },
+      {
+        "tile": "0AE7",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE7",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 144,
+        "example": 7456
+      },
+      {
+        "tile": "0AE8",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE8",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 144,
+        "example": 7456
+      },
+      {
+        "tile": "0AE9",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AE9",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 143,
+        "example": 7460
+      },
+      {
+        "tile": "0AEA",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AEA",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 140,
+        "example": 7464
+      },
+      {
+        "tile": "0AEB",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AEB",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 144,
+        "example": 7456
+      },
+      {
+        "tile": "0AEC",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AEC",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 144,
+        "example": 7456
+      },
+      {
+        "tile": "0AED",
+        "palette": "FF003008",
+        "flip": 0,
+        "count": 145,
+        "example": 6664
+      },
+      {
+        "tile": "0AED",
+        "palette": "FF003008",
+        "flip": 64,
+        "count": 143,
+        "example": 7460
+      },
+      {
+        "tile": "0AFC",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 410,
+        "example": 6676
+      },
+      {
+        "tile": "0AFC",
+        "palette": "FF301116",
+        "flip": 64,
+        "count": 387,
+        "example": 7488
+      }
+    ],
+    "0000": [
+      {
+        "tile": "1E00",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 8260
+      },
+      {
+        "tile": "1E50",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 8260
+      },
+      {
+        "tile": "1E51",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 245,
+        "example": 8260
+      },
+      {
+        "tile": "1E54",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 8260
+      },
+      {
+        "tile": "1E55",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 8260
+      },
+      {
+        "tile": "1E56",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 8260
+      },
+      {
+        "tile": "1E57",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 8260
+      },
+      {
+        "tile": "1E5C",
+        "palette": "FF301116",
+        "flip": 0,
+        "count": 49,
+        "example": 8260
+      }
+    ]
+  },
+  "palette_phases": {
+    "A865": [
+      {
+        "mode": 28,
+        "palettes": "0f0717370f0717030f0737030f0313230f26173a0f1727370f3011160f300036",
+        "count": 406
+      },
+      {
+        "mode": 28,
+        "palettes": "0f0717370f0717030f0737030f0313230f26173a0f1727370f3011160f221136",
+        "count": 544
+      },
+      {
+        "mode": 28,
+        "palettes": "0f0728300f0717370f1b2b3b0f1727370f0f0f0f0f0f0f0f0f3011160f300036",
+        "count": 3
+      }
+    ],
+    "AA09": [
+      {
+        "mode": 8,
+        "palettes": "0f0717370f0717030f0737030f0313230f26173a0f1727370f3011160f300036",
+        "count": 1
+      },
+      {
+        "mode": 8,
+        "palettes": "0f1727370f0717230f0717370f0313230f10300c0f1727370f3011160f300036",
+        "count": 518
+      },
+      {
+        "mode": 8,
+        "palettes": "0f0728300f0717370f1b2b3b0f1727370f0f0f0f0f0f0f0f0f3011160f300036",
+        "count": 1
+      },
+      {
+        "mode": 8,
+        "palettes": "0f1727370f0717230f0717370f0313230f10300c0f1727370f3011160f221136",
+        "count": 120
+      }
+    ],
+    "AA81": [
+      {
+        "mode": 8,
+        "palettes": "0f1727370f0717230f0717370f0313230f10300c0f1727370f3011160f221136",
+        "count": 1
+      },
+      {
+        "mode": 8,
+        "palettes": "0f1727370f0717230f0717370f0313230f0030080f10300c0f3011160f221136",
+        "count": 80
+      },
+      {
+        "mode": 8,
+        "palettes": "0f0728300f0717370f1b2b3b0f1727370f0f0f0f0f0f0f0f0f3011160f300036",
+        "count": 1
+      },
+      {
+        "mode": 8,
+        "palettes": "0f1727370f0717230f0717370f0313230f0030080f10300c0f3011160f300036",
+        "count": 347
+      }
+    ],
+    "0000": [
+      {
+        "mode": 4,
+        "palettes": "0f2130290f0010200f0212220f0414240f0f0f0f0f0f0f0f0f3011160f300036",
+        "count": 49
+      }
+    ]
+  }
+}

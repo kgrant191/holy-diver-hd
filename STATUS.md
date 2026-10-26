@@ -1,5 +1,11 @@
 # Current status
 
+## Golden Temple review — 0.16.0
+
+The outdoor approach and both indoor sections reached by the supplied recording now have distinct Golden Temple scenery. OVERDRIVE is spelled correctly in the Start menu and casts new cobalt/ivory orbiting orbs. New temple actors retain native footprints, animation and behavior; proven returning actors reuse approved art. All 104 previous art/audio files remain exact. The 109-file install is a review candidate, based on approved main 0.15.0. No push, PR, merge, tag or release has occurred. Paired tests pass 4,139 native samples per type across 10,639 frames per build, with exact full PCM/APU. The archive passes all 109 hashes and flat-layout/CRC checks. See docs/LEVEL4_GOLDEN_TEMPLE.md and evidence/level4/.
+
+Later unrecorded temple areas and its boss remain unfinished. Review this candidate before adoption. Historical entries below retain their original delivery/approval status.
+
 ## Approved baseline — 0.15.0, main
 
 The user approved the completed Level 3 pack and authorized all five PRs and merges on 2026-10-26. PRs #13 → #14 → #15 → #16 → #17 are merged into main in dependency order, with each successor retargeted to main. Every merge tree matches its reviewed branch head. All five PR builds and all five main merge builds passed; all ten downloaded artifacts match their complete expected manifests, archive digests, CRCs and flat install layouts. The final pack retains all 106 reviewed installation bytes, including historical README wording. See evidence/stage3_adoption/ and evidence/level3_finale/approval.json.

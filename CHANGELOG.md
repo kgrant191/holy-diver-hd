@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.16.0 — 2026-10-26 (Golden Temple review)
+
+- Render the opening outdoors, then enclosed golden halls after entering the temple. Cover all three room pointers reached by the recording.
+- Add gold collision masonry, continuous columns, temple doorway, boulder poses, gargoyle wingbeats and horned guardians; reuse proven returning actors.
+- Correct both V letters in OVERDRIVE and update its orbiting cobalt/ivory energy orbs. Keep the gargoyle crescent distinct from the player spell.
+- Preserve every earlier art/audio file, all native game state and sound, and recoverable approved 0.15.0 mappings. Add paired Mesen movie/cast/edge evidence and a source-bundle handoff. Awaiting user review.
+
 ## 0.15.0 — 2026-10-26 (approved and merged)
 
 - Merge all five Level 3 PRs (#13–#17) into main after user authorization. All PR/main builds and ten downloaded artifacts pass; preserve all 106 reviewed installation bytes. Level 4 scenery is the next task.

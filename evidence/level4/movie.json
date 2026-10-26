@@ -1,0 +1,131 @@
+{
+  "native_samples_per_type": 2168,
+  "movie_frames": 8668,
+  "movie_sha256": "f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "native_types": [
+    "RAM",
+    "PPU",
+    "OAM",
+    "PPU view"
+  ],
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 27698116,
+  "apu_sha256": "4589c0c235f4df356084b9e1e52f42df2ca0e6a6b6d27e719540e127f9f1f2b5",
+  "pcm_sha256": "ae449541f642034e4f4b9240542ca0497b0b0a0eb4db005a85e2b7b282a377ab",
+  "room_samples": {
+    "A865": 953,
+    "FFFF": 97,
+    "AA09": 640,
+    "AA81": 429,
+    "0000": 49
+  },
+  "unchanged": {
+    "all": 143,
+    "outside_room": 55,
+    "black": 40,
+    "rendered_last_play_frame": 1
+  },
+  "menu_samples": 90,
+  "menu_changes_confined_to_overdrive": true,
+  "complete_sprite_matches": {
+    "overdrive_orb/h0v0": 47,
+    "boulder_0/h0v0": 29,
+    "boulder_1/h0v0": 32,
+    "boulder_2/h0v0": 32,
+    "gargoyle_1/h0v0": 3,
+    "gargoyle_0/h0v0": 1,
+    "gargoyle_0/h1v0": 3,
+    "gargoyle_1/h1v0": 1,
+    "guardian/h0v0": 27,
+    "guardian/h1v0": 24,
+    "overdrive_orb/h1v0": 20
+  },
+  "examples": {
+    "overdrive_orb/h0v0": {
+      "frame": 300,
+      "xy": [
+        106,
+        320
+      ]
+    },
+    "boulder_0/h0v0": {
+      "frame": 360,
+      "xy": [
+        420,
+        112
+      ]
+    },
+    "boulder_1/h0v0": {
+      "frame": 380,
+      "xy": [
+        400,
+        82
+      ]
+    },
+    "boulder_2/h0v0": {
+      "frame": 380,
+      "xy": [
+        316,
+        176
+      ]
+    },
+    "gargoyle_1/h0v0": {
+      "frame": 940,
+      "xy": [
+        382,
+        154
+      ]
+    },
+    "gargoyle_0/h0v0": {
+      "frame": 2720,
+      "xy": [
+        384,
+        64
+      ]
+    },
+    "gargoyle_0/h1v0": {
+      "frame": 3880,
+      "xy": [
+        50,
+        106
+      ]
+    },
+    "gargoyle_1/h1v0": {
+      "frame": 3900,
+      "xy": [
+        86,
+        146
+      ]
+    },
+    "guardian/h0v0": {
+      "frame": 6680,
+      "xy": [
+        352,
+        226
+      ]
+    },
+    "guardian/h1v0": {
+      "frame": 7480,
+      "xy": [
+        40,
+        282
+      ]
+    },
+    "overdrive_orb/h1v0": {
+      "frame": 7660,
+      "xy": [
+        112,
+        320
+      ]
+    }
+  },
+  "menu_glyph_source_checks": {
+    "complete_O": 88,
+    "visible_pixels": 5494,
+    "complete_V": 178
+  }
+}

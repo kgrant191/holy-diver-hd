@@ -1,5 +1,9 @@
 # Art direction
 
+## Golden Temple — 0.16.0 review
+
+Use an open navy twilight sky and distant gilded temple for the outdoor approach, then enclosed navy masonry and gold arches inside. Bright gold physical blocks remain distinct from the subdued hall. Keep shafts continuous and native stair shapes readable. New enemies are gold stone boulders, flying golden gargoyles and compact ivory/olive horned guardians. Active Overdrive uses cobalt/ivory orbiting orbs with gold detail; its previously approved acquisition orb is a different graphic. Source brief summaries and registrations: art/generated/level4_provenance.json, art/level4/, scripts/build_level4.py.
+
 ## Final moss climb and boss — approved 0.15.0
 
 Continue the approved emerald ruins and exact moss-covered platform contours through 9F1A and 9F92. The boss has a coral/pink horned organic face with ivory ridges and burgundy recesses, emerging vertically from thorny green ceiling/floor growths. Its three curved attacks use one consistent pink treatment inside their native staggered footprints. Overdrive is a ruby/ivory sunburst orb with restrained gold accents. Reuse approved Randy, HUD, round shots and intermission framing. Keep native destruction, screen flashes and camera shake. Sources/prompts: art/generated/boss3_*; registrations and native references: art/level3_finale/.
