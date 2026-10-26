@@ -1,0 +1,20 @@
+{
+  "version": "0.12.0",
+  "status": "review candidate; not approved",
+  "archive_sha256": "82fab04faae7be26a13020605a36727f2ccacdd9b1c4d9273724cdc102078a79",
+  "archive_bytes": 17564068,
+  "root_files": 100,
+  "crc_valid": true,
+  "flat_layout": true,
+  "nested_zip": false,
+  "all_expected_sha256_match": true,
+  "prior_unchanged_runtime_files": 97,
+  "changed_prior_files": [
+    "hires.txt",
+    "README.txt"
+  ],
+  "new_files": [
+    "Stage3_Lava_Tiles_2x.png"
+  ],
+  "runtime_matches_final_native_capture": true
+}

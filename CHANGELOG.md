@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.12.0 — Level 3 lava corridor (review candidate, 2026-10-25)
+
+- Match the Start/pause-menu boot to the approved collectible.
+- Reuse the approved cave panorama, brown terrain, carved steps and exact hot/frozen lava cells across the recorded corridor.
+- Add two large-fish and two small-fish poses with native mirroring and direction.
+- Complete Breaker charge, horizontal release/flight and upward release/flight, including normal and magic-enabled palettes and twelve byte-identical graphics-bank copies.
+- Preserve all 97 previous runtime assets apart from mapping/version notes. Add controller-only movie derivatives and paired native memory/audio and actual-pixel verification.
+
 ## 0.11.2 — 2026-10-25 (approved)
 
 - Record user approval of the delivered build; preserve all 99 installed bytes and the exact ZIP. Source publication and merge remain pending.

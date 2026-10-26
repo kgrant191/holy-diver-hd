@@ -1,3 +1,7 @@
+Holy Diver HD 0.12.0 — Level 3 lava corridor review
+
+Adds the lava corridor, two fish poses and small fish forms. Reuses the approved cave, brown terrain, carved steps, lava/ice and boot art on the pause menu. Completes Breaker charge, release and travelling effects for horizontal and upward casts. Native gameplay and sound remain unchanged. Later Level 3 scenery and the boss remain unfinished.
+
 Holy Diver HD 0.11.2 — Level 3 detail review
 
 Updates the round enemy shot, magenta boot collectible and solid two-row oak branches. Keeps the spinning enemy, insect flyer and broad bark from the previous review. Native platform contours, gameplay and sound remain unchanged. Later Level 3 rooms and boss remain unfinished.

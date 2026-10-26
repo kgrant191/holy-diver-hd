@@ -104,3 +104,7 @@ The small winged eye is an insect: antennae, tucked legs and rounded veined rose
 ## Level 3 detail review — 0.11.2
 
 The requested round projectile is native 0694/FF301116 and reuses the exact approved 12×12 fireball inside its 16×16 HD cell. The boot is the magenta collectible (068A–068D/FF301525), with a pale folded cuff and left-pointing toe; do not alter Randy’s worn boots. Branches must be one continuous two-row oak body with a mossy upper edge, never duplicate thin strips with empty centers. Keep their nine original alpha masks exactly; do not extend walkable-looking paint beyond the original contour. Built-in image-generation sources and exact prompts are retained under art/generated/level3_*_generated.png and level3_detail_prompts.json.
+
+## Level 3 lava corridor — 0.12.0 review
+
+Reuse the approved dark cave panorama, brown terrain, complete native platform caps and carved step material. Map hot lava and Blizzard ice to exact approved atlas cells. The large fish is copper-orange with ivory fangs and a tall dorsal fin; small fish reuse that painted source with correct native facing. Breaker uses cobalt/cyan charge, release and bolts; rotate the registered release/bolt for upward casts. The menu boot is the exact collectible artwork, not a second design. Preserve the native stepped silhouettes and sprite-cell footprints. Sources, mappings and live coverage are documented in LEVEL3_LAVA.md.

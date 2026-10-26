@@ -2,6 +2,12 @@
 
 Updated: 2026-10-25 (America/New_York).
 
+## Current review — 0.12.0, feature/level3-lava
+
+Implements the next supplied recording: the Start/pause-menu boot now uses the approved collectible, the complete recorded lava corridor reuses approved cave/brown terrain/carved steps, large and small fish receive two painted poses each, and hot/frozen lava uses exact existing atlas cells. Breaker now has all 21 native charge/release/flight identities, including upward release/bolts, both directions and both observed spell palettes. Source-identical copies in twelve banks share the replacements; only the recorded bank has fresh live coverage.
+
+The new branch starts from approved 0.11.2 at `9eb0678f0ba3ee9aed9d19481c6eacb5f89fdd58`. This candidate is not approved, pushed or merged. It adds one atlas and changes only hires.txt and installed README among the previous 99 files; 97 prior runtime assets stay exact. The expected manifest describes 0.12.0, while `0.11.2-pack-sha256.json` retains the approved continuation baseline. Main remains merged 0.10.2. See `docs/LEVEL3_LAVA.md` and `evidence/level3_lava/` for paired native-state/audio, sprite, source-art and edge checks. Later Level 3 rooms and the boss are outside this recording.
+
 ## Approved continuation baseline — 0.11.2, feature/level3-opening
 
 The user approved the delivered 0.11.2 by saying "approved" on 2026-10-25 (America/New_York). `evidence/level3_detail/approval.json` pins the reviewed artwork commit and install ZIP. All 99 reviewed installation files, including the historical review label in the installed README, stay exact. This is the baseline for further Level 3 work; source publication, PR/Actions and merge remain pending.

@@ -2,6 +2,13 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
+## Current Level 3 lava review — 0.12.0
+
+- Work is on `feature/level3-lava`, based on approved `feature/level3-opening` at 9eb0678. The new corridor, menu boot, fish and Breaker casts are a review candidate, not approved. Preserve the frozen 0.11.2 manifest; main remains 0.10.2. See docs/LEVEL3_LAVA.md.
+- Lava room scenery is limited to RAM mode 10 / room 9AA6 and exact hot/ice palette guards. Menu boots are background IDs 0971–0974; reuse the approved collectible art. Small unflipped fish point right; native OAM mirroring makes the left-moving form face left.
+- Breaker uses 0675–0689 (charge, horizontal release/bolts, upward release/bolts) and twelve proven identical bank copies with both FF221136/FF300036 palettes. Preserve native OAM flips, timing, MP costs and stair destruction.
+- Runtime changes from 0.11.2 are hires.txt, README.txt and one new Stage3_Lava_Tiles_2x.png atlas. All 97 other approved runtime files stay exact. Shared Stage 2 fallback remains last.
+
 ## Approved Level 3 continuation baseline
 
 - The user approved 0.11.2 on `feature/level3-opening` on 2026-10-25 (America/New_York), saying "approved". Preserve all 99 reviewed installation files exactly. This is the continuation baseline; main remains at merged 0.10.2 pending the source push, PR and merge. See `evidence/level3_detail/approval.json`, `docs/LEVEL3_DETAILS.md` and the paired live evidence. Approval bookkeeping changes source documentation only; keep the installed README frozen.

@@ -1,0 +1,100 @@
+{
+  "source": "actual unretouched Mesen captures",
+  "comparison": [
+    {
+      "label": "Start / pause menu: the same boot as the collectible",
+      "frame": 2,
+      "crop": [
+        48,
+        100,
+        200,
+        196
+      ],
+      "integer_scale": 2
+    },
+    {
+      "label": "Lava corridor and fish; Breaker charge",
+      "frame": 342,
+      "crop": [
+        0,
+        0,
+        512,
+        480
+      ],
+      "integer_scale": 1
+    },
+    {
+      "label": "Carved steps and upward Breaker release",
+      "frame": 3936,
+      "crop": [
+        0,
+        0,
+        512,
+        480
+      ],
+      "integer_scale": 1
+    }
+  ],
+  "video_clips": [
+    [
+      "Menu boot",
+      "final",
+      2,
+      62,
+      2,
+      "normal"
+    ],
+    [
+      "Fish, lava and Breaker charge",
+      "final",
+      300,
+      540,
+      2,
+      "normal"
+    ],
+    [
+      "Across the lava corridor",
+      "final",
+      1760,
+      2000,
+      2,
+      "normal"
+    ],
+    [
+      "Carved stairs",
+      "final",
+      2940,
+      3120,
+      2,
+      "normal"
+    ],
+    [
+      "Breaker: left cast",
+      "breaker_after",
+      3720,
+      3792,
+      1,
+      "half speed"
+    ],
+    [
+      "Breaker: upward cast",
+      "breaker_after",
+      3918,
+      3990,
+      1,
+      "half speed"
+    ],
+    [
+      "Blizzard: frozen lava",
+      "blizzard_final",
+      360,
+      480,
+      2,
+      "normal"
+    ]
+  ],
+  "fps": 30,
+  "video_frames": 564,
+  "duration_seconds": 18.8,
+  "silent": true
+}
