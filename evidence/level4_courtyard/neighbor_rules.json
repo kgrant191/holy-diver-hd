@@ -1,0 +1,8 @@
+{
+  "new_statue_rules": 2,
+  "screen_coordinate_checks": 122880,
+  "safe_reads": 119040,
+  "blocked": 3840,
+  "unsafe_reads": 0,
+  "cloned_pillars": "Exact ordered copies of the previously exhaustively verified bounded rules"
+}

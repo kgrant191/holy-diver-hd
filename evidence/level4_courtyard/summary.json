@@ -1,0 +1,17 @@
+{
+  "frames_per_build": 13054,
+  "paired_native_samples_per_type": 4361,
+  "full_pcm_bytes": 41716360,
+  "pcm_and_apu_exact": true,
+  "earlier_screenshots_exact": true,
+  "new_room_source_matches": {
+    "solid": 4344,
+    "wings": 12,
+    "courtyard_statue": 33,
+    "fire_orb": 466,
+    "courtyard_statue_alt": 35
+  },
+  "retained_assets_exact": 109,
+  "installed_files": 112,
+  "crash_observer_failures": 0
+}

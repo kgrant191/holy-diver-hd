@@ -1,0 +1,19 @@
+{
+  "tool": "image_gen",
+  "new_sources": {
+    "temple_wings.png": "50152bb53cefcba2538f5b94ba4d32bf5c5ff93d494921deb5ef65bf64f259ad",
+    "temple_fire_orb.png": "d9644a0bb9fd2b08351641744a67498522c42fbf0e5dda4b5cee8b95ff378592"
+  },
+  "reused_statue_source": "art/level4/gargoyle_0.png",
+  "reused_statue_sha256": "fb8ff3075592ba712b1ddea5134e6064cc16fcbecf506364af43a28f68facd6e",
+  "generation_prompts": "art/generated/level4_courtyard_prompts.json",
+  "prior_assets_exact": 109,
+  "additional_runtime_assets": [
+    "Golden_Temple_Courtyard_2x.png"
+  ],
+  "new_room_maps": {
+    "AAF9": "interior",
+    "AB71": "exterior",
+    "AC61": "interior, recorded arrival only"
+  }
+}

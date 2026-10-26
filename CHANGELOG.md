@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.17.0 — Golden Temple hall and courtyard (review)
+
+- Extend the approved indoor hall and outdoor courtyard treatments through the supplied recording, returning indoors at AC61.
+- Add silver-white wings and fiery chain orbs in their native footprints. Reuse the existing gargoyle as a gold architectural ornament.
+- Preserve guarded pillar lookups, restored stairs, native gameplay/audio and all 109 earlier art/audio/patch assets.
+
 ## 0.16.3 approval — 2026-10-26
 
 - User accepted the delivered stair repair and authorized the next recorded room batch. Freeze all 111 install bytes; approval bookkeeping changes source documentation only. No merge or release is requested.

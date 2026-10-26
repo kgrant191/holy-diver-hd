@@ -1,5 +1,9 @@
 # Current status
 
+## Golden Temple continuation — 0.17.0 review
+
+Work is on feature/golden-temple-courtyard from approved 0.16.3. The next hall AAF9 uses the enclosed interior; AB71 uses the exterior; the recorded AC61 re-entry returns indoors. The wings pickup and eight-orb fire chain have new art. All earlier assets remain exact. Main is still approved 0.15.0. No push, PR, merge or release is requested. Paired checks pass 13,054 frames per build, 4,361 native samples per type, exact full PCM/APU and all 2,168 earlier screenshots. Both candidate replays complete with the crash detector enabled. All 112 install hashes and flat ZIP checks pass. See docs/LEVEL4_COURTYARD.md and evidence/level4_courtyard/.
+
 ## Approved Golden Temple continuation — 0.16.3
 
 The user accepted 0.16.3 on 2026-10-26 ("ok good") and requested the next rooms, wings item and new outdoor enemy. All 111 reviewed installation bytes remain frozen. Main stays 0.15.0; publication/merge is not requested. See evidence/level4_stairs/approval.json.

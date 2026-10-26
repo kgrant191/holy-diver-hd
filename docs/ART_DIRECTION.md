@@ -1,5 +1,9 @@
 # Art direction
 
+## Golden Temple courtyard continuation — 0.17.0
+
+Reuse the accepted enclosed hall and exterior panorama, with carved interior columns, worn solid sandstone and distinctly cracked breakables. The fire-chain courtyard remains outside until AC61. Ivory/slate wings and amber fire beads retain the original item/enemy footprints. Existing gargoyle art supplies the gold-stone courtyard ornaments. Palette-specific wall/window removal must never clear physical stair cells.
+
 ## Golden Temple stair visibility — 0.16.3
 
 Restore the missing descending stair family with the exact existing gold stone RGB. Join each native four-cell silhouette before slicing; keep its standing surface and sloped underside. Preserve all prior artwork and the opposite-facing stairs. See LEVEL4_STAIRS.md.

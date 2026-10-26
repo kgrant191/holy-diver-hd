@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen",
+  "date": "2026-10-26",
+  "prompts": {
+    "wings": "Create one transparent-background game pickup sprite source for a dark Gothic fantasy 16-bit action platformer HD pack. A compact silver-white feathered angel wing, side profile: the short rounded shoulder/root is at the RIGHT, three strong tapered layered primary feathers sweep horizontally LEFT. A smaller overlapping secondary wing behind gives it a wing-pair collectible feeling. Overall silhouette 2:1 wide and low, feather tips point LEFT, root at lower RIGHT. Ivory highlights, slate-blue shadow planes, subtle antique gold binding at the right root. Clear restrained pixel-art painting, crisp readable shapes at eventual 32 by 16 pixels, no blur, no glow halo, no particles, no text, no border, no background, isolated centered full object with transparent margins. This is an ITEM icon, not a bird, boot or character. One object only.",
+    "fire_orb": "Create one transparent-background game sprite source for a dark Gothic fantasy 16-bit action platformer HD pack. A single small magical solar fire orb, approximately round with a compact eight-point fiery silhouette. Luminous ivory gold center, rich amber flame body, darker burnt-orange outline and short red-orange flame tips. Crisp deliberately simplified pixel-art painting that remains readable at eventual 16 by 16 pixels. One sharp bright highlight and bold concentric flame shapes, no blue, no metallic spokes, no faces, no detached sparks, no glow outside the silhouette, no text, no border, no scene. Centered full object with transparent margins. This will be reused as each independent bead of a moving eight-orb fire chain, but draw ONLY ONE orb, not the entire chain."
+  }
+}

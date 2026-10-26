@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Golden Temple courtyard continuation — 0.17.0
+
+Replay Holy_Diver_HD(7).mmo against approved 0.16.3 and the candidate with the neighbor-bounds diagnostic active. Require exact RAM, PPU, OAM, PPU-view metadata, APU writes and full PCM. Check untouched rooms and menus, complete wings/orb/stone source matches, interior/exterior/re-entry scenery and previous movie regression. See docs/LEVEL4_COURTYARD.md.
+
 ## Golden Temple stairs — 0.16.3
 
 Use the unchanged 20261026-181741 save with make_level4_stair_routes.py. Pair its walk, jump and slow-edge routes at stride one, plus the full original movie at stride four, through verify_level4_stairs.py. Require exact native state/full PCM/APU, stair-only pixel changes and complete step-source matches. Inspect the supplied landing, upper contact, descent, room wrap, left stop and right walk-off. Retain the invalid-neighbor observer. See LEVEL4_STAIRS.md for coverage and excluded investigation attempts.

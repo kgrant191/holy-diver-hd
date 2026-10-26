@@ -1,0 +1,37 @@
+{
+  "frames": 884,
+  "fps": 30,
+  "seconds": 29.466666666666665,
+  "playback_speed": 1,
+  "game_images_unretouched": true,
+  "source_segments": [
+    [
+      400,
+      700,
+      "Next indoor hall"
+    ],
+    [
+      2200,
+      2598,
+      "Stairs and wings pickup"
+    ],
+    [
+      2760,
+      3140,
+      "Outdoor courtyard and fire chain"
+    ],
+    [
+      3400,
+      3700,
+      "Courtyard columns and fire-chain movement"
+    ],
+    [
+      3780,
+      4040,
+      "Temple entrance and return indoors"
+    ]
+  ],
+  "final_still_frame": 4020,
+  "final_still_seconds": 2,
+  "silent": true
+}

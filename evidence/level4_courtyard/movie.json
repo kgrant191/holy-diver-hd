@@ -1,0 +1,566 @@
+{
+  "movie_frames": 4386,
+  "native_samples_per_type": 2193,
+  "movie_sha256": "29cd437918e57c146d039d15bfb0f22a0cc536a4b1ccbcf85a49ce490e55626b",
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 14018244,
+  "pcm_sha256": "39c787815107095c415118abfb6c92a46ed57b5312248f0b437acf9e6e0f7053",
+  "apu_sha256": "704ad574bf011e3f738a1efb8bf34b277144f3cc75fd61540f6eb89be1371698",
+  "image_checks": {
+    "unchanged": 272,
+    "native_black": 10,
+    "requested_rooms_changed": 1921,
+    "unchanged_pause_samples": 212
+  },
+  "complete_source_matches": {
+    "solid": 4344,
+    "wings": 12,
+    "courtyard_statue": 33,
+    "fire_orb": 466,
+    "courtyard_statue_alt": 35
+  },
+  "source_examples": {
+    "solid": [
+      {
+        "frame": 10,
+        "positions": [
+          [
+            32,
+            0
+          ],
+          [
+            96,
+            0
+          ],
+          [
+            288,
+            0
+          ],
+          [
+            352,
+            0
+          ],
+          [
+            416,
+            0
+          ],
+          [
+            384,
+            32
+          ],
+          [
+            448,
+            32
+          ],
+          [
+            32,
+            224
+          ],
+          [
+            96,
+            224
+          ],
+          [
+            160,
+            224
+          ],
+          [
+            32,
+            384
+          ],
+          [
+            96,
+            384
+          ],
+          [
+            160,
+            384
+          ],
+          [
+            224,
+            384
+          ],
+          [
+            288,
+            384
+          ]
+        ]
+      },
+      {
+        "frame": 20,
+        "positions": [
+          [
+            32,
+            0
+          ],
+          [
+            96,
+            0
+          ],
+          [
+            288,
+            0
+          ],
+          [
+            352,
+            0
+          ],
+          [
+            416,
+            0
+          ],
+          [
+            32,
+            224
+          ],
+          [
+            96,
+            224
+          ],
+          [
+            160,
+            224
+          ],
+          [
+            32,
+            384
+          ],
+          [
+            96,
+            384
+          ],
+          [
+            160,
+            384
+          ],
+          [
+            224,
+            384
+          ],
+          [
+            288,
+            384
+          ]
+        ]
+      },
+      {
+        "frame": 30,
+        "positions": [
+          [
+            32,
+            0
+          ],
+          [
+            96,
+            0
+          ],
+          [
+            288,
+            0
+          ],
+          [
+            352,
+            0
+          ],
+          [
+            416,
+            0
+          ],
+          [
+            32,
+            224
+          ],
+          [
+            96,
+            224
+          ],
+          [
+            160,
+            224
+          ],
+          [
+            32,
+            384
+          ],
+          [
+            96,
+            384
+          ],
+          [
+            160,
+            384
+          ]
+        ]
+      },
+      {
+        "frame": 40,
+        "positions": [
+          [
+            32,
+            0
+          ],
+          [
+            96,
+            0
+          ],
+          [
+            288,
+            0
+          ],
+          [
+            352,
+            0
+          ],
+          [
+            416,
+            0
+          ],
+          [
+            32,
+            224
+          ],
+          [
+            96,
+            224
+          ],
+          [
+            160,
+            224
+          ],
+          [
+            32,
+            384
+          ],
+          [
+            96,
+            384
+          ],
+          [
+            160,
+            384
+          ],
+          [
+            224,
+            384
+          ],
+          [
+            288,
+            384
+          ]
+        ]
+      }
+    ],
+    "wings": [
+      {
+        "frame": 2370,
+        "positions": [
+          [
+            480,
+            208
+          ]
+        ]
+      },
+      {
+        "frame": 2380,
+        "positions": [
+          [
+            460,
+            208
+          ]
+        ]
+      },
+      {
+        "frame": 2390,
+        "positions": [
+          [
+            448,
+            208
+          ]
+        ]
+      },
+      {
+        "frame": 2400,
+        "positions": [
+          [
+            448,
+            208
+          ]
+        ]
+      }
+    ],
+    "courtyard_statue": [
+      {
+        "frame": 2620,
+        "positions": [
+          [
+            128,
+            64
+          ],
+          [
+            256,
+            64
+          ]
+        ]
+      },
+      {
+        "frame": 2630,
+        "positions": [
+          [
+            128,
+            64
+          ],
+          [
+            256,
+            64
+          ]
+        ]
+      },
+      {
+        "frame": 2640,
+        "positions": [
+          [
+            128,
+            64
+          ],
+          [
+            256,
+            64
+          ]
+        ]
+      },
+      {
+        "frame": 2650,
+        "positions": [
+          [
+            128,
+            64
+          ],
+          [
+            256,
+            64
+          ]
+        ]
+      }
+    ],
+    "fire_orb": [
+      {
+        "frame": 2890,
+        "positions": [
+          [
+            396,
+            358
+          ],
+          [
+            396,
+            382
+          ]
+        ]
+      },
+      {
+        "frame": 2900,
+        "positions": [
+          [
+            376,
+            278
+          ],
+          [
+            376,
+            302
+          ],
+          [
+            376,
+            326
+          ],
+          [
+            376,
+            350
+          ],
+          [
+            376,
+            374
+          ],
+          [
+            376,
+            398
+          ]
+        ]
+      },
+      {
+        "frame": 2910,
+        "positions": [
+          [
+            358,
+            198
+          ],
+          [
+            358,
+            222
+          ],
+          [
+            358,
+            246
+          ],
+          [
+            358,
+            270
+          ],
+          [
+            358,
+            294
+          ],
+          [
+            358,
+            318
+          ],
+          [
+            358,
+            342
+          ],
+          [
+            358,
+            366
+          ]
+        ]
+      },
+      {
+        "frame": 2920,
+        "positions": [
+          [
+            314,
+            142
+          ],
+          [
+            334,
+            148
+          ],
+          [
+            352,
+            170
+          ],
+          [
+            354,
+            190
+          ],
+          [
+            354,
+            214
+          ],
+          [
+            354,
+            238
+          ],
+          [
+            354,
+            262
+          ],
+          [
+            354,
+            286
+          ]
+        ]
+      }
+    ],
+    "courtyard_statue_alt": [
+      {
+        "frame": 3810,
+        "positions": [
+          [
+            432,
+            64
+          ]
+        ]
+      },
+      {
+        "frame": 3820,
+        "positions": [
+          [
+            412,
+            64
+          ]
+        ]
+      },
+      {
+        "frame": 3830,
+        "positions": [
+          [
+            392,
+            64
+          ]
+        ]
+      },
+      {
+        "frame": 3840,
+        "positions": [
+          [
+            384,
+            64
+          ],
+          [
+            448,
+            192
+          ]
+        ]
+      }
+    ]
+  },
+  "scenery_checks": [
+    {
+      "frame": 500,
+      "room": "AAF9",
+      "background": "Interior",
+      "exact_background_pixels": 141003
+    },
+    {
+      "frame": 1200,
+      "room": "AAF9",
+      "background": "Interior",
+      "exact_background_pixels": 144449
+    },
+    {
+      "frame": 2000,
+      "room": "AAF9",
+      "background": "Interior",
+      "exact_background_pixels": 153231
+    },
+    {
+      "frame": 2400,
+      "room": "AAF9",
+      "background": "Interior",
+      "exact_background_pixels": 140327
+    },
+    {
+      "frame": 2800,
+      "room": "AB71",
+      "background": "Exterior",
+      "exact_background_pixels": 119672
+    },
+    {
+      "frame": 3000,
+      "room": "AB71",
+      "background": "Exterior",
+      "exact_background_pixels": 162726
+    },
+    {
+      "frame": 3500,
+      "room": "AB71",
+      "background": "Exterior",
+      "exact_background_pixels": 142534
+    },
+    {
+      "frame": 3880,
+      "room": "AB71",
+      "background": "Exterior",
+      "exact_background_pixels": 99219
+    },
+    {
+      "frame": 4020,
+      "room": "AC61",
+      "background": "Interior",
+      "exact_background_pixels": 128162
+    }
+  ],
+  "earlier_movie_images_exact": false,
+  "neighbor_diagnostic": "Enabled in candidate runner; no invalid access reported"
+}
