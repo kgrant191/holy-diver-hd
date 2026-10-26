@@ -1,5 +1,11 @@
 # Holy Diver HD working instructions
 
+## Current repair — stray ornament 0.19.1
+
+- The reported purple/ivory bars are background0DF8/0F073703 in ACD9/mode18, not a dragon sprite or ring enemy. The earlier pillar cleanup missed this ornament cell. build_level4_residue.py adds only two arena/palette-scoped empty mappings, including31073703 for native pickup flashes.
+- Reuse atlas50's empty16x16 cell. Preserve all112 earlier art/audio/patch assets, every other mapping and the native flash/menu sequence. Never globally clear F8 or the ring enemies.
+- Require paired actual replays with verify_level4_residue.py: native state/full audio exact, every changed pixel confined to F8 and equal to the existing panorama. Main/approval status unchanged; no publication authorized.
+
 ## Current continuation — dragon/items 0.19.0
 
 - Both 20261026-202217/202440 states start in ACD9/mode18 before the dragon pickup. Native pickup is0CB1–B4, form0C94–AF, shot0CB0, star0C74. Three observed whole112x48 layouts share exact cells. Native mirrors, movement, blinking and timing remain authoritative; no RAM edits.

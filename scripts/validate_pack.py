@@ -35,6 +35,16 @@ assert len(imgs)==53
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+residue_rules=[f'[staffArenaMode&staffArenaLo&staffArenaHi]<tile>50,0DF8,{pal},0,0,1,N'for pal in ['0F073703','31073703']]
+assert all(line in lines for line in residue_rules)
+assert Image.open(pack/'Golden_Temple_Courtyard_2x.png').convert('RGBA').crop((0,0,16,16)).getchannel('A').getbbox()is None
+content,n=re.subn(r'^# BEGIN TEMPLE_RESIDUE MAPPINGS\n.*?^# END TEMPLE_RESIDUE MAPPINGS\n','',content,flags=re.M|re.S);assert n==1
+residue_prior=json.loads((root/'evidence/0.19.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==residue_prior['hires.txt']
+assert {p.name for p in pack.iterdir()if p.is_file()}==set(residue_prior)
+for name,digest in residue_prior.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name
+counts['tile']-=len(residue_rules)
 dragon=json.loads((root/'art/level4_dragon/registration.json').read_text())
 assert not dragon['native_gameplay_modified'] and not dragon['prior_artwork_modified']
 assert dragon['dragon_fit']['clipped_pixels']==0 and dragon['dragon_fit']['shared_native_cells_exact']

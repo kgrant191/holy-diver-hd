@@ -1,5 +1,9 @@
 # Current status
 
+## Golden Temple stray-pixel repair — 0.19.1 review
+
+The screenshot identifies one remaining native background tile, 0DF8/0F073703 in ACD9/mode18. It is a decorative ornament cell missed by the earlier scenery cleanup. Two scoped transparent mappings remove it in normal color and the corresponding native pickup-flash palette. Reuse the existing empty atlas cell; all112 earlier art/audio/patch assets remain exact. No new neighbor lookups. Work stays on feature/temple-dragon-items, awaiting review; main remains approved0.15.0. Both paired state routes pass1,597 frames per build, with exact native state/full audio and ornament-only visual changes. All114 hashes and flat ZIP/CRC checks pass. See docs/LEVEL4_RESIDUE.md and evidence/level4_residue/.
+
 ## Golden Temple dragon and item visibility — 0.19.0 review
 
 Work is on `feature/temple-dragon-items` from frozen0.18.0. New emerald/gold dragon pickup and three native flying/firing poses retain shared body cells and native mirroring. Staff and small health/magic drops have brighter silhouettes; the same staff is used in the menu. Identified non-solid foreground columns are cleared across recorded temple rooms, exposing the unchanged background. Physical stonework/stairs remain exact. Main stays approved0.15.0; last explicit Level4 approval remains0.16.3. No push, PR, merge or release is authorized. All five paired replays pass: 18,283 frames per build, 7,774 native samples per type, exact full audio, and image changes confined to requested artwork. All 114 install hashes, flat ZIP/CRC and clean rebuild checks pass. See docs/LEVEL4_DRAGON.md and evidence/level4_dragon/ for details and limits.

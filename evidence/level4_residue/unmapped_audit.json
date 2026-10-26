@@ -1,0 +1,455 @@
+{
+  "missing": [
+    {
+      "tile": "0DF8",
+      "palette": "0F073703",
+      "samples": 291,
+      "example": 337
+    },
+    {
+      "tile": "0D8B",
+      "palette": "0F072830",
+      "samples": 2,
+      "example": 944
+    },
+    {
+      "tile": "0D6A",
+      "palette": "0F172737",
+      "samples": 1,
+      "example": 944
+    },
+    {
+      "tile": "0D69",
+      "palette": "0F172737",
+      "samples": 1,
+      "example": 944
+    },
+    {
+      "tile": "0D68",
+      "palette": "0F172737",
+      "samples": 1,
+      "example": 944
+    },
+    {
+      "tile": "0D56",
+      "palette": "0F172737",
+      "samples": 1,
+      "example": 944
+    },
+    {
+      "tile": "0D8E",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 944
+    },
+    {
+      "tile": "0D01",
+      "palette": "0F072830",
+      "samples": 16,
+      "example": 945
+    },
+    {
+      "tile": "0DA2",
+      "palette": "0F072830",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0D54",
+      "palette": "0F072830",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DE6",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 945
+    },
+    {
+      "tile": "0DE7",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 945
+    },
+    {
+      "tile": "0DC1",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DC2",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DC3",
+      "palette": "0F172737",
+      "samples": 8,
+      "example": 945
+    },
+    {
+      "tile": "0DC4",
+      "palette": "0F172737",
+      "samples": 8,
+      "example": 945
+    },
+    {
+      "tile": "0DD7",
+      "palette": "0F172737",
+      "samples": 2,
+      "example": 945
+    },
+    {
+      "tile": "0DD8",
+      "palette": "0F172737",
+      "samples": 2,
+      "example": 945
+    },
+    {
+      "tile": "0DB5",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DB6",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DB9",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DBA",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DBB",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DBC",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DC5",
+      "palette": "0F172737",
+      "samples": 11,
+      "example": 945
+    },
+    {
+      "tile": "0DC6",
+      "palette": "0F172737",
+      "samples": 11,
+      "example": 945
+    },
+    {
+      "tile": "0DC7",
+      "palette": "0F172737",
+      "samples": 16,
+      "example": 945
+    },
+    {
+      "tile": "0DC8",
+      "palette": "0F172737",
+      "samples": 16,
+      "example": 945
+    },
+    {
+      "tile": "0DCF",
+      "palette": "0F172737",
+      "samples": 5,
+      "example": 945
+    },
+    {
+      "tile": "0DD0",
+      "palette": "0F172737",
+      "samples": 5,
+      "example": 945
+    },
+    {
+      "tile": "0DB7",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DB8",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DBD",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DBE",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DBF",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DC0",
+      "palette": "0F172737",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0DD5",
+      "palette": "0F172737",
+      "samples": 5,
+      "example": 945
+    },
+    {
+      "tile": "0DD6",
+      "palette": "0F172737",
+      "samples": 5,
+      "example": 945
+    },
+    {
+      "tile": "0DC9",
+      "palette": "0F172737",
+      "samples": 8,
+      "example": 945
+    },
+    {
+      "tile": "0DCA",
+      "palette": "0F172737",
+      "samples": 8,
+      "example": 945
+    },
+    {
+      "tile": "0DCB",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DCC",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DCD",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DCE",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DD1",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DD2",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DD3",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DD4",
+      "palette": "0F172737",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DD9",
+      "palette": "0F1B2B3B",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DDA",
+      "palette": "0F1B2B3B",
+      "samples": 2,
+      "example": 945
+    },
+    {
+      "tile": "0DF8",
+      "palette": "0F1B2B3B",
+      "samples": 1,
+      "example": 945
+    },
+    {
+      "tile": "0DDB",
+      "palette": "0F1B2B3B",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DDC",
+      "palette": "0F1B2B3B",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DDD",
+      "palette": "0F1B2B3B",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0DDE",
+      "palette": "0F1B2B3B",
+      "samples": 3,
+      "example": 945
+    },
+    {
+      "tile": "0D02",
+      "palette": "0F1B2B3B",
+      "samples": 6,
+      "example": 945
+    },
+    {
+      "tile": "0D92",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D93",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D94",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D95",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D96",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D97",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D98",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D99",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D9A",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D9B",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D9C",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D9D",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D9E",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D9F",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0DA0",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0DA1",
+      "palette": "0F072830",
+      "samples": 1,
+      "example": 946
+    },
+    {
+      "tile": "0D56",
+      "palette": "0F072830",
+      "samples": 6,
+      "example": 946
+    }
+  ],
+  "f8_samples": 292,
+  "first": [
+    337,
+    510,
+    288,
+    "0F073703"
+  ],
+  "last": [
+    945,
+    336,
+    396,
+    "0F1B2B3B"
+  ]
+}

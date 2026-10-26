@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.19.1 — 2026-10-26 — review candidate
+
+- Remove the missed decorative 0DF8 tile in the outdoor dragon arena, including its pickup-flash palette.
+- Reuse the existing transparent cell and preserve every0.19.0 art/audio/patch asset.
+
 ## 0.19.0 — 2026-10-26 — review candidate
 
 - Add emerald/gold dragon pickup, raised/folded wings, firing jaw, flame projectile and transformation twinkle.

@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Stray ornament repair — 0.19.1
+
+Replay both retained dragon routes at stride1 against frozen0.19.0. Require exact native RAM/PPU/OAM/view, APU writes and full PCM with verify_level4_residue.py. All image differences must stay inside the observed0DF8/0F073703 footprint and equal the unchanged exterior panorama. Keep the existing invalid-neighbor diagnostic enabled. The clean build must recover exact0.19.0 hires.txt after removing TEMPLE_RESIDUE, with every other asset byte-exact.
+
 ## Dragon, items and decorative columns — 0.19.0
 
 Pair both unchanged user states through the987-frame flight and610-frame A-button routes at stride1. Replay movie8/movie7 at stride2 and movie6 at stride4 against frozen0.18.0. Require exact RAM/PPU/OAM/view, APU and full PCM, plus pixel differences confined to requested item/form/column cells and native pickup-flash foreground. Verify every observed dragon pose in both orientations, transformation/star/fire, staff in gameplay/menu, and both small drops. Keep the stock-core neighbor diagnostic active and exhaust copied flash-condition bounds. See LEVEL4_DRAGON.md.
