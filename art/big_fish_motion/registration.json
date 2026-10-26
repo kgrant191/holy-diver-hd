@@ -1,6 +1,6 @@
 {
-  "conditions": 80,
-  "tile_rules": 640,
+  "conditions": 671,
+  "tile_rules": 26930,
   "atlas_cells": 20,
   "atlas_rectangle": [
     0,
@@ -11,9 +11,15 @@
   "object_type": "26",
   "speed_fraction": "CC",
   "direction_offsets": {
-    "Positive": -1,
-    "Negative": 1
+    "lower_native_x": 1,
+    "upper_native_x": -1
   },
-  "scope": "mode 10 / room 9AA6; exactly one large fish; hover speed; no damage timer",
+  "scope": "mode 10; native fish identities/palette; each complete fish at its player-relative hover equilibrium",
+  "multiple_fish_independent": true,
+  "source_left_range": [
+    7,
+    225
+  ],
+  "mirrored_origin_workaround": true,
   "native_gameplay_modified": false
 }

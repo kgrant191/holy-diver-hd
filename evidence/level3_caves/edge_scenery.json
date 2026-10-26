@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "frame": 5520,
+      "room": "9C86",
+      "fraction": 1.0,
+      "ppu_frame": 5519,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 150832,
+      "terrain_pixels": 30528,
+      "unmapped": {}
+    },
+    {
+      "frame": 5640,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5639,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 178200,
+      "terrain_pixels": 80944,
+      "unmapped": {}
+    },
+    {
+      "frame": 5760,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5759,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 176700,
+      "terrain_pixels": 83128,
+      "unmapped": {}
+    },
+    {
+      "frame": 5880,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5879,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 172592,
+      "terrain_pixels": 65292,
+      "unmapped": {}
+    },
+    {
+      "frame": 6000,
+      "room": "9CFE",
+      "fraction": 1.0,
+      "ppu_frame": 5999,
+      "scroll_adjustment": 0,
+      "exposed_pixels": 161504,
+      "terrain_pixels": 66544,
+      "unmapped": {}
+    }
+  ],
+  "minimum_match": 1.0
+}

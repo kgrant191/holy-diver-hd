@@ -1,0 +1,37 @@
+{
+  "controller_only": true,
+  "left_connection": "Open passage into previous room, not a wall; route backtracks and pauses before slow rightward traversal.",
+  "settled_pause_frames": [
+    5531,
+    5560
+  ],
+  "settled_position": [
+    221,
+    96
+  ],
+  "stable_reentry_frame": 5619,
+  "stable_reentry_position": [
+    17,
+    96
+  ],
+  "slow_supported_span_frames": [
+    5619,
+    5731
+  ],
+  "last_supported": {
+    "frame": 5731,
+    "position": [
+      73,
+      96
+    ]
+  },
+  "first_fall": {
+    "frame": 5732,
+    "position": [
+      74,
+      97
+    ]
+  },
+  "complete_cap_traversed": true,
+  "visible_cap_not_extended_to_player_overhang": true
+}

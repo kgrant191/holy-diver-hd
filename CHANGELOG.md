@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.13.0 — 2026-10-25 (review)
+
+- Correct remaining large-fish hover shake with independent per-sprite registration, including multiple fish moving in opposite phases. Preserve original artwork, native vertical motion and hit blinking.
+- Add the four connected cave areas reached in the new movie, through the beginning of the bat descent, reusing approved scenery and returning actors.
+- Add the green floating creature in its measured native footprint; preserve solid platform/ceiling bodies and native contours.
+- Preserve all 98 previous artwork/audio files. Main and the approved 0.11.2 continuation are unchanged; 0.13.0 awaits review.
+
 ## 0.12.2 — Large-fish hover stability (review candidate, 2026-10-25)
 
 - Reproduce the reported large-fish shake with the new 1,200-frame movie and confirm the same one-NES-pixel horizontal oscillation in the original sprite.

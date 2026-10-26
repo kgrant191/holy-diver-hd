@@ -1,0 +1,23 @@
+{
+  "version": "0.13.0",
+  "movie_sha256": "0d837b2fbb7f8b9581afc6ad357041942ee23052a0712b891dab2781ebcaf867",
+  "movie_frames": 6000,
+  "capture_stride": 1,
+  "paired_native_samples_per_type": 531,
+  "identical_apu_writes": 15845,
+  "identical_pcm_bytes": 19174552,
+  "counts": {
+    "changed_images": 523,
+    "exact_images": 8,
+    "exact_blackouts": 8
+  },
+  "rooms": {
+    "9CFE": 407,
+    "9C86": 124
+  },
+  "source_matches": {},
+  "creature_examples": [],
+  "stability_windows": [],
+  "source_failures": [],
+  "native_gameplay_unchanged": true
+}

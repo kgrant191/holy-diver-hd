@@ -1,6 +1,8 @@
-Holy Diver HD 0.12.2 — large-fish hover stability review
+Holy Diver HD 0.13.0 — Level 3 caves and multi-fish motion review
 
-Steadies the large fish during its horizontal hover oscillation using graphics-only half-pixel registration. The existing fish design, attacks, movement, hitboxes and damage blinking are preserved. Includes the small-fish color consistency repair.
+Adds the four connected cave areas reached in the new recording, including the vertical climb, lava/ice corridor and beginning of the bat descent. Reuses the approved cave, brown terrain, carved stone, lava/ice and returning enemies. Adds the green floating creature.
+
+Large fish now steady independently at their horizontal hover positions, including two fish moving in opposite phases. Native movement, vertical bob, fins, hit blinking, attacks, collision and audio are preserved. Partly clipped boundary sprites keep their original registration. This is a review build; later rooms and the boss remain unfinished.
 
 Holy Diver HD 0.12.1 — fish animation color consistency review
 

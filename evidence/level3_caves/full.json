@@ -1,0 +1,111 @@
+{
+  "version": "0.13.0",
+  "movie_sha256": "facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db",
+  "movie_frames": 7592,
+  "capture_stride": 2,
+  "paired_native_samples_per_type": 3796,
+  "identical_apu_writes": 18883,
+  "identical_pcm_bytes": 24260576,
+  "counts": {
+    "exact_images": 512,
+    "exact_menu_images": 409,
+    "exact_blackouts": 73,
+    "changed_images": 3284
+  },
+  "rooms": {
+    "FFFF": 417,
+    "9AA6": 22,
+    "9B96": 2057,
+    "9C86": 549,
+    "9CFE": 683,
+    "9DEE": 68
+  },
+  "source_matches": {
+    "green_creature/True": 47
+  },
+  "creature_examples": [
+    {
+      "frame": 2720,
+      "box": [
+        34,
+        174,
+        98,
+        238
+      ],
+      "mirrored": true
+    },
+    {
+      "frame": 2736,
+      "box": [
+        66,
+        132,
+        130,
+        196
+      ],
+      "mirrored": true
+    },
+    {
+      "frame": 2752,
+      "box": [
+        76,
+        150,
+        140,
+        214
+      ],
+      "mirrored": true
+    },
+    {
+      "frame": 2768,
+      "box": [
+        56,
+        232,
+        120,
+        296
+      ],
+      "mirrored": true
+    },
+    {
+      "frame": 2784,
+      "box": [
+        52,
+        174,
+        116,
+        238
+      ],
+      "mirrored": true
+    },
+    {
+      "frame": 2800,
+      "box": [
+        58,
+        132,
+        122,
+        196
+      ],
+      "mirrored": true
+    },
+    {
+      "frame": 2816,
+      "box": [
+        106,
+        150,
+        170,
+        214
+      ],
+      "mirrored": true
+    },
+    {
+      "frame": 2832,
+      "box": [
+        130,
+        232,
+        194,
+        296
+      ],
+      "mirrored": true
+    }
+  ],
+  "stability_windows": [],
+  "source_failures": [],
+  "native_gameplay_unchanged": true
+}

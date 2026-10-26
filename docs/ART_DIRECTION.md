@@ -112,3 +112,9 @@ Reuse the approved dark cave panorama, brown terrain, complete native platform c
 ## Large-fish hover review — 0.12.2
 
 Keep the exact copper fish design and both existing poses. Register each complete pose with a one-HD-pixel horizontal offset for the measured native hover movement state, reversing local offsets under hardware mirroring. Preserve native vertical bob, fin motion and all attack/hit states. Do not sharpen or repaint the artwork to address position jitter.
+
+## Next Level 3 caves — 0.13.0 review
+
+Reuse the exact dark cave panorama, approved brown rock, carved step material and native lava/ice cells. Keep the complete solid support bodies beneath stone caps; repeated wall-cell IDs can be decorative in the climb and solid in a later corridor, so palette and room scope matter. The new green floating creature has a low oval ribbed body on the left, ivory dorsal spines and an upright neck/head at the far right. Preserve its native twelve-cell footprint and mirroring. Built-in generation source and exact prompt are under art/generated/level3_green_creature_generated.png and level3_caves_prompts.json.
+
+Fish artwork remains exact. Cancel horizontal equilibrium dithering independently for each complete on-screen fish; preserve native fin/vertical movement. Do not use postprocessed or tracked video to claim an emulator repair.

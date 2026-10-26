@@ -2,7 +2,15 @@
 
 Updated: 2026-10-25 (America/New_York).
 
-## Current review — 0.12.2, feature/level3-lava
+## Current review — 0.13.0, feature/level3-caves
+
+The 7,592-frame movie reproduces fish shaking in room 9B96, including two fish oscillating in opposite phases. The previous correction was confined to room 9AA6 and a single active fish. The new registration matches each rendered fish at its own player-relative horizontal equilibrium. Complete source poses shift ±1 HD pixel, independently of object count; fins, vertical motion, native OAM blinking, collisions and audio remain. Partly clipped boundary sprites fall back to the original registration.
+
+The next recorded areas are the second fish/lava corridor (9B96), vertical blade-ring climb (9C86), stone-cap/lava corridor (9CFE), and beginning of the bat descent (9DEE). Reuse the approved cave, brown terrain, carved stone, lava/ice and returning actors; the green floating skeletal creature is the only new painting. Keep solid support bodies visible. Later portions of the descent and the boss are untested and unfinished.
+
+This candidate changes hires.txt and installed README, adds one atlas, and preserves all 98 previous art/audio files exactly. The 101-file pack is review-only; no source push, PR, merge, tag or release is implied. The approved continuation remains 0.11.2 and main remains 0.10.2. Final paired checks pass 7,727 captured native samples per type across four replays with identical full audio. Six hover checks prove 516 stable fish source samples; all 63 scenery/edge source checks match exactly. See docs/LEVEL3_CAVES.md and evidence/level3_caves/.
+
+## Previous review — 0.12.2, feature/level3-lava
 
 The new 1,200-frame movie reproduces the actual report: the large fish shifts horizontally by one native pixel every frame while hovering, without being hit. The original sprite and HD fish share this native OAM oscillation. The previous small-fish fix did not address this reported motion.
 

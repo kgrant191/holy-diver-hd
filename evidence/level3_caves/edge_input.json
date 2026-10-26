@@ -1,0 +1,8 @@
+{
+  "frames": 6000,
+  "movie_sha256": "0d837b2fbb7f8b9581afc6ad357041942ee23052a0712b891dab2781ebcaf867",
+  "input_sha256": "0831250be2d7348b6886c2d056727da88e4ab825e1764bfc156150196064040f",
+  "source_movie_sha256": "facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db",
+  "state_sha256": "8f7b46bf47a489e4105a0023e4b2f37fa7d8507a3b52d799ac56be8fdf891c6d",
+  "controller_only": true
+}

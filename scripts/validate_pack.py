@@ -31,10 +31,25 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==44
+assert len(imgs)==45
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+caves=json.loads((root/'art/level3_caves/registration.json').read_text())
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=caves[field]
+for section in ['IMAGES','CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN LEVEL3_CAVES '+section+r'\n.*?^# END LEVEL3_CAVES '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+assert not caves['native_gameplay_modified']
+previous_caves=json.loads((root/'evidence/0.12.2-pack-sha256.json').read_text())
+for name,digest in previous_caves.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest, name+' previous artwork changed'
+assert set(p.name for p in pack.iterdir() if p.is_file())-set(previous_caves)=={'Stage3_Caves_Tiles_2x.png'}
+cave_atlas=np.array(Image.open(pack/'Stage3_Caves_Tiles_2x.png').convert('RGBA'))
+for m in caves['mappings']:
+ if 'xy'not in m:continue
+ x,y=m['xy'];key=m['scope'][3:7]+'/'+m['tile']+'/'+m['palette']
+ if key in caves['terrain_masks']:assert np.array_equal(cave_atlas[y:y+16,x:x+16,3],caves['terrain_masks'][key])
 fish_stability=json.loads((root/'art/big_fish_motion/registration.json').read_text())
 counts['tile']-=fish_stability['tile_rules'];counts['condition']-=fish_stability['conditions']
 for section in ['CONDITIONS','MAPPINGS']:

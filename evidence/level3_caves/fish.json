@@ -1,0 +1,82 @@
+{
+  "version": "0.13.0",
+  "movie_sha256": "facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db",
+  "movie_frames": 7592,
+  "capture_stride": 1,
+  "paired_native_samples_per_type": 2200,
+  "identical_apu_writes": 18883,
+  "identical_pcm_bytes": 24260576,
+  "counts": {
+    "initial_empty": 1,
+    "exact_images": 196,
+    "exact_menu_images": 141,
+    "exact_blackouts": 8,
+    "changed_images": 2003
+  },
+  "rooms": {
+    "FFFF": 144,
+    "9AA6": 43,
+    "9B96": 2012
+  },
+  "source_matches": {
+    "fish1/right/dx1": 157,
+    "fish1/right/dx-1": 161,
+    "fish0/right/dx1": 157,
+    "fish0/right/dx-1": 155,
+    "fish0/right/dx0": 552,
+    "fish0/left/dx0": 127,
+    "fish1/left/dx0": 118,
+    "fish0/left/dx1": 19,
+    "fish0/left/dx-1": 19,
+    "fish1/left/dx-1": 26,
+    "fish1/left/dx1": 24,
+    "fish1/right/dx0": 528
+  },
+  "creature_examples": [],
+  "stability_windows": [
+    {
+      "start": 960,
+      "end": 1020,
+      "vertical_band": null,
+      "matched_frames": 61,
+      "before_x": {
+        "56": 31,
+        "58": 30
+      },
+      "after_x": {
+        "57": 61
+      },
+      "native_vertical_motion_preserved": true
+    },
+    {
+      "start": 1960,
+      "end": 2030,
+      "vertical_band": 140,
+      "matched_frames": 71,
+      "before_x": {
+        "56": 36,
+        "58": 35
+      },
+      "after_x": {
+        "57": 71
+      },
+      "native_vertical_motion_preserved": true
+    },
+    {
+      "start": 1960,
+      "end": 2030,
+      "vertical_band": -140,
+      "matched_frames": 71,
+      "before_x": {
+        "58": 36,
+        "56": 35
+      },
+      "after_x": {
+        "57": 71
+      },
+      "native_vertical_motion_preserved": true
+    }
+  ],
+  "source_failures": [],
+  "native_gameplay_unchanged": true
+}
