@@ -1,0 +1,18 @@
+{
+  "frames": [
+    360,
+    598
+  ],
+  "stride": 2,
+  "camera_x": 0,
+  "screen_box": [
+    130,
+    420,
+    190,
+    440
+  ],
+  "exact_stationary_ice_samples": 120,
+  "pixels_per_sample": 1200,
+  "sha256": "16b0069d3b2bf085808d5a22a3e8958e89d6d0031d27b2dac9174226d055ad4d",
+  "source": "actual native Mesen captures"
+}

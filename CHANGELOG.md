@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.12.2 — Large-fish hover stability (review candidate, 2026-10-25)
+
+- Reproduce the reported large-fish shake with the new 1,200-frame movie and confirm the same one-NES-pixel horizontal oscillation in the original sprite.
+- Cancel that visual oscillation with half-NES-pixel sprite registration, preserving the painted design, native fins/vertical bob, attacks, hitboxes, damage blinking and audio.
+- Guard the correction by the recorded room and one-fish hover/cruise state; retain original registration for other states or multiple fish. Preserve every existing atlas cell and all other runtime assets.
+- Verify three uninterrupted hover windows in both directions and replay the earlier corridor and Blizzard input.
+
+## 0.12.1 — Fish motion color consistency (review candidate, 2026-10-25)
+
+- Correct animation shimmer in the small fish: use a shared palette and preserve static head/body pixels across poses. Keep the first small pose and both large poses exact.
+- Preserve native fin timing and hit blinking; change only two cells in the lava atlas plus installed version notes. Mappings and 98 other installation files remain exact.
+- Inspect consecutive frames and pair the full movie at stride one to expose animation behavior missed by earlier even-frame sampling.
+
+## 0.12.0 — Level 3 lava corridor (review candidate, 2026-10-25)
+
+- Match the Start/pause-menu boot to the approved collectible.
+- Reuse the approved cave panorama, brown terrain, carved steps and exact hot/frozen lava cells across the recorded corridor.
+- Add two large-fish and two small-fish poses with native mirroring and direction.
+- Complete Breaker charge, horizontal release/flight and upward release/flight, including normal and magic-enabled palettes and twelve byte-identical graphics-bank copies.
+- Preserve all 97 previous runtime assets apart from mapping/version notes. Add controller-only movie derivatives and paired native memory/audio and actual-pixel verification.
+
 ## 0.11.2 — 2026-10-25 (approved)
 
 - Record user approval of the delivered build; preserve all 99 installed bytes and the exact ZIP. Source publication and merge remain pending.

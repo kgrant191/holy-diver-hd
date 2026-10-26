@@ -1,0 +1,14 @@
+[
+  {
+    "name": "fish",
+    "prompt": "Use case: stylized-concept. Asset: one transparent enemy sprite for a dark Gothic side-scrolling pixel-art HD pack. The attached native sprite is the exact anatomy and silhouette reference: a monstrous lava fish facing LEFT with a wide open toothy mouth in the lower-left, arched upright copper-orange body, sharp dorsal fin rising near the top center/right, curved back and compact fins. Reinterpret as detailed SNES/GBA-quality painted pixel art with burnt-orange/copper scales, deep crimson shadows, pale ivory fangs, one menacing amber eye, clear dark outline and warm highlights. Keep the recognizable open-mouthed fish anatomy and compact almost-square pose; no humanoid body or limbs. Important sprite footprint: the upper-left third-width by third-height square must stay entirely empty/transparent; head and mouth project left only in the lower two-thirds, upper fin/body occupy right two-thirds. No detached pieces, no objects, no glow halo, no scenery, no lettering. Full creature centered and entirely visible on genuinely transparent background. Clean crisp readable shading for reduction to 48 by 48 pixels.",
+    "refs": [
+      "art/level3_lava/native_fish.png"
+    ]
+  },
+  {
+    "name": "breaker",
+    "prompt": "Use case: stylized-concept. Asset: a three-panel transparent spell-effects source sheet for Breaker magic in a dark Gothic side-scrolling pixel-art HD pack. Exactly three evenly spaced independent effects in a horizontal row, each centered in its own equal-width square panel. LEFT: a round charged energy sphere with luminous white/cyan core, saturated cobalt and violet rim, a few compact electrical arcs integrated into its outer edge; round silhouette. CENTER: the same energy orb condensed for launch with a small short trail extending LEFT and bright rounded leading edge on RIGHT. RIGHT: the same magic as a compact horizontal travelling bolt, bright rounded white-cyan head on RIGHT and tapered cobalt/violet streaks trailing LEFT, overall 2:1 width:height. Detailed crisp painted pixel art matching SNES/GBA dark fantasy sprites, bold legible silhouettes and restrained bloom only within the silhouette. Transparent outside each object. Left will render at 48x48 pixels, center at 32x32, right at 32x16, so keep shapes simple and coherent. No background, no borders, no labels, no arrows or text, no detached sparks far from the body, no floor shadows.",
+    "refs": []
+  }
+]

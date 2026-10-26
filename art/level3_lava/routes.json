@@ -1,0 +1,26 @@
+{
+  "breaker": {
+    "frames": 4111,
+    "movie_sha256": "c3ac93b4a25876648dd1594b8d355bb030d3e8bc94736a00c76a98573a8b893b",
+    "input_sha256": "9d9d08fec61166f2ddb845a666a4bb376e53d5cfe0a90577e97e1bec2970fc53",
+    "source_movie_sha256": "b13e4d21d182ea84f5e9614d839db71c765f26d4874b4a6cbea5b91e8332699d",
+    "starting_state_sha256": "2306869106294ce3111a22fc02f298dcd3f60593e0adec6839afbc1a90426671",
+    "controller_only": true
+  },
+  "blizzard": {
+    "frames": 821,
+    "movie_sha256": "6f47fde43010088ba56647b46b34b1207490f82f446e53250ae4e0319e66950f",
+    "input_sha256": "e5857b62e1fd158c816dd922d4824185df7e587f9b8cd8a571344b66787d0778",
+    "source_movie_sha256": "b13e4d21d182ea84f5e9614d839db71c765f26d4874b4a6cbea5b91e8332699d",
+    "starting_state_sha256": "2306869106294ce3111a22fc02f298dcd3f60593e0adec6839afbc1a90426671",
+    "controller_only": true
+  },
+  "edge": {
+    "frames": 472,
+    "movie_sha256": "5ddaa1d192a1c6e15dd79266b695232581e09cbb5244176013322c8642764cf0",
+    "input_sha256": "77ba43fb67997c6712ef95a08068fd5f5e8e40b23a7cdc85023ab22151366eef",
+    "source_movie_sha256": "b13e4d21d182ea84f5e9614d839db71c765f26d4874b4a6cbea5b91e8332699d",
+    "starting_state_sha256": "2306869106294ce3111a22fc02f298dcd3f60593e0adec6839afbc1a90426671",
+    "controller_only": true
+  }
+}

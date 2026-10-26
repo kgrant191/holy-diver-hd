@@ -1,0 +1,58 @@
+{
+  "source": "consecutive actual Mesen captures",
+  "fps": 60,
+  "frames": 950,
+  "duration_seconds": 15.833333333333334,
+  "clips": [
+    [
+      "Left-facing small fish",
+      290,
+      370,
+      [
+        112,
+        88,
+        368,
+        280
+      ],
+      1
+    ],
+    [
+      "Left-facing small fish",
+      290,
+      370,
+      [
+        112,
+        88,
+        368,
+        280
+      ],
+      4
+    ],
+    [
+      "Right-facing small fish",
+      2470,
+      2580,
+      [
+        256,
+        104,
+        512,
+        296
+      ],
+      1
+    ],
+    [
+      "Right-facing small fish",
+      2470,
+      2580,
+      [
+        256,
+        104,
+        512,
+        296
+      ],
+      4
+    ]
+  ],
+  "interpolation": false,
+  "silent": true
+}

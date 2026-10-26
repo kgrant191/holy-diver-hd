@@ -1,0 +1,20 @@
+{
+  "source_first": "0675",
+  "source_last": "0689",
+  "group_sha256": "46912023f6f1b31204ec03ed95e8cef7d7740ef6d926b45f843ccd770e48f3e8",
+  "offsets": [
+    0,
+    512,
+    1024,
+    1536,
+    2048,
+    2560,
+    3072,
+    3584,
+    4096,
+    4608,
+    5120,
+    5632
+  ],
+  "byte_identical": true
+}

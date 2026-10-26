@@ -31,10 +31,45 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==43
+assert len(imgs)==44
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+fish_stability=json.loads((root/'art/big_fish_motion/registration.json').read_text())
+counts['tile']-=fish_stability['tile_rules'];counts['condition']-=fish_stability['conditions']
+for section in ['CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN BIG_FISH_STABILITY '+section+r'\n.*?^# END BIG_FISH_STABILITY '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+prior_fish=json.loads((root/'evidence/0.12.1-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==prior_fish['hires.txt'],'Earlier mappings changed outside fish stabilization'
+for name,digest in prior_fish.items():
+ if name not in {'hires.txt','README.txt','Stage3_Lava_Tiles_2x.png'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name
+base_fish_atlas=np.array(Image.open(root/'art/level3_lava/Stage3_Lava_Tiles_2x.png').convert('RGBA'))
+current_fish_atlas=np.array(Image.open(pack/'Stage3_Lava_Tiles_2x.png').convert('RGBA'))
+assert np.array_equal(current_fish_atlas[:496],base_fish_atlas[:496])
+assert np.array_equal(current_fish_atlas[496:,320:],base_fish_atlas[496:,320:])
+assert not base_fish_atlas[496:,:,3].any()
+assert not fish_stability['native_gameplay_modified']
+level3_lava=json.loads((root/'art/level3_lava/registration.json').read_text())
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=level3_lava[field]
+for section in ['IMAGES','CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN LEVEL3_LAVA '+section+r'\n.*?^# END LEVEL3_LAVA '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+prior_lava=json.loads((root/'evidence/0.11.2-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==prior_lava['hires.txt'],'Approved Level 3 mappings changed'
+for name,digest in prior_lava.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved Level 3 art changed'
+lava_atlas=Image.open(pack/'Stage3_Lava_Tiles_2x.png').convert('RGBA');boot=Image.open(root/'art/level3_detail/boot.png').convert('RGBA')
+menu_rows=[[0x974,0x973],[0x972,0x971]]
+for m in level3_lava['mappings']:
+ if m['kind']=='approved boot menu':
+  t=int(m['tile'],16);y=next(i for i,row in enumerate(menu_rows)if t in row);x=menu_rows[y].index(t);xx,yy=m['xy']
+  assert lava_atlas.crop((xx,yy,xx+16,yy+16)).tobytes()==boot.crop((x*16,y*16,x*16+16,y*16+16)).tobytes()
+assert len(level3_lava['lava_aliases'])==18
+native_lava=json.loads((root/'art/level3_lava/native_patterns.json').read_text())
+for alias in level3_lava['lava_aliases']:
+ fields=alias['source_rule'].split('<tile>')[1].split(',');assert native_lava[alias['tile']]==native_lava[fields[1]]
+assert not level3_lava['native_gameplay_modified']and not level3_lava['previous_runtime_art_modified']
 level3_detail=json.loads((root/'art/level3_detail/registration.json').read_text())
 counts['tile']-=level3_detail['tile_rules']
 for section in ['IMAGES','MAPPINGS']:

@@ -29,6 +29,8 @@ subprocess.run([sys.executable,str(r/'scripts/build_breaker_randy.py')],cwd=r,ch
 subprocess.run([sys.executable,str(r/'scripts/build_level3_opening.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level3_review.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level3_details.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_level3_lava.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_big_fish_motion.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_shared_stage2.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)

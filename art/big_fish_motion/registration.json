@@ -1,0 +1,19 @@
+{
+  "conditions": 80,
+  "tile_rules": 640,
+  "atlas_cells": 20,
+  "atlas_rectangle": [
+    0,
+    496,
+    320,
+    512
+  ],
+  "object_type": "26",
+  "speed_fraction": "CC",
+  "direction_offsets": {
+    "Positive": -1,
+    "Negative": 1
+  },
+  "scope": "mode 10 / room 9AA6; exactly one large fish; hover speed; no damage timer",
+  "native_gameplay_modified": false
+}

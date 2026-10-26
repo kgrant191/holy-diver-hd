@@ -1,0 +1,84 @@
+{
+  "version": "0.12.2",
+  "movie_sha256": "ace46ac61dabd9485e19cbd1599ad8518192d60b9894ef714c8204678ec14a18",
+  "frames": 1200,
+  "stride": 1,
+  "paired_samples_per_type": 1200,
+  "identical_apu_writes": 2103,
+  "identical_pcm_bytes": 3839808,
+  "counts": {
+    "initial_empty": 1,
+    "exact_images": 479,
+    "exact_attack_or_damage_images": 218,
+    "changed_images": 720
+  },
+  "pixel_proven_pose_offsets": {
+    "pose0/left/offset1": 81,
+    "pose1/left/offset1": 79,
+    "pose1/left/offset-1": 46,
+    "pose0/left/offset-1": 43,
+    "pose0/left/offset0": 34,
+    "pose1/left/offset0": 50,
+    "pose0/right/offset0": 84,
+    "pose1/right/offset0": 75,
+    "pose0/right/offset-1": 111,
+    "pose0/right/offset1": 83,
+    "pose1/right/offset-1": 121,
+    "pose1/right/offset1": 83
+  },
+  "stability_windows": [
+    {
+      "first_frame": 300,
+      "last_frame": 450,
+      "pixel_proven_frames": 151,
+      "before_x_counts": {
+        "244": 76,
+        "242": 75
+      },
+      "after_x_counts": {
+        "243": 151
+      },
+      "native_horizontal_shake_hd_pixels": 2,
+      "corrected_horizontal_shake_hd_pixels": 0,
+      "vertical_motion_unchanged": true
+    },
+    {
+      "first_frame": 780,
+      "last_frame": 840,
+      "pixel_proven_frames": 61,
+      "before_x_counts": {
+        "58": 31,
+        "56": 30
+      },
+      "after_x_counts": {
+        "57": 61
+      },
+      "native_horizontal_shake_hd_pixels": 2,
+      "corrected_horizontal_shake_hd_pixels": 0,
+      "vertical_motion_unchanged": true
+    },
+    {
+      "first_frame": 1000,
+      "last_frame": 1100,
+      "pixel_proven_frames": 101,
+      "before_x_counts": {
+        "58": 51,
+        "56": 50
+      },
+      "after_x_counts": {
+        "57": 101
+      },
+      "native_horizontal_shake_hd_pixels": 2,
+      "corrected_horizontal_shake_hd_pixels": 0,
+      "vertical_motion_unchanged": true
+    }
+  ],
+  "source_failures": [],
+  "changed_files": [
+    "README.txt",
+    "Stage3_Lava_Tiles_2x.png",
+    "hires.txt"
+  ],
+  "unchanged_runtime_files": 97,
+  "native_state_unchanged": true
+}

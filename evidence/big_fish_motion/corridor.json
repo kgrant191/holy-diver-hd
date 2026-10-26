@@ -1,0 +1,32 @@
+{
+  "version": "0.12.2",
+  "movie_sha256": "b13e4d21d182ea84f5e9614d839db71c765f26d4874b4a6cbea5b91e8332699d",
+  "frames": 3705,
+  "stride": 1,
+  "paired_samples_per_type": 3705,
+  "identical_apu_writes": 8144,
+  "identical_pcm_bytes": 11842628,
+  "counts": {
+    "initial_empty": 1,
+    "exact_images": 3119,
+    "exact_attack_or_damage_images": 134,
+    "changed_images": 585
+  },
+  "pixel_proven_pose_offsets": {
+    "pose0/left/offset1": 166,
+    "pose1/left/offset1": 166,
+    "pose1/left/offset-1": 120,
+    "pose0/left/offset-1": 111,
+    "pose0/left/offset0": 80,
+    "pose1/left/offset0": 59
+  },
+  "stability_windows": [],
+  "source_failures": [],
+  "changed_files": [
+    "README.txt",
+    "Stage3_Lava_Tiles_2x.png",
+    "hires.txt"
+  ],
+  "unchanged_runtime_files": 97,
+  "native_state_unchanged": true
+}

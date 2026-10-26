@@ -2,6 +2,26 @@
 
 Updated: 2026-10-25 (America/New_York).
 
+## Current review — 0.12.2, feature/level3-lava
+
+The new 1,200-frame movie reproduces the actual report: the large fish shifts horizontally by one native pixel every frame while hovering, without being hit. The original sprite and HD fish share this native OAM oscillation. The previous small-fish fix did not address this reported motion.
+
+A graphics-only correction offsets the complete existing large-fish art by ±1 HD pixel in the observed horizontal hover/cruise state. This cancels the two-HD-pixel alternation at hover equilibrium while retaining the native vertical bob and fin animation. It is scoped to mode 10 / room 9AA6, exactly one active type-26 fish, fractional horizontal speed CC with high byte 00/80, and no damage timer. Both native mirror directions are handled. Other states and ambiguous multiple-fish cases retain the original registration. No emulated state or IPS is modified.
+
+Only hires.txt, unused cells in Stage3_Lava_Tiles_2x.png and installed README change; all 97 other installation files and every existing atlas cell stay exact. The source fish images are unchanged. See docs/BIG_FISH_MOTION.md and evidence/big_fish_motion/. All three paired routes pass 5726 frames per build with identical native state/APU/PCM; all 313 measured hover pictures have zero horizontal shake and unchanged vertical motion. This review is not approved or published. Approved continuation baseline remains 0.11.2; main remains 0.10.2.
+
+## Previous review — 0.12.1, feature/level3-lava
+
+The user clarified that the fish looked blurry/glitchy during movement, not in still artwork. No sharpening or new design is applied. Independent per-frame adaptive color reduction made all 227 visible pixels in the small fish's two poses change; only the fin should move. Reuse the first pose's palette and exact pixels wherever its scaled source is static. Both large-fish poses and the first small-fish pose remain exact. Existing atlas slots are preserved, so hires.txt and all other runtime mappings stay byte-identical to 0.12.0.
+
+Consecutive-frame investigation also identifies the large fish's blink after impact in native OAM: eight cells alternate with none. That native hit blink is preserved. The report does not establish that every perceived motion artifact on the user's display has been reproduced. See docs/FISH_MOTION.md and evidence/fish_motion/. The full 3,705-frame stride-one pair passes: 562 images change only inside the small alternate pose, 3142 valid images remain exact, and native memory/APU/full PCM match. This candidate remains unapproved and unpublished; approved continuation baseline is 0.11.2 and main stays 0.10.2.
+
+## Previous review — 0.12.0, feature/level3-lava
+
+Implements the next supplied recording: the Start/pause-menu boot now uses the approved collectible, the complete recorded lava corridor reuses approved cave/brown terrain/carved steps, large and small fish receive two painted poses each, and hot/frozen lava uses exact existing atlas cells. Breaker now has all 21 native charge/release/flight identities, including upward release/bolts, both directions and both observed spell palettes. Source-identical copies in twelve banks share the replacements; only the recorded bank has fresh live coverage.
+
+The new branch starts from approved 0.11.2 at `9eb0678f0ba3ee9aed9d19481c6eacb5f89fdd58`. This candidate is not approved, pushed or merged. It adds one atlas and changes only hires.txt and installed README among the previous 99 files; 97 prior runtime assets stay exact. The expected manifest describes 0.12.0, while `0.11.2-pack-sha256.json` retains the approved continuation baseline. Main remains merged 0.10.2. See `docs/LEVEL3_LAVA.md` and `evidence/level3_lava/` for paired native-state/audio, sprite, source-art and edge checks. Later Level 3 rooms and the boss are outside this recording.
+
 ## Approved continuation baseline — 0.11.2, feature/level3-opening
 
 The user approved the delivered 0.11.2 by saying "approved" on 2026-10-25 (America/New_York). `evidence/level3_detail/approval.json` pins the reviewed artwork commit and install ZIP. All 99 reviewed installation files, including the historical review label in the installed README, stay exact. This is the baseline for further Level 3 work; source publication, PR/Actions and merge remain pending.

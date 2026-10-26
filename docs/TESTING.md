@@ -229,3 +229,15 @@ Run the unchanged movie through the synchronized native-core harness, then `veri
 ## Level 3 round shot, branches and collectible boot (0.11.2)
 
 Use the unchanged embedded-state movie and synchronized native-core runner. Compare against the retained final 0.11.1 movie with verify_level3_details.py. Require exact native RAM/PPU/OAM/view, APU and complete PCM; changed pixels must stay within the actual shot, collectible and branch masks. Require complete boot/shot source matches and actual unoccluded branch source pixels. Static validation preserves every branch alpha mask and all previous runtime assets. Controller-only derivatives start on the lowest branch, move to its left support edge, pause, then walk slowly right across the full supported span and off the right collision edge. The trunk is a backdrop here, so do not assume it blocks movement. See LEVEL3_DETAILS.md for measurements.
+
+## Level 3 lava corridor, menu boot, fish and Breaker — 0.12.0
+
+Replay the supplied 3,705-frame movie with stride 2; derive Breaker direction/palette, Blizzard and slow-edge tests with make_level3_lava_routes.py. Replay the earlier 6,883-frame opening movie with stride 4 as regression. Use verify_level3_lava.py on each pair to preserve RAM/PPU/OAM/view/APU/full PCM, confine menu changes to the boot, retain blank menu transitions and blackouts, and compare actual sprites and scenery with the registered sources. Charge pixels occluded by Randy are excluded using native OAM bounds; complete fish templates account for the native hit blink, which omits the fish on alternating frames. Source checks align PPU scroll within one capture interval. Only complete native runs count. Detailed results and commands are in LEVEL3_LAVA.md.
+
+## Fish motion consistency — 0.12.1
+
+Use the same full corridor movie at stride one against retained 0.12.0 and 0.12.1. `verify_fish_motion.py` requires consecutive native samples, complete paired audio, unchanged mappings, image differences confined to the small alternate pose, exact static head/body pixels, and runtime source matches in both directions. Preserve native large-fish hit blinking. See FISH_MOTION.md.
+
+## Large-fish hover stability — 0.12.2
+
+Use the new 1,200-frame user movie at stride one and the previous 3,705-frame corridor movie at stride one. Pair the 821-frame Blizzard derivative at stride one. `verify_big_fish_motion.py` compares all sampled native state and full APU/PCM, restricts differences to the large fish and eligible movement state, checks preserved source pixels and proves zero horizontal oscillation in three measured hover windows. The original-art probe disables only the ten large-fish mappings. See BIG_FISH_MOTION.md.

@@ -2,6 +2,26 @@
 
 Read README.md, STATUS.md, docs/ART_DIRECTION.md and docs/TESTING.md before changing the project. Update STATUS.md and CHANGELOG.md when work changes the approved build or leaves a concrete follow-up.
 
+## Current large-fish hover review — 0.12.2
+
+- The user's new movie demonstrates native horizontal hover oscillation in the large fish without damage. 0.12.1 repaired a separate small-fish color problem; do not claim it addressed this report.
+- Keep the original painted fish and native gameplay exact. `build_big_fish_motion.py` adds ±1 HD-pixel registrations only for the measured one-fish hover/cruise state in room 9AA6. Preserve both mirrors, original fin/vertical motion, attacks and hit blinking. Multiple-fish ambiguity falls back to original art.
+- Do not shift individual limbs or redraw the fish. The complete 48×48 source shifts together inside its measured margin, with no clipping. Original atlas cells remain exact; the twenty new cells occupy X0–319/Y496–511.
+- See docs/BIG_FISH_MOTION.md and evidence/big_fish_motion/. 0.12.2 is unapproved; main 0.10.2 and approved continuation 0.11.2 remain pinned.
+
+## Previous small-fish motion review — 0.12.1
+
+- The user clarified motion blur/glitching, not a request to sharpen or redesign the fish. Preserve original generated art, both large poses and the first small pose. The small alternate pose now shares the base palette and static head/body pixels. Keep reserved atlas slots so all existing mappings stay exact.
+- Native large-fish hit blinking is present in OAM and must remain. Do not describe generic alternate-frame flicker as an HD mapping bug. Capture consecutive frames for motion defects; stride two cannot reveal every alternating phase.
+- See docs/FISH_MOTION.md and evidence/fish_motion/. 0.12.1 is unapproved, based on review 0.12.0; 0.11.2 remains the approved continuation baseline. Main is 0.10.2.
+
+## Previous Level 3 lava review — 0.12.0
+
+- Work is on `feature/level3-lava`, based on approved `feature/level3-opening` at 9eb0678. The new corridor, menu boot, fish and Breaker casts are a review candidate, not approved. Preserve the frozen 0.11.2 manifest; main remains 0.10.2. See docs/LEVEL3_LAVA.md.
+- Lava room scenery is limited to RAM mode 10 / room 9AA6 and exact hot/ice palette guards. Menu boots are background IDs 0971–0974; reuse the approved collectible art. Small unflipped fish point right; native OAM mirroring makes the left-moving form face left.
+- Breaker uses 0675–0689 (charge, horizontal release/bolts, upward release/bolts) and twelve proven identical bank copies with both FF221136/FF300036 palettes. Preserve native OAM flips, timing, MP costs and stair destruction.
+- Runtime changes from 0.11.2 are hires.txt, README.txt and one new Stage3_Lava_Tiles_2x.png atlas. All 97 other approved runtime files stay exact. Shared Stage 2 fallback remains last.
+
 ## Approved Level 3 continuation baseline
 
 - The user approved 0.11.2 on `feature/level3-opening` on 2026-10-25 (America/New_York), saying "approved". Preserve all 99 reviewed installation files exactly. This is the continuation baseline; main remains at merged 0.10.2 pending the source push, PR and merge. See `evidence/level3_detail/approval.json`, `docs/LEVEL3_DETAILS.md` and the paired live evidence. Approval bookkeeping changes source documentation only; keep the installed README frozen.
