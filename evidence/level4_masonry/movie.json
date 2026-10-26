@@ -1,0 +1,121 @@
+{
+  "native_samples_per_type": 2168,
+  "movie_frames": 8668,
+  "movie_sha256": "f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca",
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 27698116,
+  "pcm_sha256": "ae449541f642034e4f4b9240542ca0497b0b0a0eb4db005a85e2b7b282a377ab",
+  "apu_sha256": "4589c0c235f4df356084b9e1e52f42df2ca0e6a6b6d27e719540e127f9f1f2b5",
+  "image_checks": {
+    "changed_foreground_only": 1935,
+    "identical_images": 233,
+    "native_black_frames": 40
+  },
+  "changes_confined_to_foreground": true,
+  "complete_source_matches": {
+    "solid": 387,
+    "breakable": 193,
+    "moving_platform": 48,
+    "column_cap": 203,
+    "column_base": 203,
+    "column_shaft": 203
+  },
+  "examples": {
+    "solid": {
+      "frame": 20,
+      "xy": [
+        32,
+        384
+      ]
+    },
+    "breakable": {
+      "frame": 20,
+      "xy": [
+        448,
+        192
+      ]
+    },
+    "moving_platform": {
+      "frame": 1100,
+      "xy": [
+        478,
+        416
+      ]
+    },
+    "column_cap": {
+      "frame": 4060,
+      "xy": [
+        448,
+        256
+      ]
+    },
+    "column_base": {
+      "frame": 4060,
+      "xy": [
+        0,
+        448
+      ]
+    },
+    "column_shaft": {
+      "frame": 4060,
+      "xy": [
+        448,
+        288
+      ]
+    }
+  },
+  "background_checks": [
+    {
+      "frame": 400,
+      "source": "Golden_Temple_Exterior.png",
+      "exact_pixels_below_hud": 97247
+    },
+    {
+      "frame": 1600,
+      "source": "Golden_Temple_Exterior.png",
+      "exact_pixels_below_hud": 141274
+    },
+    {
+      "frame": 3200,
+      "source": "Golden_Temple_Exterior.png",
+      "exact_pixels_below_hud": 104454
+    },
+    {
+      "frame": 4000,
+      "source": "Golden_Temple_Exterior.png",
+      "exact_pixels_below_hud": 53807
+    },
+    {
+      "frame": 4200,
+      "source": "Golden_Temple_Interior.png",
+      "exact_pixels_below_hud": 120526
+    },
+    {
+      "frame": 5200,
+      "source": "Golden_Temple_Interior.png",
+      "exact_pixels_below_hud": 118715
+    },
+    {
+      "frame": 6500,
+      "source": "Golden_Temple_Interior.png",
+      "exact_pixels_below_hud": 138977
+    },
+    {
+      "frame": 7200,
+      "source": "Golden_Temple_Interior.png",
+      "exact_pixels_below_hud": 135542
+    },
+    {
+      "frame": 8000,
+      "source": "Golden_Temple_Interior.png",
+      "exact_pixels_below_hud": 138106
+    },
+    {
+      "frame": 8600,
+      "source": "Golden_Temple_Interior.png",
+      "exact_pixels_below_hud": 128519
+    }
+  ]
+}

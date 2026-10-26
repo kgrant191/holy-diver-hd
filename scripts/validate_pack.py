@@ -31,10 +31,26 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==48
+assert len(imgs)==49
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+masonry=json.loads((root/'art/level4_masonry/registration.json').read_text())
+counts['tile']-=masonry['tile_rules'];counts['condition']-=masonry['conditions']
+for section in ['IMAGES','CONDITIONS','MAPPINGS']:
+ pattern=r'^# BEGIN TEMPLE_MASONRY '+section+r'\n.*?^# END TEMPLE_MASONRY '+section+r'\n'
+ content,n=re.subn(pattern,'',content,flags=re.M|re.S);assert n==1
+previous_masonry=json.loads((root/'evidence/0.16.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==previous_masonry['hires.txt'],'0.16.0 mappings changed'
+for name,digest in previous_masonry.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior art changed'
+current_files={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Masonry_2x.png'}
+assert current_files==set(previous_masonry)
+assert not masonry['backgrounds_modified'] and not masonry['outdoor_columns_modified']
+for m in masonry['mappings']:
+ t=int(m['tile'],16)
+ assert 0xb3a<=t<=0xb49 or 0xb4e<=t<=0xb53 or 0xb78<=t<=0xb7b or 0xb80<=t<=0xb88 or 0xaf8<=t<=0xafb
+ assert m['scope'].startswith(('templeA865Mode&templeA865Lo&templeA865Hi','templeAA09Mode&templeAA09Lo&templeAA09Hi','templeAA81Mode&templeAA81Lo&templeAA81Hi'))
 temple=json.loads((root/'art/level4/registration.json').read_text())
 temple_files={'Golden_Temple_Tiles_2x.png','Golden_Temple_Exterior.png','Golden_Temple_Interior.png'}
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=temple[field]
@@ -45,7 +61,7 @@ previous_temple=json.loads((root/'evidence/0.15.0-pack-sha256.json').read_text()
 assert hashlib.sha256(content.encode()).hexdigest()==previous_temple['hires.txt'],'Approved 0.15.0 mappings changed'
 for name,digest in previous_temple.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved artwork changed'
-assert {p.name for p in pack.iterdir() if p.is_file()}-set(previous_temple)==temple_files
+assert current_files-set(previous_temple)==temple_files
 for fit in temple['actor_fits'].values():assert fit['clipped_pixels']==0
 temple_patterns=json.loads((root/'art/level4/native_patterns.json').read_text())
 for key,aliases in json.loads((root/'art/level4/overdrive_aliases.json').read_text()).items():
@@ -53,7 +69,7 @@ for key,aliases in json.loads((root/'art/level4/overdrive_aliases.json').read_te
 for record in temple['mappings']:
  if record['kind'] in {'native collision masonry','outdoor gold column','nonsolid scenery reveal','temple entrance facade','dark entrance'}:
   assert record['scope'].startswith(('templeA865Mode&templeA865Lo&templeA865Hi','templeAA09Mode&templeAA09Lo&templeAA09Hi','templeAA81Mode&templeAA81Lo&templeAA81Hi'))
-historical_files={p.name for p in pack.iterdir() if p.is_file()}-temple_files
+historical_files=current_files-temple_files
 finale=json.loads((root/'art/level3_finale/registration.json').read_text())
 finale_files={'Level3_Finale_Tiles_2x.png','Overdrive_Acquired.png'}
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=finale[field]

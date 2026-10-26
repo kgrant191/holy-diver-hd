@@ -260,3 +260,8 @@ Replay the full 4,812-frame movie at stride two against exact approved 0.14.0. C
 ## Golden Temple — 0.16.0 review
 
 Use the supplied 8,668-frame movie against approved 0.15.0 and final 0.16.0. Pair all native state and full audio through verify_level4.py; generate controller-only Overdrive and platform routes with make_level4_routes.py. The actual spell is 0A8A–0A8D; CB–CF is an enemy attack. Verify source panoramas/stone through verify_level4_scenery.py. Scope, commands and bounded coverage: LEVEL4_GOLDEN_TEMPLE.md.
+
+
+## Golden Temple foreground revision — 0.16.1
+
+Pair the full 8,668-frame recording and 1,485-frame input-only edge route against the final 0.16.0 captures. verify_level4_masonry.py requires exact native state/audio, changes confined to foreground cells, source block/column matches and unchanged panorama pixels. Keep the background/outdoor-column assets and previous mappings exact. Native 0B4E–0B51 destruction is documented from three live events. See LEVEL4_MASONRY.md.

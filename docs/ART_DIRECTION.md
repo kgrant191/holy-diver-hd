@@ -1,5 +1,9 @@
 # Art direction
 
+## Golden Temple foreground revision — 0.16.1
+
+The user accepted the backgrounds and outdoor fluted columns. Preserve them exactly. Replace plain square slabs with worn, beveled, broad horizontal sandstone in staggered courses. Breakable blocks have a darker recessed face, chipped frame and a clear branching fracture. Indoor structural supports use ornate carved capitals, continuous flutes and molded bases within native geometry. Do not change scenery to solve foreground problems. Exact image-generation prompts: art/generated/level4_masonry_prompts.json.
+
 ## Golden Temple — 0.16.0 review
 
 Use an open navy twilight sky and distant gilded temple for the outdoor approach, then enclosed navy masonry and gold arches inside. Bright gold physical blocks remain distinct from the subdued hall. Keep shafts continuous and native stair shapes readable. New enemies are gold stone boulders, flying golden gargoyles and compact ivory/olive horned guardians. Active Overdrive uses cobalt/ivory orbiting orbs with gold detail; its previously approved acquisition orb is a different graphic. Source brief summaries and registrations: art/generated/level4_provenance.json, art/level4/, scripts/build_level4.py.

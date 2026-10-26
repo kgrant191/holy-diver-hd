@@ -1,5 +1,9 @@
 # Current status
 
+## Current Golden Temple review — 0.16.1
+
+The user accepted the backgrounds and outdoor columns, requested distinct breakable blocks, and rejected the flat square masonry and indoor block-stack supports. New worn horizontal sandstone, darker cracked breakable faces, and carved indoor columns address that feedback. All 107 prior art/audio files remain exact. Paired checks pass 3,653 native samples per type across 10,153 frames per build, with exact full PCM/APU and foreground-only changes. All 110 install hashes and flat-layout/CRC checks pass. The 110-file candidate awaits review on feature/golden-temple; main remains approved 0.15.0. See docs/LEVEL4_MASONRY.md and evidence/level4_masonry/.
+
 ## Golden Temple review — 0.16.0
 
 The outdoor approach and both indoor sections reached by the supplied recording now have distinct Golden Temple scenery. OVERDRIVE is spelled correctly in the Start menu and casts new cobalt/ivory orbiting orbs. New temple actors retain native footprints, animation and behavior; proven returning actors reuse approved art. All 104 previous art/audio files remain exact. The 109-file install is a review candidate, based on approved main 0.15.0. No push, PR, merge, tag or release has occurred. Paired tests pass 4,139 native samples per type across 10,639 frames per build, with exact full PCM/APU. The archive passes all 109 hashes and flat-layout/CRC checks. See docs/LEVEL4_GOLDEN_TEMPLE.md and evidence/level4/.

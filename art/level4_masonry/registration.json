@@ -1,0 +1,3810 @@
+{
+  "mappings": [
+    {
+      "tile": "0B44",
+      "palette": "0F031323",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B44,0F031323,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F031323",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B45,0F031323,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F031323",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B46,0F031323,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F031323",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B47,0F031323,48,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B78,0F031323,64,0,1,N"
+    },
+    {
+      "tile": "0B3A",
+      "palette": "0F071737",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3A,0F071737,80,0,1,N"
+    },
+    {
+      "tile": "0B3B",
+      "palette": "0F071737",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3B,0F071737,96,0,1,N"
+    },
+    {
+      "tile": "0B3C",
+      "palette": "0F071737",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3C,0F071737,112,0,1,N"
+    },
+    {
+      "tile": "0B3D",
+      "palette": "0F071737",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3D,0F071737,128,0,1,N"
+    },
+    {
+      "tile": "0B3E",
+      "palette": "0F071737",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3E,0F071737,144,0,1,N"
+    },
+    {
+      "tile": "0B3F",
+      "palette": "0F071737",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3F,0F071737,160,0,1,N"
+    },
+    {
+      "tile": "0B40",
+      "palette": "0F071737",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B40,0F071737,176,0,1,N"
+    },
+    {
+      "tile": "0B41",
+      "palette": "0F071737",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B41,0F071737,192,0,1,N"
+    },
+    {
+      "tile": "0B42",
+      "palette": "0F071737",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B42,0F071737,208,0,1,N"
+    },
+    {
+      "tile": "0B43",
+      "palette": "0F071737",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B43,0F071737,224,0,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F071737",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B44,0F071737,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F071737",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B45,0F071737,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F071737",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B46,0F071737,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F071737",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B47,0F071737,48,0,1,N"
+    },
+    {
+      "tile": "0B48",
+      "palette": "0F071737",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B48,0F071737,240,0,1,N"
+    },
+    {
+      "tile": "0B49",
+      "palette": "0F071737",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B49,0F071737,256,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F071737",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B4E,0F071737,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F071737",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B4F,0F071737,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F071737",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B50,0F071737,304,0,1,N"
+    },
+    {
+      "tile": "0B51",
+      "palette": "0F071737",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B51,0F071737,320,0,1,N"
+    },
+    {
+      "tile": "0B52",
+      "palette": "0F071737",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B52,0F071737,336,0,1,N"
+    },
+    {
+      "tile": "0B53",
+      "palette": "0F071737",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B53,0F071737,352,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F071737",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B78,0F071737,64,0,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F071737",
+      "xy": [
+        368,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B79,0F071737,368,0,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F071737",
+      "xy": [
+        384,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B7A,0F071737,384,0,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F071737",
+      "xy": [
+        400,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B7B,0F071737,400,0,1,N"
+    },
+    {
+      "tile": "0B80",
+      "palette": "0F071737",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B80,0F071737,416,0,1,N"
+    },
+    {
+      "tile": "0B81",
+      "palette": "0F071737",
+      "xy": [
+        432,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B81,0F071737,432,0,1,N"
+    },
+    {
+      "tile": "0B82",
+      "palette": "0F071737",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B82,0F071737,448,0,1,N"
+    },
+    {
+      "tile": "0B83",
+      "palette": "0F071737",
+      "xy": [
+        464,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B83,0F071737,464,0,1,N"
+    },
+    {
+      "tile": "0B84",
+      "palette": "0F071737",
+      "xy": [
+        480,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B84,0F071737,480,0,1,N"
+    },
+    {
+      "tile": "0B85",
+      "palette": "0F071737",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B85,0F071737,496,0,1,N"
+    },
+    {
+      "tile": "0B86",
+      "palette": "0F071737",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B86,0F071737,448,0,1,N"
+    },
+    {
+      "tile": "0B87",
+      "palette": "0F071737",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B87,0F071737,0,16,1,N"
+    },
+    {
+      "tile": "0B88",
+      "palette": "0F071737",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B88,0F071737,16,16,1,N"
+    },
+    {
+      "tile": "0B3A",
+      "palette": "0F072830",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3A,0F072830,80,0,1,N"
+    },
+    {
+      "tile": "0B3B",
+      "palette": "0F072830",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3B,0F072830,96,0,1,N"
+    },
+    {
+      "tile": "0B3C",
+      "palette": "0F072830",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3C,0F072830,112,0,1,N"
+    },
+    {
+      "tile": "0B3D",
+      "palette": "0F072830",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3D,0F072830,128,0,1,N"
+    },
+    {
+      "tile": "0B3E",
+      "palette": "0F072830",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3E,0F072830,144,0,1,N"
+    },
+    {
+      "tile": "0B3F",
+      "palette": "0F072830",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B3F,0F072830,160,0,1,N"
+    },
+    {
+      "tile": "0B40",
+      "palette": "0F072830",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B40,0F072830,176,0,1,N"
+    },
+    {
+      "tile": "0B41",
+      "palette": "0F072830",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B41,0F072830,192,0,1,N"
+    },
+    {
+      "tile": "0B42",
+      "palette": "0F072830",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B42,0F072830,208,0,1,N"
+    },
+    {
+      "tile": "0B43",
+      "palette": "0F072830",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B43,0F072830,224,0,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B44,0F072830,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B45,0F072830,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B46,0F072830,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F072830",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B47,0F072830,48,0,1,N"
+    },
+    {
+      "tile": "0B48",
+      "palette": "0F072830",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B48,0F072830,240,0,1,N"
+    },
+    {
+      "tile": "0B49",
+      "palette": "0F072830",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B49,0F072830,256,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F072830",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B4E,0F072830,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F072830",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B4F,0F072830,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F072830",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B50,0F072830,304,0,1,N"
+    },
+    {
+      "tile": "0B51",
+      "palette": "0F072830",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B51,0F072830,320,0,1,N"
+    },
+    {
+      "tile": "0B52",
+      "palette": "0F072830",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B52,0F072830,336,0,1,N"
+    },
+    {
+      "tile": "0B53",
+      "palette": "0F072830",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B53,0F072830,352,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B78,0F072830,64,0,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        368,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B79,0F072830,368,0,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        384,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B7A,0F072830,384,0,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        400,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B7B,0F072830,400,0,1,N"
+    },
+    {
+      "tile": "0B80",
+      "palette": "0F072830",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B80,0F072830,416,0,1,N"
+    },
+    {
+      "tile": "0B81",
+      "palette": "0F072830",
+      "xy": [
+        432,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B81,0F072830,432,0,1,N"
+    },
+    {
+      "tile": "0B82",
+      "palette": "0F072830",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B82,0F072830,448,0,1,N"
+    },
+    {
+      "tile": "0B83",
+      "palette": "0F072830",
+      "xy": [
+        464,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B83,0F072830,464,0,1,N"
+    },
+    {
+      "tile": "0B84",
+      "palette": "0F072830",
+      "xy": [
+        480,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B84,0F072830,480,0,1,N"
+    },
+    {
+      "tile": "0B85",
+      "palette": "0F072830",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B85,0F072830,496,0,1,N"
+    },
+    {
+      "tile": "0B86",
+      "palette": "0F072830",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B86,0F072830,448,0,1,N"
+    },
+    {
+      "tile": "0B87",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B87,0F072830,0,16,1,N"
+    },
+    {
+      "tile": "0B88",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B88,0F072830,16,16,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F172737",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B44,0F172737,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F172737",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B45,0F172737,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F172737",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B46,0F172737,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F172737",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B47,0F172737,48,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F172737",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B4E,0F172737,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F172737",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B4F,0F172737,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F172737",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B50,0F172737,304,0,1,N"
+    },
+    {
+      "tile": "0B51",
+      "palette": "0F172737",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B51,0F172737,320,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0B78,0F172737,64,0,1,N"
+    },
+    {
+      "tile": "0B3A",
+      "palette": "0F071737",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3A,0F071737,80,0,1,N"
+    },
+    {
+      "tile": "0B3B",
+      "palette": "0F071737",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3B,0F071737,96,0,1,N"
+    },
+    {
+      "tile": "0B3C",
+      "palette": "0F071737",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3C,0F071737,112,0,1,N"
+    },
+    {
+      "tile": "0B3D",
+      "palette": "0F071737",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3D,0F071737,128,0,1,N"
+    },
+    {
+      "tile": "0B3E",
+      "palette": "0F071737",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3E,0F071737,144,0,1,N"
+    },
+    {
+      "tile": "0B3F",
+      "palette": "0F071737",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3F,0F071737,160,0,1,N"
+    },
+    {
+      "tile": "0B40",
+      "palette": "0F071737",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B40,0F071737,176,0,1,N"
+    },
+    {
+      "tile": "0B41",
+      "palette": "0F071737",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B41,0F071737,192,0,1,N"
+    },
+    {
+      "tile": "0B42",
+      "palette": "0F071737",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B42,0F071737,208,0,1,N"
+    },
+    {
+      "tile": "0B43",
+      "palette": "0F071737",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B43,0F071737,224,0,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F071737",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B44,0F071737,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F071737",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B45,0F071737,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F071737",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B46,0F071737,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F071737",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B47,0F071737,48,0,1,N"
+    },
+    {
+      "tile": "0B48",
+      "palette": "0F071737",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B48,0F071737,240,0,1,N"
+    },
+    {
+      "tile": "0B49",
+      "palette": "0F071737",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B49,0F071737,256,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F071737",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B4E,0F071737,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F071737",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B4F,0F071737,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F071737",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B50,0F071737,304,0,1,N"
+    },
+    {
+      "tile": "0B51",
+      "palette": "0F071737",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B51,0F071737,320,0,1,N"
+    },
+    {
+      "tile": "0B52",
+      "palette": "0F071737",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B52,0F071737,336,0,1,N"
+    },
+    {
+      "tile": "0B53",
+      "palette": "0F071737",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B53,0F071737,352,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F071737",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F071737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F071737above]<tile>48,0B78,0F071737,32,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F071737",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F071737above&!masonryAA090B780F071737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F071737above&!masonryAA090B780F071737above2]<tile>48,0B78,0F071737,48,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F071737",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F071737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F071737below]<tile>48,0B78,0F071737,64,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F071737",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F071737below&!masonryAA090B780F071737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F071737below&!masonryAA090B780F071737below2]<tile>48,0B78,0F071737,80,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F071737",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B78,0F071737,96,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F071737",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F071737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F071737above]<tile>48,0B79,0F071737,112,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F071737",
+      "xy": [
+        128,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F071737above&!masonryAA090B790F071737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F071737above&!masonryAA090B790F071737above2]<tile>48,0B79,0F071737,128,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F071737",
+      "xy": [
+        144,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F071737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F071737below]<tile>48,0B79,0F071737,144,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F071737",
+      "xy": [
+        160,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F071737below&!masonryAA090B790F071737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F071737below&!masonryAA090B790F071737below2]<tile>48,0B79,0F071737,160,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F071737",
+      "xy": [
+        176,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B79,0F071737,176,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F071737",
+      "xy": [
+        192,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F071737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F071737above]<tile>48,0B7A,0F071737,192,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F071737",
+      "xy": [
+        208,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F071737above&!masonryAA090B7A0F071737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F071737above&!masonryAA090B7A0F071737above2]<tile>48,0B7A,0F071737,208,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F071737",
+      "xy": [
+        224,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F071737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F071737below]<tile>48,0B7A,0F071737,224,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F071737",
+      "xy": [
+        240,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F071737below&!masonryAA090B7A0F071737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F071737below&!masonryAA090B7A0F071737below2]<tile>48,0B7A,0F071737,240,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F071737",
+      "xy": [
+        256,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B7A,0F071737,256,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F071737",
+      "xy": [
+        272,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F071737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F071737above]<tile>48,0B7B,0F071737,272,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F071737",
+      "xy": [
+        288,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F071737above&!masonryAA090B7B0F071737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F071737above&!masonryAA090B7B0F071737above2]<tile>48,0B7B,0F071737,288,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F071737",
+      "xy": [
+        304,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F071737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F071737below]<tile>48,0B7B,0F071737,304,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F071737",
+      "xy": [
+        320,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F071737below&!masonryAA090B7B0F071737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F071737below&!masonryAA090B7B0F071737below2]<tile>48,0B7B,0F071737,320,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F071737",
+      "xy": [
+        336,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B7B,0F071737,336,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F031323above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F031323above]<tile>48,0B78,0F031323,32,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F031323above&!masonryAA090B780F031323above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F031323above&!masonryAA090B780F031323above2]<tile>48,0B78,0F031323,48,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F031323below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F031323below]<tile>48,0B78,0F031323,64,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F031323below&!masonryAA090B780F031323below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F031323below&!masonryAA090B780F031323below2]<tile>48,0B78,0F031323,80,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B78,0F031323,96,16,1,N"
+    },
+    {
+      "tile": "0B3A",
+      "palette": "0F172737",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3A,0F172737,80,0,1,N"
+    },
+    {
+      "tile": "0B3B",
+      "palette": "0F172737",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3B,0F172737,96,0,1,N"
+    },
+    {
+      "tile": "0B3C",
+      "palette": "0F172737",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3C,0F172737,112,0,1,N"
+    },
+    {
+      "tile": "0B3D",
+      "palette": "0F172737",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3D,0F172737,128,0,1,N"
+    },
+    {
+      "tile": "0B3E",
+      "palette": "0F172737",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3E,0F172737,144,0,1,N"
+    },
+    {
+      "tile": "0B3F",
+      "palette": "0F172737",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3F,0F172737,160,0,1,N"
+    },
+    {
+      "tile": "0B40",
+      "palette": "0F172737",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B40,0F172737,176,0,1,N"
+    },
+    {
+      "tile": "0B41",
+      "palette": "0F172737",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B41,0F172737,192,0,1,N"
+    },
+    {
+      "tile": "0B42",
+      "palette": "0F172737",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B42,0F172737,208,0,1,N"
+    },
+    {
+      "tile": "0B43",
+      "palette": "0F172737",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B43,0F172737,224,0,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F172737",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B44,0F172737,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F172737",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B45,0F172737,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F172737",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B46,0F172737,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F172737",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B47,0F172737,48,0,1,N"
+    },
+    {
+      "tile": "0B48",
+      "palette": "0F172737",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B48,0F172737,240,0,1,N"
+    },
+    {
+      "tile": "0B49",
+      "palette": "0F172737",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B49,0F172737,256,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F172737",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B4E,0F172737,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F172737",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B4F,0F172737,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F172737",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B50,0F172737,304,0,1,N"
+    },
+    {
+      "tile": "0B51",
+      "palette": "0F172737",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B51,0F172737,320,0,1,N"
+    },
+    {
+      "tile": "0B52",
+      "palette": "0F172737",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B52,0F172737,336,0,1,N"
+    },
+    {
+      "tile": "0B53",
+      "palette": "0F172737",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B53,0F172737,352,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F172737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F172737above]<tile>48,0B78,0F172737,32,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F172737above&!masonryAA090B780F172737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F172737above&!masonryAA090B780F172737above2]<tile>48,0B78,0F172737,48,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F172737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F172737below]<tile>48,0B78,0F172737,64,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F172737below&!masonryAA090B780F172737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F172737below&!masonryAA090B780F172737below2]<tile>48,0B78,0F172737,80,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B78,0F172737,96,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F172737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F172737above]<tile>48,0B79,0F172737,112,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        128,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F172737above&!masonryAA090B790F172737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F172737above&!masonryAA090B790F172737above2]<tile>48,0B79,0F172737,128,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        144,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F172737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F172737below]<tile>48,0B79,0F172737,144,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        160,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F172737below&!masonryAA090B790F172737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F172737below&!masonryAA090B790F172737below2]<tile>48,0B79,0F172737,160,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        176,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B79,0F172737,176,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        192,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F172737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F172737above]<tile>48,0B7A,0F172737,192,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        208,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F172737above&!masonryAA090B7A0F172737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F172737above&!masonryAA090B7A0F172737above2]<tile>48,0B7A,0F172737,208,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        224,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F172737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F172737below]<tile>48,0B7A,0F172737,224,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        240,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F172737below&!masonryAA090B7A0F172737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F172737below&!masonryAA090B7A0F172737below2]<tile>48,0B7A,0F172737,240,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        256,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B7A,0F172737,256,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        272,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F172737above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F172737above]<tile>48,0B7B,0F172737,272,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        288,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F172737above&!masonryAA090B7B0F172737above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F172737above&!masonryAA090B7B0F172737above2]<tile>48,0B7B,0F172737,288,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        304,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F172737below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F172737below]<tile>48,0B7B,0F172737,304,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        320,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F172737below&!masonryAA090B7B0F172737below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F172737below&!masonryAA090B7B0F172737below2]<tile>48,0B7B,0F172737,320,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        336,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B7B,0F172737,336,16,1,N"
+    },
+    {
+      "tile": "0B80",
+      "palette": "0F172737",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B80,0F172737,416,0,1,N"
+    },
+    {
+      "tile": "0B81",
+      "palette": "0F172737",
+      "xy": [
+        432,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B81,0F172737,432,0,1,N"
+    },
+    {
+      "tile": "0B82",
+      "palette": "0F172737",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B82,0F172737,448,0,1,N"
+    },
+    {
+      "tile": "0B83",
+      "palette": "0F172737",
+      "xy": [
+        464,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B83,0F172737,464,0,1,N"
+    },
+    {
+      "tile": "0B84",
+      "palette": "0F172737",
+      "xy": [
+        480,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B84,0F172737,480,0,1,N"
+    },
+    {
+      "tile": "0B85",
+      "palette": "0F172737",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B85,0F172737,496,0,1,N"
+    },
+    {
+      "tile": "0B86",
+      "palette": "0F172737",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B86,0F172737,448,0,1,N"
+    },
+    {
+      "tile": "0B3A",
+      "palette": "0F072830",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3A,0F072830,80,0,1,N"
+    },
+    {
+      "tile": "0B3B",
+      "palette": "0F072830",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3B,0F072830,96,0,1,N"
+    },
+    {
+      "tile": "0B3C",
+      "palette": "0F072830",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3C,0F072830,112,0,1,N"
+    },
+    {
+      "tile": "0B3D",
+      "palette": "0F072830",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3D,0F072830,128,0,1,N"
+    },
+    {
+      "tile": "0B3E",
+      "palette": "0F072830",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3E,0F072830,144,0,1,N"
+    },
+    {
+      "tile": "0B3F",
+      "palette": "0F072830",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B3F,0F072830,160,0,1,N"
+    },
+    {
+      "tile": "0B40",
+      "palette": "0F072830",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B40,0F072830,176,0,1,N"
+    },
+    {
+      "tile": "0B41",
+      "palette": "0F072830",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B41,0F072830,192,0,1,N"
+    },
+    {
+      "tile": "0B42",
+      "palette": "0F072830",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B42,0F072830,208,0,1,N"
+    },
+    {
+      "tile": "0B43",
+      "palette": "0F072830",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B43,0F072830,224,0,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B44,0F072830,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B45,0F072830,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B46,0F072830,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F072830",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B47,0F072830,48,0,1,N"
+    },
+    {
+      "tile": "0B48",
+      "palette": "0F072830",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B48,0F072830,240,0,1,N"
+    },
+    {
+      "tile": "0B49",
+      "palette": "0F072830",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B49,0F072830,256,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F072830",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B4E,0F072830,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F072830",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B4F,0F072830,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F072830",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B50,0F072830,304,0,1,N"
+    },
+    {
+      "tile": "0B52",
+      "palette": "0F072830",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B52,0F072830,336,0,1,N"
+    },
+    {
+      "tile": "0B53",
+      "palette": "0F072830",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B53,0F072830,352,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F072830above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F072830above]<tile>48,0B78,0F072830,32,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F072830above&!masonryAA090B780F072830above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F072830above&!masonryAA090B780F072830above2]<tile>48,0B78,0F072830,48,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F072830below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F072830below]<tile>48,0B78,0F072830,64,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F072830below&!masonryAA090B780F072830below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F072830below&!masonryAA090B780F072830below2]<tile>48,0B78,0F072830,80,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B78,0F072830,96,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F072830above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F072830above]<tile>48,0B79,0F072830,112,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        128,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F072830above&!masonryAA090B790F072830above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F072830above&!masonryAA090B790F072830above2]<tile>48,0B79,0F072830,128,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        144,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F072830below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F072830below]<tile>48,0B79,0F072830,144,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        160,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F072830below&!masonryAA090B790F072830below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F072830below&!masonryAA090B790F072830below2]<tile>48,0B79,0F072830,160,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        176,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B79,0F072830,176,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        192,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F072830above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F072830above]<tile>48,0B7A,0F072830,192,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        208,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F072830above&!masonryAA090B7A0F072830above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F072830above&!masonryAA090B7A0F072830above2]<tile>48,0B7A,0F072830,208,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        224,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F072830below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F072830below]<tile>48,0B7A,0F072830,224,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        240,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F072830below&!masonryAA090B7A0F072830below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F072830below&!masonryAA090B7A0F072830below2]<tile>48,0B7A,0F072830,240,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        256,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B7A,0F072830,256,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        272,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F072830above",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F072830above]<tile>48,0B7B,0F072830,272,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        288,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F072830above&!masonryAA090B7B0F072830above2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F072830above&!masonryAA090B7B0F072830above2]<tile>48,0B7B,0F072830,288,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        304,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F072830below",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F072830below]<tile>48,0B7B,0F072830,304,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        320,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F072830below&!masonryAA090B7B0F072830below2",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F072830below&!masonryAA090B7B0F072830below2]<tile>48,0B7B,0F072830,320,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        336,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B7B,0F072830,336,16,1,N"
+    },
+    {
+      "tile": "0B80",
+      "palette": "0F072830",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B80,0F072830,416,0,1,N"
+    },
+    {
+      "tile": "0B81",
+      "palette": "0F072830",
+      "xy": [
+        432,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B81,0F072830,432,0,1,N"
+    },
+    {
+      "tile": "0B82",
+      "palette": "0F072830",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B82,0F072830,448,0,1,N"
+    },
+    {
+      "tile": "0B83",
+      "palette": "0F072830",
+      "xy": [
+        464,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B83,0F072830,464,0,1,N"
+    },
+    {
+      "tile": "0B84",
+      "palette": "0F072830",
+      "xy": [
+        480,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B84,0F072830,480,0,1,N"
+    },
+    {
+      "tile": "0B85",
+      "palette": "0F072830",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B85,0F072830,496,0,1,N"
+    },
+    {
+      "tile": "0B86",
+      "palette": "0F072830",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B86,0F072830,448,0,1,N"
+    },
+    {
+      "tile": "0B87",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B87,0F072830,0,16,1,N"
+    },
+    {
+      "tile": "0B88",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0B88,0F072830,16,16,1,N"
+    },
+    {
+      "tile": "0B3A",
+      "palette": "0F172737",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3A,0F172737,80,0,1,N"
+    },
+    {
+      "tile": "0B3B",
+      "palette": "0F172737",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3B,0F172737,96,0,1,N"
+    },
+    {
+      "tile": "0B3C",
+      "palette": "0F172737",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3C,0F172737,112,0,1,N"
+    },
+    {
+      "tile": "0B3D",
+      "palette": "0F172737",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3D,0F172737,128,0,1,N"
+    },
+    {
+      "tile": "0B3E",
+      "palette": "0F172737",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3E,0F172737,144,0,1,N"
+    },
+    {
+      "tile": "0B3F",
+      "palette": "0F172737",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3F,0F172737,160,0,1,N"
+    },
+    {
+      "tile": "0B40",
+      "palette": "0F172737",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B40,0F172737,176,0,1,N"
+    },
+    {
+      "tile": "0B41",
+      "palette": "0F172737",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B41,0F172737,192,0,1,N"
+    },
+    {
+      "tile": "0B42",
+      "palette": "0F172737",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B42,0F172737,208,0,1,N"
+    },
+    {
+      "tile": "0B43",
+      "palette": "0F172737",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B43,0F172737,224,0,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F172737",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B44,0F172737,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F172737",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B45,0F172737,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F172737",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B46,0F172737,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F172737",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B47,0F172737,48,0,1,N"
+    },
+    {
+      "tile": "0B48",
+      "palette": "0F172737",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B48,0F172737,240,0,1,N"
+    },
+    {
+      "tile": "0B49",
+      "palette": "0F172737",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B49,0F172737,256,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F172737",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B4E,0F172737,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F172737",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B4F,0F172737,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F172737",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B50,0F172737,304,0,1,N"
+    },
+    {
+      "tile": "0B51",
+      "palette": "0F172737",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B51,0F172737,320,0,1,N"
+    },
+    {
+      "tile": "0B52",
+      "palette": "0F172737",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B52,0F172737,336,0,1,N"
+    },
+    {
+      "tile": "0B53",
+      "palette": "0F172737",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B53,0F172737,352,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F172737above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F172737above]<tile>48,0B78,0F172737,32,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F172737above&!masonryAA810B780F172737above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F172737above&!masonryAA810B780F172737above2]<tile>48,0B78,0F172737,48,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F172737below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F172737below]<tile>48,0B78,0F172737,64,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F172737below&!masonryAA810B780F172737below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F172737below&!masonryAA810B780F172737below2]<tile>48,0B78,0F172737,80,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F172737",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B78,0F172737,96,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F172737above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F172737above]<tile>48,0B79,0F172737,112,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        128,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F172737above&!masonryAA810B790F172737above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F172737above&!masonryAA810B790F172737above2]<tile>48,0B79,0F172737,128,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        144,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F172737below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F172737below]<tile>48,0B79,0F172737,144,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        160,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F172737below&!masonryAA810B790F172737below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F172737below&!masonryAA810B790F172737below2]<tile>48,0B79,0F172737,160,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F172737",
+      "xy": [
+        176,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B79,0F172737,176,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        192,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F172737above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F172737above]<tile>48,0B7A,0F172737,192,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        208,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F172737above&!masonryAA810B7A0F172737above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F172737above&!masonryAA810B7A0F172737above2]<tile>48,0B7A,0F172737,208,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        224,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F172737below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F172737below]<tile>48,0B7A,0F172737,224,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        240,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F172737below&!masonryAA810B7A0F172737below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F172737below&!masonryAA810B7A0F172737below2]<tile>48,0B7A,0F172737,240,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F172737",
+      "xy": [
+        256,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B7A,0F172737,256,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        272,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F172737above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F172737above]<tile>48,0B7B,0F172737,272,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        288,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F172737above&!masonryAA810B7B0F172737above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F172737above&!masonryAA810B7B0F172737above2]<tile>48,0B7B,0F172737,288,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        304,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F172737below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F172737below]<tile>48,0B7B,0F172737,304,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        320,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F172737below&!masonryAA810B7B0F172737below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F172737below&!masonryAA810B7B0F172737below2]<tile>48,0B7B,0F172737,320,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F172737",
+      "xy": [
+        336,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B7B,0F172737,336,16,1,N"
+    },
+    {
+      "tile": "0B80",
+      "palette": "0F172737",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B80,0F172737,416,0,1,N"
+    },
+    {
+      "tile": "0B81",
+      "palette": "0F172737",
+      "xy": [
+        432,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B81,0F172737,432,0,1,N"
+    },
+    {
+      "tile": "0B82",
+      "palette": "0F172737",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B82,0F172737,448,0,1,N"
+    },
+    {
+      "tile": "0B83",
+      "palette": "0F172737",
+      "xy": [
+        464,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B83,0F172737,464,0,1,N"
+    },
+    {
+      "tile": "0B84",
+      "palette": "0F172737",
+      "xy": [
+        480,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B84,0F172737,480,0,1,N"
+    },
+    {
+      "tile": "0B85",
+      "palette": "0F172737",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B85,0F172737,496,0,1,N"
+    },
+    {
+      "tile": "0B86",
+      "palette": "0F172737",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B86,0F172737,448,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F031323above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F031323above]<tile>48,0B78,0F031323,32,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F031323above&!masonryAA810B780F031323above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F031323above&!masonryAA810B780F031323above2]<tile>48,0B78,0F031323,48,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F031323below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F031323below]<tile>48,0B78,0F031323,64,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F031323below&!masonryAA810B780F031323below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F031323below&!masonryAA810B780F031323below2]<tile>48,0B78,0F031323,80,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F031323",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B78,0F031323,96,16,1,N"
+    },
+    {
+      "tile": "0B3A",
+      "palette": "0F072830",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3A,0F072830,80,0,1,N"
+    },
+    {
+      "tile": "0B3B",
+      "palette": "0F072830",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3B,0F072830,96,0,1,N"
+    },
+    {
+      "tile": "0B3C",
+      "palette": "0F072830",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3C,0F072830,112,0,1,N"
+    },
+    {
+      "tile": "0B3D",
+      "palette": "0F072830",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3D,0F072830,128,0,1,N"
+    },
+    {
+      "tile": "0B3E",
+      "palette": "0F072830",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3E,0F072830,144,0,1,N"
+    },
+    {
+      "tile": "0B3F",
+      "palette": "0F072830",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B3F,0F072830,160,0,1,N"
+    },
+    {
+      "tile": "0B40",
+      "palette": "0F072830",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B40,0F072830,176,0,1,N"
+    },
+    {
+      "tile": "0B41",
+      "palette": "0F072830",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B41,0F072830,192,0,1,N"
+    },
+    {
+      "tile": "0B42",
+      "palette": "0F072830",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B42,0F072830,208,0,1,N"
+    },
+    {
+      "tile": "0B43",
+      "palette": "0F072830",
+      "xy": [
+        224,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B43,0F072830,224,0,1,N"
+    },
+    {
+      "tile": "0B44",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B44,0F072830,0,0,1,N"
+    },
+    {
+      "tile": "0B45",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B45,0F072830,16,0,1,N"
+    },
+    {
+      "tile": "0B46",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B46,0F072830,32,0,1,N"
+    },
+    {
+      "tile": "0B47",
+      "palette": "0F072830",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B47,0F072830,48,0,1,N"
+    },
+    {
+      "tile": "0B48",
+      "palette": "0F072830",
+      "xy": [
+        240,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B48,0F072830,240,0,1,N"
+    },
+    {
+      "tile": "0B49",
+      "palette": "0F072830",
+      "xy": [
+        256,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B49,0F072830,256,0,1,N"
+    },
+    {
+      "tile": "0B4E",
+      "palette": "0F072830",
+      "xy": [
+        272,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B4E,0F072830,272,0,1,N"
+    },
+    {
+      "tile": "0B4F",
+      "palette": "0F072830",
+      "xy": [
+        288,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B4F,0F072830,288,0,1,N"
+    },
+    {
+      "tile": "0B50",
+      "palette": "0F072830",
+      "xy": [
+        304,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B50,0F072830,304,0,1,N"
+    },
+    {
+      "tile": "0B51",
+      "palette": "0F072830",
+      "xy": [
+        320,
+        0
+      ],
+      "kind": "breakable block",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B51,0F072830,320,0,1,N"
+    },
+    {
+      "tile": "0B52",
+      "palette": "0F072830",
+      "xy": [
+        336,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B52,0F072830,336,0,1,N"
+    },
+    {
+      "tile": "0B53",
+      "palette": "0F072830",
+      "xy": [
+        352,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B53,0F072830,352,0,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F072830above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F072830above]<tile>48,0B78,0F072830,32,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F072830above&!masonryAA810B780F072830above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F072830above&!masonryAA810B780F072830above2]<tile>48,0B78,0F072830,48,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F072830below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F072830below]<tile>48,0B78,0F072830,64,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F072830below&!masonryAA810B780F072830below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F072830below&!masonryAA810B780F072830below2]<tile>48,0B78,0F072830,80,16,1,N"
+    },
+    {
+      "tile": "0B78",
+      "palette": "0F072830",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B78,0F072830,96,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        112,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F072830above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F072830above]<tile>48,0B79,0F072830,112,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        128,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F072830above&!masonryAA810B790F072830above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F072830above&!masonryAA810B790F072830above2]<tile>48,0B79,0F072830,128,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        144,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F072830below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F072830below]<tile>48,0B79,0F072830,144,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        160,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F072830below&!masonryAA810B790F072830below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F072830below&!masonryAA810B790F072830below2]<tile>48,0B79,0F072830,160,16,1,N"
+    },
+    {
+      "tile": "0B79",
+      "palette": "0F072830",
+      "xy": [
+        176,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B79,0F072830,176,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        192,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F072830above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F072830above]<tile>48,0B7A,0F072830,192,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        208,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F072830above&!masonryAA810B7A0F072830above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F072830above&!masonryAA810B7A0F072830above2]<tile>48,0B7A,0F072830,208,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        224,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F072830below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F072830below]<tile>48,0B7A,0F072830,224,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        240,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F072830below&!masonryAA810B7A0F072830below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F072830below&!masonryAA810B7A0F072830below2]<tile>48,0B7A,0F072830,240,16,1,N"
+    },
+    {
+      "tile": "0B7A",
+      "palette": "0F072830",
+      "xy": [
+        256,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B7A,0F072830,256,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        272,
+        16
+      ],
+      "kind": "column cap upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F072830above",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F072830above]<tile>48,0B7B,0F072830,272,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        288,
+        16
+      ],
+      "kind": "column cap lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F072830above&!masonryAA810B7B0F072830above2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F072830above&!masonryAA810B7B0F072830above2]<tile>48,0B7B,0F072830,288,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        304,
+        16
+      ],
+      "kind": "column base lower",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F072830below",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F072830below]<tile>48,0B7B,0F072830,304,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        320,
+        16
+      ],
+      "kind": "column base upper",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F072830below&!masonryAA810B7B0F072830below2",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F072830below&!masonryAA810B7B0F072830below2]<tile>48,0B7B,0F072830,320,16,1,N"
+    },
+    {
+      "tile": "0B7B",
+      "palette": "0F072830",
+      "xy": [
+        336,
+        16
+      ],
+      "kind": "column shaft",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B7B,0F072830,336,16,1,N"
+    },
+    {
+      "tile": "0B80",
+      "palette": "0F072830",
+      "xy": [
+        416,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B80,0F072830,416,0,1,N"
+    },
+    {
+      "tile": "0B81",
+      "palette": "0F072830",
+      "xy": [
+        432,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B81,0F072830,432,0,1,N"
+    },
+    {
+      "tile": "0B82",
+      "palette": "0F072830",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B82,0F072830,448,0,1,N"
+    },
+    {
+      "tile": "0B83",
+      "palette": "0F072830",
+      "xy": [
+        464,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B83,0F072830,464,0,1,N"
+    },
+    {
+      "tile": "0B84",
+      "palette": "0F072830",
+      "xy": [
+        480,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B84,0F072830,480,0,1,N"
+    },
+    {
+      "tile": "0B85",
+      "palette": "0F072830",
+      "xy": [
+        496,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B85,0F072830,496,0,1,N"
+    },
+    {
+      "tile": "0B86",
+      "palette": "0F072830",
+      "xy": [
+        448,
+        0
+      ],
+      "kind": "solid stone",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0B86,0F072830,448,0,1,N"
+    },
+    {
+      "tile": "0AF8",
+      "palette": "FF172737",
+      "xy": [
+        352,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0AF8,FF172737,352,16,1,N"
+    },
+    {
+      "tile": "0AF9",
+      "palette": "FF172737",
+      "xy": [
+        368,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0AF9,FF172737,368,16,1,N"
+    },
+    {
+      "tile": "0AFA",
+      "palette": "FF172737",
+      "xy": [
+        384,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0AFA,FF172737,384,16,1,N"
+    },
+    {
+      "tile": "0AFB",
+      "palette": "FF172737",
+      "xy": [
+        400,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeA865Mode&templeA865Lo&templeA865Hi",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>48,0AFB,FF172737,400,16,1,N"
+    },
+    {
+      "tile": "0AF8",
+      "palette": "FF172737",
+      "xy": [
+        352,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0AF8,FF172737,352,16,1,N"
+    },
+    {
+      "tile": "0AF9",
+      "palette": "FF172737",
+      "xy": [
+        368,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0AF9,FF172737,368,16,1,N"
+    },
+    {
+      "tile": "0AFA",
+      "palette": "FF172737",
+      "xy": [
+        384,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0AFA,FF172737,384,16,1,N"
+    },
+    {
+      "tile": "0AFB",
+      "palette": "FF172737",
+      "xy": [
+        400,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA09Mode&templeAA09Lo&templeAA09Hi",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>48,0AFB,FF172737,400,16,1,N"
+    },
+    {
+      "tile": "0AF8",
+      "palette": "FF172737",
+      "xy": [
+        352,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0AF8,FF172737,352,16,1,N"
+    },
+    {
+      "tile": "0AF9",
+      "palette": "FF172737",
+      "xy": [
+        368,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0AF9,FF172737,368,16,1,N"
+    },
+    {
+      "tile": "0AFA",
+      "palette": "FF172737",
+      "xy": [
+        384,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0AFA,FF172737,384,16,1,N"
+    },
+    {
+      "tile": "0AFB",
+      "palette": "FF172737",
+      "xy": [
+        400,
+        16
+      ],
+      "kind": "moving solid platform",
+      "scope": "templeAA81Mode&templeAA81Lo&templeAA81Hi",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>48,0AFB,FF172737,400,16,1,N"
+    }
+  ],
+  "tile_rules": 345,
+  "conditions": 88,
+  "atlas_cells": 58,
+  "backgrounds_modified": false,
+  "outdoor_columns_modified": false,
+  "breakable_tiles": [
+    "0B4E",
+    "0B4F",
+    "0B50",
+    "0B51"
+  ]
+}

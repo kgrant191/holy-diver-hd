@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current revision — Golden Temple 0.16.1
+
+- The user accepted the 0.16.0 backgrounds and outdoor fluted columns, but rejected its square slabs and indoor block-stack supports. Preserve those accepted assets exactly; this is partial art acceptance, not whole-pack approval.
+- build_level4_masonry.py adds atlas48 and scoped overrides after the unchanged 0.16.0 builder. Solid blocks use the native staggered four-by-two layout. 0B4E–0B51 are confirmed destructible blocks; 0B78–0B7B are indoor structural columns with contextual caps/bases. Keep 0B4A–0B4D cleared as nonsolid scenery.
+- Preserve all 107 earlier art/audio files, actors, Overdrive/menu fixes, and native gameplay/audio. Existing stair masks remain exact. Source/evidence: docs/LEVEL4_MASONRY.md, art/level4_masonry/, evidence/level4_masonry/. concept_only.png is generated design reference, never runtime evidence.
+- 0.16.1 is awaiting review on feature/golden-temple. Main remains 0.15.0; no push/merge/release is implied.
+
 ## Current review — Golden Temple 0.16.0
 
 - Work is on feature/golden-temple from approved main 2f38abeb. The user requested an outdoor first area, indoor next area, corrected Overdrive spelling and updated spell graphics. The 109-file candidate is awaiting review; do not merge or label approved.

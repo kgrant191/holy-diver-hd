@@ -1,0 +1,53 @@
+{
+  "native_samples_per_type": 1485,
+  "movie_frames": 1485,
+  "movie_sha256": "0274b81ffcc7d0a3a383dd18d37122a6710638c568f59b3c89258b0d9d029278",
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 4750308,
+  "pcm_sha256": "26e9c76952ae07674939c4199a653979b5429a5c198bbd3b20d6165d2afdadfa",
+  "apu_sha256": "7613f7ee77774477731088193685067af7ad3e714f02d10e6dfd9111b33f36e9",
+  "image_checks": {
+    "empty_initial": 1,
+    "changed_foreground_only": 1060,
+    "identical_images": 424,
+    "native_black_frames": 8
+  },
+  "changes_confined_to_foreground": true,
+  "complete_source_matches": {
+    "solid": 54,
+    "breakable": 54,
+    "moving_platform": 1
+  },
+  "examples": {
+    "solid": {
+      "frame": 20,
+      "xy": [
+        32,
+        384
+      ]
+    },
+    "breakable": {
+      "frame": 20,
+      "xy": [
+        448,
+        192
+      ]
+    },
+    "moving_platform": {
+      "frame": 1220,
+      "xy": [
+        456,
+        416
+      ]
+    }
+  },
+  "background_checks": [
+    {
+      "frame": 400,
+      "source": "Golden_Temple_Exterior.png",
+      "exact_pixels_below_hud": 97247
+    }
+  ]
+}

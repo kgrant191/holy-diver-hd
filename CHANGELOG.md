@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.16.1 — 2026-10-26 (Golden Temple masonry review)
+
+- Replace square slabs with worn beveled horizontal stone in the native staggered layout.
+- Distinguish breakable blocks with a recessed dark face, chipped frame and visible fracture.
+- Replace indoor structural brick stacks with coherent carved capitals, fluted shafts and bases. Preserve backgrounds, outdoor columns, actors, spell/menu fixes and earlier artwork.
+- Add paired native-state/audio, foreground-scope, source-art, block-destruction and platform-edge evidence. Awaiting user review.
+
 ## 0.16.0 — 2026-10-26 (Golden Temple review)
 
 - Render the opening outdoors, then enclosed golden halls after entering the temple. Cover all three room pointers reached by the recording.

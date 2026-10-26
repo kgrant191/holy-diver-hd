@@ -1,8 +1,9 @@
-HOLY DIVER HD 0.16.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.16.1 — DEVELOPMENT REVIEW CANDIDATE
 
 The Golden Temple now opens outdoors, then enters enclosed golden halls.
-Includes golden masonry, temple enemies, corrected OVERDRIVE menu lettering
-and new cobalt/ivory energy orbs for Overdrive.
+Refines the foreground with worn beveled stone, distinct cracked breakable
+blocks and coherent carved indoor columns. Preserves both backgrounds,
+outdoor columns, enemies and the corrected OVERDRIVE lettering/spell art.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

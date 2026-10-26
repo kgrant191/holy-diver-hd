@@ -1,0 +1,47 @@
+{
+  "version": "0.16.1",
+  "approval": "pending user review",
+  "baseline": "0.16.0 review; approved main remains 0.15.0",
+  "native_samples_per_type": 3653,
+  "paired_movie_frames_per_build": 10153,
+  "all_native_state_exact": true,
+  "full_apu_and_pcm_exact": true,
+  "all_changes_confined_to_foreground": true,
+  "prior_art_audio_files_unchanged": 107,
+  "backgrounds_and_outdoor_columns_preserved": true,
+  "changed_prior_files": [
+    "README.txt",
+    "hires.txt"
+  ],
+  "new_files": [
+    "Golden_Temple_Masonry_2x.png"
+  ],
+  "install_file_count": 110,
+  "complete_source_matches": {
+    "breakable": 247,
+    "column_cap": 203,
+    "column_base": 203,
+    "moving_platform": 49,
+    "column_shaft": 203,
+    "solid": 441
+  },
+  "image_checks": {
+    "changed_foreground_only": 2995,
+    "native_black_frames": 48,
+    "empty_initial": 1,
+    "identical_images": 657
+  },
+  "static": {
+    "supported_rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "scale": 2,
+    "atlas_count": 49,
+    "tile": 44283,
+    "background": 2816,
+    "condition": 6468,
+    "references_and_bounds_valid": true,
+    "conditional_priority_valid": true,
+    "rom_patch_bytes": 56,
+    "patch_scope": "entrance priorities and conditional thunder masking",
+    "replacement_audio": false
+  }
+}
