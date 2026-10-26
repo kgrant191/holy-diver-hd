@@ -1,8 +1,14 @@
 # Current status
 
-Updated: 2026-10-25 (UTC).
+Updated: 2026-10-26 (UTC).
 
-## Current review — 0.11.1, feature/level3-opening
+## Current review — 0.11.2, feature/level3-opening
+
+Addresses the newly identified round shot (0694), the collectible boot (068A–068D), and split-looking branch surfaces (0768–0770). The shot reuses the approved small fireball; the boot and branches use new painted sources. The branches retain every original alpha contour. All 96 prior runtime assets other than mappings/README are exact; one new atlas brings the pack to 99 files. Approved main remains 0.10.2; the branch is not pushed or merged. See docs/LEVEL3_DETAILS.md and evidence/level3_detail/.
+
+The previous review changed 06B6–06B9, which were incorrectly identified as the reported projectile. The screenshot and native OAM identify 0694 as the actual round shot; this version adds that mapping. The old B6–B9 artwork remains unchanged pending separate confirmation of its role.
+
+## Previous review — 0.11.1, feature/level3-opening
 
 Addresses all four requested corrections: spinning blade-ring enemy, flame shots for the first golden creature, an insect-like winged eye, and continuous knotted oak surfaces. All 93 prior assets other than mappings/installed README remain exact; three new PNGs bring the pack to 98 files. Approved main is still 0.10.2; this branch is not approved, pushed or merged. Full movie and pixel/geometry checks are documented in docs/LEVEL3_REVIEW.md and evidence/level3_review/.
 

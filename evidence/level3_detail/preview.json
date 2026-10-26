@@ -1,0 +1,31 @@
+{
+  "source": "unretouched actual Mesen screenshots",
+  "comparison_frames": [
+    400,
+    1696,
+    2256
+  ],
+  "video_clips": [
+    [
+      360,
+      552
+    ],
+    [
+      1460,
+      1640
+    ],
+    [
+      1660,
+      1840
+    ],
+    [
+      2232,
+      2360
+    ]
+  ],
+  "fps": 15,
+  "video_frames": 170,
+  "duration_seconds": 11.333333333333334,
+  "silent": true,
+  "speed": "original gameplay speed"
+}

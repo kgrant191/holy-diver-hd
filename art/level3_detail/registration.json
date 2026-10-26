@@ -1,0 +1,148 @@
+{
+  "tile_rules": 14,
+  "mappings": [
+    {
+      "tile": "0694",
+      "palette": "FF301116",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "round_shot",
+      "scope": ""
+    },
+    {
+      "tile": "068A",
+      "palette": "FF301525",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "boot",
+      "scope": ""
+    },
+    {
+      "tile": "068B",
+      "palette": "FF301525",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "boot",
+      "scope": ""
+    },
+    {
+      "tile": "068C",
+      "palette": "FF301525",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "boot",
+      "scope": ""
+    },
+    {
+      "tile": "068D",
+      "palette": "FF301525",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "boot",
+      "scope": ""
+    },
+    {
+      "tile": "0768",
+      "palette": "0F091929",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0769",
+      "palette": "0F091929",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "076A",
+      "palette": "0F091929",
+      "xy": [
+        112,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "076B",
+      "palette": "0F091929",
+      "xy": [
+        128,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "076C",
+      "palette": "0F091929",
+      "xy": [
+        144,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "076D",
+      "palette": "0F091929",
+      "xy": [
+        160,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "076E",
+      "palette": "0F091929",
+      "xy": [
+        176,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "076F",
+      "palette": "0F091929",
+      "xy": [
+        192,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    },
+    {
+      "tile": "0770",
+      "palette": "0F091929",
+      "xy": [
+        208,
+        0
+      ],
+      "kind": "branch",
+      "scope": "l3_treeRoom&l3_treeLo&l3_treeHi"
+    }
+  ],
+  "branch_alpha_preserved": true,
+  "projectile_source_rule": "<tile>33,06D0,FF301116,176,80,1,N",
+  "native_gameplay_modified": false
+}

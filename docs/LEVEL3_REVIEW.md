@@ -1,11 +1,13 @@
 # Level 3 review corrections — 0.11.1
 
+Historical correction: the later screenshot identified the requested round shot as 0694/FF301116, not the two B6–B9 sprites changed here. See LEVEL3_DETAILS.md for the actual shot mapping. The results below remain the original 0.11.1 evidence.
+
 Addresses the user's four review requests: create the spinning enemy, replace the first golden creature's projectiles, make the small winged eye an insect, and improve the wood. This supersedes the unapproved 0.11.0 candidate on the same feature branch. Approved main remains 0.10.2.
 
 ## Changes
 
 - The spinning enemy is a crimson living thorn-ring with three pale scythe blades and an open center. Its native three poses occupy `0695–06AF`, nine cells per pose. One coherent generated body is registered at 48×48 and rotated through the native three-phase cadence; native OAM controls position/mirroring. Both observed ordinary palettes are mapped.
-- `06B6/06B7` and `06B8/06B9` are two independent projectile frames, not emergence/body tiles. The 0.11.0 interpretation was wrong. Both now use the approved first-boss fireball source fitted into the native 32×16 HD footprints. The golden creature's body is unchanged.
+- `06B6/06B7` and `06B8/06B9` were interpreted here as two projectile frames and changed to the approved first-boss fireball source in 32×16 HD footprints. The later screenshot established that the requested round shot is actually `0694`; the B6–B9 role remains unconfirmed, and their old projectile label is superseded. The larger golden creature tiles are unchanged.
 - The tiny `06E7–06EE` flyer now has a compact ivory eye/thorax, antennae, tucked insect legs and rounded veined rose membranes. It has two wing positions with a common registered body position. The bat-like interpretation is superseded. Both ordinary observed palettes are mapped; native black transitions remain black.
 - Broad knotted oak bark with muted moss replaces the tiny repeating strip. Separate transparent foreground surfaces follow the complete forest and tree-room native wood masks. Large features stay fixed to the world while the camera scrolls. Shading stays inside the native outline; platforms, branches and the walk-through opening keep their existing geometry.
 

@@ -1,0 +1,18 @@
+{
+  "pack_files": 99,
+  "changed_prior_files": [
+    "README.txt",
+    "hires.txt"
+  ],
+  "added_files": [
+    "Stage3_Detail_Tiles_2x.png"
+  ],
+  "all_hashes_match": true,
+  "zip_crc_valid": true,
+  "flat_root": true,
+  "nested_zip": false,
+  "zip_sha256": "49ad7cc8365627aab374ddfa55b1eee14d6b0ebf7d46d49f00c03d03462b4f90",
+  "replay_to_delivery_changes": [
+    "README.txt version/description only"
+  ]
+}

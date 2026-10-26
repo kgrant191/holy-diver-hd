@@ -1,0 +1,17 @@
+[
+  {
+    "name": "boot",
+    "prompt": "Use case: stylized-concept. Create one isolated collectible boot sprite for a dark Gothic side-scrolling game HD pack. Reference image is the native boot silhouette and palette: tall shaft on right, toe pointing LEFT, pale folded cuff, vivid magenta leather. Reinterpret as polished hand-painted pixel-friendly fantasy art: burgundy/magenta leather, ivory folded cuff, small antique brass buckle, dark sole, clear top-left highlights and dark outline. Full strict side view, single boot, no leg or person. Simple readable silhouette, broad shading that survives reduction to 32 by 32 pixels. Entire boot visible, centered, fills 85 percent of square. Transparent background. No ground shadow, text, frame, glow, extra boots or objects.",
+    "refs": [
+      "art/level3_detail/native_boot_reference.png"
+    ]
+  },
+  {
+    "name": "branch",
+    "prompt": "Use case: stylized-concept. Create one side-view solid horizontal oak branch platform asset for a Gothic pixel-art game HD pack. Image 1 gives the native silhouette: a thin tapered LEFT tip, nearly level upper walkable edge, progressively thicker body extending into a trunk at RIGHT. Image 2 is the existing bark material and dark warm brown/moss palette to match. Paint a single uninterrupted solid branch body with longitudinal bark grain and broad readable shading, a few subtle knots, small moss accents on its top, bright upper rim and dark underside. Width to height approximately 3:1, sturdy and organic with slightly irregular taper. Root end on right broad and uncut, no sawn circular end. Keep middle continuous without holes or splits; no paired rails, no central black gap, no twigs, foliage, hanging roots, or attached trunk. Flat orthographic side view, no perspective or depth extrusion. Full branch visible with margin on a transparent background. No text, labels or surrounding scene. Intended to reduce to a 96 by 32 pixel terrain strip.",
+    "refs": [
+      "art/level3_detail/native_branch_reference.png",
+      "art/generated/level3_bark_review_generated.png"
+    ]
+  }
+]

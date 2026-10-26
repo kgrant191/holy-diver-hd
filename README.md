@@ -50,9 +50,13 @@ Version 0.1.1 sharpens the standing ghoul and covers both crouching attack phase
 
 ![Randy arm repair in actual Mesen captures](evidence/arm_repair/Holy_Diver_v15_Comparison.png)
 
-## Level 3 review corrections — 0.11.1
+## Level 3 detail corrections — 0.11.2
 
-Adds the spinning blade-ring enemy, correct flame projectiles, an insect interpretation of the small winged eye, and continuous shaded bark. See [review notes and verification](docs/LEVEL3_REVIEW.md).
+Updates the round enemy shot identified in the screenshot, the magenta boot collectible, and solid two-row oak branches. Existing branch contours and all 96 previous runtime assets remain exact. See [detail notes and verification](docs/LEVEL3_DETAILS.md).
+
+## Previous Level 3 review — 0.11.1
+
+Adds the spinning blade-ring enemy, two small flame sprites, an insect interpretation of the small winged eye, and continuous shaded bark. See [review notes and verification](docs/LEVEL3_REVIEW.md).
 
 ## Original Level 3 opening review — 0.11.0
 
@@ -72,7 +76,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.11.1.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.11.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

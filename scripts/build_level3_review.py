@@ -29,7 +29,8 @@ for i in range(3):
  # Rotate one coherent painted body through the native three-phase cadence.
  im=register(base.rotate(-40*i,resample=Image.Resampling.BICUBIC),(48,48))
  sprite(f'spinner_{i}',im,[[0x695+i*9+y*3+x for x in range(3)]for y in range(3)],['FF002630','FF162631'])
-# B6/B7 and B8/B9 are independent shots, not body/emergence tiles.
+# Historical 0.11.1 small-sprite art; these are not the round shot reported
+# in 0.11.2 (0694). Their precise native role remains unconfirmed.
 source=Image.open(r/'art/boss1/boss_fireball_registered.png').convert('RGBA')
 for i in range(2):
  im=Image.new('RGBA',(32,16));im.paste(register(source,(30-i*4,16)),(1+i*2,0))

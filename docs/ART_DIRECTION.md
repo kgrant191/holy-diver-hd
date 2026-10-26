@@ -99,3 +99,8 @@ Use a midnight-blue and muted forest-teal wooded backdrop with distant Gothic ru
 ## Level 3 review (0.11.1)
 
 The small winged eye is an insect: antennae, tucked legs and rounded veined rose membranes, not bat wings. The spinner is a crimson thorn-ring with three pale curved blades and an open center. First-creature shots use the existing fireball art in their measured half-height footprints. Giant trees use broad continuous knotted oak and subdued moss, shaded within their original outline; avoid tiny repeated vertical strips. See LEVEL3_REVIEW.md.
+
+
+## Level 3 detail review — 0.11.2
+
+The requested round projectile is native 0694/FF301116 and reuses the exact approved 12×12 fireball inside its 16×16 HD cell. The boot is the magenta collectible (068A–068D/FF301525), with a pale folded cuff and left-pointing toe; do not alter Randy’s worn boots. Branches must be one continuous two-row oak body with a mossy upper edge, never duplicate thin strips with empty centers. Keep their nine original alpha masks exactly; do not extend walkable-looking paint beyond the original contour. Built-in image-generation sources and exact prompts are retained under art/generated/level3_*_generated.png and level3_detail_prompts.json.

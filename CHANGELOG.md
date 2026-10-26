@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.11.2 — 2026-10-26 (review candidate)
+
+- Map the actual round enemy shot at 0694/FF301116 to the approved small fireball. Correct the earlier identification in the working notes.
+- Paint the magenta boot collectible with an ivory cuff and brass buckle; register its four native cells as one sprite. Randy’s artwork is unchanged.
+- Replace split branch strips with coherent two-row oak bodies, preserving all nine native alpha contours, platform boundaries and gameplay.
+- Add a single atlas while preserving all 96 prior non-mapping/non-README installation files. Native movie checks and a controller-only branch-edge route accompany the candidate.
+
 ## 0.11.1 — Level 3 review corrections
 
 - Create the three-phase crimson spinning blade-ring enemy.

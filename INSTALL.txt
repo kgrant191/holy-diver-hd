@@ -1,6 +1,6 @@
-Holy Diver HD 0.11.1 — Level 3 review corrections
+Holy Diver HD 0.11.2 — Level 3 detail review
 
-Adds the three-phase spinning blade-ring enemy, correct flame projectiles for the golden creature, insect wings/antennae for the small flying eye, and continuous shaded bark surfaces. Native gameplay and sound remain unchanged. Later Level 3 rooms and boss remain unfinished.
+Updates the round enemy shot, magenta boot collectible and solid two-row oak branches. Keeps the spinning enemy, insect flyer and broad bark from the previous review. Native platform contours, gameplay and sound remain unchanged. Later Level 3 rooms and boss remain unfinished.
 
 Holy Diver HD 0.11.0 — Level 3 opening review build
 
