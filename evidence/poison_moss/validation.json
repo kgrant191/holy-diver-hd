@@ -1,0 +1,14 @@
+{
+  "version": "0.14.0",
+  "review_only": true,
+  "paired_native_samples_per_type": 6048,
+  "replay_movie_frame_sum": 20475,
+  "note": "Edge derivative overlaps the next-room movie; summed frames are not unique route coverage.",
+  "source_actor_matches": 204,
+  "exact_scenery_samples": 63,
+  "scenery_minimum_match": 1.0,
+  "native_state_apu_full_pcm_exact": true,
+  "unchanged_previous_art_audio_files": 99,
+  "terrain_alpha_masks_exact": 535,
+  "all_final_capture_manifests_exact": true
+}

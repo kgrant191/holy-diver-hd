@@ -1,3 +1,9 @@
+Holy Diver HD 0.14.0 — Poison Moss Land visual review
+
+Gives the completed Level 3 rooms a distinct green identity: a misty moss forest, overgrown Gothic ruins, emerald masonry, moss-covered ledges and sage stone steps. All existing platform/ceiling contours, oak trunks/branches, enemies, fish corrections, lava/ice and native gameplay/audio are retained.
+
+This is a review build. The last recorded descent is only partly covered; subsequent rooms and the boss remain unfinished. Earlier levels retain their existing artwork.
+
 Holy Diver HD 0.13.0 — Level 3 caves and multi-fish motion review
 
 Adds the four connected cave areas reached in the new recording, including the vertical climb, lava/ice corridor and beginning of the bat descent. Reuses the approved cave, brown terrain, carved stone, lava/ice and returning enemies. Adds the green floating creature.

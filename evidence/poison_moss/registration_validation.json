@@ -1,0 +1,19 @@
+{
+  "version": "0.14.0",
+  "baseline_commit": "06a53b9326b0f39f36eec3e95180381647257672",
+  "baseline_version": "0.13.0",
+  "art_sources": {
+    "poison_moss_ruins.png": "bc034f3cb456f8b0d093e5be5ad013c2bfa466f6c9e7928c14fd1c1f4f08acf6",
+    "poison_moss_forest.png": "58f24b91e871cd459dd6ce870a20fe77e7824879834e173def3684c298e7a782",
+    "poison_moss_materials.png": "77c251b36389bba142d997134575ad66f2e4cc2265aabc10d9e9d230542634d5"
+  },
+  "terrain_override_count": 535,
+  "exact_alpha_masks_checked": 535,
+  "backdrop_reference_changes": 910,
+  "unchanged_previous_art_audio_files": 99,
+  "prior_mapping_recovery_exact": true,
+  "native_gameplay_modified": false,
+  "background_period_hd": 1024,
+  "background_period_native": 512,
+  "all_repeat_and_wrap_edges_exact": true
+}

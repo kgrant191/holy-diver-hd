@@ -1,5 +1,9 @@
 # Art direction
 
+## Poison Moss Land — current Level 3 direction, 0.14.0
+
+The user's green-level request supersedes earlier Level 3 instructions to reuse brown rock and cave panoramas. Use deep forest green, emerald masonry, subdued teal mist, brighter moss on standing surfaces and ivy-covered Gothic ruins. Give the opening forest and interior ruins distinct painted panoramas. Preserve exact platform/ceiling contours and solid supports; keep existing oak trunks and branches, actors and lava/ice. This retheme is limited to the eight recorded rooms, not the unfinished remainder or earlier stages. Sources and prompts: art/generated/poison_moss_*; registration: art/poison_moss/.
+
 Preserve the approved dark Gothic style: deep navy scenery, warm gold/fire lighting, textured stone and restrained highlights. The approved PNGs are the visual reference.
 
 Randy has long dark hair, white/ivory normal costume, blue Twin Fire costume, dark wrist guards/pants and brown boots. Keep face, proportions and lower-body poses coherent. Rear forearms and hands must remain readable rather than ending at the cape.

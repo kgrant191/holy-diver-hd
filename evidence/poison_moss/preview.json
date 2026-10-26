@@ -1,0 +1,57 @@
+{
+  "source": "Actual paired Mesen captures, no pixel editing or motion interpolation",
+  "silent": true,
+  "fps": 60,
+  "frames": 1800,
+  "seconds": 30.0,
+  "clips": [
+    {
+      "label": "Forest approach",
+      "start": 320,
+      "end": 560,
+      "capture_stride": 4
+    },
+    {
+      "label": "Oak and moss",
+      "start": 1080,
+      "end": 1320,
+      "capture_stride": 4
+    },
+    {
+      "label": "Overgrown shaft",
+      "start": 2320,
+      "end": 2560,
+      "capture_stride": 4
+    },
+    {
+      "label": "First fish corridor",
+      "start": 5800,
+      "end": 6040,
+      "capture_stride": 4
+    },
+    {
+      "label": "Moss ruins across the scrolling wrap",
+      "start": 1260,
+      "end": 1500,
+      "capture_stride": 2
+    },
+    {
+      "label": "Blade-ring climb",
+      "start": 4460,
+      "end": 4700,
+      "capture_stride": 2
+    },
+    {
+      "label": "Mossy carved platforms",
+      "start": 5460,
+      "end": 5700,
+      "capture_stride": 2
+    },
+    {
+      "label": "Beginning of the bat descent",
+      "start": 6858,
+      "end": 6978,
+      "capture_stride": 2
+    }
+  ]
+}

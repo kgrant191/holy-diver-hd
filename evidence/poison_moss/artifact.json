@@ -1,0 +1,9 @@
+{
+  "version": "0.14.0",
+  "root_files": 104,
+  "crc_valid": true,
+  "flat_layout": true,
+  "nested_zip": false,
+  "all_file_sha256_match": true,
+  "install_zip_sha256": "ab4748f2ab9247961a4fb686f94c95635d3c3130795b484c91e64cb0eb9eb8dd"
+}

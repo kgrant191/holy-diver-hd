@@ -1,0 +1,142 @@
+{
+  "version": "0.14.0",
+  "movie_sha256": "facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db",
+  "movie_frames": 7592,
+  "capture_stride": 2,
+  "paired_native_samples_per_type": 3796,
+  "identical_apu_writes": 18883,
+  "identical_pcm_bytes": 24260576,
+  "counts": {
+    "exact_images": 493,
+    "exact_outside_images": 409,
+    "exact_menu_images": 409,
+    "exact_blackouts": 73,
+    "changed_images": 3303
+  },
+  "rooms": {
+    "FFFF": 417,
+    "9AA6": 22,
+    "9B96": 2057,
+    "9C86": 549,
+    "9CFE": 683,
+    "9DEE": 68
+  },
+  "preserved_source_matches": {
+    "fish1/True": 30,
+    "fish1/False": 7,
+    "fish0/False": 5,
+    "fish0/True": 40,
+    "green_creature/True": 36
+  },
+  "examples": [
+    {
+      "frame": 96,
+      "source": "fish1/True",
+      "xy": [
+        69,
+        134
+      ],
+      "opaque_pixels": 1232
+    },
+    {
+      "frame": 120,
+      "source": "fish1/False",
+      "xy": [
+        372,
+        160
+      ],
+      "opaque_pixels": 1232
+    },
+    {
+      "frame": 168,
+      "source": "fish0/False",
+      "xy": [
+        412,
+        156
+      ],
+      "opaque_pixels": 1240
+    },
+    {
+      "frame": 168,
+      "source": "fish1/True",
+      "xy": [
+        10,
+        162
+      ],
+      "opaque_pixels": 1232
+    },
+    {
+      "frame": 192,
+      "source": "fish0/True",
+      "xy": [
+        54,
+        162
+      ],
+      "opaque_pixels": 1240
+    },
+    {
+      "frame": 192,
+      "source": "fish1/False",
+      "xy": [
+        402,
+        156
+      ],
+      "opaque_pixels": 1232
+    },
+    {
+      "frame": 216,
+      "source": "fish1/False",
+      "xy": [
+        404,
+        160
+      ],
+      "opaque_pixels": 1232
+    },
+    {
+      "frame": 240,
+      "source": "fish0/False",
+      "xy": [
+        442,
+        160
+      ],
+      "opaque_pixels": 1240
+    },
+    {
+      "frame": 240,
+      "source": "fish1/True",
+      "xy": [
+        94,
+        158
+      ],
+      "opaque_pixels": 1232
+    },
+    {
+      "frame": 264,
+      "source": "fish1/True",
+      "xy": [
+        132,
+        162
+      ],
+      "opaque_pixels": 1232
+    },
+    {
+      "frame": 288,
+      "source": "fish0/True",
+      "xy": [
+        115,
+        160
+      ],
+      "opaque_pixels": 1240
+    },
+    {
+      "frame": 312,
+      "source": "fish1/True",
+      "xy": [
+        150,
+        156
+      ],
+      "opaque_pixels": 1232
+    }
+  ],
+  "native_gameplay_unchanged": true
+}

@@ -1,8 +1,8 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved continuation baseline: 0.11.2 on `feature/level3-opening` (approved 2026-10-25). Main remains at merged 0.10.2 pending adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved continuation baseline: 0.14.0 on `feature/poison-moss-land` (approved 2026-10-26). Main remains at merged 0.10.2 pending adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
-**Current review: 0.13.0 on `feature/level3-caves`.** Extends the next four recorded cave areas with existing terrain, stairs, lava/ice and returning enemies, plus the green floating creature. Large fish now steady independently at their horizontal hover positions, including simultaneous opposite phases. Native gameplay/audio remain unchanged. See [caves and multi-fish repair](docs/LEVEL3_CAVES.md).
+**Approved 0.14.0 on `feature/poison-moss-land`.** Gives the eight completed/recorded Level 3 areas their own green moss forest, ivy-covered Gothic ruins and emerald masonry. Preserves platform contours, existing wood, actors, fish stabilization, lava/ice and native gameplay/audio. See [Poison Moss Land](docs/POISON_MOSS.md).
 
 The approved work is merged through PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8) → [#9](https://github.com/kgrant191/holy-diver-hd/pull/9) → [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) → [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). All four PR and main merge builds pass. Their downloaded installation artifacts pass independent hash/layout checks. See STATUS.md for adoption details.
 

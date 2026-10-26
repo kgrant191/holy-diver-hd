@@ -1,0 +1,14 @@
+{
+  "opening": {
+    "local_name": "Holy_Diver_HD.mmo",
+    "sha256": "c6c3f99a7204f5052c1758ef44ffb4387d2ebc5a8534127a0ddde60ccfde74cd"
+  },
+  "next": {
+    "local_name": "Holy_Diver_HD(4).mmo",
+    "sha256": "facbd98578ae0261fc5707b83cf11ffea8d00966b1af08b9dd555fd6c678f6db"
+  },
+  "edge": {
+    "local_name": "edge.mmo",
+    "sha256": "0d837b2fbb7f8b9581afc6ad357041942ee23052a0712b891dab2781ebcaf867"
+  }
+}
