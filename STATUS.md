@@ -1,8 +1,8 @@
 # Current status
 
-## Current review — 0.15.0, feature/level3-finale
+## Approved continuation — 0.15.0, feature/level3-finale
 
-Based on approved 0.14.0, recorded in source-only approval commit d18f058. The new 4,812-frame recording covers the final moss climb (9F1A), boss (9F92), defeat, Overdrive collection/announcement, Stage 4 card and the first 38 frames of the next-stage arrival. The two new rooms are implemented; later Stage 4 scenery remains unfinished. The 106-file review pack preserves all 102 previous art/audio files and recovers exact approved 0.14.0 mappings when its marked additions are removed. Main remains 0.10.2. No push, PR, merge, tag or release is authorized by this review handoff. All 3,902 paired native samples/type and complete APU/PCM comparisons pass. Evidence includes 167 complete actor-source matches, 40 scenery reconstructions, all four defeat-flash colors and all three observed normal-costume fades. See docs/LEVEL3_FINALE.md and evidence/level3_finale/.
+Based on approved 0.14.0, recorded in source-only approval commit d18f058. The new 4,812-frame recording covers the final moss climb (9F1A), boss (9F92), defeat, Overdrive collection/announcement, Stage 4 card and the first 38 frames of the next-stage arrival. The two new rooms are implemented; later Stage 4 scenery remains unfinished. The approved 106-file pack preserves all 102 previous art/audio files and recovers exact approved 0.14.0 mappings when its marked additions are removed. Main remains 0.10.2. The user approved the delivered pack and authorized PRs and merges for the complete five-branch Level 3 chain on 2026-10-26. The branches are now pushed; adoption is in progress. All 106 reviewed installation bytes stay frozen. No release tag or GitHub Release is requested. See evidence/level3_finale/approval.json. All 3,902 paired native samples/type and complete APU/PCM comparisons pass. Evidence includes 167 complete actor-source matches, 40 scenery reconstructions, all four defeat-flash colors and all three observed normal-costume fades. See docs/LEVEL3_FINALE.md and evidence/level3_finale/.
 
 Updated: 2026-10-26 (America/New_York).
 

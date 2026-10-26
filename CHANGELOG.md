@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.15.0 — 2026-10-26 (review)
+## 0.15.0 — 2026-10-26 (approved)
+
+- User approved the delivered pack and authorized PRs and merges for all five Level 3 branches. Record approval in source only; preserve all 106 reviewed install files and their frozen hashes.
 
 - Finish the recorded final green climb and boss arena with reused moss ruins/platforms. Add coherent pink boss head, living thorny growths, three curved-shot poses and the Overdrive orb.
 - Preserve native emergence/occlusion, tile removal, flashes, camera shake, gameplay and audio. Keep shared HD Randy/HUD through the boss bank and pickup fades.

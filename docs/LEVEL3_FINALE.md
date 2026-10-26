@@ -1,4 +1,6 @@
-# Poison Moss Land finale — 0.15.0 review
+# Poison Moss Land finale — approved 0.15.0
+
+Approved on 2026-10-26 with authorization to create PRs and merge the complete Level 3 chain. The reviewed source is 1710edc9d6d1fb78ade9af05cd9286b293e811c2. All 106 delivered installation files stay exact, including the historical review wording in installed README. See evidence/level3_finale/approval.json. Historical review notes below describe the original delivery; PR adoption is tracked separately.
 
 The user approved the complete 0.14.0 pack and supplied a new movie showing two more screens, ending with the boss. Approval was recorded without changing any of the 104 installed files, in commit d18f058. This new work is on `feature/level3-finale`; 0.14.0 remains the approved continuation and main remains 0.10.2. The review does not push, open a PR, merge, tag or release.
 

@@ -1,8 +1,8 @@
 # Holy Diver HD working instructions
 
-## Current Level 3 finale review — 0.15.0
+## Approved Level 3 finale — 0.15.0
 
-- Continue on `feature/level3-finale`, based on approved 0.14.0 and its source-only approval commit d18f058. This new review is not yet approved. Main remains 0.10.2.
+- Continue on `feature/level3-finale`, based on approved 0.14.0 and its source-only approval commit d18f058. The user approved the delivered 0.15.0 pack and authorized PRs and merges for all five Level 3 branches on 2026-10-26. Main remains 0.10.2 until that adoption completes. Preserve all 106 reviewed installation files exactly, including the historical installed README; approval bookkeeping is source-only. See evidence/level3_finale/approval.json.
 - Final climb 9F1A / boss 9F92 use mode 04. Reuse exact approved moss terrain and native contours. The pink head uses twenty cells in a 64×96 footprint; each entire curved shot fits its staggered native cell union. Preserve native OAM flips, occlusion, emergence and defeat removal.
 - Boss heads carry NES behind-background priority. The ruin panorama must use background priority 1, behind those sprites; native living growths remain in front. Normal backdrop guards must include the organic ceiling cells. Native universal-color flashes remain visible.
 - Preserve all 102 previous art/audio assets and exact recoverable 0.14.0 mappings. Add shared native-byte-proven 0800/0A00 actor aliases after the existing specific mappings. Preserve the 56-byte entrance IPS and native audio.
