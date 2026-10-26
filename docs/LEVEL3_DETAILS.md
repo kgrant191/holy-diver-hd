@@ -1,6 +1,6 @@
 # Level 3 detail corrections — 0.11.2
 
-Updates the three objects identified in the user's screenshots: the round red-and-white enemy projectile, split-looking tree branches, and magenta boot collectible. The collectible is separate from Randy's worn boots. This is a review candidate on `feature/level3-opening`; approved main remains 0.10.2.
+Updates the three objects identified in the user's screenshots: the round red-and-white enemy projectile, split-looking tree branches, and magenta boot collectible. The collectible is separate from Randy's worn boots. The user approved this build on 2026-10-25 (America/New_York), saying "approved". It is the continuation baseline on `feature/level3-opening`; main remains 0.10.2 pending adoption. `evidence/level3_detail/approval.json` pins the reviewed commit and ZIP. Approval changes only source documentation and preserves all 99 installed bytes, including the historical review label in the installed README.
 
 ## Mapping and artwork
 

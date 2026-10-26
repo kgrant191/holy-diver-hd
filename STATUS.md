@@ -1,8 +1,10 @@
 # Current status
 
-Updated: 2026-10-26 (UTC).
+Updated: 2026-10-25 (America/New_York).
 
-## Current review — 0.11.2, feature/level3-opening
+## Approved continuation baseline — 0.11.2, feature/level3-opening
+
+The user approved the delivered 0.11.2 by saying "approved" on 2026-10-25 (America/New_York). `evidence/level3_detail/approval.json` pins the reviewed artwork commit and install ZIP. All 99 reviewed installation files, including the historical review label in the installed README, stay exact. This is the baseline for further Level 3 work; source publication, PR/Actions and merge remain pending.
 
 Addresses the newly identified round shot (0694), the collectible boot (068A–068D), and split-looking branch surfaces (0768–0770). The shot reuses the approved small fireball; the boot and branches use new painted sources. The branches retain every original alpha contour. All 96 prior runtime assets other than mappings/README are exact; one new atlas brings the pack to 99 files. Approved main remains 0.10.2; the branch is not pushed or merged. See docs/LEVEL3_DETAILS.md and evidence/level3_detail/.
 

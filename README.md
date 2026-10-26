@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved artwork baseline: 0.10.2 on `main` (merged 2026-10-24).** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved continuation baseline: 0.11.2 on `feature/level3-opening` (approved 2026-10-25). Main remains at merged 0.10.2 pending adoption.** Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 The approved work is merged through PRs [#8](https://github.com/kgrant191/holy-diver-hd/pull/8) → [#9](https://github.com/kgrant191/holy-diver-hd/pull/9) → [#10](https://github.com/kgrant191/holy-diver-hd/pull/10) → [#11](https://github.com/kgrant191/holy-diver-hd/pull/11). All four PR and main merge builds pass. Their downloaded installation artifacts pass independent hash/layout checks. See STATUS.md for adoption details.
 
@@ -50,7 +50,7 @@ Version 0.1.1 sharpens the standing ghoul and covers both crouching attack phase
 
 ![Randy arm repair in actual Mesen captures](evidence/arm_repair/Holy_Diver_v15_Comparison.png)
 
-## Level 3 detail corrections — 0.11.2
+## Approved Level 3 detail corrections — 0.11.2
 
 Updates the round enemy shot identified in the screenshot, the magenta boot collectible, and solid two-row oak branches. Existing branch contours and all 96 previous runtime assets remain exact. See [detail notes and verification](docs/LEVEL3_DETAILS.md).
 

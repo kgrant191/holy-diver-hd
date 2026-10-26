@@ -1,7 +1,8 @@
 # Changelog
 
-## 0.11.2 — 2026-10-26 (review candidate)
+## 0.11.2 — 2026-10-25 (approved)
 
+- Record user approval of the delivered build; preserve all 99 installed bytes and the exact ZIP. Source publication and merge remain pending.
 - Map the actual round enemy shot at 0694/FF301116 to the approved small fireball. Correct the earlier identification in the working notes.
 - Paint the magenta boot collectible with an ivory cuff and brass buckle; register its four native cells as one sprite. Randy’s artwork is unchanged.
 - Replace split branch strips with coherent two-row oak bodies, preserving all nine native alpha contours, platform boundaries and gameplay.
