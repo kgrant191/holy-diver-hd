@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.16.3 approval — 2026-10-26
+
+- User accepted the delivered stair repair and authorized the next recorded room batch. Freeze all 111 install bytes; approval bookkeeping changes source documentation only. No merge or release is requested.
+
 ## 0.16.3 — 2026-10-26 (Golden Temple stair visibility)
 
 - Restore the descending 0B7C–0B7F stair family mistakenly cleared as background decoration. Reuse the existing gold stone within the joined native step silhouette.

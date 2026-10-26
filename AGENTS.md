@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Approved continuation baseline — 0.16.3
+
+- On 2026-10-26 the user accepted the delivered repair ("ok good") and requested the next recorded rooms. Preserve all 111 installed files as the reviewed baseline; approval bookkeeping must not alter the frozen installed README. Main remains 0.15.0; no push/merge/release is authorized. See evidence/level4_stairs/approval.json.
+
 ## Current stair repair — Golden Temple 0.16.3
 
 - The supplied 20261026-181741 state proves 0B7C–0B7F are descending stairs, not decoration. build_level4_stairs.py overrides the erroneous clear rules with 24 room/palette mappings. Preserve their native top surface and joined sloped underside. Do not apply the historical scenery classification to these cells.

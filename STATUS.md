@@ -1,5 +1,9 @@
 # Current status
 
+## Approved Golden Temple continuation — 0.16.3
+
+The user accepted 0.16.3 on 2026-10-26 ("ok good") and requested the next rooms, wings item and new outdoor enemy. All 111 reviewed installation bytes remain frozen. Main stays 0.15.0; publication/merge is not requested. See evidence/level4_stairs/approval.json.
+
 ## Current Golden Temple stair repair — 0.16.3
 
 The user's new save identifies a missing descending stair flight in AA09. Native 0B7C–0B7F were wrongly cleared as scenery. Scoped overrides now restore them with existing gold stone and a joined native silhouette. All 108 prior assets and the 0.16.2 crash/pickup fixes stay exact. Controller-only walk/jump routes and the full recording are paired against 0.16.2; see docs/LEVEL4_STAIRS.md and evidence/level4_stairs/ for accepted results. The 111-file candidate awaits review on feature/golden-temple; main remains approved 0.15.0.
