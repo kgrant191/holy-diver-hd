@@ -1,5 +1,9 @@
 # Current status
 
+## Golden Temple stairs and victory transition — 0.20.2 review
+
+Completes the ascending stair underside across all nine temple room scopes, preserving the accepted descending steps, upper landing surfaces and background art. Adds the Thunder tome/card, reuses the gold initial impact, keeps the tower and moving ledges HD through defeat fades, and retains the finished dragon silhouette through the following white travel flash. All114 earlier art/audio/patch assets remain exact; native state and full audio are compared in four paired recordings totaling20,428 frames per build and7,916 native samples/type. Main remains approved0.15.0; work stays on feature/golden-temple-boss without publication or merge. See docs/LEVEL4_TRANSITION.md and evidence/level4_transition/ for final verification, scope equivalence and coverage limits.
+
 ## Golden Temple boss entrance and stairs — 0.20.1 review
 
 Restores the missing final-hall boss doorway with the existing entrance crown and dark opening. Smooths the reported descending stair underside across its existing temple mappings while preserving the standing surface and stone RGB. Adds one small atlas; all113 earlier art/audio/patch assets and recoverable0.20.0 mappings remain exact. Main remains approved0.15.0 and the work stays on feature/golden-temple-boss. No push, PR, merge or release is authorized. The full recording and final earlier-room edge test provide7889 paired native samples/type, exact full audio,235 complete stair-source matches and six full portals. All1125 boss-room images remain unchanged. The last priority-only move affects no room in the full recording; its exact scope-equivalence proof is retained. See docs/LEVEL4_FINISH.md for actual paired tests and their limits.

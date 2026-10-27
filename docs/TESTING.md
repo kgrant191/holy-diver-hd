@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Golden Temple all stairs / victory transition (0.20.2)
+
+Use `verify_level4_transition.py` for paired native/audio and pixel-scope checks and `verify_transition_sources.py` for actual complete-source matches. The installed manifest is frozen per capture. Three earlier stair recordings retain their pre-impact manifest with an exact four-rule scope-equivalence proof; the final movie10 uses the delivered manifest. See LEVEL4_TRANSITION.md and evidence/level4_transition/. Never substitute a synthetic atlas montage for the actual movie.
+
 ## Boss entrance and stair underside — 0.20.1
 
 Pair the full7591-frame finale recording and the earlier298-frame controller-only stair edge route at stride1 against frozen0.20.0. Use verify_level4_finish.py for exact native state/full audio, differences confined to the requested stair/door cells, complete source matches and unchanged boss images/blackouts. Static checks recover exact0.20.0 mappings and preserve all113 earlier assets, test the untouched standing edge and exhaust upward doorway-probe bounds. See LEVEL4_FINISH.md.

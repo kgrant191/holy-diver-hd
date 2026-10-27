@@ -1,0 +1,12 @@
+{
+  "tile_rules": 4725,
+  "conditions": 56858,
+  "background_rules": 631,
+  "prior_assets_exact": 114,
+  "exact_previous_mapping_recovery": true,
+  "stair_rooms": 9,
+  "standing_surface_exact": true,
+  "dragon_alpha_exact": true,
+  "bounded_neighbor_conditions": 48384,
+  "unsafe_reads": 0
+}

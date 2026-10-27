@@ -1,0 +1,23 @@
+{
+  "movie_frames": 4386,
+  "stride": 4,
+  "native_samples_per_type": 1097,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 14018244,
+  "pcm_sha256": "39c787815107095c415118abfb6c92a46ed57b5312248f0b437acf9e6e0f7053",
+  "apu_sha256": "704ad574bf011e3f738a1efb8bf34b277144f3cc75fd61540f6eb89be1371698",
+  "movie_sha256": "29cd437918e57c146d039d15bfb0f22a0cc536a4b1ccbcf85a49ce490e55626b",
+  "image_checks": {
+    "changed": 640,
+    "identical": 457,
+    "native_black_exact": 5
+  },
+  "changed_by_room": {
+    "AA81": 24,
+    "AAF9": 616
+  },
+  "changed_pixels": 183298,
+  "changes_confined_to_requested_scope": true
+}

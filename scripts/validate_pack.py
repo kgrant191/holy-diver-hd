@@ -31,16 +31,21 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==55
+assert len(imgs)==56
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+from verify_transition_rules import verify as verify_transition_rules, strip as strip_transition, ADDED as transition_files
+transition_report=verify_transition_rules(root,pack)
+content=strip_transition(content)
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=transition_report[field]
+transition_inventory={p.name for p in pack.iterdir()if p.is_file()}-transition_files
 from verify_finish_rules import verify as verify_finish_rules
-finish_report=verify_finish_rules(root,pack)
+finish_report=verify_finish_rules(root,pack,content,transition_inventory)
 for section in ['IMAGES','CONDITIONS','MAPPINGS','EARLY_STAIRS']:
  content,n=re.subn(r'^# BEGIN TEMPLE_FINISH '+section+r'\n.*?^# END TEMPLE_FINISH '+section+r'\n','',content,flags=re.M|re.S);assert n==1
 counts['tile']-=finish_report['tile_rules'];counts['condition']-=finish_report['conditions']
-legacy_inventory={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Finish_2x.png'}
+legacy_inventory=transition_inventory-{'Golden_Temple_Finish_2x.png'}
 finale=json.loads((root/'art/level4_finale/registration.json').read_text())
 assert not finale['native_gameplay_modified'] and not finale['prior_artwork_modified']
 from verify_finale_rules import verify as verify_finale_rules

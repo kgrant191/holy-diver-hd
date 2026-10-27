@@ -1,5 +1,13 @@
 # Holy Diver HD working instructions
 
+## Current repair — all temple stairs and victory transition 0.20.2
+
+- The user confirms the previously repaired stairs and now requests all remaining Golden Temple stair copies. Live nametables prove the ascending layout is 0B82,83 / 84,85, with exact 0D copies. Smooth that complete lower edge, preserving the entire upper half and RGB. The earlier hardcoded 83,82 / 81,80 assembly was not the actual ascending step. 80/81 and 86/87 also occur in decorative walls/windows and must not be globally restored.
+- Movie10 reaches boss defeat, Thunder acquisition, dragon travel and the start of Level5. Thunder is 0E8F–92/FF301116; use the violet/gold lightning tome and exact rendered THUNDER announcement guard. The movie does not cast Thunder.
+- AFA9 defeat uses hit palette0F001030, native31 flash and fade palettes0F0F0020/0F0F0F10/0F0F0F00. Clone complete tower signatures and neighbor palettes, retaining ordered bounds and native blackout. Explicit3F0F guards prevent faded art surviving into all-black frames. Reuse the accepted initial impact for byte-identical0E60–63.
+- AFE5 flight changes the finished dragon to FF303030. Reuse its exact registered alpha with white RGB and preserve native flash cadence. No change to Level5 scenery.
+- build_level4_transition.py adds a removable layer, atlas55 and the Thunder card; all114 previous art/audio/patch assets remain exact. Keep older validators and exact0.20.1 recovery. Native state/full audio and actual source matches are required. Main remains0.15.0; feature/golden-temple-boss is not published or merged.
+
 ## Current repair — boss entrance and stair underside 0.20.1
 
 - The final AEF5 boss entrance uses the four-by-four 0DDF–E2 / 0D5B–68 crown and six blank rows beneath it. Earlier interior clones cleared the crown and opening. Restore the existing entrance crown and dark opening only in AEF5, in palettes 0F172737/0F071723. The lower two opening rows use 0F071723. Bounds must precede all upward tileNearby probes.

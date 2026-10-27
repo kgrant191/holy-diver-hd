@@ -45,6 +45,7 @@ subprocess.run([sys.executable,str(r/'scripts/build_level4_dragon.py')],cwd=r,ch
 subprocess.run([sys.executable,str(r/'scripts/build_level4_residue.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level4_finale.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level4_finish.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_level4_transition.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'

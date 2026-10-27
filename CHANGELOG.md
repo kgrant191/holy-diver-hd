@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.20.2 — Golden Temple stairs and victory transition
+
+- Smooth the ascending stair underside across nine Golden Temple room scopes, including physical-bank copies and pickup flashes. Preserve the accepted descending stairs and all standing edges.
+- Add a violet/gold Thunder pickup tome and matching acquisition card.
+- Keep the finished tower, platforms, actors and HUD through the three native defeat fades and pickup flash; reuse the earlier gold initial impact.
+- Keep the finished dragon silhouette during the following travel sequence's white flash.
+- Preserve all 114 previous art/audio/patch files, native gameplay and audio. No publication or merge.
+
 ## 0.20.1 — 2026-10-27
 
 - Restore the final Golden Temple boss entrance, including both lower opening palettes.

@@ -1,0 +1,18 @@
+{
+  "version": "0.20.2",
+  "files": 118,
+  "atlases": 56,
+  "all_install_hashes_exact": true,
+  "flat_zip_crc_and_payload_exact": true,
+  "native_frames_per_build": 20428,
+  "native_samples_per_type": 7916,
+  "native_state_apu_full_pcm_exact": true,
+  "prior_assets_exact": 114,
+  "new_image_files": [
+    "Golden_Temple_Transition_2x.png",
+    "Thunder_Acquired.png"
+  ],
+  "scope_equivalence": "stair-final-scope-equivalence.json",
+  "main_unchanged": "2f38abeb06cd1093fc33416da20c5124fca2f4d7",
+  "publication_performed": false
+}

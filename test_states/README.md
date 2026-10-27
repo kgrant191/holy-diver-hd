@@ -146,3 +146,9 @@ Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-fra
 ## Golden Temple final halls and boss — 0.20.0
 
 `Holy_Diver_HD(9).mmo`: 11,775 bytes,7,591 input frames, SHA-256 `2433571798b3e9a33794df42a8038ae372ab199149a839112a51e6a5a51c2a9e`. Embedded state9,960 bytes, SHA-256 `e24817818301ed5da08a8f70de34ecf06696a9dbc3a815871dea0f9328ed1dda`. Input.txt SHA-256 `1dd7fb7cd76a9b52a89a7e19189a2a74c93425f2a816befbaf62ae78562a7670`. Same supported ROM and stock MesenCE2.2.1. Use `run_mesen_movie.py --stride 1`; cover AE41, AEF5 and AFA9 through game over. No boss defeat is recorded. Reuse the unchanged987-frame dragon flight route for earlier-room regression. Input bytes remain outside Git. See evidence/level4_finale/input.json.
+
+## Golden Temple stairs and victory transition (0.20.2)
+
+- `Holy_Diver_HD(10).mmo`: 3,742 native controller frames, SHA-256 `1471dc70fcec4db7b8ad724b0125a5c70e584f31f2e8f4cc7e84be64d7a0b012`. Starts paused in the boss room; reaches defeat, Thunder acquisition, AFE5 travel and Level5 arrival.
+- Regression movies6/7/8 remain unchanged (8,668 / 4,386 / 3,632 frames). Their existing hashes are retained in `evidence/level4_transition/movie6.json` through `movie8.json`.
+- Inputs and ROM bytes remain outside Git. Replay uses stock MesenCE2.2.1 with read-only synchronized capture/bounds observers. No RAM edits.

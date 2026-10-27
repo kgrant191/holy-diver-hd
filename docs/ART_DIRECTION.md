@@ -1,5 +1,9 @@
 # Art direction
 
+## All temple stairs and Thunder — 0.20.2
+
+Both physical stair directions need continuous undersides throughout the Golden Temple. Preserve the accepted gold RGB and upper-half landing surfaces; smooth the opposite 82,83 / 84,85 native layout as the mirror-direction counterpart of the accepted descending contour. Keep decorative wall/window copies cleared. Thunder uses a compact royal-violet tome with antique-gold fittings and a bright ivory/blue lightning rune. The tower retains its existing hit artwork through native brightness fades; the travel dragon retains its exact finished silhouette in the native white flash. Reuse earlier impact and intermission art.
+
 ## Boss entrance and stair polish — 0.20.1
 
 Reuse the existing golden entrance crown and dark passage for the boss doorway. Keep the accepted panorama visible around it. Replace the descending stairs’ coarse lower cutouts with one continuous diagonal; retain the existing gold RGB and entire upper half. This requested underside polish supersedes the earlier exact lower-mask requirement only for0B7C–7F and its0D copies.

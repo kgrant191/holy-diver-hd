@@ -4,12 +4,12 @@ import hashlib, json, re
 import numpy as np
 from PIL import Image
 
-def verify(root, pack):
-    text = (pack/'hires.txt').read_text()
+def verify(root, pack, content=None, inventory=None):
+    text = (pack/'hires.txt').read_text() if content is None else content
     lines = text.splitlines()
     reg = json.loads((root/'art/level4_finish/registration.json').read_text())
     previous = json.loads((root/'evidence/0.20.0-pack-sha256.json').read_text())
-    assert {p.name for p in pack.iterdir() if p.is_file()} == set(previous)|{'Golden_Temple_Finish_2x.png'}
+    assert (inventory if inventory is not None else {p.name for p in pack.iterdir() if p.is_file()}) == set(previous)|{'Golden_Temple_Finish_2x.png'}
     for name, digest in previous.items():
         if name not in {'hires.txt', 'README.txt'}:
             assert hashlib.sha256((pack/name).read_bytes()).hexdigest() == digest, name

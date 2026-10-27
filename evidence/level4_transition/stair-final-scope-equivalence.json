@@ -1,0 +1,45 @@
+{
+  "only_final_change": "Four AFA9-scoped existing-art impact aliases; no atlas or other rule changes.",
+  "final_minus_four_rules_exact_retained_hires": true,
+  "all_artwork_and_other_files_exact": true,
+  "added_rules": [
+    "[transitionAFA9Mode&transitionAFA9Lo&transitionAFA9Hi]<tile>28,0E60,FF301116,48,80,1,N",
+    "[transitionAFA9Mode&transitionAFA9Lo&transitionAFA9Hi]<tile>28,0E61,FF301116,64,80,1,N",
+    "[transitionAFA9Mode&transitionAFA9Lo&transitionAFA9Hi]<tile>28,0E62,FF301116,80,80,1,N",
+    "[transitionAFA9Mode&transitionAFA9Lo&transitionAFA9Hi]<tile>28,0E63,FF301116,96,80,1,N"
+  ],
+  "replays": {
+    "6": {
+      "rooms": [
+        "0000",
+        "A865",
+        "AA09",
+        "AA81",
+        "FFFF"
+      ],
+      "samples": 2168,
+      "four_new_rules_cannot_match": true
+    },
+    "7": {
+      "rooms": [
+        "AA81",
+        "AAF9",
+        "AB71",
+        "AC61",
+        "FFFF"
+      ],
+      "samples": 1097,
+      "four_new_rules_cannot_match": true
+    },
+    "8": {
+      "rooms": [
+        "0000",
+        "AC61",
+        "ACD9",
+        "FFFF"
+      ],
+      "samples": 909,
+      "four_new_rules_cannot_match": true
+    }
+  }
+}
