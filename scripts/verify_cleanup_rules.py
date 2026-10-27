@@ -8,8 +8,8 @@ def strip(text):
     for section in ['IMAGES','CONDITIONS','MAPPINGS']:
         text,n=re.subn(r'^# BEGIN TREE_POTION_CLEANUP '+section+r'\n.*?^# END TREE_POTION_CLEANUP '+section+r'\n','',text,flags=re.M|re.S);assert n==1
     return text
-def verify(root,pack):
-    text=(pack/'hires.txt').read_text();prior=json.loads((root/'evidence/0.20.2-pack-sha256.json').read_text())
+def verify(root,pack,content=None):
+    text=content if content is not None else (pack/'hires.txt').read_text();prior=json.loads((root/'evidence/0.20.2-pack-sha256.json').read_text())
     assert {p.name for p in pack.iterdir()if p.is_file()}==set(prior)|ADDED
     for name,digest in prior.items():
         if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name

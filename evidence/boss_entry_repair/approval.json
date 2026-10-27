@@ -1,0 +1,11 @@
+{
+  "version": "0.20.4",
+  "source_head": "86b75b0aa8950cefc5627a0ebc02f0332ab3b882",
+  "date": "2026-10-27",
+  "timezone": "America/New_York",
+  "user_message": "approved. now this movie shows background disapparing at some spots.",
+  "approved": true,
+  "scope": "Delivered complete 0.20.4 pack; preserve all 119 installation bytes as the baseline.",
+  "main": "2f38abeb06cd1093fc33416da20c5124fca2f4d7",
+  "publication_authorized": false
+}

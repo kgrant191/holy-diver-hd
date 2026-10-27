@@ -1,0 +1,75 @@
+{
+  "movie_frames": 1665,
+  "native_samples_per_type": 1665,
+  "native_state_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 5325360,
+  "pcm_sha256": "cdec7db0c46f6974a8be3c2521781432bb6326b7c3bce1f7f60ceada7e4aae93",
+  "movie_sha256": "b2aae331065a961bbb0b2f12f544a851522f75857c75ef1123cc13b75e2fb95e",
+  "image_checks": {
+    "empty_initial": 1,
+    "identical": 1634,
+    "native_black_exact": 8,
+    "changed": 30
+  },
+  "changed_frames": [
+    91,
+    92,
+    99,
+    100,
+    107,
+    108,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    195,
+    196,
+    203,
+    204,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "changed_pixels": 610549,
+  "complete_boss_matches": {
+    "0F271027": 22,
+    "0F271006": 4,
+    "0F020627": 4
+  },
+  "examples": {
+    "0F271027": {
+      "frame": 91,
+      "scroll": 8,
+      "opaque_pixels": 11245,
+      "transparent_pixels": 11027
+    },
+    "0F271006": {
+      "frame": 99,
+      "scroll": 16,
+      "opaque_pixels": 13141,
+      "transparent_pixels": 12203
+    },
+    "0F020627": {
+      "frame": 107,
+      "scroll": 24,
+      "opaque_pixels": 14796,
+      "transparent_pixels": 13620
+    }
+  },
+  "all_changes_confined_to_missing_boss_palettes": true
+}
