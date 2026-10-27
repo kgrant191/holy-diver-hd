@@ -1,5 +1,9 @@
 # Current status
 
+## Approved continuation — 0.20.2
+
+The user approved0.20.2 on2026-10-27 and requested a separate cleanup for chapel-tree branch joins and the red cave health jug. All118 delivered installation files remain frozen. Main stays0.15.0; approval does not authorize publication or merge. See evidence/level4_transition/approval.json.
+
 ## Golden Temple stairs and victory transition — 0.20.2 review
 
 Completes the ascending stair underside across all nine temple room scopes, preserving the accepted descending steps, upper landing surfaces and background art. Adds the Thunder tome/card, reuses the gold initial impact, keeps the tower and moving ledges HD through defeat fades, and retains the finished dragon silhouette through the following white travel flash. All114 earlier art/audio/patch assets remain exact; native state and full audio are compared in four paired recordings totaling20,428 frames per build and7,916 native samples/type. Main remains approved0.15.0; work stays on feature/golden-temple-boss without publication or merge. See docs/LEVEL4_TRANSITION.md and evidence/level4_transition/ for final verification, scope equivalence and coverage limits.

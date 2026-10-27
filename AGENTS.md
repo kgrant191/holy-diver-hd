@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.20.2
+
+The user approved the delivered0.20.2 pack on2026-10-27 and requested separate branch/potion cleanup. Preserve all118 frozen installation files during approval bookkeeping. Main stays approved0.15.0; no push, PR, merge or release is authorized. See evidence/level4_transition/approval.json.
+
 ## Current repair — all temple stairs and victory transition 0.20.2
 
 - The user confirms the previously repaired stairs and now requests all remaining Golden Temple stair copies. Live nametables prove the ascending layout is 0B82,83 / 84,85, with exact 0D copies. Smooth that complete lower edge, preserving the entire upper half and RGB. The earlier hardcoded 83,82 / 81,80 assembly was not the actual ascending step. 80/81 and 86/87 also occur in decorative walls/windows and must not be globally restored.
