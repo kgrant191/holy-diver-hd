@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen",
+  "new_sources": {
+    "temple_staff.png": "bf4685d0b7be51c00e39c11e7e088cd097790731a9821f79e6186102c1daed18",
+    "temple_sentinel.png": "d1a6d5dc21cd09bad7edef7c0e67193543fa3c6dd3f921f31775473df3b9b2f3",
+    "temple_sentinel_step.png": "d2cb47c8d7f2f6a5bba007976ed25e8ec5403873a9de747218738f9565ef9b11",
+    "temple_sentinel_attack_corrected.png": "fae83b7ab5c990dea335a21415c8095d3fbf69d84994581b4b71bcbe12e6a51f"
+  },
+  "unselected_source": "art/generated/temple_sentinel_attack.png (superseded by the recorded targeted correction)",
+  "generation_prompts": [
+    "art/generated/level4_staff_prompts.json",
+    "art/generated/level4_staff_attack_correction_prompt.json"
+  ],
+  "prior_assets_exact": 110,
+  "additional_runtime_assets": [
+    "Golden_Temple_Staff_2x.png"
+  ],
+  "new_room_maps": {
+    "AC61": "interior, recorded climb and staff",
+    "ACD9": "outdoor encounter through player death"
+  },
+  "physical_background_banks": {
+    "AC61": "0B",
+    "ACD9": "0D, all 256 native patterns identical to0B"
+  },
+  "native_gameplay_modified": false
+}

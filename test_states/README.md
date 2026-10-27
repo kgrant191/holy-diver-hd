@@ -130,3 +130,7 @@ Holy_Diver_HD(6).mmo: 8,668 frames, SHA-256 `f413a215567b622fad4cea7dfce4561a05e
 ## Golden Temple hall and courtyard — 0.17.0
 
 `Holy_Diver_HD(7).mmo`, 11,080 bytes, SHA-256 `29cd437918e57c146d039d15bfb0f22a0cc536a4b1ccbcf85a49ce490e55626b`. Contains 4,386 frames and the unchanged embedded state SHA-256 `855cf65f46c13a942c55a7e01f696b6983855b8b5c157e28e4fc1b25ef64c6c4`. Use `run_mesen_movie.py --stride 2` with the native MesenCE 2.2.1 core, HD configuration and synchronized screenshot/audio observer. Covers AAF9, AB71 and AC61 arrival. Binary input is excluded from Git. Earlier regression uses the retained 8,668-frame `Holy_Diver_HD(6).mmo` at stride four. See docs/LEVEL4_COURTYARD.md.
+
+## Golden Temple staff recording — 0.18.0
+
+`Holy_Diver_HD(8).mmo`: 3,632 frames, Mesen 2.2.1 / MovieFormat3, SHA-256 `478f9616cf0ea3073f2e99930e80b83f634a2a927b99b5ab5efde869fcacddda`. Embedded state SHA-256 `346d0d8f28de7d24a7ab316a5fbd8210df438ca45dfd41513d4c56c362d09def`. Uses the supported translated ROM. Covers AC61 climb/staff/menu and ACD9 outdoor encounter through player death. Input bytes stay outside Git.

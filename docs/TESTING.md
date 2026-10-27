@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Staff hall and outdoor arena — 0.18.0
+
+Replay unchanged Holy_Diver_HD(8).mmo against 0.17.0 and final0.18.0 at stride2, then replay Holy_Diver_HD(7).mmo at stride2 as regression. Require exact paired RAM/PPU/OAM/view, APU writes and full PCM with verify_level4_staff.py. Check the panorama throughout every stable full-color gameplay sample; require actual complete staff/menu, both ornaments, all four sentinel layouts, observed hit palettes and both native orientations. Menus may change only inside the staff's32x32 icon. Every earlier movie screenshot remains exact. Exhaust new neighbor bounds through verify_staff_neighbor_rules.py and run the existing invalid-read diagnostic during both candidate replays. See LEVEL4_STAFF.md for commands and limits.
+
 ## Golden Temple courtyard continuation — 0.17.0
 
 Replay Holy_Diver_HD(7).mmo against approved 0.16.3 and the candidate with the neighbor-bounds diagnostic active. Require exact RAM, PPU, OAM, PPU-view metadata, APU writes and full PCM. Check untouched rooms and menus, complete wings/orb/stone source matches, interior/exterior/re-entry scenery and previous movie regression. See docs/LEVEL4_COURTYARD.md.

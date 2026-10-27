@@ -1,0 +1,27 @@
+{
+  "version": "0.18.0",
+  "approval": "awaiting user review",
+  "source_branch": "feature/golden-temple-staff",
+  "paired_frames_per_build": 8018,
+  "paired_native_samples_per_type": 4009,
+  "all_native_and_audio_exact": true,
+  "full_pcm_bytes": 25627656,
+  "earlier_images_exact": 2193,
+  "background_samples": {
+    "AC61": 1221,
+    "ACD9": 297
+  },
+  "all_stable_full_color_panorama_samples_pass": true,
+  "complete_staff_matches": 79,
+  "menu_staff_matches": 113,
+  "complete_ornament_matches": 122,
+  "complete_sentinel_matches": 34,
+  "sentinel_native_poses": 4,
+  "observed_sentinel_palettes": 3,
+  "both_native_orientations_matched": true,
+  "previous_assets_exact": 110,
+  "install_files": 113,
+  "neighbor_screen_coordinate_cases": 737280,
+  "unsafe_neighbor_reads": 0,
+  "coverage_limit": "Recorded encounter ends with player death; sentinel defeat and later areas are not tested"
+}

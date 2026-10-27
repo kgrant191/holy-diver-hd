@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Golden Temple staff hall and arena — 0.18.0 review.** Keeps the interior background visible through the recorded climb, completes the upper ornaments, and gives the staff pickup and Start-menu icon matching gold artwork. The following arena uses the outdoor scenery, HD player/HUD and a crimson armored sentinel. [Coverage and tests](docs/LEVEL4_STAFF.md).
+
 **Golden Temple continuation — 0.17.0 review.** Extends the approved art through the next hall, outdoor fire-chain courtyard and recorded temple re-entry. Adds silver-white wings and fiery chain beads; reuses the existing temple scenery, stonework and restored stairs. [Coverage and tests](docs/LEVEL4_COURTYARD.md).
 
 **Golden Temple stairs — 0.16.3 review.** Restores the stair flight incorrectly cleared as decoration, using existing gold stone and its native outline. Preserves the entry-crash fix and HD item drops. [Repair and tests](docs/LEVEL4_STAIRS.md).
@@ -90,7 +92,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.16.3.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.18.0.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

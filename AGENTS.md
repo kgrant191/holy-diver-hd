@@ -1,5 +1,14 @@
 # Holy Diver HD working instructions
 
+## Current continuation — staff hall and outdoor arena 0.18.0
+
+- AC61/mode04 is indoors through the staff climb; ACD9/mode18 is outdoors. The recording ends with player death, not sentinel defeat. Do not claim victory or later-room coverage.
+- AC61's former single entrance-view guard fails while scrolling. Cover recorded rendered identities/palettes, while retaining menus and native transitions. Upper statue palette is 0F172737. Decorative B80/B81 in 0F071727 are wall details; physical stair families remain untouched.
+- ACD9 uses physical background bank0D, byte-identical to0B. First-byte-match CHR inventories cannot distinguish them. Clone complete final scenery rules with 0D tile/neighbor identities, preserving bounds before probes. Actor bank0C00–74 equals0A00–74; clone spriteNearby pose signatures too and append aliases after all earlier specific rules.
+- Staff pickup0A95/96 is16x32 HD; menu0956/0968/0969/096A composes32x32 with the same staff centered. Exact menu origin guards prevent common glyph0956 from changing elsewhere.
+- Register each whole96x96 sentinel before slicing. All native shared cells remain exact across four layouts; preserve OAM mirrors, native decoys and hit palettes. No RAM edits. See docs/LEVEL4_STAFF.md, prepare_level4_sentinel.py and paired evidence.
+- Review branch feature/golden-temple-staff starts from frozen0.17.0; this does not record whole-pack0.17 approval. Main remains0.15.0; last explicit Level4 approval is0.16.3. All earlier110 assets remain byte-exact. No push/PR/merge/release authorized.
+
 ## Current continuation — Golden Temple courtyard 0.17.0
 
 - AAF9/mode08 is indoors; AB71/mode10 is outdoors; the recorded AC61/mode04 re-entry is indoors. The rest of AC61 is not traversed. Clone final 0.16.3 rules, including ordered bounds and stair repairs, rather than the original 0.16.0 builder.

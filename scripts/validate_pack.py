@@ -31,10 +31,49 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==51
+assert len(imgs)==52
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+staff=json.loads((root/'art/level4_staff/registration.json').read_text())
+assert not staff['native_gameplay_modified'] and not staff['prior_artwork_modified']
+legacy_files={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Staff_2x.png'}
+staff_patterns=json.loads((root/'art/level4_staff/native_patterns.json').read_text())
+for m in staff['mappings']:
+ assert m['rule'] in lines
+for m in staff['clones']:
+ assert m['rule'] in lines and m['source_rule'] in lines
+for m in staff['actor_aliases']:
+ assert staff_patterns[m['source']]==staff_patterns[m['target']]
+ before=m['source_rule'].split('<tile>')[1].split(',');after=m['rule'].split('<tile>')[1].split(',')
+ assert before[:1]+before[2:]==after[:1]+after[2:]
+assert staff_patterns['0CF8']==staff_patterns['0A94']
+for t in range(256):assert staff_patterns[f'{0xb00+t:04X}']==staff_patterns[f'{0xd00+t:04X}']
+for m in staff['clones']:
+ if m['kind']!='outdoor scenery reuse':continue
+ before=m['source_rule'].split('<tile>')[1].split(',');after=m['rule'].split('<tile>')[1].split(',')
+ assert int(after[1],16)==int(before[1],16)+0x200
+ assert before[:1]+before[2:]==after[:1]+after[2:]
+for side in ['Left','Right']:
+ expected=f'<condition>staffHallStatue{side},tileNearby,'+('-8'if side=='Left'else'8')+',0,'+('0BE3'if side=='Left'else'0BE4')+',0F172737'
+ assert expected in lines
+ for m in staff['clones']:
+  if f'&staffHallStatue{side}]'in m['rule']:
+   assert f'&courtyardStatue{side}Safe&staffHallStatue{side}]'in m['rule']
+assert staff['sentinel_fit']['clipped_pixels']==0 and staff['sentinel_fit']['shared_native_cells_exact']
+from verify_staff_neighbor_rules import verify as verify_staff_neighbors
+assert verify_staff_neighbors(root)['unsafe_reads']==0
+item=np.array(Image.open(root/'art/level4_staff/staff.png').convert('RGBA'))
+menu=np.array(Image.open(root/'art/level4_staff/staff_menu.png').convert('RGBA'))
+assert np.array_equal(menu[:,8:24],item)
+for section in ['IMAGES','CONDITIONS','MAPPINGS','ALIASES']:
+ content,n=re.subn(r'^# BEGIN TEMPLE_STAFF '+section+r'\n.*?^# END TEMPLE_STAFF '+section+r'\n','',content,flags=re.M|re.S);assert n==1
+previous_staff=json.loads((root/'evidence/0.17.0-pack-sha256.json').read_text())
+assert hashlib.sha256(content.encode()).hexdigest()==previous_staff['hires.txt'],'0.17.0 mappings changed'
+assert legacy_files==set(previous_staff)
+for name,digest in previous_staff.items():
+ if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior asset changed'
+for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=staff[field]
 courtyard=json.loads((root/'art/level4_courtyard/registration.json').read_text())
 source_scopes=json.loads((root/'art/level4/registration.json').read_text())['scopes']
 assert not courtyard['native_gameplay_modified'] and not courtyard['prior_artwork_modified']
@@ -59,7 +98,7 @@ previous_courtyard=json.loads((root/'evidence/0.16.3-pack-sha256.json').read_tex
 assert hashlib.sha256(content.encode()).hexdigest()==previous_courtyard['hires.txt'],'Approved 0.16.3 mappings changed'
 for name,digest in previous_courtyard.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' approved asset changed'
-assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Courtyard_2x.png'}==set(previous_courtyard)
+assert legacy_files-{'Golden_Temple_Courtyard_2x.png'}==set(previous_courtyard)
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=courtyard[field]
 stairs=json.loads((root/'art/level4_stairs/registration.json').read_text())
 assert not stairs['native_gameplay_modified'] and not stairs['prior_artwork_modified']
@@ -78,7 +117,7 @@ previous_stairs=json.loads((root/'evidence/0.16.2-pack-sha256.json').read_text()
 assert hashlib.sha256(content.encode()).hexdigest()==previous_stairs['hires.txt'],'0.16.2 mappings changed'
 for name,digest in previous_stairs.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior asset changed'
-assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Courtyard_2x.png','Golden_Temple_Stairs_2x.png'}==set(previous_stairs)
+assert legacy_files-{'Golden_Temple_Courtyard_2x.png','Golden_Temple_Stairs_2x.png'}==set(previous_stairs)
 counts['tile']-=stairs['tile_rules']
 repairs=json.loads((root/'art/level4_repairs/registration.json').read_text())
 from verify_temple_neighbor_rules import verify as verify_neighbor_rules
@@ -102,7 +141,7 @@ previous_repairs=json.loads((root/'evidence/0.16.1-pack-sha256.json').read_text(
 assert hashlib.sha256(content.encode()).hexdigest()==previous_repairs['hires.txt'],'0.16.1 mapping recovery failed'
 for name,digest in previous_repairs.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior art changed'
-assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Courtyard_2x.png','Golden_Temple_Stairs_2x.png'}==set(previous_repairs)
+assert legacy_files-{'Golden_Temple_Courtyard_2x.png','Golden_Temple_Stairs_2x.png'}==set(previous_repairs)
 counts['tile']-=repairs['extra_tile_rules'];counts['condition']-=repairs['extra_conditions']
 masonry=json.loads((root/'art/level4_masonry/registration.json').read_text())
 counts['tile']-=masonry['tile_rules'];counts['condition']-=masonry['conditions']
@@ -113,7 +152,7 @@ previous_masonry=json.loads((root/'evidence/0.16.0-pack-sha256.json').read_text(
 assert hashlib.sha256(content.encode()).hexdigest()==previous_masonry['hires.txt'],'0.16.0 mappings changed'
 for name,digest in previous_masonry.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name+' prior art changed'
-current_files={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Courtyard_2x.png','Golden_Temple_Masonry_2x.png','Golden_Temple_Stairs_2x.png'}
+current_files=legacy_files-{'Golden_Temple_Courtyard_2x.png','Golden_Temple_Masonry_2x.png','Golden_Temple_Stairs_2x.png'}
 assert current_files==set(previous_masonry)
 assert not masonry['backgrounds_modified'] and not masonry['outdoor_columns_modified']
 for m in masonry['mappings']:
