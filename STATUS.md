@@ -1,5 +1,13 @@
 # Current status
 
+## Approved 0.20.5 — merge authorized, source push pending
+
+The user approved the delivered complete 0.20.5 pack on 2026-10-27 and requested a bundle and merge. All 119 reviewed installation files remain exact. The authorization covers the cumulative Golden Temple work and subsequent tree/potion, boss-entry and background repairs across eight feature branches. GitHub main remains 0.15.0, with no new feature refs or open PRs at the handoff check. After the user's local bundle push, create/check the PRs and merge in dependency order without requesting approval again. Verify downloaded PR/main artifacts and record the actual merge commits before calling the work adopted. No release/tag is requested. See evidence/background_continuity/approval.json and docs/LEVEL4_ADOPTION.md. Historical review/publication labels below describe their delivery dates.
+
+## Background continuity — 0.20.5 review
+
+Adds the two missing ceiling identities to the existing Poison Moss lava-corridor background check. The same ruin panorama now remains visible during scrolling in room 9DEE. All 117 previous art/audio/patch assets stay exact. The supplied 2,856-frame paired replay restores 98 background frames; 2,757 rendered images remain exact, including native blackouts, menus and later death/restart scenes. Native state, APU and full PCM match. Work is on feature/background-continuity from approved 0.20.4; main remains 0.15.0. See docs/BACKGROUND_CONTINUITY.md. No publication or merge.
+
 ## Approved continuation — 0.20.4
 
 The user approved the delivered 0.20.4 wall-boss entrance repair on 2026-10-27, then supplied a separate movie showing background dropouts. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/boss_entry_repair/approval.json.

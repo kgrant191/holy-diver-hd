@@ -1,0 +1,33 @@
+{
+  "room": "9DEE",
+  "mode": "14",
+  "conditions": 2,
+  "background_rules": 2,
+  "tile_rules": 0,
+  "source_guard": "<condition>l3c9DEEView0_074A,tileAtPosition,128,16,074A,0F091929",
+  "source_rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&l3c9DEEView0_074A]<background>Poison_Moss_Ruins_Background.png,1,0,0,11,0,0",
+  "mappings": [
+    {
+      "identity": "074B",
+      "palette": "0F091929",
+      "position": [
+        128,
+        16
+      ],
+      "condition": "<condition>mossContinuity_074B,tileAtPosition,128,16,074B,0F091929",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&mossContinuity_074B]<background>Poison_Moss_Ruins_Background.png,1,0,0,11,0,0"
+    },
+    {
+      "identity": "074C",
+      "palette": "0F091929",
+      "position": [
+        128,
+        16
+      ],
+      "condition": "<condition>mossContinuity_074C,tileAtPosition,128,16,074C,0F091929",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&mossContinuity_074C]<background>Poison_Moss_Ruins_Background.png,1,0,0,11,0,0"
+    }
+  ],
+  "artwork_modified": false,
+  "native_gameplay_modified": false
+}

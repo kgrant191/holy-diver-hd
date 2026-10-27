@@ -1,5 +1,9 @@
 # Local emulator test inputs
 
+## Background continuity movie — 0.20.5
+
+`Holy_Diver_HD(20261027-183338).mmo`: 2,856 controller frames; SHA-256 `5d45de08c3a9bf5bc72086363855f087557b593f695346122553b03208a18649`. Covers room 9DEE, scrolling in both directions, Blizzard casts, menus, player death and restart. All native state/full audio is paired at stride 1. Input bytes remain outside Git.
+
 ## Wall-boss entrance movie — 0.20.4
 
 `Holy_Diver_HD(20261027-181036).mmo`: 1,665 controller frames; SHA-256 `b2aae331065a961bbb0b2f12f544a851522f75857c75ef1123cc13b75e2fb95e`. Starts in 8E8D, enters 8F7D, opens the menu, fights and defeats the wall boss, and ends before Breaker collection. Input bytes stay outside Git. Paired replay captures every frame and compares exact native state/full audio; all three missing entrance palettes are observed.

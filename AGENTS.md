@@ -1,5 +1,18 @@
 # Holy Diver HD working instructions
 
+## Approved 0.20.5 — source handoff and merge authorized
+
+- On 2026-10-27 the user said "approved.  lets make a bundle and merge". The complete delivered 0.20.5 pack and cumulative eight-branch continuation are approved for PR adoption and merge. This authorization supersedes historical no-publication/no-merge labels below; do not ask for merge permission again.
+- Preserve all 119 reviewed installation files, including the frozen installed README. Approval changes source documentation only. See evidence/background_continuity/approval.json.
+- GitHub main is still 0.15.0; the eight new feature branches were absent when checked. Prepare the incremental ZIP-wrapped bundle for the user's local push, then use the integration for PRs, Actions and merges in dependency order. Verify actual PR/main artifacts before recording adoption. No release/tag was requested.
+
+## Current repair — background continuity 0.20.5
+
+- In 9DEE/mode 14, ceiling tiles 074B/074C with 0F091929 were missing from the rendered (128,16) backdrop guard family. Add only those two conditions/rules, reusing the exact ruin panorama parameters and room guard. No tile artwork or neighbor probes change.
+- Preserve all 117 previous art/audio/patch files and recoverable 0.20.4 mappings. Native blackouts, menus and death transitions must remain unchanged.
+- The paired 2,856-frame movie restores 98 scenery frames. Native state/full audio, opaque foreground, 195 native black frames and 313 menu/title-room images remain exact. Translucent HUD edges use the unchanged source and Mesen integer alpha blend; their resulting RGB correctly changes over restored scenery. See docs/BACKGROUND_CONTINUITY.md.
+- Work remains on feature/background-continuity. Main is approved 0.15.0 and 0.20.4 is the approved continuation. No publication or merge is authorized.
+
 ## Approved continuation — 0.20.4
 
 The user approved the delivered 0.20.4 wall-boss entrance repair on 2026-10-27, then supplied a separate movie showing background dropouts. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/boss_entry_repair/approval.json.

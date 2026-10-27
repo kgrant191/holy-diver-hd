@@ -1,0 +1,17 @@
+{
+  "version": "0.20.5",
+  "source_head": "fb14ba2b23ae33c18346b9b8ecd4ae775990cc94",
+  "date": "2026-10-27",
+  "timezone": "America/New_York",
+  "user_message": "approved.  lets make a bundle and merge",
+  "approved": true,
+  "scope": "Delivered complete 0.20.5 pack and its cumulative eight-branch continuation from approved main 0.15.0.",
+  "installed_files_preserved": 119,
+  "manifest": "evidence/0.20.5-pack-sha256.json",
+  "main_before_adoption": "2f38abeb06cd1093fc33416da20c5124fca2f4d7",
+  "source_bundle_requested": true,
+  "pr_and_merge_authorized": true,
+  "publication_performed": false,
+  "merge_performed": false,
+  "release_tag_authorized": false
+}

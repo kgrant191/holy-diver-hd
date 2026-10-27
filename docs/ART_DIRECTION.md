@@ -1,5 +1,9 @@
 # Art direction
 
+## Poison Moss background continuity
+
+Reuse the accepted green ruin panorama without repainting or changing its camera behavior. The corridor repair only completes rendered ceiling visibility checks; preserve native foreground silhouettes, spell flashes and the existing translucent HUD treatment.
+
 ## Wall-boss entrance repair
 
 Keep the accepted Level 2 boss artwork. The two warm entrance flashes use its existing gold presentation, and the colored phase uses its existing normal presentation. Reuse exact atlas cells; this is a palette-mapping repair, with no change to the boss silhouette or source painting.

@@ -1,0 +1,24 @@
+{
+  "version": "0.20.5",
+  "files": 119,
+  "atlases": 57,
+  "prior_assets_exact": 117,
+  "changed_existing_files": [
+    "README.txt",
+    "hires.txt"
+  ],
+  "new_conditions": 2,
+  "new_background_rules": 2,
+  "flat_zip_crc_and_payload_exact": true,
+  "native_frames_per_build": 2856,
+  "native_samples_per_type": 2856,
+  "native_state_apu_full_pcm_exact": true,
+  "restored_background_frames": 98,
+  "unchanged_rendered_frames": 2757,
+  "native_black_frames_unchanged": 195,
+  "menu_title_room_frames_unchanged": 313,
+  "opaque_foreground_pixels_unchanged": true,
+  "translucent_hud_blends_exact": true,
+  "main_unchanged": "2f38abeb06cd1093fc33416da20c5124fca2f4d7",
+  "publication_performed": false
+}

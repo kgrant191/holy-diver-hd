@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.20.5 — Poison Moss background continuity
+
+- Approved on 2026-10-27 with authorization to bundle and merge the cumulative eight-branch stack. Source push and GitHub checks/merges remain pending; approval changes none of the 119 installed files.
+- Cover the two missing ceiling identities in the lava corridor background visibility check.
+- Reuse the exact approved panorama; preserve all 117 art/audio/patch files, native spell flashes and gameplay.
+
 ## 0.20.4 — Wall-boss entrance repair
 
 - Map three previously missing Level 2 boss entrance palette phases to the approved normal and gold artwork.
