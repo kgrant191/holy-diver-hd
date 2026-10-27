@@ -1,9 +1,8 @@
-HOLY DIVER HD 0.20.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.20.1 — DEVELOPMENT REVIEW CANDIDATE
 
-Extends the Golden Temple interior through the next two recorded halls.
-Reuses the finished sentinels, player, HUD, worn stonework and recovery items.
-Adds hovering gold rings, complete moving platforms and the rotating eye-tower
-boss with opening eyes and native hit flashes. Retains earlier pillar cleanup.
+Restores the visible boss-room entrance in the final Golden Temple hall.
+Smooths the descending stair undersides while retaining their standing surface.
+Keeps the temple backgrounds, bosses, enemies, items and earlier artwork.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

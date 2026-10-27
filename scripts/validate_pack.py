@@ -31,10 +31,16 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==54
+assert len(imgs)==55
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+from verify_finish_rules import verify as verify_finish_rules
+finish_report=verify_finish_rules(root,pack)
+for section in ['IMAGES','CONDITIONS','MAPPINGS','EARLY_STAIRS']:
+ content,n=re.subn(r'^# BEGIN TEMPLE_FINISH '+section+r'\n.*?^# END TEMPLE_FINISH '+section+r'\n','',content,flags=re.M|re.S);assert n==1
+counts['tile']-=finish_report['tile_rules'];counts['condition']-=finish_report['conditions']
+legacy_inventory={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Finish_2x.png'}
 finale=json.loads((root/'art/level4_finale/registration.json').read_text())
 assert not finale['native_gameplay_modified'] and not finale['prior_artwork_modified']
 from verify_finale_rules import verify as verify_finale_rules
@@ -45,7 +51,7 @@ for section in ['IMAGES','CONDITIONS','MAPPINGS','ALIASES']:
  content,n=re.subn(r'^# BEGIN TEMPLE_FINALE '+section+r'\n.*?^# END TEMPLE_FINALE '+section+r'\n','',content,flags=re.M|re.S);assert n==1
 previous_finale=json.loads((root/'evidence/0.19.1-pack-sha256.json').read_text())
 assert hashlib.sha256(content.encode()).hexdigest()==previous_finale['hires.txt']
-assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Finale_2x.png'}==set(previous_finale)
+assert legacy_inventory-{'Golden_Temple_Finale_2x.png'}==set(previous_finale)
 for name,digest in previous_finale.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=finale[field]
@@ -55,7 +61,7 @@ assert Image.open(pack/'Golden_Temple_Courtyard_2x.png').convert('RGBA').crop((0
 content,n=re.subn(r'^# BEGIN TEMPLE_RESIDUE MAPPINGS\n.*?^# END TEMPLE_RESIDUE MAPPINGS\n','',content,flags=re.M|re.S);assert n==1
 residue_prior=json.loads((root/'evidence/0.19.0-pack-sha256.json').read_text())
 assert hashlib.sha256(content.encode()).hexdigest()==residue_prior['hires.txt']
-assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Finale_2x.png'}==set(residue_prior)
+assert legacy_inventory-{'Golden_Temple_Finale_2x.png'}==set(residue_prior)
 for name,digest in residue_prior.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name
 counts['tile']-=len(residue_rules)
@@ -78,13 +84,13 @@ for section in ['IMAGES','CONDITIONS','MAPPINGS']:
  content,n=re.subn(r'^# BEGIN TEMPLE_DRAGON '+section+r'\n.*?^# END TEMPLE_DRAGON '+section+r'\n','',content,flags=re.M|re.S);assert n==1
 previous_dragon=json.loads((root/'evidence/0.18.0-pack-sha256.json').read_text())
 assert hashlib.sha256(content.encode()).hexdigest()==previous_dragon['hires.txt']
-assert {p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Dragon_2x.png','Golden_Temple_Finale_2x.png'}==set(previous_dragon)
+assert legacy_inventory-{'Golden_Temple_Dragon_2x.png','Golden_Temple_Finale_2x.png'}==set(previous_dragon)
 for name,digest in previous_dragon.items():
  if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=dragon[field]
 staff=json.loads((root/'art/level4_staff/registration.json').read_text())
 assert not staff['native_gameplay_modified'] and not staff['prior_artwork_modified']
-legacy_files={p.name for p in pack.iterdir()if p.is_file()}-{'Golden_Temple_Staff_2x.png','Golden_Temple_Dragon_2x.png','Golden_Temple_Finale_2x.png'}
+legacy_files=legacy_inventory-{'Golden_Temple_Staff_2x.png','Golden_Temple_Dragon_2x.png','Golden_Temple_Finale_2x.png'}
 staff_patterns=json.loads((root/'art/level4_staff/native_patterns.json').read_text())
 for m in staff['mappings']:
  assert m['rule'] in lines

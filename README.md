@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Golden Temple entrance/stair repair — 0.20.1 review.** Restores the visible boss-room doorway and smooths the descending stair undersides without changing their standing surface. Earlier artwork, boss animation and native gameplay/audio remain intact. [Repair and verification](docs/LEVEL4_FINISH.md).
+
 **Golden Temple final halls and boss — 0.20.0 review.** Extends the finished temple scenery and returning enemies into both recorded halls. Adds gold/crimson hovering rings and a rotating bronze-and-teal eye tower, with native hit flashes and stone moving platforms. The recording ends at game over; boss defeat is untested. [Coverage and tests](docs/LEVEL4_FINALE.md).
 
 **Golden Temple stray-pixel repair — 0.19.1 review.** Removes the missed original ornament tile floating in the outdoor dragon area. All artwork remains unchanged. [Repair and tests](docs/LEVEL4_RESIDUE.md).
@@ -98,7 +100,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.18.0.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.20.1.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

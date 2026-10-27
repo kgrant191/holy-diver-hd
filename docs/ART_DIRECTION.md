@@ -1,5 +1,9 @@
 # Art direction
 
+## Boss entrance and stair polish — 0.20.1
+
+Reuse the existing golden entrance crown and dark passage for the boss doorway. Keep the accepted panorama visible around it. Replace the descending stairs’ coarse lower cutouts with one continuous diagonal; retain the existing gold RGB and entire upper half. This requested underside polish supersedes the earlier exact lower-mask requirement only for0B7C–7F and its0D copies.
+
 ## Dragon and readable items — 0.19.0
 
 Use a long emerald dragon with bronze/gold wing membranes, coherent raised/folded wings, and a readable open-jaw firing pose. Register whole poses before slicing; shared native cells remain identical. Use the same emerald/gold identity for its pickup medallion. Give the staff a thicker ivory/gold shaft, emerald crown and dark outline; use the same art in its menu slot. Small heart/crystal drops have ivory highlights and navy edges. Remove the user's identified non-solid foreground columns, exposing the accepted backdrop; retain actual platforms and stairs. This supersedes the earlier instruction to retain those decorative column overlays.

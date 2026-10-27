@@ -1,0 +1,805 @@
+{
+  "mappings": [
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7C,0F071737,0,0,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7C,0F071737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7D,0F071737,16,0,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7D,0F071737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7E,0F071737,0,16,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7E,0F071737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7F,0F071737,16,16,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7F,0F071737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7C,0F072830,0,0,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7D,0F072830,16,0,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7E,0F072830,0,16,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>49,0B7F,0F072830,16,16,1,N",
+      "rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>54,0B7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7C,0F172737,0,0,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7C,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7D,0F172737,16,0,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7D,0F172737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7E,0F172737,0,16,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7E,0F172737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7F,0F172737,16,16,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7F,0F172737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7C,0F072830,0,0,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7D,0F072830,16,0,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7E,0F072830,0,16,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>49,0B7F,0F072830,16,16,1,N",
+      "rule": "[templeAA09Mode&templeAA09Lo&templeAA09Hi]<tile>54,0B7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7C,0F172737,0,0,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7C,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7D,0F172737,16,0,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7D,0F172737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7E,0F172737,0,16,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7E,0F172737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7F,0F172737,16,16,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7F,0F172737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7C,0F072830,0,0,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7D,0F072830,16,0,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7E,0F072830,0,16,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>49,0B7F,0F072830,16,16,1,N",
+      "rule": "[templeAA81Mode&templeAA81Lo&templeAA81Hi]<tile>54,0B7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7C,0F172737,0,0,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7C,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7D,0F172737,16,0,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7D,0F172737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7E,0F172737,0,16,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7E,0F172737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7F,0F172737,16,16,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7F,0F172737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7C,0F072830,0,0,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7D,0F072830,16,0,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7E,0F072830,0,16,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>49,0D7F,0F072830,16,16,1,N",
+      "rule": "[finaleAE41Mode&finaleAE41Lo&finaleAE41Hi]<tile>54,0D7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7C,0F172737,0,0,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7C,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7D,0F172737,16,0,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7D,0F172737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7E,0F172737,0,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7E,0F172737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7F,0F172737,16,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7F,0F172737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7C,0F072830,0,0,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7D,0F072830,16,0,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7E,0F072830,0,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>49,0D7F,0F072830,16,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>54,0D7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7C,31071737,0,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7C,31071737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7D,31071737,16,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7D,31071737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7E,31071737,0,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7E,31071737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7F,31071737,16,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7F,31071737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7C,31072830,0,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7C,31072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7D,31072830,16,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7D,31072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7E,31072830,0,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7E,31072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7F,31072830,16,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7F,31072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7C,0F071737,0,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7C,0F071737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7D,0F071737,16,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7D,0F071737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7E,0F071737,0,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7E,0F071737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7F,0F071737,16,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7F,0F071737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7C,0F072830,0,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7D,0F072830,16,0,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7E,0F072830,0,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>49,0D7F,0F072830,16,16,1,N",
+      "rule": "[staffArenaMode&staffArenaLo&staffArenaHi]<tile>54,0D7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7C,0F172737,0,0,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7C,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7D,0F172737,16,0,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7D,0F172737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7E,0F172737,0,16,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7E,0F172737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7F,0F172737,16,16,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7F,0F172737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7C,0F072830,0,0,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7D,0F072830,16,0,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7E,0F072830,0,16,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>49,0B7F,0F072830,16,16,1,N",
+      "rule": "[courtyardAAF9Mode&courtyardAAF9Lo&courtyardAAF9Hi]<tile>54,0B7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7C,0F071737,0,0,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7C,0F071737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7D,0F071737,16,0,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7D,0F071737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7E,0F071737,0,16,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7E,0F071737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7F,0F071737,16,16,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7F,0F071737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7C,0F072830,0,0,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7D,0F072830,16,0,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7E,0F072830,0,16,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>49,0B7F,0F072830,16,16,1,N",
+      "rule": "[courtyardAB71Mode&courtyardAB71Lo&courtyardAB71Hi]<tile>54,0B7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7C,0F172737,0,0,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7C,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7D,0F172737,16,0,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7D,0F172737,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7E,0F172737,0,16,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7E,0F172737,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7F,0F172737,16,16,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7F,0F172737,16,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7C,0F072830,0,0,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7C,0F072830,0,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7D,0F072830,16,0,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7D,0F072830,16,0,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7E,0F072830,0,16,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7E,0F072830,0,16,1,N"
+    },
+    {
+      "kind": "smooth descending step",
+      "source_rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>49,0B7F,0F072830,16,16,1,N",
+      "rule": "[courtyardAC61Mode&courtyardAC61Lo&courtyardAC61Hi]<tile>54,0B7F,0F072830,16,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0BDF,0F071737,224,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0DDF,0F172737,224,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0BE0,0F071737,240,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0DE0,0F172737,240,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0BE1,0F071737,256,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0DE1,0F172737,256,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0BE2,0F071737,272,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0DE2,0F172737,272,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B5B,0F071737,464,0,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D5B,0F172737,464,0,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B5C,0F071737,480,0,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D5C,0F172737,480,0,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B63,0F071737,48,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D63,0F172737,48,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B64,0F071737,64,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D64,0F172737,64,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B5D,0F071737,496,0,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D5D,0F172737,496,0,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B5E,0F071737,0,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D5E,0F172737,0,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B65,0F071737,80,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D65,0F172737,80,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B66,0F071737,96,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D66,0F172737,96,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B5F,0F071737,16,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D5F,0F172737,16,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B60,0F071737,32,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D60,0F172737,32,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B67,0F071737,112,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D67,0F172737,112,16,1,N"
+    },
+    {
+      "kind": "boss entrance crown",
+      "source_rule": "[templeA865Mode&templeA865Lo&templeA865Hi]<tile>47,0B68,0F071737,128,16,1,N",
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi]<tile>47,0D68,0F172737,128,16,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_0]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_0]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_1]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_1]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_2]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_2]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_3]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 0,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY0&finishDoorAbove0_3]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_0]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_0]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_1]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_1]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_2]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_2]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_3]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 1,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY1&finishDoorAbove1_3]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_0]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_0]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_1]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_1]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_2]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_2]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_3]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 2,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY2&finishDoorAbove2_3]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_0]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_0]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_1]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_1]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_2]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_2]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_3]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 3,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY3&finishDoorAbove3_3]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_0]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_0]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_1]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_1]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_2]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_2]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_3]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 4,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY4&finishDoorAbove4_3]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_0]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 0,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_0]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_1]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 1,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_1]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_2]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 2,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_2]<tile>47,0D00,0F071723,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_3]<tile>47,0D00,0F172737,0,0,1,N"
+    },
+    {
+      "kind": "boss entrance opening",
+      "row": 5,
+      "column": 3,
+      "rule": "[finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi&finishDoorY5&finishDoorAbove5_3]<tile>47,0D00,0F071723,0,0,1,N"
+    }
+  ],
+  "tile_rules": 144,
+  "conditions": 30,
+  "stair_rules": 80,
+  "portal_scope": "finaleAEF5Mode&finaleAEF5Lo&finaleAEF5Hi",
+  "portal_layout": [
+    [
+      "0DDF",
+      "0DE0",
+      "0DE1",
+      "0DE2"
+    ],
+    [
+      "0D5B",
+      "0D5C",
+      "0D63",
+      "0D64"
+    ],
+    [
+      "0D5D",
+      "0D5E",
+      "0D65",
+      "0D66"
+    ],
+    [
+      "0D5F",
+      "0D60",
+      "0D67",
+      "0D68"
+    ]
+  ],
+  "standing_surface_unchanged": true,
+  "prior_assets_unchanged": true,
+  "native_gameplay_modified": false
+}

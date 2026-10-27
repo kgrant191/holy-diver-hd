@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.20.1 — 2026-10-27
+
+- Restore the final Golden Temple boss entrance, including both lower opening palettes.
+- Give the descending stairs a continuous underside while preserving their standing surface and existing material.
+- Preserve earlier artwork, native collision/timing/audio and the complete boss encounter rendering.
+
+
 ## 0.20.0 — 2026-10-26 — review candidate
 
 - Extend the finished indoor panorama, repaired stone/stairs, clear drops and sentinels through the next two halls.

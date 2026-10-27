@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Boss entrance and stair underside — 0.20.1
+
+Pair the full7591-frame finale recording and the earlier298-frame controller-only stair edge route at stride1 against frozen0.20.0. Use verify_level4_finish.py for exact native state/full audio, differences confined to the requested stair/door cells, complete source matches and unchanged boss images/blackouts. Static checks recover exact0.20.0 mappings and preserve all113 earlier assets, test the untouched standing edge and exhaust upward doorway-probe bounds. See LEVEL4_FINISH.md.
+
 ## Stray ornament repair — 0.19.1
 
 Replay both retained dragon routes at stride1 against frozen0.19.0. Require exact native RAM/PPU/OAM/view, APU writes and full PCM with verify_level4_residue.py. All image differences must stay inside the observed0DF8/0F073703 footprint and equal the unchanged exterior panorama. Keep the existing invalid-neighbor diagnostic enabled. The clean build must recover exact0.19.0 hires.txt after removing TEMPLE_RESIDUE, with every other asset byte-exact.

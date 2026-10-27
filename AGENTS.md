@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current repair — boss entrance and stair underside 0.20.1
+
+- The final AEF5 boss entrance uses the four-by-four 0DDF–E2 / 0D5B–68 crown and six blank rows beneath it. Earlier interior clones cleared the crown and opening. Restore the existing entrance crown and dark opening only in AEF5, in palettes 0F172737/0F071723. The lower two opening rows use 0F071723. Bounds must precede all upward tileNearby probes.
+- Smooth only the reported descending 0B7C–7F / 0D7C–7F step family. Preserve the full upper half, standing edge and exact stone RGB. The continuous lower diagonal supersedes the historical jagged native alpha requirement for this family. Other stair shapes remain unchanged.
+- build_level4_finish.py adds atlas54 and 144 removable overrides. All113 earlier art/audio/patch assets stay exact; stripping TEMPLE_FINISH recovers exact0.20.0 mappings. Keep every older validator.
+- Use paired actual recordings and the existing controller-only stair edge route with verify_level4_finish.py. Native state and full audio must match; boss-room images remain exact. Source branch stays feature/golden-temple-boss, main0.15.0; no publication or merge authorized.
+
 ## Current continuation — Golden Temple finale 0.20.0
 
 - AE41 and AEF5/mode0C are indoor halls. Clone the complete repaired AC61 scenery into physical bank0D, including stair repairs and decorative-column removal. Return the finished0C sentinels, drops and HUD. Do not redraw accepted scenery.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the current development version from approved art and registered sources."""
 from pathlib import Path
-import subprocess,sys,shutil,zipfile,re
+import subprocess,sys,shutil,zipfile,re,io,os,hashlib
 r=Path(__file__).resolve().parent
 version=(r/'VERSION').read_text().strip()
 if not re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)',version):
@@ -44,10 +44,18 @@ subprocess.run([sys.executable,str(r/'scripts/build_level4_staff.py')],cwd=r,che
 subprocess.run([sys.executable,str(r/'scripts/build_level4_dragon.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level4_residue.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level4_finale.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_level4_finish.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'
-with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED)as z:
+buffer=io.BytesIO()
+with zipfile.ZipFile(buffer,'w',zipfile.ZIP_DEFLATED)as z:
  for p in sorted(pack.iterdir()):
-  if p.is_file():z.write(p,p.name)
+  if p.is_file():z.writestr(p.name,p.read_bytes())
+data=buffer.getvalue();temporary=archive.with_suffix('.writing')
+with temporary.open('wb')as output:
+ assert output.write(data)==len(data);output.flush();os.fsync(output.fileno())
+os.replace(temporary,archive)
+assert hashlib.sha256(archive.read_bytes()).digest()==hashlib.sha256(data).digest()
+with zipfile.ZipFile(archive)as z:assert z.testzip()is None
 print('Rebuilt:',archive)
