@@ -1,5 +1,13 @@
 # Holy Diver HD working instructions
 
+## Current continuation — Golden Temple finale 0.20.0
+
+- AE41 and AEF5/mode0C are indoor halls. Clone the complete repaired AC61 scenery into physical bank0D, including stair repairs and decorative-column removal. Return the finished0C sentinels, drops and HUD. Do not redraw accepted scenery.
+- AFA9/mode04 is the boss interior. The tower is background bank0F: three independently rotating7x4-cell bands, eight native layouts. Register each whole112x64 band before slicing; shared identities must not splice eyes from different phases. Preserve normal0F071727 and hit0F001030 timing. All tileNearby probes require ordered screen bounds.
+- Actor/HUD bank0E00–74 equals0A00–74. New conditional aliases precede existing ordinary rules; broad aliases remain last. Native0EB4–B7 moving ledges reuse complete64x32 accepted stone.0CB6–BD rings use two complete32x32 poses with one scale.
+- Reuse the existing interior panorama at half brightness in the boss room, with rendered guards that retain native transitions and death blackouts. Graphics only; never edit emulated RAM, input, collision, timing or audio.
+- Branch feature/golden-temple-boss starts at frozen0.19.1. Preserve all112 earlier art/audio/patch assets and exact recoverable mappings. Main remains approved0.15.0; last explicit Level4 approval0.16.3. No push, merge or release authorized. The supplied7591-frame movie ends at game over, not boss defeat. See docs/LEVEL4_FINALE.md and paired evidence.
+
 ## Current repair — stray ornament 0.19.1
 
 - The reported purple/ivory bars are background0DF8/0F073703 in ACD9/mode18, not a dragon sprite or ring enemy. The earlier pillar cleanup missed this ornament cell. build_level4_residue.py adds only two arena/palette-scoped empty mappings, including31073703 for native pickup flashes.

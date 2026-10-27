@@ -1,5 +1,9 @@
 # Current status
 
+## Golden Temple final halls and boss — 0.20.0 review
+
+Work is on feature/golden-temple-boss from frozen 0.19.1. Both new indoor halls reuse the finished temple panorama, repaired masonry/stairs, returning sentinels and visible item drops. New hovering rings and the bronze/teal eye tower retain native animation and hit timing. The boss room has the existing panorama at half brightness, complete moving stone platforms, HD Randy/HUD and native projectiles. Two paired replays pass 8,578 frames per build, with exact RAM/PPU/OAM/view samples and full PCM/APU. All 16 boss band/color combinations, returning sentinel poses and both ring phases match complete sources; moving-platform matches are restricted to the boss room. The earlier dragon route changes only inside the native ring sprites. All 115 install hashes and flat ZIP/CRC checks pass. Main remains approved 0.15.0; last explicit Level 4 approval 0.16.3. No push, PR, merge or release is authorized. The supplied movie ends with game over; boss defeat, any reward and later rooms remain untested. See docs/LEVEL4_FINALE.md.
+
 ## Golden Temple stray-pixel repair — 0.19.1 review
 
 The screenshot identifies one remaining native background tile, 0DF8/0F073703 in ACD9/mode18. It is a decorative ornament cell missed by the earlier scenery cleanup. Two scoped transparent mappings remove it in normal color and the corresponding native pickup-flash palette. Reuse the existing empty atlas cell; all112 earlier art/audio/patch assets remain exact. No new neighbor lookups. Work stays on feature/temple-dragon-items, awaiting review; main remains approved0.15.0. Both paired state routes pass1,597 frames per build, with exact native state/full audio and ornament-only visual changes. All114 hashes and flat ZIP/CRC checks pass. See docs/LEVEL4_RESIDUE.md and evidence/level4_residue/.

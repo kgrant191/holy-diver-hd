@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.20.0 — 2026-10-26 — review candidate
+
+- Extend the finished indoor panorama, repaired stone/stairs, clear drops and sentinels through the next two halls.
+- Add two complete gold/crimson ring poses, reusing them across proven identical native graphics.
+- Add the rotating eye-tower boss: eight complete band layouts, normal and native white-hit palettes, existing stone moving platforms, and a subdued temple backdrop.
+- Carry finished Randy/HUD and projectiles into the boss graphics bank. Preserve native movement, combat, flashes, transitions, death blackouts and audio; all112 earlier art/audio/patch assets remain exact.
+- The supplied recording ends with game over. Defeat, any reward and later rooms are outside this review.
+
 ## 0.19.1 — 2026-10-26 — review candidate
 
 - Remove the missed decorative 0DF8 tile in the outdoor dragon arena, including its pickup-flash palette.

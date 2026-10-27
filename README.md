@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Golden Temple final halls and boss — 0.20.0 review.** Extends the finished temple scenery and returning enemies into both recorded halls. Adds gold/crimson hovering rings and a rotating bronze-and-teal eye tower, with native hit flashes and stone moving platforms. The recording ends at game over; boss defeat is untested. [Coverage and tests](docs/LEVEL4_FINALE.md).
+
 **Golden Temple stray-pixel repair — 0.19.1 review.** Removes the missed original ornament tile floating in the outdoor dragon area. All artwork remains unchanged. [Repair and tests](docs/LEVEL4_RESIDUE.md).
 
 **Golden Temple dragon and visibility — 0.19.0 review.** Updates the dragon pickup, flying/firing animations and fire breath. Improves the staff and small recovery drops, and removes decorative foreground columns so the scenery shows through. [Coverage and tests](docs/LEVEL4_DRAGON.md).

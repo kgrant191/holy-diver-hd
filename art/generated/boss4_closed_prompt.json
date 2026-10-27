@@ -1,0 +1,4 @@
+{
+  "tool": "image_gen",
+  "prompt": "Edit the supplied temple guardian eye into its CLOSED / dormant animation frame. Preserve the exact canvas size, placement, outer gold-and-teal frame, shape, lighting, sharp pixel-art style and transparent background. Change ONLY the exposed eyeball inside the inner rim: replace sclera, red iris and pupil with a closed dark aged-bronze mechanical eyelid, two fitted curved plates meeting at a thin horizontal dark seam. The eyelid is dark petrol-bronze with restrained gold highlights, clearly shut, no glow or iris visible. All outer metal edges remain identical; no added particles, objects or scenery. This is a coherent second frame of the same sprite. Preserve transparency."
+}

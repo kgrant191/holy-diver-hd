@@ -1,0 +1,23 @@
+{
+  "movie_name": "Holy_Diver_HD(9).mmo",
+  "movie_bytes": 11775,
+  "movie_sha256": "2433571798b3e9a33794df42a8038ae372ab199149a839112a51e6a5a51c2a9e",
+  "frames": 7591,
+  "members": {
+    "Input.txt": {
+      "bytes": 167002,
+      "sha256": "1dd7fb7cd76a9b52a89a7e19189a2a74c93425f2a816befbaf62ae78562a7670"
+    },
+    "GameSettings.txt": {
+      "bytes": 1204,
+      "sha256": "9eb91900eae8d3439621c3b476079c75efcdd4fb1bd1e4c559c32f0d881a82e5"
+    },
+    "SaveState.mss": {
+      "bytes": 9960,
+      "sha256": "e24817818301ed5da08a8f70de34ecf06696a9dbc3a815871dea0f9328ed1dda"
+    }
+  },
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "emulator": "MesenCE2.2.1",
+  "native_state_modified": false
+}
