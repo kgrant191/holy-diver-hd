@@ -1,0 +1,19 @@
+{
+  "version": "0.20.4",
+  "files": 119,
+  "atlases": 57,
+  "prior_assets_exact": 117,
+  "changed_existing_files": [
+    "README.txt",
+    "hires.txt"
+  ],
+  "flat_zip_crc_and_payload_exact": true,
+  "native_frames_per_build": 1665,
+  "native_samples_per_type": 1665,
+  "native_state_apu_full_pcm_exact": true,
+  "repaired_frames": 30,
+  "unchanged_rendered_frames": 1634,
+  "all_three_entrance_palettes_live_verified": true,
+  "main_unchanged": "2f38abeb06cd1093fc33416da20c5124fca2f4d7",
+  "publication_performed": false
+}

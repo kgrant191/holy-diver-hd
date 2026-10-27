@@ -1,5 +1,9 @@
 # Art direction
 
+## Wall-boss entrance repair
+
+Keep the accepted Level 2 boss artwork. The two warm entrance flashes use its existing gold presentation, and the colored phase uses its existing normal presentation. Reuse exact atlas cells; this is a palette-mapping repair, with no change to the boss silhouette or source painting.
+
 ## Branch joins and visible health jug — 0.20.3
 
 Join branches with their original carved/knotted wood shoulders inside adjacent trunk cells; preserve the existing branch platforms. Retain the round ruby-red handled health jug, but use brighter ivory reflections and pale gold fittings to separate it from red crystals. Keep the same native footprint and transparent handle opening.

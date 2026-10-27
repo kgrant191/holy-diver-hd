@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current repair — wall-boss entrance 0.20.4
+
+- The supplied movie proves three missing Level 2 entrance palettes in 8F7D/mode 08: 0F271027 and 0F271006 reuse the approved gold boss; 0F020627 reuses the approved normal boss. Cover every one of the 129 wall identities for each palette.
+- Reuse atlas 39 directly, with b2Room/b2Lo/b2Hi. No new image or condition is needed. Preserve all 117 previous art/audio/patch assets and byte-exact recoverable 0.20.3 mappings.
+- The 1,665-frame paired movie verifies all three phases, combat and boss defeat, ending before Breaker collection. All 30 changed frames are restricted to the entrance boss; native state and full audio match. See docs/BOSS_ENTRY_REPAIR.md.
+- Work remains on feature/boss-entry-repair. Main is approved 0.15.0 and 0.20.3 is the approved continuation. No publication or merge is authorized.
+
 ## Approved continuation — 0.20.3
 
 The user approved the delivered 0.20.3 branch/potion cleanup on 2026-10-27, then supplied a separate boss-entry movie. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/tree_potion_cleanup/approval.json.

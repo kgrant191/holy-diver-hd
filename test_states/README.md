@@ -1,5 +1,9 @@
 # Local emulator test inputs
 
+## Wall-boss entrance movie — 0.20.4
+
+`Holy_Diver_HD(20261027-181036).mmo`: 1,665 controller frames; SHA-256 `b2aae331065a961bbb0b2f12f544a851522f75857c75ef1123cc13b75e2fb95e`. Starts in 8E8D, enters 8F7D, opens the menu, fights and defeats the wall boss, and ends before Breaker collection. Input bytes stay outside Git. Paired replay captures every frame and compares exact native state/full audio; all three missing entrance palettes are observed.
+
 Restore these files from the previously delivered `Holy_Diver_v15_Sources_and_Rollback.zip` archive, under `Holy_Diver_v15_1_Source/test_states/`, into this directory. They are intentionally ignored by Git. A build does not require them.
 
 | Relative path | SHA-256 |

@@ -1,5 +1,9 @@
 # Current status
 
+## Wall-boss entrance — 0.20.4 review
+
+Adds 387 scoped aliases for three missing Level 2 boss entrance palette phases, reusing accepted normal/gold artwork. All 117 previous art/audio/patch files remain exact. The supplied 1,665-frame movie passes paired native state, APU and full PCM checks; all 30 changed entrance frames match the complete visible boss source, and 1,634 rendered pictures remain exact through combat and defeat. The movie ends before Breaker collection. Work is on feature/boss-entry-repair from approved 0.20.3; main remains 0.15.0. See docs/BOSS_ENTRY_REPAIR.md. No publication or merge.
+
 ## Approved continuation — 0.20.3
 
 The user approved the delivered 0.20.3 branch/potion cleanup on 2026-10-27, then supplied a separate boss-entry movie. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/tree_potion_cleanup/approval.json.

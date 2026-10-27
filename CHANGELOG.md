@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.20.4 — Wall-boss entrance repair
+
+- Map three previously missing Level 2 boss entrance palette phases to the approved normal and gold artwork.
+- Preserve all 117 prior art/audio/patch files and the complete recoverable 0.20.3 mappings; no new artwork or gameplay changes.
+
 ## 0.20.3 — Tree branches and potion visibility
 
 - Register original-tree shoulders at both chapel branch attachment points, retaining the native branch surfaces and surrounding scenery.

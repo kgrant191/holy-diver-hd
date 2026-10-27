@@ -1,8 +1,8 @@
-HOLY DIVER HD 0.20.3 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.20.4 — DEVELOPMENT REVIEW CANDIDATE
 
-Joins the chapel tree's branches into the trunk using its original artwork.
-Brightens the handled red health potion with pale rims and glass highlights.
-Preserves the approved 0.20.2 scenery, stairs, actors and transitions.
+Keeps the finished Level 2 wall boss visible through all three entrance flashes.
+Reuses the approved normal and gold boss artwork for missing palette phases.
+Preserves all approved 0.20.3 artwork, branch joins, potion and transitions.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.
