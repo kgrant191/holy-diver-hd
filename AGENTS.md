@@ -1,5 +1,11 @@
 # Holy Diver HD working instructions
 
+## Approved 0.20.5 — source handoff and merge authorized
+
+- On 2026-10-27 the user said "approved.  lets make a bundle and merge". The complete delivered 0.20.5 pack and cumulative eight-branch continuation are approved for PR adoption and merge. This authorization supersedes historical no-publication/no-merge labels below; do not ask for merge permission again.
+- Preserve all 119 reviewed installation files, including the frozen installed README. Approval changes source documentation only. See evidence/background_continuity/approval.json.
+- GitHub main is still 0.15.0; the eight new feature branches were absent when checked. Prepare the incremental ZIP-wrapped bundle for the user's local push, then use the integration for PRs, Actions and merges in dependency order. Verify actual PR/main artifacts before recording adoption. No release/tag was requested.
+
 ## Current repair — background continuity 0.20.5
 
 - In 9DEE/mode 14, ceiling tiles 074B/074C with 0F091929 were missing from the rendered (128,16) backdrop guard family. Add only those two conditions/rules, reusing the exact ruin panorama parameters and room guard. No tile artwork or neighbor probes change.

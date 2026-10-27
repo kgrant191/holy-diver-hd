@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Approved 0.20.5; merge authorized on 2026-10-27.** The complete Golden Temple continuation and subsequent cleanup/repair stack is accepted. All 119 delivered pack files remain frozen. GitHub main is still 0.15.0 pending the source-bundle push, PR checks and authorized merges. See [adoption handoff](docs/LEVEL4_ADOPTION.md). Earlier review labels below retain their historical context.
+
 **Background continuity — 0.20.5 review.** Completes the Poison Moss lava-corridor background checks so scenery remains visible as the camera scrolls. All approved 0.20.4 artwork remains exact. [Changes and verification](docs/BACKGROUND_CONTINUITY.md).
 
 **Wall-boss entrance repair — 0.20.4 review.** Reuses the finished normal/gold boss artwork for three missing entrance palette phases. All approved 0.20.3 assets remain exact. [Changes and verification](docs/BOSS_ENTRY_REPAIR.md).
