@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.20.4
+
+The user approved the delivered 0.20.4 wall-boss entrance repair on 2026-10-27, then supplied a separate movie showing background dropouts. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/boss_entry_repair/approval.json.
+
 ## Current repair — wall-boss entrance 0.20.4
 
 - The supplied movie proves three missing Level 2 entrance palettes in 8F7D/mode 08: 0F271027 and 0F271006 reuse the approved gold boss; 0F020627 reuses the approved normal boss. Cover every one of the 129 wall identities for each palette.
