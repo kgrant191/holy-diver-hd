@@ -152,3 +152,9 @@ Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-fra
 - `Holy_Diver_HD(10).mmo`: 3,742 native controller frames, SHA-256 `1471dc70fcec4db7b8ad724b0125a5c70e584f31f2e8f4cc7e84be64d7a0b012`. Starts paused in the boss room; reaches defeat, Thunder acquisition, AFE5 travel and Level5 arrival.
 - Regression movies6/7/8 remain unchanged (8,668 / 4,386 / 3,632 frames). Their existing hashes are retained in `evidence/level4_transition/movie6.json` through `movie8.json`.
 - Inputs and ROM bytes remain outside Git. Replay uses stock MesenCE2.2.1 with read-only synchronized capture/bounds observers. No RAM edits.
+
+## Chapel branches and handled potion (0.20.3)
+
+- `Holy_Diver_HD(20261027-171648).mmo`:1079 frames, SHA-256 `c5118bcc85b5b2867527fa5117e6ea101b55a0ada7d7126aaf0244f579fce663`. Room84C2 tree traversal; supplied unchanged.
+- Screenshot `Screenshot 2026-10-27 at 1.11.35 PM.png` identifies the handled health jug against the crimson cave. It is not a save/movie.
+- Cave regression wraps the unchanged20261024-155045 state (hash recorded above) and controller-only input;1800 frames. Resulting movie SHA-256 `5048ddbd8cb69a234b1f2df271ea8017b3bb1f3f95f924d9beb0cda02eb1d7f4`. It does not show the jug. Inputs remain outside Git.

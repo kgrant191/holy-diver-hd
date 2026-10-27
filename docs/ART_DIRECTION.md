@@ -1,5 +1,9 @@
 # Art direction
 
+## Branch joins and visible health jug — 0.20.3
+
+Join branches with their original carved/knotted wood shoulders inside adjacent trunk cells; preserve the existing branch platforms. Retain the round ruby-red handled health jug, but use brighter ivory reflections and pale gold fittings to separate it from red crystals. Keep the same native footprint and transparent handle opening.
+
 ## All temple stairs and Thunder — 0.20.2
 
 Both physical stair directions need continuous undersides throughout the Golden Temple. Preserve the accepted gold RGB and upper-half landing surfaces; smooth the opposite 82,83 / 84,85 native layout as the mirror-direction counterpart of the accepted descending contour. Keep decorative wall/window copies cleared. Thunder uses a compact royal-violet tome with antique-gold fittings and a bright ivory/blue lightning rune. The tower retains its existing hit artwork through native brightness fades; the travel dragon retains its exact finished silhouette in the native white flash. Reuse earlier impact and intermission art.

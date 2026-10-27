@@ -1,9 +1,8 @@
-HOLY DIVER HD 0.20.2 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.20.3 — DEVELOPMENT REVIEW CANDIDATE
 
-Smooths both Golden Temple stair directions throughout their room mappings.
-Adds the Thunder tome and announcement. Keeps the finished tower and dragon
-artwork through the boss defeat fade and the following flight's white flash.
-Preserves the repaired boss doorway, backgrounds and earlier artwork.
+Joins the chapel tree's branches into the trunk using its original artwork.
+Brightens the handled red health potion with pale rims and glass highlights.
+Preserves the approved 0.20.2 scenery, stairs, actors and transitions.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

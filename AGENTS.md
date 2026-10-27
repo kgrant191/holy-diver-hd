@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current cleanup — 0.20.3
+
+- Branch joins are chapel84C2/mode04, not the Level3 tree. Preserve native0122/0123/014D/014E and015B–015E branch strips and standing edges; only their adjacent trunk shoulders change. Use the original whole-tree source and bounded native-neighbor context.
+- The potion is the handled four-cell health jug, not the two-cell HP flask. Reuse its five proven native groups with FF301116. Preserve its32×32 footprint; brighter ivory/gold edges keep the red health identity.
+- The supplied1079-frame movie verifies both branch sides. The1800-frame cave regression does not contain the jug. Do not claim live potion/collection coverage or present the labeled artwork panel as gameplay. No RAM edits.
+- Preserve all116 prior art/audio/patch assets and exact recoverable0.20.2 mappings. Main stays0.15.0;0.20.2 is the approved continuation. No push, PR, merge or release is authorized.
+
 ## Approved continuation — 0.20.2
 
 The user approved the delivered0.20.2 pack on2026-10-27 and requested separate branch/potion cleanup. Preserve all118 frozen installation files during approval bookkeeping. Main stays approved0.15.0; no push, PR, merge or release is authorized. See evidence/level4_transition/approval.json.

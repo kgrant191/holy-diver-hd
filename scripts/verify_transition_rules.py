@@ -11,10 +11,10 @@ def strip(text):
         assert n==1
     return text
 
-def verify(root,pack):
-    text=(pack/'hires.txt').read_text();reg=json.loads((root/'art/level4_transition/registration.json').read_text())
+def verify(root,pack,content=None,inventory=None):
+    text=(pack/'hires.txt').read_text() if content is None else content;reg=json.loads((root/'art/level4_transition/registration.json').read_text())
     prior=json.loads((root/'evidence/0.20.1-pack-sha256.json').read_text())
-    assert {p.name for p in pack.iterdir()if p.is_file()}==set(prior)|ADDED
+    assert (inventory if inventory is not None else {p.name for p in pack.iterdir()if p.is_file()})==set(prior)|ADDED
     for name,digest in prior.items():
         if name not in {'hires.txt','README.txt'}:assert hashlib.sha256((pack/name).read_bytes()).hexdigest()==digest,name
     old=strip(text);assert hashlib.sha256(old.encode()).hexdigest()==prior['hires.txt']

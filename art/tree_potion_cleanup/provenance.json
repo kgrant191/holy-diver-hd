@@ -1,0 +1,9 @@
+{
+  "potion_tool": "image_gen.imagegen (built-in)",
+  "potion_prompt": "Use case: precise-object-edit. Asset type: tiny pickup sprite for an existing Gothic NES HD pack. Input image is the edit target: the accepted round ruby-red health potion jug with a handle on the right and antique gold fittings. Preserve that exact round bottle concept, proportions, silhouette, frontal orientation, single right handle, top stopper and transparent background. Improve readability at a final 30 by 30 pixel size against a saturated red crystal cavern and gold stone: add a clean narrow pale ivory highlight rim around the bottle silhouette, substantially brighten the brass neck, stopper, handle and base toward pale gold/ivory, add a broad crisp ivory glass reflection on the upper-left shoulder and a few restrained bright reflective lines, keep the central liquid recognizably ruby red. Maintain a dark navy outer edge immediately outside the pale rim for separation on bright terrain. Bold simple readable shading, painted pixel-art style matching the existing image. No particles, no halo outside the object, no aura, no text, no labels, no floor or ground shadow. One complete centered jug with clear transparent margins. The final object must read as a bright red health collectible, never orange scenery.",
+  "potion_reference": "art/generated/screen2_5_health_jug_generated.png",
+  "potion_source": "art/generated/cleanup_health_jug_generated.png",
+  "transparent_background": true,
+  "tree_source": "art/layers/20_tree_and_branches.png",
+  "tree_method": "Deterministic registration of the existing whole-tree branch shoulders into adjacent trunk tiles; original branch strips unchanged."
+}

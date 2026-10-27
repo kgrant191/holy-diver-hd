@@ -1,0 +1,1267 @@
+{
+  "tile_rules": 68,
+  "conditions": 147,
+  "atlas_cells": 51,
+  "mappings": [
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft013F_0X&cleanupJoinleft013F_0Y&cleanupJoinleft013F_0]<tile>56,013F,0F071737,0,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "013F",
+      "palette": "0F071737",
+      "xy": [
+        0,
+        0
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 0,
+      "source_xy": [
+        208,
+        16
+      ],
+      "probe": [
+        -8,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft013F_1X&cleanupJoinleft013F_1Y&cleanupJoinleft013F_1]<tile>56,013F,0F071737,16,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "013F",
+      "palette": "0F071737",
+      "xy": [
+        16,
+        0
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 0,
+      "source_xy": [
+        208,
+        16
+      ],
+      "probe": [
+        -8,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft013F_2X&cleanupJoinleft013F_2Y&cleanupJoinleft013F_2]<tile>56,013F,0F071737,32,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "013F",
+      "palette": "0F071737",
+      "xy": [
+        32,
+        0
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 0,
+      "source_xy": [
+        208,
+        16
+      ],
+      "probe": [
+        -8,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0140_0X&cleanupJoinleft0140_0Y&cleanupJoinleft0140_0]<tile>56,0140,0F071737,48,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0140",
+      "palette": "0F071737",
+      "xy": [
+        48,
+        0
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 1,
+      "source_xy": [
+        224,
+        16
+      ],
+      "probe": [
+        -16,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0140_1X&cleanupJoinleft0140_1Y&cleanupJoinleft0140_1]<tile>56,0140,0F071737,64,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0140",
+      "palette": "0F071737",
+      "xy": [
+        64,
+        0
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 1,
+      "source_xy": [
+        224,
+        16
+      ],
+      "probe": [
+        -16,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0140_2X&cleanupJoinleft0140_2Y&cleanupJoinleft0140_2]<tile>56,0140,0F071737,80,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0140",
+      "palette": "0F071737",
+      "xy": [
+        80,
+        0
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 1,
+      "source_xy": [
+        224,
+        16
+      ],
+      "probe": [
+        -16,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0141_0X&cleanupJoinleft0141_0Y&cleanupJoinleft0141_0]<tile>56,0141,0F071737,96,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0141",
+      "palette": "0F071737",
+      "xy": [
+        96,
+        0
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 0,
+      "source_xy": [
+        16,
+        32
+      ],
+      "probe": [
+        -8,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0141_1X&cleanupJoinleft0141_1Y&cleanupJoinleft0141_1]<tile>56,0141,0F071737,112,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0141",
+      "palette": "0F071737",
+      "xy": [
+        112,
+        0
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 0,
+      "source_xy": [
+        16,
+        32
+      ],
+      "probe": [
+        -8,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0141_2X&cleanupJoinleft0141_2Y&cleanupJoinleft0141_2]<tile>56,0141,0F071737,128,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0141",
+      "palette": "0F071737",
+      "xy": [
+        128,
+        0
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 0,
+      "source_xy": [
+        16,
+        32
+      ],
+      "probe": [
+        -8,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0142_0X&cleanupJoinleft0142_0Y&cleanupJoinleft0142_0]<tile>56,0142,0F071737,144,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0142",
+      "palette": "0F071737",
+      "xy": [
+        144,
+        0
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 1,
+      "source_xy": [
+        32,
+        32
+      ],
+      "probe": [
+        -16,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0142_1X&cleanupJoinleft0142_1Y&cleanupJoinleft0142_1]<tile>56,0142,0F071737,160,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0142",
+      "palette": "0F071737",
+      "xy": [
+        160,
+        0
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 1,
+      "source_xy": [
+        32,
+        32
+      ],
+      "probe": [
+        -16,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0142_2X&cleanupJoinleft0142_2Y&cleanupJoinleft0142_2]<tile>56,0142,0F071737,176,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0142",
+      "palette": "0F071737",
+      "xy": [
+        176,
+        0
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 1,
+      "source_xy": [
+        32,
+        32
+      ],
+      "probe": [
+        -16,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0143_0X&cleanupJoinleft0143_0Y&cleanupJoinleft0143_0]<tile>56,0143,0F071737,192,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0143",
+      "palette": "0F071737",
+      "xy": [
+        192,
+        0
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 0,
+      "source_xy": [
+        80,
+        32
+      ],
+      "probe": [
+        -8,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0143_1X&cleanupJoinleft0143_1Y&cleanupJoinleft0143_1]<tile>56,0143,0F071737,112,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0143",
+      "palette": "0F071737",
+      "xy": [
+        112,
+        0
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 0,
+      "source_xy": [
+        80,
+        32
+      ],
+      "probe": [
+        -8,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0143_2X&cleanupJoinleft0143_2Y&cleanupJoinleft0143_2]<tile>56,0143,0F071737,208,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0143",
+      "palette": "0F071737",
+      "xy": [
+        208,
+        0
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 0,
+      "source_xy": [
+        80,
+        32
+      ],
+      "probe": [
+        -8,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0144_0X&cleanupJoinleft0144_0Y&cleanupJoinleft0144_0]<tile>56,0144,0F071737,224,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0144",
+      "palette": "0F071737",
+      "xy": [
+        224,
+        0
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 1,
+      "source_xy": [
+        96,
+        32
+      ],
+      "probe": [
+        -16,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0144_1X&cleanupJoinleft0144_1Y&cleanupJoinleft0144_1]<tile>56,0144,0F071737,240,0,1,N",
+      "kind": "branch shoulder",
+      "tile": "0144",
+      "palette": "0F071737",
+      "xy": [
+        240,
+        0
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 1,
+      "source_xy": [
+        96,
+        32
+      ],
+      "probe": [
+        -16,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0144_2X&cleanupJoinleft0144_2Y&cleanupJoinleft0144_2]<tile>56,0144,0F071737,0,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0144",
+      "palette": "0F071737",
+      "xy": [
+        0,
+        16
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 1,
+      "source_xy": [
+        96,
+        32
+      ],
+      "probe": [
+        -16,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft014F_0X&cleanupJoinleft014F_0Y&cleanupJoinleft014F_0]<tile>56,014F,0F071737,16,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "014F",
+      "palette": "0F071737",
+      "xy": [
+        16,
+        16
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 0,
+      "source_xy": [
+        144,
+        32
+      ],
+      "probe": [
+        -8,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft014F_1X&cleanupJoinleft014F_1Y&cleanupJoinleft014F_1]<tile>56,014F,0F071737,32,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "014F",
+      "palette": "0F071737",
+      "xy": [
+        32,
+        16
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 0,
+      "source_xy": [
+        144,
+        32
+      ],
+      "probe": [
+        -8,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft014F_2X&cleanupJoinleft014F_2Y&cleanupJoinleft014F_2]<tile>56,014F,0F071737,48,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "014F",
+      "palette": "0F071737",
+      "xy": [
+        48,
+        16
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 0,
+      "source_xy": [
+        144,
+        32
+      ],
+      "probe": [
+        -8,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0150_0X&cleanupJoinleft0150_0Y&cleanupJoinleft0150_0]<tile>56,0150,0F071737,64,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0150",
+      "palette": "0F071737",
+      "xy": [
+        64,
+        16
+      ],
+      "side": "left",
+      "relative_row": -1,
+      "column": 1,
+      "source_xy": [
+        160,
+        32
+      ],
+      "probe": [
+        -16,
+        8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0150_1X&cleanupJoinleft0150_1Y&cleanupJoinleft0150_1]<tile>56,0150,0F071737,80,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0150",
+      "palette": "0F071737",
+      "xy": [
+        80,
+        16
+      ],
+      "side": "left",
+      "relative_row": 0,
+      "column": 1,
+      "source_xy": [
+        160,
+        32
+      ],
+      "probe": [
+        -16,
+        0,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinleft0150_2X&cleanupJoinleft0150_2Y&cleanupJoinleft0150_2]<tile>56,0150,0F071737,96,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0150",
+      "palette": "0F071737",
+      "xy": [
+        96,
+        16
+      ],
+      "side": "left",
+      "relative_row": 1,
+      "column": 1,
+      "source_xy": [
+        160,
+        32
+      ],
+      "probe": [
+        -16,
+        -8,
+        "014E"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0147_0X&cleanupJoinright0147_0Y&cleanupJoinright0147_0]<tile>56,0147,0F071737,112,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0147",
+      "palette": "0F071737",
+      "xy": [
+        112,
+        16
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 2,
+      "source_xy": [
+        240,
+        16
+      ],
+      "probe": [
+        16,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0147_1X&cleanupJoinright0147_1Y&cleanupJoinright0147_1]<tile>56,0147,0F071737,128,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0147",
+      "palette": "0F071737",
+      "xy": [
+        128,
+        16
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 2,
+      "source_xy": [
+        240,
+        16
+      ],
+      "probe": [
+        16,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0147_2X&cleanupJoinright0147_2Y&cleanupJoinright0147_2]<tile>56,0147,0F071737,144,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0147",
+      "palette": "0F071737",
+      "xy": [
+        144,
+        16
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 2,
+      "source_xy": [
+        240,
+        16
+      ],
+      "probe": [
+        16,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0148_0X&cleanupJoinright0148_0Y&cleanupJoinright0148_0]<tile>56,0148,0F071737,160,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0148",
+      "palette": "0F071737",
+      "xy": [
+        160,
+        16
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 3,
+      "source_xy": [
+        0,
+        32
+      ],
+      "probe": [
+        8,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0148_1X&cleanupJoinright0148_1Y&cleanupJoinright0148_1]<tile>56,0148,0F071737,176,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0148",
+      "palette": "0F071737",
+      "xy": [
+        176,
+        16
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 3,
+      "source_xy": [
+        0,
+        32
+      ],
+      "probe": [
+        8,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0148_2X&cleanupJoinright0148_2Y&cleanupJoinright0148_2]<tile>56,0148,0F071737,192,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0148",
+      "palette": "0F071737",
+      "xy": [
+        192,
+        16
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 3,
+      "source_xy": [
+        0,
+        32
+      ],
+      "probe": [
+        8,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0149_0X&cleanupJoinright0149_0Y&cleanupJoinright0149_0]<tile>56,0149,0F071737,208,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0149",
+      "palette": "0F071737",
+      "xy": [
+        208,
+        16
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 2,
+      "source_xy": [
+        48,
+        32
+      ],
+      "probe": [
+        16,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0149_1X&cleanupJoinright0149_1Y&cleanupJoinright0149_1]<tile>56,0149,0F071737,224,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0149",
+      "palette": "0F071737",
+      "xy": [
+        224,
+        16
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 2,
+      "source_xy": [
+        48,
+        32
+      ],
+      "probe": [
+        16,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0149_2X&cleanupJoinright0149_2Y&cleanupJoinright0149_2]<tile>56,0149,0F071737,240,16,1,N",
+      "kind": "branch shoulder",
+      "tile": "0149",
+      "palette": "0F071737",
+      "xy": [
+        240,
+        16
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 2,
+      "source_xy": [
+        48,
+        32
+      ],
+      "probe": [
+        16,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014A_0X&cleanupJoinright014A_0Y&cleanupJoinright014A_0]<tile>56,014A,0F071737,0,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014A",
+      "palette": "0F071737",
+      "xy": [
+        0,
+        32
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 3,
+      "source_xy": [
+        64,
+        32
+      ],
+      "probe": [
+        8,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014A_1X&cleanupJoinright014A_1Y&cleanupJoinright014A_1]<tile>56,014A,0F071737,16,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014A",
+      "palette": "0F071737",
+      "xy": [
+        16,
+        32
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 3,
+      "source_xy": [
+        64,
+        32
+      ],
+      "probe": [
+        8,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014A_2X&cleanupJoinright014A_2Y&cleanupJoinright014A_2]<tile>56,014A,0F071737,32,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014A",
+      "palette": "0F071737",
+      "xy": [
+        32,
+        32
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 3,
+      "source_xy": [
+        64,
+        32
+      ],
+      "probe": [
+        8,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014B_0X&cleanupJoinright014B_0Y&cleanupJoinright014B_0]<tile>56,014B,0F071737,48,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014B",
+      "palette": "0F071737",
+      "xy": [
+        48,
+        32
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 2,
+      "source_xy": [
+        112,
+        32
+      ],
+      "probe": [
+        16,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014B_1X&cleanupJoinright014B_1Y&cleanupJoinright014B_1]<tile>56,014B,0F071737,64,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014B",
+      "palette": "0F071737",
+      "xy": [
+        64,
+        32
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 2,
+      "source_xy": [
+        112,
+        32
+      ],
+      "probe": [
+        16,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014B_2X&cleanupJoinright014B_2Y&cleanupJoinright014B_2]<tile>56,014B,0F071737,80,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014B",
+      "palette": "0F071737",
+      "xy": [
+        80,
+        32
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 2,
+      "source_xy": [
+        112,
+        32
+      ],
+      "probe": [
+        16,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014C_0X&cleanupJoinright014C_0Y&cleanupJoinright014C_0]<tile>56,014C,0F071737,96,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014C",
+      "palette": "0F071737",
+      "xy": [
+        96,
+        32
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 3,
+      "source_xy": [
+        128,
+        32
+      ],
+      "probe": [
+        8,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014C_1X&cleanupJoinright014C_1Y&cleanupJoinright014C_1]<tile>56,014C,0F071737,112,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014C",
+      "palette": "0F071737",
+      "xy": [
+        112,
+        32
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 3,
+      "source_xy": [
+        128,
+        32
+      ],
+      "probe": [
+        8,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright014C_2X&cleanupJoinright014C_2Y&cleanupJoinright014C_2]<tile>56,014C,0F071737,128,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "014C",
+      "palette": "0F071737",
+      "xy": [
+        128,
+        32
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 3,
+      "source_xy": [
+        128,
+        32
+      ],
+      "probe": [
+        8,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0151_0X&cleanupJoinright0151_0Y&cleanupJoinright0151_0]<tile>56,0151,0F071737,144,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "0151",
+      "palette": "0F071737",
+      "xy": [
+        144,
+        32
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 2,
+      "source_xy": [
+        176,
+        32
+      ],
+      "probe": [
+        16,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0151_1X&cleanupJoinright0151_1Y&cleanupJoinright0151_1]<tile>56,0151,0F071737,160,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "0151",
+      "palette": "0F071737",
+      "xy": [
+        160,
+        32
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 2,
+      "source_xy": [
+        176,
+        32
+      ],
+      "probe": [
+        16,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0151_2X&cleanupJoinright0151_2Y&cleanupJoinright0151_2]<tile>56,0151,0F071737,176,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "0151",
+      "palette": "0F071737",
+      "xy": [
+        176,
+        32
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 2,
+      "source_xy": [
+        176,
+        32
+      ],
+      "probe": [
+        16,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0152_0X&cleanupJoinright0152_0Y&cleanupJoinright0152_0]<tile>56,0152,0F071737,192,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "0152",
+      "palette": "0F071737",
+      "xy": [
+        192,
+        32
+      ],
+      "side": "right",
+      "relative_row": -1,
+      "column": 3,
+      "source_xy": [
+        192,
+        32
+      ],
+      "probe": [
+        8,
+        8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0152_1X&cleanupJoinright0152_1Y&cleanupJoinright0152_1]<tile>56,0152,0F071737,208,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "0152",
+      "palette": "0F071737",
+      "xy": [
+        208,
+        32
+      ],
+      "side": "right",
+      "relative_row": 0,
+      "column": 3,
+      "source_xy": [
+        192,
+        32
+      ],
+      "probe": [
+        8,
+        0,
+        "015B"
+      ]
+    },
+    {
+      "rule": "[cleanupTreeMode&cleanupTreeLo&cleanupTreeHi&cleanupJoinright0152_2X&cleanupJoinright0152_2Y&cleanupJoinright0152_2]<tile>56,0152,0F071737,224,32,1,N",
+      "kind": "branch shoulder",
+      "tile": "0152",
+      "palette": "0F071737",
+      "xy": [
+        224,
+        32
+      ],
+      "side": "right",
+      "relative_row": 1,
+      "column": 3,
+      "source_xy": [
+        192,
+        32
+      ],
+      "probe": [
+        8,
+        -8,
+        "015B"
+      ]
+    },
+    {
+      "rule": "<tile>56,0276,FF301116,240,32,1,N",
+      "kind": "readable health jug",
+      "tile": "0276",
+      "palette": "FF301116",
+      "xy": [
+        240,
+        32
+      ]
+    },
+    {
+      "rule": "<tile>56,0277,FF301116,0,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0277",
+      "palette": "FF301116",
+      "xy": [
+        0,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0278,FF301116,16,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0278",
+      "palette": "FF301116",
+      "xy": [
+        16,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0279,FF301116,32,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0279",
+      "palette": "FF301116",
+      "xy": [
+        32,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,068E,FF301116,240,32,1,N",
+      "kind": "readable health jug",
+      "tile": "068E",
+      "palette": "FF301116",
+      "xy": [
+        240,
+        32
+      ]
+    },
+    {
+      "rule": "<tile>56,068F,FF301116,0,48,1,N",
+      "kind": "readable health jug",
+      "tile": "068F",
+      "palette": "FF301116",
+      "xy": [
+        0,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0690,FF301116,16,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0690",
+      "palette": "FF301116",
+      "xy": [
+        16,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0691,FF301116,32,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0691",
+      "palette": "FF301116",
+      "xy": [
+        32,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0A8E,FF301116,240,32,1,N",
+      "kind": "readable health jug",
+      "tile": "0A8E",
+      "palette": "FF301116",
+      "xy": [
+        240,
+        32
+      ]
+    },
+    {
+      "rule": "<tile>56,0A8F,FF301116,0,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0A8F",
+      "palette": "FF301116",
+      "xy": [
+        0,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0A90,FF301116,16,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0A90",
+      "palette": "FF301116",
+      "xy": [
+        16,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0A91,FF301116,32,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0A91",
+      "palette": "FF301116",
+      "xy": [
+        32,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0C8E,FF301116,240,32,1,N",
+      "kind": "readable health jug",
+      "tile": "0C8E",
+      "palette": "FF301116",
+      "xy": [
+        240,
+        32
+      ]
+    },
+    {
+      "rule": "<tile>56,0C8F,FF301116,0,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0C8F",
+      "palette": "FF301116",
+      "xy": [
+        0,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0C90,FF301116,16,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0C90",
+      "palette": "FF301116",
+      "xy": [
+        16,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,0C91,FF301116,32,48,1,N",
+      "kind": "readable health jug",
+      "tile": "0C91",
+      "palette": "FF301116",
+      "xy": [
+        32,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,129A,FF301116,240,32,1,N",
+      "kind": "readable health jug",
+      "tile": "129A",
+      "palette": "FF301116",
+      "xy": [
+        240,
+        32
+      ]
+    },
+    {
+      "rule": "<tile>56,129B,FF301116,0,48,1,N",
+      "kind": "readable health jug",
+      "tile": "129B",
+      "palette": "FF301116",
+      "xy": [
+        0,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,129C,FF301116,16,48,1,N",
+      "kind": "readable health jug",
+      "tile": "129C",
+      "palette": "FF301116",
+      "xy": [
+        16,
+        48
+      ]
+    },
+    {
+      "rule": "<tile>56,129D,FF301116,32,48,1,N",
+      "kind": "readable health jug",
+      "tile": "129D",
+      "palette": "FF301116",
+      "xy": [
+        32,
+        48
+      ]
+    }
+  ],
+  "tree_scope": "84C2/mode04",
+  "branch_strips_unchanged": true,
+  "prior_assets_modified": false,
+  "native_gameplay_modified": false
+}

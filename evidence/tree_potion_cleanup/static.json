@@ -1,0 +1,15 @@
+{
+  "tile_rules": 68,
+  "conditions": 147,
+  "prior_assets_exact": 116,
+  "exact_previous_mapping_recovery": true,
+  "branch_strips_and_standing_edges_exact": true,
+  "neighbor_rules": 48,
+  "bounded_probe_positions": 2748416,
+  "unsafe_reads": 0,
+  "jug_alias_groups": 5,
+  "jug_footprint": [
+    32,
+    32
+  ]
+}

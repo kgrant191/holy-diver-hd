@@ -1,0 +1,16 @@
+{
+  "version": "0.20.3",
+  "files": 119,
+  "atlases": 57,
+  "all_install_hashes_exact": true,
+  "flat_zip_crc_payload_exact": true,
+  "native_frames_per_build": 2879,
+  "native_samples_per_type": 2879,
+  "native_state_apu_full_pcm_exact": true,
+  "prior_assets_exact": 116,
+  "branch_runtime_verified": true,
+  "jug_runtime_observed": false,
+  "jug_checks": "Static native identities, footprint/alpha and artwork visibility only; not collection evidence.",
+  "main_unchanged": "2f38abeb06cd1093fc33416da20c5124fca2f4d7",
+  "publication_performed": false
+}

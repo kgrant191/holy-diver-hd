@@ -1,0 +1,19 @@
+{
+  "movie_frames": 1079,
+  "native_samples_per_type": 1079,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 3453244,
+  "pcm_sha256": "847a7ffe9cd9679848efa022e6b91dd04168c51f873b93458ccc28d623d0f7fb",
+  "movie_sha256": "c5118bcc85b5b2867527fa5117e6ea101b55a0ada7d7126aaf0244f579fce663",
+  "image_checks": {
+    "empty_initial": 1,
+    "changed": 1078
+  },
+  "changed_rooms": {
+    "84C2": 1078
+  },
+  "changed_pixels": 7850296,
+  "changes_confined_to_branch_shoulders_and_jug": true
+}
