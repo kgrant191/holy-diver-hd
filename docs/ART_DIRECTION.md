@@ -178,3 +178,7 @@ Fish artwork remains exact. Cancel horizontal equilibrium dithering independentl
 ## Demonic Palace opening
 
 Dark navy/plum Gothic cavern arches, pale olive-gray limestone, crimson spiral columns with ivory caps, and distant cathedral vaults. Keep physical foreground edges readable against the darker panorama. Floating enemies are humanoid skeletons with connected skull/rib/arm joints; jade rocks roll through native phases. The pale jade/ivory serpent uses an independent head and body beads. Thunder uses white cores with violet/cobalt edges in the original staggered bolt footprint. Reuse accepted player, dragon, lava/ice and item sources. Exact prompts and registration are in art/generated/palace_prompts.json and art/level5/.
+
+### Palace ceiling refinement
+
+Use muted forest/olive-green wet slime on the cavern ceiling, distinct from the existing gray-olive rocky floor. Keep native ceiling contours. Source registration uses complete two-by-two ceiling motifs. Preserve the existing cathedral panoramas, crimson columns and finished serpent.

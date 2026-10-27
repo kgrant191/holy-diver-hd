@@ -1,5 +1,8 @@
 # Holy Diver HD
 
+**Demonic Palace repair — 0.21.1 review.** Gives the cavern ceiling subdued green slime, keeps the interior background visible through the stair climb, restores the HD serpent in its alternate palette, and fills stair-art gaps exposed by the restored scenery. Covers the next hall's entrance. [Changes and tests](docs/LEVEL5_REPAIR.md). Main remains approved 0.20.5.
+
+
 **Demonic Palace opening — 0.21.0 review.** Adds the recorded lava cavern and crimson-column halls, skeletons, jade boulders, segmented serpent and Thunder effects. Restores the missing H in THUNDER. Approved art and gameplay remain intact. [Scope and verification](docs/LEVEL5_DEMONIC_PALACE.md). Main remains approved 0.20.5.
 
 

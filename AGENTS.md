@@ -1,5 +1,14 @@
 # Holy Diver HD working instructions
 
+## Current repair — Demonic Palace 0.21.1
+
+- The user requests a subdued green slime ceiling and reports missing ascent backgrounds and native serpent sprites. Work continues on feature/demonic-palace from the unapproved 0.21.0 candidate; approved main stays 0.20.5.
+- Ceiling art changes only 1101–04/111D–20 in cavern 850A, plus 1300 copies; keep exact masks/conditions. Preserve the floor. Register whole 32×32 ceiling groups, not a vertically squeezed strip.
+- Room 8816 background guards must cover the climb. FF110130 serpent copies reuse the exact completed 10DB–E7 head/body source. Room 888E coverage is its entrance only.
+- Old stair material included transparent padding. New overrides fill only that padding from the same source's stone face; preserve original opaque RGB and native masks. Native transition blackouts remain black.
+- Preserve all 120 previous art/audio/patch files and exact recoverable 0.21.0 mappings. Keep every historical validator through the exact baseline projection. See docs/LEVEL5_REPAIR.md and evidence/level5_repair/. No publication or merge authorized.
+
+
 ## Current review — Demonic Palace opening 0.21.0
 
 - Start from approved 0.20.5; work on feature/demonic-palace. Preserve 117 prior art/audio/patch assets and recover exact baseline mappings by stripping DEMONIC_PALACE blocks. Main remains approved 0.20.5.

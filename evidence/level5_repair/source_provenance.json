@@ -1,0 +1,12 @@
+{
+  "generator": "image_gen.imagegen",
+  "source": "art/generated/palace_slime.png",
+  "sha256": "640a4dfd69d0fca52e55b2835693a7bb2d3c1bda431418b82a6f1b0cf8cc42f3",
+  "prompt_file": "art/generated/palace_slime_prompt.json",
+  "registration": "64x64 quantization, central 32x32 material registered to two-by-two native ceiling groups; exact previous alpha",
+  "invariants": [
+    "cavern floor unchanged",
+    "all previous 120 art/audio/patch files exact",
+    "existing stair masks and opaque tread pixels exact"
+  ]
+}

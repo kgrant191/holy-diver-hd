@@ -1,9 +1,9 @@
-HOLY DIVER HD 0.21.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.21.1 — DEVELOPMENT REVIEW CANDIDATE
 
-Adds the recorded opening of Level 5, Demonic Palace: lava cavern, crimson
-column chambers, skeletons, jade boulders and the segmented serpent. Reuses
-approved lava/ice, player, HUD and dragon art. Adds native Thunder effects
-and restores the missing H in THUNDER on the Start/pause menu.
+Adds a subdued green slime texture to the Demonic Palace cavern ceiling.
+Keeps the existing interior background visible through the stair climb,
+restores the HD serpent in its alternate palette, and extends the matching
+stonework/scenery to the next recorded hall entrance.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

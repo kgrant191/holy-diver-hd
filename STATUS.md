@@ -1,5 +1,10 @@
 # Current status
 
+## Current repair — Demonic Palace 0.21.1 review
+
+The user's ceiling/background/enemy feedback revises the 0.21.0 candidate on feature/demonic-palace. The cavern ceiling is subdued green slime; the rocky floor stays exact. Room 8816 keeps the existing interior panorama throughout ascent and reuses the finished serpent in its alternate palette. Stone padding gaps are filled from the existing tread source without changing masks or existing opaque artwork. The new movie also covers only the entrance to 888E. All 120 earlier art/audio/patch files remain exact; main stays approved 0.20.5. The 1,215-frame climb and 9,921-frame opening replays preserve native state and full audio; all 605 nonblack climb samples retain the panorama. Build and all 123 archive hashes pass. See docs/LEVEL5_REPAIR.md. No publication/merge performed.
+
+
 ## Current review — Demonic Palace opening 0.21.0
 
 Work is on `feature/demonic-palace` from approved main 0.20.5. The supplied movie covers the lava cavern, crimson-column chambers, two Thunder casts and dragon transformation/flight, ending at the first stair-hall entry and pause menu. Adds new scenery/enemies/effects and fixes the missing H in THUNDER. All 117 earlier art/audio/patch assets and exact recoverable 0.20.5 mappings are preserved. Remaining Level 5 rooms/boss are outside this update. See docs/LEVEL5_DEMONIC_PALACE.md. Paired full-movie and controller-edge tests preserve native state and audio; all 2,855 nonempty prior-stage regression images stay exact. The 122-file build and full historical/new validation pass. No push, PR, merge or release has been performed.

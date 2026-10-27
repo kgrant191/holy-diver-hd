@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.21.1 — Demonic Palace ceiling/climb repair (review)
+
+- Replace cavern ceiling material with subdued green slime; preserve its outline and rocky floor.
+- Extend interior backdrop guards through the stair climb and reuse the completed serpent for its alternate palette.
+- Fill transparent-padding gaps in stair material using the existing stone face; preserve existing opaque tread pixels and geometry.
+- Extend matching scenery/stonework to the next recorded hall entrance. Keep all 120 prior art/audio/patch files exact.
+
+
 ## 0.21.0 — Demonic Palace opening (review)
 
 - Add the recorded Gothic lava cavern and crimson spiral-column halls, skeletons/bones, jade rolling rocks and independently segmented serpent.

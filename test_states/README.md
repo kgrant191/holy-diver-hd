@@ -172,3 +172,9 @@ Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-fra
 - User movie: `Holy_Diver_HD(20261027-212503).mmo`, SHA-256 `b87a147a8ec569edc72819b5dd9b567bd2f340f55d1e1bf457acbc0067a5e4bb`, 9,921 frames.
 - Local controller-only edge routes are reproduced with `scripts/make_level5_edge_routes.py`; embedded state bytes are unchanged. Input/state bytes remain ignored.
 - Prior-stage regression uses `Holy_Diver_HD(20261027-183338).mmo`, SHA-256 `5d45de08c3a9bf5bc72086363855f087557b593f695346122553b03208a18649`.
+
+## Demonic Palace climb repair
+
+- User movie `Holy_Diver_HD(20261027-221951).mmo`, SHA-256 `56f2511c877ab227b07f612b6eedc952db9bfec16d8df48c42a2e03a78212c51`, 1,215 frames. Room 8816 ascent and the 888E entrance.
+- Screenshot `Screenshot 2026-10-27 at 6.15.08 PM.png` identifies the requested cavern ceiling material change; not used as fabricated gameplay evidence.
+- Previous 9,921-frame opening movie verifies ceiling-only cavern changes, an unchanged floor, existing rooms/menus and native blackouts. No RAM edits.

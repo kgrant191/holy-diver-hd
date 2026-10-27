@@ -50,6 +50,7 @@ subprocess.run([sys.executable,str(r/'scripts/build_tree_potion_cleanup.py')],cw
 subprocess.run([sys.executable,str(r/'scripts/build_boss_entry_repair.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_background_continuity.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_level5.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_palace_repair.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'

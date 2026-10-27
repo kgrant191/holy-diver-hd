@@ -1,0 +1,30 @@
+{
+  "actual_gameplay": true,
+  "fps": 30,
+  "clips": [
+    {
+      "capture": "opening_final",
+      "first": 300,
+      "last": 900,
+      "label": "Muted green slime ceiling \u2022 Rocky floor preserved"
+    },
+    {
+      "capture": "final",
+      "first": 2,
+      "last": 700,
+      "label": "Stair climb \u2022 Continuous palace background"
+    },
+    {
+      "capture": "final",
+      "first": 700,
+      "last": 878,
+      "label": "The same serpent \u2022 Completed HD artwork"
+    },
+    {
+      "capture": "final",
+      "first": 878,
+      "last": 1214,
+      "label": "Native room transition \u2022 Next hall entrance"
+    }
+  ]
+}

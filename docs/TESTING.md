@@ -301,3 +301,7 @@ Pair the full 8,668-frame recording and 1,485-frame input-only edge route agains
 ## Demonic Palace 0.21.0
 
 Use the supplied 20261027-212503 movie for the complete recorded opening, both Thunder casts, dragon flight and the 8816 stair-hall entry. Capture stride 2 for full native comparisons, and stride 1 for the derived controller edge routes. Keep the original embedded state. The 20261027-183338 movie is a prior-stage regression. verify_level5_replay.py compares RAM/PPU/OAM/view, APU writes and complete PCM, checks native blackouts and the one-cell H repair, and finds whole registered actor/effect sources in actual captures. Source matches and visual contact sheets complement each other. validate_pack.py retains every historical validator through a byte-exact 0.20.5 projection.
+
+## Demonic Palace repair 0.21.1
+
+Pair the 20261027-221951 climb movie and the prior 20261027-212503 opening movie against 0.21.0, stride 2. Use verify_palace_repair_replay.py with --opening only for the earlier movie. Require byte-exact native/audio data, complete serpent source matches and panorama pixels in every nonblack climb capture. Native transition blackouts must remain exact. The opening comparison confines cavern differences to ceiling cells; all other room/menu images remain exact except the intended 8816 stair padding repair. Static checks preserve all 48 roof masks/conditions and 50 old stair masks/opaque RGB.
