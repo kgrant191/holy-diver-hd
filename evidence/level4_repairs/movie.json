@@ -1,0 +1,38 @@
+{
+  "movie_frames": 8668,
+  "native_samples_per_type": 2168,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 27698116,
+  "pcm_sha256": "ae449541f642034e4f4b9240542ca0497b0b0a0eb4db005a85e2b7b282a377ab",
+  "image_checks": {
+    "identical": 1780,
+    "native_black": 40,
+    "pickup_only": 388
+  },
+  "complete_pickup_source_matches": {
+    "magic": 44,
+    "heart": 48
+  },
+  "examples": {
+    "magic": {
+      "frame": 340,
+      "xy": [
+        362,
+        272
+      ]
+    },
+    "heart": {
+      "frame": 500,
+      "xy": [
+        326,
+        336
+      ]
+    }
+  },
+  "all_other_pixels_unchanged": true,
+  "oam_capture_margin_hd_pixels": 6,
+  "movie_sha256": "f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca",
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79"
+}

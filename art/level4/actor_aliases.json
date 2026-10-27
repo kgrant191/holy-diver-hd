@@ -1,0 +1,142 @@
+[
+  {
+    "source": "02A6",
+    "tile": "0AD0",
+    "pattern": "000040e8ddcbc9c9000040a8b5b6b6b6"
+  },
+  {
+    "source": "02A7",
+    "tile": "0AD1",
+    "pattern": "54fe7f3f07cf3f0f54aa433a05cbfdf8"
+  },
+  {
+    "source": "02A8",
+    "tile": "0AD2",
+    "pattern": "2a7ffefce0f3fcf02a55c25ca0d3bf1f"
+  },
+  {
+    "source": "02A9",
+    "tile": "0AD3",
+    "pattern": "00000217bbd3939300000215ad6d6d6d"
+  },
+  {
+    "source": "02AA",
+    "tile": "0AD4",
+    "pattern": "c9c96567371e0e04b6b65a5829120a04"
+  },
+  {
+    "source": "02AB",
+    "tile": "0AD5",
+    "pattern": "1f3f7ffc9a3e3f3ff0d3946b97272136"
+  },
+  {
+    "source": "02AC",
+    "tile": "0AD6",
+    "pattern": "f8fcfe3f597cfcfc0fcb29d6e9e4846c"
+  },
+  {
+    "source": "02AD",
+    "tile": "0AD7",
+    "pattern": "9393a6a6ec7870206d6d5a5a94485020"
+  },
+  {
+    "source": "02AE",
+    "tile": "0AD8",
+    "pattern": "4f8787868efc78007cfcfdfaf2847800"
+  },
+  {
+    "source": "02AF",
+    "tile": "0AD9",
+    "pattern": "f2e1e161713f1e003e3fbf5f4f211e00"
+  },
+  {
+    "source": "02B0",
+    "tile": "0ADA",
+    "pattern": "54fe7f3f47efdfcf54aa433a45abbdb8"
+  },
+  {
+    "source": "02B1",
+    "tile": "0ADB",
+    "pattern": "2a7ffefce2f7fbf32a55c25ca2d5bd1d"
+  },
+  {
+    "source": "02B2",
+    "tile": "0ADC",
+    "pattern": "dfdffffcfafeff7fb0b394abb7a7a176"
+  },
+  {
+    "source": "02B3",
+    "tile": "0ADD",
+    "pattern": "fbfbff3f5f7ffffe0dcd29d5ede5856e"
+  },
+  {
+    "source": "02B4",
+    "tile": "0ADE",
+    "pattern": "4f8787868efc78007cfcfdfaf2847800"
+  },
+  {
+    "source": "02B5",
+    "tile": "0ADF",
+    "pattern": "f2e1e161713f1e003e3fbf5f4f211e00"
+  },
+  {
+    "source": "02B6",
+    "tile": "0AE0",
+    "pattern": "60f0f66f3f7e783060909669394e4830"
+  },
+  {
+    "source": "06B6",
+    "tile": "0AEE",
+    "pattern": "0000000103147fad0000000001031052"
+  },
+  {
+    "source": "06B7",
+    "tile": "0AEF",
+    "pattern": "000000008098762300000000000098dc"
+  },
+  {
+    "source": "06B8",
+    "tile": "0AF0",
+    "pattern": "d0a8630c152b4b5d084000030b1d3d3f"
+  },
+  {
+    "source": "06B9",
+    "tile": "0AF1",
+    "pattern": "080480784452dab786020080b8bcbcf8"
+  },
+  {
+    "source": "06BA",
+    "tile": "0AF2",
+    "pattern": "0f112e5ebe9dbf7f000e132b477e4a22"
+  },
+  {
+    "source": "06BB",
+    "tile": "0AF3",
+    "pattern": "708caa75ed3b9ded007074eefefc721e"
+  },
+  {
+    "source": "06BC",
+    "tile": "0AF4",
+    "pattern": "251b2518000000000204180000000000"
+  },
+  {
+    "source": "06BD",
+    "tile": "0AF5",
+    "pattern": "b967bff5daf448307efa623a64083000"
+  },
+  {
+    "source": "06BE",
+    "tile": "0AF6",
+    "pattern": "b9457dbe5e2d2c7c7ffbc36139181838"
+  },
+  {
+    "source": "06BF",
+    "tile": "0AF7",
+    "pattern": "80808080c67ac4380000000080c43800"
+  },
+  {
+    "source": "0694",
+    "tile": "0A94",
+    "pattern": "3c7effffffff7e3c3c62c1a1c1ab563c"
+  }
+]

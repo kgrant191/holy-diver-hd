@@ -1,155 +1,25 @@
-Holy Diver HD 0.15.0 — Poison Moss Land finale review
+HOLY DIVER HD 0.16.3 — DEVELOPMENT REVIEW CANDIDATE
 
-Completes the two newly recorded screens: the final green climb and the boss arena. Reuses approved moss scenery and returning actors. Adds the pink boss head, thorny growths, curved shots, Overdrive orb and spell announcement. Restores shared HD Randy/HUD in the boss bank and next-stage arrival, and applies the existing Golden Temple stage card to its native palette.
+Restores the descending temple stairs that were incorrectly cleared as
+background decoration. Reuses the existing gold stone and native step shape.
+Preserves the temple-entry crash fix, HD item drops, backgrounds, pillars,
+other masonry and Overdrive fixes.
 
-Native movement, collision, combat, destruction, defeat flashes and audio remain unchanged. Approved 0.14.0 art and mappings are preserved. Stage 4 scenery remains unfinished. This is a review candidate; no merge or release is implied.
+Preserves approved artwork from earlier stages, native gameplay and audio.
+This is a partial HD overhaul. Later unrecorded areas remain work in progress.
+Version 1.0.0 is reserved for the completed, tested pack.
 
-Holy Diver HD 0.14.0 — Poison Moss Land visual review
-
-Gives the completed Level 3 rooms a distinct green identity: a misty moss forest, overgrown Gothic ruins, emerald masonry, moss-covered ledges and sage stone steps. All existing platform/ceiling contours, oak trunks/branches, enemies, fish corrections, lava/ice and native gameplay/audio are retained.
-
-This is a review build. The last recorded descent is only partly covered; subsequent rooms and the boss remain unfinished. Earlier levels retain their existing artwork.
-
-Holy Diver HD 0.13.0 — Level 3 caves and multi-fish motion review
-
-Adds the four connected cave areas reached in the new recording, including the vertical climb, lava/ice corridor and beginning of the bat descent. Reuses the approved cave, brown terrain, carved stone, lava/ice and returning enemies. Adds the green floating creature.
-
-Large fish now steady independently at their horizontal hover positions, including two fish moving in opposite phases. Native movement, vertical bob, fins, hit blinking, attacks, collision and audio are preserved. Partly clipped boundary sprites keep their original registration. This is a review build; later rooms and the boss remain unfinished.
-
-Holy Diver HD 0.12.1 — fish animation color consistency review
-
-Keeps the reviewed fish design. The small fish now shares colors between its animation poses, preventing stationary body details from shimmering. Large fish and native hit blinking are unchanged.
-
-Holy Diver HD 0.12.0 — Level 3 lava corridor review
-
-Adds the lava corridor, two fish poses and small fish forms. Reuses the approved cave, brown terrain, carved steps, lava/ice and boot art on the pause menu. Completes Breaker charge, release and travelling effects for horizontal and upward casts. Native gameplay and sound remain unchanged. Later Level 3 scenery and the boss remain unfinished.
-
-Holy Diver HD 0.11.2 — Level 3 detail review
-
-Updates the round enemy shot, magenta boot collectible and solid two-row oak branches. Keeps the spinning enemy, insect flyer and broad bark from the previous review. Native platform contours, gameplay and sound remain unchanged. Later Level 3 rooms and boss remain unfinished.
-
-Holy Diver HD 0.11.0 — Level 3 opening review build
-
-Adds the forest approach, tree climb, and stone shaft from the supplied Mesen movie. Later Level 3 scenery and its boss remain unfinished. Reuses approved Randy, HUD, eye/tears, ceiling bats, lava/ice and existing terrain materials. Native gameplay/audio unchanged.
-
-HOLY DIVER HD 0.10.2 — DEVELOPMENT REVIEW CANDIDATE
-Breaker pickup: retain HD Randy through the final three darkening steps.
-
-Reuses the exact approved Randy artwork, with native fade timing and poses.
-Preserves the complete approved 0.10.1 boss, cave, items and shared artwork.
-
-The gold defeat fade retains the HD boss through both darker palette steps.
-The defeated boss stays hidden during the Breaker pickup flash.
-
-Preserves the user-approved 0.9.0 artwork and shared Stage 2 mappings.
-The boss follows native hit/defeat palettes, and Breaker has a new tome and
-announcement. Native gameplay, controller timing and audio are unchanged.
-
-Known Stage 2 enemies, terrain, stairs, lava/ice and pickups use shared fallback
-mappings when their native tile IDs and palettes match. Room-specific artwork
-keeps priority. This cave reuses the red panorama and original brown ceiling.
-The new dragon has two walking poses and reuses the existing fireball artwork.
-
-Earlier included features:
-
-Restores the exact original brown ceiling artwork and full overhead silhouette,
-so head-bump boundaries and bat attachment points are visible.
-Keeps the red cave panorama, gold platforms and removal of foreground red rocks.
-Preserves the previously added opaque red/brass handled health jug.
-
-The user accepted the cut-stone stairs; their artwork remains byte-identical.
-
-Reuses the approved cave backdrop, gold terrain, winged demons, downward arrows,
-pulsing rock enemies, lava/ice, player, pickups and HUD. The earlier screen 2-4
-ceiling registration reuses its existing gold texture.
-Native collision, controller behavior, timing and audio remain unchanged.
-
-0.6.1 added the approved screen 3 vertical cave and blue tears.
-
-The floating eye now drops blue teardrops with rounded liquid bodies.
-
-Adds the floating eye and its shots; reuses the approved cave backdrop, gold
-platforms, ghouls, lava/ice, Randy and HUD. Preserves native vertical scrolling
-and platform geometry. Screen 2 remains the approved 0.5.1 artwork.
-
-Removes the reddish hanging decoration so the cave backdrop shows through.
-Hot lava falls flow downward; Blizzard ice stays still. Retains pale ceiling bats
-and the dark volcanic cave. Reuses approved gold terrain, purple ghoul poses, pools,
-pickups, Randy and HUD. Native gameplay, collision and audio stay unchanged.
-
-0.4.1 added the approved Stage 2 exterior and cave/enemy repairs.
-
-Adds the volcanic Gothic exterior, native gold platforms, lava/Blizzard ice,
-new flying and tumbling enemies, breakable gold blocks and the exit cliff.
-Shared Randy, HUD, recovery items and defeat effects retain approved artwork.
-Blizzard's full freeze/thaw palette cycle and black flashes remain native.
-
-0.3.5 added the approved red HP and blue Magic flasks, preserving their native
-pickup effects and the confirmed Randy standing-leg correction.
-
-0.3.4 corrects the disconnected knee/shin introduced in 0.3.3. Randy's
-standing forward leg now uses one continuous thigh, knee, shin and boot.
-Crouching and other poses retain their existing artwork.
-
-0.3.2 fills the entire scrolling Blizzard backdrop and keeps Randy's HD
-silhouette throughout the white/gray fade before the spell announcement.
-
-0.3.1 uses Mesen's sprite-limit removal to keep the boss fireball complete,
-and matches the Blizzard menu's R/D letters to the existing HD font.
-The pack applies this rendering option automatically; no setting change is needed.
-
-0.3.0 adds the horned boss, both firing postures, native hit/death flashes,
-organ hall, bell chamber, Blizzard pickup and spell announcement. Shared
-Randy/HUD sprites remain HD in the announcement and Stage 2 arrival.
-Later rooms and stages remain work in progress.
-This is a partial HD overhaul. Version 1.0.0 is reserved for the completed, tested pack.
-
-0.2.1 replaces the sideways 1-up with a front-facing doll in both colors,
-and joins the wall arches and columns into a continuous Gothic facade.
-
-0.2.0 adds the fourth section: a Gothic tree court, miniature Randy 1-up,
-shared HD ghouls, and native tile-bound branches, masonry and lower ground.
-
-0.1.1 sharpens the standing ghoul while preserving all four rolling frames,
-and adds complete crouching wind-up/release sprites for both Randy costumes.
-
-0.1.0 adds a masonry chapel backdrop, emerald/ruby windows, reinforced blocks,
-a gold serpent ornament, and all six observed purple-ghoul poses. Shared Randy,
-weapon, HUD and defeat artwork continues across matching native identities.
-
-The approved 0.0.2 corrections remove the rectangular title-prompt outline in both title states and
-align both entrance shelves from the far-left standing area to the native fall edge.
-The first Start reveals PRESS START; the second Start begins play.
-
+INSTALLATION
 1. Back up your current HD-pack folder.
-2. Extract every file in this ZIP into the folder matching your ROM name.
-   Example: Mesen/HdPacks/Holy_Diver_(Tr)/
-   hires.txt must be directly in that folder, without another nested folder.
-   The Actions artifact needs one extraction; it contains the pack files directly.
+2. Extract every file directly into the folder matching your ROM name:
+   Mesen/HdPacks/Holy_Diver_(Tr)/
+   hires.txt must be directly in that folder, with no nested folder.
 3. Enable NES HD packs. Fully close the ROM and reopen it to reload the pack.
-4. Start a new game to see the stage introduction, or load your existing state.
-
-Both native explosion phases now have matching gold HD artwork shared by enemy
-and Randy deaths. The stage-name and remaining-lives cards use a Gothic frame,
-larger lettering and the game's current stage/life values. The post-death HUD
-uses the approved HD health and magic graphics. The stage names use the exact
-wording found in the supported translated ROM. Counts zero through nine are
-mapped, with four, three and two directly verified in live replay.
-The Stage 2 card is also verified through the Blizzard transition.
-
-v15.1 completes Randy's rear forearm and hand in idle, jumping, and horizontal
-casting poses, for both the normal and Twin Fire costumes. Existing sprite
-registration and the native flip behavior are retained.
-
-The approved bracelet, pause-menu icon and other artwork are retained, together
-with Randy's shared HD death fallbacks. The approved title still starts clean:
-first Start reveals PRESS START, second Start begins play. The exact v12 audio
-patch is unchanged. No gameplay, collision or replacement audio was introduced.
+4. Start a new game or load your existing state.
 
 Target translated ROM SHA-1:
 FE2FCD0AD334D792DB16535D09F3AB9FB2BEA3AC
-The ROM on disk is never edited. The existing IPS is applied in memory.
+The ROM on disk is never edited. The unchanged entrance IPS is applied in memory.
 Tested with MesenCE 2.2.1. ROM and emulator are not distributed.
-Exact approved v15, v14.1 and earlier rollbacks are retained in the source repository.
 
-0.4.1 approved repairs: cave opening stays dark from first reveal; brown winged demons face their travel direction and drop downward arrows; pink-shell/red-lobe organisms replace the rejected face-like rocks. Native gameplay/audio remain unchanged.
+This build is awaiting user review. Approved main remains 0.15.0.

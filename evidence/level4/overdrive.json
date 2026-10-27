@@ -1,0 +1,49 @@
+{
+  "native_samples_per_type": 486,
+  "movie_frames": 486,
+  "movie_sha256": "4705ba7d93506a69b3b30371021612f5ececbc885e33f8a8fe575909cbb72735",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "native_types": [
+    "RAM",
+    "PPU",
+    "OAM",
+    "PPU view"
+  ],
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 1558764,
+  "apu_sha256": "f9bdeb31a261c0d55f1c15b87f1e9b0691217aa9932e05cd291724da9bf898b2",
+  "pcm_sha256": "690007490ddbf407bc3c4b96a35034a24ff4c5536a297ce00f000e323f0872d2",
+  "room_samples": {
+    "A865": 378,
+    "FFFF": 107
+  },
+  "unchanged": {
+    "empty_initial": 1,
+    "rendered_last_play_frame": 1,
+    "all": 9,
+    "outside_room": 4,
+    "black": 3
+  },
+  "menu_samples": 102,
+  "menu_changes_confined_to_overdrive": true,
+  "complete_sprite_matches": {
+    "overdrive_orb/h0v0": 12
+  },
+  "examples": {
+    "overdrive_orb/h0v0": {
+      "frame": 260,
+      "xy": [
+        198,
+        264
+      ]
+    }
+  },
+  "menu_glyph_source_checks": {
+    "complete_O": 102,
+    "visible_pixels": 6324,
+    "complete_V": 204
+  }
+}

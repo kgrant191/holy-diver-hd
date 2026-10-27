@@ -1,0 +1,77 @@
+{
+  "sampled_scenes": [
+    {
+      "frame": 400,
+      "room": "A865",
+      "background": "Golden_Temple_Exterior.png",
+      "exact_background_pixels_below_hud": 94798,
+      "complete_masonry_cell_matches": 253
+    },
+    {
+      "frame": 1600,
+      "room": "A865",
+      "background": "Golden_Temple_Exterior.png",
+      "exact_background_pixels_below_hud": 139170,
+      "complete_masonry_cell_matches": 94
+    },
+    {
+      "frame": 3200,
+      "room": "A865",
+      "background": "Golden_Temple_Exterior.png",
+      "exact_background_pixels_below_hud": 101344,
+      "complete_masonry_cell_matches": 274
+    },
+    {
+      "frame": 4000,
+      "room": "A865",
+      "background": "Golden_Temple_Exterior.png",
+      "exact_background_pixels_below_hud": 49483,
+      "complete_masonry_cell_matches": 435
+    },
+    {
+      "frame": 4200,
+      "room": "AA09",
+      "background": "Golden_Temple_Interior.png",
+      "exact_background_pixels_below_hud": 116546,
+      "complete_masonry_cell_matches": 400
+    },
+    {
+      "frame": 5200,
+      "room": "AA09",
+      "background": "Golden_Temple_Interior.png",
+      "exact_background_pixels_below_hud": 114752,
+      "complete_masonry_cell_matches": 399
+    },
+    {
+      "frame": 6500,
+      "room": "AA09",
+      "background": "Golden_Temple_Interior.png",
+      "exact_background_pixels_below_hud": 135200,
+      "complete_masonry_cell_matches": 314
+    },
+    {
+      "frame": 7200,
+      "room": "AA81",
+      "background": "Golden_Temple_Interior.png",
+      "exact_background_pixels_below_hud": 132195,
+      "complete_masonry_cell_matches": 314
+    },
+    {
+      "frame": 8000,
+      "room": "AA81",
+      "background": "Golden_Temple_Interior.png",
+      "exact_background_pixels_below_hud": 135372,
+      "complete_masonry_cell_matches": 269
+    },
+    {
+      "frame": 8600,
+      "room": "AA81",
+      "background": "Golden_Temple_Interior.png",
+      "exact_background_pixels_below_hud": 124997,
+      "complete_masonry_cell_matches": 364
+    }
+  ],
+  "source_pixels_exact": true,
+  "backgrounds_stationary": true,
+  "coverage": "Ten actual scenes including both indoor rooms and the 6500 palette transition; no whole-level claim."
+}

@@ -1,0 +1,12 @@
+{
+  "frames_per_build": 9614,
+  "native_samples_per_type": 3114,
+  "full_pcm_bytes": 30738708,
+  "complete_source_matches": 684,
+  "all_native_exact": true,
+  "all_apu_exact": true,
+  "all_full_pcm_exact": true,
+  "stair_only_visual_changes": true,
+  "bounds_observer_passed": true,
+  "slow_stair_edge_check_passed": true
+}

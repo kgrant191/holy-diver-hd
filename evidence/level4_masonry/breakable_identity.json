@@ -1,0 +1,77 @@
+{
+  "source": "unmodified input movie / Mesen native PPU samples",
+  "native_block_tiles": [
+    "0B4E",
+    "0B4F",
+    "0B50",
+    "0B51"
+  ],
+  "destruction_events": [
+    {
+      "before": 328,
+      "after": 332,
+      "ppu_addresses": [
+        "2218",
+        "2219",
+        "2238",
+        "2239"
+      ],
+      "old": [
+        "0B4E",
+        "0B4F",
+        "0B50",
+        "0B51"
+      ],
+      "new": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "before": 364,
+      "after": 368,
+      "ppu_addresses": [
+        "221A",
+        "221B",
+        "223A",
+        "223B"
+      ],
+      "old": [
+        "0B4E",
+        "0B4F",
+        "0B50",
+        "0B51"
+      ],
+      "new": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "before": 6928,
+      "after": 6932,
+      "ppu_addresses": [
+        "26C6",
+        "26C7",
+        "26E6",
+        "26E7"
+      ],
+      "old": [
+        "0B4E",
+        "0B4F",
+        "0B50",
+        "0B51"
+      ],
+      "new": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

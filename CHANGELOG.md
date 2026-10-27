@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.16.3 approval — 2026-10-26
+
+- User accepted the delivered stair repair and authorized the next recorded room batch. Freeze all 111 install bytes; approval bookkeeping changes source documentation only. No merge or release is requested.
+
+## 0.16.3 — 2026-10-26 (Golden Temple stair visibility)
+
+- Restore the descending 0B7C–0B7F stair family mistakenly cleared as background decoration. Reuse the existing gold stone within the joined native step silhouette.
+- Preserve the entry-crash repair, HD item drops, all earlier artwork and native gameplay/audio.
+- Add supplied-state climb/descent and full-recording regression checks plus an actual before/after preview. Awaiting review.
+
+## 0.16.2 — 2026-10-26 (Golden Temple crash and pickups)
+
+- Guard indoor pillar neighbor lookups against the screen edge, avoiding the stock Mesen one-past-screen read reproduced on entry. Preserve rendering through explicit off-screen alternatives.
+- Map missing small health/magic drops to existing heart/crystal cells in Level 4 and byte-identical banks. Preserve prior artwork/audio/patch files and native gameplay.
+- Add an invalid-read diagnostic, exhaustive short-circuit bounds regression, paired full-movie checks and actual entry preview. Awaiting review; no emulator modification required.
+
+## 0.16.1 — 2026-10-26 (Golden Temple masonry review)
+
+- Replace square slabs with worn beveled horizontal stone in the native staggered layout.
+- Distinguish breakable blocks with a recessed dark face, chipped frame and visible fracture.
+- Replace indoor structural brick stacks with coherent carved capitals, fluted shafts and bases. Preserve backgrounds, outdoor columns, actors, spell/menu fixes and earlier artwork.
+- Add paired native-state/audio, foreground-scope, source-art, block-destruction and platform-edge evidence. Awaiting user review.
+
+## 0.16.0 — 2026-10-26 (Golden Temple review)
+
+- Render the opening outdoors, then enclosed golden halls after entering the temple. Cover all three room pointers reached by the recording.
+- Add gold collision masonry, continuous columns, temple doorway, boulder poses, gargoyle wingbeats and horned guardians; reuse proven returning actors.
+- Correct both V letters in OVERDRIVE and update its orbiting cobalt/ivory energy orbs. Keep the gargoyle crescent distinct from the player spell.
+- Preserve every earlier art/audio file, all native game state and sound, and recoverable approved 0.15.0 mappings. Add paired Mesen movie/cast/edge evidence and a source-bundle handoff. Awaiting user review.
+
 ## 0.15.0 — 2026-10-26 (approved and merged)
 
 - Merge all five Level 3 PRs (#13–#17) into main after user authorization. All PR/main builds and ten downloaded artifacts pass; preserve all 106 reviewed installation bytes. Level 4 scenery is the next task.

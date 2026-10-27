@@ -1,0 +1,13 @@
+{
+  "supported_rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "scale": 2,
+  "atlas_count": 50,
+  "tile": 44423,
+  "background": 2816,
+  "condition": 6472,
+  "references_and_bounds_valid": true,
+  "conditional_priority_valid": true,
+  "rom_patch_bytes": 56,
+  "patch_scope": "entrance priorities and conditional thunder masking",
+  "replacement_audio": false
+}

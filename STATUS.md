@@ -1,5 +1,27 @@
 # Current status
 
+## Approved Golden Temple continuation — 0.16.3
+
+The user accepted 0.16.3 on 2026-10-26 ("ok good") and requested the next rooms, wings item and new outdoor enemy. All 111 reviewed installation bytes remain frozen. Main stays 0.15.0; publication/merge is not requested. See evidence/level4_stairs/approval.json.
+
+## Current Golden Temple stair repair — 0.16.3
+
+The user's new save identifies a missing descending stair flight in AA09. Native 0B7C–0B7F were wrongly cleared as scenery. Scoped overrides now restore them with existing gold stone and a joined native silhouette. All 108 prior assets and the 0.16.2 crash/pickup fixes stay exact. Controller-only walk/jump routes and the full recording are paired against 0.16.2; see docs/LEVEL4_STAIRS.md and evidence/level4_stairs/ for accepted results. The 111-file candidate awaits review on feature/golden-temple; main remains approved 0.15.0.
+
+## Current Golden Temple repair — 0.16.2
+
+The user found old small drops outdoors and a crash entering the temple. A diagnostic replay catches a one-past-screen read in the pillar checks at frame4046. Position guards now prevent it while preserving column rendering. Small health/magic drops reuse the existing heart/crystal cells through proven shared-bank mappings. All 108 prior assets stay exact. The full 8,668-frame movie completes with the invalid-read observer active; all 2,168 native samples per type and full audio match. Only small-pickup pixels change; all 92 complete source matches pass. See docs/LEVEL4_REPAIRS.md and evidence/level4_repairs/. Candidate remains on feature/golden-temple; main is approved 0.15.0.
+
+## Current Golden Temple review — 0.16.1
+
+The user accepted the backgrounds and outdoor columns, requested distinct breakable blocks, and rejected the flat square masonry and indoor block-stack supports. New worn horizontal sandstone, darker cracked breakable faces, and carved indoor columns address that feedback. All 107 prior art/audio files remain exact. Paired checks pass 3,653 native samples per type across 10,153 frames per build, with exact full PCM/APU and foreground-only changes. All 110 install hashes and flat-layout/CRC checks pass. The 110-file candidate awaits review on feature/golden-temple; main remains approved 0.15.0. See docs/LEVEL4_MASONRY.md and evidence/level4_masonry/.
+
+## Golden Temple review — 0.16.0
+
+The outdoor approach and both indoor sections reached by the supplied recording now have distinct Golden Temple scenery. OVERDRIVE is spelled correctly in the Start menu and casts new cobalt/ivory orbiting orbs. New temple actors retain native footprints, animation and behavior; proven returning actors reuse approved art. All 104 previous art/audio files remain exact. The 109-file install is a review candidate, based on approved main 0.15.0. No push, PR, merge, tag or release has occurred. Paired tests pass 4,139 native samples per type across 10,639 frames per build, with exact full PCM/APU. The archive passes all 109 hashes and flat-layout/CRC checks. See docs/LEVEL4_GOLDEN_TEMPLE.md and evidence/level4/.
+
+Later unrecorded temple areas and its boss remain unfinished. Review this candidate before adoption. Historical entries below retain their original delivery/approval status.
+
 ## Approved baseline — 0.15.0, main
 
 The user approved the completed Level 3 pack and authorized all five PRs and merges on 2026-10-26. PRs #13 → #14 → #15 → #16 → #17 are merged into main in dependency order, with each successor retargeted to main. Every merge tree matches its reviewed branch head. All five PR builds and all five main merge builds passed; all ten downloaded artifacts match their complete expected manifests, archive digests, CRCs and flat install layouts. The final pack retains all 106 reviewed installation bytes, including historical README wording. See evidence/stage3_adoption/ and evidence/level3_finale/approval.json.

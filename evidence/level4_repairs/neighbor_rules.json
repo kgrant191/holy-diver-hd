@@ -1,0 +1,9 @@
+{
+  "rules": 88,
+  "truth_table_cases": 63360,
+  "safe_neighbor_evaluations": 121088,
+  "blocked_out_of_range_branches": 42944,
+  "all_screen_x_values_covered": "dx=0; bounds depend only on y",
+  "native_no_neighbor_semantics_preserved": true,
+  "unsafe_evaluations": 0
+}

@@ -1,5 +1,36 @@
 # Holy Diver HD working instructions
 
+## Approved continuation baseline — 0.16.3
+
+- On 2026-10-26 the user accepted the delivered repair ("ok good") and requested the next recorded rooms. Preserve all 111 installed files as the reviewed baseline; approval bookkeeping must not alter the frozen installed README. Main remains 0.15.0; no push/merge/release is authorized. See evidence/level4_stairs/approval.json.
+
+## Current stair repair — Golden Temple 0.16.3
+
+- The supplied 20261026-181741 state proves 0B7C–0B7F are descending stairs, not decoration. build_level4_stairs.py overrides the erroneous clear rules with 24 room/palette mappings. Preserve their native top surface and joined sloped underside. Do not apply the historical scenery classification to these cells.
+- Reuse existing stone RGB; preserve every 0.16.2 asset and its neighbor bounds/pickup fixes. The additional atlas is index49. Opposite-facing 0B80–0B87 remain exact.
+- Require paired save-state movement and full-movie checks through verify_level4_stairs.py, with native state/full audio equality and stair-only image differences. See docs/LEVEL4_STAIRS.md. Candidate is unapproved on feature/golden-temple; main remains 0.15.0.
+
+## Current repair — Golden Temple 0.16.2
+
+- The user reports old small drops outdoors and a crash entering the temple. The diagnostic catches a stock Mesen tileNearby read at index61440 (one past the screen) on entry. Do not call the earlier successful uninstrumented replay proof of memory safety.
+- build_level4_repairs.py bounds all new pillar neighbor evaluations, including inverted checks, while preserving off-screen/no-neighbor behavior. Keep the exhaustive bounds regression in validate_pack.py. Do not ship or require the diagnostic observer.
+- Reuse exact atlas25 heart/crystal pixels for byte-proven pickup aliases; earlier conditional/menu rules retain priority. Every 0.16.1 image/audio/patch file stays exact. See docs/LEVEL4_REPAIRS.md and evidence/level4_repairs/.
+- 0.16.2 remains a review candidate on feature/golden-temple. Main stays approved 0.15.0; no merge/release authorization is implied.
+
+## Current revision — Golden Temple 0.16.1
+
+- The user accepted the 0.16.0 backgrounds and outdoor fluted columns, but rejected its square slabs and indoor block-stack supports. Preserve those accepted assets exactly; this is partial art acceptance, not whole-pack approval.
+- build_level4_masonry.py adds atlas48 and scoped overrides after the unchanged 0.16.0 builder. Solid blocks use the native staggered four-by-two layout. 0B4E–0B51 are confirmed destructible blocks; 0B78–0B7B are indoor structural columns with contextual caps/bases. Keep 0B4A–0B4D cleared as nonsolid scenery.
+- Preserve all 107 earlier art/audio files, actors, Overdrive/menu fixes, and native gameplay/audio. Existing stair masks remain exact. Source/evidence: docs/LEVEL4_MASONRY.md, art/level4_masonry/, evidence/level4_masonry/. concept_only.png is generated design reference, never runtime evidence.
+- 0.16.1 is awaiting review on feature/golden-temple. Main remains 0.15.0; no push/merge/release is implied.
+
+## Current review — Golden Temple 0.16.0
+
+- Work is on feature/golden-temple from approved main 2f38abeb. The user requested an outdoor first area, indoor next area, corrected Overdrive spelling and updated spell graphics. The 109-file candidate is awaiting review; do not merge or label approved.
+- Scenery scopes: mode1C/A865 outdoors, mode08/AA09 and mode08/AA81 indoors. Keep rendered guards including 0F071723 at frame6500. Background priority1 stays behind actors. Preserve native collision contours and continuous shafts.
+- The actual Overdrive cast is 0A8A–0A8D, an orbiting orb, with ten CHR-proven bank copies. Select enables selected magic. 088B–088E is the acquisition orb; CB–CF is the gargoyle crescent attack, not the player spell.
+- Preserve all 104 previous art/audio files and exact recoverable 0.15.0 mappings. New scope/provenance/evidence: docs/LEVEL4_GOLDEN_TEMPLE.md, art/level4/, evidence/level4/. The source handoff is a ZIP-wrapped incremental bundle. Later temple areas/boss remain untested.
+
 ## Approved baseline — 0.15.0 on main
 
 - The user approved 0.15.0 and authorized all five Level 3 merges on 2026-10-26. PRs #13–#17 are merged into main in dependency order. All PR/main builds pass, and all ten downloaded artifacts match their frozen hashes and flat install layouts. Preserve all 106 reviewed installation bytes, including the historical installed README. See evidence/level3_finale/approval.json and evidence/stage3_adoption/.

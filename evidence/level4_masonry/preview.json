@@ -1,0 +1,39 @@
+{
+  "frames": 330,
+  "fps": 15,
+  "seconds": 22.0,
+  "silent": true,
+  "game_images_unretouched": true,
+  "segments": [
+    {
+      "label": "Distinct breakable blocks",
+      "first": 300,
+      "last": 536,
+      "frames": 60
+    },
+    {
+      "label": "Worn stone; outdoor columns preserved",
+      "first": 800,
+      "last": 1036,
+      "frames": 60
+    },
+    {
+      "label": "Carved indoor supports",
+      "first": 4160,
+      "last": 4396,
+      "frames": 60
+    },
+    {
+      "label": "Hanging column and upper platform",
+      "first": 6400,
+      "last": 6636,
+      "frames": 60
+    },
+    {
+      "label": "Indoor pillars from the reported scene",
+      "first": 7440,
+      "last": 7796,
+      "frames": 90
+    }
+  ]
+}

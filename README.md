@@ -1,5 +1,13 @@
 # Holy Diver HD
 
+**Golden Temple stairs — 0.16.3 review.** Restores the stair flight incorrectly cleared as decoration, using existing gold stone and its native outline. Preserves the entry-crash fix and HD item drops. [Repair and tests](docs/LEVEL4_STAIRS.md).
+
+**Golden Temple repair — 0.16.2 review.** Bounds-checks indoor pillar lookups to avoid a one-past-screen read on temple entry. Small health/magic drops reuse the finished heart/crystal art. All 0.16.1 artwork remains exact. [Diagnosis and verification](docs/LEVEL4_REPAIRS.md).
+
+**Golden Temple refinement — 0.16.1 review.** Worn beveled stone replaces the square slabs; breakable blocks have distinct cracked inset faces; indoor supports have carved capitals and continuous fluted shafts. Preserves the backgrounds and outdoor pillars the user liked. [Revision and verification](docs/LEVEL4_MASONRY.md).
+
+**Golden Temple review candidate — 0.16.0 on `feature/golden-temple`.** An outdoor golden-temple approach leads into enclosed gilded halls. Corrects OVERDRIVE in the Start menu and updates its orbiting energy orbs. Includes the recorded temple enemies and gold collision masonry. Native gameplay/audio and all earlier art remain intact. Awaiting review; approved main remains 0.15.0. See [scope and verification](docs/LEVEL4_GOLDEN_TEMPLE.md).
+
 **Approved 0.15.0 on `main` (merged 2026-10-26).** Completes the newly recorded final climb and boss arena with the approved green moss scenery, a pink horned boss, living thorny growths and curved shots. Adds the Overdrive orb/announcement and verifies the Golden Temple title card. Native gameplay and audio remain unchanged. See [finale notes](docs/LEVEL3_FINALE.md).
 
 Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved baseline: 0.15.0 on `main`.** All five Level 3 PRs [#13](https://github.com/kgrant191/holy-diver-hd/pull/13)–[#17](https://github.com/kgrant191/holy-diver-hd/pull/17) are merged. All PR/main builds and ten independently downloaded install artifacts pass. See `evidence/stage3_adoption/`. Level 4 scenery is next. Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
@@ -80,7 +88,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.15.0.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.16.3.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

@@ -1,5 +1,13 @@
 # Build and live testing
 
+## Golden Temple stairs — 0.16.3
+
+Use the unchanged 20261026-181741 save with make_level4_stair_routes.py. Pair its walk, jump and slow-edge routes at stride one, plus the full original movie at stride four, through verify_level4_stairs.py. Require exact native state/full PCM/APU, stair-only pixel changes and complete step-source matches. Inspect the supplied landing, upper contact, descent, room wrap, left stop and right walk-off. Retain the invalid-neighbor observer. See LEVEL4_STAIRS.md for coverage and excluded investigation attempts.
+
+## Golden Temple entry and drops — 0.16.2
+
+Run the exhaustive column-neighbor bounds/truth-table check through validate_pack.py. Replay the unchanged full movie with check_hd_neighbor_bounds.cpp observing the stock core, then pair it against retained 0.16.1 with verify_level4_repairs.py. Require exact native state/full audio, all non-pickup pixels unchanged, and complete heart/crystal source matches. The earlier uninstrumented success did not establish neighbor-read safety. See LEVEL4_REPAIRS.md for the reproduced invalid read, tooling limits and exact coverage.
+
 ## Build (no ROM required)
 
 Use Python 3.12 and requirements.txt. Run `python build.py`, then `python scripts/verify_release.py`. The latter compares every built file against evidence/approved-pack-sha256.json. The original evidence/v15.1-pack-sha256.json remains as the historical import reference: version 0.0.1 changes only README.txt, and all 70 runtime files match exactly. The DejaVu font/license are bundled in art/fonts/.
@@ -255,3 +263,13 @@ Pair the unchanged 6,883-frame opening movie at stride four against 0.13.0, the 
 ## Level 3 finale — 0.15.0
 
 Replay the full 4,812-frame movie at stride two against exact approved 0.14.0. Capture frames 3,400–4,384 consecutively in a separate complete paired replay to inspect alternating defeat flashes. Use make_level3_finale_edge.py for the controller-only far-left stop, pause, slow full-span traverse and right walk-off. Pair native RAM/PPU/OAM/view, APU writes and full PCM with verify_level3_finale.py. Require exact prior-room/pause/blackout images, both boss orientations, all three curved shots, Overdrive and both cards; Stage 4 changes stay inside shared sprite bounds. Use verify_level3_finale_scenery.py for native PPU reconstruction including both measured defeat-shake offsets (0/4), and verify_level3_finale_fades.py for HD Randy source pixels in all three observed normal-costume fades. See LEVEL3_FINALE.md for commands, measured results and coverage limits.
+
+
+## Golden Temple — 0.16.0 review
+
+Use the supplied 8,668-frame movie against approved 0.15.0 and final 0.16.0. Pair all native state and full audio through verify_level4.py; generate controller-only Overdrive and platform routes with make_level4_routes.py. The actual spell is 0A8A–0A8D; CB–CF is an enemy attack. Verify source panoramas/stone through verify_level4_scenery.py. Scope, commands and bounded coverage: LEVEL4_GOLDEN_TEMPLE.md.
+
+
+## Golden Temple foreground revision — 0.16.1
+
+Pair the full 8,668-frame recording and 1,485-frame input-only edge route against the final 0.16.0 captures. verify_level4_masonry.py requires exact native state/audio, changes confined to foreground cells, source block/column matches and unchanged panorama pixels. Keep the background/outdoor-column assets and previous mappings exact. Native 0B4E–0B51 destruction is documented from three live events. See LEVEL4_MASONRY.md.

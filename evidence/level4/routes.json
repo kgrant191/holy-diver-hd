@@ -1,0 +1,18 @@
+{
+  "overdrive_cast": {
+    "frames": 486,
+    "sha256": "4705ba7d93506a69b3b30371021612f5ececbc885e33f8a8fe575909cbb72735",
+    "controller_only": true,
+    "source_movie_sha256": "f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca",
+    "state_sha256": "2e70c998d8300eb8de8286a82103ef934984007609d8e1a29a04ca4026700cb8",
+    "input_sha256": "59e51eddd128f9000d370ddd85a34b01cbdeb078e42050aacf32a402091705c6"
+  },
+  "ledge": {
+    "frames": 1485,
+    "sha256": "0274b81ffcc7d0a3a383dd18d37122a6710638c568f59b3c89258b0d9d029278",
+    "controller_only": true,
+    "source_movie_sha256": "f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca",
+    "state_sha256": "2e70c998d8300eb8de8286a82103ef934984007609d8e1a29a04ca4026700cb8",
+    "input_sha256": "3ecb3479c896523645da587340102ee533df9a0a8cc1a732ef5222c3d4e333c0"
+  }
+}

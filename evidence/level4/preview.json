@@ -1,0 +1,45 @@
+{
+  "frames": 360,
+  "fps": 15,
+  "seconds": 24.0,
+  "silent": true,
+  "game_images_unretouched": true,
+  "segments": [
+    {
+      "label": "Overdrive menu",
+      "first": 160,
+      "last": 160,
+      "frames": 30
+    },
+    {
+      "label": "Outdoor temple approach",
+      "first": 300,
+      "last": 536,
+      "frames": 60
+    },
+    {
+      "label": "Entering the temple",
+      "first": 3900,
+      "last": 4256,
+      "frames": 90
+    },
+    {
+      "label": "Enclosed golden hall",
+      "first": 5100,
+      "last": 5336,
+      "frames": 60
+    },
+    {
+      "label": "Overdrive: orbiting energy orbs",
+      "first": 236,
+      "last": 472,
+      "frames": 60
+    },
+    {
+      "label": "Second recorded interior",
+      "first": 7460,
+      "last": 7696,
+      "frames": 60
+    }
+  ]
+}

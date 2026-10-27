@@ -1,0 +1,917 @@
+{
+  "neighbor_rewrites": [
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F071737above]<tile>48,0B78,0F071737,32,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B78,0F071737,32,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B780F071737above]<tile>48,0B78,0F071737,32,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F071737above&!masonryAA090B780F071737above2]<tile>48,0B78,0F071737,48,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F071737above&!templeSafeAbove16]<tile>48,0B78,0F071737,48,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F071737above&templeSafeAbove16&!masonryAA090B780F071737above2]<tile>48,0B78,0F071737,48,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F071737below]<tile>48,0B78,0F071737,64,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B78,0F071737,64,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B780F071737below]<tile>48,0B78,0F071737,64,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F071737below&!masonryAA090B780F071737below2]<tile>48,0B78,0F071737,80,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F071737below&!templeSafeBelow16]<tile>48,0B78,0F071737,80,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F071737below&templeSafeBelow16&!masonryAA090B780F071737below2]<tile>48,0B78,0F071737,80,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F071737above]<tile>48,0B79,0F071737,112,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B79,0F071737,112,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B790F071737above]<tile>48,0B79,0F071737,112,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F071737above&!masonryAA090B790F071737above2]<tile>48,0B79,0F071737,128,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B790F071737above&!templeSafeAbove16]<tile>48,0B79,0F071737,128,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B790F071737above&templeSafeAbove16&!masonryAA090B790F071737above2]<tile>48,0B79,0F071737,128,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F071737below]<tile>48,0B79,0F071737,144,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B79,0F071737,144,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B790F071737below]<tile>48,0B79,0F071737,144,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F071737below&!masonryAA090B790F071737below2]<tile>48,0B79,0F071737,160,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B790F071737below&!templeSafeBelow16]<tile>48,0B79,0F071737,160,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B790F071737below&templeSafeBelow16&!masonryAA090B790F071737below2]<tile>48,0B79,0F071737,160,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F071737above]<tile>48,0B7A,0F071737,192,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B7A,0F071737,192,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B7A0F071737above]<tile>48,0B7A,0F071737,192,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F071737above&!masonryAA090B7A0F071737above2]<tile>48,0B7A,0F071737,208,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7A0F071737above&!templeSafeAbove16]<tile>48,0B7A,0F071737,208,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7A0F071737above&templeSafeAbove16&!masonryAA090B7A0F071737above2]<tile>48,0B7A,0F071737,208,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F071737below]<tile>48,0B7A,0F071737,224,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B7A,0F071737,224,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B7A0F071737below]<tile>48,0B7A,0F071737,224,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F071737below&!masonryAA090B7A0F071737below2]<tile>48,0B7A,0F071737,240,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7A0F071737below&!templeSafeBelow16]<tile>48,0B7A,0F071737,240,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7A0F071737below&templeSafeBelow16&!masonryAA090B7A0F071737below2]<tile>48,0B7A,0F071737,240,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F071737above]<tile>48,0B7B,0F071737,272,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B7B,0F071737,272,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B7B0F071737above]<tile>48,0B7B,0F071737,272,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F071737above&!masonryAA090B7B0F071737above2]<tile>48,0B7B,0F071737,288,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7B0F071737above&!templeSafeAbove16]<tile>48,0B7B,0F071737,288,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7B0F071737above&templeSafeAbove16&!masonryAA090B7B0F071737above2]<tile>48,0B7B,0F071737,288,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F071737below]<tile>48,0B7B,0F071737,304,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B7B,0F071737,304,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B7B0F071737below]<tile>48,0B7B,0F071737,304,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F071737below&!masonryAA090B7B0F071737below2]<tile>48,0B7B,0F071737,320,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7B0F071737below&!templeSafeBelow16]<tile>48,0B7B,0F071737,320,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7B0F071737below&templeSafeBelow16&!masonryAA090B7B0F071737below2]<tile>48,0B7B,0F071737,320,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F031323above]<tile>48,0B78,0F031323,32,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B78,0F031323,32,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B780F031323above]<tile>48,0B78,0F031323,32,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F031323above&!masonryAA090B780F031323above2]<tile>48,0B78,0F031323,48,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F031323above&!templeSafeAbove16]<tile>48,0B78,0F031323,48,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F031323above&templeSafeAbove16&!masonryAA090B780F031323above2]<tile>48,0B78,0F031323,48,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F031323below]<tile>48,0B78,0F031323,64,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B78,0F031323,64,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B780F031323below]<tile>48,0B78,0F031323,64,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F031323below&!masonryAA090B780F031323below2]<tile>48,0B78,0F031323,80,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F031323below&!templeSafeBelow16]<tile>48,0B78,0F031323,80,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F031323below&templeSafeBelow16&!masonryAA090B780F031323below2]<tile>48,0B78,0F031323,80,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F172737above]<tile>48,0B78,0F172737,32,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B78,0F172737,32,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B780F172737above]<tile>48,0B78,0F172737,32,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F172737above&!masonryAA090B780F172737above2]<tile>48,0B78,0F172737,48,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F172737above&!templeSafeAbove16]<tile>48,0B78,0F172737,48,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F172737above&templeSafeAbove16&!masonryAA090B780F172737above2]<tile>48,0B78,0F172737,48,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F172737below]<tile>48,0B78,0F172737,64,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B78,0F172737,64,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B780F172737below]<tile>48,0B78,0F172737,64,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F172737below&!masonryAA090B780F172737below2]<tile>48,0B78,0F172737,80,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F172737below&!templeSafeBelow16]<tile>48,0B78,0F172737,80,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F172737below&templeSafeBelow16&!masonryAA090B780F172737below2]<tile>48,0B78,0F172737,80,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F172737above]<tile>48,0B79,0F172737,112,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B79,0F172737,112,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B790F172737above]<tile>48,0B79,0F172737,112,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F172737above&!masonryAA090B790F172737above2]<tile>48,0B79,0F172737,128,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B790F172737above&!templeSafeAbove16]<tile>48,0B79,0F172737,128,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B790F172737above&templeSafeAbove16&!masonryAA090B790F172737above2]<tile>48,0B79,0F172737,128,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F172737below]<tile>48,0B79,0F172737,144,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B79,0F172737,144,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B790F172737below]<tile>48,0B79,0F172737,144,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F172737below&!masonryAA090B790F172737below2]<tile>48,0B79,0F172737,160,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B790F172737below&!templeSafeBelow16]<tile>48,0B79,0F172737,160,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B790F172737below&templeSafeBelow16&!masonryAA090B790F172737below2]<tile>48,0B79,0F172737,160,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F172737above]<tile>48,0B7A,0F172737,192,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B7A,0F172737,192,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B7A0F172737above]<tile>48,0B7A,0F172737,192,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F172737above&!masonryAA090B7A0F172737above2]<tile>48,0B7A,0F172737,208,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7A0F172737above&!templeSafeAbove16]<tile>48,0B7A,0F172737,208,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7A0F172737above&templeSafeAbove16&!masonryAA090B7A0F172737above2]<tile>48,0B7A,0F172737,208,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F172737below]<tile>48,0B7A,0F172737,224,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B7A,0F172737,224,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B7A0F172737below]<tile>48,0B7A,0F172737,224,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F172737below&!masonryAA090B7A0F172737below2]<tile>48,0B7A,0F172737,240,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7A0F172737below&!templeSafeBelow16]<tile>48,0B7A,0F172737,240,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7A0F172737below&templeSafeBelow16&!masonryAA090B7A0F172737below2]<tile>48,0B7A,0F172737,240,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F172737above]<tile>48,0B7B,0F172737,272,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B7B,0F172737,272,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B7B0F172737above]<tile>48,0B7B,0F172737,272,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F172737above&!masonryAA090B7B0F172737above2]<tile>48,0B7B,0F172737,288,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7B0F172737above&!templeSafeAbove16]<tile>48,0B7B,0F172737,288,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7B0F172737above&templeSafeAbove16&!masonryAA090B7B0F172737above2]<tile>48,0B7B,0F172737,288,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F172737below]<tile>48,0B7B,0F172737,304,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B7B,0F172737,304,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B7B0F172737below]<tile>48,0B7B,0F172737,304,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F172737below&!masonryAA090B7B0F172737below2]<tile>48,0B7B,0F172737,320,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7B0F172737below&!templeSafeBelow16]<tile>48,0B7B,0F172737,320,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7B0F172737below&templeSafeBelow16&!masonryAA090B7B0F172737below2]<tile>48,0B7B,0F172737,320,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F072830above]<tile>48,0B78,0F072830,32,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B78,0F072830,32,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B780F072830above]<tile>48,0B78,0F072830,32,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F072830above&!masonryAA090B780F072830above2]<tile>48,0B78,0F072830,48,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F072830above&!templeSafeAbove16]<tile>48,0B78,0F072830,48,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B780F072830above&templeSafeAbove16&!masonryAA090B780F072830above2]<tile>48,0B78,0F072830,48,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B780F072830below]<tile>48,0B78,0F072830,64,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B78,0F072830,64,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B780F072830below]<tile>48,0B78,0F072830,64,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B780F072830below&!masonryAA090B780F072830below2]<tile>48,0B78,0F072830,80,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F072830below&!templeSafeBelow16]<tile>48,0B78,0F072830,80,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B780F072830below&templeSafeBelow16&!masonryAA090B780F072830below2]<tile>48,0B78,0F072830,80,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F072830above]<tile>48,0B79,0F072830,112,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B79,0F072830,112,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B790F072830above]<tile>48,0B79,0F072830,112,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F072830above&!masonryAA090B790F072830above2]<tile>48,0B79,0F072830,128,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B790F072830above&!templeSafeAbove16]<tile>48,0B79,0F072830,128,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B790F072830above&templeSafeAbove16&!masonryAA090B790F072830above2]<tile>48,0B79,0F072830,128,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B790F072830below]<tile>48,0B79,0F072830,144,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B79,0F072830,144,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B790F072830below]<tile>48,0B79,0F072830,144,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B790F072830below&!masonryAA090B790F072830below2]<tile>48,0B79,0F072830,160,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B790F072830below&!templeSafeBelow16]<tile>48,0B79,0F072830,160,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B790F072830below&templeSafeBelow16&!masonryAA090B790F072830below2]<tile>48,0B79,0F072830,160,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F072830above]<tile>48,0B7A,0F072830,192,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B7A,0F072830,192,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B7A0F072830above]<tile>48,0B7A,0F072830,192,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F072830above&!masonryAA090B7A0F072830above2]<tile>48,0B7A,0F072830,208,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7A0F072830above&!templeSafeAbove16]<tile>48,0B7A,0F072830,208,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7A0F072830above&templeSafeAbove16&!masonryAA090B7A0F072830above2]<tile>48,0B7A,0F072830,208,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7A0F072830below]<tile>48,0B7A,0F072830,224,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B7A,0F072830,224,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B7A0F072830below]<tile>48,0B7A,0F072830,224,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7A0F072830below&!masonryAA090B7A0F072830below2]<tile>48,0B7A,0F072830,240,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7A0F072830below&!templeSafeBelow16]<tile>48,0B7A,0F072830,240,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7A0F072830below&templeSafeBelow16&!masonryAA090B7A0F072830below2]<tile>48,0B7A,0F072830,240,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F072830above]<tile>48,0B7B,0F072830,272,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeAbove8]<tile>48,0B7B,0F072830,272,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&!masonryAA090B7B0F072830above]<tile>48,0B7B,0F072830,272,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F072830above&!masonryAA090B7B0F072830above2]<tile>48,0B7B,0F072830,288,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7B0F072830above&!templeSafeAbove16]<tile>48,0B7B,0F072830,288,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeAbove8&masonryAA090B7B0F072830above&templeSafeAbove16&!masonryAA090B7B0F072830above2]<tile>48,0B7B,0F072830,288,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!masonryAA090B7B0F072830below]<tile>48,0B7B,0F072830,304,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&!templeSafeBelow8]<tile>48,0B7B,0F072830,304,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&!masonryAA090B7B0F072830below]<tile>48,0B7B,0F072830,304,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA09Mode&templeAA09Lo&templeAA09Hi&masonryAA090B7B0F072830below&!masonryAA090B7B0F072830below2]<tile>48,0B7B,0F072830,320,16,1,N",
+      "replacements": [
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7B0F072830below&!templeSafeBelow16]<tile>48,0B7B,0F072830,320,16,1,N",
+        "[templeAA09Mode&templeAA09Lo&templeAA09Hi&templeSafeBelow8&masonryAA090B7B0F072830below&templeSafeBelow16&!masonryAA090B7B0F072830below2]<tile>48,0B7B,0F072830,320,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F172737above]<tile>48,0B78,0F172737,32,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B78,0F172737,32,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B780F172737above]<tile>48,0B78,0F172737,32,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F172737above&!masonryAA810B780F172737above2]<tile>48,0B78,0F172737,48,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B780F172737above&!templeSafeAbove16]<tile>48,0B78,0F172737,48,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B780F172737above&templeSafeAbove16&!masonryAA810B780F172737above2]<tile>48,0B78,0F172737,48,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F172737below]<tile>48,0B78,0F172737,64,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B78,0F172737,64,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B780F172737below]<tile>48,0B78,0F172737,64,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F172737below&!masonryAA810B780F172737below2]<tile>48,0B78,0F172737,80,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B780F172737below&!templeSafeBelow16]<tile>48,0B78,0F172737,80,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B780F172737below&templeSafeBelow16&!masonryAA810B780F172737below2]<tile>48,0B78,0F172737,80,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F172737above]<tile>48,0B79,0F172737,112,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B79,0F172737,112,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B790F172737above]<tile>48,0B79,0F172737,112,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F172737above&!masonryAA810B790F172737above2]<tile>48,0B79,0F172737,128,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B790F172737above&!templeSafeAbove16]<tile>48,0B79,0F172737,128,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B790F172737above&templeSafeAbove16&!masonryAA810B790F172737above2]<tile>48,0B79,0F172737,128,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F172737below]<tile>48,0B79,0F172737,144,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B79,0F172737,144,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B790F172737below]<tile>48,0B79,0F172737,144,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F172737below&!masonryAA810B790F172737below2]<tile>48,0B79,0F172737,160,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B790F172737below&!templeSafeBelow16]<tile>48,0B79,0F172737,160,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B790F172737below&templeSafeBelow16&!masonryAA810B790F172737below2]<tile>48,0B79,0F172737,160,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F172737above]<tile>48,0B7A,0F172737,192,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B7A,0F172737,192,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B7A0F172737above]<tile>48,0B7A,0F172737,192,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F172737above&!masonryAA810B7A0F172737above2]<tile>48,0B7A,0F172737,208,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7A0F172737above&!templeSafeAbove16]<tile>48,0B7A,0F172737,208,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7A0F172737above&templeSafeAbove16&!masonryAA810B7A0F172737above2]<tile>48,0B7A,0F172737,208,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F172737below]<tile>48,0B7A,0F172737,224,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B7A,0F172737,224,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B7A0F172737below]<tile>48,0B7A,0F172737,224,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F172737below&!masonryAA810B7A0F172737below2]<tile>48,0B7A,0F172737,240,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7A0F172737below&!templeSafeBelow16]<tile>48,0B7A,0F172737,240,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7A0F172737below&templeSafeBelow16&!masonryAA810B7A0F172737below2]<tile>48,0B7A,0F172737,240,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F172737above]<tile>48,0B7B,0F172737,272,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B7B,0F172737,272,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B7B0F172737above]<tile>48,0B7B,0F172737,272,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F172737above&!masonryAA810B7B0F172737above2]<tile>48,0B7B,0F172737,288,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7B0F172737above&!templeSafeAbove16]<tile>48,0B7B,0F172737,288,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7B0F172737above&templeSafeAbove16&!masonryAA810B7B0F172737above2]<tile>48,0B7B,0F172737,288,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F172737below]<tile>48,0B7B,0F172737,304,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B7B,0F172737,304,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B7B0F172737below]<tile>48,0B7B,0F172737,304,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F172737below&!masonryAA810B7B0F172737below2]<tile>48,0B7B,0F172737,320,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7B0F172737below&!templeSafeBelow16]<tile>48,0B7B,0F172737,320,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7B0F172737below&templeSafeBelow16&!masonryAA810B7B0F172737below2]<tile>48,0B7B,0F172737,320,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F031323above]<tile>48,0B78,0F031323,32,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B78,0F031323,32,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B780F031323above]<tile>48,0B78,0F031323,32,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F031323above&!masonryAA810B780F031323above2]<tile>48,0B78,0F031323,48,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B780F031323above&!templeSafeAbove16]<tile>48,0B78,0F031323,48,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B780F031323above&templeSafeAbove16&!masonryAA810B780F031323above2]<tile>48,0B78,0F031323,48,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F031323below]<tile>48,0B78,0F031323,64,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B78,0F031323,64,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B780F031323below]<tile>48,0B78,0F031323,64,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F031323below&!masonryAA810B780F031323below2]<tile>48,0B78,0F031323,80,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B780F031323below&!templeSafeBelow16]<tile>48,0B78,0F031323,80,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B780F031323below&templeSafeBelow16&!masonryAA810B780F031323below2]<tile>48,0B78,0F031323,80,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F072830above]<tile>48,0B78,0F072830,32,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B78,0F072830,32,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B780F072830above]<tile>48,0B78,0F072830,32,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F072830above&!masonryAA810B780F072830above2]<tile>48,0B78,0F072830,48,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B780F072830above&!templeSafeAbove16]<tile>48,0B78,0F072830,48,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B780F072830above&templeSafeAbove16&!masonryAA810B780F072830above2]<tile>48,0B78,0F072830,48,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B780F072830below]<tile>48,0B78,0F072830,64,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B78,0F072830,64,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B780F072830below]<tile>48,0B78,0F072830,64,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B780F072830below&!masonryAA810B780F072830below2]<tile>48,0B78,0F072830,80,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B780F072830below&!templeSafeBelow16]<tile>48,0B78,0F072830,80,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B780F072830below&templeSafeBelow16&!masonryAA810B780F072830below2]<tile>48,0B78,0F072830,80,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F072830above]<tile>48,0B79,0F072830,112,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B79,0F072830,112,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B790F072830above]<tile>48,0B79,0F072830,112,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F072830above&!masonryAA810B790F072830above2]<tile>48,0B79,0F072830,128,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B790F072830above&!templeSafeAbove16]<tile>48,0B79,0F072830,128,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B790F072830above&templeSafeAbove16&!masonryAA810B790F072830above2]<tile>48,0B79,0F072830,128,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B790F072830below]<tile>48,0B79,0F072830,144,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B79,0F072830,144,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B790F072830below]<tile>48,0B79,0F072830,144,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B790F072830below&!masonryAA810B790F072830below2]<tile>48,0B79,0F072830,160,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B790F072830below&!templeSafeBelow16]<tile>48,0B79,0F072830,160,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B790F072830below&templeSafeBelow16&!masonryAA810B790F072830below2]<tile>48,0B79,0F072830,160,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F072830above]<tile>48,0B7A,0F072830,192,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B7A,0F072830,192,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B7A0F072830above]<tile>48,0B7A,0F072830,192,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F072830above&!masonryAA810B7A0F072830above2]<tile>48,0B7A,0F072830,208,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7A0F072830above&!templeSafeAbove16]<tile>48,0B7A,0F072830,208,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7A0F072830above&templeSafeAbove16&!masonryAA810B7A0F072830above2]<tile>48,0B7A,0F072830,208,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7A0F072830below]<tile>48,0B7A,0F072830,224,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B7A,0F072830,224,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B7A0F072830below]<tile>48,0B7A,0F072830,224,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7A0F072830below&!masonryAA810B7A0F072830below2]<tile>48,0B7A,0F072830,240,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7A0F072830below&!templeSafeBelow16]<tile>48,0B7A,0F072830,240,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7A0F072830below&templeSafeBelow16&!masonryAA810B7A0F072830below2]<tile>48,0B7A,0F072830,240,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F072830above]<tile>48,0B7B,0F072830,272,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeAbove8]<tile>48,0B7B,0F072830,272,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&!masonryAA810B7B0F072830above]<tile>48,0B7B,0F072830,272,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F072830above&!masonryAA810B7B0F072830above2]<tile>48,0B7B,0F072830,288,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7B0F072830above&!templeSafeAbove16]<tile>48,0B7B,0F072830,288,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeAbove8&masonryAA810B7B0F072830above&templeSafeAbove16&!masonryAA810B7B0F072830above2]<tile>48,0B7B,0F072830,288,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!masonryAA810B7B0F072830below]<tile>48,0B7B,0F072830,304,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&!templeSafeBelow8]<tile>48,0B7B,0F072830,304,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&!masonryAA810B7B0F072830below]<tile>48,0B7B,0F072830,304,16,1,N"
+      ]
+    },
+    {
+      "original": "[templeAA81Mode&templeAA81Lo&templeAA81Hi&masonryAA810B7B0F072830below&!masonryAA810B7B0F072830below2]<tile>48,0B7B,0F072830,320,16,1,N",
+      "replacements": [
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7B0F072830below&!templeSafeBelow16]<tile>48,0B7B,0F072830,320,16,1,N",
+        "[templeAA81Mode&templeAA81Lo&templeAA81Hi&templeSafeBelow8&masonryAA810B7B0F072830below&templeSafeBelow16&!masonryAA810B7B0F072830below2]<tile>48,0B7B,0F072830,320,16,1,N"
+      ]
+    }
+  ],
+  "position_conditions": [
+    "<condition>templeSafeAbove8,positionCheckY,>=,8",
+    "<condition>templeSafeAbove16,positionCheckY,>=,16",
+    "<condition>templeSafeBelow8,positionCheckY,<,232",
+    "<condition>templeSafeBelow16,positionCheckY,<,224"
+  ],
+  "nearby_conditions": {
+    "masonryAA090B780F071737above": -8,
+    "masonryAA090B780F071737above2": -16,
+    "masonryAA090B780F071737below": 8,
+    "masonryAA090B780F071737below2": 16,
+    "masonryAA090B790F071737above": -8,
+    "masonryAA090B790F071737above2": -16,
+    "masonryAA090B790F071737below": 8,
+    "masonryAA090B790F071737below2": 16,
+    "masonryAA090B7A0F071737above": -8,
+    "masonryAA090B7A0F071737above2": -16,
+    "masonryAA090B7A0F071737below": 8,
+    "masonryAA090B7A0F071737below2": 16,
+    "masonryAA090B7B0F071737above": -8,
+    "masonryAA090B7B0F071737above2": -16,
+    "masonryAA090B7B0F071737below": 8,
+    "masonryAA090B7B0F071737below2": 16,
+    "masonryAA090B780F031323above": -8,
+    "masonryAA090B780F031323above2": -16,
+    "masonryAA090B780F031323below": 8,
+    "masonryAA090B780F031323below2": 16,
+    "masonryAA090B780F172737above": -8,
+    "masonryAA090B780F172737above2": -16,
+    "masonryAA090B780F172737below": 8,
+    "masonryAA090B780F172737below2": 16,
+    "masonryAA090B790F172737above": -8,
+    "masonryAA090B790F172737above2": -16,
+    "masonryAA090B790F172737below": 8,
+    "masonryAA090B790F172737below2": 16,
+    "masonryAA090B7A0F172737above": -8,
+    "masonryAA090B7A0F172737above2": -16,
+    "masonryAA090B7A0F172737below": 8,
+    "masonryAA090B7A0F172737below2": 16,
+    "masonryAA090B7B0F172737above": -8,
+    "masonryAA090B7B0F172737above2": -16,
+    "masonryAA090B7B0F172737below": 8,
+    "masonryAA090B7B0F172737below2": 16,
+    "masonryAA090B780F072830above": -8,
+    "masonryAA090B780F072830above2": -16,
+    "masonryAA090B780F072830below": 8,
+    "masonryAA090B780F072830below2": 16,
+    "masonryAA090B790F072830above": -8,
+    "masonryAA090B790F072830above2": -16,
+    "masonryAA090B790F072830below": 8,
+    "masonryAA090B790F072830below2": 16,
+    "masonryAA090B7A0F072830above": -8,
+    "masonryAA090B7A0F072830above2": -16,
+    "masonryAA090B7A0F072830below": 8,
+    "masonryAA090B7A0F072830below2": 16,
+    "masonryAA090B7B0F072830above": -8,
+    "masonryAA090B7B0F072830above2": -16,
+    "masonryAA090B7B0F072830below": 8,
+    "masonryAA090B7B0F072830below2": 16,
+    "masonryAA810B780F172737above": -8,
+    "masonryAA810B780F172737above2": -16,
+    "masonryAA810B780F172737below": 8,
+    "masonryAA810B780F172737below2": 16,
+    "masonryAA810B790F172737above": -8,
+    "masonryAA810B790F172737above2": -16,
+    "masonryAA810B790F172737below": 8,
+    "masonryAA810B790F172737below2": 16,
+    "masonryAA810B7A0F172737above": -8,
+    "masonryAA810B7A0F172737above2": -16,
+    "masonryAA810B7A0F172737below": 8,
+    "masonryAA810B7A0F172737below2": 16,
+    "masonryAA810B7B0F172737above": -8,
+    "masonryAA810B7B0F172737above2": -16,
+    "masonryAA810B7B0F172737below": 8,
+    "masonryAA810B7B0F172737below2": 16,
+    "masonryAA810B780F031323above": -8,
+    "masonryAA810B780F031323above2": -16,
+    "masonryAA810B780F031323below": 8,
+    "masonryAA810B780F031323below2": 16,
+    "masonryAA810B780F072830above": -8,
+    "masonryAA810B780F072830above2": -16,
+    "masonryAA810B780F072830below": 8,
+    "masonryAA810B780F072830below2": 16,
+    "masonryAA810B790F072830above": -8,
+    "masonryAA810B790F072830above2": -16,
+    "masonryAA810B790F072830below": 8,
+    "masonryAA810B790F072830below2": 16,
+    "masonryAA810B7A0F072830above": -8,
+    "masonryAA810B7A0F072830above2": -16,
+    "masonryAA810B7A0F072830below": 8,
+    "masonryAA810B7A0F072830below2": 16,
+    "masonryAA810B7B0F072830above": -8,
+    "masonryAA810B7B0F072830above2": -16,
+    "masonryAA810B7B0F072830below": 8,
+    "masonryAA810B7B0F072830below2": 16
+  },
+  "pickups": [
+    {
+      "name": "heart",
+      "tile": "0047",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,0047,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "0447",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,0447,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "0847",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,0847,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "0A47",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,0A47,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "0C47",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,0C47,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "0E47",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,0E47,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1047",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1047,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1247",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1247,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1447",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1447,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1647",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1647,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1847",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1847,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1A47",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1A47,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1C47",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1C47,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "heart",
+      "tile": "1E47",
+      "source_rule": "<tile>25,0247,FF301116,176,32,1,N",
+      "rule": "<tile>25,1E47,FF301116,176,32,1,N",
+      "native_pattern": "0066ffffff7e3c180000667e7e3c1800"
+    },
+    {
+      "name": "magic",
+      "tile": "0048",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,0048,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "0448",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,0448,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "0848",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,0848,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "0A48",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,0A48,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "0C48",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,0C48,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "0E48",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,0E48,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1048",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1048,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1248",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1248,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1448",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1448,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1648",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1648,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1848",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1848,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1A48",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1A48,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1C48",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1C48,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    },
+    {
+      "name": "magic",
+      "tile": "1E48",
+      "source_rule": "<tile>25,0248,FF301116,192,32,1,N",
+      "rule": "<tile>25,1E48,FF301116,192,32,1,N",
+      "native_pattern": "3c4291818181423c003c6e7e7e7e3c00"
+    }
+  ],
+  "extra_tile_rules": 116,
+  "extra_conditions": 4,
+  "artwork_changed": false
+}

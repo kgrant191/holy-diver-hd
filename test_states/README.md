@@ -117,3 +117,12 @@ Local input `Holy_Diver_HD(4).mmo`: 7,592 frames; movie SHA-256 `facbd98578ae026
 ## Level 3 finale movie — 0.15.0 review
 
 `Holy_Diver_HD(5).mmo`: 4,812 frames; SHA-256 `32f2d9617ca290845983ab67918a8f0f9ed312ee7cd5a4ec5881ff51d299db42`. Embedded state SHA-256 `56b9f1bbf104d4d4671801e1eb8f30223d6620971c58c60b5a51a440950fd4d2`. Same supported translated ROM and stock MesenCE 2.2.1. Covers final climb, boss, Overdrive and Stage 4 arrival. `make_level3_finale_edge.py` derives the 1,740-frame input-only edge route; hashes are in evidence/level3_finale/edge_input.json. Movie, embedded state and ROM remain outside Git.
+
+
+## Golden Temple recording — 2026-10-26
+
+Holy_Diver_HD(6).mmo: 8,668 frames, SHA-256 `f413a215567b622fad4cea7dfce4561a05ede2c840a1f026e7e2a8ad6c30adca`. The locally attached movie embeds its starting state. Derive input-only spell/edge routes with scripts/make_level4_routes.py; their hashes and retained-state digest are in evidence/level4/routes.json. Movie/state bytes remain outside Git.
+
+## Golden Temple missing stairs — 2026-10-26
+
+`Holy_Diver_HD_1(20261026-181741).mss`: 9,478 bytes, SHA-256 `1e572fa95b436b4276051354d5fc19b409194fd5b57aabbcd05ec12b0c03ed4b`. Starts at the lower landing of the descending AA09 stair flight. Keep unchanged and outside Git. `make_level4_stair_routes.py` uses this exact state with the existing movie settings for controller-only inspection, walk and jump/return routes. See docs/LEVEL4_STAIRS.md.

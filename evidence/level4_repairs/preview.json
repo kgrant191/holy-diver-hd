@@ -1,0 +1,19 @@
+{
+  "frames": 225,
+  "fps": 15,
+  "seconds": 15.0,
+  "unretouched_game_images": true,
+  "silent": true,
+  "segments": [
+    {
+      "label": "HD recovery drops",
+      "first": 480,
+      "last": 716
+    },
+    {
+      "label": "Temple entry",
+      "first": 3780,
+      "last": 4436
+    }
+  ]
+}

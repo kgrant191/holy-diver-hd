@@ -1,0 +1,82 @@
+{
+  "native_samples_per_type": 1485,
+  "movie_frames": 1485,
+  "movie_sha256": "0274b81ffcc7d0a3a383dd18d37122a6710638c568f59b3c89258b0d9d029278",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "native_types": [
+    "RAM",
+    "PPU",
+    "OAM",
+    "PPU view"
+  ],
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 4750308,
+  "apu_sha256": "7613f7ee77774477731088193685067af7ad3e714f02d10e6dfd9111b33f36e9",
+  "pcm_sha256": "26e9c76952ae07674939c4199a653979b5429a5c198bbd3b20d6165d2afdadfa",
+  "room_samples": {
+    "A865": 1248,
+    "FFFF": 151,
+    "0000": 85
+  },
+  "unchanged": {
+    "empty_initial": 1,
+    "rendered_last_play_frame": 2,
+    "all": 283,
+    "outside_room": 93,
+    "black": 8
+  },
+  "menu_samples": 141,
+  "menu_changes_confined_to_overdrive": true,
+  "complete_sprite_matches": {
+    "overdrive_orb/h0v0": 17,
+    "boulder_0/h0v0": 2,
+    "boulder_1/h0v0": 5,
+    "boulder_2/h0v0": 8,
+    "gargoyle_1/h0v0": 1
+  },
+  "examples": {
+    "overdrive_orb/h0v0": {
+      "frame": 300,
+      "xy": [
+        106,
+        320
+      ]
+    },
+    "boulder_0/h0v0": {
+      "frame": 360,
+      "xy": [
+        420,
+        112
+      ]
+    },
+    "boulder_1/h0v0": {
+      "frame": 380,
+      "xy": [
+        400,
+        82
+      ]
+    },
+    "boulder_2/h0v0": {
+      "frame": 380,
+      "xy": [
+        316,
+        176
+      ]
+    },
+    "gargoyle_1/h0v0": {
+      "frame": 940,
+      "xy": [
+        382,
+        154
+      ]
+    }
+  },
+  "menu_glyph_source_checks": {
+    "complete_O": 141,
+    "visible_pixels": 8742,
+    "complete_V": 282
+  }
+}

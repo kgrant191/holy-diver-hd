@@ -1,0 +1,42 @@
+{
+  "version": "0.16.0",
+  "approval": "pending user review",
+  "baseline": "0.15.0",
+  "review_branch": "feature/golden-temple",
+  "native_samples_per_type": 4139,
+  "paired_movie_frames_per_build": 10639,
+  "all_native_state_exact": true,
+  "full_pcm_and_apu_exact": true,
+  "prior_art_audio_files_unchanged": 104,
+  "changed_prior_files": [
+    "README.txt",
+    "hires.txt"
+  ],
+  "added_files": [
+    "Golden_Temple_Exterior.png",
+    "Golden_Temple_Interior.png",
+    "Golden_Temple_Tiles_2x.png"
+  ],
+  "install_file_count": 109,
+  "static": {
+    "supported_rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "scale": 2,
+    "atlas_count": 48,
+    "tile": 43938,
+    "background": 2816,
+    "condition": 6380,
+    "references_and_bounds_valid": true,
+    "conditional_priority_valid": true,
+    "rom_patch_bytes": 56,
+    "patch_scope": "entrance priorities and conditional thunder masking",
+    "replacement_audio": false
+  },
+  "live_scope": "Entire supplied recording plus controlled cast/edge derivatives; later temple areas and boss not covered.",
+  "final_pack_manifest_sha256": "c053f2ccba483fe8ebeccc683876b8cbca7f3c46406046cbae15d402a4965ccb",
+  "complete_painted_sprite_matches": 264,
+  "menu_glyph_source_checks": {
+    "complete_O": 331,
+    "complete_V": 664,
+    "visible_pixels": 20560
+  }
+}
