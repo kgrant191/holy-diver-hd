@@ -1,0 +1,21 @@
+{
+  "status": "review candidate",
+  "baseline": "approved 0.20.5",
+  "branch": "feature/demonic-palace",
+  "full_movie_frames": 9921,
+  "native_samples_each": 4960,
+  "native_state_and_audio_exact": true,
+  "whole_source_orientation_variants": 21,
+  "menu_H_only_samples": 524,
+  "native_blackouts_exact": 209,
+  "prior_stage_frames": 2856,
+  "prior_stage_nonempty_images_exact": 2855,
+  "edge_routes": [
+    660,
+    950
+  ],
+  "prior_assets_exact": 117,
+  "install_files": 122,
+  "coverage_limit": "Five recorded room IDs; only first entry into 8816; later Level 5 and boss untested",
+  "publication_performed": false
+}

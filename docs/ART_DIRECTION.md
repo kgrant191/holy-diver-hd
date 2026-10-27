@@ -174,3 +174,7 @@ Keep the exact copper fish design and both existing poses. Register each complet
 Reuse the exact dark cave panorama, approved brown rock, carved step material and native lava/ice cells. Keep the complete solid support bodies beneath stone caps; repeated wall-cell IDs can be decorative in the climb and solid in a later corridor, so palette and room scope matter. The new green floating creature has a low oval ribbed body on the left, ivory dorsal spines and an upright neck/head at the far right. Preserve its native twelve-cell footprint and mirroring. Built-in generation source and exact prompt are under art/generated/level3_green_creature_generated.png and level3_caves_prompts.json.
 
 Fish artwork remains exact. Cancel horizontal equilibrium dithering independently for each complete on-screen fish; preserve native fin/vertical movement. Do not use postprocessed or tracked video to claim an emulator repair.
+
+## Demonic Palace opening
+
+Dark navy/plum Gothic cavern arches, pale olive-gray limestone, crimson spiral columns with ivory caps, and distant cathedral vaults. Keep physical foreground edges readable against the darker panorama. Floating enemies are humanoid skeletons with connected skull/rib/arm joints; jade rocks roll through native phases. The pale jade/ivory serpent uses an independent head and body beads. Thunder uses white cores with violet/cobalt edges in the original staggered bolt footprint. Reuse accepted player, dragon, lava/ice and item sources. Exact prompts and registration are in art/generated/palace_prompts.json and art/level5/.

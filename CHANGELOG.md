@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.21.0 — Demonic Palace opening (review)
+
+- Add the recorded Gothic lava cavern and crimson spiral-column halls, skeletons/bones, jade rolling rocks and independently segmented serpent.
+- Add native Thunder bolt artwork and restore the missing H in THUNDER on the Start/pause menu.
+- Reuse approved lava/ice, player/HUD, pickups and dragon art. Preserve all earlier assets and native gameplay/audio.
+- Cover the first stair-hall entry only; later Level 5 rooms and boss await recording/review.
+
+
 ## 0.20.5 — Poison Moss background continuity
 
 - Approved and merged on 2026-10-27 through PRs #18–#25. All eight PR/main build pairs and sixteen downloaded artifacts pass. Adoption changes none of the 119 reviewed installation files; no release/tag is created.

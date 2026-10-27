@@ -166,3 +166,9 @@ Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-fra
 - `Holy_Diver_HD(20261027-171648).mmo`:1079 frames, SHA-256 `c5118bcc85b5b2867527fa5117e6ea101b55a0ada7d7126aaf0244f579fce663`. Room84C2 tree traversal; supplied unchanged.
 - Screenshot `Screenshot 2026-10-27 at 1.11.35 PM.png` identifies the handled health jug against the crimson cave. It is not a save/movie.
 - Cave regression wraps the unchanged20261024-155045 state (hash recorded above) and controller-only input;1800 frames. Resulting movie SHA-256 `5048ddbd8cb69a234b1f2df271ea8017b3bb1f3f95f924d9beb0cda02eb1d7f4`. It does not show the jug. Inputs remain outside Git.
+
+## Demonic Palace opening
+
+- User movie: `Holy_Diver_HD(20261027-212503).mmo`, SHA-256 `b87a147a8ec569edc72819b5dd9b567bd2f340f55d1e1bf457acbc0067a5e4bb`, 9,921 frames.
+- Local controller-only edge routes are reproduced with `scripts/make_level5_edge_routes.py`; embedded state bytes are unchanged. Input/state bytes remain ignored.
+- Prior-stage regression uses `Holy_Diver_HD(20261027-183338).mmo`, SHA-256 `5d45de08c3a9bf5bc72086363855f087557b593f695346122553b03208a18649`.

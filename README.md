@@ -1,5 +1,8 @@
 # Holy Diver HD
 
+**Demonic Palace opening — 0.21.0 review.** Adds the recorded lava cavern and crimson-column halls, skeletons, jade boulders, segmented serpent and Thunder effects. Restores the missing H in THUNDER. Approved art and gameplay remain intact. [Scope and verification](docs/LEVEL5_DEMONIC_PALACE.md). Main remains approved 0.20.5.
+
+
 **Approved 0.20.5 on `main` (merged 2026-10-27).** All eight PRs [#18](https://github.com/kgrant191/holy-diver-hd/pull/18)–[#25](https://github.com/kgrant191/holy-diver-hd/pull/25) are merged. All PR/main builds and sixteen downloaded install artifacts pass; all 119 approved pack files remain exact. See [adoption and verification](docs/LEVEL4_ADOPTION.md). Earlier review labels retain their historical context.
 
 **Background continuity — 0.20.5 review.** Completes the Poison Moss lava-corridor background checks so scenery remains visible as the camera scrolls. All approved 0.20.4 artwork remains exact. [Changes and verification](docs/BACKGROUND_CONTINUITY.md).

@@ -1,0 +1,42 @@
+{
+  "palace_boulder.png": {
+    "sha256": "c2611da2f1441e55b47a49de8243ec838ef7ce1ec0321f674363340aaf1d52c6",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  },
+  "palace_cavern.png": {
+    "sha256": "a2843f59d6802cb8038d6055993f5c505b7d9502b14fd34bbc0bef2b313ed9f6",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  },
+  "palace_column.png": {
+    "sha256": "68e9d7658263901ccf1bd186989db43bca879446fe3ba3e6f2dea871c66d61fb",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  },
+  "palace_interior.png": {
+    "sha256": "95e49befa4e38a1e45f1c9fe59d9ba9d838b52066e0225759177ba6dcdab942f",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  },
+  "palace_serpent.png": {
+    "sha256": "ddfd5cd098e9c22dbcb2e311795e8a384ba1d1d66f70be99536be21a23d844e3",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  },
+  "palace_skeleton.png": {
+    "sha256": "45c4ddc56aa8deac2e9869a42d4752c4a94c9708027baa76da0956dbeeb17b8d",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  },
+  "palace_stone.png": {
+    "sha256": "528bd0e926d97cdfc12cdcd46b88b0028864d2a1b2e7424b791ecffc7d536a38",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  },
+  "palace_thunder.png": {
+    "sha256": "8660290797f42e8c29b246d9c9742774d114fd15053efb736a8ebd626ba270a9",
+    "generator": "image_gen.imagegen",
+    "role": "source raster; not runtime screenshot"
+  }
+}

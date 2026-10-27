@@ -297,3 +297,7 @@ Use the supplied 8,668-frame movie against approved 0.15.0 and final 0.16.0. Pai
 ## Golden Temple foreground revision — 0.16.1
 
 Pair the full 8,668-frame recording and 1,485-frame input-only edge route against the final 0.16.0 captures. verify_level4_masonry.py requires exact native state/audio, changes confined to foreground cells, source block/column matches and unchanged panorama pixels. Keep the background/outdoor-column assets and previous mappings exact. Native 0B4E–0B51 destruction is documented from three live events. See LEVEL4_MASONRY.md.
+
+## Demonic Palace 0.21.0
+
+Use the supplied 20261027-212503 movie for the complete recorded opening, both Thunder casts, dragon flight and the 8816 stair-hall entry. Capture stride 2 for full native comparisons, and stride 1 for the derived controller edge routes. Keep the original embedded state. The 20261027-183338 movie is a prior-stage regression. verify_level5_replay.py compares RAM/PPU/OAM/view, APU writes and complete PCM, checks native blackouts and the one-cell H repair, and finds whole registered actor/effect sources in actual captures. Source matches and visual contact sheets complement each other. validate_pack.py retains every historical validator through a byte-exact 0.20.5 projection.

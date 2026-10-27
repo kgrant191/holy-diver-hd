@@ -1,0 +1,16 @@
+{
+  "left_stop_span": {
+    "frames": 660,
+    "sha256": "f8673dc51b1315fd62ddb11fbc337d0761036a45667bca568cbfc98d312aae23",
+    "input_sha256": "41079b2f0dbe6f2e4ecda0b17e85e552e0c9e8500614eab6c427619acf6f34e5",
+    "state_sha256": "93439b84cf9e915f5f239dad70cd9451812a1d48697dabde03dd849e4b59a56c",
+    "controller_only": true
+  },
+  "right_walkoff": {
+    "frames": 950,
+    "sha256": "dccc3d6ad3c5080a41842e15d4f4f5ee3388d5c1304d808020a7c9f3eb8ee49c",
+    "input_sha256": "68bc3484ccf91afc7bf907e62cdbcda83ac5179a9eb76dcda249d67003cbbb72",
+    "state_sha256": "93439b84cf9e915f5f239dad70cd9451812a1d48697dabde03dd849e4b59a56c",
+    "controller_only": true
+  }
+}

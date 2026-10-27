@@ -1,5 +1,14 @@
 # Holy Diver HD working instructions
 
+## Current review — Demonic Palace opening 0.21.0
+
+- Start from approved 0.20.5; work on feature/demonic-palace. Preserve 117 prior art/audio/patch assets and recover exact baseline mappings by stripping DEMONIC_PALACE blocks. Main remains approved 0.20.5.
+- Scope is 850A/18, 8672/04, 86EA/08, 8762/04 and only the 8816/04 entry. Use native 1100/1300 bank copies and full pose-conditioned 1000 actor aliases. The movie casts Thunder twice and shows dragon transformation/flight, but does not traverse the stair hall or later level/boss.
+- Skeleton shared cells and whole silhouettes stay connected. Keep independently moving worm segments and native bolt flips/footprints. Crimson column cap is 115C/D; shaft rows are 115E/F and 1160/61.
+- H repair is only 0946/0F072830 in pauseMagicRow. All new neighbor probes require ordered screen bounds. No native RAM/gameplay/audio edits. Keep full historical validation through the byte-exact baseline projection.
+- See docs/LEVEL5_DEMONIC_PALACE.md and evidence/level5/ for scope, actual replays and review status. No publication/merge is authorized by the level request.
+
+
 ## Approved baseline — 0.20.5 on main
 
 - The user approved 0.20.5 and requested a bundle and merge on 2026-10-27. PRs #18–#25 are merged into main in dependency order. All eight PR builds and eight merge builds pass; all sixteen downloaded artifacts match their complete manifests, archive digests, CRCs and flat install layouts. See evidence/stage4_adoption/ and docs/LEVEL4_ADOPTION.md.
