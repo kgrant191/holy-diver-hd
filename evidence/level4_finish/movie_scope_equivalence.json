@@ -1,0 +1,22 @@
+{
+  "change": "Move the same24 first-room stair rules before their old matching rules",
+  "moved_rules": 24,
+  "affected_rooms": [
+    "A865",
+    "AA09",
+    "AA81"
+  ],
+  "recorded_rooms": [
+    "0000",
+    "AE41",
+    "AEF5",
+    "AFA9",
+    "FFFF"
+  ],
+  "affected_rooms_absent_from_full_movie": true,
+  "all_other_mapping_lines_exact": true,
+  "all_artwork_exact": true,
+  "final_hires_sha256": "8cf0635f068de02496f77a3584617df7a0264b0b17d00ac93f97c241b474bb2a",
+  "tested_hires_sha256": "679c405cf927e344feaa8e2e8d7e0b22332b4c674c19731be3679464dab41452",
+  "full_movie_pixels_and_state_equivalent": true
+}

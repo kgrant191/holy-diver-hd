@@ -1,5 +1,21 @@
 # Current status
 
+## Approved continuation — 0.20.2
+
+The user approved0.20.2 on2026-10-27 and requested a separate cleanup for chapel-tree branch joins and the red cave health jug. All118 delivered installation files remain frozen. Main stays0.15.0; approval does not authorize publication or merge. See evidence/level4_transition/approval.json.
+
+## Golden Temple stairs and victory transition — 0.20.2 review
+
+Completes the ascending stair underside across all nine temple room scopes, preserving the accepted descending steps, upper landing surfaces and background art. Adds the Thunder tome/card, reuses the gold initial impact, keeps the tower and moving ledges HD through defeat fades, and retains the finished dragon silhouette through the following white travel flash. All114 earlier art/audio/patch assets remain exact; native state and full audio are compared in four paired recordings totaling20,428 frames per build and7,916 native samples/type. Main remains approved0.15.0; work stays on feature/golden-temple-boss without publication or merge. See docs/LEVEL4_TRANSITION.md and evidence/level4_transition/ for final verification, scope equivalence and coverage limits.
+
+## Golden Temple boss entrance and stairs — 0.20.1 review
+
+Restores the missing final-hall boss doorway with the existing entrance crown and dark opening. Smooths the reported descending stair underside across its existing temple mappings while preserving the standing surface and stone RGB. Adds one small atlas; all113 earlier art/audio/patch assets and recoverable0.20.0 mappings remain exact. Main remains approved0.15.0 and the work stays on feature/golden-temple-boss. No push, PR, merge or release is authorized. The full recording and final earlier-room edge test provide7889 paired native samples/type, exact full audio,235 complete stair-source matches and six full portals. All1125 boss-room images remain unchanged. The last priority-only move affects no room in the full recording; its exact scope-equivalence proof is retained. See docs/LEVEL4_FINISH.md for actual paired tests and their limits.
+
+## Golden Temple final halls and boss — 0.20.0 review
+
+Work is on feature/golden-temple-boss from frozen 0.19.1. Both new indoor halls reuse the finished temple panorama, repaired masonry/stairs, returning sentinels and visible item drops. New hovering rings and the bronze/teal eye tower retain native animation and hit timing. The boss room has the existing panorama at half brightness, complete moving stone platforms, HD Randy/HUD and native projectiles. Two paired replays pass 8,578 frames per build, with exact RAM/PPU/OAM/view samples and full PCM/APU. All 16 boss band/color combinations, returning sentinel poses and both ring phases match complete sources; moving-platform matches are restricted to the boss room. The earlier dragon route changes only inside the native ring sprites. All 115 install hashes and flat ZIP/CRC checks pass. Main remains approved 0.15.0; last explicit Level 4 approval 0.16.3. No push, PR, merge or release is authorized. The supplied movie ends with game over; boss defeat, any reward and later rooms remain untested. See docs/LEVEL4_FINALE.md.
+
 ## Golden Temple stray-pixel repair — 0.19.1 review
 
 The screenshot identifies one remaining native background tile, 0DF8/0F073703 in ACD9/mode18. It is a decorative ornament cell missed by the earlier scenery cleanup. Two scoped transparent mappings remove it in normal color and the corresponding native pickup-flash palette. Reuse the existing empty atlas cell; all112 earlier art/audio/patch assets remain exact. No new neighbor lookups. Work stays on feature/temple-dragon-items, awaiting review; main remains approved0.15.0. Both paired state routes pass1,597 frames per build, with exact native state/full audio and ornament-only visual changes. All114 hashes and flat ZIP/CRC checks pass. See docs/LEVEL4_RESIDUE.md and evidence/level4_residue/.

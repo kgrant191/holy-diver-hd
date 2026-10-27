@@ -1,5 +1,32 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.20.2
+
+The user approved the delivered0.20.2 pack on2026-10-27 and requested separate branch/potion cleanup. Preserve all118 frozen installation files during approval bookkeeping. Main stays approved0.15.0; no push, PR, merge or release is authorized. See evidence/level4_transition/approval.json.
+
+## Current repair — all temple stairs and victory transition 0.20.2
+
+- The user confirms the previously repaired stairs and now requests all remaining Golden Temple stair copies. Live nametables prove the ascending layout is 0B82,83 / 84,85, with exact 0D copies. Smooth that complete lower edge, preserving the entire upper half and RGB. The earlier hardcoded 83,82 / 81,80 assembly was not the actual ascending step. 80/81 and 86/87 also occur in decorative walls/windows and must not be globally restored.
+- Movie10 reaches boss defeat, Thunder acquisition, dragon travel and the start of Level5. Thunder is 0E8F–92/FF301116; use the violet/gold lightning tome and exact rendered THUNDER announcement guard. The movie does not cast Thunder.
+- AFA9 defeat uses hit palette0F001030, native31 flash and fade palettes0F0F0020/0F0F0F10/0F0F0F00. Clone complete tower signatures and neighbor palettes, retaining ordered bounds and native blackout. Explicit3F0F guards prevent faded art surviving into all-black frames. Reuse the accepted initial impact for byte-identical0E60–63.
+- AFE5 flight changes the finished dragon to FF303030. Reuse its exact registered alpha with white RGB and preserve native flash cadence. No change to Level5 scenery.
+- build_level4_transition.py adds a removable layer, atlas55 and the Thunder card; all114 previous art/audio/patch assets remain exact. Keep older validators and exact0.20.1 recovery. Native state/full audio and actual source matches are required. Main remains0.15.0; feature/golden-temple-boss is not published or merged.
+
+## Current repair — boss entrance and stair underside 0.20.1
+
+- The final AEF5 boss entrance uses the four-by-four 0DDF–E2 / 0D5B–68 crown and six blank rows beneath it. Earlier interior clones cleared the crown and opening. Restore the existing entrance crown and dark opening only in AEF5, in palettes 0F172737/0F071723. The lower two opening rows use 0F071723. Bounds must precede all upward tileNearby probes.
+- Smooth only the reported descending 0B7C–7F / 0D7C–7F step family. Preserve the full upper half, standing edge and exact stone RGB. The continuous lower diagonal supersedes the historical jagged native alpha requirement for this family. Other stair shapes remain unchanged.
+- build_level4_finish.py adds atlas54 and 144 removable overrides. All113 earlier art/audio/patch assets stay exact; stripping TEMPLE_FINISH recovers exact0.20.0 mappings. Keep every older validator.
+- Use paired actual recordings and the existing controller-only stair edge route with verify_level4_finish.py. Native state and full audio must match; boss-room images remain exact. Source branch stays feature/golden-temple-boss, main0.15.0; no publication or merge authorized.
+
+## Current continuation — Golden Temple finale 0.20.0
+
+- AE41 and AEF5/mode0C are indoor halls. Clone the complete repaired AC61 scenery into physical bank0D, including stair repairs and decorative-column removal. Return the finished0C sentinels, drops and HUD. Do not redraw accepted scenery.
+- AFA9/mode04 is the boss interior. The tower is background bank0F: three independently rotating7x4-cell bands, eight native layouts. Register each whole112x64 band before slicing; shared identities must not splice eyes from different phases. Preserve normal0F071727 and hit0F001030 timing. All tileNearby probes require ordered screen bounds.
+- Actor/HUD bank0E00–74 equals0A00–74. New conditional aliases precede existing ordinary rules; broad aliases remain last. Native0EB4–B7 moving ledges reuse complete64x32 accepted stone.0CB6–BD rings use two complete32x32 poses with one scale.
+- Reuse the existing interior panorama at half brightness in the boss room, with rendered guards that retain native transitions and death blackouts. Graphics only; never edit emulated RAM, input, collision, timing or audio.
+- Branch feature/golden-temple-boss starts at frozen0.19.1. Preserve all112 earlier art/audio/patch assets and exact recoverable mappings. Main remains approved0.15.0; last explicit Level4 approval0.16.3. No push, merge or release authorized. The supplied7591-frame movie ends at game over, not boss defeat. See docs/LEVEL4_FINALE.md and paired evidence.
+
 ## Current repair — stray ornament 0.19.1
 
 - The reported purple/ivory bars are background0DF8/0F073703 in ACD9/mode18, not a dragon sprite or ring enemy. The earlier pillar cleanup missed this ornament cell. build_level4_residue.py adds only two arena/palette-scoped empty mappings, including31073703 for native pickup flashes.

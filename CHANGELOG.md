@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.20.2 — Golden Temple stairs and victory transition
+
+- Smooth the ascending stair underside across nine Golden Temple room scopes, including physical-bank copies and pickup flashes. Preserve the accepted descending stairs and all standing edges.
+- Add a violet/gold Thunder pickup tome and matching acquisition card.
+- Keep the finished tower, platforms, actors and HUD through the three native defeat fades and pickup flash; reuse the earlier gold initial impact.
+- Keep the finished dragon silhouette during the following travel sequence's white flash.
+- Preserve all 114 previous art/audio/patch files, native gameplay and audio. No publication or merge.
+
+## 0.20.1 — 2026-10-27
+
+- Restore the final Golden Temple boss entrance, including both lower opening palettes.
+- Give the descending stairs a continuous underside while preserving their standing surface and existing material.
+- Preserve earlier artwork, native collision/timing/audio and the complete boss encounter rendering.
+
+
+## 0.20.0 — 2026-10-26 — review candidate
+
+- Extend the finished indoor panorama, repaired stone/stairs, clear drops and sentinels through the next two halls.
+- Add two complete gold/crimson ring poses, reusing them across proven identical native graphics.
+- Add the rotating eye-tower boss: eight complete band layouts, normal and native white-hit palettes, existing stone moving platforms, and a subdued temple backdrop.
+- Carry finished Randy/HUD and projectiles into the boss graphics bank. Preserve native movement, combat, flashes, transitions, death blackouts and audio; all112 earlier art/audio/patch assets remain exact.
+- The supplied recording ends with game over. Defeat, any reward and later rooms are outside this review.
+
 ## 0.19.1 — 2026-10-26 — review candidate
 
 - Remove the missed decorative 0DF8 tile in the outdoor dragon arena, including its pickup-flash palette.

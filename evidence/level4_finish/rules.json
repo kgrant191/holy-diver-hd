@@ -1,0 +1,10 @@
+{
+  "tile_rules": 144,
+  "conditions": 30,
+  "prior_assets_exact": 113,
+  "exact_previous_mapping_recovery": true,
+  "standing_surface_unchanged": true,
+  "continuous_stair_underside": true,
+  "bounded_neighbor_reads": 2605056,
+  "unsafe_reads": 0
+}

@@ -1,0 +1,147 @@
+{
+  "movie_sha256": "3d9355539a64b85318d12b5d598429378fdb2a174c216928aede17ccbbeed4a6",
+  "movie_frames": 987,
+  "native_samples_per_type": 987,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 3159328,
+  "pcm_sha256": "fe5c66110490f9822b092630fcf84b26e8101820fff7c791943cf251e158427d",
+  "apu_sha256": "2313138724515174ecc25f48eaffd745125ffd0b1194e18e48b86603111b1099",
+  "image_checks": {
+    "empty_initial": 1,
+    "unchanged": 577,
+    "changed": 409
+  },
+  "changed_pixels": 413763,
+  "background_samples": {},
+  "minimum_exact_panorama_pixels": {},
+  "complete_source_matches": {
+    "ring_0_False": 59,
+    "ring_1_False": 58,
+    "ring_1_True": 29,
+    "ring_0_True": 26
+  },
+  "source_examples": {
+    "ring_0_False": [
+      {
+        "frame": 335,
+        "positions": [
+          [
+            464,
+            180
+          ]
+        ]
+      },
+      {
+        "frame": 345,
+        "positions": [
+          [
+            398,
+            216
+          ]
+        ]
+      },
+      {
+        "frame": 350,
+        "positions": [
+          [
+            366,
+            234
+          ]
+        ]
+      }
+    ],
+    "ring_1_False": [
+      {
+        "frame": 340,
+        "positions": [
+          [
+            432,
+            198
+          ]
+        ]
+      },
+      {
+        "frame": 345,
+        "positions": [
+          [
+            468,
+            162
+          ]
+        ]
+      },
+      {
+        "frame": 350,
+        "positions": [
+          [
+            436,
+            180
+          ]
+        ]
+      }
+    ],
+    "ring_1_True": [
+      {
+        "frame": 475,
+        "positions": [
+          [
+            152,
+            190
+          ]
+        ]
+      },
+      {
+        "frame": 485,
+        "positions": [
+          [
+            218,
+            190
+          ]
+        ]
+      },
+      {
+        "frame": 490,
+        "positions": [
+          [
+            246,
+            190
+          ]
+        ]
+      }
+    ],
+    "ring_0_True": [
+      {
+        "frame": 480,
+        "positions": [
+          [
+            184,
+            190
+          ]
+        ]
+      },
+      {
+        "frame": 495,
+        "positions": [
+          [
+            274,
+            190
+          ]
+        ]
+      },
+      {
+        "frame": 505,
+        "positions": [
+          [
+            312,
+            190
+          ]
+        ]
+      }
+    ]
+  },
+  "death_actor_extent": null,
+  "earlier_changes_confined_to_rings": true,
+  "neighbor_diagnostic": "Enabled; no invalid read",
+  "coverage_limit": "Earlier dragon pickup/flight route; changes confined to updated rings"
+}

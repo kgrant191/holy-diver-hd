@@ -1,0 +1,47 @@
+{
+  "movie_frames": 298,
+  "native_samples_per_type": 298,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 958156,
+  "pcm_sha256": "38c0e3b9c3be733eaa5c44679a0bde42523964b6ee7961396e8f94a23e091712",
+  "apu_sha256": "b90b925213a7be935505aa05c124d976b6df6605e7ae02ba99a2d129a97b2677",
+  "movie_sha256": "a9cbddc46306b3229682e6f1b6d63bf54747fb629ac7889e292d210fd1894f5c",
+  "image_checks": {
+    "empty_initial": 1,
+    "door_or_stair_only": 297
+  },
+  "changed_pixels": 126738,
+  "changes_confined_to_door_and_stairs": true,
+  "complete_source_matches": {
+    "stairs": 68
+  },
+  "examples": {
+    "stairs": {
+      "frame": 20,
+      "positions": [
+        [
+          224,
+          64
+        ],
+        [
+          256,
+          96
+        ],
+        [
+          288,
+          128
+        ],
+        [
+          320,
+          160
+        ],
+        [
+          352,
+          192
+        ]
+      ]
+    }
+  }
+}

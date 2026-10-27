@@ -1,0 +1,17 @@
+{
+  "source": "actual synchronized MesenCE2.2.1 replays; labels outside unretouched game frames",
+  "fps": 60,
+  "segments": [
+    [
+      4400,
+      4879
+    ],
+    [
+      6140,
+      6339
+    ]
+  ],
+  "frames": 680,
+  "seconds": 11.333333333333334,
+  "audio": false
+}

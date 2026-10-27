@@ -1,0 +1,27 @@
+{
+  "frames": 723,
+  "fps": 30,
+  "seconds": 24.1,
+  "playback_speed": 1,
+  "game_images_unretouched": true,
+  "source_segments": [
+    [
+      420,
+      660,
+      "First indoor hall \u2014 returning sentinel and new rings"
+    ],
+    [
+      4500,
+      4740,
+      "Second indoor hall \u2014 finished scenery and stonework"
+    ],
+    [
+      6250,
+      7090,
+      "Boss encounter \u2014 rotating eyes, native hit flashes and moving platforms"
+    ]
+  ],
+  "final_still_frame": 6500,
+  "final_still_seconds": 2,
+  "silent": true
+}

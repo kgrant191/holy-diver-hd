@@ -1,0 +1,11 @@
+{
+  "movie_sha256": "2433571798b3e9a33794df42a8038ae372ab199149a839112a51e6a5a51c2a9e",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "emulator_version": "2.2.1",
+  "movie_completed": true,
+  "captured_frames": 7591,
+  "seconds_wall": 103.82460262699897,
+  "stride": 1,
+  "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "movie_frames": 7591
+}

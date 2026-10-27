@@ -1,0 +1,9 @@
+{
+  "native_aliases_exact": true,
+  "whole_registered_bands": 16,
+  "ordered_probe_geometries": 36,
+  "coordinate_cases": 2211840,
+  "safe_reads": 34436864,
+  "blocked_branches": 597248,
+  "unsafe_reads": 0
+}

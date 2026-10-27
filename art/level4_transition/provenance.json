@@ -1,0 +1,28 @@
+{
+  "source": "art/generated/temple_thunder_generated.png",
+  "generated_with": "image_gen.imagegen",
+  "transparent_background": true,
+  "reference": "art/generated/boss2_breaker_generated.png",
+  "prompt": "A matching Thunder spell tome for the Gothic NES HD remaster: closed deep royal violet leather book, antique gold corner fittings and spine bands, pale ivory pages, large bright ivory lightning bolt with restrained electric-blue edging. Same readable upright three-quarter near-frontal shape, dark outline, warm upper-left lighting, painted pixel-art texture. One centered book, fully visible on transparent background. No letters, labels, sparks, shadow or environment. Register inside original 32x32 HD pickup footprint.",
+  "other_artwork": "Reuse accepted stone RGB and upper-half alpha; continuous ascending lower edge. Reuse existing tower panels with palette brightness, native white silhouette from unchanged dragon alpha, existing intermission framing and font.",
+  "native_stair_layout": [
+    [
+      "0B82",
+      "0B83"
+    ],
+    [
+      "0B84",
+      "0B85"
+    ]
+  ],
+  "native_pickup_layout": [
+    [
+      "0E8F",
+      "0E90"
+    ],
+    [
+      "0E91",
+      "0E92"
+    ]
+  ]
+}

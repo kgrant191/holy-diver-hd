@@ -1,0 +1,35 @@
+{
+  "native_black_frame": 6254,
+  "fix": "Require a rendered tower cell instead of blank background0F00",
+  "changed_install_files": [
+    "hires.txt"
+  ],
+  "previous_hires_sha256": "711f9c9835155d584b921b1a93539f1e82bbb47f1d81fbc7a754e4082e2aa077",
+  "final_hires_sha256": "127ae964eb72a3dfb915db8a15ec34c6ed4de62306a787980dd43e0c4c2d1f5e",
+  "new_artwork_change": false,
+  "guard_positions": [
+    32,
+    96,
+    128,
+    160,
+    224
+  ],
+  "actual_changed_frames": [
+    6254,
+    6376,
+    6377,
+    6378,
+    6620,
+    6621,
+    6622,
+    6860,
+    6861,
+    6862,
+    7127,
+    7128,
+    7129
+  ],
+  "other_7578_images_exact": true,
+  "final_entry_blackout_exact": true,
+  "first_partial_band_background_visible": true
+}
