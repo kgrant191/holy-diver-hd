@@ -1,5 +1,13 @@
 # Current status
 
+## Approved continuation — 0.20.3
+
+The user approved the delivered 0.20.3 branch/potion cleanup on 2026-10-27, then supplied a separate boss-entry movie. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/tree_potion_cleanup/approval.json.
+
+## Branch/potion cleanup — 0.20.3 review
+
+Work is on feature/tree-potion-cleanup from approved0.20.2. Both chapel branch directions now join into the trunk with registered original-tree shoulders. The handled red health jug has brighter ivory/gold edges and glass highlights. All116 prior art/audio/patch assets remain exact. Two paired replays pass2879 native samples/type with exact full audio;199 complete opaque join matches verify the attachments. The jug is not in either recording, so its checks are artwork/native-alias checks and the preview labels it accordingly. Main remains0.15.0; no publication or merge. See docs/TREE_POTION_CLEANUP.md.
+
 ## Approved continuation — 0.20.2
 
 The user approved0.20.2 on2026-10-27 and requested a separate cleanup for chapel-tree branch joins and the red cave health jug. All118 delivered installation files remain frozen. Main stays0.15.0; approval does not authorize publication or merge. See evidence/level4_transition/approval.json.

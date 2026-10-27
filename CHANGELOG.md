@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.20.3 — Tree branches and potion visibility
+
+- Register original-tree shoulders at both chapel branch attachment points, retaining the native branch surfaces and surrounding scenery.
+- Brighten the handled red health jug with ivory highlights and pale-gold fittings across its five native copies.
+- Preserve approved0.20.2 and all116 earlier art/audio/patch files. Paired tree/cave tests retain native state and full audio; potion live coverage is explicitly unverified.
+
 ## 0.20.2 — Golden Temple stairs and victory transition
 
 - Smooth the ascending stair underside across nine Golden Temple room scopes, including physical-bank copies and pickup flashes. Preserve the accepted descending stairs and all standing edges.

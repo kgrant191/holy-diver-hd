@@ -31,15 +31,20 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
-assert len(imgs)==56
+assert len(imgs)==57
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+from verify_cleanup_rules import verify as verify_cleanup_rules, strip as strip_cleanup, ADDED as cleanup_files
+cleanup_report=verify_cleanup_rules(root,pack)
+content=strip_cleanup(content)
+counts['tile']-=cleanup_report['tile_rules'];counts['condition']-=cleanup_report['conditions']
+cleanup_inventory={p.name for p in pack.iterdir()if p.is_file()}-cleanup_files
 from verify_transition_rules import verify as verify_transition_rules, strip as strip_transition, ADDED as transition_files
-transition_report=verify_transition_rules(root,pack)
+transition_report=verify_transition_rules(root,pack,content,cleanup_inventory)
 content=strip_transition(content)
 for key,field in [('tile','tile_rules'),('condition','conditions'),('background','background_rules')]:counts[key]-=transition_report[field]
-transition_inventory={p.name for p in pack.iterdir()if p.is_file()}-transition_files
+transition_inventory=cleanup_inventory-transition_files
 from verify_finish_rules import verify as verify_finish_rules
 finish_report=verify_finish_rules(root,pack,content,transition_inventory)
 for section in ['IMAGES','CONDITIONS','MAPPINGS','EARLY_STAIRS']:
