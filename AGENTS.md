@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.20.3
+
+The user approved the delivered 0.20.3 branch/potion cleanup on 2026-10-27, then supplied a separate boss-entry movie. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/tree_potion_cleanup/approval.json.
+
 ## Current cleanup — 0.20.3
 
 - Branch joins are chapel84C2/mode04, not the Level3 tree. Preserve native0122/0123/014D/014E and015B–015E branch strips and standing edges; only their adjacent trunk shoulders change. Use the original whole-tree source and bounded native-neighbor context.
