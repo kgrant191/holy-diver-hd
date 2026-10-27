@@ -1,5 +1,9 @@
 # Art direction
 
+## Dragon and readable items — 0.19.0
+
+Use a long emerald dragon with bronze/gold wing membranes, coherent raised/folded wings, and a readable open-jaw firing pose. Register whole poses before slicing; shared native cells remain identical. Use the same emerald/gold identity for its pickup medallion. Give the staff a thicker ivory/gold shaft, emerald crown and dark outline; use the same art in its menu slot. Small heart/crystal drops have ivory highlights and navy edges. Remove the user's identified non-solid foreground columns, exposing the accepted backdrop; retain actual platforms and stairs. This supersedes the earlier instruction to retain those decorative column overlays.
+
 ## Staff hall and outdoor arena — 0.18.0
 
 Reuse the accepted temple backgrounds, worn solid stone, cracked breakables and complete carved ornaments. Keep the staff slender and gold with a curled head and green inset; use the same registered source in the pickup and menu. The outdoor sentinel has crimson armor, brass trim and a closed helmet, with coherent steps and chest-cannon attack inside its original native footprint. Preserve shared torso pixels, full joints, native mirrors and hit flashes. No new scenery art is needed.

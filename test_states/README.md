@@ -134,3 +134,11 @@ Holy_Diver_HD(6).mmo: 8,668 frames, SHA-256 `f413a215567b622fad4cea7dfce4561a05e
 ## Golden Temple staff recording — 0.18.0
 
 `Holy_Diver_HD(8).mmo`: 3,632 frames, Mesen 2.2.1 / MovieFormat3, SHA-256 `478f9616cf0ea3073f2e99930e80b83f634a2a927b99b5ab5efde869fcacddda`. Embedded state SHA-256 `346d0d8f28de7d24a7ab316a5fbd8210df438ca45dfd41513d4c56c362d09def`. Uses the supported translated ROM. Covers AC61 climb/staff/menu and ACD9 outdoor encounter through player death. Input bytes stay outside Git.
+
+## Golden Temple dragon states — 0.19.0
+
+`Holy_Diver_HD_1(20261026-202217).mss`: 8566 bytes, SHA-256 `60d0239de5d7dcc983b7d0e81dd738edc08da8eb68b340de9f57f37cf09c683a`.
+
+`Holy_Diver_HD_1(20261026-202440).mss`: 8566 bytes, SHA-256 `60d0239de5d7dcc983b7d0e81dd738edc08da8eb68b340de9f57f37cf09c683a`.
+
+Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-frame flight route uses the 202440 state; the 610-frame A-button route uses 202217. Reproduce controller inputs with `scripts/make_level4_dragon_routes.py`, using the matching state and original movie8 settings. Input/state hashes are in evidence/level4_dragon/inputs.json. Inputs stay outside Git.

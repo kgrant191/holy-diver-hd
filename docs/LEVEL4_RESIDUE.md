@@ -1,0 +1,15 @@
+# Golden Temple stray-pixel repair — 0.19.1 review
+
+The supplied screenshot shows purple, ivory and brown bars beside the flying dragon. This is the native background tile 0DF8 in palette 0F073703, in ACD9/mode18. It is reproducible in the retained flight route (for example frame 650). The other cells of that decorative ornament were already transparent; F8 was missed, leaving a floating 16x16 patch. It is unrelated to the dragon animation or the native ring enemies.
+
+`build_level4_residue.py` adds two rules: 0DF8/0F073703 and its native pickup-flash counterpart 31073703, both scoped to ACD9/mode18. They reuse atlas 50's existing transparent cell. No artwork is painted, no neighbor condition is added, and no other tile/room is cleared. All 112 earlier art/audio/patch assets remain byte-exact. Stripping the single TEMPLE_RESIDUE block restores exact 0.19.0 hires.txt; the installation still contains 114 flat files.
+
+The stable flight inventory contains 291 visible samples of the missing tile, beginning at the right screen edge. Other unmapped palettes found at frames 944–946 belong to the native pause-return transition and are retained. The screenshot hash and diagnostic inventory are recorded in evidence/level4_residue/.
+
+Both unchanged user states are replayed using the same controller-only 987-frame flight and 610-frame A-button routes as 0.19.0. `verify_level4_residue.py` requires exact RAM, PPU, OAM, view metadata, APU writes and full PCM. Every changed pixel must lie within the observed F8 footprint and match the existing exterior panorama exactly. Pixels belonging to the dragon, shots, rings, physical masonry, HUD and menus must remain unchanged. Actual before/after evidence uses unretouched emulator frames; the detail crops are enlarged with nearest-neighbor scaling.
+
+Run `python build.py`, `python scripts/verify_release.py`, and paired `scripts/verify_level4_residue.py --before BASELINE --after CANDIDATE --out REPORT`. Tests use stock MesenCE 2.2.1, one process at a time, private immutable pack copies and the existing invalid-neighbor diagnostic. No RAM edits, ROM edits or gameplay/audio changes are introduced. The normal-color cleanup is live-tested; the corresponding flash rule is statically checked because the tile is offscreen during the recorded pickup flash.
+
+This is a review candidate on feature/temple-dragon-items based on frozen 0.19.0 commit 9a345939. Main remains approved 0.15.0; last explicit Level 4 approval remains 0.16.3. No push, PR, merge or release is performed. The source bundle retains the same four Level 4 feature refs, with main 2f38abeb as prerequisite. Later areas and the ring enemies remain outside this repair.
+
+Final checks pass **1,597 frames per build**: 339 pictures change only in the missed ornament cell, 1,256 remain exactly identical, and both initial empty screenshots agree. Every changed pixel matches the accepted background. All native state and 5,114,240 full PCM bytes match exactly, with identical APU writes. The clean build, all 114 hashes and flat ZIP/CRC checks pass.

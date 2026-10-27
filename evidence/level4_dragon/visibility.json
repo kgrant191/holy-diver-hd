@@ -1,0 +1,12 @@
+{
+  "level4_staff": {
+    "opaque_pixels": 104,
+    "bright_pixels_rgb_mean_above150": 4,
+    "shaft_opaque_pixels_rows12_to28": 36
+  },
+  "level4_dragon": {
+    "opaque_pixels": 178,
+    "bright_pixels_rgb_mean_above150": 39,
+    "shaft_opaque_pixels_rows12_to28": 74
+  }
+}

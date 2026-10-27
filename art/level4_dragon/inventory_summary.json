@@ -1,0 +1,15 @@
+{
+  "captures": [
+    "dragon_flight_before",
+    "dragon_a_before"
+  ],
+  "complete_pose_layouts": 3,
+  "form_palettes": {
+    "FF190927": 17272
+  },
+  "physical_arena_background_bank": "0D",
+  "body_size": [
+    112,
+    48
+  ]
+}

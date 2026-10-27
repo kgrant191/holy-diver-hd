@@ -1,0 +1,101 @@
+{
+  "movie_sha256": "ba05a820ddbbcbd84091efc5bd77a1f17b4e342374d64048650fe91b1cb54127",
+  "movie_frames": 610,
+  "native_samples_per_type": 610,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 1954912,
+  "pcm_sha256": "737355eb5ce8ea351d61ef1448a53e8fdcbc4be27986075f203f5f232bfad1a2",
+  "apu_sha256": "23bd80c93d30ff4f35f57418bb5feb00cf9645797d77cccb5b31c913fdbe215d",
+  "image_checks": {
+    "empty_initial": 1,
+    "identical": 561,
+    "ornament_only": 48
+  },
+  "changed_pixels": 11008,
+  "changes_confined_to_F8": true,
+  "all_changed_pixels_match_existing_panorama": true,
+  "examples": [
+    {
+      "frame": 343,
+      "changed_pixels": 32,
+      "native_positions": [
+        [
+          506,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 344,
+      "changed_pixels": 96,
+      "native_positions": [
+        [
+          504,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 345,
+      "changed_pixels": 128,
+      "native_positions": [
+        [
+          500,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 346,
+      "changed_pixels": 192,
+      "native_positions": [
+        [
+          498,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 347,
+      "changed_pixels": 224,
+      "native_positions": [
+        [
+          494,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 348,
+      "changed_pixels": 256,
+      "native_positions": [
+        [
+          492,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 349,
+      "changed_pixels": 256,
+      "native_positions": [
+        [
+          488,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 350,
+      "changed_pixels": 256,
+      "native_positions": [
+        [
+          486,
+          288
+        ]
+      ]
+    }
+  ]
+}

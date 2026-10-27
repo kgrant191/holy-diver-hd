@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen",
+  "sources": [
+    "art/room2/heart_hd.png",
+    "art/room2/magic_hd.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Asset type: two readable collectible item sprites for Holy Diver HD, each will be reduced to 16 by 16 pixels. The first supplied image is the existing red health heart; the second is the existing blue magic gem. Keep their identities, colors, compact silhouette and simple detailed Gothic pixel-art style. Make a transparent two-item source sheet, health heart on the left and blue magic gem on the right, with ample clear space between them. Improve contrast against gold architecture: strong deep-navy outer contours, a narrow bright ivory rim, saturated ruby or sapphire body, crisp white glints. The heart must be a symmetric heart with two lobes and a pointed bottom. The magic gem must be a compact rounded blue jewel, with clear facets and a pointed glint, not a bottle. Use chunky deliberate color clusters readable at 16px; fully opaque interiors, genuine transparent background. No scenery, text, labels, frames, shadows on the ground or diffuse glow. Exactly these two items."
+}

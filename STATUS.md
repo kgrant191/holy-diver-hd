@@ -1,5 +1,13 @@
 # Current status
 
+## Golden Temple stray-pixel repair — 0.19.1 review
+
+The screenshot identifies one remaining native background tile, 0DF8/0F073703 in ACD9/mode18. It is a decorative ornament cell missed by the earlier scenery cleanup. Two scoped transparent mappings remove it in normal color and the corresponding native pickup-flash palette. Reuse the existing empty atlas cell; all112 earlier art/audio/patch assets remain exact. No new neighbor lookups. Work stays on feature/temple-dragon-items, awaiting review; main remains approved0.15.0. Both paired state routes pass1,597 frames per build, with exact native state/full audio and ornament-only visual changes. All114 hashes and flat ZIP/CRC checks pass. See docs/LEVEL4_RESIDUE.md and evidence/level4_residue/.
+
+## Golden Temple dragon and item visibility — 0.19.0 review
+
+Work is on `feature/temple-dragon-items` from frozen0.18.0. New emerald/gold dragon pickup and three native flying/firing poses retain shared body cells and native mirroring. Staff and small health/magic drops have brighter silhouettes; the same staff is used in the menu. Identified non-solid foreground columns are cleared across recorded temple rooms, exposing the unchanged background. Physical stonework/stairs remain exact. Main stays approved0.15.0; last explicit Level4 approval remains0.16.3. No push, PR, merge or release is authorized. All five paired replays pass: 18,283 frames per build, 7,774 native samples per type, exact full audio, and image changes confined to requested artwork. All 114 install hashes, flat ZIP/CRC and clean rebuild checks pass. See docs/LEVEL4_DRAGON.md and evidence/level4_dragon/ for details and limits.
+
 ## Golden Temple staff hall and outdoor arena — 0.18.0 review
 
 Work is on `feature/golden-temple-staff` from the frozen 0.17.0 continuation. The newly recorded AC61 climb now retains its interior panorama and complete upper ornaments. The staff pickup and Start-menu icon share one source. ACD9/mode18 uses the outdoor scenery and the physical 0D background bank; the 0C actor bank reuses finished Randy/HUD poses and adds the recorded armored sentinel. Main remains approved 0.15.0, and 0.16.3 remains the last explicitly approved Level 4 pack. No push, PR, merge or release is requested. Paired checks pass 8,018 frames per build and 4,009 native samples per type, with exact full audio and all 2,193 earlier images. All 113 install hashes and flat ZIP checks pass. See docs/LEVEL4_STAFF.md and evidence/level4_staff/ for the final paired checks. The recording ends with player death; sentinel victory and later rooms remain untested.

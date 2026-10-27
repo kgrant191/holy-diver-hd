@@ -1,0 +1,53 @@
+{
+  "frames": 786,
+  "fps": 30,
+  "seconds": 26.2,
+  "playback_speed": 1,
+  "game_images_unretouched": true,
+  "segments": [
+    [
+      "flight",
+      2,
+      360,
+      2,
+      "Dragon pickup, transformation and fire breath"
+    ],
+    [
+      "flight",
+      460,
+      800,
+      2,
+      "Raised / folded wings, both directions and native damage blinking"
+    ],
+    [
+      "hall",
+      900,
+      1200,
+      2,
+      "Brighter staff and small recovery drops"
+    ],
+    [
+      "hall",
+      1540,
+      1640,
+      2,
+      "The same staff in the Start menu"
+    ],
+    [
+      "opening",
+      520,
+      760,
+      4,
+      "Decorative columns removed \u2014 background revealed"
+    ],
+    [
+      "courtyard",
+      2620,
+      2720,
+      2,
+      "Earlier outdoor courtyard \u2014 physical stonework retained"
+    ]
+  ],
+  "final_still_seconds": 2,
+  "silent": true
+}

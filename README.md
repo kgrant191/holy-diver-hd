@@ -1,5 +1,9 @@
 # Holy Diver HD
 
+**Golden Temple stray-pixel repair — 0.19.1 review.** Removes the missed original ornament tile floating in the outdoor dragon area. All artwork remains unchanged. [Repair and tests](docs/LEVEL4_RESIDUE.md).
+
+**Golden Temple dragon and visibility — 0.19.0 review.** Updates the dragon pickup, flying/firing animations and fire breath. Improves the staff and small recovery drops, and removes decorative foreground columns so the scenery shows through. [Coverage and tests](docs/LEVEL4_DRAGON.md).
+
 **Golden Temple staff hall and arena — 0.18.0 review.** Keeps the interior background visible through the recorded climb, completes the upper ornaments, and gives the staff pickup and Start-menu icon matching gold artwork. The following arena uses the outdoor scenery, HD player/HUD and a crimson armored sentinel. [Coverage and tests](docs/LEVEL4_STAFF.md).
 
 **Golden Temple continuation — 0.17.0 review.** Extends the approved art through the next hall, outdoor fire-chain courtyard and recorded temple re-entry. Adds silver-white wings and fiery chain beads; reuses the existing temple scenery, stonework and restored stairs. [Coverage and tests](docs/LEVEL4_COURTYARD.md).

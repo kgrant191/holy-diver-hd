@@ -1,0 +1,5 @@
+{
+  "tool": "image_gen",
+  "source": "art/generated/player_dragon_raised.png",
+  "prompt": "Use case: precise-object-edit. Asset type: firing-mouth animation variant of this exact player dragon. Keep the entire dragon and raised wings exactly as in the input: position, scale, tail, legs, torso, wing shapes, upper skull, eyes and horns must stay fixed. Change ONLY the lower jaw at the far-right snout: open the mouth downward into a clearly readable fire-breathing pose with small ivory teeth and a dark warm mouth interior. Do not include a flame or projectile, because the game animates those separately. The upper jaw must not move; only the hinged lower jaw opens into the previously transparent space beneath the snout. Keep its lowest tip no lower than the existing lowest claws. Same detailed emerald/bronze Gothic pixel art, same canvas, genuine transparency. No text, labels, other sprites, background, ground or shadow."
+}

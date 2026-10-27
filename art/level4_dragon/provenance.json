@@ -1,0 +1,38 @@
+{
+  "generated_sources": [
+    {
+      "file": "art/generated/player_dragon_raised.png",
+      "sha256": "561dfaae2618be176076d4791238abce375a6e938caa0558cb3b6aecd8367225",
+      "prompt": "art/generated/player_dragon_raised_prompt.json"
+    },
+    {
+      "file": "art/generated/player_dragon_folded.png",
+      "sha256": "3899ac4bb54e9bfb7178142c911c3798798fdfe5bc2d974ac5b6cecae834d8d3",
+      "prompt": "art/generated/player_dragon_folded_prompt.json"
+    },
+    {
+      "file": "art/generated/player_dragon_firing.png",
+      "sha256": "8abc96c4536b1941f939daab1e5569023a63f18c49c0d232bb0bfb2b90964641",
+      "prompt": "art/generated/player_dragon_firing_prompt.json"
+    },
+    {
+      "file": "art/generated/dragon_pickup.png",
+      "sha256": "2e6b576d580eccf491455487dc3ff00c71c5a75ef7c30a7587baea26acb89607",
+      "prompt": "art/generated/dragon_pickup_prompt.json"
+    },
+    {
+      "file": "art/generated/temple_staff_visible.png",
+      "sha256": "abdf5572ed0f0a5f900b1805a46954137131c4b2d50f833e4cc0cff0e1322b34",
+      "prompt": "art/generated/temple_staff_visible_prompt.json"
+    },
+    {
+      "file": "art/generated/temple_drops_visible.png",
+      "sha256": "d8e3c06fe50d27bf6e929df7ed3b1b272e4fe32662e4861d6ea1d3744c624eb5",
+      "prompt": "art/generated/temple_drops_visible_prompt.json"
+    }
+  ],
+  "reused_fire_source": "art/boss1/boss_fireball_registered.png",
+  "reused_twinkle_source": "Death_Bursts_2x.png",
+  "whole_pose_registration": "scripts/prepare_player_dragon.py",
+  "no_runtime_painting": true
+}

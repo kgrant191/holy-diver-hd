@@ -1,0 +1,101 @@
+{
+  "movie_sha256": "3d9355539a64b85318d12b5d598429378fdb2a174c216928aede17ccbbeed4a6",
+  "movie_frames": 987,
+  "native_samples_per_type": 987,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 3159328,
+  "pcm_sha256": "fe5c66110490f9822b092630fcf84b26e8101820fff7c791943cf251e158427d",
+  "apu_sha256": "2313138724515174ecc25f48eaffd745125ffd0b1194e18e48b86603111b1099",
+  "image_checks": {
+    "empty_initial": 1,
+    "identical": 695,
+    "ornament_only": 291
+  },
+  "changed_pixels": 70327,
+  "changes_confined_to_F8": true,
+  "all_changed_pixels_match_existing_panorama": true,
+  "examples": [
+    {
+      "frame": 338,
+      "changed_pixels": 32,
+      "native_positions": [
+        [
+          506,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 339,
+      "changed_pixels": 96,
+      "native_positions": [
+        [
+          504,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 340,
+      "changed_pixels": 128,
+      "native_positions": [
+        [
+          500,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 341,
+      "changed_pixels": 192,
+      "native_positions": [
+        [
+          498,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 342,
+      "changed_pixels": 224,
+      "native_positions": [
+        [
+          494,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 343,
+      "changed_pixels": 256,
+      "native_positions": [
+        [
+          492,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 344,
+      "changed_pixels": 256,
+      "native_positions": [
+        [
+          488,
+          288
+        ]
+      ]
+    },
+    {
+      "frame": 345,
+      "changed_pixels": 256,
+      "native_positions": [
+        [
+          486,
+          288
+        ]
+      ]
+    }
+  ]
+}

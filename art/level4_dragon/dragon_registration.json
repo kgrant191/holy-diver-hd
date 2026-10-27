@@ -1,0 +1,26 @@
+{
+  "size": [
+    112,
+    48
+  ],
+  "common_source_box": [
+    40,
+    60,
+    1882,
+    786
+  ],
+  "fit": {
+    "width": 110,
+    "height": 42,
+    "x": 1,
+    "y": 4
+  },
+  "clipped_pixels": 0,
+  "shared_native_cells_exact": true,
+  "pose_names": [
+    "pose_0",
+    "pose_1",
+    "pose_2"
+  ],
+  "native_gameplay_modified": false
+}

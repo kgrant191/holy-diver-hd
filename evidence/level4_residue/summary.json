@@ -1,0 +1,21 @@
+{
+  "version": "0.19.1",
+  "paired_routes": 2,
+  "frames_per_build": 1597,
+  "native_samples_per_type": 1597,
+  "changed_images": 339,
+  "identical_images": 1256,
+  "empty_initial_images": 2,
+  "changed_pixels": 81335,
+  "exact_pcm_bytes": 5114240,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "all_differences_confined_to_ornament": true,
+  "all_changed_pixels_match_panorama": true,
+  "prior_assets_byte_exact": 112,
+  "installed_files": 114,
+  "neighbor_diagnostic": "Both replays completed with no invalid read",
+  "no_new_neighbor_lookups": true,
+  "flash_rule": "Statically validated; target cell is offscreen during recorded pickup flash"
+}

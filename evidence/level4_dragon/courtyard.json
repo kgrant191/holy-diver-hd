@@ -1,0 +1,27 @@
+{
+  "movie_sha256": "29cd437918e57c146d039d15bfb0f22a0cc536a4b1ccbcf85a49ce490e55626b",
+  "movie_frames": 4386,
+  "native_samples_per_type": 2193,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_bytes": 14018244,
+  "pcm_sha256": "39c787815107095c415118abfb6c92a46ed57b5312248f0b437acf9e6e0f7053",
+  "apu_sha256": "704ad574bf011e3f738a1efb8bf34b277144f3cc75fd61540f6eb89be1371698",
+  "image_checks": {
+    "identical": 1603,
+    "native_black": 10,
+    "scoped_changes": 590
+  },
+  "changes_confined_to_requested_artwork": true,
+  "panorama_samples": {
+    "AA81": 47,
+    "AAF9": 1234,
+    "AB71": 670,
+    "AC61": 17
+  },
+  "native_flash_samples": 0,
+  "complete_source_matches": {},
+  "source_examples": {},
+  "neighbor_diagnostic": "Enabled during replay; no invalid read reported"
+}

@@ -1,0 +1,14 @@
+{
+  "frame": 650,
+  "source_before": "../work/dragon_flight_after",
+  "source_after": "../work/residue_flight",
+  "game_images_unretouched": true,
+  "detail_crop": [
+    432,
+    280,
+    480,
+    328
+  ],
+  "detail_scale": 3,
+  "detail_resampling": "nearest"
+}
