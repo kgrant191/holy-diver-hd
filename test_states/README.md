@@ -126,3 +126,7 @@ Holy_Diver_HD(6).mmo: 8,668 frames, SHA-256 `f413a215567b622fad4cea7dfce4561a05e
 ## Golden Temple missing stairs — 2026-10-26
 
 `Holy_Diver_HD_1(20261026-181741).mss`: 9,478 bytes, SHA-256 `1e572fa95b436b4276051354d5fc19b409194fd5b57aabbcd05ec12b0c03ed4b`. Starts at the lower landing of the descending AA09 stair flight. Keep unchanged and outside Git. `make_level4_stair_routes.py` uses this exact state with the existing movie settings for controller-only inspection, walk and jump/return routes. See docs/LEVEL4_STAIRS.md.
+
+## Golden Temple hall and courtyard — 0.17.0
+
+`Holy_Diver_HD(7).mmo`, 11,080 bytes, SHA-256 `29cd437918e57c146d039d15bfb0f22a0cc536a4b1ccbcf85a49ce490e55626b`. Contains 4,386 frames and the unchanged embedded state SHA-256 `855cf65f46c13a942c55a7e01f696b6983855b8b5c157e28e4fc1b25ef64c6c4`. Use `run_mesen_movie.py --stride 2` with the native MesenCE 2.2.1 core, HD configuration and synchronized screenshot/audio observer. Covers AAF9, AB71 and AC61 arrival. Binary input is excluded from Git. Earlier regression uses the retained 8,668-frame `Holy_Diver_HD(6).mmo` at stride four. See docs/LEVEL4_COURTYARD.md.

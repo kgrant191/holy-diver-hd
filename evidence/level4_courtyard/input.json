@@ -1,0 +1,11 @@
+{
+  "filename": "Holy_Diver_HD(7).mmo",
+  "bytes": 11080,
+  "sha256": "29cd437918e57c146d039d15bfb0f22a0cc536a4b1ccbcf85a49ce490e55626b",
+  "frames": 4386,
+  "embedded_state_sha256": "855cf65f46c13a942c55a7e01f696b6983855b8b5c157e28e4fc1b25ef64c6c4",
+  "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+  "emulator_version": "2.2.1",
+  "movie_format": 3,
+  "ram_edits": false
+}

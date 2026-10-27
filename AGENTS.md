@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current continuation — Golden Temple courtyard 0.17.0
+
+- AAF9/mode08 is indoors; AB71/mode10 is outdoors; the recorded AC61/mode04 re-entry is indoors. The rest of AC61 is not traversed. Clone final 0.16.3 rules, including ordered bounds and stair repairs, rather than the original 0.16.0 builder.
+- Room palettes distinguish decoration from physical cells: AAF9 0F071723 windows reuse staircase patterns. These are decoration; 0F172737 is the recorded solid palette. AB71 clouds/fences are decoration; native 0B92–0BA1 forms the four-by-four statue.
+- Wings are 0A92/0A93 in a 32x16 HD footprint; eight byte-identical banks are proven. Fire-chain beads are 0AE1/FF162830, each independently moved by native OAM. Never replace the whole moving chain with a static ring.
+- New atlas50 leaves every earlier asset unchanged. Keep exact recovery of 0.16.3 and all older validators. Work remains pending review, no merge or release authorized.
+
 ## Approved continuation baseline — 0.16.3
 
 - On 2026-10-26 the user accepted the delivered repair ("ok good") and requested the next recorded rooms. Preserve all 111 installed files as the reviewed baseline; approval bookkeeping must not alter the frozen installed README. Main remains 0.15.0; no push/merge/release is authorized. See evidence/level4_stairs/approval.json.

@@ -1,9 +1,9 @@
-HOLY DIVER HD 0.16.3 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.17.0 — DEVELOPMENT REVIEW CANDIDATE
 
-Restores the descending temple stairs that were incorrectly cleared as
-background decoration. Reuses the existing gold stone and native step shape.
-Preserves the temple-entry crash fix, HD item drops, backgrounds, pillars,
-other masonry and Overdrive fixes.
+Extends the approved Golden Temple artwork through the next indoor hall,
+the outdoor fire-chain courtyard, and the recorded temple re-entry.
+Adds silver-white wings and fiery chain orbs. Reuses the approved scenery,
+stonework, stairs and carved columns, preserving the temple-entry crash fix.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

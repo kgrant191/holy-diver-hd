@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Golden Temple continuation — 0.17.0 review.** Extends the approved art through the next hall, outdoor fire-chain courtyard and recorded temple re-entry. Adds silver-white wings and fiery chain beads; reuses the existing temple scenery, stonework and restored stairs. [Coverage and tests](docs/LEVEL4_COURTYARD.md).
+
 **Golden Temple stairs — 0.16.3 review.** Restores the stair flight incorrectly cleared as decoration, using existing gold stone and its native outline. Preserves the entry-crash fix and HD item drops. [Repair and tests](docs/LEVEL4_STAIRS.md).
 
 **Golden Temple repair — 0.16.2 review.** Bounds-checks indoor pillar lookups to avoid a one-past-screen read on temple entry. Small health/magic drops reuse the finished heart/crystal art. All 0.16.1 artwork remains exact. [Diagnosis and verification](docs/LEVEL4_REPAIRS.md).
