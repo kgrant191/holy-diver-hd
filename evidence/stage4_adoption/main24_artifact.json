@@ -1,0 +1,15 @@
+{
+  "name": "main24",
+  "version": "0.20.4",
+  "pr": 24,
+  "run_id": 40568963197,
+  "head_sha": "4d8ddf3d5d270eb657178b51d4b8a313b9a910a1",
+  "artifact_id": 12765195966,
+  "artifact_sha256": "sha256:146dcbc9e28dd27597f4b97b7c3788e9118ef4923e78343e49ca3234fe9b33a4",
+  "url": "https://github.com/kgrant191/holy-diver-hd/actions/runs/40568963197/artifacts/12765195966",
+  "root_file_count": 119,
+  "all_expected_hashes_match": true,
+  "crc_valid": true,
+  "nested_zip": false,
+  "downloaded_and_independently_verified": true
+}

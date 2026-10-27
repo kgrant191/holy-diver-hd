@@ -1,10 +1,11 @@
 # Holy Diver HD working instructions
 
-## Approved 0.20.5 — source handoff and merge authorized
+## Approved baseline — 0.20.5 on main
 
-- On 2026-10-27 the user said "approved.  lets make a bundle and merge". The complete delivered 0.20.5 pack and cumulative eight-branch continuation are approved for PR adoption and merge. This authorization supersedes historical no-publication/no-merge labels below; do not ask for merge permission again.
-- Preserve all 119 reviewed installation files, including the frozen installed README. Approval changes source documentation only. See evidence/background_continuity/approval.json.
-- GitHub main is still 0.15.0; the eight new feature branches were absent when checked. Prepare the incremental ZIP-wrapped bundle for the user's local push, then use the integration for PRs, Actions and merges in dependency order. Verify actual PR/main artifacts before recording adoption. No release/tag was requested.
+- The user approved 0.20.5 and requested a bundle and merge on 2026-10-27. PRs #18–#25 are merged into main in dependency order. All eight PR builds and eight merge builds pass; all sixteen downloaded artifacts match their complete manifests, archive digests, CRCs and flat install layouts. See evidence/stage4_adoption/ and docs/LEVEL4_ADOPTION.md.
+- Preserve all 119 reviewed installation files, including the frozen installed README. Approval/adoption bookkeeping changes source documentation only. Every merge tree matches its reviewed branch head.
+- The approved baseline includes Golden Temple scenery, enemies, items, Overdrive, dragon, tower boss, all temple stair repairs and victory transition, plus the chapel branch/potion, wall-boss entrance and Poison Moss background repairs. Historical review/publication labels below describe their original delivery dates; this baseline takes precedence.
+- Start future requested changes on focused branches from main. No release tag or GitHub Release was requested or created. Existing live-coverage limits remain: the temple movie acquires Thunder without casting it, and the potion cleanup did not include a dedicated collection replay.
 
 ## Current repair — background continuity 0.20.5
 

@@ -1,0 +1,15 @@
+{
+  "name": "pr19",
+  "version": "0.17.0",
+  "pr": 19,
+  "run_id": 40567875585,
+  "head_sha": "55382eb0fc3d07c37447dabf1939cdc670455944",
+  "artifact_id": 12763831624,
+  "artifact_sha256": "sha256:6d049318ef7589fe51fb76f638a41ebd5edb443f3167b31fd042aea8356115bb",
+  "url": "https://github.com/kgrant191/holy-diver-hd/actions/runs/40567875585/artifacts/12763831624",
+  "root_file_count": 112,
+  "all_expected_hashes_match": true,
+  "crc_valid": true,
+  "nested_zip": false,
+  "downloaded_and_independently_verified": true
+}

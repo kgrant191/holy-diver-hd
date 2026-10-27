@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-27",
+  "timezone": "America/New_York",
+  "approved_version": "0.20.5",
+  "user_authorization": "approved.  lets make a bundle and merge",
+  "merge_method": "merge",
+  "merge_order": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "records": [
+    {
+      "pr": 18,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/18",
+      "branch": "feature/golden-temple",
+      "head_sha": "ff3d1042d8a6c99080b490c6c0ba2009e3d28e4f",
+      "main_merge_sha": "3f727396061d8a34a3b49e63dd241b380f46e74b",
+      "merged_at": "2026-10-27T19:20:53Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr18_artifact.json",
+      "main_artifact": "main18_artifact.json"
+    },
+    {
+      "pr": 19,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/19",
+      "branch": "feature/golden-temple-courtyard",
+      "head_sha": "55382eb0fc3d07c37447dabf1939cdc670455944",
+      "main_merge_sha": "a49279598c58c75ec05a292d1d1375d8b9192bb6",
+      "merged_at": "2026-10-27T19:21:20Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr19_artifact.json",
+      "main_artifact": "main19_artifact.json"
+    },
+    {
+      "pr": 20,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/20",
+      "branch": "feature/golden-temple-staff",
+      "head_sha": "0ed92934cfd3b9c1b1b27a64a08d6c98d5abea34",
+      "main_merge_sha": "b47c1de6838c343f3a1f877dd47b9eb9ae24ea39",
+      "merged_at": "2026-10-27T19:22:31Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr20_artifact.json",
+      "main_artifact": "main20_artifact.json"
+    },
+    {
+      "pr": 21,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/21",
+      "branch": "feature/temple-dragon-items",
+      "head_sha": "ff595d345855c462751c95f47869e160643c41df",
+      "main_merge_sha": "b1a896647dc67b1ae68b0474d2d63d1828b0b4a5",
+      "merged_at": "2026-10-27T19:23:13Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr21_artifact.json",
+      "main_artifact": "main21_artifact.json"
+    },
+    {
+      "pr": 22,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/22",
+      "branch": "feature/golden-temple-boss",
+      "head_sha": "3aa59f2caa3551fc306821e5883ff0b491a6c9a4",
+      "main_merge_sha": "5b98ee7c453cfafdb12998d4afc3d8d4a8010943",
+      "merged_at": "2026-10-27T19:24:00Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr22_artifact.json",
+      "main_artifact": "main22_artifact.json"
+    },
+    {
+      "pr": 23,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/23",
+      "branch": "feature/tree-potion-cleanup",
+      "head_sha": "30b6ba31df6e043c81bb051ccebec1925e13aae2",
+      "main_merge_sha": "a1d669266eb72debb128127de90d9c07b15e46c7",
+      "merged_at": "2026-10-27T19:25:09Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr23_artifact.json",
+      "main_artifact": "main23_artifact.json"
+    },
+    {
+      "pr": 24,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/24",
+      "branch": "feature/boss-entry-repair",
+      "head_sha": "ac3fd7a72a6e2675e3808234d1e36ef564c4aad7",
+      "main_merge_sha": "4d8ddf3d5d270eb657178b51d4b8a313b9a910a1",
+      "merged_at": "2026-10-27T19:25:20Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr24_artifact.json",
+      "main_artifact": "main24_artifact.json"
+    },
+    {
+      "pr": 25,
+      "url": "https://github.com/kgrant191/holy-diver-hd/pull/25",
+      "branch": "feature/background-continuity",
+      "head_sha": "491e56b024b893b63f583626965ed46fa1506ed0",
+      "main_merge_sha": "0b9ee788621f2ca2ef0cc61cb6b3de9ff12e5627",
+      "merged_at": "2026-10-27T19:25:33Z",
+      "merge_tree_matches_reviewed_head": true,
+      "pr_artifact": "pr25_artifact.json",
+      "main_artifact": "main25_artifact.json"
+    }
+  ],
+  "release_tag_created": false
+}

@@ -1,5 +1,7 @@
 # Poison Moss background continuity — 0.20.5
 
+Approved by the user and merged through PR #25 on 2026-10-27, completing the eight-PR Golden Temple adoption. Main is now approved 0.20.5. All PR/main builds and sixteen downloaded artifacts pass; the 119 delivered files remain exact. See `evidence/background_continuity/approval.json` and `evidence/stage4_adoption/`. The following paragraph retains the original repair-time context.
+
 The user approved the complete 0.20.4 pack, then supplied a movie showing background dropouts. Approval is recorded in `evidence/boss_entry_repair/approval.json`; all 119 installed baseline files are frozen. This repair is on `feature/background-continuity`. Main remains approved 0.15.0. No push, PR, merge, tag or release was performed.
 
 ## Cause and repair

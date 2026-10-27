@@ -11,7 +11,21 @@
   "main_before_adoption": "2f38abeb06cd1093fc33416da20c5124fca2f4d7",
   "source_bundle_requested": true,
   "pr_and_merge_authorized": true,
-  "publication_performed": false,
-  "merge_performed": false,
-  "release_tag_authorized": false
+  "publication_performed": true,
+  "merge_performed": true,
+  "release_tag_authorized": false,
+  "pull_requests": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "main_merge_commit": "0b9ee788621f2ca2ef0cc61cb6b3de9ff12e5627",
+  "all_merge_trees_match_reviewed_heads": true,
+  "all_pr_and_merge_builds_pass": true,
+  "downloaded_pr_and_merge_artifacts_verified": 16
 }

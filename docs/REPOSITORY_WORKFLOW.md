@@ -1,6 +1,6 @@
 # Repository workflow
 
-Repository: kgrant191/holy-diver-hd. Approved development version on main is 0.6.1, covering the Stage 2 cave and flowing lava (PR #6), vertical cave and blue eye tears (PR #7), and all previous approved work. The user explicitly authorized both merges on 2026-10-24. PR and main Actions builds and their actual 84/85-file artifacts were verified. Use focused feature branches for subsequent screens and keep approval/adoption records in STATUS.md and evidence/.
+Repository: kgrant191/holy-diver-hd. Approved development version on main is 0.20.5, adopted through PRs #18–#25 on 2026-10-27 after the user approved the complete pack and requested a bundle and merge. All eight PR builds and eight main merge builds, plus all sixteen downloaded artifacts, passed verification. Preserve all 119 reviewed installation files. Use focused branches for subsequent requested work and keep approval/adoption records in STATUS.md and evidence/.
 
 Use the active chat for bug reports, task priorities, feedback and approval. GitHub Issues and a TASKS.md backlog are not part of the current workflow. Prepare each requested change on a focused branch, test it, and open a PR with evidence and an Actions artifact. Revise the same branch for feedback. The user can merge or explicitly authorize the assistant to merge after approval. A proposed version on a branch is a review candidate until accepted.
 

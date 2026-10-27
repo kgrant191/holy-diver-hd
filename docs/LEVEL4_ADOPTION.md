@@ -1,45 +1,39 @@
-# Approved 0.20.5 adoption
+# Approved 0.20.5 on main
 
-On 2026-10-27 (America/New_York), the user approved the complete delivered
-0.20.5 pack and asked to make a bundle and merge. That authorizes PR creation
-and merging the cumulative work after verification; no further permission is
-needed. Approval bookkeeping changes no installed files. The 119 hashes in
-`evidence/0.20.5-pack-sha256.json` remain authoritative for the delivered pack.
+The user approved the complete delivered 0.20.5 pack and requested its source
+bundle and merge on 2026-10-27 (America/New_York). The eight pushed feature tips
+matched the approved bundle. PRs #18–#25 merged in dependency order, each successor
+retargeted to main after its predecessor. Every merge tree equals the reviewed
+branch tree. The final merge is `0b9ee788621f2ca2ef0cc61cb6b3de9ff12e5627`.
 
-GitHub main was still version 0.15.0 when checked. The eight feature branches
-below were absent and there were no open PRs. Per the repository's existing
-artwork handoff workflow, the user imports and pushes the ZIP-wrapped incremental
-bundle with their local Git credentials. PRs and merges cannot occur before
-those source refs exist remotely. Do not represent bundle preparation as a merge.
+All eight PR builds and eight main merge builds passed. All sixteen actual
+downloaded GitHub Actions ZIPs were checked independently: archive digest, CRC,
+flat file layout, absence of nested ZIPs, exact file set and every expected
+SHA-256 hash. Counts progress through 111, 112, 113, 114, 118, 119, 119 and 119 files.
+The final pack matches all 119 hashes in `evidence/0.20.5-pack-sha256.json`.
 
-## Dependency order
+| PR | Branch | Main merge |
+| --- | --- | --- |
+| [#18](https://github.com/kgrant191/holy-diver-hd/pull/18) | `feature/golden-temple` | `3f72739` |
+| [#19](https://github.com/kgrant191/holy-diver-hd/pull/19) | `feature/golden-temple-courtyard` | `a492795` |
+| [#20](https://github.com/kgrant191/holy-diver-hd/pull/20) | `feature/golden-temple-staff` | `b47c1de` |
+| [#21](https://github.com/kgrant191/holy-diver-hd/pull/21) | `feature/temple-dragon-items` | `b1a8966` |
+| [#22](https://github.com/kgrant191/holy-diver-hd/pull/22) | `feature/golden-temple-boss` | `5b98ee7` |
+| [#23](https://github.com/kgrant191/holy-diver-hd/pull/23) | `feature/tree-potion-cleanup` | `a1d6692` |
+| [#24](https://github.com/kgrant191/holy-diver-hd/pull/24) | `feature/boss-entry-repair` | `4d8ddf3` |
+| [#25](https://github.com/kgrant191/holy-diver-hd/pull/25) | `feature/background-continuity` | `0b9ee78` |
 
-| Order | Branch | Version | Scope |
-| --- | --- | --- | --- |
-| 1 | feature/golden-temple | 0.16.3 | Exterior/interiors, Overdrive, masonry, entry bounds, drops and stairs |
-| 2 | feature/golden-temple-courtyard | 0.17.0 | Next hall, outdoor courtyard, wings and fire chain |
-| 3 | feature/golden-temple-staff | 0.18.0 | Staff/menu, scrolling hall and outdoor sentinel arena |
-| 4 | feature/temple-dragon-items | 0.19.1 | Dragon, visible drops, decorative columns and stray ornament |
-| 5 | feature/golden-temple-boss | 0.20.2 | Final halls, tower boss, doorway, all stair copies and victory transition |
-| 6 | feature/tree-potion-cleanup | 0.20.3 | Chapel branch joins and brighter health jug |
-| 7 | feature/boss-entry-repair | 0.20.4 | Missing Level 2 wall-boss entrance palettes |
-| 8 | feature/background-continuity | 0.20.5 | Missing Poison Moss scrolling-background guards |
+Exact PR/head/merge identifiers and timestamps are in
+`evidence/stage4_adoption/merges.json`. Each `prNN_artifact.json` and
+`mainNN_artifact.json` records its actual Actions run, artifact, digest and checks.
+The earlier source bundle remains an exact handoff of the approved feature tips;
+main now additionally contains merge and adoption records.
 
-After push, confirm all remote heads equal the bundle manifest. Open the first
-PR against main and each successor against the preceding branch. Inspect each
-Actions build and download its actual artifact. Require ZIP CRC validity, flat
-installation layout, no nested ZIP, and every hash in that branch's expected
-pack manifest. Merge in dependency order using merge commits and expected-head
-guards, retargeting each successor to main. Check the actual main build/artifact
-after each merge. Preserve unrelated remote changes; inspect a moved base/head
-instead of forcing it. Record PR URLs, head/merge SHAs, Actions runs and artifact
-checks in `evidence/stage4_adoption/` when they actually exist.
+Approval/adoption bookkeeping changes no installation bytes, including the
+frozen installed README, so the existing paired Mesen evidence remains valid.
+The temple victory movie acquires Thunder without casting it, and the potion
+cleanup did not include a dedicated live collection replay. Those coverage
+limits remain explicit; this adoption adds no new gameplay coverage.
 
-Local full build/manifest verification and the existing paired live evidence
-cover the approved content. No new emulator replay is needed for documentation
-only approval changes. The potion's earlier cleanup tests were artwork/alias
-checks rather than a dedicated collection replay, and the temple victory movie
-acquired Thunder without casting it. Preserve those stated coverage limits.
-
-Main remains 0.15.0 until the authorized merges complete. Do not create release
-tags or GitHub Releases; the user requested source adoption only.
+Main is the approved 0.20.5 baseline. Start later requested work on a focused
+branch from main. No release tag or GitHub Release was requested or created.

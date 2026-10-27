@@ -1,8 +1,12 @@
 # Current status
 
-## Approved 0.20.5 — merge authorized, source push pending
+## Approved baseline — 0.20.5 on main
 
-The user approved the delivered complete 0.20.5 pack on 2026-10-27 and requested a bundle and merge. All 119 reviewed installation files remain exact. The authorization covers the cumulative Golden Temple work and subsequent tree/potion, boss-entry and background repairs across eight feature branches. GitHub main remains 0.15.0, with no new feature refs or open PRs at the handoff check. After the user's local bundle push, create/check the PRs and merge in dependency order without requesting approval again. Verify downloaded PR/main artifacts and record the actual merge commits before calling the work adopted. No release/tag is requested. See evidence/background_continuity/approval.json and docs/LEVEL4_ADOPTION.md. Historical review/publication labels below describe their delivery dates.
+The user approved the complete delivered pack and authorized its bundle and merge on 2026-10-27. PRs #18 → #19 → #20 → #21 → #22 → #23 → #24 → #25 are merged into main, retargeting each successor after its predecessor. Every merge tree exactly matches its reviewed head. All eight PR builds and eight merge builds pass, and all sixteen downloaded install artifacts match their archive digests, complete expected file hashes, ZIP CRCs and flat layouts. The final merge is 0b9ee788621f2ca2ef0cc61cb6b3de9ff12e5627. See evidence/stage4_adoption/ and docs/LEVEL4_ADOPTION.md.
+
+Main includes the complete approved Golden Temple continuation and its stairs/doorway/victory repairs, plus chapel branch joins and a brighter health jug, Level 2 wall-boss entrance palette fixes, and Poison Moss scrolling-background continuity. All 119 reviewed installation files remain byte-exact, including the installed README. Approval/adoption notes change no runtime content. No release/tag was created.
+
+Future work starts from this approved baseline. Preserve the documented coverage limits: the victory recording acquires Thunder but does not cast it; potion cleanup checks do not claim a dedicated live collection replay. Historical review/publication labels below describe the original deliveries.
 
 ## Background continuity — 0.20.5 review
 

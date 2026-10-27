@@ -1,6 +1,6 @@
 # Holy Diver HD
 
-**Approved 0.20.5; merge authorized on 2026-10-27.** The complete Golden Temple continuation and subsequent cleanup/repair stack is accepted. All 119 delivered pack files remain frozen. GitHub main is still 0.15.0 pending the source-bundle push, PR checks and authorized merges. See [adoption handoff](docs/LEVEL4_ADOPTION.md). Earlier review labels below retain their historical context.
+**Approved 0.20.5 on `main` (merged 2026-10-27).** All eight PRs [#18](https://github.com/kgrant191/holy-diver-hd/pull/18)–[#25](https://github.com/kgrant191/holy-diver-hd/pull/25) are merged. All PR/main builds and sixteen downloaded install artifacts pass; all 119 approved pack files remain exact. See [adoption and verification](docs/LEVEL4_ADOPTION.md). Earlier review labels retain their historical context.
 
 **Background continuity — 0.20.5 review.** Completes the Poison Moss lava-corridor background checks so scenery remains visible as the camera scrolls. All approved 0.20.4 artwork remains exact. [Changes and verification](docs/BACKGROUND_CONTINUITY.md).
 
@@ -32,7 +32,7 @@
 
 **Approved 0.15.0 on `main` (merged 2026-10-26).** Completes the newly recorded final climb and boss arena with the approved green moss scenery, a pink horned boss, living thorny growths and curved shots. Adds the Overdrive orb/announcement and verifies the Golden Temple title card. Native gameplay and audio remain unchanged. See [finale notes](docs/LEVEL3_FINALE.md).
 
-Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Approved baseline: 0.15.0 on `main`.** All five Level 3 PRs [#13](https://github.com/kgrant191/holy-diver-hd/pull/13)–[#17](https://github.com/kgrant191/holy-diver-hd/pull/17) are merged. All PR/main builds and ten independently downloaded install artifacts pass. See `evidence/stage3_adoption/`. Level 4 scenery is next. Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
+Mesen HD-pack artwork and reproducible source for the translated NES Holy Diver ROM. **Previous approved baseline: 0.15.0 on `main`.** All five Level 3 PRs [#13](https://github.com/kgrant191/holy-diver-hd/pull/13)–[#17](https://github.com/kgrant191/holy-diver-hd/pull/17) are merged. All PR/main builds and ten independently downloaded install artifacts pass. See `evidence/stage3_adoption/`. The approved 0.20.5 baseline above supersedes this Level 3 handoff. Built on the historical v15.1 artwork baseline, with the approved title and ledge corrections.
 
 **Approved 0.14.0 on `feature/poison-moss-land`.** Gives the eight completed/recorded Level 3 areas their own green moss forest, ivy-covered Gothic ruins and emerald masonry. Preserves platform contours, existing wood, actors, fish stabilization, lava/ice and native gameplay/audio. See [Poison Moss Land](docs/POISON_MOSS.md).
 
