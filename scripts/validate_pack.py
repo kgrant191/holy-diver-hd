@@ -35,8 +35,12 @@ assert len(imgs)==57
 # Preserve approved assets outside the requested title/ledge, arm and crouch repairs.
 root=Path(__file__).resolve().parents[1]
 total_counts=counts.copy()
+from verify_background_rules import verify as verify_background_rules, strip as strip_background_continuity
+background_report=verify_background_rules(root,pack)
+content=strip_background_continuity(content)
+counts['condition']-=background_report['conditions'];counts['background']-=background_report['background_rules']
 from verify_boss_entry_rules import verify as verify_boss_entry_rules, strip as strip_boss_entry
-boss_entry_report=verify_boss_entry_rules(root,pack)
+boss_entry_report=verify_boss_entry_rules(root,pack,content)
 content=strip_boss_entry(content)
 counts['tile']-=boss_entry_report['tile_rules']
 from verify_cleanup_rules import verify as verify_cleanup_rules, strip as strip_cleanup, ADDED as cleanup_files

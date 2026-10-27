@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Background continuity — 0.20.5 review.** Completes the Poison Moss lava-corridor background checks so scenery remains visible as the camera scrolls. All approved 0.20.4 artwork remains exact. [Changes and verification](docs/BACKGROUND_CONTINUITY.md).
+
 **Wall-boss entrance repair — 0.20.4 review.** Reuses the finished normal/gold boss artwork for three missing entrance palette phases. All approved 0.20.3 assets remain exact. [Changes and verification](docs/BOSS_ENTRY_REPAIR.md).
 
 **Tree/potion cleanup — 0.20.3 review.** Joins the chapel tree branches into the trunk using the original tree artwork, and brightens the handled red health potion. Preserves approved0.20.2. [Changes and verification](docs/TREE_POTION_CLEANUP.md).
@@ -106,7 +108,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.20.4.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.20.5.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

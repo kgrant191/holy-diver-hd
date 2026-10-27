@@ -1,5 +1,9 @@
 # Current status
 
+## Background continuity — 0.20.5 review
+
+Adds the two missing ceiling identities to the existing Poison Moss lava-corridor background check. The same ruin panorama now remains visible during scrolling in room 9DEE. All 117 previous art/audio/patch assets stay exact. The supplied 2,856-frame paired replay restores 98 background frames; 2,757 rendered images remain exact, including native blackouts, menus and later death/restart scenes. Native state, APU and full PCM match. Work is on feature/background-continuity from approved 0.20.4; main remains 0.15.0. See docs/BACKGROUND_CONTINUITY.md. No publication or merge.
+
 ## Approved continuation — 0.20.4
 
 The user approved the delivered 0.20.4 wall-boss entrance repair on 2026-10-27, then supplied a separate movie showing background dropouts. Preserve all 119 frozen installation files. Main remains approved 0.15.0; no push, PR, merge or release is authorized. See evidence/boss_entry_repair/approval.json.
