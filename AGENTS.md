@@ -1,10 +1,11 @@
 # Holy Diver HD working instructions
 
-## Approved continuation — 0.22.2; merge authorized
+## Approved baseline — 0.22.2 on main
 
-- On 2026-10-27 (America/New_York), the user approved the delivered 0.22.2 pack and explicitly requested its merge. Approval covers the complete Demonic Palace continuation and repairs through reviewed commit 918b3d123062eaef62df8c18dbc53a2c3444c531. Preserve all 126 installed files, including the frozen README.
-- GitHub currently lacks feature/demonic-palace and the reviewed commit. The cumulative source handoff must be pushed using the existing bundle workflow. Once present, publish approval bookkeeping if needed, open the PR, verify its Actions build and actual 126-file artifact, then merge under this existing authorization. Do not ask for merge approval again.
-- Main remains approved 0.20.5 until the merge actually succeeds. No release/tag requested. Approval notes change source documentation only; retain every runtime hash and existing coverage limit. See evidence/level5_one_up/approval.json. Historical review/no-merge labels below describe prior delivery status.
+- The user approved the complete Demonic Palace continuation and authorized its merge on 2026-10-27. PR #26 is merged into main. The pushed source matched the approved handoff, and the merge tree equals the validated PR head. PR and main merge builds pass; both actual downloaded artifacts match all 126 approved file hashes, CRCs and flat installation layout. See docs/LEVEL5_ADOPTION.md and evidence/level5_adoption/.
+- Preserve all 126 reviewed installation files, including the frozen installed README. Adoption bookkeeping changes source documentation only. This includes the green slime ceiling, recorded Palace rooms/enemies, ascent background continuity, Thunder/dragon flash repair, THUNDER H and complete 1-up palettes.
+- Later Level 5 rooms and the boss beyond recorded 8A6E remain unfinished. The green upper-hall 1-up is visually verified; the lava-room item is also collected with native lives 6 to 7. No release tag or GitHub Release was requested or created.
+- Start future requested changes on focused branches from approved main. Historical review and no-merge labels below describe prior delivery status; this approved baseline takes precedence.
 
 ## Current repair — Palace 1-up 0.22.2
 

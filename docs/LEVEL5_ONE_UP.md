@@ -51,8 +51,7 @@ another actual OAM sprite's bounds. RAM/PPU/OAM/scroll, full APU and PCM match.
 The native lava-room collection increments lives 6→7 at sampled frame 5208.
 
 The user approved the complete 0.22.2 pack and requested its merge on
-2026-10-27. All 126 reviewed install files remain exact. GitHub still lacks
-`feature/demonic-palace` and the reviewed commit, so the source bundle must be
-pushed before the PR/checks/merge can proceed. Existing authorization covers
-that merge; no repeat approval is needed. Main remains approved 0.20.5 until
-the merge succeeds. No push, PR, merge, tag or release has been performed.
+2026-10-27. PR #26 is merged into main. Both PR/main builds and downloaded
+install artifacts pass all 126 expected file hashes, CRC and flat layout.
+All reviewed installation files remain exact. See LEVEL5_ADOPTION.md and
+evidence/level5_adoption/. No release or tag was created.

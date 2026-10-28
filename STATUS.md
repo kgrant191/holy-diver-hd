@@ -1,8 +1,10 @@
 # Current status
 
-## Approved 0.22.2 — awaiting source push and authorized merge
+## Approved baseline — 0.22.2 on main
 
-The user approved the complete delivered Demonic Palace pack and requested its merge on 2026-10-27 (America/New_York): “approved, lets merge it”. Reviewed head: 918b3d123062eaef62df8c18dbc53a2c3444c531. All 126 reviewed installation files remain frozen, including README.txt. GitHub does not yet have feature/demonic-palace or that commit, so no PR or merge has occurred. The cumulative source bundle includes the approved work and approval notes; after its source push, create the PR, verify Actions and its actual artifact, and merge under the authorization already given. Main remains approved 0.20.5 until then. No release/tag requested. See evidence/level5_one_up/approval.json. Earlier review labels remain historical.
+The user approved the complete delivered Demonic Palace pack and authorized its merge on 2026-10-27. PR [#26](https://github.com/kgrant191/holy-diver-hd/pull/26) merged at d70883b632f3b207b82feabdf84534951aec4798. The initial pushed source matched approved handoff 14333fd96068a8c5f03a5e92cda00edd500ac303. A validation-only cross-filesystem fix preserves every install byte; the merge tree equals the validated PR head. PR and main merge builds pass. Both actual downloaded install artifacts independently pass all 126 SHA-256 checks, archive digests, CRCs and flat-layout/no-nested-ZIP checks. See docs/LEVEL5_ADOPTION.md and evidence/level5_adoption/.
+
+Main now includes the recorded Palace rooms/enemies, green slime ceiling, ascent continuity, native-flash scenery, THUNDER H and both 1-up appearances. All 126 reviewed installation files remain byte-exact, including README.txt. Adoption notes change source documentation only. Later rooms and the boss beyond 8A6E remain unfinished; native gameplay/audio and the documented coverage limits are preserved. No release/tag was created. Earlier review labels describe their historical delivery status.
 
 ## Current repair — Palace 1-up 0.22.2 review
 

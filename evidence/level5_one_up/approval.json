@@ -9,15 +9,20 @@
   "branch": "feature/demonic-palace",
   "merge_authorized": true,
   "release_or_tag_requested": false,
-  "main_until_merge": "0.20.5",
-  "remote_check": {
-    "feature_branch_found": false,
-    "reviewed_commit_found": false,
-    "pr_found": false
-  },
-  "next_step": "User imports and pushes cumulative source bundle; assistant verifies PR build and artifact, merges, then verifies main.",
+  "next_step": "Start subsequent requested work from approved main 0.22.2.",
   "reviewed_install_files": 126,
   "all_install_hashes_unchanged": true,
   "installed_readme_frozen": true,
-  "publication_performed": false
+  "publication_performed": true,
+  "merge_performed": true,
+  "pull_request": 26,
+  "merge_commit": "d70883b632f3b207b82feabdf84534951aec4798",
+  "approved_main": "0.22.2",
+  "pr_and_merge_builds_pass": true,
+  "downloaded_artifacts_verified": 2,
+  "remote_check_at_approval": {
+    "feature_branch_found": false,
+    "reviewed_commit_found": false,
+    "pr_found": false
+  }
 }

@@ -1,6 +1,6 @@
 # Repository workflow
 
-Current approved continuation is **0.22.2**, accepted on 2026-10-27 with explicit merge authorization. GitHub does not yet have feature/demonic-palace or reviewed head 918b3d123062eaef62df8c18dbc53a2c3444c531. Publish the cumulative bundle through the existing source-push workflow, verify its PR build and actual artifact, then merge without asking for approval again. All 126 install files stay frozen. Main remains 0.20.5 until that merge succeeds; no tag or release was requested.
+Current approved baseline is **0.22.2 on main**, adopted through PR #26 on 2026-10-27. The published source matched the approved handoff and the merge tree matched the validated PR head. PR/main builds and both actual downloaded install artifacts pass all 126 file hashes, CRC and flat layout. Preserve every reviewed installation byte and use focused branches for subsequent changes. See docs/LEVEL5_ADOPTION.md and evidence/level5_adoption/. No release/tag was requested. Earlier workflow history below remains for provenance.
 
 Repository: kgrant191/holy-diver-hd. Approved development version on main is 0.20.5, adopted through PRs #18–#25 on 2026-10-27 after the user approved the complete pack and requested a bundle and merge. All eight PR builds and eight main merge builds, plus all sixteen downloaded artifacts, passed verification. Preserve all 119 reviewed installation files. Use focused branches for subsequent requested work and keep approval/adoption records in STATUS.md and evidence/.
 
