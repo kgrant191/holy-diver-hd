@@ -29,8 +29,11 @@
   "Crypt_Entities_2x.png": "8dc69dd9cd8b7ec19a035e0b7b6105040b492c9e0b13a4eb96fce3cddf48c3a2",
   "Crypt_Terrain_2x.png": "d048f6dc45373dbc020e0df55adee21f0463347cee9fe82464a9148ef3cf077d",
   "Death_Bursts_2x.png": "73f1ca60840db0ff12c1c5f23ff6281fc0b50944b9d5145ca97bb1682eea98ca",
+  "Demonic_Palace_Boss_Flash.png": "22eb302093e4f9959a30f98568b58c3e24f68725cdce384221b571a52cfda656",
   "Demonic_Palace_Cavern.png": "4b88ab8e98f0706fe503252ce96c1f303eb6fa04571a98a3e6b30b0097de1944",
   "Demonic_Palace_Cavern_Flash.png": "655842a0fdf7cc9acf40fd6807bc9072531b49667fe42bafdb80c304941e8122",
+  "Demonic_Palace_Continuation_2x.png": "ec7d1a674a1a82b2fdcca852f00ce2f49eec2b3197c0409dfd558ac65e33f579",
+  "Demonic_Palace_Finale_2x.png": "9b7207bb7b87db09672c41c6cc5116a6bc381709257a0d2e9bbbee814561d1ef",
   "Demonic_Palace_Interior.png": "32aa40f9e364358856684fd46c23f0c2535231a14d771999e0ea6bb957c7b7b3",
   "Demonic_Palace_Interior_Flash.png": "ca201ce00b79906054ad9aaf6e363b8927dc3ac1192cf83eb0f63384b95ae242",
   "Demonic_Palace_Next_2x.png": "288e25defa09abf6d4e294b9b2d9dc9bb26abe02707aee68898c7da9b4f1d3ff",
@@ -68,7 +71,7 @@
   "Poison_Moss_Forest_Background.png": "2dc0da73c30d74717e8c584ec7a23425739d1c21a4859fad5872f1f6126af813",
   "Poison_Moss_Ruins_Background.png": "8f592f6b0b078e87186dd258e5a3f6c986a0f7fba5cd91c3c02219341695b1b7",
   "Poison_Moss_Tiles_2x.png": "d6c08a1b474bb44f97cc3ea6af2db973dfab1a468c8c5d0bbadf7906407f53b1",
-  "README.txt": "62ad948b7e04c475c1e7cab314e0779ce7c8fd26074aa013b8315ec5e6199d2b",
+  "README.txt": "9de1d81fb2a826b0fab99c382332005bd8d287483545859186fa458100411dfa",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -124,5 +127,5 @@
   "Tree_Potion_Cleanup_2x.png": "7c6f07bd476ff76275bc496fee58542548bb29b817622f1711010fe42ede7041",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "7f703d123dc0de1650fd33f3f1ee22dfde7258d765ad6b19bb86c1335116c6d1"
+  "hires.txt": "21ba8b10e126d405cad0600fab7641264eac357cec44716533749dad16af0eb2"
 }

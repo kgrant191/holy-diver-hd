@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "style-transfer",
+  "prompt": "Use case: style-transfer. Asset type: one transparent Gothic 16-bit game background ornament, to be registered into a 96x128 pixel footprint. Redraw the supplied native crucifix as an elaborate but readable carved devotional effigy. Preserve the exact front view, narrow vertical cross, horizontal outstretched arms, bowed human head, draped bent legs, and full original silhouette/proportions. A weathered deep-emerald bronze cross with narrow antique-gold edging and small muted ruby inlays, supporting a pale ivory carved humanoid figure in a folded white/ivory loincloth and drapery; dignified and solemn, no blood or wounds. Keep cross bar roughly one third down from the top and the vertical stem extending below the figure. Crisp detailed pixel-art treatment with coherent small pixel clusters, strong navy outlines, ivory highlights, quiet green and gold details suitable for a dark Gothic palace. Entire single ornament centered with generous transparent margins, no scene, no pedestal, no labels, no text, no cast shadow, no halo/background. Keep it a flat frontal game sprite, not a photograph or perspective sculpture.",
+  "reference": "art/level5_finale/native_effigy.png",
+  "output": "palace_boss5_effigy.png"
+}

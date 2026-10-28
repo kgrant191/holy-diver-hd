@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.24.0 — Palace finale (approved; merge pending)
+
+- Approved on 2026-10-28 with merge authorization, including 0.23.0. Possible later platform/walkway artwork changes do not block approval. All 129 install files remain frozen.
+
+- Fix moving-lift coverage and missing structural stone in the skull shaft.
+- Add whole skull, claw and fist boss animations, altar and victory effigy artwork.
+- Extend accepted Randy, HUD and effects to the boss and Level 6 banks; preserve normal, flash, white and fade phases.
+- Cover the victory ascent and recorded Level 6 entrance without changing native game state, timing or audio.
+- Keep the existing HD Stage 6 card visible on its final submitted frame, eliminating the one-frame native-text fallback.
+- Preserve the complete 0.23.0 mapping layer and all 125 prior art/audio/patch files. No publication or merge.
+
+## 0.23.0 — Palace late rooms (review)
+
+- Extend approved palace scenery and native structural outlines through the four newly recorded room scopes.
+- Reuse the complete skeleton/bone animations in all three recorded palettes, restore the rising sentry in the green hall, and register the moving stone lift within its native footprint.
+- Carry accepted animated lava/ice and normal/30/31 flash scenery behavior into the new scopes; preserve blackouts and menus.
+- Preserve all 124 earlier art/audio/patch files, exact recoverable 0.22.2 mappings, native gameplay and audio. Main remains approved 0.22.2; no publication or merge.
+
 ## 0.22.2 — Palace 1-up repair (approved)
 
 - Approved and merged with the complete Demonic Palace continuation through PR #26 on 2026-10-27. PR/main builds and both downloaded artifacts pass. All 126 reviewed installation files remain exact; no release/tag created.

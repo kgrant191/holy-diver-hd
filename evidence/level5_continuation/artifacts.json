@@ -1,0 +1,32 @@
+{
+  "pack": {
+    "name": "Holy_Diver_HD_v0.23.0.zip",
+    "sha256": "d2b68561bb9ca94b526e96c3778077b7ba412d8211bd2dff6ef60bfb908c2c2f",
+    "members": 127,
+    "flat_installation": true,
+    "crc_valid": true,
+    "all_member_hashes_exact": true
+  },
+  "preview": {
+    "name": "Demonic_Palace_v0.23.0_preview.mp4",
+    "sha256": "259cdbf8c0706e985fbf0d0e12042f663fe114ede235da133ea4029aaca6f799",
+    "decode_valid": true,
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "avg_frame_rate": "719503/23944"
+        },
+        {
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "49.917790",
+        "size": "7451270"
+      }
+    }
+  }
+}

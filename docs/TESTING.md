@@ -324,3 +324,11 @@ Use the supplied 20261027-212503 movie for the complete recorded opening, both T
 ## Demonic Palace repair 0.21.1
 
 Pair the 20261027-221951 climb movie and the prior 20261027-212503 opening movie against 0.21.0, stride 2. Use verify_palace_repair_replay.py with --opening only for the earlier movie. Require byte-exact native/audio data, complete serpent source matches and panorama pixels in every nonblack climb capture. Native transition blackouts must remain exact. The opening comparison confines cavern differences to ceiling cells; all other room/menu images remain exact except the intended 8816 stair padding repair. Static checks preserve all 48 roof masks/conditions and 50 old stair masks/opaque RGB.
+
+## Palace finale — 0.24.0
+
+Pair the full 15,585-frame 20261028-142617 movie with 0.23.0 at stride two. Use `verify_palace_finale_replay.py` for all sampled native data, APU/full PCM, native blackouts/menus, complete source matches and rendered flash panorama checks. The original palette write and visible frame can differ by one submission; inspect actual pictures and retain grayscale/emphasis.
+
+Use `run_mesen_movie.py --stride 1 --capture-windows evidence/level5_finale/capture_windows.json` for complete selected intervals, `verify_palace_finale_consecutive.py` for the repeat and every boss-backdrop frame, then `export_palace_finale_preview.py` for the 60.0988 fps actual preview. No RAM changes or alternate emulator core are used. `verify_palace_finale_rules.py` preserves the full historical validator chain and byte-exact 0.23.0 projection. See LEVEL5_FINALE.md for results and coverage limits.
+
+The pre-card full comparison uses `--candidate-manifest evidence/level5_finale/pre_card_pack_sha256.json`. After the single-frame Stage 6 card correction, run the full movie capturing 15120–15585 consecutively and use `verify_palace_finale_card.py`. Its only allowed image change is frame15374, equal to the previous complete HD Stage6 card. Export the final preview with `--ending` pointing at this last replay; earlier gameplay mappings are byte-identical.

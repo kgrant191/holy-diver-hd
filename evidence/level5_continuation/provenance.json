@@ -1,0 +1,17 @@
+{
+  "base_commit": "c1a192c31b7594e4430c721bfa6367ce410d9557",
+  "branch": "feature/palace-continuation",
+  "version": "0.23.0",
+  "approved_main": "0.22.2",
+  "candidate_review_required": true,
+  "new_generated_art": false,
+  "movie_sha256": "36de8a08dcc84610fe5567c01530cf8038816c4607536b304a38929ce3cf9699",
+  "new_runtime_files": [
+    "Demonic_Palace_Continuation_2x.png"
+  ],
+  "changed_runtime_files": [
+    "hires.txt",
+    "README.txt"
+  ],
+  "prior_runtime_assets_exact": 124
+}

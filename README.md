@@ -1,5 +1,11 @@
 # Holy Diver HD
 
+**0.24.0 approved; merge authorized (2026-10-28).** Source push is pending. Platforms and main walkways are accepted, with possible later visual revisions. Next development is Level 6. Installed files remain unchanged.
+
+**Palace finale — 0.24.0 review.** Fixes the later moving lifts and stonework, adds the Level 5 boss and victory sequence, and carries HD Randy/HUD/effects into the recorded Level 6 entrance. [Scope and validation](docs/LEVEL5_FINALE.md). Main remains approved 0.22.2.
+
+**Demonic Palace continuation — 0.23.0 review.** Extends the approved scenery through the lava corridor, moving-platform shaft, green hall and recorded beginning of the skull-lined shaft. Reuses finished skeletons, the rising sentry, palace stone and lava/ice, with complete normal/flash background guards. [Scope and validation](docs/LEVEL5_CONTINUATION.md). Candidate branch: `feature/palace-continuation`; approved main stays 0.22.2.
+
 **Approved Demonic Palace 0.22.2 on `main` (merged 2026-10-27).** [PR #26](https://github.com/kgrant191/holy-diver-hd/pull/26) is merged. PR/main builds and both downloaded install artifacts pass all 126 reviewed file hashes and flat-layout checks. Includes the recorded Palace rooms, green slime ceiling, enemies, background continuity/flash repairs, THUNDER H and both 1-up appearances. [Adoption and verification](docs/LEVEL5_ADOPTION.md). Earlier review labels retain their historical context.
 
 **Demonic Palace 1-up repair — 0.22.2 review.** Restores the approved front-facing collectible in both Palace sprite banks, including its dragon-form palette. Preserves the accepted 0.22.1 artwork and flash repairs. [Repair and checks](docs/LEVEL5_ONE_UP.md).

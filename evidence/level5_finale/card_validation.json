@@ -1,0 +1,23 @@
+{
+  "movie": {
+    "movie_sha256": "0328029ecdc68941515093d8f03efafdf0cd0a2c4bffa937cf42d2151610c77a",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 466,
+    "seconds_wall": 215.40497598399816,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 15585
+  },
+  "only_changed_image_frames": [
+    15374
+  ],
+  "paired_native_and_picture_samples": 365,
+  "unchanged_asset_files": 128,
+  "only_mapping_delta": "61 existing card clones plus one rendered-stage-six guard",
+  "full_apu_exact": true,
+  "full_pcm_exact": true,
+  "pcm_sha256": "5fe9e7daf14815c307a9c2c2a48bd65c1521ba45ade77876812beafe20007015",
+  "stage6_card_equals_prior_complete_hd_card": true
+}

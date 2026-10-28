@@ -1,0 +1,47 @@
+{
+  "complete_native_combinations": 4,
+  "unchanged_approved_atlas": true,
+  "opaque_source_pixels_exact": true,
+  "matches": {
+    "0": {
+      "frame": 1212,
+      "mirrored": true,
+      "positions": [
+        [
+          0,
+          164
+        ]
+      ]
+    },
+    "1": {
+      "frame": 316,
+      "mirrored": false,
+      "positions": [
+        [
+          316,
+          140
+        ]
+      ]
+    },
+    "2": {
+      "frame": 348,
+      "mirrored": false,
+      "positions": [
+        [
+          282,
+          260
+        ]
+      ]
+    },
+    "3": {
+      "frame": 332,
+      "mirrored": false,
+      "positions": [
+        [
+          290,
+          204
+        ]
+      ]
+    }
+  }
+}

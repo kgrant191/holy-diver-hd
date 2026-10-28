@@ -15,6 +15,7 @@ for n in ['core','config','database','rom','movie','pack','out']:p.add_argument(
 p.add_argument('--stride',type=int,default=4)
 p.add_argument('--capture-start',type=int,default=1)
 p.add_argument('--capture-end',type=int,default=1000000)
+p.add_argument('--capture-windows',help='JSON array of inclusive frame ranges; capture every frame within each range')
 a=p.parse_args()
 args=a
 OUT=Path(a.out).resolve()
@@ -56,7 +57,7 @@ local function bytes(kind,count)local t={};for i=0,count-1 do t[#t+1]=string.cha
 emu.addEventCallback(function()
  if frame>=__END__ then return end
  frame=frame+1
- if frame>=__START__ and frame<=__CAPTURE_END__ and (frame==2 or frame%__STRIDE__==0) then
+ if __CAPTURE_PREDICATE__ then
   save(string.format('frames/%06d.png',frame),emu.takeScreenshot())
   save(string.format('ram/%06d.bin',frame),bytes(emu.memType.nesInternalRam,2048))
   save(string.format('ppu/%06d.bin',frame),bytes(emu.memType.nesPpuMemory,16384))
@@ -67,6 +68,13 @@ emu.addEventCallback(function()
  if frame%60==0 or frame==__END__ then save('progress.txt',tostring(frame));save('apu.tsv',table.concat(apu,'\n'))end
 end,emu.eventType.endFrame)
 '''.replace('__OUT__',str(OUT)).replace('__STRIDE__',str(args.stride)).replace('__END__',str(movie_frames)).replace('__START__',str(args.capture_start)).replace('__CAPTURE_END__',str(args.capture_end))
+predicate=f'frame>={args.capture_start} and frame<={args.capture_end} and (frame==2 or frame%{args.stride}==0)'
+if args.capture_windows:
+ windows=json.loads(Path(args.capture_windows).read_text())
+ assert windows and all(len(w)==2 and all(type(n)is int for n in w) and 1<=w[0]<=w[1]<=movie_frames for w in windows)
+ assert all(windows[i][1]<windows[i+1][0] for i in range(len(windows)-1))
+ predicate=' or '.join(f'(frame>={start} and frame<={end})' for start,end in windows)
+script=script.replace('__CAPTURE_PREDICATE__',predicate)
 (OUT/'capture.lua').write_text(script)
 print('Initialize core',flush=True)
 a.InitDll();a.InitializeEmu(str(replay_home).encode(),None,None,True,True,True,True)
@@ -84,7 +92,7 @@ print('script',sid,flush=True)
 a.SetEmulationFlag(4,True);a.Resume()
 # Longer recordings and dense HD condition sets need a proportional wall limit.
 # This changes only the watchdog, never emulation timing or controller input.
-wall_timeout=max(240,movie_frames/20+60)
+wall_timeout=max(240,movie_frames/15+60)
 started=time.monotonic()
 try:
  while a.MoviePlaying() and time.monotonic()-started<wall_timeout:time.sleep(.1)
@@ -95,6 +103,7 @@ try:
  (OUT/'result.json').write_text(json.dumps(info,indent=2)+'\n');print(json.dumps(info),flush=True);print((OUT/'script.log').read_text(),flush=True)
 finally:a.Stop();a.Release()
 info['movie_frames']=movie_frames
+if args.capture_windows:info['capture_windows']=windows
 info['captured_frames']=len(list((OUT/'frames').glob('*.png')))
 (OUT/'result.json').write_text(json.dumps(info,indent=2)+'\n')
 assert ended, 'Movie did not finish'
