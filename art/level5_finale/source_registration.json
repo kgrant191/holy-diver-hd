@@ -1,0 +1,75 @@
+{
+  "skull0": {
+    "size": [
+      48,
+      64
+    ],
+    "fitted_scanlines": 0,
+    "clipped_pixels": 0
+  },
+  "skull1": {
+    "size": [
+      48,
+      64
+    ],
+    "fitted_scanlines": 0,
+    "clipped_pixels": 0
+  },
+  "claw0": {
+    "size": [
+      64,
+      64
+    ],
+    "fitted_scanlines": 8,
+    "clipped_pixels": 0
+  },
+  "claw1": {
+    "size": [
+      64,
+      64
+    ],
+    "fitted_scanlines": 12,
+    "clipped_pixels": 0
+  },
+  "fist0": {
+    "size": [
+      32,
+      32
+    ],
+    "fitted_scanlines": 0,
+    "clipped_pixels": 0
+  },
+  "fist1": {
+    "size": [
+      32,
+      32
+    ],
+    "fitted_scanlines": 0,
+    "clipped_pixels": 0
+  },
+  "idol": {
+    "size": [
+      64,
+      96
+    ],
+    "fitted_scanlines": 0,
+    "clipped_pixels": 0
+  },
+  "effigy": {
+    "size": [
+      96,
+      128
+    ],
+    "fitted_scanlines": 4,
+    "clipped_pixels": 0
+  },
+  "effigy_sprite": {
+    "size": [
+      96,
+      112
+    ],
+    "fitted_scanlines": 0,
+    "clipped_pixels": 0
+  },
+  "shared_cells_exact": true
+}

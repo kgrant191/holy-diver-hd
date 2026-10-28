@@ -1,0 +1,77 @@
+{
+  "actual_gameplay": true,
+  "ending_capture": "final stage-card repair",
+  "earlier_capture": "identical pre-card gameplay mappings",
+  "fps": 60.0988138974405,
+  "native_audio": true,
+  "clips": [
+    {
+      "first": 180,
+      "last": 400,
+      "label": "Skull shaft \u2022 Moving stone lift"
+    },
+    {
+      "first": 2900,
+      "last": 3200,
+      "label": "Skull shaft \u2022 Updated masonry"
+    },
+    {
+      "first": 7120,
+      "last": 7320,
+      "label": "Demonic Palace \u2022 Boss chamber"
+    },
+    {
+      "first": 7558,
+      "last": 7600,
+      "label": "Thunder \u2022 HD scenery through the flash"
+    },
+    {
+      "first": 8260,
+      "last": 8310,
+      "label": "Boss fight \u2022 Skull and articulated hands"
+    },
+    {
+      "first": 9470,
+      "last": 9520,
+      "label": "Thunder \u2022 Second flash sequence"
+    },
+    {
+      "first": 11690,
+      "last": 11860,
+      "label": "Boss fight \u2022 Thunder and movement"
+    },
+    {
+      "first": 13000,
+      "last": 13400,
+      "label": "Demonic Palace \u2022 Final combat"
+    },
+    {
+      "first": 13600,
+      "last": 13900,
+      "label": "Boss defeat \u2022 Victory effigy"
+    },
+    {
+      "first": 14240,
+      "last": 14540,
+      "label": "Victory ascent \u2022 HD character and scenery"
+    },
+    {
+      "first": 14720,
+      "last": 14900,
+      "label": "Victory \u2022 Native white flash"
+    },
+    {
+      "first": 15190,
+      "last": 15374,
+      "label": "Stage 6 \u2022 HD title card"
+    },
+    {
+      "first": 15374,
+      "last": 15584,
+      "label": "Level 6 \u2022 Recorded entrance"
+    }
+  ],
+  "sha256": "aaa151b89ee275834ef69ae4027d62f86cf79a24aa91ef670b1eed6c41a16535",
+  "bytes": 8886484,
+  "decodes_without_errors": true
+}

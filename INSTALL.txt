@@ -1,9 +1,9 @@
-HOLY DIVER HD 0.23.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.24.0 — DEVELOPMENT REVIEW CANDIDATE
 
-Extends Demonic Palace scenery through the lava corridor, moving-platform
-shaft, green hall and recorded entrance of the skull-lined shaft. Reuses
-the approved palace, stone, lava/ice, skeletons and rising armored sentry.
-Includes the preceding green ceiling, THUNDER H, flash and 1-up repairs.
+Finishes the recorded Demonic Palace skull shaft, moving platforms, boss,
+altar ornaments and victory ascent. Includes the recorded Level 6 entrance
+with the finished player, HUD, Breaker and crimson cave material.
+Thunder flashes and victory palette changes retain HD artwork.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

@@ -1,0 +1,20 @@
+{
+  "movie_name": "Holy_Diver_HD(20261028-142617).mmo",
+  "sha256": "0328029ecdc68941515093d8f03efafdf0cd0a2c4bffa937cf42d2151610c77a",
+  "bytes": 13021,
+  "input_frames": 15585,
+  "members": {
+    "Input.txt": {
+      "size": 342870,
+      "sha256": "b1354d9c9d6a82b636cb409602866aca92afb0338217cc59a0e5191f9a4d50fb"
+    },
+    "GameSettings.txt": {
+      "size": 1204,
+      "sha256": "9eb91900eae8d3439621c3b476079c75efcdd4fb1bd1e4c559c32f0d881a82e5"
+    },
+    "SaveState.mss": {
+      "size": 10032,
+      "sha256": "c05bae2c0dd7fd9eb6f09cbccae37df622ac2252ce652d06306f8ae8bda3314f"
+    }
+  }
+}

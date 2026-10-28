@@ -1,5 +1,11 @@
 # Current status
 
+## Current continuation — Palace finale 0.24.0 review
+
+The 20261028-142617 movie supplies the remaining skull shaft, Level 5 boss, victory ascent and Level 6 threshold. This candidate fixes the shaft's moving-lift scope and remaining masonry, reuses accepted actor/HUD/effect artwork in the boss and Level 6 banks, and adds registered whole boss components and chamber ornaments. Normal scenery, Thunder flashes and victory fade phases retain their HD replacements. All 125 prior art/audio/patch files and exact recoverable 0.23.0 rules are preserved.
+
+Work is on `feature/palace-finale`, continuing the unmerged 0.23.0 candidate. Main remains approved 0.22.2. No push, PR, merge, tag or release is authorized by this request. Only the recorded Level 6 entrance is covered; later Level 6 content is unfinished. See docs/LEVEL5_FINALE.md and evidence/level5_finale/.
+
 ## Current continuation — Palace late rooms 0.23.0 review
 
 The supplied 20261028-125935 movie continues beyond approved 8A6E, traversing 8AE6/mode10, 8BD6/mode04 and 8C4E/mode10, then entering 8D3E/mode04. The candidate reuses the approved interior, structural stone, lava/ice, floating skeleton and bone poses, and rising sentry. A complete repeating stone unit replaces the native moving lift. New room guards include both physical background banks and the accepted Thunder/dragon flash palettes. All 124 prior art/audio/patch files and recoverable 0.22.2 mappings remain exact. See docs/LEVEL5_CONTINUATION.md and evidence/level5_continuation/.

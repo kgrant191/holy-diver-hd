@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.24.0 — Palace finale (review)
+
+- Fix moving-lift coverage and missing structural stone in the skull shaft.
+- Add whole skull, claw and fist boss animations, altar and victory effigy artwork.
+- Extend accepted Randy, HUD and effects to the boss and Level 6 banks; preserve normal, flash, white and fade phases.
+- Cover the victory ascent and recorded Level 6 entrance without changing native game state, timing or audio.
+- Keep the existing HD Stage 6 card visible on its final submitted frame, eliminating the one-frame native-text fallback.
+- Preserve the complete 0.23.0 mapping layer and all 125 prior art/audio/patch files. No publication or merge.
+
 ## 0.23.0 — Palace late rooms (review)
 
 - Extend approved palace scenery and native structural outlines through the four newly recorded room scopes.

@@ -1,5 +1,9 @@
 # Art direction
 
+## Palace finale — 0.24.0
+
+Retain the accepted palace interior and stone lift. Use ivory and antique-gold bones with navy outlines for the articulated skull/hand boss, and a gold horned altar with an ivory figure on a green/gold cross for the victory effigy. Register complete native component unions before slicing and preserve shared animation cells. Darken the existing interior for the boss room; retain the accepted native-color flash blend. Reuse crimson cave art only at the recorded Level 6 threshold.
+
 ## Poison Moss background continuity
 
 Reuse the accepted green ruin panorama without repainting or changing its camera behavior. The corridor repair only completes rendered ceiling visibility checks; preserve native foreground silhouettes, spell flashes and the existing translucent HUD treatment.

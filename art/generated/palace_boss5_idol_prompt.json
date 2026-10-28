@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "style-transfer",
+  "prompt": "Use case: style-transfer. Asset type: one transparent Gothic 16-bit game background ornament, to be registered into a 64x96 pixel footprint. Redraw the supplied native ornament as an antique brass horned demon bust on a short narrow ornate pedestal. Preserve the exact front view, upward-curled horns reaching the two upper corners, stern broad demonic face and pointed ears, broad middle plinth, narrow central stem and foot. Same full silhouette and two-to-three width/height ratio as the reference. Aged gold and bronze with dark burgundy/navy recesses, restrained pale gold edges, small carved Gothic details. Crisp detailed pixel-art treatment with coherent small pixel clusters matching a dark Gothic platform game HD pack. Entire single ornament centered with generous transparent margins. No other objects, no scenery, no labels, no text, no background, no glow, no cast shadow. Keep it a flat frontal game sprite, not a photo or perspective sculpture.",
+  "reference": "art/level5_finale/native_idol.png",
+  "output": "palace_boss5_idol.png"
+}
