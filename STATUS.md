@@ -1,5 +1,11 @@
 # Current status
 
+## Current continuation — Palace late rooms 0.23.0 review
+
+The supplied 20261028-125935 movie continues beyond approved 8A6E, traversing 8AE6/mode10, 8BD6/mode04 and 8C4E/mode10, then entering 8D3E/mode04. The candidate reuses the approved interior, structural stone, lava/ice, floating skeleton and bone poses, and rising sentry. A complete repeating stone unit replaces the native moving lift. New room guards include both physical background banks and the accepted Thunder/dragon flash palettes. All 124 prior art/audio/patch files and recoverable 0.22.2 mappings remain exact. See docs/LEVEL5_CONTINUATION.md and evidence/level5_continuation/.
+
+This is a review candidate on feature/palace-continuation, based on approved main c1a192c. No push, PR, merge, tag or release has been performed. The movie ends shortly after entering the skull-lined shaft; its remainder and the boss remain outside live coverage.
+
 ## Approved baseline — 0.22.2 on main
 
 The user approved the complete delivered Demonic Palace pack and authorized its merge on 2026-10-27. PR [#26](https://github.com/kgrant191/holy-diver-hd/pull/26) merged at d70883b632f3b207b82feabdf84534951aec4798. The initial pushed source matched approved handoff 14333fd96068a8c5f03a5e92cda00edd500ac303. A validation-only cross-filesystem fix preserves every install byte; the merge tree equals the validated PR head. PR and main merge builds pass. Both actual downloaded install artifacts independently pass all 126 SHA-256 checks, archive digests, CRCs and flat-layout/no-nested-ZIP checks. See docs/LEVEL5_ADOPTION.md and evidence/level5_adoption/.

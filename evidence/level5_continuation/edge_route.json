@@ -1,0 +1,16 @@
+{
+  "frames": 2000,
+  "sha256": "50b336bc49f9ccb00bffc06f5b073d88972a841258096880b7b993bdaf2a2742",
+  "source_sha256": "36de8a08dcc84610fe5567c01530cf8038816c4607536b304a38929ce3cf9699",
+  "controller_only": true,
+  "unchanged_embedded_state": true,
+  "neutral_stop": [
+    1841,
+    1850
+  ],
+  "slow_right": [
+    1851,
+    1970
+  ],
+  "no_jump_after": 1840
+}

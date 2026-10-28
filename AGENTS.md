@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current continuation — late Palace rooms 0.23.0
+
+- The user supplied the 20261028-125935 movie for the next screens. Work starts from approved main c1a192c on feature/palace-continuation. New work is a review candidate; no merge/publication approval is implied.
+- Scope is 8AE6/mode10, 8BD6/mode04, 8C4E/mode10 and only the recorded entrance to 8D3E/mode04. Reuse approved interior/stone/lava/ice. Exact native palette roles separate distant walls from structural tiles. Both 1100/1300 copies need complete rendered guards, including accepted 30/31 flash behavior; retain blackouts and menus.
+- 12E5–12F6 equals 10E8–10F9: reuse whole floating skeleton/bone poses in FF160730, FF110130 and FF0C1C30. 12B1–12C2 in 8C4E reuses the rising sentry. 12F7–12FA is a repeated two-by-two moving-lift block; register its whole unit before slicing, retaining OAM movement and the native 64x32 HD span.
+- Preserve all 124 prior art/audio/patch files and exact removable 0.22.2 mappings. No new neighbor probes or native gameplay/audio edits. Keep the historical validator chain. See docs/LEVEL5_CONTINUATION.md and paired replay/edge evidence. The movie does not show the rest of the skull shaft or boss and contains no Thunder/dragon flash cast in the new rooms.
+
 ## Approved baseline — 0.22.2 on main
 
 - The user approved the complete Demonic Palace continuation and authorized its merge on 2026-10-27. PR #26 is merged into main. The pushed source matched the approved handoff, and the merge tree equals the validated PR head. PR and main merge builds pass; both actual downloaded artifacts match all 126 approved file hashes, CRCs and flat installation layout. See docs/LEVEL5_ADOPTION.md and evidence/level5_adoption/.

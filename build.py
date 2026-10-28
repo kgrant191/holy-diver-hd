@@ -54,6 +54,7 @@ subprocess.run([sys.executable,str(r/'scripts/build_palace_repair.py')],cwd=r,ch
 subprocess.run([sys.executable,str(r/'scripts/build_palace_next.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_palace_flash.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/build_palace_one_up.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/build_palace_continuation.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'

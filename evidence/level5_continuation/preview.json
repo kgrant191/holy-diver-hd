@@ -1,0 +1,37 @@
+{
+  "actual_gameplay": true,
+  "fps": 30.04940694872025,
+  "native_audio": true,
+  "clips": [
+    {
+      "first": 320,
+      "last": 800,
+      "label": "Lava corridor \u2022 Returning skeleton and guardian"
+    },
+    {
+      "first": 1480,
+      "last": 1900,
+      "label": "Blizzard \u2022 Frozen lava and small platforms"
+    },
+    {
+      "first": 3260,
+      "last": 3680,
+      "label": "Lava corridor \u2022 Continuous palace scenery"
+    },
+    {
+      "first": 8940,
+      "last": 9500,
+      "label": "Platform shaft \u2022 Moving stone lift"
+    },
+    {
+      "first": 11680,
+      "last": 12200,
+      "label": "Next hall \u2022 Returning rising sentry"
+    },
+    {
+      "first": 13990,
+      "last": 14590,
+      "label": "Skull shaft entrance \u2022 Recorded final chamber"
+    }
+  ]
+}
