@@ -1,5 +1,12 @@
 # Current status
 
+## Approved main — Demonic Palace 0.24.0
+
+PR [#27](https://github.com/kgrant191/holy-diver-hd/pull/27) merged on 2026-10-28, adopting the approved 0.23.0 late rooms and 0.24.0 finale. The pushed commit matched the approved handoff, and the merge tree matches the validated PR head exactly. PR and main builds pass; both downloaded artifacts match all 129 approved file hashes and flat install layout. Preserve all 129 reviewed installation files, including the frozen installed README. See docs/LEVEL5_FINALE_ADOPTION.md and evidence/level5_finale_adoption/ for build and artifact verification.
+
+Next work is Level 6, the final level. Its recorded entrance and title-card transition are already covered; later rooms remain unfinished. The user may revisit some platform and main-walkway artwork later, but current graphics are approved. No release tag was requested or created. Historical pending/review labels below describe earlier delivery states and are superseded by this adoption.
+
+
 ## Approved continuation — 0.24.0; merge authorized
 
 On 2026-10-28 the user approved 0.24.0, including the preceding 0.23.0 continuation, and authorized its merge. Preserve all 129 reviewed install files exactly, including the installed README. Approval bookkeeping changes source documentation only. GitHub does not yet have feature/palace-finale; source push is required before PR/build/artifact verification and merge. No further merge approval is needed.

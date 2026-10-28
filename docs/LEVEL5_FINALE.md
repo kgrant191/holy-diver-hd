@@ -40,3 +40,7 @@ Final checks pass: 2550 consecutive selected frames, 1282 exact shared native/pi
 ## Approval — 2026-10-28
 
 The user approved 0.24.0 and the preceding continuation, and authorized merging. Some platform and main-walkway graphics may be revisited later; current artwork is accepted. Next development is Level 6. Source push is pending; no further merge approval is required. All 129 reviewed installation bytes remain unchanged, including the installed README.
+
+## Adoption
+
+Merged through PR #27 on 2026-10-28. PR and main builds pass, and both downloaded artifacts match all 129 approved files. See LEVEL5_FINALE_ADOPTION.md and evidence/level5_finale_adoption/.

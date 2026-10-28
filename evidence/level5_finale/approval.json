@@ -9,7 +9,8 @@
     "0.24.0"
   ],
   "merge_authorized": true,
-  "merge_status": "pending user source push",
+  "merge_status": "merged through PR #27",
   "follow_up": "May revisit artwork on some platforms and main walkways; current artwork is approved. Next work is Level 6, the final level.",
-  "install_files_unchanged": true
+  "install_files_unchanged": true,
+  "merge_sha": "c6eeff696b0beeb8f5a1a372e4aaa94195e586a4"
 }

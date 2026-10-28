@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Demonic Palace 0.24.0 is approved and merged on main.** [PR #27](https://github.com/kgrant191/holy-diver-hd/pull/27) includes the late rooms, moving platforms, boss, victory sequence and Level 6 threshold. All 129 reviewed installation files remain frozen. Next development is Level 6. [Adoption record](docs/LEVEL5_FINALE_ADOPTION.md).
+
 **0.24.0 approved; merge authorized (2026-10-28).** Source push is pending. Platforms and main walkways are accepted, with possible later visual revisions. Next development is Level 6. Installed files remain unchanged.
 
 **Palace finale — 0.24.0 review.** Fixes the later moving lifts and stonework, adds the Level 5 boss and victory sequence, and carries HD Randy/HUD/effects into the recorded Level 6 entrance. [Scope and validation](docs/LEVEL5_FINALE.md). Main remains approved 0.22.2.
