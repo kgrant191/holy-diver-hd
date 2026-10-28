@@ -1,0 +1,48 @@
+{
+  "version": "0.21.1",
+  "status": "awaiting visual review",
+  "main": "approved 0.20.5",
+  "branch": "feature/demonic-palace",
+  "climb_frames": 1215,
+  "climb_native_samples": 607,
+  "climb_background_visible_samples": 605,
+  "climb_native_blackouts_preserved": 2,
+  "climb_minimum_exact_panorama_pixels": 140784,
+  "native_state_and_audio_exact": true,
+  "serpent_whole_source_matches": {
+    "serpent_head": {
+      "frame": 720,
+      "positions": [
+        [
+          62,
+          404
+        ]
+      ]
+    },
+    "serpent_segment": {
+      "frame": 732,
+      "positions": [
+        [
+          52,
+          412
+        ]
+      ]
+    }
+  },
+  "opening_frames": 9921,
+  "opening_native_samples": 4960,
+  "opening_image_checks": {
+    "changed": 2040,
+    "roof_only": 2020,
+    "identical": 2920,
+    "other_room_exact": 2714,
+    "native_black_exact": 209
+  },
+  "cavern_changes_ceiling_only": true,
+  "prior_assets_exact": 120,
+  "roof_masks_exact": 48,
+  "stair_masks_and_existing_opaque_tread_exact": 50,
+  "install_files": 123,
+  "coverage_limit": "Entire recorded 8816 climb; only the entrance to 888E. Later Level 5 remains untested.",
+  "publication_performed": false
+}

@@ -1,0 +1,53 @@
+{
+  "actual_gameplay": true,
+  "fps": 30,
+  "stride": 2,
+  "clips": [
+    [
+      300,
+      900,
+      "Demonic Palace \u2022 Lava cavern"
+    ],
+    [
+      2650,
+      3160,
+      "Blizzard \u2022 Native lava freeze / thaw"
+    ],
+    [
+      5030,
+      5320,
+      "Crimson column chamber"
+    ],
+    [
+      6090,
+      6630,
+      "Column climb \u2022 Skeletons and boulders"
+    ],
+    [
+      8190,
+      8470,
+      "The next palace hall"
+    ],
+    [
+      8790,
+      9100,
+      "Thunder \u2022 Two native casts"
+    ],
+    [
+      9210,
+      9530,
+      "Dragon flight \u2022 Segmented serpent"
+    ],
+    [
+      9598,
+      9642,
+      "Stair hall \u2022 First entry only"
+    ],
+    [
+      9700,
+      9840,
+      "Start menu \u2022 THUNDER spelling restored"
+    ]
+  ],
+  "ending_hold_seconds": 1.5
+}

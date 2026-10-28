@@ -1,0 +1,2456 @@
+{
+  "atlas_index": 58,
+  "atlas_cells": 39,
+  "mappings": [
+    {
+      "tile": "1101",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>57,1101,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>58,1101,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1102",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>57,1102,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>58,1102,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1103",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>57,1103,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>58,1103,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1104",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>57,1104,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1101]<tile>58,1104,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1101",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>57,1101,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>58,1101,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1102",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>57,1102,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>58,1102,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1103",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>57,1103,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>58,1103,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1104",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>57,1104,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1102]<tile>58,1104,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1101",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>57,1101,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>58,1101,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1102",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>57,1102,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>58,1102,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1103",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>57,1103,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>58,1103,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1104",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>57,1104,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1103]<tile>58,1104,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1101",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>57,1101,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>58,1101,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1102",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>57,1102,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>58,1102,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1103",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>57,1103,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>58,1103,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1104",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>57,1104,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1104]<tile>58,1104,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1301",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>57,1301,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>58,1301,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1302",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>57,1302,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>58,1302,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1303",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>57,1303,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>58,1303,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1304",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>57,1304,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1301]<tile>58,1304,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1301",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>57,1301,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>58,1301,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1302",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>57,1302,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>58,1302,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1303",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>57,1303,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>58,1303,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1304",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>57,1304,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1302]<tile>58,1304,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1301",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>57,1301,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>58,1301,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1302",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>57,1302,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>58,1302,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1303",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>57,1303,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>58,1303,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1304",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>57,1304,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1303]<tile>58,1304,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1301",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>57,1301,0F182819,0,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>58,1301,0F182819,0,0,1,N"
+    },
+    {
+      "tile": "1302",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>57,1302,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>58,1302,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1303",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>57,1303,0F182819,32,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>58,1303,0F182819,32,0,1,N"
+    },
+    {
+      "tile": "1304",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        48,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>57,1304,0F182819,48,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi&palaceRoofBelowBound&palaceRoofBelow1304]<tile>58,1304,0F182819,48,0,1,N"
+    },
+    {
+      "tile": "1101",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        64,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1101,0F182819,64,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1101,0F182819,64,0,1,N"
+    },
+    {
+      "tile": "1301",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        64,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1301,0F182819,64,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1301,0F182819,64,0,1,N"
+    },
+    {
+      "tile": "1102",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1102,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1102,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1302",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1302,0F182819,16,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1302,0F182819,16,0,1,N"
+    },
+    {
+      "tile": "1103",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        80,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1103,0F182819,80,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1103,0F182819,80,0,1,N"
+    },
+    {
+      "tile": "1303",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        80,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1303,0F182819,80,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1303,0F182819,80,0,1,N"
+    },
+    {
+      "tile": "1104",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        96,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1104,0F182819,96,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1104,0F182819,96,0,1,N"
+    },
+    {
+      "tile": "1304",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        96,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1304,0F182819,96,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1304,0F182819,96,0,1,N"
+    },
+    {
+      "tile": "111D",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        112,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,111D,0F182819,240,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,111D,0F182819,112,0,1,N"
+    },
+    {
+      "tile": "131D",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        112,
+        0
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,131D,0F182819,240,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,131D,0F182819,112,0,1,N"
+    },
+    {
+      "tile": "111E",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        16
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,111E,0F182819,256,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,111E,0F182819,0,16,1,N"
+    },
+    {
+      "tile": "131E",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        0,
+        16
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,131E,0F182819,256,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,131E,0F182819,0,16,1,N"
+    },
+    {
+      "tile": "111F",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        16
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,111F,0F182819,272,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,111F,0F182819,16,16,1,N"
+    },
+    {
+      "tile": "131F",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        16,
+        16
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,131F,0F182819,272,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,131F,0F182819,16,16,1,N"
+    },
+    {
+      "tile": "1120",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        16
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1120,0F182819,288,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1120,0F182819,32,16,1,N"
+    },
+    {
+      "tile": "1320",
+      "palette": "0F182819",
+      "scope": "palace850AMode&palace850ALo&palace850AHi",
+      "kind": "slime cavern ceiling",
+      "xy": [
+        32,
+        16
+      ],
+      "source_rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>57,1320,0F182819,288,0,1,N",
+      "rule": "[palace850AMode&palace850ALo&palace850AHi]<tile>58,1320,0F182819,32,16,1,N"
+    },
+    {
+      "tile": "1168",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1168,0F001030,48,16,1,N"
+    },
+    {
+      "tile": "1368",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1368,0F001030,48,16,1,N"
+    },
+    {
+      "tile": "1169",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1169,0F001030,64,16,1,N"
+    },
+    {
+      "tile": "1369",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1369,0F001030,64,16,1,N"
+    },
+    {
+      "tile": "1195",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1195,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "1395",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1395,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "1196",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1196,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "1396",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1396,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "1197",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1197,0F001030,112,16,1,N"
+    },
+    {
+      "tile": "1397",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1397,0F001030,112,16,1,N"
+    },
+    {
+      "tile": "1198",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1198,0F001030,0,32,1,N"
+    },
+    {
+      "tile": "1398",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1398,0F001030,0,32,1,N"
+    },
+    {
+      "tile": "1199",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1199,0F001030,16,32,1,N"
+    },
+    {
+      "tile": "1399",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,1399,0F001030,16,32,1,N"
+    },
+    {
+      "tile": "119A",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,119A,0F001030,32,32,1,N"
+    },
+    {
+      "tile": "139A",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,139A,0F001030,32,32,1,N"
+    },
+    {
+      "tile": "119B",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,119B,0F001030,48,32,1,N"
+    },
+    {
+      "tile": "139B",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,139B,0F001030,48,32,1,N"
+    },
+    {
+      "tile": "119C",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,119C,0F001030,64,32,1,N"
+    },
+    {
+      "tile": "139C",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,139C,0F001030,64,32,1,N"
+    },
+    {
+      "tile": "119D",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,119D,0F001030,80,32,1,N"
+    },
+    {
+      "tile": "139D",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,139D,0F001030,80,32,1,N"
+    },
+    {
+      "tile": "119E",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,119E,0F001030,96,32,1,N"
+    },
+    {
+      "tile": "139E",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,139E,0F001030,96,32,1,N"
+    },
+    {
+      "tile": "119F",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,119F,0F001030,112,32,1,N"
+    },
+    {
+      "tile": "139F",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,139F,0F001030,112,32,1,N"
+    },
+    {
+      "tile": "11A4",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11A4,0F001030,0,48,1,N"
+    },
+    {
+      "tile": "13A4",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13A4,0F001030,0,48,1,N"
+    },
+    {
+      "tile": "11A5",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11A5,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "13A5",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13A5,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "11A6",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11A6,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "13A6",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13A6,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "11A7",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11A7,0F001030,16,48,1,N"
+    },
+    {
+      "tile": "13A7",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13A7,0F001030,16,48,1,N"
+    },
+    {
+      "tile": "11A8",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11A8,0F001030,32,48,1,N"
+    },
+    {
+      "tile": "13A8",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13A8,0F001030,32,48,1,N"
+    },
+    {
+      "tile": "11A9",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11A9,0F001030,48,48,1,N"
+    },
+    {
+      "tile": "13A9",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13A9,0F001030,48,48,1,N"
+    },
+    {
+      "tile": "11AA",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11AA,0F001030,64,48,1,N"
+    },
+    {
+      "tile": "13AA",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13AA,0F001030,64,48,1,N"
+    },
+    {
+      "tile": "11AB",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11AB,0F001030,80,48,1,N"
+    },
+    {
+      "tile": "13AB",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13AB,0F001030,80,48,1,N"
+    },
+    {
+      "tile": "11AC",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11AC,0F001030,96,48,1,N"
+    },
+    {
+      "tile": "13AC",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13AC,0F001030,96,48,1,N"
+    },
+    {
+      "tile": "11AD",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11AD,0F001030,112,48,1,N"
+    },
+    {
+      "tile": "13AD",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13AD,0F001030,112,48,1,N"
+    },
+    {
+      "tile": "11AE",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11AE,0F001030,0,64,1,N"
+    },
+    {
+      "tile": "13AE",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13AE,0F001030,0,64,1,N"
+    },
+    {
+      "tile": "11AF",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11AF,0F001030,16,64,1,N"
+    },
+    {
+      "tile": "13AF",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13AF,0F001030,16,64,1,N"
+    },
+    {
+      "tile": "11B0",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11B0,0F001030,32,64,1,N"
+    },
+    {
+      "tile": "13B0",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13B0,0F001030,32,64,1,N"
+    },
+    {
+      "tile": "11B1",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11B1,0F001030,48,64,1,N"
+    },
+    {
+      "tile": "13B1",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13B1,0F001030,48,64,1,N"
+    },
+    {
+      "tile": "11B2",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11B2,0F001030,64,64,1,N"
+    },
+    {
+      "tile": "13B2",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13B2,0F001030,64,64,1,N"
+    },
+    {
+      "tile": "11B3",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,11B3,0F001030,80,64,1,N"
+    },
+    {
+      "tile": "13B3",
+      "palette": "0F001030",
+      "scope": "palace8816Mode&palace8816Lo&palace8816Hi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>58,13B3,0F001030,80,64,1,N"
+    },
+    {
+      "tile": "1168",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1168,0F001030,48,16,1,N"
+    },
+    {
+      "tile": "1368",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1368,0F001030,48,16,1,N"
+    },
+    {
+      "tile": "1169",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1169,0F001030,64,16,1,N"
+    },
+    {
+      "tile": "1369",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1369,0F001030,64,16,1,N"
+    },
+    {
+      "tile": "1195",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1195,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "1395",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1395,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "1196",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1196,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "1396",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1396,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "1197",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1197,0F001030,112,16,1,N"
+    },
+    {
+      "tile": "1397",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1397,0F001030,112,16,1,N"
+    },
+    {
+      "tile": "1198",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1198,0F001030,0,32,1,N"
+    },
+    {
+      "tile": "1398",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1398,0F001030,0,32,1,N"
+    },
+    {
+      "tile": "1199",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1199,0F001030,16,32,1,N"
+    },
+    {
+      "tile": "1399",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1399,0F001030,16,32,1,N"
+    },
+    {
+      "tile": "119A",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,119A,0F001030,32,32,1,N"
+    },
+    {
+      "tile": "139A",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,139A,0F001030,32,32,1,N"
+    },
+    {
+      "tile": "119B",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,119B,0F001030,48,32,1,N"
+    },
+    {
+      "tile": "139B",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,139B,0F001030,48,32,1,N"
+    },
+    {
+      "tile": "119C",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,119C,0F001030,64,32,1,N"
+    },
+    {
+      "tile": "139C",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,139C,0F001030,64,32,1,N"
+    },
+    {
+      "tile": "119D",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,119D,0F001030,80,32,1,N"
+    },
+    {
+      "tile": "139D",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,139D,0F001030,80,32,1,N"
+    },
+    {
+      "tile": "119E",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,119E,0F001030,96,32,1,N"
+    },
+    {
+      "tile": "139E",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,139E,0F001030,96,32,1,N"
+    },
+    {
+      "tile": "119F",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,119F,0F001030,112,32,1,N"
+    },
+    {
+      "tile": "139F",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        112,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,139F,0F001030,112,32,1,N"
+    },
+    {
+      "tile": "11A4",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A4,0F001030,0,48,1,N"
+    },
+    {
+      "tile": "13A4",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        0,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A4,0F001030,0,48,1,N"
+    },
+    {
+      "tile": "11A5",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A5,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "13A5",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A5,0F001030,80,16,1,N"
+    },
+    {
+      "tile": "11A6",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A6,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "13A6",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        16
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A6,0F001030,96,16,1,N"
+    },
+    {
+      "tile": "11A7",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A7,0F001030,16,48,1,N"
+    },
+    {
+      "tile": "13A7",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        16,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A7,0F001030,16,48,1,N"
+    },
+    {
+      "tile": "11A8",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A8,0F001030,32,48,1,N"
+    },
+    {
+      "tile": "13A8",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A8,0F001030,32,48,1,N"
+    },
+    {
+      "tile": "11A9",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A9,0F001030,48,48,1,N"
+    },
+    {
+      "tile": "13A9",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A9,0F001030,48,48,1,N"
+    },
+    {
+      "tile": "11AA",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11AA,0F001030,64,48,1,N"
+    },
+    {
+      "tile": "13AA",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13AA,0F001030,64,48,1,N"
+    },
+    {
+      "tile": "11AB",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11AB,0F001030,80,48,1,N"
+    },
+    {
+      "tile": "13AB",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        48
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13AB,0F001030,80,48,1,N"
+    },
+    {
+      "tile": "11B0",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B0,0F001030,32,64,1,N"
+    },
+    {
+      "tile": "13B0",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        32,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B0,0F001030,32,64,1,N"
+    },
+    {
+      "tile": "11B1",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B1,0F001030,48,64,1,N"
+    },
+    {
+      "tile": "13B1",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        48,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B1,0F001030,48,64,1,N"
+    },
+    {
+      "tile": "11B2",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B2,0F001030,64,64,1,N"
+    },
+    {
+      "tile": "13B2",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        64,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B2,0F001030,64,64,1,N"
+    },
+    {
+      "tile": "11B3",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B3,0F001030,80,64,1,N"
+    },
+    {
+      "tile": "13B3",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        80,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B3,0F001030,80,64,1,N"
+    },
+    {
+      "tile": "11BE",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11BE,0F001030,96,32,1,N"
+    },
+    {
+      "tile": "13BE",
+      "palette": "0F001030",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "stair hall stone",
+      "xy": [
+        96,
+        32
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13BE,0F001030,96,32,1,N"
+    },
+    {
+      "tile": "1100",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1100,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "1300",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,1300,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11A0",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A0,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13A0",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A0,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11A1",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A1,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13A1",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A1,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11A2",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A2,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13A2",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A2,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11A3",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11A3,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13A3",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13A3,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11B4",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B4,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13B4",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B4,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11B5",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B5,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13B5",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B5,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11B6",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B6,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13B6",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B6,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11B7",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B7,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13B7",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B7,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11B8",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B8,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13B8",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B8,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11B9",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11B9,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13B9",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13B9,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11BA",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11BA,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13BA",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13BA,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11BB",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11BB,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13BB",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13BB,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11BC",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11BC,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13BC",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13BC,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11BD",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11BD,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13BD",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13BD,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11BF",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11BF,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13BF",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13BF,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11C0",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11C0,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13C0",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13C0,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "11C1",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,11C1,0F0F0717,96,64,1,N"
+    },
+    {
+      "tile": "13C1",
+      "palette": "0F0F0717",
+      "scope": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi",
+      "kind": "distant hall wall reveal",
+      "xy": [
+        96,
+        64
+      ],
+      "source_rule": null,
+      "rule": "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi]<tile>58,13C1,0F0F0717,96,64,1,N"
+    }
+  ],
+  "clones": [
+    {
+      "source_rule": "<tile>57,10DB,FF0B2B30,432,48,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10DB,FF110130,432,48,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10DC,FF0B2B30,448,48,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10DC,FF110130,448,48,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10DD,FF0B2B30,464,48,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10DD,FF110130,464,48,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10DE,FF0B2B30,480,48,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10DE,FF110130,480,48,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10DF,FF0B2B30,496,48,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10DF,FF110130,496,48,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E0,FF0B2B30,0,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E0,FF110130,0,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E1,FF0B2B30,16,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E1,FF110130,16,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E2,FF0B2B30,32,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E2,FF110130,32,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E3,FF0B2B30,48,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E3,FF110130,48,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E4,FF0B2B30,64,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E4,FF110130,64,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E5,FF0B2B30,80,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E5,FF110130,80,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E6,FF0B2B30,96,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E6,FF110130,96,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    },
+    {
+      "source_rule": "<tile>57,10E7,FF0B2B30,112,64,1,N",
+      "rule": "[palace8816Mode&palace8816Lo&palace8816Hi]<tile>57,10E7,FF110130,112,64,1,N",
+      "kind": "existing complete serpent in climb palette"
+    }
+  ],
+  "backgrounds": [
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_1100_0F0F0717]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_1300_0F0F0717]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_1168_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_1368_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_1197_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_1397_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_11A0_0F0F0717]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_13A0_0F0F0717]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_11A2_0F0F0717]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_13A2_0F0F0717]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_11A8_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_13A8_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_11AA_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_13AA_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_11AC_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palace8816Mode&palace8816Lo&palace8816Hi&palaceRepairView8816_13AC_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi&palaceRepairView888E_1168_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi&palaceRepairView888E_1368_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi&palaceRepairView888E_1198_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0",
+    "[palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi&palaceRepairView888E_1398_0F001030]<background>Demonic_Palace_Interior.png,1,0,0,1,0,0"
+  ],
+  "conditions": [
+    "<condition>palaceRepair888EMode,memoryCheckConstant,0072,==,10",
+    "<condition>palaceRepair888ELo,memoryCheckConstant,0078,==,8E",
+    "<condition>palaceRepair888EHi,memoryCheckConstant,0079,==,88",
+    "<condition>palaceRepairView8816_1100_0F0F0717,tileAtPosition,128,16,1100,0F0F0717",
+    "<condition>palaceRepairView8816_1300_0F0F0717,tileAtPosition,128,16,1300,0F0F0717",
+    "<condition>palaceRepairView8816_1168_0F001030,tileAtPosition,128,16,1168,0F001030",
+    "<condition>palaceRepairView8816_1368_0F001030,tileAtPosition,128,16,1368,0F001030",
+    "<condition>palaceRepairView8816_1197_0F001030,tileAtPosition,128,16,1197,0F001030",
+    "<condition>palaceRepairView8816_1397_0F001030,tileAtPosition,128,16,1397,0F001030",
+    "<condition>palaceRepairView8816_11A0_0F0F0717,tileAtPosition,128,16,11A0,0F0F0717",
+    "<condition>palaceRepairView8816_13A0_0F0F0717,tileAtPosition,128,16,13A0,0F0F0717",
+    "<condition>palaceRepairView8816_11A2_0F0F0717,tileAtPosition,128,16,11A2,0F0F0717",
+    "<condition>palaceRepairView8816_13A2_0F0F0717,tileAtPosition,128,16,13A2,0F0F0717",
+    "<condition>palaceRepairView8816_11A8_0F001030,tileAtPosition,128,16,11A8,0F001030",
+    "<condition>palaceRepairView8816_13A8_0F001030,tileAtPosition,128,16,13A8,0F001030",
+    "<condition>palaceRepairView8816_11AA_0F001030,tileAtPosition,128,16,11AA,0F001030",
+    "<condition>palaceRepairView8816_13AA_0F001030,tileAtPosition,128,16,13AA,0F001030",
+    "<condition>palaceRepairView8816_11AC_0F001030,tileAtPosition,128,16,11AC,0F001030",
+    "<condition>palaceRepairView8816_13AC_0F001030,tileAtPosition,128,16,13AC,0F001030",
+    "<condition>palaceRepairView888E_1168_0F001030,tileAtPosition,128,16,1168,0F001030",
+    "<condition>palaceRepairView888E_1368_0F001030,tileAtPosition,128,16,1368,0F001030",
+    "<condition>palaceRepairView888E_1198_0F001030,tileAtPosition,128,16,1198,0F001030",
+    "<condition>palaceRepairView888E_1398_0F001030,tileAtPosition,128,16,1398,0F001030"
+  ],
+  "scopes": {
+    "850A": "palace850AMode&palace850ALo&palace850AHi",
+    "8672": "palace8672Mode&palace8672Lo&palace8672Hi",
+    "86EA": "palace86EAMode&palace86EALo&palace86EAHi",
+    "8762": "palace8762Mode&palace8762Lo&palace8762Hi",
+    "8816": "palace8816Mode&palace8816Lo&palace8816Hi",
+    "888E": "palaceRepair888EMode&palaceRepair888ELo&palaceRepair888EHi"
+  }
+}

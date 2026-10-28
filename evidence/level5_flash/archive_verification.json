@@ -1,0 +1,9 @@
+{
+  "version": "0.22.1",
+  "files": 126,
+  "archive_sha256": "56caf2123c00bf33b3184ceace44afe427feee033c6bb4314e5bebce466b7625",
+  "all_file_hashes_match": true,
+  "crc_valid": true,
+  "flat_install_layout": true,
+  "rebuilt_pack_matches_replayed_pack": true
+}

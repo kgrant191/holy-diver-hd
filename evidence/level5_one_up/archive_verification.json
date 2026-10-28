@@ -1,0 +1,13 @@
+{
+  "version": "0.22.2",
+  "files": 126,
+  "flat": true,
+  "crc_passed": true,
+  "all_hashes_exact": true,
+  "changed_files": [
+    "README.txt",
+    "hires.txt"
+  ],
+  "unchanged_assets": 124,
+  "archive_sha256": "4266253295d0bf7134f32edd5b7db73c7db28974d49e4a97da6122156e86dfde"
+}

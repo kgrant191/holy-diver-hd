@@ -1,5 +1,24 @@
 # Build and live testing
 
+Palace baseline projections copy unchanged assets into their temporary packs.
+Do not hard-link them: GitHub runners may mount the checkout and `/tmp` on
+different filesystems. Every projected file still requires its historical
+SHA-256 match before invoking the unchanged earlier validators. This portability
+fix changes no installed pack bytes.
+
+## Palace 1-up repair — 0.22.2
+
+Pair the full 20261027-235225 movie at stride two against frozen 0.22.1/0.22.2.
+Use make_palace_one_up_route.py to reach the upper-hall green 1-up using only
+controller input and the original state; capture frames 740–1464 consecutively.
+verify_palace_one_up_replay.py requires exact native memory/scroll, APU/full PCM,
+all changes confined to the native figurine footprint, complete approved source
+pixels and exact surrounding images. Inspect both actual room captures and the
+palette transitions. The screenshots alone prove native identity/color, while
+the replay supplies runtime coverage. The lava route collects the blue figurine
+and increments lives 6→7; the green route does not collect its item. The static
+validator preserves all 124 previous assets and the complete historical chain.
+
 ## Golden Temple all stairs / victory transition (0.20.2)
 
 Use `verify_level4_transition.py` for paired native/audio and pixel-scope checks and `verify_transition_sources.py` for actual complete-source matches. The installed manifest is frozen per capture. Three earlier stair recordings retain their pre-impact manifest with an exact four-rule scope-equivalence proof; the final movie10 uses the delivered manifest. See LEVEL4_TRANSITION.md and evidence/level4_transition/. Never substitute a synthetic atlas montage for the actual movie.
@@ -297,3 +316,11 @@ Use the supplied 8,668-frame movie against approved 0.15.0 and final 0.16.0. Pai
 ## Golden Temple foreground revision — 0.16.1
 
 Pair the full 8,668-frame recording and 1,485-frame input-only edge route against the final 0.16.0 captures. verify_level4_masonry.py requires exact native state/audio, changes confined to foreground cells, source block/column matches and unchanged panorama pixels. Keep the background/outdoor-column assets and previous mappings exact. Native 0B4E–0B51 destruction is documented from three live events. See LEVEL4_MASONRY.md.
+
+## Demonic Palace 0.21.0
+
+Use the supplied 20261027-212503 movie for the complete recorded opening, both Thunder casts, dragon flight and the 8816 stair-hall entry. Capture stride 2 for full native comparisons, and stride 1 for the derived controller edge routes. Keep the original embedded state. The 20261027-183338 movie is a prior-stage regression. verify_level5_replay.py compares RAM/PPU/OAM/view, APU writes and complete PCM, checks native blackouts and the one-cell H repair, and finds whole registered actor/effect sources in actual captures. Source matches and visual contact sheets complement each other. validate_pack.py retains every historical validator through a byte-exact 0.20.5 projection.
+
+## Demonic Palace repair 0.21.1
+
+Pair the 20261027-221951 climb movie and the prior 20261027-212503 opening movie against 0.21.0, stride 2. Use verify_palace_repair_replay.py with --opening only for the earlier movie. Require byte-exact native/audio data, complete serpent source matches and panorama pixels in every nonblack climb capture. Native transition blackouts must remain exact. The opening comparison confines cavern differences to ceiling cells; all other room/menu images remain exact except the intended 8816 stair padding repair. Static checks preserve all 48 roof masks/conditions and 50 old stair masks/opaque RGB.

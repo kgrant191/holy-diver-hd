@@ -1,0 +1,17 @@
+{
+  "actual_gameplay": true,
+  "postprocessed_game_pixels": false,
+  "source_frames": [
+    {
+      "case": "dragon",
+      "frame": 1420,
+      "label": "Upper hall / dragon-form palette"
+    },
+    {
+      "case": "next",
+      "frame": 4750,
+      "label": "Lava room / normal palette"
+    }
+  ],
+  "crop_enlargement": 2.5
+}

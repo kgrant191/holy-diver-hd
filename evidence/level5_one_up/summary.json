@@ -1,0 +1,89 @@
+{
+  "version": "0.22.2",
+  "base": "0.22.1",
+  "user_accepted_rest_of_0221": true,
+  "review_candidate": true,
+  "published": false,
+  "aliases": 12,
+  "unchanged_prior_art_audio_patch_files": 124,
+  "changed_install_files": [
+    "hires.txt",
+    "README.txt"
+  ],
+  "pack_files": 126,
+  "actual_replay_cases": {
+    "next": {
+      "movie": {
+        "movie_sha256": "197f7725772cb6a5540519616036fca047d3ac5b47a3b244cc0b3ea714347f49",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "emulator_version": "2.2.1",
+        "movie_completed": true,
+        "captured_frames": 5103,
+        "seconds_wall": 273.39431556600175,
+        "stride": 2,
+        "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+        "movie_frames": 10206
+      },
+      "images": {
+        "identical_images": 4907,
+        "corrected_images": 196,
+        "FF300036": 95,
+        "FF221136": 101
+      },
+      "native_ram_ppu_oam_scroll_exact": true,
+      "full_movie_apu_pcm_exact": true,
+      "apu_sha256": "93ddfa78001526a53614c3dfdebe90523b077e495fad057babf7bcc59a2c96f2",
+      "wav_sha256": "6e7620622d955d19d17370247db64a29983b677959fe91a12704937e10b4f497",
+      "every_changed_pixel_inside_native_one_up": true,
+      "complete_source_matches": 190,
+      "life_events": [
+        {
+          "frame": 5208,
+          "before": 6,
+          "after": 7
+        },
+        {
+          "frame": 6300,
+          "before": 7,
+          "after": 6
+        }
+      ]
+    },
+    "dragon": {
+      "movie": {
+        "movie_sha256": "e573925f5f6a9c294cc73f541472297b4b42ab19b99b84e260bde55f3c32ccc8",
+        "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+        "emulator_version": "2.2.1",
+        "movie_completed": true,
+        "captured_frames": 725,
+        "seconds_wall": 44.84756577799999,
+        "stride": 1,
+        "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+        "movie_frames": 1464
+      },
+      "images": {
+        "identical_images": 526,
+        "corrected_images": 199,
+        "FF190927": 199
+      },
+      "native_ram_ppu_oam_scroll_exact": true,
+      "full_movie_apu_pcm_exact": true,
+      "apu_sha256": "56841a95c9c2def835fc6b58f2e768474111390356e7c749faa24c80d5d6b718",
+      "wav_sha256": "8042603c6f3732dca38730ce9c16038f70376a43ce398511eaaa6153b727b70a",
+      "every_changed_pixel_inside_native_one_up": true,
+      "complete_source_matches": 189,
+      "life_events": []
+    }
+  },
+  "total_native_samples_per_type": 5828,
+  "total_corrected_images": 395,
+  "total_identical_images": 5433,
+  "total_complete_figurine_source_matches": 379,
+  "every_change_confined_to_one_up": true,
+  "native_gameplay_and_full_audio_exact": true,
+  "coverage_limits": [
+    "Green upper-hall item not collected; lava item collected with lives 6 to 7.",
+    "Later rooms and boss beyond the supplied recording remain untested."
+  ],
+  "comparison_sha256": "664c2b1ea1320975ad8c08b149f4efd4fb9d31379c45326fbcf53290084fa2ed"
+}

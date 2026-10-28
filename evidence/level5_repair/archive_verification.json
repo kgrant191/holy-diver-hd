@@ -1,0 +1,11 @@
+{
+  "version": "0.21.1",
+  "status": "review candidate",
+  "baseline": "0.21.0 review candidate",
+  "install_files": 123,
+  "flat_layout": true,
+  "crc_valid": true,
+  "complete_manifest_match": true,
+  "archive_sha256": "d05ca245a3d8a07a63116c4a8f90d01ab4636480df074fc57706cef6a6e17fa4",
+  "archive_bytes": 24307668
+}

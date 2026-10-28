@@ -1,5 +1,7 @@
 # Repository workflow
 
+Current approved continuation is **0.22.2**, accepted on 2026-10-27 with explicit merge authorization. GitHub does not yet have feature/demonic-palace or reviewed head 918b3d123062eaef62df8c18dbc53a2c3444c531. Publish the cumulative bundle through the existing source-push workflow, verify its PR build and actual artifact, then merge without asking for approval again. All 126 install files stay frozen. Main remains 0.20.5 until that merge succeeds; no tag or release was requested.
+
 Repository: kgrant191/holy-diver-hd. Approved development version on main is 0.20.5, adopted through PRs #18–#25 on 2026-10-27 after the user approved the complete pack and requested a bundle and merge. All eight PR builds and eight main merge builds, plus all sixteen downloaded artifacts, passed verification. Preserve all 119 reviewed installation files. Use focused branches for subsequent requested work and keep approval/adoption records in STATUS.md and evidence/.
 
 Use the active chat for bug reports, task priorities, feedback and approval. GitHub Issues and a TASKS.md backlog are not part of the current workflow. Prepare each requested change on a focused branch, test it, and open a PR with evidence and an Actions artifact. Revise the same branch for feedback. The user can merge or explicitly authorize the assistant to merge after approval. A proposed version on a branch is a review candidate until accepted.

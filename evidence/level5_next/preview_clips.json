@@ -1,0 +1,36 @@
+{
+  "actual_gameplay": true,
+  "fps": 30,
+  "clips": [
+    {
+      "capture": "after",
+      "first": 400,
+      "last": 1000,
+      "label": "Dragon stair hall \u2022 Continuous palace background"
+    },
+    {
+      "capture": "after",
+      "first": 1470,
+      "last": 2070,
+      "label": "Next chamber \u2022 HD scenery, Randy and returning dragon"
+    },
+    {
+      "capture": "after",
+      "first": 2520,
+      "last": 2880,
+      "label": "Rising armored sentry \u2022 Native emergence animation"
+    },
+    {
+      "capture": "after",
+      "first": 5480,
+      "last": 6100,
+      "label": "Lava falls \u2022 Returning horned guardian"
+    },
+    {
+      "capture": "after",
+      "first": 7440,
+      "last": 8000,
+      "label": "Blizzard \u2022 Native lava freeze and thaw"
+    }
+  ]
+}

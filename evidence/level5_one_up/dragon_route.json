@@ -1,0 +1,23 @@
+{
+  "movie_sha256": "e573925f5f6a9c294cc73f541472297b4b42ab19b99b84e260bde55f3c32ccc8",
+  "frames": 1464,
+  "input_only": true,
+  "unchanged_original_state_and_settings": true,
+  "original_input_prefix": 744,
+  "up": [
+    745,
+    884
+  ],
+  "right": [
+    885,
+    1364
+  ],
+  "neutral": [
+    1365,
+    1464
+  ],
+  "live_green_one_up_frames": [
+    1265,
+    1464
+  ]
+}

@@ -1,5 +1,50 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.22.2; merge authorized
+
+- On 2026-10-27 (America/New_York), the user approved the delivered 0.22.2 pack and explicitly requested its merge. Approval covers the complete Demonic Palace continuation and repairs through reviewed commit 918b3d123062eaef62df8c18dbc53a2c3444c531. Preserve all 126 installed files, including the frozen README.
+- GitHub currently lacks feature/demonic-palace and the reviewed commit. The cumulative source handoff must be pushed using the existing bundle workflow. Once present, publish approval bookkeeping if needed, open the PR, verify its Actions build and actual 126-file artifact, then merge under this existing authorization. Do not ask for merge approval again.
+- Main remains approved 0.20.5 until the merge actually succeeds. No release/tag requested. Approval notes change source documentation only; retain every runtime hash and existing coverage limit. See evidence/level5_one_up/approval.json. Historical review/no-merge labels below describe prior delivery status.
+
+## Current repair — Palace 1-up 0.22.2
+
+- The user accepts the rest of 0.22.1 and reports native 1-ups in two screenshots. Preserve every existing art/audio/patch file and all recoverable 0.22.1 rules, including the flash repair.
+- 104E/104F and 124E/124F equal the approved 024E/024F figurine. Add exact atlas 29 fallbacks for FF300036 (ivory), FF221136 (blue), and FF190927 (ivory during dragon form). No new artwork or native palette/gameplay changes.
+- The green screenshot proves all 100 opaque native pixels and the FF190927 palette, but cannot distinguish identical physical CHR banks. Cover both. Use actual native replay/source matches and state/audio equality; do not claim live collection or a palette absent from a recorded route.
+- See docs/LEVEL5_ONE_UP.md and evidence/level5_one_up/. Work remains local on feature/demonic-palace. No push, PR or merge authorized; main stays approved 0.20.5.
+
+## Current repair — Palace flash palettes 0.22.1
+
+- The user reports native scenery during Thunder and dragon pickup in the preview. Preserving a native flash does not permit reverting to native artwork. Previous normal-palette-only checks missed this defect.
+- Clone existing scoped Palace background/foreground rules for universal 30/31, including native-neighbor palette signatures and both 1100/1300 copies. Preserve original order, masks, animation and bounds. No sprite changes.
+- Flash panoramas retain original RGB with alpha 176 so Mesen blends the native flash color beneath them. Keep ordinary 0F frames exact and native blackouts inactive. Preserve all 122 earlier art/audio/patch assets and exact recoverable 0.22.0 rules.
+- Test both provided movies' Thunder/pickup windows at stride 1 and show a 60 fps actual preview. Keep the historical validator chain. See docs/LEVEL5_FLASH.md. No push, PR or merge authorized; main remains approved 0.20.5.
+
+## Current continuation — Demonic Palace 0.22.0
+
+- The user accepted 0.21.1 artwork and supplied a new movie showing background loss and two more rooms. Preserve that art; main remains approved 0.20.5. Continue feature/demonic-palace without push, PR or merge.
+- Cover the 888E/mode10 dragon stair hall and new 897E/mode10, 8A6E/mode08 lava rooms. Complete rendered normal-palette guard families cover both 1100/1300 banks; retain native blackouts and flashes. Reuse existing palace scenery, stair stone, lava/ice and every matching enemy source.
+- Sprite bank 1200 needs complete conditional player/HUD aliases; broad fallbacks stay last. 12C4–E4 reuses the Level2 walking dragon; 12A4–AF the floating guardian; 12B0 its shot. Native bytes prove each alias. Only 12B1–C2 rising sentry is new art; register its whole native union and preserve repeated BE/BF cells.
+- Preserve all 121 prior art/audio/patch files and exact recoverable 0.21.1 mappings; run every historical validator through baseline projection. No new neighbor probes or native gameplay/audio edits. See docs/LEVEL5_NEXT.md and evidence/level5_next/. The movie ends in 8A6E, before later rooms/boss.
+
+## Current repair — Demonic Palace 0.21.1
+
+- The user requests a subdued green slime ceiling and reports missing ascent backgrounds and native serpent sprites. Work continues on feature/demonic-palace from the unapproved 0.21.0 candidate; approved main stays 0.20.5.
+- Ceiling art changes only 1101–04/111D–20 in cavern 850A, plus 1300 copies; keep exact masks/conditions. Preserve the floor. Register whole 32×32 ceiling groups, not a vertically squeezed strip.
+- Room 8816 background guards must cover the climb. FF110130 serpent copies reuse the exact completed 10DB–E7 head/body source. Room 888E coverage is its entrance only.
+- Old stair material included transparent padding. New overrides fill only that padding from the same source's stone face; preserve original opaque RGB and native masks. Native transition blackouts remain black.
+- Preserve all 120 previous art/audio/patch files and exact recoverable 0.21.0 mappings. Keep every historical validator through the exact baseline projection. See docs/LEVEL5_REPAIR.md and evidence/level5_repair/. No publication or merge authorized.
+
+
+## Current review — Demonic Palace opening 0.21.0
+
+- Start from approved 0.20.5; work on feature/demonic-palace. Preserve 117 prior art/audio/patch assets and recover exact baseline mappings by stripping DEMONIC_PALACE blocks. Main remains approved 0.20.5.
+- Scope is 850A/18, 8672/04, 86EA/08, 8762/04 and only the 8816/04 entry. Use native 1100/1300 bank copies and full pose-conditioned 1000 actor aliases. The movie casts Thunder twice and shows dragon transformation/flight, but does not traverse the stair hall or later level/boss.
+- Skeleton shared cells and whole silhouettes stay connected. Keep independently moving worm segments and native bolt flips/footprints. Crimson column cap is 115C/D; shaft rows are 115E/F and 1160/61.
+- H repair is only 0946/0F072830 in pauseMagicRow. All new neighbor probes require ordered screen bounds. No native RAM/gameplay/audio edits. Keep full historical validation through the byte-exact baseline projection.
+- See docs/LEVEL5_DEMONIC_PALACE.md and evidence/level5/ for scope, actual replays and review status. No publication/merge is authorized by the level request.
+
+
 ## Approved baseline — 0.20.5 on main
 
 - The user approved 0.20.5 and requested a bundle and merge on 2026-10-27. PRs #18–#25 are merged into main in dependency order. All eight PR builds and eight merge builds pass; all sixteen downloaded artifacts match their complete manifests, archive digests, CRCs and flat install layouts. See evidence/stage4_adoption/ and docs/LEVEL4_ADOPTION.md.

@@ -1,0 +1,14 @@
+{
+  "prior_assets_exact": 122,
+  "exact_0220_mapping_recovery": true,
+  "all_source_cells_and_conditions_preserved": true,
+  "flash_variants": [
+    "30",
+    "31"
+  ],
+  "panorama_RGB_exact": true,
+  "panorama_opacity": 176,
+  "tile_aliases": 6048,
+  "background_aliases": 14500,
+  "new_neighbor_geometry": false
+}

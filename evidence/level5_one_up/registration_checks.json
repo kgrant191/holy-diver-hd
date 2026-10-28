@@ -1,0 +1,17 @@
+{
+  "prior_assets_exact": 124,
+  "exact_0221_mapping_recovery": true,
+  "aliases": 12,
+  "banks": [
+    "1000",
+    "1200"
+  ],
+  "palettes": [
+    "FF300036",
+    "FF221136",
+    "FF190927"
+  ],
+  "complete_approved_figurines_exact": true,
+  "new_artwork": false,
+  "new_conditions": false
+}

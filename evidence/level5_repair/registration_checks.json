@@ -1,0 +1,12 @@
+{
+  "prior_assets_exact": 120,
+  "exact_0210_mapping_recovery": true,
+  "roof_alpha_and_conditions_exact": 48,
+  "existing_stair_alpha_and_opaque_tread_exact": 50,
+  "serpent_aliases": 13,
+  "new_neighbor_probes": 0,
+  "new_background_guards": 20,
+  "new_files": [
+    "Demonic_Palace_Repair_2x.png"
+  ]
+}

@@ -1,0 +1,11 @@
+Initialize core
+Load ROM
+Load movie
+Mesen WAV capture: /workspace/scratch/f2bcd259acb6/work/palace_one_up/dragon_after/full.wav at source rate 96000
+Initialize observer
+script 1
+Synchronized native HD screenshot observer enabled.
+{"movie_sha256": "e573925f5f6a9c294cc73f541472297b4b42ab19b99b84e260bde55f3c32ccc8", "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac", "emulator_version": "2.2.1", "movie_completed": true, "captured_frames": 725, "seconds_wall": 44.84756577799999, "stride": 1, "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79"}
+Loading script...
+Registered memory callback from $4000 to $4017
+Script loaded successfully.

@@ -1,5 +1,19 @@
 # Holy Diver HD
 
+**Approved Demonic Palace 0.22.2 — merge authorized, awaiting source push.** Includes the recorded Palace rooms, green slime ceiling, enemies, background continuity and flash repairs, restored THUNDER H and both 1-up appearances. The user approved the complete pack on 2026-10-27. Preserve all 126 reviewed installation files. Main remains approved 0.20.5 until the authorized PR merge completes. See [status](STATUS.md) and [approval record](evidence/level5_one_up/approval.json).
+
+**Demonic Palace 1-up repair — 0.22.2 review.** Restores the approved front-facing collectible in both Palace sprite banks, including its dragon-form palette. Preserves the accepted 0.22.1 artwork and flash repairs. [Repair and checks](docs/LEVEL5_ONE_UP.md).
+
+**Demonic Palace flash repair — 0.22.1 review.** Keeps the finished palace scenery and stonework visible during Thunder and dragon pickup, with the native flash color showing through the same artwork. Preserves ordinary frames and prior assets. [Repair and consecutive-frame checks](docs/LEVEL5_FLASH.md).
+
+**Demonic Palace next rooms — 0.22.0 review.** Completes background coverage through the dragon stair hall and updates the next two lava rooms with the finished scenery, stone, lava/ice, Randy, HUD and returning enemies. Adds a rising horned armored sentry. Preserves the accepted 0.21.1 artwork. [Changes and tests](docs/LEVEL5_NEXT.md). Main remains approved 0.20.5.
+
+**Demonic Palace repair — 0.21.1 review.** Gives the cavern ceiling subdued green slime, keeps the interior background visible through the stair climb, restores the HD serpent in its alternate palette, and fills stair-art gaps exposed by the restored scenery. Covers the next hall's entrance. [Changes and tests](docs/LEVEL5_REPAIR.md). Main remains approved 0.20.5.
+
+
+**Demonic Palace opening — 0.21.0 review.** Adds the recorded lava cavern and crimson-column halls, skeletons, jade boulders, segmented serpent and Thunder effects. Restores the missing H in THUNDER. Approved art and gameplay remain intact. [Scope and verification](docs/LEVEL5_DEMONIC_PALACE.md). Main remains approved 0.20.5.
+
+
 **Approved 0.20.5 on `main` (merged 2026-10-27).** All eight PRs [#18](https://github.com/kgrant191/holy-diver-hd/pull/18)–[#25](https://github.com/kgrant191/holy-diver-hd/pull/25) are merged. All PR/main builds and sixteen downloaded install artifacts pass; all 119 approved pack files remain exact. See [adoption and verification](docs/LEVEL4_ADOPTION.md). Earlier review labels retain their historical context.
 
 **Background continuity — 0.20.5 review.** Completes the Poison Moss lava-corridor background checks so scenery remains visible as the camera scrolls. All approved 0.20.4 artwork remains exact. [Changes and verification](docs/BACKGROUND_CONTINUITY.md).
@@ -110,7 +124,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.20.5.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.22.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

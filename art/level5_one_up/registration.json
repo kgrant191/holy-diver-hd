@@ -1,0 +1,102 @@
+{
+  "mappings": [
+    {
+      "source_rule": "<tile>29,024E,FF300036,32,144,1,N",
+      "rule": "<tile>29,104E,FF300036,32,144,1,N",
+      "native_source": "024E",
+      "native_target": "104E",
+      "palette": "FF300036",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF300036,48,144,1,N",
+      "rule": "<tile>29,104F,FF300036,48,144,1,N",
+      "native_source": "024F",
+      "native_target": "104F",
+      "palette": "FF300036",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024E,FF221136,64,144,1,N",
+      "rule": "<tile>29,104E,FF221136,64,144,1,N",
+      "native_source": "024E",
+      "native_target": "104E",
+      "palette": "FF221136",
+      "source_palette": "FF221136"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF221136,80,144,1,N",
+      "rule": "<tile>29,104F,FF221136,80,144,1,N",
+      "native_source": "024F",
+      "native_target": "104F",
+      "palette": "FF221136",
+      "source_palette": "FF221136"
+    },
+    {
+      "source_rule": "<tile>29,024E,FF300036,32,144,1,N",
+      "rule": "<tile>29,104E,FF190927,32,144,1,N",
+      "native_source": "024E",
+      "native_target": "104E",
+      "palette": "FF190927",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF300036,48,144,1,N",
+      "rule": "<tile>29,104F,FF190927,48,144,1,N",
+      "native_source": "024F",
+      "native_target": "104F",
+      "palette": "FF190927",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024E,FF300036,32,144,1,N",
+      "rule": "<tile>29,124E,FF300036,32,144,1,N",
+      "native_source": "024E",
+      "native_target": "124E",
+      "palette": "FF300036",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF300036,48,144,1,N",
+      "rule": "<tile>29,124F,FF300036,48,144,1,N",
+      "native_source": "024F",
+      "native_target": "124F",
+      "palette": "FF300036",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024E,FF221136,64,144,1,N",
+      "rule": "<tile>29,124E,FF221136,64,144,1,N",
+      "native_source": "024E",
+      "native_target": "124E",
+      "palette": "FF221136",
+      "source_palette": "FF221136"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF221136,80,144,1,N",
+      "rule": "<tile>29,124F,FF221136,80,144,1,N",
+      "native_source": "024F",
+      "native_target": "124F",
+      "palette": "FF221136",
+      "source_palette": "FF221136"
+    },
+    {
+      "source_rule": "<tile>29,024E,FF300036,32,144,1,N",
+      "rule": "<tile>29,124E,FF190927,32,144,1,N",
+      "native_source": "024E",
+      "native_target": "124E",
+      "palette": "FF190927",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF300036,48,144,1,N",
+      "rule": "<tile>29,124F,FF190927,48,144,1,N",
+      "native_source": "024F",
+      "native_target": "124F",
+      "palette": "FF190927",
+      "source_palette": "FF300036"
+    }
+  ],
+  "new_artwork": false,
+  "dragon_form_uses": "approved ivory figurine"
+}

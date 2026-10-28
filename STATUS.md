@@ -1,5 +1,31 @@
 # Current status
 
+## Approved 0.22.2 — awaiting source push and authorized merge
+
+The user approved the complete delivered Demonic Palace pack and requested its merge on 2026-10-27 (America/New_York): “approved, lets merge it”. Reviewed head: 918b3d123062eaef62df8c18dbc53a2c3444c531. All 126 reviewed installation files remain frozen, including README.txt. GitHub does not yet have feature/demonic-palace or that commit, so no PR or merge has occurred. The cumulative source bundle includes the approved work and approval notes; after its source push, create the PR, verify Actions and its actual artifact, and merge under the authorization already given. Main remains approved 0.20.5 until then. No release/tag requested. See evidence/level5_one_up/approval.json. Earlier review labels remain historical.
+
+## Current repair — Palace 1-up 0.22.2 review
+
+The user accepted the rest of 0.22.1 and identified two native 1-up appearances. Both Palace banks now reuse the approved complete ivory/blue figurines, including the green native palette during dragon form. All 124 previous art/audio/patch files and exact recoverable 0.22.1 mappings stay unchanged. See docs/LEVEL5_ONE_UP.md and evidence/level5_one_up/ for screenshot identity and actual replay checks. The repair awaits review on feature/demonic-palace; main remains approved 0.20.5. No publication or merge performed.
+
+## Current repair — Palace flash palettes 0.22.1 review
+
+The user identified native background/stone graphics during Thunder and dragon acquisition in the preview. The 0.22.0 normal-palette checks excluded these frames and missed the defect. Scoped 30/31 variants now reuse the complete HD scenery, with unchanged panorama RGB at alpha 176 to retain the native flash color. All 122 previous art/audio/patch assets and recoverable 0.22.0 mappings are preserved. Paired consecutive-frame captures cover both events in the column and stair halls; the corrected preview runs at 60 fps. See docs/LEVEL5_FLASH.md and evidence/level5_flash/. Work remains local on feature/demonic-palace; main stays approved 0.20.5. No publication or merge performed.
+
+## Current continuation — Demonic Palace 0.22.0 review
+
+The user said the 0.21.1 artwork looks good, then supplied a new movie showing remaining background dropouts and two more rooms. This candidate completes normal-palette background coverage in 888E, 897E and 8A6E; reuses the existing interior, stair stone, lava/ice, player/HUD and returning enemies; and adds the rising armored sentry. All 121 earlier art/audio/patch files remain exact. The supplied 10,206-frame movie covers both lava rooms, Blizzard, Overdrive, death and restart, ending in 8A6E before the boss. See docs/LEVEL5_NEXT.md and evidence/level5_next/ for validation. Work stays on feature/demonic-palace; main remains approved 0.20.5. No push, PR, merge or release performed.
+
+## Current repair — Demonic Palace 0.21.1 review
+
+The user's ceiling/background/enemy feedback revises the 0.21.0 candidate on feature/demonic-palace. The cavern ceiling is subdued green slime; the rocky floor stays exact. Room 8816 keeps the existing interior panorama throughout ascent and reuses the finished serpent in its alternate palette. Stone padding gaps are filled from the existing tread source without changing masks or existing opaque artwork. The new movie also covers only the entrance to 888E. All 120 earlier art/audio/patch files remain exact; main stays approved 0.20.5. The 1,215-frame climb and 9,921-frame opening replays preserve native state and full audio; all 605 nonblack climb samples retain the panorama. Build and all 123 archive hashes pass. See docs/LEVEL5_REPAIR.md. No publication/merge performed.
+
+
+## Current review — Demonic Palace opening 0.21.0
+
+Work is on `feature/demonic-palace` from approved main 0.20.5. The supplied movie covers the lava cavern, crimson-column chambers, two Thunder casts and dragon transformation/flight, ending at the first stair-hall entry and pause menu. Adds new scenery/enemies/effects and fixes the missing H in THUNDER. All 117 earlier art/audio/patch assets and exact recoverable 0.20.5 mappings are preserved. Remaining Level 5 rooms/boss are outside this update. See docs/LEVEL5_DEMONIC_PALACE.md. Paired full-movie and controller-edge tests preserve native state and audio; all 2,855 nonempty prior-stage regression images stay exact. The 122-file build and full historical/new validation pass. No push, PR, merge or release has been performed.
+
+
 ## Approved baseline — 0.20.5 on main
 
 The user approved the complete delivered pack and authorized its bundle and merge on 2026-10-27. PRs #18 → #19 → #20 → #21 → #22 → #23 → #24 → #25 are merged into main, retargeting each successor after its predecessor. Every merge tree exactly matches its reviewed head. All eight PR builds and eight merge builds pass, and all sixteen downloaded install artifacts match their archive digests, complete expected file hashes, ZIP CRCs and flat layouts. The final merge is 0b9ee788621f2ca2ef0cc61cb6b3de9ff12e5627. See evidence/stage4_adoption/ and docs/LEVEL4_ADOPTION.md.

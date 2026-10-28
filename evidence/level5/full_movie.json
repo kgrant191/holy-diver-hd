@@ -1,0 +1,231 @@
+{
+  "movie": {
+    "movie_sha256": "b87a147a8ec569edc72819b5dd9b567bd2f340f55d1e1bf457acbc0067a5e4bb",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 4960,
+    "seconds_wall": 231.19511698399583,
+    "stride": 2,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 9921
+  },
+  "native_samples_per_type": 4960,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_sha256": "7dc0b8ce343dec3718cecb939a27166cd4d109a6fb953b70b3f800529c7f8d45",
+  "apu_sha256": "3c1d801397d744fc77ea2417fc5a17e7bd800054ac86de5f59521fec8741bac3",
+  "images": {
+    "changed": 4618,
+    "identical": 342,
+    "menu_only_H": 524,
+    "native_black_exact": 209
+  },
+  "rooms": {
+    "850A": 2218,
+    "FFFF": 527,
+    "8672": 1260,
+    "0000": 97,
+    "86EA": 410,
+    "8762": 425,
+    "8816": 23
+  },
+  "menu_change_bbox": [
+    257,
+    275,
+    270,
+    285
+  ],
+  "live_complete_source_matches": {
+    "skeleton_2 flip1": {
+      "frame": 10,
+      "positions": [
+        [
+          102,
+          112
+        ]
+      ]
+    },
+    "bone flip0": {
+      "frame": 10,
+      "positions": [
+        [
+          76,
+          388
+        ]
+      ]
+    },
+    "skeleton_2 flip0": {
+      "frame": 40,
+      "positions": [
+        [
+          172,
+          168
+        ]
+      ]
+    },
+    "skeleton_1 flip0": {
+      "frame": 60,
+      "positions": [
+        [
+          122,
+          88
+        ]
+      ]
+    },
+    "skeleton_0 flip0": {
+      "frame": 240,
+      "positions": [
+        [
+          90,
+          108
+        ]
+      ]
+    },
+    "boulder_0 flip0": {
+      "frame": 480,
+      "positions": [
+        [
+          424,
+          236
+        ]
+      ]
+    },
+    "boulder_2 flip3": {
+      "frame": 480,
+      "positions": [
+        [
+          424,
+          236
+        ]
+      ]
+    },
+    "boulder_0 flip3": {
+      "frame": 490,
+      "positions": [
+        [
+          374,
+          200
+        ]
+      ]
+    },
+    "boulder_2 flip0": {
+      "frame": 490,
+      "positions": [
+        [
+          374,
+          200
+        ]
+      ]
+    },
+    "boulder_1 flip0": {
+      "frame": 510,
+      "positions": [
+        [
+          330,
+          192
+        ]
+      ]
+    },
+    "skeleton_0 flip1": {
+      "frame": 1020,
+      "positions": [
+        [
+          66,
+          132
+        ]
+      ]
+    },
+    "skeleton_1 flip1": {
+      "frame": 1040,
+      "positions": [
+        [
+          76,
+          188
+        ]
+      ]
+    },
+    "thunder_0 flip1": {
+      "frame": 8810,
+      "positions": [
+        [
+          206,
+          216
+        ]
+      ]
+    },
+    "serpent_head flip0": {
+      "frame": 8830,
+      "positions": [
+        [
+          158,
+          82
+        ]
+      ]
+    },
+    "serpent_segment flip0": {
+      "frame": 8840,
+      "positions": [
+        [
+          180,
+          78
+        ]
+      ]
+    },
+    "thunder_1 flip0": {
+      "frame": 8860,
+      "positions": [
+        [
+          372,
+          140
+        ]
+      ]
+    },
+    "thunder_1 flip2": {
+      "frame": 8860,
+      "positions": [
+        [
+          372,
+          260
+        ]
+      ]
+    },
+    "thunder_2 flip0": {
+      "frame": 8860,
+      "positions": [
+        [
+          412,
+          176
+        ]
+      ]
+    },
+    "thunder_2 flip1": {
+      "frame": 8860,
+      "positions": [
+        [
+          332,
+          176
+        ]
+      ]
+    },
+    "thunder_2 flip2": {
+      "frame": 8860,
+      "positions": [
+        [
+          412,
+          240
+        ]
+      ]
+    },
+    "thunder_2 flip3": {
+      "frame": 8860,
+      "positions": [
+        [
+          332,
+          240
+        ]
+      ]
+    }
+  }
+}

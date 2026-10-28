@@ -1,0 +1,45 @@
+{
+  "skeleton": {
+    "source_box": [
+      38,
+      174,
+      504,
+      732
+    ],
+    "band_cuts": [
+      345,
+      505,
+      600
+    ],
+    "width": 60,
+    "x": 3,
+    "shared_cells_exact": true,
+    "clipped_pixels": 0
+  },
+  "boulder": {
+    "size": [
+      48,
+      48
+    ],
+    "rotations": [
+      0,
+      90,
+      180
+    ],
+    "native_emergence_size": [
+      48,
+      16
+    ]
+  },
+  "serpent": {
+    "head": [
+      48,
+      48
+    ],
+    "segment": [
+      32,
+      32
+    ],
+    "native_separate_segments": true
+  }
+}

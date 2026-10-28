@@ -1,0 +1,26 @@
+{
+  "source": "art/generated/palace_sentry.png",
+  "method": "whole horizontal bands before native slicing",
+  "source_x": [
+    160,
+    788
+  ],
+  "source_y_cuts": [
+    14,
+    120,
+    330,
+    375,
+    720,
+    1050
+  ],
+  "size": [
+    64,
+    112
+  ],
+  "repeated_body_cells": [
+    "12BE",
+    "12BF"
+  ],
+  "clipped_pixels": 0,
+  "built_in_imagegen": true
+}

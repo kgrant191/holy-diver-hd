@@ -1,0 +1,6 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "asset": "palace_sentry.png",
+  "prompt": "Use case: stylized-concept. Create one production sprite source for a Gothic dark fantasy 2D platform game: an upright horned armored sentry emerging from the floor. Entire isolated character on transparent background. Nearly frontal orthographic view, symmetrical silhouette, no perspective floor or cast shadow. Weathered dark teal/verdigris armor, restrained ivory metal highlights, tiny amber eyes. Painterly detailed 16-bit remaster aesthetic with crisp readable edges, muted palette and dark recesses. Tall narrow character, width to height approximately 4:7. Critical silhouette from top to bottom: two separated long outward horn tips at extreme left and right of top; full broad helmet immediately beneath; narrow central neck; broad armored shoulders and chest with arms held tightly against torso; broad waist; narrow central segmented column-like lower body ending in two small close-set feet. No spread legs. No weapon, wings, cape, pedestal, environment, lettering or watermark. One complete coherent character only, centered with small transparent margins. Source will be reduced to 64 by 112 pixels, so favor strong connected shapes and readable armor over fine filigree."
+}

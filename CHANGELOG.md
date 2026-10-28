@@ -1,5 +1,42 @@
 # Changelog
 
+## 0.22.2 — Palace 1-up repair (approved)
+
+- Approved with the complete Demonic Palace continuation on 2026-10-27; the user authorized its merge. Awaiting source push. Approval bookkeeping changes no installation bytes.
+
+- Restore the approved ivory and blue 1-up figurines in both Palace sprite banks.
+- Cover the additional green native palette while Randy is a dragon, reusing the ivory figurine.
+- Preserve all 124 prior art/audio/patch files, Thunder/pickup scenery, native gameplay and audio.
+
+## 0.22.1 — Palace Thunder/pickup flashes (review)
+
+- Prevent original walls and stonework from returning during Thunder and dragon-item flashes.
+- Reuse all existing Palace HD scenery for both native flash palettes, retaining native flash color, cadence and grayscale effects.
+- Preserve ordinary artwork, all 122 prior art/audio/patch files, gameplay and audio. Verify consecutive frames and provide a 60 fps actual preview.
+
+## 0.22.0 — Demonic Palace next rooms (review)
+
+- Complete background guards across the dragon stair hall and the following two lava rooms.
+- Carry the finished stonework, lava/ice, Randy, HUD and returning enemies into the new rooms and sprite bank.
+- Add the rising horned armored sentry with native emergence and repeated body geometry.
+- Preserve accepted 0.21.1 artwork, all 121 earlier art/audio/patch files, and native gameplay/audio.
+
+## 0.21.1 — Demonic Palace ceiling/climb repair (review)
+
+- Replace cavern ceiling material with subdued green slime; preserve its outline and rocky floor.
+- Extend interior backdrop guards through the stair climb and reuse the completed serpent for its alternate palette.
+- Fill transparent-padding gaps in stair material using the existing stone face; preserve existing opaque tread pixels and geometry.
+- Extend matching scenery/stonework to the next recorded hall entrance. Keep all 120 prior art/audio/patch files exact.
+
+
+## 0.21.0 — Demonic Palace opening (review)
+
+- Add the recorded Gothic lava cavern and crimson spiral-column halls, skeletons/bones, jade rolling rocks and independently segmented serpent.
+- Add native Thunder bolt artwork and restore the missing H in THUNDER on the Start/pause menu.
+- Reuse approved lava/ice, player/HUD, pickups and dragon art. Preserve all earlier assets and native gameplay/audio.
+- Cover the first stair-hall entry only; later Level 5 rooms and boss await recording/review.
+
+
 ## 0.20.5 — Poison Moss background continuity
 
 - Approved and merged on 2026-10-27 through PRs #18–#25. All eight PR/main build pairs and sixteen downloaded artifacts pass. Adoption changes none of the 119 reviewed installation files; no release/tag is created.

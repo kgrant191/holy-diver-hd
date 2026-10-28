@@ -1,0 +1,33 @@
+{
+  "previous_version": "0.22.0",
+  "previous_commit": "1636da81ad9b41620daad18c645a86d32213a6f7",
+  "source_images": [
+    "Demonic_Palace_Cavern.png",
+    "Demonic_Palace_Interior.png"
+  ],
+  "RGB_preserved_exactly": true,
+  "flash_opacity": 176,
+  "painted_art_created": false,
+  "native_flash_colors": {
+    "30": [
+      255,
+      254,
+      255
+    ],
+    "31": [
+      192,
+      223,
+      255
+    ]
+  },
+  "renderer_formula": "floor(RGB * 177 / 256) + floor(native_flash_RGB * 80 / 256), followed by native grayscale/emphasis",
+  "native_source_references": [
+    "Core/NES/HdPacks/HdData.h::PremultiplyAlpha",
+    "Core/NES/HdPacks/HdNesPack.cpp::BlendColors",
+    "Core/NES/HdPacks/HdNesPack.cpp::ProcessGrayscaleAndEmphasis",
+    "Core/NES/NesDefaultVideoFilter.cpp::_ppuPaletteArgb"
+  ],
+  "local_branch": "feature/demonic-palace",
+  "main": "0.20.5",
+  "published": false
+}

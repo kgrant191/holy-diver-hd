@@ -1,0 +1,31 @@
+{
+  "movie": {
+    "movie_sha256": "5d45de08c3a9bf5bc72086363855f087557b593f695346122553b03208a18649",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 2856,
+    "seconds_wall": 99.61771994899755,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 2856
+  },
+  "native_samples_per_type": 2856,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_sha256": "485c955a3cc1f4b591b3bfaa015655b53c3898d2088542d692f9702282543764",
+  "apu_sha256": "41547cad1f93cefe79414f63759b1d8b8d047ee04f95dc33745a3278a20b208a",
+  "images": {
+    "identical": 2855,
+    "native_black_exact": 195,
+    "menu_only_H": 117
+  },
+  "rooms": {
+    "9DEE": 2542,
+    "FFFF": 119,
+    "0000": 194
+  },
+  "menu_change_bbox": null,
+  "live_complete_source_matches": {}
+}

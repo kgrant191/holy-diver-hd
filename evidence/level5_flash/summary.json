@@ -1,0 +1,68 @@
+{
+  "opening": {
+    "movie": {
+      "movie_sha256": "b87a147a8ec569edc72819b5dd9b567bd2f340f55d1e1bf457acbc0067a5e4bb",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "emulator_version": "2.2.1",
+      "movie_completed": true,
+      "captured_frames": 461,
+      "seconds_wall": 80.04281635899679,
+      "stride": 1,
+      "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+      "movie_frames": 9921
+    },
+    "consecutive_samples": 461,
+    "native_ram_ppu_oam_scroll_exact": true,
+    "full_movie_apu_and_pcm_exact": true,
+    "apu_sha256": "3c1d801397d744fc77ea2417fc5a17e7bd800054ac86de5f59521fec8741bac3",
+    "wav_sha256": "779de974eefc80942131686992d3194866b1eaccb13eab59a1707f95da3f2fff",
+    "images": {
+      "identical": 430,
+      "corrected_flash_frames": 31,
+      "phase_30": 12,
+      "phase_30/gray1/emphasis4": 4,
+      "phase_31": 15
+    },
+    "minimum_flash_source_pixels": 150437
+  },
+  "hall": {
+    "movie": {
+      "movie_sha256": "197f7725772cb6a5540519616036fca047d3ac5b47a3b244cc0b3ea714347f49",
+      "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+      "emulator_version": "2.2.1",
+      "movie_completed": true,
+      "captured_frames": 421,
+      "seconds_wall": 77.96538661499653,
+      "stride": 1,
+      "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+      "movie_frames": 10206
+    },
+    "consecutive_samples": 421,
+    "native_ram_ppu_oam_scroll_exact": true,
+    "full_movie_apu_and_pcm_exact": true,
+    "apu_sha256": "93ddfa78001526a53614c3dfdebe90523b077e495fad057babf7bcc59a2c96f2",
+    "wav_sha256": "6e7620622d955d19d17370247db64a29983b677959fe91a12704937e10b4f497",
+    "images": {
+      "identical": 390,
+      "corrected_flash_frames": 31,
+      "phase_30": 12,
+      "phase_30/gray1/emphasis4": 4,
+      "phase_31": 15
+    },
+    "minimum_flash_source_pixels": 140498
+  },
+  "version": "0.22.1",
+  "prior_assets_exact": 122,
+  "all_historical_validators_passed": true,
+  "archive": {
+    "version": "0.22.1",
+    "files": 126,
+    "archive_sha256": "56caf2123c00bf33b3184ceace44afe427feee033c6bb4314e5bebce466b7625",
+    "all_file_hashes_match": true,
+    "crc_valid": true,
+    "flat_install_layout": true,
+    "rebuilt_pack_matches_replayed_pack": true
+  },
+  "preview_seconds": 14.7,
+  "preview_fps": 60
+}
