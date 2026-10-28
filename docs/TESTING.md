@@ -1,5 +1,18 @@
 # Build and live testing
 
+## Palace 1-up repair — 0.22.2
+
+Pair the full 20261027-235225 movie at stride two against frozen 0.22.1/0.22.2.
+Use make_palace_one_up_route.py to reach the upper-hall green 1-up using only
+controller input and the original state; capture frames 740–1464 consecutively.
+verify_palace_one_up_replay.py requires exact native memory/scroll, APU/full PCM,
+all changes confined to the native figurine footprint, complete approved source
+pixels and exact surrounding images. Inspect both actual room captures and the
+palette transitions. The screenshots alone prove native identity/color, while
+the replay supplies runtime coverage. The lava route collects the blue figurine
+and increments lives 6→7; the green route does not collect its item. The static
+validator preserves all 124 previous assets and the complete historical chain.
+
 ## Golden Temple all stairs / victory transition (0.20.2)
 
 Use `verify_level4_transition.py` for paired native/audio and pixel-scope checks and `verify_transition_sources.py` for actual complete-source matches. The installed manifest is frozen per capture. Three earlier stair recordings retain their pre-impact manifest with an exact four-rule scope-equivalence proof; the final movie10 uses the delivered manifest. See LEVEL4_TRANSITION.md and evidence/level4_transition/. Never substitute a synthetic atlas montage for the actual movie.

@@ -1,5 +1,9 @@
 # Current status
 
+## Current repair — Palace 1-up 0.22.2 review
+
+The user accepted the rest of 0.22.1 and identified two native 1-up appearances. Both Palace banks now reuse the approved complete ivory/blue figurines, including the green native palette during dragon form. All 124 previous art/audio/patch files and exact recoverable 0.22.1 mappings stay unchanged. See docs/LEVEL5_ONE_UP.md and evidence/level5_one_up/ for screenshot identity and actual replay checks. The repair awaits review on feature/demonic-palace; main remains approved 0.20.5. No publication or merge performed.
+
 ## Current repair — Palace flash palettes 0.22.1 review
 
 The user identified native background/stone graphics during Thunder and dragon acquisition in the preview. The 0.22.0 normal-palette checks excluded these frames and missed the defect. Scoped 30/31 variants now reuse the complete HD scenery, with unchanged panorama RGB at alpha 176 to retain the native flash color. All 122 previous art/audio/patch assets and recoverable 0.22.0 mappings are preserved. Paired consecutive-frame captures cover both events in the column and stair halls; the corrected preview runs at 60 fps. See docs/LEVEL5_FLASH.md and evidence/level5_flash/. Work remains local on feature/demonic-palace; main stays approved 0.20.5. No publication or merge performed.

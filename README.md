@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Demonic Palace 1-up repair — 0.22.2 review.** Restores the approved front-facing collectible in both Palace sprite banks, including its dragon-form palette. Preserves the accepted 0.22.1 artwork and flash repairs. [Repair and checks](docs/LEVEL5_ONE_UP.md).
+
 **Demonic Palace flash repair — 0.22.1 review.** Keeps the finished palace scenery and stonework visible during Thunder and dragon pickup, with the native flash color showing through the same artwork. Preserves ordinary frames and prior assets. [Repair and consecutive-frame checks](docs/LEVEL5_FLASH.md).
 
 **Demonic Palace next rooms — 0.22.0 review.** Completes background coverage through the dragon stair hall and updates the next two lava rooms with the finished scenery, stone, lava/ice, Randy, HUD and returning enemies. Adds a rising horned armored sentry. Preserves the accepted 0.21.1 artwork. [Changes and tests](docs/LEVEL5_NEXT.md). Main remains approved 0.20.5.
@@ -120,7 +122,7 @@ python scripts/verify_release.py
 
 On Windows, activate the virtual environment with its Scripts/Activate.ps1 file. No ROM or emulator is required to build or validate.
 
-Output on this branch: `build/Holy_Diver_HD_v0.20.5.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
+Output on this branch: `build/Holy_Diver_HD_v0.22.2.zip`, with the contents of `build/Holy_Diver_(Tr)/` at the ZIP root. The version comes from VERSION. GitHub Actions uploads that directory's files directly, so its downloaded artifact ZIP also exposes hires.txt and the assets after one extraction. It does not contain a second ZIP. Development artifacts are for testing; official GitHub Releases require the user's explicit release approval.
 
 ## Versioning
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.22.2 — Palace 1-up repair (review)
+
+- Restore the approved ivory and blue 1-up figurines in both Palace sprite banks.
+- Cover the additional green native palette while Randy is a dragon, reusing the ivory figurine.
+- Preserve all 124 prior art/audio/patch files, Thunder/pickup scenery, native gameplay and audio.
+
 ## 0.22.1 — Palace Thunder/pickup flashes (review)
 
 - Prevent original walls and stonework from returning during Thunder and dragon-item flashes.

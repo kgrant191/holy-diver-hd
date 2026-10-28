@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current repair — Palace 1-up 0.22.2
+
+- The user accepts the rest of 0.22.1 and reports native 1-ups in two screenshots. Preserve every existing art/audio/patch file and all recoverable 0.22.1 rules, including the flash repair.
+- 104E/104F and 124E/124F equal the approved 024E/024F figurine. Add exact atlas 29 fallbacks for FF300036 (ivory), FF221136 (blue), and FF190927 (ivory during dragon form). No new artwork or native palette/gameplay changes.
+- The green screenshot proves all 100 opaque native pixels and the FF190927 palette, but cannot distinguish identical physical CHR banks. Cover both. Use actual native replay/source matches and state/audio equality; do not claim live collection or a palette absent from a recorded route.
+- See docs/LEVEL5_ONE_UP.md and evidence/level5_one_up/. Work remains local on feature/demonic-palace. No push, PR or merge authorized; main stays approved 0.20.5.
+
 ## Current repair — Palace flash palettes 0.22.1
 
 - The user reports native scenery during Thunder and dragon pickup in the preview. Preserving a native flash does not permit reverting to native artwork. Previous normal-palette-only checks missed this defect.

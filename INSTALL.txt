@@ -1,9 +1,9 @@
-HOLY DIVER HD 0.22.1 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.22.2 — DEVELOPMENT REVIEW CANDIDATE
 
-Keeps the Demonic Palace scenery and stonework HD during Thunder and
-dragon-pickup flashes. The native flash color shines through the existing
-palace panorama instead of exposing the original tiles. Includes all
-previous Palace rooms, enemies, green slime ceiling and THUNDER H repair.
+Restores the finished front-facing 1-up figurine in both Palace sprite
+banks, including its dragon-form palette. Reuses the accepted blue and
+ivory artwork. Includes all previous Palace rooms, flash repairs, enemies,
+green slime ceiling and THUNDER H repair.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

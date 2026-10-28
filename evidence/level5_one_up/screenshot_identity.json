@@ -1,0 +1,14 @@
+{
+  "screenshot": "Screenshot 2026-10-27 at 9.14.31\u202fPM.png",
+  "screenshot_sha256": "7bc065852cb620f12334363265e1b68492ce320b812294b9a536d604d688bf0f",
+  "native_sprite": "104E/104F (identical 124E/124F copy)",
+  "palette": "FF190927",
+  "native_opaque_pixels": 100,
+  "every_native_pixel_matches": true,
+  "origin": [
+    702,
+    220
+  ],
+  "screenshot_scale": 5,
+  "source": "approved ivory figurine for dragon-form palette"
+}

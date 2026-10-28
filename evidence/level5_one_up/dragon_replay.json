@@ -1,0 +1,2216 @@
+{
+  "movie": {
+    "movie_sha256": "e573925f5f6a9c294cc73f541472297b4b42ab19b99b84e260bde55f3c32ccc8",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 725,
+    "seconds_wall": 44.84756577799999,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 1464
+  },
+  "images": {
+    "identical_images": 526,
+    "corrected_images": 199,
+    "FF190927": 199
+  },
+  "native_ram_ppu_oam_scroll_exact": true,
+  "full_movie_apu_pcm_exact": true,
+  "apu_sha256": "56841a95c9c2def835fc6b58f2e768474111390356e7c749faa24c80d5d6b718",
+  "wav_sha256": "8042603c6f3732dca38730ce9c16038f70376a43ce398511eaaa6153b727b70a",
+  "every_changed_pixel_inside_native_one_up": true,
+  "complete_source_matches": 189,
+  "life_events": [],
+  "matches": [
+    {
+      "frame": 1266,
+      "palette": "FF190927",
+      "origin": [
+        502,
+        96
+      ],
+      "opaque_source_pixels": 264,
+      "complete": false,
+      "native_overlap": false
+    },
+    {
+      "frame": 1267,
+      "palette": "FF190927",
+      "origin": [
+        498,
+        96
+      ],
+      "opaque_source_pixels": 375,
+      "complete": false,
+      "native_overlap": false
+    },
+    {
+      "frame": 1268,
+      "palette": "FF190927",
+      "origin": [
+        496,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1269,
+      "palette": "FF190927",
+      "origin": [
+        492,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1270,
+      "palette": "FF190927",
+      "origin": [
+        490,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1271,
+      "palette": "FF190927",
+      "origin": [
+        486,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1272,
+      "palette": "FF190927",
+      "origin": [
+        484,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1273,
+      "palette": "FF190927",
+      "origin": [
+        480,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1274,
+      "palette": "FF190927",
+      "origin": [
+        478,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1275,
+      "palette": "FF190927",
+      "origin": [
+        474,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1276,
+      "palette": "FF190927",
+      "origin": [
+        472,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1277,
+      "palette": "FF190927",
+      "origin": [
+        468,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1278,
+      "palette": "FF190927",
+      "origin": [
+        466,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1279,
+      "palette": "FF190927",
+      "origin": [
+        462,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1280,
+      "palette": "FF190927",
+      "origin": [
+        460,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1281,
+      "palette": "FF190927",
+      "origin": [
+        456,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1282,
+      "palette": "FF190927",
+      "origin": [
+        454,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1283,
+      "palette": "FF190927",
+      "origin": [
+        450,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1284,
+      "palette": "FF190927",
+      "origin": [
+        448,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1285,
+      "palette": "FF190927",
+      "origin": [
+        444,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1286,
+      "palette": "FF190927",
+      "origin": [
+        442,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1287,
+      "palette": "FF190927",
+      "origin": [
+        438,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1288,
+      "palette": "FF190927",
+      "origin": [
+        436,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1289,
+      "palette": "FF190927",
+      "origin": [
+        432,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1290,
+      "palette": "FF190927",
+      "origin": [
+        430,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1291,
+      "palette": "FF190927",
+      "origin": [
+        426,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1292,
+      "palette": "FF190927",
+      "origin": [
+        424,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1293,
+      "palette": "FF190927",
+      "origin": [
+        420,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1294,
+      "palette": "FF190927",
+      "origin": [
+        418,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1295,
+      "palette": "FF190927",
+      "origin": [
+        414,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1296,
+      "palette": "FF190927",
+      "origin": [
+        412,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1297,
+      "palette": "FF190927",
+      "origin": [
+        408,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1298,
+      "palette": "FF190927",
+      "origin": [
+        406,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1299,
+      "palette": "FF190927",
+      "origin": [
+        402,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1300,
+      "palette": "FF190927",
+      "origin": [
+        400,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1301,
+      "palette": "FF190927",
+      "origin": [
+        396,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1302,
+      "palette": "FF190927",
+      "origin": [
+        394,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1303,
+      "palette": "FF190927",
+      "origin": [
+        390,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1304,
+      "palette": "FF190927",
+      "origin": [
+        388,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1305,
+      "palette": "FF190927",
+      "origin": [
+        384,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1306,
+      "palette": "FF190927",
+      "origin": [
+        382,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1307,
+      "palette": "FF190927",
+      "origin": [
+        378,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1308,
+      "palette": "FF190927",
+      "origin": [
+        376,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1309,
+      "palette": "FF190927",
+      "origin": [
+        372,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1310,
+      "palette": "FF190927",
+      "origin": [
+        370,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1311,
+      "palette": "FF190927",
+      "origin": [
+        366,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1312,
+      "palette": "FF190927",
+      "origin": [
+        364,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1313,
+      "palette": "FF190927",
+      "origin": [
+        360,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1314,
+      "palette": "FF190927",
+      "origin": [
+        358,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1315,
+      "palette": "FF190927",
+      "origin": [
+        354,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1316,
+      "palette": "FF190927",
+      "origin": [
+        352,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1317,
+      "palette": "FF190927",
+      "origin": [
+        348,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1318,
+      "palette": "FF190927",
+      "origin": [
+        346,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1319,
+      "palette": "FF190927",
+      "origin": [
+        342,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1320,
+      "palette": "FF190927",
+      "origin": [
+        340,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1321,
+      "palette": "FF190927",
+      "origin": [
+        336,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1322,
+      "palette": "FF190927",
+      "origin": [
+        334,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1323,
+      "palette": "FF190927",
+      "origin": [
+        330,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1324,
+      "palette": "FF190927",
+      "origin": [
+        328,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1325,
+      "palette": "FF190927",
+      "origin": [
+        324,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1326,
+      "palette": "FF190927",
+      "origin": [
+        322,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1327,
+      "palette": "FF190927",
+      "origin": [
+        318,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1328,
+      "palette": "FF190927",
+      "origin": [
+        316,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1329,
+      "palette": "FF190927",
+      "origin": [
+        312,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1330,
+      "palette": "FF190927",
+      "origin": [
+        310,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1331,
+      "palette": "FF190927",
+      "origin": [
+        306,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1332,
+      "palette": "FF190927",
+      "origin": [
+        304,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1333,
+      "palette": "FF190927",
+      "origin": [
+        300,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1334,
+      "palette": "FF190927",
+      "origin": [
+        298,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1335,
+      "palette": "FF190927",
+      "origin": [
+        294,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1336,
+      "palette": "FF190927",
+      "origin": [
+        292,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1337,
+      "palette": "FF190927",
+      "origin": [
+        288,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1338,
+      "palette": "FF190927",
+      "origin": [
+        286,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1339,
+      "palette": "FF190927",
+      "origin": [
+        282,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1340,
+      "palette": "FF190927",
+      "origin": [
+        280,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1341,
+      "palette": "FF190927",
+      "origin": [
+        276,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1342,
+      "palette": "FF190927",
+      "origin": [
+        274,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1343,
+      "palette": "FF190927",
+      "origin": [
+        270,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1344,
+      "palette": "FF190927",
+      "origin": [
+        268,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1345,
+      "palette": "FF190927",
+      "origin": [
+        264,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1346,
+      "palette": "FF190927",
+      "origin": [
+        262,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1347,
+      "palette": "FF190927",
+      "origin": [
+        258,
+        96
+      ],
+      "opaque_source_pixels": 395,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1348,
+      "palette": "FF190927",
+      "origin": [
+        256,
+        96
+      ],
+      "opaque_source_pixels": 389,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1349,
+      "palette": "FF190927",
+      "origin": [
+        252,
+        96
+      ],
+      "opaque_source_pixels": 379,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1350,
+      "palette": "FF190927",
+      "origin": [
+        250,
+        96
+      ],
+      "opaque_source_pixels": 377,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1351,
+      "palette": "FF190927",
+      "origin": [
+        246,
+        96
+      ],
+      "opaque_source_pixels": 374,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1352,
+      "palette": "FF190927",
+      "origin": [
+        244,
+        96
+      ],
+      "opaque_source_pixels": 373,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1353,
+      "palette": "FF190927",
+      "origin": [
+        240,
+        96
+      ],
+      "opaque_source_pixels": 385,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1354,
+      "palette": "FF190927",
+      "origin": [
+        238,
+        96
+      ],
+      "opaque_source_pixels": 396,
+      "complete": false,
+      "native_overlap": true
+    },
+    {
+      "frame": 1355,
+      "palette": "FF190927",
+      "origin": [
+        234,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1356,
+      "palette": "FF190927",
+      "origin": [
+        232,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1357,
+      "palette": "FF190927",
+      "origin": [
+        228,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1358,
+      "palette": "FF190927",
+      "origin": [
+        226,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1359,
+      "palette": "FF190927",
+      "origin": [
+        222,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1360,
+      "palette": "FF190927",
+      "origin": [
+        220,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1361,
+      "palette": "FF190927",
+      "origin": [
+        216,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1362,
+      "palette": "FF190927",
+      "origin": [
+        214,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1363,
+      "palette": "FF190927",
+      "origin": [
+        210,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1364,
+      "palette": "FF190927",
+      "origin": [
+        208,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1365,
+      "palette": "FF190927",
+      "origin": [
+        204,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1366,
+      "palette": "FF190927",
+      "origin": [
+        202,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1367,
+      "palette": "FF190927",
+      "origin": [
+        198,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1368,
+      "palette": "FF190927",
+      "origin": [
+        196,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1369,
+      "palette": "FF190927",
+      "origin": [
+        194,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1370,
+      "palette": "FF190927",
+      "origin": [
+        192,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1371,
+      "palette": "FF190927",
+      "origin": [
+        190,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1372,
+      "palette": "FF190927",
+      "origin": [
+        188,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1373,
+      "palette": "FF190927",
+      "origin": [
+        186,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1374,
+      "palette": "FF190927",
+      "origin": [
+        184,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1375,
+      "palette": "FF190927",
+      "origin": [
+        184,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1376,
+      "palette": "FF190927",
+      "origin": [
+        182,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1377,
+      "palette": "FF190927",
+      "origin": [
+        182,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1378,
+      "palette": "FF190927",
+      "origin": [
+        182,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1379,
+      "palette": "FF190927",
+      "origin": [
+        182,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1380,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1381,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1382,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1383,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1384,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1385,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1386,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1387,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1388,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1389,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1390,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1391,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1392,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1393,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1394,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1395,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1396,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1397,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1398,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1399,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1400,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1401,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1402,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1403,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1404,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1405,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1406,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1407,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1408,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1409,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1410,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1411,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1412,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1413,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1414,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1415,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1416,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1417,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1418,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1419,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1420,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1421,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1422,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1423,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1424,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1425,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1426,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1427,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1428,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1429,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1430,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1431,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1432,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1433,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1434,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1435,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1436,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1437,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1438,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1439,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1440,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1441,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1442,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1443,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1444,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1445,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1446,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1447,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1448,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1449,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1450,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1451,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1452,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1453,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1454,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1455,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1456,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1457,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1458,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1459,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1460,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1461,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1462,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1463,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    },
+    {
+      "frame": 1464,
+      "palette": "FF190927",
+      "origin": [
+        180,
+        96
+      ],
+      "opaque_source_pixels": 400,
+      "complete": true,
+      "native_overlap": false
+    }
+  ]
+}
