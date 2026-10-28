@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.22.1 — Palace Thunder/pickup flashes (review)
+
+- Prevent original walls and stonework from returning during Thunder and dragon-item flashes.
+- Reuse all existing Palace HD scenery for both native flash palettes, retaining native flash color, cadence and grayscale effects.
+- Preserve ordinary artwork, all 122 prior art/audio/patch files, gameplay and audio. Verify consecutive frames and provide a 60 fps actual preview.
+
 ## 0.22.0 — Demonic Palace next rooms (review)
 
 - Complete background guards across the dragon stair hall and the following two lava rooms.

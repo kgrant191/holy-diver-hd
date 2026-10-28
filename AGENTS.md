@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current repair — Palace flash palettes 0.22.1
+
+- The user reports native scenery during Thunder and dragon pickup in the preview. Preserving a native flash does not permit reverting to native artwork. Previous normal-palette-only checks missed this defect.
+- Clone existing scoped Palace background/foreground rules for universal 30/31, including native-neighbor palette signatures and both 1100/1300 copies. Preserve original order, masks, animation and bounds. No sprite changes.
+- Flash panoramas retain original RGB with alpha 176 so Mesen blends the native flash color beneath them. Keep ordinary 0F frames exact and native blackouts inactive. Preserve all 122 earlier art/audio/patch assets and exact recoverable 0.22.0 rules.
+- Test both provided movies' Thunder/pickup windows at stride 1 and show a 60 fps actual preview. Keep the historical validator chain. See docs/LEVEL5_FLASH.md. No push, PR or merge authorized; main remains approved 0.20.5.
+
 ## Current continuation — Demonic Palace 0.22.0
 
 - The user accepted 0.21.1 artwork and supplied a new movie showing background loss and two more rooms. Preserve that art; main remains approved 0.20.5. Continue feature/demonic-palace without push, PR or merge.

@@ -1,0 +1,19 @@
+{
+  "actual_gameplay": true,
+  "fps": 60,
+  "consecutive_frames": true,
+  "clips": [
+    {
+      "capture": "opening_after",
+      "first": 8760,
+      "last_exclusive": 9221,
+      "label": "Column hall \u2022 Thunder casts and dragon pickup"
+    },
+    {
+      "capture": "hall_after",
+      "first": 280,
+      "last_exclusive": 701,
+      "label": "Stair hall \u2022 Thunder casts and dragon pickup"
+    }
+  ]
+}

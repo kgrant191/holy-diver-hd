@@ -18,7 +18,7 @@ All 121 prior art/audio/patch files remain byte-exact. The only changed installa
 
 The supplied 10,206-frame movie is replayed before and after in the same MesenCE 2.2.1 native core, with unmodified starting state and inputs. The paired checks compare RAM, PPU, OAM, scroll state, APU writes and full PCM; inspect panorama presence and native blackouts; and locate complete new/returning sources in actual gameplay. Detailed results are in `evidence/level5_next/movie_validation.json`. The preview uses actual captures and native audio from this run.
 
-The new movie includes both lava rooms, Blizzard, Overdrive, death and restart. It ends in 8A6E and does not show later Level 5 rooms or the boss. No new live Thunder-cast coverage is claimed; the existing bolt artwork is carried to its proven bank copy.
+The new movie includes both lava rooms, Blizzard, Overdrive, death and restart. It ends in 8A6E and does not show later Level 5 rooms or the boss. It also contains Thunder casts in the preceding dragon stair hall; the 0.22.0 review missed their flash-palette scenery fallback. That defect and consecutive-frame verification are documented in LEVEL5_FLASH.md.
 
 ## Reproduce
 

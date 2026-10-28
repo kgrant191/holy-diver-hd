@@ -1,5 +1,9 @@
 # Current status
 
+## Current repair — Palace flash palettes 0.22.1 review
+
+The user identified native background/stone graphics during Thunder and dragon acquisition in the preview. The 0.22.0 normal-palette checks excluded these frames and missed the defect. Scoped 30/31 variants now reuse the complete HD scenery, with unchanged panorama RGB at alpha 176 to retain the native flash color. All 122 previous art/audio/patch assets and recoverable 0.22.0 mappings are preserved. Paired consecutive-frame captures cover both events in the column and stair halls; the corrected preview runs at 60 fps. See docs/LEVEL5_FLASH.md and evidence/level5_flash/. Work remains local on feature/demonic-palace; main stays approved 0.20.5. No publication or merge performed.
+
 ## Current continuation — Demonic Palace 0.22.0 review
 
 The user said the 0.21.1 artwork looks good, then supplied a new movie showing remaining background dropouts and two more rooms. This candidate completes normal-palette background coverage in 888E, 897E and 8A6E; reuses the existing interior, stair stone, lava/ice, player/HUD and returning enemies; and adds the rising armored sentry. All 121 earlier art/audio/patch files remain exact. The supplied 10,206-frame movie covers both lava rooms, Blizzard, Overdrive, death and restart, ending in 8A6E before the boss. See docs/LEVEL5_NEXT.md and evidence/level5_next/ for validation. Work stays on feature/demonic-palace; main remains approved 0.20.5. No push, PR, merge or release performed.
