@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Approved Demonic Palace 0.22.2 — merge authorized, awaiting source push.** Includes the recorded Palace rooms, green slime ceiling, enemies, background continuity and flash repairs, restored THUNDER H and both 1-up appearances. The user approved the complete pack on 2026-10-27. Preserve all 126 reviewed installation files. Main remains approved 0.20.5 until the authorized PR merge completes. See [status](STATUS.md) and [approval record](evidence/level5_one_up/approval.json).
+
 **Demonic Palace 1-up repair — 0.22.2 review.** Restores the approved front-facing collectible in both Palace sprite banks, including its dragon-form palette. Preserves the accepted 0.22.1 artwork and flash repairs. [Repair and checks](docs/LEVEL5_ONE_UP.md).
 
 **Demonic Palace flash repair — 0.22.1 review.** Keeps the finished palace scenery and stonework visible during Thunder and dragon pickup, with the native flash color showing through the same artwork. Preserves ordinary frames and prior assets. [Repair and consecutive-frame checks](docs/LEVEL5_FLASH.md).

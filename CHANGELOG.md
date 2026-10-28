@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.22.2 — Palace 1-up repair (review)
+## 0.22.2 — Palace 1-up repair (approved)
+
+- Approved with the complete Demonic Palace continuation on 2026-10-27; the user authorized its merge. Awaiting source push. Approval bookkeeping changes no installation bytes.
 
 - Restore the approved ivory and blue 1-up figurines in both Palace sprite banks.
 - Cover the additional green native palette while Randy is a dragon, reusing the ivory figurine.

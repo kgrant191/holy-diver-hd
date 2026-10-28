@@ -1,4 +1,4 @@
-# Palace 1-up mapping repair — 0.22.2 review
+# Palace 1-up mapping repair — approved 0.22.2
 
 The user reported two native 1-up figurines and accepted the rest of 0.22.1.
 The Palace player/HUD aliases were copied from the 0A bank, which lacked the
@@ -50,7 +50,9 @@ any hidden source pixel must remain identical between packs and fall within
 another actual OAM sprite's bounds. RAM/PPU/OAM/scroll, full APU and PCM match.
 The native lava-room collection increments lives 6→7 at sampled frame 5208.
 
-The 0.22.1 scenery, flash repair, enemies, slime ceiling and THUNDER glyph are
-accepted and preserved. The new 1-up repair awaits review on
-`feature/demonic-palace`. Main remains approved 0.20.5. No push, PR, merge, tag
-or release has been performed.
+The user approved the complete 0.22.2 pack and requested its merge on
+2026-10-27. All 126 reviewed install files remain exact. GitHub still lacks
+`feature/demonic-palace` and the reviewed commit, so the source bundle must be
+pushed before the PR/checks/merge can proceed. Existing authorization covers
+that merge; no repeat approval is needed. Main remains approved 0.20.5 until
+the merge succeeds. No push, PR, merge, tag or release has been performed.

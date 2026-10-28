@@ -1,5 +1,9 @@
 # Current status
 
+## Approved 0.22.2 — awaiting source push and authorized merge
+
+The user approved the complete delivered Demonic Palace pack and requested its merge on 2026-10-27 (America/New_York): “approved, lets merge it”. Reviewed head: 918b3d123062eaef62df8c18dbc53a2c3444c531. All 126 reviewed installation files remain frozen, including README.txt. GitHub does not yet have feature/demonic-palace or that commit, so no PR or merge has occurred. The cumulative source bundle includes the approved work and approval notes; after its source push, create the PR, verify Actions and its actual artifact, and merge under the authorization already given. Main remains approved 0.20.5 until then. No release/tag requested. See evidence/level5_one_up/approval.json. Earlier review labels remain historical.
+
 ## Current repair — Palace 1-up 0.22.2 review
 
 The user accepted the rest of 0.22.1 and identified two native 1-up appearances. Both Palace banks now reuse the approved complete ivory/blue figurines, including the green native palette during dragon form. All 124 previous art/audio/patch files and exact recoverable 0.22.1 mappings stay unchanged. See docs/LEVEL5_ONE_UP.md and evidence/level5_one_up/ for screenshot identity and actual replay checks. The repair awaits review on feature/demonic-palace; main remains approved 0.20.5. No publication or merge performed.

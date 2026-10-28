@@ -1,5 +1,11 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.22.2; merge authorized
+
+- On 2026-10-27 (America/New_York), the user approved the delivered 0.22.2 pack and explicitly requested its merge. Approval covers the complete Demonic Palace continuation and repairs through reviewed commit 918b3d123062eaef62df8c18dbc53a2c3444c531. Preserve all 126 installed files, including the frozen README.
+- GitHub currently lacks feature/demonic-palace and the reviewed commit. The cumulative source handoff must be pushed using the existing bundle workflow. Once present, publish approval bookkeeping if needed, open the PR, verify its Actions build and actual 126-file artifact, then merge under this existing authorization. Do not ask for merge approval again.
+- Main remains approved 0.20.5 until the merge actually succeeds. No release/tag requested. Approval notes change source documentation only; retain every runtime hash and existing coverage limit. See evidence/level5_one_up/approval.json. Historical review/no-merge labels below describe prior delivery status.
+
 ## Current repair — Palace 1-up 0.22.2
 
 - The user accepts the rest of 0.22.1 and reports native 1-ups in two screenshots. Preserve every existing art/audio/patch file and all recoverable 0.22.1 rules, including the flash repair.
