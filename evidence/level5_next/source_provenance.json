@@ -1,0 +1,54 @@
+{
+  "movie": {
+    "movie_sha256": "197f7725772cb6a5540519616036fca047d3ac5b47a3b244cc0b3ea714347f49",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 5103,
+    "seconds_wall": 140.48719334899943,
+    "stride": 2,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 10206
+  },
+  "room_coverage": {
+    "888E": {
+      "first": 80,
+      "last": 1466,
+      "samples": 647
+    },
+    "897E": {
+      "first": 1468,
+      "last": 5490,
+      "samples": 1675
+    },
+    "8A6E": {
+      "first": 5492,
+      "last": 10206,
+      "samples": 1936
+    }
+  },
+  "scope": {
+    "888E": "palaceNext888EMode&palaceNext888ELo&palaceNext888EHi",
+    "897E": "palaceNext897EMode&palaceNext897ELo&palaceNext897EHi",
+    "8A6E": "palaceNext8A6EMode&palaceNext8A6ELo&palaceNext8A6EHi"
+  },
+  "artwork_accepted_from": "0.21.1",
+  "artwork_preserved_files": 121,
+  "new_atlas": 59,
+  "new_cells": 46,
+  "new_character": "rising horned armored sentry",
+  "source_asset": "art/generated/palace_sentry.png",
+  "source_sha256": "ba393d21eed0438039301614bac352488fedfa19485a215f40270aa9a747077c",
+  "generation_prompt": "art/generated/palace_sentry_prompt.json",
+  "source_registration": "art/level5_next/source_registration.json",
+  "source_aliases": [
+    "whole player/HUD and shared effects 0A00\u20130A89 to1200\u20131289",
+    "Thunder108E\u20131099 to128E\u20131299",
+    "guardian0AE2\u20130AED to12A4\u201312AF",
+    "curved shot0AFC to12B0",
+    "walking dragon02B7\u201302D7 to12C4\u201312E4"
+  ],
+  "native_inputs_excluded_from_git": true,
+  "main_version": "0.20.5",
+  "published": false
+}

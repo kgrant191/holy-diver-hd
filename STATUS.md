@@ -1,5 +1,9 @@
 # Current status
 
+## Current continuation — Demonic Palace 0.22.0 review
+
+The user said the 0.21.1 artwork looks good, then supplied a new movie showing remaining background dropouts and two more rooms. This candidate completes normal-palette background coverage in 888E, 897E and 8A6E; reuses the existing interior, stair stone, lava/ice, player/HUD and returning enemies; and adds the rising armored sentry. All 121 earlier art/audio/patch files remain exact. The supplied 10,206-frame movie covers both lava rooms, Blizzard, Overdrive, death and restart, ending in 8A6E before the boss. See docs/LEVEL5_NEXT.md and evidence/level5_next/ for validation. Work stays on feature/demonic-palace; main remains approved 0.20.5. No push, PR, merge or release performed.
+
 ## Current repair — Demonic Palace 0.21.1 review
 
 The user's ceiling/background/enemy feedback revises the 0.21.0 candidate on feature/demonic-palace. The cavern ceiling is subdued green slime; the rocky floor stays exact. Room 8816 keeps the existing interior panorama throughout ascent and reuses the finished serpent in its alternate palette. Stone padding gaps are filled from the existing tread source without changing masks or existing opaque artwork. The new movie also covers only the entrance to 888E. All 120 earlier art/audio/patch files remain exact; main stays approved 0.20.5. The 1,215-frame climb and 9,921-frame opening replays preserve native state and full audio; all 605 nonblack climb samples retain the panorama. Build and all 123 archive hashes pass. See docs/LEVEL5_REPAIR.md. No publication/merge performed.

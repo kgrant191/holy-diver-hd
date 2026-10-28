@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Demonic Palace next rooms — 0.22.0 review.** Completes background coverage through the dragon stair hall and updates the next two lava rooms with the finished scenery, stone, lava/ice, Randy, HUD and returning enemies. Adds a rising horned armored sentry. Preserves the accepted 0.21.1 artwork. [Changes and tests](docs/LEVEL5_NEXT.md). Main remains approved 0.20.5.
+
 **Demonic Palace repair — 0.21.1 review.** Gives the cavern ceiling subdued green slime, keeps the interior background visible through the stair climb, restores the HD serpent in its alternate palette, and fills stair-art gaps exposed by the restored scenery. Covers the next hall's entrance. [Changes and tests](docs/LEVEL5_REPAIR.md). Main remains approved 0.20.5.
 
 

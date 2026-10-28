@@ -1,9 +1,9 @@
-HOLY DIVER HD 0.21.1 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.22.0 — DEVELOPMENT REVIEW CANDIDATE
 
-Adds a subdued green slime texture to the Demonic Palace cavern ceiling.
-Keeps the existing interior background visible through the stair climb,
-restores the HD serpent in its alternate palette, and extends the matching
-stonework/scenery to the next recorded hall entrance.
+Keeps the Demonic Palace background visible across the dragon stair hall
+and updates the following two lava rooms with the finished scenery,
+stonework, lava/ice, Randy, HUD and returning enemies. Adds the rising
+horned armored sentry. Retains the subdued green slime ceiling and THUNDER H.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

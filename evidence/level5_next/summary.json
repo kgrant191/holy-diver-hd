@@ -1,0 +1,107 @@
+{
+  "movie": {
+    "movie_sha256": "197f7725772cb6a5540519616036fca047d3ac5b47a3b244cc0b3ea714347f49",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 5103,
+    "seconds_wall": 219.86455311299505,
+    "stride": 2,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 10206
+  },
+  "native_samples_per_type": 5103,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "93ddfa78001526a53614c3dfdebe90523b077e495fad057babf7bcc59a2c96f2",
+  "pcm_sha256": "aecf33fa4ff82b9521b5ae8111c2e7d432f52d1bbe8944a1127b087fef6490f9",
+  "images": {
+    "identical": 1453,
+    "menu_and_lives_exact": 762,
+    "native_black_exact": 174,
+    "changed": 3650,
+    "transition_submission": 14,
+    "native_filter_gray1_emphasis4": 2,
+    "native_background_disabled_exact": 90
+  },
+  "rooms": {
+    "FFFF": 702,
+    "888E": 666,
+    "897E": 1687,
+    "8A6E": 1951,
+    "0000": 97
+  },
+  "backgrounds": {
+    "888E": {
+      "samples": 635,
+      "minimum_pixels": 140341
+    },
+    "897E": {
+      "samples": 1592,
+      "minimum_pixels": 80290
+    },
+    "8A6E": {
+      "samples": 1759,
+      "minimum_pixels": 91391
+    }
+  },
+  "restored_background_samples": 336,
+  "live_whole_source_matches": {
+    "walking_dragon_0": {
+      "frame": 1988,
+      "mirrored": false,
+      "positions": [
+        [
+          410,
+          244
+        ]
+      ]
+    },
+    "walking_dragon_1": {
+      "frame": 1996,
+      "mirrored": false,
+      "positions": [
+        [
+          390,
+          232
+        ]
+      ]
+    },
+    "sentry": {
+      "frame": 2552,
+      "mirrored": false,
+      "positions": [
+        [
+          304,
+          208
+        ]
+      ]
+    },
+    "guardian": {
+      "frame": 5500,
+      "mirrored": false,
+      "positions": [
+        [
+          128,
+          66
+        ]
+      ]
+    }
+  },
+  "version": "0.22.0",
+  "prior_assets_exact": 121,
+  "all_historical_validators_passed": true,
+  "archive": {
+    "version": "0.22.0",
+    "files": 124,
+    "archive_sha256": "7c0502d97cdd88b0e7a9bda6e14fba638f63b6c513f44b969d8d5c4f15e41702",
+    "all_file_hashes_match": true,
+    "crc_valid": true,
+    "flat_install_layout": true,
+    "rebuilt_pack_matches_replayed_pack": true
+  },
+  "preview_seconds": 45.666667,
+  "new_neighbor_probes": 0,
+  "later_rooms_and_boss_covered": false
+}

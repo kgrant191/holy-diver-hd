@@ -31,6 +31,7 @@
   "Death_Bursts_2x.png": "73f1ca60840db0ff12c1c5f23ff6281fc0b50944b9d5145ca97bb1682eea98ca",
   "Demonic_Palace_Cavern.png": "4b88ab8e98f0706fe503252ce96c1f303eb6fa04571a98a3e6b30b0097de1944",
   "Demonic_Palace_Interior.png": "32aa40f9e364358856684fd46c23f0c2535231a14d771999e0ea6bb957c7b7b3",
+  "Demonic_Palace_Next_2x.png": "288e25defa09abf6d4e294b9b2d9dc9bb26abe02707aee68898c7da9b4f1d3ff",
   "Demonic_Palace_Repair_2x.png": "359386125fdf39c737d5ae8061fd8483f1bc4b2ff35f13862e83f1b3b44cebb5",
   "Demonic_Palace_Tiles_2x.png": "71c95617b32656da3f762642f9a1215a947019cd7496a9c05d4f2df9f1b1e307",
   "EntranceScene.png": "b0990ec36ec1475cd99684902a3039abce1d9f1fe8d4972e87e13f31ef96412c",
@@ -65,7 +66,7 @@
   "Poison_Moss_Forest_Background.png": "2dc0da73c30d74717e8c584ec7a23425739d1c21a4859fad5872f1f6126af813",
   "Poison_Moss_Ruins_Background.png": "8f592f6b0b078e87186dd258e5a3f6c986a0f7fba5cd91c3c02219341695b1b7",
   "Poison_Moss_Tiles_2x.png": "d6c08a1b474bb44f97cc3ea6af2db973dfab1a468c8c5d0bbadf7906407f53b1",
-  "README.txt": "c4ad7715de9afc277ab90a4e614237161102fc31c735a9ed7edfd2f993907733",
+  "README.txt": "b387830ca09a5244b304e0fb6c07b5e8e5dc7f4e1400e8fc88b217c710738315",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -121,5 +122,5 @@
   "Tree_Potion_Cleanup_2x.png": "7c6f07bd476ff76275bc496fee58542548bb29b817622f1711010fe42ede7041",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "6070105a7457a19e01ecd5f238310723bd374cabc71b803242677bb44556e392"
+  "hires.txt": "2da1d05881a31be9b02745d5dfbb2793528a2e95355a7a44f5ffb01beb64fe53"
 }

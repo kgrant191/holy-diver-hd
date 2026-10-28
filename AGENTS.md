@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current continuation — Demonic Palace 0.22.0
+
+- The user accepted 0.21.1 artwork and supplied a new movie showing background loss and two more rooms. Preserve that art; main remains approved 0.20.5. Continue feature/demonic-palace without push, PR or merge.
+- Cover the 888E/mode10 dragon stair hall and new 897E/mode10, 8A6E/mode08 lava rooms. Complete rendered normal-palette guard families cover both 1100/1300 banks; retain native blackouts and flashes. Reuse existing palace scenery, stair stone, lava/ice and every matching enemy source.
+- Sprite bank 1200 needs complete conditional player/HUD aliases; broad fallbacks stay last. 12C4–E4 reuses the Level2 walking dragon; 12A4–AF the floating guardian; 12B0 its shot. Native bytes prove each alias. Only 12B1–C2 rising sentry is new art; register its whole native union and preserve repeated BE/BF cells.
+- Preserve all 121 prior art/audio/patch files and exact recoverable 0.21.1 mappings; run every historical validator through baseline projection. No new neighbor probes or native gameplay/audio edits. See docs/LEVEL5_NEXT.md and evidence/level5_next/. The movie ends in 8A6E, before later rooms/boss.
+
 ## Current repair — Demonic Palace 0.21.1
 
 - The user requests a subdued green slime ceiling and reports missing ascent backgrounds and native serpent sprites. Work continues on feature/demonic-palace from the unapproved 0.21.0 candidate; approved main stays 0.20.5.

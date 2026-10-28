@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.22.0 — Demonic Palace next rooms (review)
+
+- Complete background guards across the dragon stair hall and the following two lava rooms.
+- Carry the finished stonework, lava/ice, Randy, HUD and returning enemies into the new rooms and sprite bank.
+- Add the rising horned armored sentry with native emergence and repeated body geometry.
+- Preserve accepted 0.21.1 artwork, all 121 earlier art/audio/patch files, and native gameplay/audio.
+
 ## 0.21.1 — Demonic Palace ceiling/climb repair (review)
 
 - Replace cavern ceiling material with subdued green slime; preserve its outline and rocky floor.
