@@ -1,5 +1,11 @@
 # Build and live testing
 
+Palace baseline projections copy unchanged assets into their temporary packs.
+Do not hard-link them: GitHub runners may mount the checkout and `/tmp` on
+different filesystems. Every projected file still requires its historical
+SHA-256 match before invoking the unchanged earlier validators. This portability
+fix changes no installed pack bytes.
+
 ## Palace 1-up repair — 0.22.2
 
 Pair the full 20261027-235225 movie at stride two against frozen 0.22.1/0.22.2.

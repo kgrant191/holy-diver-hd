@@ -1,6 +1,6 @@
 """Require the exact Palace baseline plus narrowly scoped repair overrides."""
 from pathlib import Path
-import hashlib,json,re,tempfile,subprocess,sys,os
+import hashlib,json,re,tempfile,subprocess,sys,shutil
 import numpy as np
 from PIL import Image
 from prepare_level5 import reg as register_material
@@ -59,7 +59,7 @@ def legacy_projection(root,pack):
   for name,h in previous.items():
    if name=='hires.txt':(target/name).write_text(strip((pack/name).read_text()))
    elif name=='README.txt':(target/name).write_bytes((root/'evidence/level5_repair/baseline_README.txt').read_bytes())
-   else:os.link(pack/name,target/name)
+   else:shutil.copyfile(pack/name,target/name)
    assert hashlib.sha256((target/name).read_bytes()).hexdigest()==h,name
   subprocess.run([sys.executable,str(root/'scripts/validate_pack.py'),str(target)],check=True)
 if __name__=='__main__':

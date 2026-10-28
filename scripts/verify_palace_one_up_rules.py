@@ -1,6 +1,6 @@
 """Verify a mapping-only repair and retain the exact historical validator chain."""
 from pathlib import Path
-import hashlib,json,re,tempfile,subprocess,sys,os
+import hashlib,json,re,tempfile,subprocess,sys,shutil
 from PIL import Image
 
 def strip(text):
@@ -33,7 +33,7 @@ def legacy_projection(root,pack):
   for name,h in previous.items():
    if name=='hires.txt':(target/name).write_text(strip((pack/name).read_text()))
    elif name=='README.txt':(target/name).write_bytes((root/'evidence/level5_one_up/baseline_README.txt').read_bytes())
-   else:os.link(pack/name,target/name)
+   else:shutil.copyfile(pack/name,target/name)
    assert hashlib.sha256((target/name).read_bytes()).hexdigest()==h,name
   subprocess.run([sys.executable,str(root/'scripts/validate_pack.py'),str(target)],check=True)
 

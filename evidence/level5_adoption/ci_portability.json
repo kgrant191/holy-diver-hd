@@ -1,0 +1,11 @@
+{
+  "failed_run": 40618147473,
+  "failed_job": 122585391248,
+  "head_before_fix": "14333fd96068a8c5f03a5e92cda00edd500ac303",
+  "failure": "OSError EXDEV: hard link from checkout to /tmp on a different filesystem",
+  "fix": "Copy assets into each temporary baseline pack; preserve every historical SHA-256 assertion and validator.",
+  "local_complete_validator_chain_passed": true,
+  "all_126_approved_install_hashes_match": true,
+  "version_unchanged": "0.22.2",
+  "gameplay_replay_not_repeated": "Validation code only; all runtime bytes unchanged."
+}
