@@ -36,3 +36,7 @@ Consecutive inspection found one visible native card at frame 15374: the RAM ren
 The final complete movie replay captures frames 15120–15585 consecutively. `verify_palace_finale_card.py` requires exact complete audio and every available paired ending-state sample, removes exactly the final 62-line delta to recover the tested candidate, and confines the changed picture to frame 15374, which must equal the existing complete HD Stage 6 card. The preview uses unchanged earlier consecutive gameplay plus the final ending capture.
 
 Final checks pass: 2550 consecutive selected frames, 1282 exact shared native/picture samples, and 1280 boss-backdrop checks including 48 flash frames. The final ending comparison passes 365 paired native/picture samples and changes only frame15374. Complete audio remains identical. All historical validators and the final 129-file manifest pass. The ZIP has a flat install layout, valid CRCs and exact member hashes.
+
+## Approval — 2026-10-28
+
+The user approved 0.24.0 and the preceding continuation, and authorized merging. Some platform and main-walkway graphics may be revisited later; current artwork is accepted. Next development is Level 6. Source push is pending; no further merge approval is required. All 129 reviewed installation bytes remain unchanged, including the installed README.

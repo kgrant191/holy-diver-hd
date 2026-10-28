@@ -1,5 +1,12 @@
 # Current status
 
+## Approved continuation — 0.24.0; merge authorized
+
+On 2026-10-28 the user approved 0.24.0, including the preceding 0.23.0 continuation, and authorized its merge. Preserve all 129 reviewed install files exactly, including the installed README. Approval bookkeeping changes source documentation only. GitHub does not yet have feature/palace-finale; source push is required before PR/build/artifact verification and merge. No further merge approval is needed.
+
+Some platform and main-walkway artwork may be revisited later; the current graphics are approved and this does not block adoption. Next work is Level 6, the final level. Only its recorded entrance and title transition are currently covered. No release tag or GitHub Release was requested. See evidence/level5_finale/approval.json. Historical review/no-merge statements below are superseded by this approval.
+
+
 ## Current continuation — Palace finale 0.24.0 review
 
 The 20261028-142617 movie supplies the remaining skull shaft, Level 5 boss, victory ascent and Level 6 threshold. This candidate fixes the shaft's moving-lift scope and remaining masonry, reuses accepted actor/HUD/effect artwork in the boss and Level 6 banks, and adds registered whole boss components and chamber ornaments. Normal scenery, Thunder flashes and victory fade phases retain their HD replacements. All 125 prior art/audio/patch files and exact recoverable 0.23.0 rules are preserved.

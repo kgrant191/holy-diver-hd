@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.24.0 — Palace finale (review)
+## 0.24.0 — Palace finale (approved; merge pending)
+
+- Approved on 2026-10-28 with merge authorization, including 0.23.0. Possible later platform/walkway artwork changes do not block approval. All 129 install files remain frozen.
 
 - Fix moving-lift coverage and missing structural stone in the skull shaft.
 - Add whole skull, claw and fist boss animations, altar and victory effigy artwork.
