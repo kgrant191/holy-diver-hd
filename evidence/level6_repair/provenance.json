@@ -1,0 +1,42 @@
+{
+  "base_commit": "7ab20003fb555d6f8a9ea3a46fa4c50881bd093d",
+  "base_version": "0.25.0",
+  "candidate_version": "0.25.1",
+  "branch": "feature/level6-opening",
+  "movie_sha256": "2651408f08776f60c5da933bd07c8315af5f106020694ce7d070ff8489252997",
+  "new_generated_art": false,
+  "ceiling_source": {
+    "path": "art/level6_opening/rock_material.png",
+    "sha256": "fc2a549bddb814ec37c3952c15e57b901f2f6e7ae35fbb2dfe48d0ba45fdf65c",
+    "crop": [
+      0,
+      16,
+      32,
+      48
+    ],
+    "layout": [
+      [
+        "17B4",
+        "17B5"
+      ],
+      [
+        "17B6",
+        "17B7"
+      ]
+    ]
+  },
+  "one_up_source": "Unchanged approved atlas 29 / art/screen1_4/one_up_*.png",
+  "emulator_core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "emulator_version": "MesenCE 2.2.1",
+  "native_input_unchanged": true,
+  "native_gameplay_modified": false,
+  "native_audio_modified": false,
+  "new_neighbor_probes": 0,
+  "live_coverage": [
+    "normal upper ceiling in 9A8B",
+    "ivory 1-up display and collection",
+    "blue and dragon-form 1-ups in original-movie regression"
+  ],
+  "other_palette_coverage": "Resume/30/31 upper-ceiling variants are source/rule checks only.",
+  "runtime_assets_preserved": 132
+}

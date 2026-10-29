@@ -1,0 +1,810 @@
+{
+  "atlas_index": 63,
+  "layout": [
+    [
+      6068,
+      6069
+    ],
+    [
+      6070,
+      6071
+    ]
+  ],
+  "scopes": {
+    "9A8B": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+    "9BB7": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+    "9CA7": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi"
+  },
+  "conditions": [
+    "<condition>citadelRepair9A8BMode,memoryCheckConstant,0072,==,04",
+    "<condition>citadelRepair9A8BLo,memoryCheckConstant,0078,==,8B",
+    "<condition>citadelRepair9A8BHi,memoryCheckConstant,0079,==,9A",
+    "<condition>citadelRepair9BB7Mode,memoryCheckConstant,0072,==,10",
+    "<condition>citadelRepair9BB7Lo,memoryCheckConstant,0078,==,B7",
+    "<condition>citadelRepair9BB7Hi,memoryCheckConstant,0079,==,9B",
+    "<condition>citadelRepair9CA7Mode,memoryCheckConstant,0072,==,0C",
+    "<condition>citadelRepair9CA7Lo,memoryCheckConstant,0078,==,A7",
+    "<condition>citadelRepair9CA7Hi,memoryCheckConstant,0079,==,9C"
+  ],
+  "mappings": [
+    {
+      "tile": "17B4",
+      "palette": "0F061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B4,0F061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "0F061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B5,0F061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "0F061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B6,0F061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "0F061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B7,0F061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B4,0F072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B5,0F072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B6,0F072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B7,0F072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "30061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B4,30061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "30061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B5,30061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "30061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B6,30061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "30061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B7,30061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "30072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B4,30072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "30072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B5,30072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "30072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B6,30072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "30072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B7,30072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "31061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B4,31061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "31061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B5,31061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "31061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B6,31061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "31061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B7,31061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "31072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B4,31072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "31072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B5,31072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "31072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B6,31072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "31072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi",
+      "rule": "[citadelRepair9A8BMode&citadelRepair9A8BLo&citadelRepair9A8BHi]<tile>63,17B7,31072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "0F061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B4,0F061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "0F061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B5,0F061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "0F061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B6,0F061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "0F061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B7,0F061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B4,0F072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B5,0F072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B6,0F072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B7,0F072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "30061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B4,30061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "30061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B5,30061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "30061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B6,30061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "30061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B7,30061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "30072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B4,30072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "30072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B5,30072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "30072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B6,30072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "30072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B7,30072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "31061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B4,31061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "31061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B5,31061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "31061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B6,31061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "31061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B7,31061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "31072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B4,31072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "31072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B5,31072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "31072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B6,31072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "31072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi",
+      "rule": "[citadelRepair9BB7Mode&citadelRepair9BB7Lo&citadelRepair9BB7Hi]<tile>63,17B7,31072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "0F061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B4,0F061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "0F061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B5,0F061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "0F061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B6,0F061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "0F061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B7,0F061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B4,0F072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B5,0F072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B6,0F072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B7,0F072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "30061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B4,30061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "30061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B5,30061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "30061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B6,30061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "30061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B7,30061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "30072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B4,30072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "30072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B5,30072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "30072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B6,30072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "30072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B7,30072830,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "31061636",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B4,31061636,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "31061636",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B5,31061636,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "31061636",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B6,31061636,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "31061636",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B7,31061636,16,16,1,N"
+    },
+    {
+      "tile": "17B4",
+      "palette": "31072830",
+      "xy": [
+        0,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B4,31072830,0,0,1,N"
+    },
+    {
+      "tile": "17B5",
+      "palette": "31072830",
+      "xy": [
+        16,
+        0
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B5,31072830,16,0,1,N"
+    },
+    {
+      "tile": "17B6",
+      "palette": "31072830",
+      "xy": [
+        0,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B6,31072830,0,16,1,N"
+    },
+    {
+      "tile": "17B7",
+      "palette": "31072830",
+      "xy": [
+        16,
+        16
+      ],
+      "scope": "citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi",
+      "rule": "[citadelRepair9CA7Mode&citadelRepair9CA7Lo&citadelRepair9CA7Hi]<tile>63,17B7,31072830,16,16,1,N"
+    }
+  ],
+  "clones": [
+    {
+      "source_rule": "<tile>29,024E,FF300036,32,144,1,N",
+      "rule": "<tile>29,164E,FF300036,32,144,1,N",
+      "source_tile": "024E",
+      "tile": "164E",
+      "palette": "FF300036",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF300036,48,144,1,N",
+      "rule": "<tile>29,164F,FF300036,48,144,1,N",
+      "source_tile": "024F",
+      "tile": "164F",
+      "palette": "FF300036",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024E,FF221136,64,144,1,N",
+      "rule": "<tile>29,164E,FF221136,64,144,1,N",
+      "source_tile": "024E",
+      "tile": "164E",
+      "palette": "FF221136",
+      "source_palette": "FF221136"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF221136,80,144,1,N",
+      "rule": "<tile>29,164F,FF221136,80,144,1,N",
+      "source_tile": "024F",
+      "tile": "164F",
+      "palette": "FF221136",
+      "source_palette": "FF221136"
+    },
+    {
+      "source_rule": "<tile>29,024E,FF300036,32,144,1,N",
+      "rule": "<tile>29,164E,FF190927,32,144,1,N",
+      "source_tile": "024E",
+      "tile": "164E",
+      "palette": "FF190927",
+      "source_palette": "FF300036"
+    },
+    {
+      "source_rule": "<tile>29,024F,FF300036,48,144,1,N",
+      "rule": "<tile>29,164F,FF190927,48,144,1,N",
+      "source_tile": "024F",
+      "tile": "164F",
+      "palette": "FF190927",
+      "source_palette": "FF300036"
+    }
+  ],
+  "ceiling_source": "art/level6_opening/rock_material.png",
+  "source_crop": [
+    0,
+    16,
+    32,
+    48
+  ],
+  "new_generated_art": false,
+  "native_gameplay_modified": false
+}

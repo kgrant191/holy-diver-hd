@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Level 6 ceiling and 1-up — 0.25.1 review.** Corrects the old red ceiling exposed by an immediate jump and restores the finished 1-up figurine. Existing citadel scenery, stone, actors and cape stay unchanged. [Repair and verification](docs/LEVEL6_REPAIR.md).
+
 **Level 6 screens 1–2 — 0.25.0 review.** A blue-violet ruined citadel and enclosed Gothic hall replace the reused red cave scenery. Adds dark stonework, ivory skull blocks and the purple/gold cape in the Start menu; returning actors and spells reuse their finished artwork. [Scope and verification](docs/LEVEL6_OPENING.md). Local branch `feature/level6-opening`; approved main remains 0.24.0.
 
 **Demonic Palace 0.24.0 is approved and merged on main.** [PR #27](https://github.com/kgrant191/holy-diver-hd/pull/27) includes the late rooms, moving platforms, boss, victory sequence and Level 6 threshold. All 129 reviewed installation files remain frozen. Next development is Level 6. [Adoption record](docs/LEVEL5_FINALE_ADOPTION.md).

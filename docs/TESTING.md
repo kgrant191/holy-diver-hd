@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Level 6 ceiling and 1-up — 0.25.1
+
+Pair the complete 1147-frame 20261029-173117 recording at stride 1 against 0.25.0. `verify_level6_repair_replay.py` requires exact RAM/PPU/OAM/view, APU and full PCM; all changed pixels must be inside the newly exposed native ceiling or 1-up footprint, with exact existing stone pixels and complete figurine source matches. Verify the life count changes at native frame 858. Replay the original 6427-frame Level 6 movie against the repair with `--regression` and allow only the requested 1-up changes, with all other rendered pixels exact. Keep the stock-core neighbor observer active. The static validator preserves all 132 earlier assets and projects exact 0.25.0 through the historical chain. See LEVEL6_REPAIR.md.
+
 ## Level 6 opening — 0.25.0
 
 Replay the complete 6427-frame 20261029-152041 movie at stride 1 against approved 0.24.0 and the candidate. Compare RAM/PPU/OAM/view, APU writes and full PCM using verify_level6_opening_replay.py. Check the new panoramas in every rendered gameplay frame, including dragon acquisition and Thunder, exact menus outside the cape, native blackouts and complete registered stone/skull/cape source matches. The full-movie capture predates only the versioned README; require every delivered runtime byte to match.

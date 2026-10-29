@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.25.1 — Level 6 ceiling and 1-up (review)
+
+- Replace the accidental red upper ceiling exposed by jumping with existing citadel stone, keeping its native silhouette.
+- Restore the finished 1-up figurine and verify its native life increase in the supplied recording.
+- Preserve all existing Level 6 artwork and the complete 0.25.0 mapping layer.
+- Write builder PNG/text outputs atomically from complete data, avoiding truncated or partially read files without changing their bytes.
+
 ## 0.25.0 — Level 6 screens 1–2 (review)
 
 - Replace the reused red cave with separate blue-violet citadel and enclosed Gothic hall scenery.

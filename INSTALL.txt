@@ -1,9 +1,12 @@
-HOLY DIVER HD 0.25.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.25.1 — DEVELOPMENT REVIEW CANDIDATE
 
 Level 6 screens 1 and 2 now use blue-violet ruined citadel scenery,
 dark stone platforms, ivory skull blocks, and a new purple/gold cape
 in the Start menu. Returning enemies, dragon forms, spells and lava/ice
 reuse their finished artwork. Later Level 6 rooms remain unfinished.
+
+Corrects the upper ceiling revealed by an immediate jump and restores
+the finished 1-up figurine. Existing Level 6 artwork remains unchanged.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

@@ -1,5 +1,11 @@
 # Holy Diver HD working instructions
 
+## Current repair — Level 6 ceiling and 1-up 0.25.1
+
+- The immediate-jump recording reveals 17B4–17B7 at the upper ceiling. Their old red texture was accidental. Register their whole 2×2 native group from the existing cool rock material, keeping native hulls and normal/resume/30/31 guards.
+- 164E/164F are byte-identical to approved 024E/024F. Reuse atlas 29 ivory/blue figurines in FF300036, FF221136 and FF190927; no new item art. The new movie shows and collects the ivory form; the original movie also verifies blue and dragon-form appearances.
+- Preserve all 132 prior art/audio/patch files and exact recoverable 0.25.0 mapping text. The repair is a separate removable layer. Keep the complete historical validation chain, exact native/audio comparison, and original-movie regression. See docs/LEVEL6_REPAIR.md. Work remains local on feature/level6-opening; no merge/publication approval is implied.
+
 ## Current review — Level 6 opening 0.25.0
 
 - Start from approved main f716c2a; work locally on `feature/level6-opening`. The user requests screens 1–2 with different scenery from previous red caves and an HD cape in Start. No merge/publication approval is implied.

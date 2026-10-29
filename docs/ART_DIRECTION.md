@@ -1,5 +1,9 @@
 # Art direction
 
+## Level 6 ceiling repair — 0.25.1
+
+The upper ceiling belongs to the existing cool rock structure. Reuse the accepted rock material and preserve its native outline; do not introduce a red accent or repaint the scene. The 1-up uses the already finished ivory/gold or blue figurine, including the ivory artwork for the native dragon palette.
+
 ## Level 6 opening — 0.25.0
 
 Use an entirely new cool palette: blue-violet ruined cathedral spires for the opening shaft, then a dark enclosed hall with tall Gothic ribs and sparse cyan windows. Dark blue-gray stone keeps solid surfaces distinct; inset ivory skull blocks remain recognizable as breakable objects. Register complete brick/skull/cornice units and keep their native collision hulls. The cape is royal violet with ivory lining and antique-gold trim. Preserve the approved returning actors and lava/ice; native flashes blend through matching panorama RGB at alpha 176.

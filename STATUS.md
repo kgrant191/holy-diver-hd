@@ -1,5 +1,9 @@
 # Current status
 
+## Current repair — Level 6 ceiling and 1-up 0.25.1
+
+The 20261029-173117 movie exposes four upper-ceiling identities absent from the original recording, plus the native 1-up. The repair reuses the existing cold stone in the ceiling and approved ivory/blue figurines for the Level 6 bank. All 132 earlier art/audio/patch files and exact removable 0.25.0 mappings remain unchanged. Work continues locally on `feature/level6-opening`; approved main remains 0.24.0. See docs/LEVEL6_REPAIR.md and evidence/level6_repair/. No publication or merge performed.
+
 ## Current review — Level 6 opening 0.25.0
 
 The 20261029-152041 movie supplies screens 1 and 2. This candidate replaces the inherited red cave with separate cold citadel exterior/interior panoramas, native-shaped dark masonry and ivory skull blocks. The lower-right Start-menu cape uses new purple/gold artwork. Returning actors, dragon forms, Thunder and lava/ice reuse byte-proven approved sources. All 127 prior art/audio/patch files and removable 0.24.0 mappings are preserved.
