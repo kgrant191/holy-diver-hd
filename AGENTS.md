@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.29.1; finale next
+
+The user approved 0.29.1, including the mucus blob and higher-contrast wall face, and supplied the 20261029-225605 movie for the final screen, two boss rooms and ending. Preserve all 152 approved install files, original orb standby, native gameplay and audio. Main remains 0.24.0; no push, PR, merge, tag or release is authorized. The skipped earlier Level 6 rooms remain unfinished even after this movie is covered. See evidence/level6_enemy_revision/approval.json.
+
 ## Current revision — Level 6 enemies 0.29.1
 
 The green enemy is now a glossy mucus blob in both animation poses. The wall face has bone-gray plates and pale ridges for contrast against the red room. The exact original green orb remains on standby and can be restored without reverting the face. Latest accepted continuation is 0.28.0; 0.29.0 and this revision are review candidates. Main remains 0.24.0. No push, PR, merge, tag or release is authorized. See docs/LEVEL6_ENEMY_REVISION.md.

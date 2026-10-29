@@ -1,5 +1,9 @@
 # Current status
 
+## Approved continuation — 0.29.1; finale next
+
+The user approved 0.29.1, including the mucus blob and higher-contrast wall face, and supplied the 20261029-225605 movie for the final screen, two boss rooms and ending. Preserve all 152 approved install files, original orb standby, native gameplay and audio. Main remains 0.24.0; no push, PR, merge, tag or release is authorized. The skipped earlier Level 6 rooms remain unfinished even after this movie is covered. See evidence/level6_enemy_revision/approval.json.
+
 ## Current revision — Level 6 enemies 0.29.1
 
 Full 4,761-frame paired replay passes with native state and audio exact. All 3,012 changed images are confined to the face and blob; 1,748 other images remain exact. Whole face and both blob poses match actual source pixels. Original orb restoration and all historical validators pass.
