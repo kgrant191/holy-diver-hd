@@ -1,5 +1,12 @@
 # Holy Diver HD working instructions
 
+## Current continuation — Level 6 skull corridor 0.26.0
+
+- The 20261029-181929 movie traverses 9F3B/mode10 and shows only the entrance of A02B/mode04. Reuse the enclosed citadel, skull blocks and cold stone. Both physical background banks 1700/1900 have identical bytes; cover both, including normal/resume/30/31 palettes. Preserve every native structural hull and menu/blackout.
+- Bank1800 needs complete pose-conditioned Randy/HUD/effect aliases, including remapped sprite-neighbor identities. 18A9–DD reuses all four silver sentinel poses; 18DF–E6 is the returning flying skull, not a ghoul. 18F9 reuses the finished round shot. The differently patterned one-cell 18EB/FF000F30 also reuses that art, explicitly not a CHR-identity claim.
+- 18E7–F2/FF072630 forms two whole bronze crawler poses at the A02B entrance. Keep their measured native cell unions, full connected registration and zero clipped corner pixels. Do not conflate its 18EB body cell with the differently paletted projectile.
+- Preserve all 133 earlier art/audio/patch files and exact removable 0.25.1 mapping text. Keep the historical validator chain, full native/audio checks, unchanged earlier-movie regression and complete corridor-platform edge route. See docs/LEVEL6_NEXT.md. Work stays local on feature/level6-opening; main remains approved 0.24.0. No publication/merge approval is implied.
+
 ## Current repair — Level 6 ceiling and 1-up 0.25.1
 
 - The immediate-jump recording reveals 17B4–17B7 at the upper ceiling. Their old red texture was accidental. Register their whole 2×2 native group from the existing cool rock material, keeping native hulls and normal/resume/30/31 guards.

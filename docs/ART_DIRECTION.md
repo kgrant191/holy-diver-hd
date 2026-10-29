@@ -1,5 +1,9 @@
 # Art direction
 
+## Level 6 skull corridor — 0.26.0
+
+Continue the existing enclosed Gothic citadel and cool stone. Register the corridor body, inset, hanging edge, corner and floor as whole native groups. Reuse the silver sentinel and blue flying skull exactly. The small new crawler has bronze armor, ivory ridges and a cyan eye; its resting and leaping bodies are registered whole into their distinct native unions. Keep the new projectile readable with the existing round fireball art.
+
 ## Level 6 ceiling repair — 0.25.1
 
 The upper ceiling belongs to the existing cool rock structure. Reuse the accepted rock material and preserve its native outline; do not introduce a red accent or repaint the scene. The 1-up uses the already finished ivory/gold or blue figurine, including the ivory artwork for the native dragon palette.

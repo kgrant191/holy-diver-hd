@@ -1,5 +1,11 @@
 # Current status
 
+## Current continuation — Level 6 skull corridor 0.26.0
+
+The 20261029-181929 movie supplies 9F3B/mode10 and the recorded entrance of A02B/mode04. Both now use the enclosed blue-violet citadel and existing cold stone/skulls. The new actor bank restores finished Randy, HUD, flying skulls, silver sentinels and projectiles. Two new bronze crawler poses fit the following room's native footprints. Every prior art/audio/patch asset and removable 0.25.1 mapping stays exact.
+
+Work remains local on `feature/level6-opening`; approved main is 0.24.0. No push, PR, merge, tag or release has occurred. The rest of A02B, later rooms and final boss are outside this recording. See docs/LEVEL6_NEXT.md and evidence/level6_next/.
+
 ## Current repair — Level 6 ceiling and 1-up 0.25.1
 
 The 20261029-173117 movie exposes four upper-ceiling identities absent from the original recording, plus the native 1-up. The repair reuses the existing cold stone in the ceiling and approved ivory/blue figurines for the Level 6 bank. All 132 earlier art/audio/patch files and exact removable 0.25.0 mappings remain unchanged. Work continues locally on `feature/level6-opening`; approved main remains 0.24.0. See docs/LEVEL6_REPAIR.md and evidence/level6_repair/. No publication or merge performed.

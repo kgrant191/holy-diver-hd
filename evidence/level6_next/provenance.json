@@ -1,0 +1,17 @@
+{
+  "movie": "Holy_Diver_HD(20261029-181929).mmo",
+  "movie_sha256": "298aa05c6ec3073d4db22596b5072721836d008a591e527b69e85b5d687c6bb9",
+  "parent_commit": "36446e22eff73aaee93839d0ac1dea420544ccb2",
+  "approved_main": "f716c2a7071bf6344e2e52b10b6df8b61d3e929b",
+  "branch": "feature/level6-opening",
+  "review_status": "awaiting user review",
+  "native_state_modified": false,
+  "new_input_only_in_edge_route": true,
+  "generated_source": "art/generated/level6_crawler.png",
+  "generated_prompt": "art/generated/level6_next_prompt.json",
+  "generated_source_sha256": "1bb5d67c1fccb4a019501b4f59e1c8f439b422726ac29215705a9f36df00d159",
+  "recorded_rooms": [
+    "9F3B corridor",
+    "A02B entrance only"
+  ]
+}

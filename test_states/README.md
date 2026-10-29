@@ -1,5 +1,9 @@
 # Local emulator test inputs
 
+## Level 6 skull corridor movie — 0.26.0
+
+`Holy_Diver_HD(20261029-181929).mmo`: 2,528 controller frames; SHA-256 `298aa05c6ec3073d4db22596b5072721836d008a591e527b69e85b5d687c6bb9`. Traverses 9F3B, pauses/resumes, and enters A02B before the final pause. `make_level6_next_edge.py` preserves its state and first 1,400 input frames, then tests the corridor platform using controller input only. The full 6,427-frame `Holy_Diver_HD(20261029-152041).mmo` supplies the unchanged-image regression. Input bytes remain outside Git.
+
 ## Background continuity movie — 0.20.5
 
 `Holy_Diver_HD(20261027-183338).mmo`: 2,856 controller frames; SHA-256 `5d45de08c3a9bf5bc72086363855f087557b593f695346122553b03208a18649`. Covers room 9DEE, scrolling in both directions, Blizzard casts, menus, player death and restart. All native state/full audio is paired at stride 1. Input bytes remain outside Git.

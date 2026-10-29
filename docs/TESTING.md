@@ -1,5 +1,11 @@
 # Build and live testing
 
+## Level 6 skull corridor — 0.26.0
+
+Replay all 2528 frames of 20261029-181929 at stride one against 0.25.1 and the candidate. `verify_level6_next_replay.py` requires identical native RAM/PPU/OAM/view, APU/full PCM, exact menus/blackouts and source matches for whole terrain, four sentinel poses, flying skull and both crawler poses. The first full capture predates only the install-note correction from "ghouls" to "flying skulls"; its retained note must match exactly and every runtime byte stays frozen. Edge and original-movie regression use the final complete manifest.
+
+`make_level6_next_edge.py` preserves the original state and first 1400 controller frames, then walks left, stops and slowly walks right off the full 144-native-pixel corridor platform. Pair its 1400–1766 window at stride one with the stock-core neighbor observer. `verify_level6_next_edge.py` compares native state/full audio and the complete 288×160 HD platform. Replay the original 6427-frame Level 6 movie with `--regression`; every screenshot must stay identical. New-room spell flashes have static rule/source coverage only. Keep the complete historical validator chain and 136-file manifest. See LEVEL6_NEXT.md.
+
 ## Level 6 ceiling and 1-up — 0.25.1
 
 Pair the complete 1147-frame 20261029-173117 recording at stride 1 against 0.25.0. `verify_level6_repair_replay.py` requires exact RAM/PPU/OAM/view, APU and full PCM; all changed pixels must be inside the newly exposed native ceiling or 1-up footprint, with exact existing stone pixels and complete figurine source matches. Verify the life count changes at native frame 858. Replay the original 6427-frame Level 6 movie against the repair with `--regression` and allow only the requested 1-up changes, with all other rendered pixels exact. Keep the stock-core neighbor observer active. The static validator preserves all 132 earlier assets and projects exact 0.25.0 through the historical chain. See LEVEL6_REPAIR.md.

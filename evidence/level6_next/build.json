@@ -1,0 +1,13 @@
+{
+  "version": "0.26.0",
+  "clean_isolated_build": true,
+  "all_historical_validators_passed": true,
+  "install_files": 136,
+  "prior_art_audio_patch_files_exact": 133,
+  "flat_zip": true,
+  "nested_zip": false,
+  "crc_valid": true,
+  "all_archive_member_sha256_exact": true,
+  "archive_sha256": "2a76068f095cdaf6544206cf706c4994924361ad6f73f3e1b46e6ac37f2c94c2",
+  "archive_bytes": 29069216
+}

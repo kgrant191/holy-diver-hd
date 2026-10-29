@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.26.0 — Level 6 skull corridor (review)
+
+- Extend the enclosed citadel through the next recorded corridor and following-room entrance, preserving native floor and ceiling shapes.
+- Restore finished Randy/HUD/effects, flying skulls and all four silver sentinel poses in the new actor bank.
+- Add two complete bronze crawler poses and reuse the finished small projectile artwork.
+- Preserve all 133 prior art/audio/patch files, exact recoverable 0.25.1 rules, gameplay, audio and earlier Level 6 visuals.
+
 ## 0.25.1 — Level 6 ceiling and 1-up (review)
 
 - Replace the accidental red upper ceiling exposed by jumping with existing citadel stone, keeping its native silhouette.

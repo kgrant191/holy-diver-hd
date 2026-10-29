@@ -45,6 +45,7 @@
   "Final_Citadel_Exterior_Flash.png": "43ac29b5917461e4de0a51d5ed9a173fb0724e756c8e99a207bffea1fc918437",
   "Final_Citadel_Interior.png": "4fe32476b7c69152002603ba6e63a987712f034069b306b9c941fedbdf259a9b",
   "Final_Citadel_Interior_Flash.png": "c53b562b91e36ca9ddced02aef97fe2edb78c7a425ea2514a764aca5428fa41e",
+  "Final_Citadel_Next_2x.png": "a827f2e0b2d8dd8b277ba5f1719a8d97124f65775819271b1c8439b69d037c2f",
   "Final_Citadel_Repair_2x.png": "bff6148f35ed519645bde45e1dc00d146c6c407317caf8bb5f1142c84b3dd133",
   "Final_Citadel_Tiles_2x.png": "1d88583068407497064465c5780f2dd708f36e3a8854e189123cd2f35db07cf7",
   "Golden_Temple_Courtyard_2x.png": "3260b1c42cd4a44eed6c5325e82eb80cee240d92e3742fdef23170a245175830",
@@ -77,7 +78,7 @@
   "Poison_Moss_Forest_Background.png": "2dc0da73c30d74717e8c584ec7a23425739d1c21a4859fad5872f1f6126af813",
   "Poison_Moss_Ruins_Background.png": "8f592f6b0b078e87186dd258e5a3f6c986a0f7fba5cd91c3c02219341695b1b7",
   "Poison_Moss_Tiles_2x.png": "d6c08a1b474bb44f97cc3ea6af2db973dfab1a468c8c5d0bbadf7906407f53b1",
-  "README.txt": "3afcf1b4d686ac285f32239f2f90fe4b36da98d3a7171b469041e900a3b03a5b",
+  "README.txt": "1b3d134f6b83d2b1fb968301a27106765bec1a94033e569ff8c7e0e560cc0822",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -133,5 +134,5 @@
   "Tree_Potion_Cleanup_2x.png": "7c6f07bd476ff76275bc496fee58542548bb29b817622f1711010fe42ede7041",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "66bc8ee656790040f742e2215fdfc23f28299dd6a0c9671b727dd393702bd956"
+  "hires.txt": "b7150df1c57e7ac50c1898a4578218a63b9cf0122394f98055b1c6aecb7ae3b3"
 }
