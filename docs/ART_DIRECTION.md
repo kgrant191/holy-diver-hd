@@ -1,5 +1,9 @@
 # Art direction
 
+## Level 6 room variety — 0.27.0
+
+The user explicitly replaces the uniform cold-stone direction with original-inspired room colors. Use newly generated red, amber and green masonry and distinct amber ossuary, crimson shaft and verdant crypt backgrounds. Preserve earlier exterior/hall compositions, ivory skulls and carved ornaments. Native structural hulls and complete registered groups control every platform edge. Do not reuse old cave panoramas.
+
 ## Level 6 skull corridor — 0.26.0
 
 Continue the existing enclosed Gothic citadel and cool stone. Register the corridor body, inset, hanging edge, corner and floor as whole native groups. Reuse the silver sentinel and blue flying skull exactly. The small new crawler has bronze armor, ivory ridges and a cyan eye; its resting and leaping bodies are registered whole into their distinct native unions. Keep the new projectile readable with the existing round fireball art.

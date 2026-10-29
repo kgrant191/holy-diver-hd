@@ -1,5 +1,15 @@
 # Current status
 
+## Current continuation — Level 6 room variety and hit frames 0.27.0
+
+Completed validation: full new-room and opening replays plus the corridor edge route match native execution and full audio. Both sentinel hit colors match whole HD sources in both directions. The isolated build passes all historical validators; all 143 install file hashes match. See `evidence/level6_variety/` for results.
+
+The user requests distinct rooms that retain the original color families. This supersedes the earlier uniform cold-stone direction: opening rooms use red stone with their separate exterior/hall backdrops; 9F3B is an amber ossuary; A02B is a crimson vertical shaft; A0DF is a green crypt with blue accents. The 20261029-190811 movie traverses the full shaft and green room. Preserve native structural hulls, carved ornaments, skull blocks, lava/ice, menus, blackouts, timing and audio.
+
+Both sentinel damage palettes (FF102030 and FF122232) reuse all 53 byte-identical cells from finished atlas 51. The projectile follows both hit palettes; the returning spark also reuses its approved source. The green room inherits complete actor rules and normal/resume/30/31 bank guards for 1700/1900. Clear only its measured decorative blue wall palette. New room art is a removable layer plus reversible corridor/shaft panorama substitutions; all 134 previous art/audio/patch files remain exact. See docs/LEVEL6_VARIETY.md.
+
+Work remains local on `feature/level6-opening`; approved main stays 0.24.0. Later Level 6 rooms and the final boss remain unfinished. No push, PR, merge, tag or release has occurred.
+
 ## Current continuation — Level 6 skull corridor 0.26.0
 
 The 20261029-181929 movie supplies 9F3B/mode10 and the recorded entrance of A02B/mode04. Both now use the enclosed blue-violet citadel and existing cold stone/skulls. The new actor bank restores finished Randy, HUD, flying skulls, silver sentinels and projectiles. Two new bronze crawler poses fit the following room's native footprints. Every prior art/audio/patch asset and removable 0.25.1 mapping stays exact.

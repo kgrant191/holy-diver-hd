@@ -1,5 +1,13 @@
 # Holy Diver HD working instructions
 
+## Current continuation — Level 6 room variety and hit frames 0.27.0
+
+The user requests distinct rooms that retain the original color families. This supersedes the earlier uniform cold-stone direction: opening rooms use red stone with their separate exterior/hall backdrops; 9F3B is an amber ossuary; A02B is a crimson vertical shaft; A0DF is a green crypt with blue accents. The 20261029-190811 movie traverses the full shaft and green room. Preserve native structural hulls, carved ornaments, skull blocks, lava/ice, menus, blackouts, timing and audio.
+
+Both sentinel damage palettes (FF102030 and FF122232) reuse all 53 byte-identical cells from finished atlas 51. The projectile follows both hit palettes; the returning spark also reuses its approved source. The green room inherits complete actor rules and normal/resume/30/31 bank guards for 1700/1900. Clear only its measured decorative blue wall palette. New room art is a removable layer plus reversible corridor/shaft panorama substitutions; all 134 previous art/audio/patch files remain exact. See docs/LEVEL6_VARIETY.md.
+
+Work remains local on `feature/level6-opening`; approved main stays 0.24.0. Later Level 6 rooms and the final boss remain unfinished. No push, PR, merge, tag or release has occurred.
+
 ## Current continuation — Level 6 skull corridor 0.26.0
 
 - The 20261029-181929 movie traverses 9F3B/mode10 and shows only the entrance of A02B/mode04. Reuse the enclosed citadel, skull blocks and cold stone. Both physical background banks 1700/1900 have identical bytes; cover both, including normal/resume/30/31 palettes. Preserve every native structural hull and menu/blackout.

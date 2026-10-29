@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.27.0 — Level 6 room variety and hit frames (review)
+
+Adds distinct amber ossuary, crimson shaft and green/blue crypt scenery with original-inspired stone colors. Restores red-toned opening stone without changing the separate exterior/hall panoramas. Completes sentinel hit palettes and the green room actors/projectiles. Preserves native gameplay, audio and earlier assets; no publication or merge.
+
 ## 0.26.0 — Level 6 skull corridor (review)
 
 - Extend the enclosed citadel through the next recorded corridor and following-room entrance, preserving native floor and ceiling shapes.

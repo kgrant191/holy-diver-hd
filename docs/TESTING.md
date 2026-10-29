@@ -1,5 +1,11 @@
 # Build and live testing
 
+## Level 6 room variety — 0.27.0
+
+Completed validation: full new-room and opening replays plus the corridor edge route match native execution and full audio. Both sentinel hit colors match whole HD sources in both directions. The isolated build passes all historical validators; all 143 install file hashes match. See `evidence/level6_variety/` for results.
+
+Pair the complete 3,393-frame movie with exact 0.26.0, checking both damage palettes, the full climb, A0DF combat, pause and death/card transition. Pair the original 6,427-frame opening movie and the 367 captured edge-route frames. Native RAM/PPU/OAM/view/APU and full PCM must match. Inspect actual whole-source matches, both mirrored hit sources, source masks and room-specific panorama coverage. The new recording contains no Thunder/dragon flash cast; normal/resume/30/31 rules are statically complete. Run the full historical validator chain and isolated clean build.
+
 ## Level 6 skull corridor — 0.26.0
 
 Replay all 2528 frames of 20261029-181929 at stride one against 0.25.1 and the candidate. `verify_level6_next_replay.py` requires identical native RAM/PPU/OAM/view, APU/full PCM, exact menus/blackouts and source matches for whole terrain, four sentinel poses, flying skull and both crawler poses. The first full capture predates only the install-note correction from "ghouls" to "flying skulls"; its retained note must match exactly and every runtime byte stays frozen. Edge and original-movie regression use the final complete manifest.

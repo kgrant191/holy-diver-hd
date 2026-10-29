@@ -1,18 +1,15 @@
-HOLY DIVER HD 0.26.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.27.0 — DEVELOPMENT REVIEW CANDIDATE
 
-Level 6 screens 1 and 2 now use blue-violet ruined citadel scenery,
-dark stone platforms, ivory skull blocks, and a new purple/gold cape
-in the Start menu. Returning enemies, dragon forms, spells and lava/ice
-reuse their finished artwork.
+Level 6 rooms now follow their original red, amber and green color families
+with new artwork. The opening exterior and hall retain their distinct
+backdrops with red stone; the skull corridor uses an amber ossuary;
+the vertical crawler chamber uses a crimson shaft; the next green room
+uses a verdant crypt with blue accents. Platforms keep their native shapes.
 
-Corrects the upper ceiling revealed by an immediate jump and restores
-the finished 1-up figurine. Existing Level 6 artwork remains unchanged.
-
-Extends the enclosed citadel through the next skull-lined corridor and the
-recorded entrance to the following room. Restores HD Randy, HUD, flying skulls,
-silver armored sentinels and projectiles in the new graphics bank. Adds
-two poses for the small bronze crawler at the following room's entrance.
-Later Level 6 rooms and the boss remain unfinished.
+Armored sentinels retain HD artwork in both hit palettes. The green room
+also uses the finished actors, projectiles and bronze crawlers. Includes
+the previous cape, immediate-jump ceiling and 1-up repairs.
+Later Level 6 rooms and the final boss remain unfinished.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.

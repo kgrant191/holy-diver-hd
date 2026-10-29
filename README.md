@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Level 6 room variety and hit frames — 0.27.0 review.** Distinct amber ossuary, crimson climbing shaft and green/blue crypt follow the original room palettes. Opening rooms regain red foreground stone while retaining separate backdrops. Sentinels keep HD art in both damage palettes. Includes all prior cape, ceiling and 1-up fixes. [Scope and verification](docs/LEVEL6_VARIETY.md).
+
 **Level 6 skull corridor — 0.26.0 review.** Extends the enclosed citadel through the next recorded corridor and the following room's entrance. Reuses the finished Randy/HUD, flying skulls and silver armored sentinel; adds two bronze crawler poses. Preserves earlier scenery, cape, ceiling and 1-up repairs. [Scope and verification](docs/LEVEL6_NEXT.md).
 
 **Level 6 ceiling and 1-up — 0.25.1 review.** Corrects the old red ceiling exposed by an immediate jump and restores the finished 1-up figurine. Existing citadel scenery, stone, actors and cape stay unchanged. [Repair and verification](docs/LEVEL6_REPAIR.md).
