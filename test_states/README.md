@@ -200,3 +200,6 @@ Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-fra
 ## Palace finale — 0.24.0
 
 `Holy_Diver_HD(20261028-142617).mmo`: 15,585 frames; SHA-256 `0328029ecdc68941515093d8f03efafdf0cd0a2c4bffa937cf42d2151610c77a`. Covers 8D3E, 8E6A, 8EE2 and the 9A8B threshold. The embedded state and unchanged controller input are replayed with stock MesenCE 2.2.1 and the synchronized native capture observer. Input bytes remain excluded from Git. See docs/LEVEL5_FINALE.md.
+## Level 6 organic hall input
+
+`Holy_Diver_HD(20261029-215619).mmo` contains 4,761 controller frames; SHA-256 `30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067`. It covers the accepted shaft exit and A3AF/mode10, including Overdrive, Blizzard and pauses. Input bytes and raw captures remain outside Git. `make_level6_organic_edge.py` derives the controller-only platform route with unchanged embedded state; its metadata is saved with the compact evidence.

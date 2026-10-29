@@ -53,6 +53,9 @@
   "Final_Citadel_Interior_Flash.png": "c53b562b91e36ca9ddced02aef97fe2edb78c7a425ea2514a764aca5428fa41e",
   "Final_Citadel_Late_2x.png": "7fe9b4513abe2e9648835c5755f80f21a9319a5f410eb0839ada073e15f251b0",
   "Final_Citadel_Next_2x.png": "a827f2e0b2d8dd8b277ba5f1719a8d97124f65775819271b1c8439b69d037c2f",
+  "Final_Citadel_Organic.png": "e0f4f376400e27aa4e70bafc3e2a72e620b51b0dd806afee3fdc2a1f8c736132",
+  "Final_Citadel_Organic_2x.png": "ca2fbbe0c110dcb9df439f90c70f4b43a72ffe1aba8a3f80b7d380fc88956c88",
+  "Final_Citadel_Organic_Flash.png": "ec50ccf010ecb30633cd92540478eb04ede1a04dc9c6f0f724d989f5f0deb2da",
   "Final_Citadel_Reliquary.png": "b772487234153dea6e63b0641ad57cd7a8dbed0ba3eda88c28f7741bc353604a",
   "Final_Citadel_Reliquary_Flash.png": "1a5e122620c1b796ba46198311d85c880dfa32448870ca1b5e06a4ebfaa43e76",
   "Final_Citadel_Repair_2x.png": "bff6148f35ed519645bde45e1dc00d146c6c407317caf8bb5f1142c84b3dd133",
@@ -90,7 +93,7 @@
   "Poison_Moss_Forest_Background.png": "2dc0da73c30d74717e8c584ec7a23425739d1c21a4859fad5872f1f6126af813",
   "Poison_Moss_Ruins_Background.png": "8f592f6b0b078e87186dd258e5a3f6c986a0f7fba5cd91c3c02219341695b1b7",
   "Poison_Moss_Tiles_2x.png": "d6c08a1b474bb44f97cc3ea6af2db973dfab1a468c8c5d0bbadf7906407f53b1",
-  "README.txt": "f408dac084352a6966db05f1d8eb5a3a30d422b904c8d4aae13cb910e09c4ec4",
+  "README.txt": "97f2ae6521d67870b22886a8c17e744005dfd0d2081387d19496015d200f9687",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -146,5 +149,5 @@
   "Tree_Potion_Cleanup_2x.png": "7c6f07bd476ff76275bc496fee58542548bb29b817622f1711010fe42ede7041",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "0aae0ff4cd2bbea3d711a5eff975d3766774a9deaf09e04590026fae02ad1e91"
+  "hires.txt": "de987dc3aa65a00fda67d25bf4155971e6afaf6555bba724468bdef98b51e4e1"
 }

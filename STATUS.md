@@ -1,5 +1,13 @@
 # Current status
 
+## Current continuation — Level 6 crimson organic hall 0.29.0
+
+Completed validation: the full 4,761-frame new-room replay, 731-frame platform route and 7,648-frame earlier-room regression preserve native state and complete audio. All 7,647 earlier rendered images remain exact. New terrain, face and orb sources, accepted lava/ice/projectile sources, backdrop continuity, isolated clean build and all 151 install hashes pass. See `evidence/level6_organic/`.
+
+The user accepted 0.28.0 and supplied the 20261029-215619 movie. Work stays on feature/level6-opening; main remains approved 0.24.0. No push, PR, merge or release is authorized.
+
+Cover only A3AF/mode10, background bank1B and actors1A. Preserve all 146 previous art/audio/patch assets and exact removable 0.28.0 mapping text. Use a dark crimson organic cathedral, red chitin terrain, a complete registered wall face and two green orb poses. Keep native terrain hulls, player/sprite footprints, original lava/Blizzard ice animation, menu/blackout behavior and full audio. Player/HUD/effect aliases retain every specific pose condition and remap sprite-neighbor identities. No new tileNearby probes. Later rooms and boss remain unfinished. See docs/LEVEL6_ORGANIC.md.
+
 ## Current continuation — Level 6 green hall and descent 0.28.0
 
 Completed validation: the full 7,648-frame replay, 3,393-frame earlier-room regression and 700-frame edge route preserve native state and complete audio. Both new panoramas remain visible, all 15 inspected whole sources match, and all earlier regression images stay exact. The isolated build and historical validators pass; all 148 install hashes match. See `evidence/level6_late/`.

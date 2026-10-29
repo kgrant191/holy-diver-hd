@@ -206,3 +206,6 @@ Dark navy/plum Gothic cavern arches, pale olive-gray limestone, crimson spiral c
 ### Palace ceiling refinement
 
 Use muted forest/olive-green wet slime on the cavern ceiling, distinct from the existing gray-olive rocky floor. Keep native ceiling contours. Source registration uses complete two-by-two ceiling motifs. Preserve the existing cathedral panoramas, crimson columns and finished serpent.
+## Level 6 organic hall
+
+A3AF follows its original crimson organic palette with dark ribbed cathedral depth, lighter chitin terrain, wall-mounted demonic faces and small green orbs. Keep native foreground hulls and original lava/ice animation. Preserve all accepted earlier room art. Whole sources and prompts are in art/level6_organic/ and art/generated/level6_organic_prompts.json.

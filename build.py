@@ -61,6 +61,7 @@ subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_next.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_variety.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_late.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_organic.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'

@@ -1,5 +1,11 @@
 # Holy Diver HD working instructions
 
+## Current continuation — Level 6 crimson organic hall 0.29.0
+
+The user accepted 0.28.0 and supplied the 20261029-215619 movie. Work stays on feature/level6-opening; main remains approved 0.24.0. No push, PR, merge or release is authorized.
+
+Cover only A3AF/mode10, background bank1B and actors1A. Preserve all 146 previous art/audio/patch assets and exact removable 0.28.0 mapping text. Use a dark crimson organic cathedral, red chitin terrain, a complete registered wall face and two green orb poses. Keep native terrain hulls, player/sprite footprints, original lava/Blizzard ice animation, menu/blackout behavior and full audio. Player/HUD/effect aliases retain every specific pose condition and remap sprite-neighbor identities. No new tileNearby probes. Later rooms and boss remain unfinished. See docs/LEVEL6_ORGANIC.md.
+
 ## Current continuation — Level 6 green hall and descent 0.28.0
 
 The user accepted 0.27.0 ("this looks great") and supplied the 20261029-204125 movie. Preserve all 143 accepted install files as the baseline; main remains 0.24.0. No push, PR, merge or release is authorized.

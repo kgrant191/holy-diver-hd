@@ -1,0 +1,50 @@
+{
+  "movie": {
+    "movie_sha256": "c5451de99dfbadd8002cb88ca0b10ea6ec105870df7cf827d385c4fb7dc7ba05",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 7648,
+    "seconds_wall": 384.3838452719974,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 7648
+  },
+  "native_samples_per_type": 7648,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "c52df2b55b883b9be74cc57aaf15e09ddb7fe5308cf0c7ddeabdeb279d505597",
+  "pcm_sha256": "a3d6ed90be72db2897531b213590c9c5bb65d90cedc7d60d198dc53ad18f0aa9",
+  "delivered_runtime_exact": true,
+  "images": {
+    "empty_initial": 1,
+    "identical": 7647
+  },
+  "rooms": {
+    "A0DF": 68,
+    "FFFF": 919,
+    "A20B": 4138,
+    "0000": 194,
+    "A2FB": 2328
+  },
+  "background": {
+    "samples": 0,
+    "minimum_pixels": null
+  },
+  "missing_backgrounds": [],
+  "live_whole_source_matches": {},
+  "sources_not_observed_whole": [
+    "body",
+    "ceiling",
+    "orb_0",
+    "orb_1",
+    "platform_top",
+    "wall_face"
+  ],
+  "first_changed": null,
+  "last_changed": null,
+  "outgoing_room_boundaries": [],
+  "regression": true,
+  "live_Thunder_or_dragon_flash_coverage": false
+}

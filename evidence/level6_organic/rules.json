@@ -1,0 +1,21 @@
+{
+  "prior_assets_exact": 146,
+  "exact_0280_mapping_recovery": true,
+  "native_terrain_masks": 1224,
+  "whole_groups": [
+    "body",
+    "ceiling",
+    "platform_top",
+    "wall_face"
+  ],
+  "whole_orb_poses": 2,
+  "clone_counts": {
+    "player HUD effects": 450,
+    "accepted 1-up": 6,
+    "Thunder": 12,
+    "returning projectile": 1,
+    "approved lava ice": 54
+  },
+  "background_guards": 8448,
+  "new_neighbor_probes": 0
+}

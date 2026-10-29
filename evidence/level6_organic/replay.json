@@ -1,0 +1,255 @@
+{
+  "movie": {
+    "movie_sha256": "30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 4761,
+    "seconds_wall": 235.78890399900047,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 4761
+  },
+  "native_samples_per_type": 4761,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "5d7300524056cb10bae638d00623cc99b19c52a9fb422480b51d4d85a1c96ca7",
+  "pcm_sha256": "98ba2c377d094b989b6fb13595d1bcd00150dfe93559b560d23d4d037076cb95",
+  "delivered_runtime_exact": true,
+  "images": {
+    "empty_initial": 1,
+    "identical": 1212,
+    "menus_exact": 955,
+    "native_black_exact": 115,
+    "changed": 3548
+  },
+  "rooms": {
+    "FFFF": 986,
+    "A2FB": 113,
+    "A3AF": 3661
+  },
+  "background": {
+    "samples": 3548,
+    "minimum_pixels": 115044
+  },
+  "missing_backgrounds": [],
+  "live_whole_source_matches": {
+    "body": {
+      "frame": 212,
+      "mirrored": false,
+      "positions": [
+        [
+          0,
+          0
+        ],
+        [
+          64,
+          0
+        ],
+        [
+          128,
+          0
+        ],
+        [
+          64,
+          224
+        ],
+        [
+          448,
+          224
+        ],
+        [
+          64,
+          256
+        ],
+        [
+          448,
+          256
+        ],
+        [
+          64,
+          288
+        ],
+        [
+          448,
+          288
+        ],
+        [
+          64,
+          320
+        ],
+        [
+          448,
+          320
+        ],
+        [
+          64,
+          352
+        ],
+        [
+          192,
+          352
+        ],
+        [
+          448,
+          352
+        ],
+        [
+          64,
+          384
+        ],
+        [
+          192,
+          384
+        ],
+        [
+          448,
+          384
+        ],
+        [
+          64,
+          416
+        ],
+        [
+          192,
+          416
+        ],
+        [
+          320,
+          416
+        ],
+        [
+          448,
+          416
+        ],
+        [
+          64,
+          448
+        ],
+        [
+          192,
+          448
+        ],
+        [
+          320,
+          448
+        ],
+        [
+          448,
+          448
+        ]
+      ]
+    },
+    "ceiling": {
+      "frame": 212,
+      "mirrored": false,
+      "positions": [
+        [
+          192,
+          16
+        ],
+        [
+          0,
+          80
+        ],
+        [
+          64,
+          80
+        ],
+        [
+          384,
+          240
+        ]
+      ]
+    },
+    "platform_top": {
+      "frame": 212,
+      "mirrored": false,
+      "positions": [
+        [
+          64,
+          192
+        ],
+        [
+          384,
+          192
+        ],
+        [
+          448,
+          192
+        ],
+        [
+          192,
+          320
+        ],
+        [
+          320,
+          384
+        ]
+      ]
+    },
+    "orb_0": {
+      "frame": 212,
+      "mirrored": false,
+      "positions": [
+        [
+          304,
+          304
+        ]
+      ]
+    },
+    "orb_1": {
+      "frame": 218,
+      "mirrored": false,
+      "positions": [
+        [
+          304,
+          304
+        ]
+      ]
+    },
+    "wall_face": {
+      "frame": 586,
+      "mirrored": false,
+      "positions": [
+        [
+          0,
+          256
+        ]
+      ]
+    }
+  },
+  "sources_not_observed_whole": [],
+  "first_changed": 211,
+  "last_changed": 4050,
+  "outgoing_room_boundaries": [
+    {
+      "frame": 2785,
+      "rendered_room": "A3AF",
+      "ram_room": "FFFF"
+    },
+    {
+      "frame": 3023,
+      "rendered_room": "A3AF",
+      "ram_room": "FFFF"
+    },
+    {
+      "frame": 3325,
+      "rendered_room": "A3AF",
+      "ram_room": "FFFF"
+    },
+    {
+      "frame": 3393,
+      "rendered_room": "A3AF",
+      "ram_room": "FFFF"
+    },
+    {
+      "frame": 4050,
+      "rendered_room": "A3AF",
+      "ram_room": "FFFF"
+    }
+  ],
+  "regression": false,
+  "live_Thunder_or_dragon_flash_coverage": false
+}

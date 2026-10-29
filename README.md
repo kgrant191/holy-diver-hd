@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Level 6 crimson organic hall — 0.29.0 review.** New red chitin terrain, ribbed chamber, wall faces and green orbs; completed Randy/HUD/spells and native lava/ice restored. [Scope and verification](docs/LEVEL6_ORGANIC.md). Accepted continuation is 0.28.0; main remains 0.24.0.
+
 **Level 6 green hall and descent — 0.28.0 review.** Extends the accepted artwork into a green skull-relief reliquary and a separate shadowed tower shaft. Reuses the finished enemies, stone and skull blocks, including the eye and falling tears. [Scope and verification](docs/LEVEL6_LATE.md). 0.27.0 is accepted; main remains 0.24.0.
 
 **Level 6 room variety and hit frames — 0.27.0 review.** Distinct amber ossuary, crimson climbing shaft and green/blue crypt follow the original room palettes. Opening rooms regain red foreground stone while retaining separate backdrops. Sentinels keep HD art in both damage palettes. Includes all prior cape, ceiling and 1-up fixes. [Scope and verification](docs/LEVEL6_VARIETY.md).

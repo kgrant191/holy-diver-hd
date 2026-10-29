@@ -1,5 +1,11 @@
 # Build and live testing
 
+## Level 6 crimson organic hall — 0.29.0
+
+Completed validation: the full 4,761-frame new-room replay, 731-frame platform route and 7,648-frame earlier-room regression preserve native state and complete audio. All 7,647 earlier rendered images remain exact. New terrain, face and orb sources, accepted lava/ice/projectile sources, backdrop continuity, isolated clean build and all 151 install hashes pass. See `evidence/level6_organic/`.
+
+Pair the 4,761-frame movie against frozen 0.28.0 at stride one, checking every native state sample, APU/full PCM, room backdrop continuity, menus/blackouts and whole registered terrain/face/orb sources. Pair the previous 7,648-frame movie as an exact-image regression. Use the controller-only edge branch for a left-edge stop and slow right walk-off. Run the isolated clean build, historical validators, 151-file manifest, archive CRCs and source-bundle import. Coverage and results are in LEVEL6_ORGANIC.md and evidence/level6_organic/.
+
 ## Level 6 green hall and descent — 0.28.0
 
 Completed: all three paired routes pass native state and full audio checks; the earlier route also passes exact-image regression. All 15 inspected whole sources and both scrolling panoramas pass. The isolated clean build, historical validators, 148-file manifest, archive CRCs and full preview decode pass. Evidence is in `evidence/level6_late/`.

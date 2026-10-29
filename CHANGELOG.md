@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.29.0
+
+Extends Level 6 into the crimson organic hall with distinct scenery, native terrain outlines, whole wall faces and green orb poses. Restores finished player/HUD/spells/projectiles and approved lava/ice in the new banks. Preserves accepted 0.28.0 assets and native execution.
+
 ## 0.28.0 — Level 6 green hall and descent (review)
 
 Adds distinct green reliquary/tower scenery, a registered floating ledge, and exact finished-art reuse for both rooms and the returning eye/tear. Preserves all accepted 0.27.0 art, native geometry, timing and audio.
