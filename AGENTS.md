@@ -1,5 +1,13 @@
 # Holy Diver HD working instructions
 
+## Current continuation — Level 6 green hall and descent 0.28.0
+
+The user accepted 0.27.0 ("this looks great") and supplied the 20261029-204125 movie. Preserve all 143 accepted install files as the baseline; main remains 0.24.0. No push, PR, merge or release is authorized.
+
+Cover A20B/mode10 and the recorded A2FB/mode04 descent. Use separate dark green skull-relief reliquary and open green tower backgrounds, with the accepted green stone and ivory skull blocks. Native palettes are 0B1B3B (hall solid), 0A1A29 (decorative hall wall), 0A1A39 (shaft solid), and 081030/1B2B3B (skulls). Both 1700/1900 bank copies and normal/resume/30/31 guards are required. Exclude death/card palettes 213029/041424 from room guards.
+
+Reuse complete ordered A0DF actor/terrain rules, retaining native masks and every sprite pose condition. 18F3–18F8 equals 02D8–02DD: approved eye/tear atlas 34 applies. 17F6/17F7 over 17F8/17F9 forms a complete 32×32 HD floating ledge from the accepted green material. Add no new neighbor probes or gameplay/audio edits. Keep exact removable 0.27.0 mappings and the full historical validator chain. See docs/LEVEL6_LATE.md. Later rooms and boss remain unfinished.
+
 ## Current continuation — Level 6 room variety and hit frames 0.27.0
 
 The user requests distinct rooms that retain the original color families. This supersedes the earlier uniform cold-stone direction: opening rooms use red stone with their separate exterior/hall backdrops; 9F3B is an amber ossuary; A02B is a crimson vertical shaft; A0DF is a green crypt with blue accents. The 20261029-190811 movie traverses the full shaft and green room. Preserve native structural hulls, carved ornaments, skull blocks, lava/ice, menus, blackouts, timing and audio.

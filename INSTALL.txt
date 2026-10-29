@@ -1,15 +1,14 @@
-HOLY DIVER HD 0.27.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.28.0 — DEVELOPMENT REVIEW CANDIDATE
 
-Level 6 rooms now follow their original red, amber and green color families
-with new artwork. The opening exterior and hall retain their distinct
-backdrops with red stone; the skull corridor uses an amber ossuary;
-the vertical crawler chamber uses a crimson shaft; the next green room
-uses a verdant crypt with blue accents. Platforms keep their native shapes.
+Extends Level 6 through the green reliquary hall and the recorded tower
+descent. Both retain the original green color families, with separate
+skull-relief and shadowed tower backgrounds. Reuses the accepted green
+stone, skull blocks, flying skulls, bronze crawlers, eye enemy and tears.
+The small floating ledge retains its complete native outline and span.
 
-Armored sentinels retain HD artwork in both hit palettes. The green room
-also uses the finished actors, projectiles and bronze crawlers. Includes
-the previous cape, immediate-jump ceiling and 1-up repairs.
-Later Level 6 rooms and the final boss remain unfinished.
+Includes all prior Level 6 room variety, sentinel hit palettes, cape,
+immediate-jump ceiling and 1-up repairs. Later unrecorded rooms and the
+final boss remain unfinished.
 
 Preserves approved artwork from earlier stages, native gameplay and audio.
 This is a partial HD overhaul. Later unrecorded areas remain work in progress.
@@ -28,4 +27,4 @@ FE2FCD0AD334D792DB16535D09F3AB9FB2BEA3AC
 The ROM on disk is never edited. The unchanged entrance IPS is applied in memory.
 Tested with MesenCE 2.2.1. ROM and emulator are not distributed.
 
-This build is awaiting user review. Approved main remains 0.24.0.
+This build is awaiting user review. Accepted continuation is 0.27.0; approved main remains 0.24.0.

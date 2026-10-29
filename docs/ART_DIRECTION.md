@@ -1,5 +1,9 @@
 # Art direction
 
+## Level 6 green hall and descent — 0.28.0
+
+Keep the original green families. A20B gets dense olive skull-relief architecture; A2FB gets a spacious dark green vertical tower. Use accepted green foreground stone, ivory skull blocks and all matching finished enemy art. The new small ledge uses the measured 2×2 native union.
+
 ## Level 6 room variety — 0.27.0
 
 The user explicitly replaces the uniform cold-stone direction with original-inspired room colors. Use newly generated red, amber and green masonry and distinct amber ossuary, crimson shaft and verdant crypt backgrounds. Preserve earlier exterior/hall compositions, ivory skulls and carved ornaments. Native structural hulls and complete registered groups control every platform edge. Do not reuse old cave panoramas.

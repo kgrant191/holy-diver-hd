@@ -1,5 +1,9 @@
 # Local emulator test inputs
 
+## Level 6 green hall and descent — 0.28.0
+
+`Holy_Diver_HD(20261029-204125).mmo`: 7,648 frames; SHA-256 `c5451de99dfbadd8002cb88ca0b10ea6ec105870df7cf827d385c4fb7dc7ba05`. Covers the outgoing accepted A0DF room, A20B horizontal hall, death/restart, menus, Blizzard/Overdrive, and the recorded A2FB descent. No new-room Thunder/dragon cast or boss. `make_level6_late_edge.py` retains its state and first 280 frames, then creates a controller-only 700-frame left-stop/right-walk-off route. Input bytes stay outside Git.
+
 ## Level 6 room variety movie — 0.27.0
 
 `Holy_Diver_HD(20261029-190811).mmo`: 3,393 controller frames; SHA-256 `d1e51fb31777afcf0be5c69671281532106a6abcb82b6ecc29ffdf2b97c1e7f0`. Covers sentinel normal/silver/blue hit palettes, 9F3B corridor, full A02B shaft, A0DF green room, pause/resume, Overdrive, death and the Stage 6 card transition. Use exact 0.26.0 as the paired baseline. Input bytes remain outside Git.

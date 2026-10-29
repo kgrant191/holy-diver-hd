@@ -1,0 +1,18 @@
+{
+  "prior_assets_exact": 141,
+  "exact_0270_mapping_recovery": true,
+  "native_ledge_masks": 144,
+  "whole_ledge_size": [
+    32,
+    32
+  ],
+  "native_byte_clone_rules": 22498,
+  "eye_and_tear_aliases": 12,
+  "background_guards": 24576,
+  "background_bank_copies": [
+    "1700",
+    "1900"
+  ],
+  "new_neighbor_probes": 0,
+  "death_card_palettes_excluded": true
+}

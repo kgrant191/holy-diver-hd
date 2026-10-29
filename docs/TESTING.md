@@ -1,5 +1,11 @@
 # Build and live testing
 
+## Level 6 green hall and descent — 0.28.0
+
+Completed: all three paired routes pass native state and full audio checks; the earlier route also passes exact-image regression. All 15 inspected whole sources and both scrolling panoramas pass. The isolated clean build, historical validators, 148-file manifest, archive CRCs and full preview decode pass. Evidence is in `evidence/level6_late/`.
+
+Pair all 7,648 frames of the new movie against accepted 0.27.0, comparing native RAM/PPU/OAM/view/APU/full PCM, menu/blackout images, room-specific panoramas and complete actor/terrain sources. Pair the earlier 3,393-frame movie as an exact-image regression. The 700-frame controller branch tests the entry floor left stop and slow right walk-off. Run an isolated clean build, full historical validators, archive CRCs, manifest checks and source-bundle import verification.
+
 ## Level 6 room variety — 0.27.0
 
 Completed validation: full new-room and opening replays plus the corridor edge route match native execution and full audio. Both sentinel hit colors match whole HD sources in both directions. The isolated build passes all historical validators; all 143 install file hashes match. See `evidence/level6_variety/` for results.

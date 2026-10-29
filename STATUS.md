@@ -1,5 +1,15 @@
 # Current status
 
+## Current continuation — Level 6 green hall and descent 0.28.0
+
+Completed validation: the full 7,648-frame replay, 3,393-frame earlier-room regression and 700-frame edge route preserve native state and complete audio. Both new panoramas remain visible, all 15 inspected whole sources match, and all earlier regression images stay exact. The isolated build and historical validators pass; all 148 install hashes match. See `evidence/level6_late/`.
+
+The user accepted 0.27.0 ("this looks great") and supplied the 20261029-204125 movie. Preserve all 143 accepted install files as the baseline; main remains 0.24.0. No push, PR, merge or release is authorized.
+
+Cover A20B/mode10 and the recorded A2FB/mode04 descent. Use separate dark green skull-relief reliquary and open green tower backgrounds, with the accepted green stone and ivory skull blocks. Native palettes are 0B1B3B (hall solid), 0A1A29 (decorative hall wall), 0A1A39 (shaft solid), and 081030/1B2B3B (skulls). Both 1700/1900 bank copies and normal/resume/30/31 guards are required. Exclude death/card palettes 213029/041424 from room guards.
+
+Reuse complete ordered A0DF actor/terrain rules, retaining native masks and every sprite pose condition. 18F3–18F8 equals 02D8–02DD: approved eye/tear atlas 34 applies. 17F6/17F7 over 17F8/17F9 forms a complete 32×32 HD floating ledge from the accepted green material. Add no new neighbor probes or gameplay/audio edits. Keep exact removable 0.27.0 mappings and the full historical validator chain. See docs/LEVEL6_LATE.md. Later rooms and boss remain unfinished.
+
 ## Current continuation — Level 6 room variety and hit frames 0.27.0
 
 Completed validation: full new-room and opening replays plus the corridor edge route match native execution and full audio. Both sentinel hit colors match whole HD sources in both directions. The isolated build passes all historical validators; all 143 install file hashes match. See `evidence/level6_variety/` for results.

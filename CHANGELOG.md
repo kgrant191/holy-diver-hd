@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.28.0 — Level 6 green hall and descent (review)
+
+Adds distinct green reliquary/tower scenery, a registered floating ledge, and exact finished-art reuse for both rooms and the returning eye/tear. Preserves all accepted 0.27.0 art, native geometry, timing and audio.
+
 ## 0.27.0 — Level 6 room variety and hit frames (review)
 
 Adds distinct amber ossuary, crimson shaft and green/blue crypt scenery with original-inspired stone colors. Restores red-toned opening stone without changing the separate exterior/hall panoramas. Completes sentinel hit palettes and the green room actors/projectiles. Preserves native gameplay, audio and earlier assets; no publication or merge.
