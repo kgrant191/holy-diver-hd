@@ -1,5 +1,9 @@
 # Art direction
 
+## Level 6 opening — 0.25.0
+
+Use an entirely new cool palette: blue-violet ruined cathedral spires for the opening shaft, then a dark enclosed hall with tall Gothic ribs and sparse cyan windows. Dark blue-gray stone keeps solid surfaces distinct; inset ivory skull blocks remain recognizable as breakable objects. Register complete brick/skull/cornice units and keep their native collision hulls. The cape is royal violet with ivory lining and antique-gold trim. Preserve the approved returning actors and lava/ice; native flashes blend through matching panorama RGB at alpha 176.
+
 ## Palace finale — 0.24.0
 
 Retain the accepted palace interior and stone lift. Use ivory and antique-gold bones with navy outlines for the articulated skull/hand boss, and a gold horned altar with an ivory figure on a green/gold cross for the victory effigy. Register complete native component unions before slicing and preserve shared animation cells. Darken the existing interior for the boss room; retain the accepted native-color flash blend. Reuse crimson cave art only at the recorded Level 6 threshold.

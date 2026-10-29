@@ -1,0 +1,22 @@
+[
+  {
+    "key": "exterior",
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D side-scrolling dark fantasy game background, 4:3 composition, no text. Paint the opening of the final level of Holy Diver: a cold ruined obsidian citadel in a vast twilight chasm. Distant immense pointed cathedral arches and ruined towers emerge from deep indigo fog, midnight-blue basalt walls with subtle silver edges, muted violet sky through shattered architecture, sparse dim cyan light deep in the recesses. Rich atmospheric depth and intricate painted pixel-art-compatible textures, restrained contrast behind game characters. Front view, no tilted perspective, no foreground floor, no playable platforms, no characters or HUD, no red, no lava, no stalactites. Fill the entire image with the distant environment. It must look distinctly different from earlier red caves and gold temples, a solemn final-level fortress. Dark navy dominates; keep center open and the silhouettes legible at 512 by 480 pixels."
+  },
+  {
+    "key": "interior",
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. Asset type: finished 2D side-scrolling dark fantasy game background, 4:3 composition, no text. An enclosed inner chamber of a cold obsidian citadel, full-frame intricate Gothic architecture: massive tall ribbed stone arches, recessed blue-black masonry, thin silver-blue carvings, shadowy violet vaults and faded bone reliefs, very subtle distant cyan glints. Moody, majestic final-level setting for Holy Diver, painterly detailed sprite-game art, rich depth but restrained contrast. Flat front-facing side-view suitable behind moving platforms and actors, vertical columns continuous through the frame, dark navy dominates. No foreground floor or playable platforms, no figures, no text, no HUD, no lava, no red rock, no gold temple, no stalactites. Readable at 512x480."
+  },
+  {
+    "key": "terrain",
+    "transparent": false,
+    "prompt": "Use case: stylized-concept. Asset type: production texture/prop source board for a 2D dark fantasy platform game, four equal square panels in a precise 2 by 2 arrangement, no text or borders. Upper-left panel: seamless front-facing blue-gray basalt ashlar masonry, wide staggered rectangular blocks with chipped beveled edges and restrained silver highlights, opaque to every edge. Upper-right: front-facing carved ivory skull relief set in a square slate frame, centered single complete skull, top of block level and solid, strong clear silhouette, opaque square panel. Lower-left: contiguous horizontal ornamental bone-and-obsidian cornice, broad solid flat silver-gray top cap and carved ivory ribs below, straight side-view, repeating across entire width, opaque background. Lower-right: craggy blue-gray basalt stone texture with angular fractures and subtle violet recesses, opaque to every edge. Cohesive highly detailed painterly pixel-art-compatible game asset style with navy outlines, ivory highlights, no glow, no cast shadow outside the art, no perspective tilt, no red or orange, no yellow-gold. This board will be cut into source materials for exact native game tile footprints; do not draw small individual tiles or a mockup scene."
+  },
+  {
+    "key": "cape",
+    "transparent": true,
+    "prompt": "Use case: stylized-concept. Asset type: one isolated inventory icon, transparent background. A complete elegant folded magical cape for a dark Gothic fantasy game: royal violet and muted ruby cloth with rich readable folds, ivory inner lining, a small antique-gold clasp at the neck, subtle gold edging. A cape with a clear neckline and two shoulders, open empty center at the collar, flaring down to a softly pointed hem; no person, no body, no legs, no hanger. Crisp continuous outer silhouette, compact square composition with safe transparent padding, painterly detailed sprite art designed to remain recognizable when reduced to a 32 by 32 pixel inventory icon. Strong ivory highlight and navy outline for legibility, polished item artwork matching a game with gold-framed menus. No text, no glow, no background or shadow, no multiple icons."
+  }
+]

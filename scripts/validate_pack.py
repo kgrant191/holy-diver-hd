@@ -31,6 +31,13 @@ for line in lines:
   p=value.split(',');idx=int(p[0]);x=int(p[3]);y=int(p[4]);assert 0<=idx<len(imgs);w,h=sizes[imgs[idx]]
   assert x>=0 and y>=0 and x+16<=w and y+16<=h,line
   counts[tag]+=1
+if '# BEGIN LEVEL6_OPENING IMAGES' in content:
+ from verify_level6_opening_rules import verify, legacy_projection
+ root=Path(__file__).resolve().parents[1]
+ report=verify(root,pack)
+ legacy_projection(root,pack)
+ print(json.dumps({'level6_opening':report,'atlas_count':len(imgs),**counts,'references_and_bounds_valid':True,'all_historical_validators_passed':True}))
+ raise SystemExit(0)
 if '# BEGIN PALACE_FINALE IMAGES' in content:
  from verify_palace_finale_rules import verify, legacy_projection
  root=Path(__file__).resolve().parents[1]

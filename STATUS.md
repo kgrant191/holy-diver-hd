@@ -1,5 +1,11 @@
 # Current status
 
+## Current review — Level 6 opening 0.25.0
+
+The 20261029-152041 movie supplies screens 1 and 2. This candidate replaces the inherited red cave with separate cold citadel exterior/interior panoramas, native-shaped dark masonry and ivory skull blocks. The lower-right Start-menu cape uses new purple/gold artwork. Returning actors, dragon forms, Thunder and lava/ice reuse byte-proven approved sources. All 127 prior art/audio/patch files and removable 0.24.0 mappings are preserved.
+
+Work is local on `feature/level6-opening` from approved main f716c2a. No push, PR, merge, tag or release has been performed. Later Level 6 rooms/boss remain unfinished; 9CA7 is only a brief outgoing-room transition in this recording. See docs/LEVEL6_OPENING.md and evidence/level6_opening/.
+
 ## Approved main — Demonic Palace 0.24.0
 
 PR [#27](https://github.com/kgrant191/holy-diver-hd/pull/27) merged on 2026-10-28, adopting the approved 0.23.0 late rooms and 0.24.0 finale. The pushed commit matched the approved handoff, and the merge tree matches the validated PR head exactly. PR and main builds pass; both downloaded artifacts match all 129 approved file hashes and flat install layout. Preserve all 129 reviewed installation files, including the frozen installed README. See docs/LEVEL5_FINALE_ADOPTION.md and evidence/level5_finale_adoption/ for build and artifact verification.

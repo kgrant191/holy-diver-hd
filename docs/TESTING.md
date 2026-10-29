@@ -1,5 +1,11 @@
 # Build and live testing
 
+## Level 6 opening — 0.25.0
+
+Replay the complete 6427-frame 20261029-152041 movie at stride 1 against approved 0.24.0 and the candidate. Compare RAM/PPU/OAM/view, APU writes and full PCM using verify_level6_opening_replay.py. Check the new panoramas in every rendered gameplay frame, including dragon acquisition and Thunder, exact menus outside the cape, native blackouts and complete registered stone/skull/cape source matches. The full-movie capture predates only the versioned README; require every delivered runtime byte to match.
+
+make_level6_edge.py changes only controller input in the original movie: stop at the opening platform’s left edge, walk right slowly and fall naturally. Pair it at stride 1 with check_hd_neighbor_bounds.cpp active. Verify the full platform span and first descent against native state. No RAM edits. validate_pack.py must recover exact 0.24.0 and pass every historical validator; verify_release.py must match all 134 delivered hashes. See LEVEL6_OPENING.md and evidence/level6_opening/.
+
 Palace baseline projections copy unchanged assets into their temporary packs.
 Do not hard-link them: GitHub runners may mount the checkout and `/tmp` on
 different filesystems. Every projected file still requires its historical

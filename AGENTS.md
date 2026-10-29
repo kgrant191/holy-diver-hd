@@ -1,5 +1,14 @@
 # Holy Diver HD working instructions
 
+## Current review — Level 6 opening 0.25.0
+
+- Start from approved main f716c2a; work locally on `feature/level6-opening`. The user requests screens 1–2 with different scenery from previous red caves and an HD cape in Start. No merge/publication approval is implied.
+- Use separate blue-violet ruined citadel and enclosed Gothic panoramas. Scope 9A8B/04 and 9BB7/10, plus 9CA7/0C only for the recorded outgoing-room transition. Preserve every native structural hull, blackouts, menus and spell cadence.
+- Cape is lower-right, native origin (72,104), layout 0955/0954 over 0952/0951 in 0F172737. Keep origin/menu guards; the upper-right boot is already finished.
+- Background bank 1700; actors 1600. Decorative wall 1734–173A and 1751–1768 clears to panorama. 1769–1774 is lava/ice, not decoration. Preserve its accepted animation frame conditions. Full normal/30/31 rendered-bank guards preserve scrolling and native flashes. No new tileNearby conditions.
+- Register skull, brick and cornice as complete native unions before slicing. Preserve repeated cornice cells. Returning actors and spells use exact native-byte aliases to approved atlas cells.
+- Preserve all 127 earlier art/audio/patch files and exact recoverable 0.24.0 hires.txt. Keep historical validators through a copied baseline projection. See docs/LEVEL6_OPENING.md for actual replay/edge coverage and evidence; later rooms and boss are outside this update.
+
 ## Approved main — Demonic Palace 0.24.0
 
 PR [#27](https://github.com/kgrant191/holy-diver-hd/pull/27) merged on 2026-10-28, adopting the approved 0.23.0 late rooms and 0.24.0 finale. The pushed commit matched the approved handoff, and the merge tree matches the validated PR head exactly. PR and main builds pass; both downloaded artifacts match all 129 approved file hashes and flat install layout. Preserve all 129 reviewed installation files, including the frozen installed README. See docs/LEVEL5_FINALE_ADOPTION.md and evidence/level5_finale_adoption/ for build and artifact verification.

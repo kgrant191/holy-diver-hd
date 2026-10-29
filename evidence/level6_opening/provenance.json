@@ -1,0 +1,36 @@
+{
+  "base_commit": "f716c2a7071bf6344e2e52b10b6df8b61d3e929b",
+  "base_version": "0.24.0",
+  "candidate_version": "0.25.0",
+  "branch": "feature/level6-opening",
+  "movie_sha256": "dc34b2903fe282ebe33c115f845803638dca33f4b6bbb2cc67e852f1ecdcbeed",
+  "generated_sources": {
+    "level6_exterior.png": "36b994a9eea9ad75b507eea3195e161625321cb13fe2255dbae6bd4732b847fb",
+    "level6_interior.png": "a62b8e50b80973e87217066918ee38ccda9035f096c388e6989b882a950f9615",
+    "level6_terrain.png": "952c1f093f7acc2eef82b26d964973ec155f291a0b242a34197e0c6a1aebaac9",
+    "level6_cape.png": "f1e139d283d493b10e94d7c0d1696fa762c864d6b93cc549177709288dfc26c6"
+  },
+  "emulator_core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+  "emulator_version": "MesenCE 2.2.1",
+  "python": "3.12.14",
+  "pillow": "12.3.0",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "capture_observer_sources": {
+    "sync_movie_capture.cpp": "3d1320a4ed7e485c3979186086310069f1d1c30a633817d342c9e2fe560cdd73",
+    "record_audio.cpp": "16123a47a124f5680ecbef69ede25d2ccb117dabff9b86e23badb3316ba8f1fb",
+    "mesen_movie_config.cpp": "81d3ff5cdeb5674aad37368da6d5d777eedfac0b8c194ee44ae9f23c0e36404a",
+    "check_hd_neighbor_bounds.cpp": "07f7967c8980833f4e32f29b5e526f595f13d04806c47d2363bfbe84e056de62"
+  },
+  "native_input_unchanged": true,
+  "native_gameplay_modified": false,
+  "native_audio_modified": false,
+  "new_background_neighbor_probes": 0,
+  "coverage": [
+    "9A8B/mode04 opening",
+    "9BB7/mode10 second hall",
+    "9CA7/mode0C outgoing-room transition only",
+    "lower-right Start cape icon"
+  ],
+  "uncovered": "Later Level 6 rooms and boss"
+}

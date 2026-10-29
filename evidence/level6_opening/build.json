@@ -1,0 +1,13 @@
+{
+  "version": "0.25.0",
+  "clean_build_passed": true,
+  "historical_validators_passed": true,
+  "installed_files": 134,
+  "every_installed_sha256_matches": true,
+  "flat_zip": true,
+  "crc_verified": true,
+  "zip_sha256": "3930665d38758a31d3c1e11b59f2ff440afd28ef55bc6c93425c03c86dc72109",
+  "zip_bytes": 28688424,
+  "prior_unchanged_art_audio_patch_files": 127,
+  "recoverable_baseline_hires_exact": true
+}

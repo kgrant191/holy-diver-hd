@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.25.0 — Level 6 screens 1–2 (review)
+
+- Replace the reused red cave with separate blue-violet citadel and enclosed Gothic hall scenery.
+- Add native-shaped dark masonry, carved cornices and ivory skull blocks.
+- Replace the lower-right Start-menu cape with purple/gold artwork.
+- Reuse finished enemies, dragon forms, Thunder and animated lava/frozen ice through native palette changes.
+- Preserve all 127 previous art/audio/patch files, removable 0.24.0 mappings and native execution/audio. Approved main remains 0.24.0; later Level 6 content is unfinished.
+
 ## 0.24.0 — Palace finale (approved and merged)
 
 - Approved and merged through PR #27 on 2026-10-28, including 0.23.0. Possible later platform/walkway artwork changes do not block approval. All 129 install files remain frozen.
