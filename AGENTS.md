@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Current revision — Level 6 enemies 0.29.1
+
+The green enemy is now a glossy mucus blob in both animation poses. The wall face has bone-gray plates and pale ridges for contrast against the red room. The exact original green orb remains on standby and can be restored without reverting the face. Latest accepted continuation is 0.28.0; 0.29.0 and this revision are review candidates. Main remains 0.24.0. No push, PR, merge, tag or release is authorized. See docs/LEVEL6_ENEMY_REVISION.md.
+
 ## Current continuation — Level 6 crimson organic hall 0.29.0
 
 The user accepted 0.28.0 and supplied the 20261029-215619 movie. Work stays on feature/level6-opening; main remains approved 0.24.0. No push, PR, merge or release is authorized.

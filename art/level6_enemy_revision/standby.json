@@ -1,0 +1,21 @@
+{
+  "version": "0.29.0",
+  "source_commit": "e18e1db60c1c5c48ec428c67fd8bd2d868340d35",
+  "original_files": {
+    "art/generated/level6_organic_orb.png": "3ef95de7267693ecf00c2523ae3377263e4d4bb34f534c0e1f82ba3c0724219c",
+    "art/level6_organic/orb_0.png": "94f5aa3c817ed9530f7c3922893097411a521bdb9b7df7aa0cfc83a06480a0dc",
+    "art/level6_organic/orb_1.png": "c46ed8c4a72aa3edd298611122793ddce8166a832e65c8f73fa1f05aa6c0a610",
+    "art/level6_organic/Final_Citadel_Organic_2x.png": "ca2fbbe0c110dcb9df439f90c70f4b43a72ffe1aba8a3f80b7d380fc88956c88"
+  },
+  "original_orb_rules": [
+    "[organicMode&organicLo&organicHi]<tile>67,1A9C,FF0A1930,128,128,1,N",
+    "[organicMode&organicLo&organicHi]<tile>67,1A9D,FF0A1930,144,128,1,N",
+    "[organicMode&organicLo&organicHi]<tile>67,1A9E,FF0A1930,160,128,1,N",
+    "[organicMode&organicLo&organicHi]<tile>67,1A9F,FF0A1930,176,128,1,N",
+    "[organicMode&organicLo&organicHi]<tile>67,1AA0,FF0A1930,192,128,1,N",
+    "[organicMode&organicLo&organicHi]<tile>67,1AA1,FF0A1930,208,128,1,N",
+    "[organicMode&organicLo&organicHi]<tile>67,1AA2,FF0A1930,224,128,1,N",
+    "[organicMode&organicLo&organicHi]<tile>67,1AA3,FF0A1930,240,128,1,N"
+  ],
+  "restore": "Set green_enemy to rock in choice.json and rebuild; face overrides remain. Original art and rules are retained byte-for-byte."
+}

@@ -1,0 +1,63 @@
+{
+  "movie": {
+    "movie_sha256": "30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 4761,
+    "seconds_wall": 243.22017404299913,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 4761
+  },
+  "native_samples_per_type": 4761,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "5d7300524056cb10bae638d00623cc99b19c52a9fb422480b51d4d85a1c96ca7",
+  "pcm_sha256": "98ba2c377d094b989b6fb13595d1bcd00150dfe93559b560d23d4d037076cb95",
+  "delivered_runtime_exact": true,
+  "images": {
+    "empty_initial": 1,
+    "menus_exact": 955,
+    "identical_frames": 1748,
+    "blackouts_exact": 115,
+    "changed_frames": 3012
+  },
+  "changes_outside_enemy_bounds": [],
+  "all_changes_confined_to_enemies": true,
+  "live_whole_source_matches": {
+    "blob_0": {
+      "frame": 212,
+      "mirrored": false,
+      "positions": [
+        [
+          304,
+          304
+        ]
+      ]
+    },
+    "blob_1": {
+      "frame": 218,
+      "mirrored": false,
+      "positions": [
+        [
+          304,
+          304
+        ]
+      ]
+    },
+    "wall_face": {
+      "frame": 586,
+      "mirrored": false,
+      "positions": [
+        [
+          0,
+          256
+        ]
+      ]
+    }
+  },
+  "source_names_not_observed": [],
+  "live_Thunder_or_dragon_flash_coverage": false
+}

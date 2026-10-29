@@ -1,5 +1,11 @@
 # Current status
 
+## Current revision — Level 6 enemies 0.29.1
+
+Full 4,761-frame paired replay passes with native state and audio exact. All 3,012 changed images are confined to the face and blob; 1,748 other images remain exact. Whole face and both blob poses match actual source pixels. Original orb restoration and all historical validators pass.
+
+The green enemy is now a glossy mucus blob in both animation poses. The wall face has bone-gray plates and pale ridges for contrast against the red room. The exact original green orb remains on standby and can be restored without reverting the face. Latest accepted continuation is 0.28.0; 0.29.0 and this revision are review candidates. Main remains 0.24.0. No push, PR, merge, tag or release is authorized. See docs/LEVEL6_ENEMY_REVISION.md.
+
 ## Current continuation — Level 6 crimson organic hall 0.29.0
 
 Completed validation: the full 4,761-frame new-room replay, 731-frame platform route and 7,648-frame earlier-room regression preserve native state and complete audio. All 7,647 earlier rendered images remain exact. New terrain, face and orb sources, accepted lava/ice/projectile sources, backdrop continuity, isolated clean build and all 151 install hashes pass. See `evidence/level6_organic/`.
@@ -481,3 +487,5 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 - Full historical capture runs/videos and original savestates remain in the prior source/handoff archives. The repository keeps compact evidence and exact rollback inputs.
 
 Historical 0.11.0 limitation: the spinning creature was left native. The 0.11.1 review now adds its 0695–06AF frames and corrects the projectiles, flyer and bark. Other native effects and later-room scenery remain future work; the existing recording covers the next corridor.
+
+Isolated clean build: all 152 files reproduce exactly, historical validators and release verification pass. The 4,760-frame preview decodes completely; install ZIP hashes and CRCs pass.

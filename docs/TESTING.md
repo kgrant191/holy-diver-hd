@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Level 6 enemy revision 0.29.1
+
+See [enemy revision](LEVEL6_ENEMY_REVISION.md) for the scoped two-pose blob, bone-gray face and independent original-orb restoration.
+
 ## Level 6 crimson organic hall — 0.29.0
 
 Completed validation: the full 4,761-frame new-room replay, 731-frame platform route and 7,648-frame earlier-room regression preserve native state and complete audio. All 7,647 earlier rendered images remain exact. New terrain, face and orb sources, accepted lava/ice/projectile sources, backdrop continuity, isolated clean build and all 151 install hashes pass. See `evidence/level6_organic/`.

@@ -1,0 +1,21 @@
+{
+  "version": "0.29.1",
+  "install_files": 152,
+  "flat_install_zip": true,
+  "all_crc_checks_passed": true,
+  "all_152_manifest_hashes_exact": true,
+  "install_sha256": "92468a41f81f2062360899bb08bf113fa08cbf589042002e00a3a61d12ebe426",
+  "preview": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 512,
+        "height": 480,
+        "r_frame_rate": "719503/11972",
+        "nb_read_frames": "4760"
+      }
+    ]
+  },
+  "preview_complete_decode_passed": true,
+  "preview_sha256": "63d912cf32417687be1dc33bb288f4c04d04a12f641a9c21f17bdd6afc963c4f"
+}

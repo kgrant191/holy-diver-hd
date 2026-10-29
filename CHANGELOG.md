@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.29.1
+
+Replaces both green rock poses with a glossy boogery blob and recolors the wall face for visibility. Retains the exact old orb and an independent restore choice. Native face outlines, gameplay and all prior assets remain unchanged.
+
 ## 0.29.0
 
 Extends Level 6 into the crimson organic hall with distinct scenery, native terrain outlines, whole wall faces and green orb poses. Restores finished player/HUD/spells/projectiles and approved lava/ice in the new banks. Preserves accepted 0.28.0 assets and native execution.

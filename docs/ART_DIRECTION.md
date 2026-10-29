@@ -1,5 +1,9 @@
 # Art direction
 
+## Level 6 enemy revision 0.29.1
+
+See [enemy revision](LEVEL6_ENEMY_REVISION.md) for the scoped two-pose blob, bone-gray face and independent original-orb restoration.
+
 ## Level 6 green hall and descent — 0.28.0
 
 Keep the original green families. A20B gets dense olive skull-relief architecture; A2FB gets a spacious dark green vertical tower. Use accepted green foreground stone, ivory skull blocks and all matching finished enemy art. The new small ledge uses the measured 2×2 native union.
