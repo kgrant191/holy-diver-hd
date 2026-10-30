@@ -1,3 +1,5 @@
+Current development candidate: **0.30.1**, the requested Level 6 face, blue slime, boss entrance and ending repairs. See [repair details](docs/LEVEL6_FINALE_REPAIR.md). Earlier skipped rooms remain unfinished; no publication or merge has been performed.
+
 # Holy Diver HD
 
 **Level 6 finale — 0.30.0 review.** Final crimson climb, two complete boss forms, separate red sanctum and blue-violet void, and updated ending dragon. Includes approved 0.29.1. Earlier skipped Level 6 rooms remain unfinished. [Scope and checks](docs/LEVEL6_FINALE.md).

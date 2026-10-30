@@ -1,13 +1,13 @@
-HOLY DIVER HD 0.30.0 — DEVELOPMENT REVIEW CANDIDATE
+HOLY DIVER HD 0.30.1 — DEVELOPMENT REVIEW CANDIDATE
 
-Extends Level 6 through the final climb, both boss rooms and the ending.
-Separate crimson ascent, red sanctum and dark blue-violet void backdrops;
-a complete two-form final demon, articulated attacks and ending dragon.
-Finished Gothic ending lettering and logo remain unchanged.
+Repairs the Level 6 wall face using the clean bone reference, gives the blue
+enemy the approved slime design, adds a visible entrance above the final
+platform, and reconnects the ending dragon's wing poses. Transparent ending
+font backgrounds keep both dragons visible around the story lettering.
 
-Includes the approved 0.29.1 blob and brighter wall face. Original green
+Includes the final climb and both boss rooms from 0.30.0. Original green
 orb artwork remains on standby. Earlier skipped Level 6 rooms remain
-unfinished. Native collision, movement, timing, flashes and audio remain.
+unfinished. Native collision, movement, timing and audio remain unchanged.
 Version 1.0.0 is reserved for the completed, tested pack.
 
 INSTALLATION

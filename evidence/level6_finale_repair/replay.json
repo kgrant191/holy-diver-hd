@@ -1,0 +1,82 @@
+{
+  "movie": {
+    "movie_sha256": "fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 19215,
+    "seconds_wall": 838.3098091610009,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 19215
+  },
+  "native_samples_per_type": 19215,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_sha256": "f940097e61c9df6c45319140ed815089a297341fa115b7ff960682e6e5a7c83a",
+  "render_assets_match_final_manifest": true,
+  "final_runtime_verified": true,
+  "earlier_room_only_rule_delta": true,
+  "statistics": {
+    "initial_empty": 1,
+    "identical": 7403,
+    "blackouts_exact": 1214,
+    "changed": 11811,
+    "bounded_changed_frames": 11811,
+    "boss_images_exact": 4334,
+    "restored_previously_occluded_ending_frames": 15
+  },
+  "all_image_changes_within_requested_scope": true,
+  "whole_source_hits": {
+    "blue_blob1": {
+      "frame": 1030,
+      "positions": [
+        [
+          158,
+          12
+        ]
+      ]
+    },
+    "blue_blob0": {
+      "frame": 1040,
+      "positions": [
+        [
+          198,
+          64
+        ]
+      ]
+    },
+    "portal": {
+      "frame": 3900,
+      "positions": [
+        [
+          224,
+          40
+        ]
+      ]
+    },
+    "ending_dragon0": {
+      "frame": 9170,
+      "positions": [
+        [
+          192,
+          212
+        ]
+      ]
+    },
+    "ending_dragon1": {
+      "frame": 9810,
+      "positions": [
+        [
+          192,
+          160
+        ],
+        [
+          192,
+          288
+        ]
+      ]
+    }
+  }
+}

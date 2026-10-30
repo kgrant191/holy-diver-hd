@@ -1,3 +1,7 @@
+## Level 6 finale repair verification
+
+Run `python3 scripts/verify_level6_finale_repair_rules.py` and the full historical chain through `python3 scripts/validate_pack.py "build/Holy_Diver_(Tr)"`. The two full replays are checked by `verify_level6_finale_repair_replay.py`, using the final 0.30.0 composite PNGs for the finale and the approved enemy-revision capture for the earlier face room. Use `--earlier` for the latter. Actual image changes must stay inside the requested native cell unions; boss images, blackouts and full state/audio remain exact. See `docs/LEVEL6_FINALE_REPAIR.md`.
+
 # Build and live testing
 
 ## Level 6 finale 0.30.0

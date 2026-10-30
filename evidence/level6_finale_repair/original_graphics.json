@@ -1,0 +1,23 @@
+{
+  "native_visual_reference": true,
+  "all_HD_replacement_rules_removed": true,
+  "audio_priority_patch_retained": true,
+  "reason": "Disabling HD also removes the existing audio IPS and desynchronizes the supplied input movie. This original-graphics replay retains that patch and sprite-limit option; all sampled native states match the full HD replay.",
+  "native_samples_exact": {
+    "ram": 641,
+    "ppu": 641,
+    "oam": 641,
+    "view": 641
+  },
+  "movie": {
+    "movie_sha256": "fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 641,
+    "seconds_wall": 88.15542321500106,
+    "stride": 30,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 19215
+  }
+}

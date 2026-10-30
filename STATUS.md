@@ -1,3 +1,7 @@
+# Current candidate: 0.30.1 — requested Level 6 finale repairs
+
+Clean reference-based wall face, matching blue mucus enemy, visible boss entrance before landing, connected ending wings and transparent ending text backgrounds. Local review candidate on `feature/level6-opening`; main remains 0.24.0. Original green orb standby remains intact. Earlier skipped rooms are still unfinished. See `docs/LEVEL6_FINALE_REPAIR.md`.
+
 # Current status
 
 ## Current candidate — Level 6 finale 0.30.0

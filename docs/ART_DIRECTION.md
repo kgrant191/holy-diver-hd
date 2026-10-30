@@ -1,3 +1,7 @@
+## Level 6 finale repair direction, 0.30.1
+
+The wall face follows the supplied ivory skeletal reference with only a narrow red attachment spine; do not fill its silhouette with wall material. Blue enemies share the approved green mucus design. The final ledge has a readable bone-framed portal visible during approach. Ending wings must remain connected in both poses; black font-cell padding must not obscure dragons.
+
 # Art direction
 
 ## Level 6 finale

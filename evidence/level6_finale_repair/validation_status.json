@@ -1,0 +1,16 @@
+{
+  "version": "0.30.1",
+  "status": "review candidate",
+  "requested_repairs": [
+    "clean bone wall face",
+    "blue mucus enemy",
+    "boss entrance visible before landing",
+    "connected ending wings and transparent text padding"
+  ],
+  "native_frames_verified": 23976,
+  "finale_scope_proof": "replay.json",
+  "earlier_room_final_manifest_proof": "face_replay.json",
+  "earlier_skipped_rooms_unfinished": true,
+  "green_original_backup_preserved": true,
+  "push_merge_release_performed": false
+}

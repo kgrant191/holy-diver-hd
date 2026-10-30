@@ -1,3 +1,11 @@
+## 0.30.1 — Level 6 finale visual repairs
+
+- Register the full clean ivory wall-face reference without red wall fill.
+- Apply blue versions of both approved mucus-blob poses.
+- Show a bone-framed boss portal above the last ledge before arrival and through activation.
+- Register connected dragon wing poses; clear opaque black ending-font backgrounds so both dragons remain visible around letters.
+- Preserve previous art, native gameplay/audio, both boss rooms, green slime and original orb standby.
+
 # Changelog
 
 ## 0.30.0 — Level 6 finale (review)
