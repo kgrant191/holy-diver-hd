@@ -1,4 +1,4 @@
-# Version 1.0.0 preparation
+# Version 1.0.0 — approved and merged
 
 The user requested v1.0.0 and a public-facing documentation cleanup on 2026-10-30.
 
@@ -27,4 +27,12 @@ Historical manifests remain intact. The new 1.0.0 and expected-build manifests p
 Run the clean Actions build, complete historical validator chain and verify_release.py. Download its actual artifact; check all 174 member hashes, CRC, flat layout and the exact 173-file preservation comparison.
 Existing live replay evidence remains applicable to the unchanged game assets and mappings. This preparation does not claim a new full gameplay replay.
 
-The branch is a release-preparation review. No tag or GitHub Release is created.
+Approved by the user on 2026-10-30: “approved, merge it”. PR #31 is merged.
+The reviewed head is `90b8ffd865db52528fcd57f183b99a3e57199355`; its merge is `0baaf439c99f6ba72bfb9d358ed316f2ba9170c8`.
+Both have the exact same tree, `5ade37a436827bb060170bbd42eb302167233687`.
+The PR build and downloaded artifact pass all 174 hashes, CRC and flat layout.
+Post-merge build and artifact verification records are maintained in [PR #31](https://github.com/kgrant191/holy-diver-hd/pull/31).
+
+The existing install ZIP remains approved with SHA-256
+`fff9e65c5a5fadac7178b91977c0a0c6227f1e115a03466a3eb9049bf0f6f49d`.
+No tag or GitHub Release has been created.
