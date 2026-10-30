@@ -1,0 +1,24 @@
+{
+  "prior_assets_exact": 164,
+  "exact_0301_rules_recovery": true,
+  "native_hull_mappings": 1860,
+  "mappings": {
+    "red brick": 96,
+    "empty space": 24,
+    "violet structure": 1764,
+    "distant blue wall": 960
+  },
+  "clone_rules": 4167,
+  "background_rules": 55296,
+  "new_neighbor_probes": 0,
+  "green_enemy_standby_exact": true,
+  "new_files": [
+    "Final_Citadel_Amethyst_Arcade.png",
+    "Final_Citadel_Amethyst_Arcade_Flash.png",
+    "Final_Citadel_Crimson_Gallery.png",
+    "Final_Citadel_Crimson_Gallery_Flash.png",
+    "Final_Citadel_Missed_2x.png",
+    "Final_Citadel_Violet_Chapel.png",
+    "Final_Citadel_Violet_Chapel_Flash.png"
+  ]
+}

@@ -1,3 +1,12 @@
+## 0.31.0 — missed Level 6 rooms (approved; merge pending)
+
+Approved on 2026-10-29 with push and merge authorized. Preserve all 173 reviewed installation files exactly. Source push, PR checks and artifact verification precede adoption. Final cleanup follows before the completed release.
+
+- Complete the red corridor with red brick and a crimson gallery.
+- Give the two purple rooms distinct chapel and arcade scenery and registered violet terrain.
+- Reuse finished eyes/tears, serpents and dragon pickup flash artwork.
+- Preserve prior assets, native gameplay/audio, pauses, blackouts and original green enemy standby.
+
 ## 0.30.1 — Level 6 finale visual repairs (approved and merged)
 
 Approved and merged through PR #28 on 2026-10-29, including all preceding Level 6 work. PR/main builds and both downloaded artifacts pass all 166 approved hashes. Installation files remain frozen. Skipped rooms and later cleanup precede the completed release.

@@ -1,3 +1,7 @@
+## Final recorded Level 6 rooms — 0.31.0
+
+9CA7 retains ivory architectural trim but replaces blue brick mass with the accepted red material and a new crimson gallery. 9D5B uses a closed dark violet chapel; 9DD3 uses a spacious layered amethyst arcade. Shared violet structural material follows exact native contours and whole registered groups. Returning enemies use already finished sources. No old cave panoramas.
+
 ## Level 6 finale repair direction, 0.30.1
 
 The wall face follows the supplied ivory skeletal reference with only a narrow red attachment spine; do not fill its silhouette with wall material. Blue enemies share the approved green mucus design. The final ledge has a readable bone-framed portal visible during approach. Ending wings must remain connected in both poses; black font-cell padding must not obscure dragons.

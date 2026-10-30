@@ -1,3 +1,9 @@
+## Final recorded Level 6 rooms — 0.31.0
+
+- Local input: `Holy_Diver_HD(20261030-015933).mmo`, 8998 frames, SHA-256 `247df46f062af5a8d12e27aa0123e703aedf1e1e7bf7cd8e302bb410b8e877fa`. Contains its original starting state; ROM/state/movie bytes are excluded from Git.
+- Full paired replay uses approved 0.30.1 and candidate 0.31.0.
+- Controller-only ledge route is reproduced with `scripts/make_level6_missed_edge.py`; it retains the first 1610 original frames, walks right to the wall, pauses, then slowly walks left off the ledge without jumping. Capture frames 1600–1930.
+
 # Local emulator test inputs
 
 ## Level 6 green hall and descent — 0.28.0

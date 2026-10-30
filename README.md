@@ -1,3 +1,5 @@
+**0.31.0 approved; push and merge authorized.** Completes the recorded red corridor and two purple rooms with distinct scenery and returning HD actors. All 173 reviewed installation files remain frozen. Source push, PR checks and artifact verification are pending; main remains 0.30.1 until adoption. Next: final cleanup before the completed release. [Scope, approval and verification](docs/LEVEL6_MISSED.md). Historical review labels below are superseded by the current approvals.
+
 **Level 6 0.30.1 is approved and merged on main.** [PR #28](https://github.com/kgrant191/holy-diver-hd/pull/28) adopts the recorded rooms, bosses, ending and requested repairs. All 166 reviewed install files remain frozen. Next: the newly supplied skipped-room movie, cleanup, then the completed release. [Adoption record](docs/LEVEL6_ADOPTION.md).
 
 # Holy Diver HD

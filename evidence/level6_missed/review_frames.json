@@ -1,0 +1,32 @@
+[
+  {
+    "frame": 300,
+    "label": "Red corridor",
+    "source": "frames/000300.png"
+  },
+  {
+    "frame": 1550,
+    "label": "Violet chapel",
+    "source": "frames/001550.png"
+  },
+  {
+    "frame": 7600,
+    "label": "Amethyst arcade",
+    "source": "frames/007600.png"
+  },
+  {
+    "frame": 7110,
+    "label": "Returning serpent",
+    "source": "frames/007110.png"
+  },
+  {
+    "frame": 1710,
+    "label": "Thunder flash",
+    "source": "frames/001710.png"
+  },
+  {
+    "frame": 8625,
+    "label": "Dragon pickup flash",
+    "source": "frames/008625.png"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "file": "Holy_Diver_Level6_v0.31.0_Preview.mp4",
+  "sha256": "666d793a4f1a568dd49820931e94f9afe8420c2139ea44d8ba0a374e470686af",
+  "bytes": 27314403,
+  "frames": 8997,
+  "size": [
+    512,
+    480
+  ],
+  "fps": "719503/11972",
+  "duration_seconds": 149.703454,
+  "full_av_decode_passed": true,
+  "actual_capture_pngs_only": true,
+  "movie": "Holy_Diver_HD(20261030-015933).mmo",
+  "first": 2,
+  "last": 8998,
+  "audio_source": "Verified original Mesen PCM; AAC stereo 48 kHz with native one-frame capture offset."
+}

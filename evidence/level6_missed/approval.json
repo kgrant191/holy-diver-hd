@@ -1,0 +1,22 @@
+{
+  "version": "0.31.0",
+  "approved": true,
+  "approval_date": "2026-10-29",
+  "timezone": "America/New_York",
+  "user_statement": "approved.  lets push and merge.  Rest will be final cleanup before creating release",
+  "artwork_commit": "f09f68269a02ceefbacbd2534f3c682570478a7d",
+  "artwork_tree": "52b47aa354ef66641310048d59fa6d80ce116c29",
+  "approved_manifest": "evidence/0.31.0-pack-sha256.json",
+  "approved_manifest_sha256": "4d14bbd48101c9f7b6fdfe13e4cdb3100b6fdae142eaea06c494094a6d145252",
+  "installed_files_preserved": 173,
+  "push_authorized": true,
+  "merge_authorized": true,
+  "merge_status": "pending user source push, PR checks and artifact verification",
+  "remote_main": "56ee5aaa20d392ac916f32160d31c64a4c1ea22a",
+  "remote_feature_branch_present": false,
+  "follow_up": [
+    "Final cleanup elsewhere in the pack",
+    "Prepare the completed release after cleanup"
+  ],
+  "release_requested_now": false
+}

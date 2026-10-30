@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen",
+  "prompts": "art/level6_missed/prompts.json",
+  "sources": {
+    "art/generated/level6_crimson_gallery.png": "eeec774ad8292c591f7432dbdf20a5951697a0e0ac256349ac15b816f888762b",
+    "art/generated/level6_violet_chapel.png": "76013860771ff35bcc65a4afd783b0a17bb8d939f6d123cfc521139decaa8c95",
+    "art/generated/level6_amethyst_arcade.png": "7191936ddaa0c44225bd3d14d59afaf4470627c2f95acd149951c817abb34c37",
+    "art/generated/level6_violet_stone.png": "05433564ac49f060d91091371e42279045f3cd08fbc44146f611afc9640a309d"
+  },
+  "existing_red_material": "art/level6_variety/red_material.png",
+  "existing_eyes": "art/screen2_3/",
+  "existing_serpent": "art/level5/",
+  "existing_dragon": "art/level4_dragon/",
+  "new_enemy_painting": false,
+  "room_styles": {
+    "9CA7": "Crimson_Gallery",
+    "9D5B": "Violet_Chapel",
+    "9DD3": "Amethyst_Arcade"
+  },
+  "native_hulls_preserved": true
+}
