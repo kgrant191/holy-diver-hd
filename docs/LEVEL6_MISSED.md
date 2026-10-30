@@ -9,10 +9,11 @@ The user approved this update on 2026-10-29 and authorized push and merge.
 The reviewed artwork commit is `f09f68269a02ceefbacbd2534f3c682570478a7d`
 on `feature/level6-missed-rooms`, based on approved main
 `56ee5aaa20d392ac916f32160d31c64a4c1ea22a` (0.30.1, PR #28).
-Approval bookkeeping preserves all 173 reviewed installation files, including
-the installed README and its INSTALL.txt source. Source push, PR checks,
-actual artifact verification and merge are pending. No further merge approval
-is needed. See `evidence/level6_missed/approval.json`.
+PR #29 is now merged. Its exact approved head and merge tree are verified,
+and both PR/main builds and independently downloaded artifacts pass all 173
+approved hashes, CRCs and flat layout. Approval/adoption bookkeeping changes
+source documentation only; the installed README and INSTALL.txt remain frozen.
+See `evidence/level6_missed/approval.json` and `LEVEL6_MISSED_ADOPTION.md`.
 
 | Native room | Recorded frames | Updated treatment |
 | --- | --- | --- |
@@ -83,6 +84,5 @@ samples, APU writes and complete PCM audio match the approved baseline.
 Evidence is in `evidence/level6_missed/`, including the replay, edge route,
 clean build, static rules, preview and actual-capture contact sheet.
 
-Next: adopt this approved update, then final cleanup before the completed
-release. No release/tag is requested now. Version1.0.0 remains reserved for
-the finished, tested pack.
+Next: final cleanup before the completed release. No release/tag was created.
+Version1.0.0 remains reserved for the finished, tested pack.

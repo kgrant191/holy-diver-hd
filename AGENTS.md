@@ -1,5 +1,11 @@
 # Holy Diver HD working instructions
 
+## Approved main — Level 6 0.31.0
+
+PR [#29](https://github.com/kgrant191/holy-diver-hd/pull/29) is merged, adopting the approved final recorded Level 6 rooms in 0.31.0. The pushed head and merge tree match the reviewed handoff. PR and main builds pass; both independently downloaded artifacts match all 173 approved SHA-256 hashes, CRCs and flat installation layout. Preserve every reviewed installation file, including the installed README and original green enemy standby.
+
+Next work is final cleanup before preparing the completed release. No release/tag was created. Start focused cleanup branches from this approved main. Historical review and pending-merge labels below are superseded by this adoption. See docs/LEVEL6_MISSED_ADOPTION.md and evidence/level6_missed_adoption/.
+
 ## Approved continuation — 0.31.0; push and merge authorized
 
 The user approved the final recorded Level 6 rooms on 2026-10-29 and explicitly requested push and merge. Preserve all 173 reviewed installation files, including INSTALL.txt and the installed README. Approval bookkeeping changes source documentation only. The reviewed artwork commit is f09f68269a02ceefbacbd2534f3c682570478a7d; approved main remains 56ee5aaa/0.30.1 until adoption. GitHub does not yet have feature/level6-missed-rooms. Follow the established user-push bundle workflow, then verify the exact pushed head, PR checks and actual artifact before the authorized merge. No additional merge approval is needed. Remaining work after adoption is final cleanup before preparing the completed release; do not create a release/tag now. See evidence/level6_missed/approval.json. Historical review/no-merge labels below are superseded by this approval.

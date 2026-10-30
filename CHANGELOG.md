@@ -1,6 +1,6 @@
-## 0.31.0 — missed Level 6 rooms (approved; merge pending)
+## 0.31.0 — missed Level 6 rooms (approved and merged)
 
-Approved on 2026-10-29 with push and merge authorized. Preserve all 173 reviewed installation files exactly. Source push, PR checks and artifact verification precede adoption. Final cleanup follows before the completed release.
+Approved and merged through PR #29 on 2026-10-29. PR/main builds and both independently downloaded artifacts pass all 173 approved hashes, CRCs and flat layout. Installation files remain frozen. Final cleanup follows before the completed release.
 
 - Complete the red corridor with red brick and a crimson gallery.
 - Give the two purple rooms distinct chapel and arcade scenery and registered violet terrain.

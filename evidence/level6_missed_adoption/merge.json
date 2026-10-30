@@ -1,0 +1,21 @@
+{
+  "version": "0.31.0",
+  "pr": 29,
+  "url": "https://github.com/kgrant191/holy-diver-hd/pull/29",
+  "approved_head": "6c6cfe5c455aa716cf7fe2d7b7c82ece46db99c3",
+  "merge_commit": "87f6259dc01486951c70cfd8b7aedae91bc87bfa",
+  "approved_tree": "f472e8afe39fe013c8ab901d7d91a0a5f631be3b",
+  "merge_tree": "f472e8afe39fe013c8ab901d7d91a0a5f631be3b",
+  "merge_tree_matches_approved": true,
+  "pr_run": 40995011266,
+  "main_run": 40995578007,
+  "pr_build": "success",
+  "main_build": "success",
+  "approved_install_files": 173,
+  "artifacts_independently_verified": true,
+  "date": "2026-10-29",
+  "timezone": "America/New_York",
+  "release_created": false,
+  "tag_created": false,
+  "next_work": "Final cleanup before the completed release"
+}

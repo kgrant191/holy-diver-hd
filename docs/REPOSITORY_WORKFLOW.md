@@ -1,6 +1,6 @@
 # Repository workflow
 
-The final recorded Level 6 rooms in **0.31.0 are approved, with push and merge authorized on 2026-10-29**. Preserve all 173 reviewed installation files. The feature/level6-missed-rooms source push is pending; verify its exact approved handoff head, PR checks and actual downloaded artifact before the authorized merge. Main remains 0.30.1 until adoption. Afterward, final cleanup precedes the completed release. No release/tag is requested now. See LEVEL6_MISSED.md and evidence/level6_missed/approval.json.
+Current approved main is **0.31.0**, adopted through PR #29 on 2026-10-29. Both builds and independently downloaded artifacts pass all 173 approved hashes and flat layout. Preserve reviewed installation bytes. Next: final cleanup before the completed release; no release/tag was created. See LEVEL6_MISSED_ADOPTION.md. Historical baselines below remain for provenance.
 
 Current approved main is **0.30.1**, adopted through PR #28 on 2026-10-29. Both builds and independently downloaded artifacts pass all 166 approved hashes and flat layout. Preserve reviewed installation bytes. Next: the supplied missed-room movie, cleanup, then completed release. See LEVEL6_ADOPTION.md. Historical baselines below remain for provenance.
 
