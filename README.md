@@ -1,4 +1,4 @@
-**0.30.1 is approved; merge is authorized.** All delivered Level 6 work is accepted. The source branch still needs to be pushed before PR checks and merge; main remains 0.24.0. Next: skipped Level 6 rooms, cleanup, then the completed release. The 166 reviewed installation files and original green orb standby remain unchanged. [Scope and verification](docs/LEVEL6_FINALE_REPAIR.md).
+**Level 6 0.30.1 is approved and merged on main.** [PR #28](https://github.com/kgrant191/holy-diver-hd/pull/28) adopts the recorded rooms, bosses, ending and requested repairs. All 166 reviewed install files remain frozen. Next: the newly supplied skipped-room movie, cleanup, then the completed release. [Adoption record](docs/LEVEL6_ADOPTION.md).
 
 # Holy Diver HD
 

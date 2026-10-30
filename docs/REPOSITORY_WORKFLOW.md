@@ -1,6 +1,6 @@
 # Repository workflow
 
-Current continuation is **approved 0.30.1**, with merge authorized on 2026-10-29. GitHub main remains approved 0.24.0 until the Level 6 source push, PR checks, artifact verification and merge are complete. Preserve all 166 reviewed installation bytes. After adoption, finish the skipped Level 6 rooms, then requested cleanup, then prepare the completed release. No release/tag is requested now. Historical baselines below remain for provenance.
+Current approved main is **0.30.1**, adopted through PR #28 on 2026-10-29. Both builds and independently downloaded artifacts pass all 166 approved hashes and flat layout. Preserve reviewed installation bytes. Next: the supplied missed-room movie, cleanup, then completed release. See LEVEL6_ADOPTION.md. Historical baselines below remain for provenance.
 
 Current approved baseline is **0.22.2 on main**, adopted through PR #26 on 2026-10-27. The published source matched the approved handoff and the merge tree matched the validated PR head. PR/main builds and both actual downloaded install artifacts pass all 126 file hashes, CRC and flat layout. Preserve every reviewed installation byte and use focused branches for subsequent changes. See docs/LEVEL5_ADOPTION.md and evidence/level5_adoption/. No release/tag was requested. Earlier workflow history below remains for provenance.
 

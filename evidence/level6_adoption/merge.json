@@ -1,0 +1,22 @@
+{
+  "version": "0.30.1",
+  "pr": 28,
+  "url": "https://github.com/kgrant191/holy-diver-hd/pull/28",
+  "approved_head": "3940c3bb54dd82c42788df7de1cdd90031c2e528",
+  "merge_commit": "a36ac26ef3948886756cccfdc2054f1f1e346b25",
+  "approved_tree": "1ffd5cabd087614609e147fa14ef26da21358272",
+  "merge_tree": "1ffd5cabd087614609e147fa14ef26da21358272",
+  "merge_tree_matches_approved": true,
+  "pr_run": 40988730615,
+  "main_run": 40989533483,
+  "pr_build": "success",
+  "main_build": "success",
+  "approved_install_files": 166,
+  "artifacts_independently_verified": true,
+  "date": "2026-10-29",
+  "timezone": "America/New_York",
+  "release_created": false,
+  "tag_created": false,
+  "next_movie": "Holy_Diver_HD(20261030-015933).mmo",
+  "next_movie_sha256": "247df46f062af5a8d12e27aa0123e703aedf1e1e7bf7cd8e302bb410b8e877fa"
+}

@@ -1,6 +1,6 @@
-## 0.30.1 — Level 6 finale visual repairs (approved; merge pending)
+## 0.30.1 — Level 6 finale visual repairs (approved and merged)
 
-Approved with merge authorization on 2026-10-29, including all preceding Level 6 work. All 166 reviewed install files remain frozen. Skipped rooms and later cleanup precede the completed release.
+Approved and merged through PR #28 on 2026-10-29, including all preceding Level 6 work. PR/main builds and both downloaded artifacts pass all 166 approved hashes. Installation files remain frozen. Skipped rooms and later cleanup precede the completed release.
 
 - Register the full clean ivory wall-face reference without red wall fill.
 - Apply blue versions of both approved mucus-blob poses.
