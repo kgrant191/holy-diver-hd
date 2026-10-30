@@ -1,3 +1,7 @@
+## Final recorded Level 6 rooms — 0.31.0
+
+Run the full 8998-frame movie against frozen 0.30.1 and 0.31.0 with synchronized screenshots and the stock-core neighbor bounds observer. `verify_level6_missed_replay.py` requires all native RAM/PPU/OAM/view samples, APU and full PCM to match; actual images must change only in the three requested rooms and retain the selected normal/flash backdrop. Menus, deaths, blackouts and stable 9F3B stay exact. Run the paired controller-only ledge route and `verify_level6_missed_edge.py` for the right wall stop, slow left walk-off and complete source/mask verification. Clean isolated build and `verify_release.py` must reproduce all 173 file hashes and the full historical validator chain. See LEVEL6_MISSED.md.
+
 ## Level 6 finale repair verification
 
 Run `python3 scripts/verify_level6_finale_repair_rules.py` and the full historical chain through `python3 scripts/validate_pack.py "build/Holy_Diver_(Tr)"`. The two full replays are checked by `verify_level6_finale_repair_replay.py`, using the final 0.30.0 composite PNGs for the finale and the approved enemy-revision capture for the earlier face room. Use `--earlier` for the latter. Actual image changes must stay inside the requested native cell unions; boss images, blackouts and full state/audio remain exact. See `docs/LEVEL6_FINALE_REPAIR.md`.

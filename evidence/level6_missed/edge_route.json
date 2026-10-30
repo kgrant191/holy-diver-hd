@@ -1,0 +1,20 @@
+{
+  "frames": 1930,
+  "sha256": "b085101980a3461f15374411e027f881fe629ed5aaeef071965e9ad571e9721b",
+  "original_prefix": 1610,
+  "right_walk": [
+    1611,
+    1690
+  ],
+  "right_stop": [
+    1691,
+    1720
+  ],
+  "slow_left": [
+    1721,
+    1880
+  ],
+  "controller_only": true,
+  "unchanged_embedded_state": true,
+  "no_jump_after_branch": true
+}

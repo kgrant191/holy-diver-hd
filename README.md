@@ -1,3 +1,5 @@
+**0.31.0 review candidate:** completes the recorded red corridor and two purple rooms with distinct scenery and returning HD actors. Approved main is 0.30.1. [Scope and verification](docs/LEVEL6_MISSED.md).
+
 **Level 6 0.30.1 is approved and merged on main.** [PR #28](https://github.com/kgrant191/holy-diver-hd/pull/28) adopts the recorded rooms, bosses, ending and requested repairs. All 166 reviewed install files remain frozen. Next: the newly supplied skipped-room movie, cleanup, then the completed release. [Adoption record](docs/LEVEL6_ADOPTION.md).
 
 # Holy Diver HD

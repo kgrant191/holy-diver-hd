@@ -1,0 +1,19 @@
+{
+  "version": "0.31.0",
+  "approved": false,
+  "branch": "feature/level6-missed-rooms",
+  "approved_main": "56ee5aaa20d392ac916f32160d31c64a4c1ea22a",
+  "approved_main_version": "0.30.1",
+  "main_adopted_pr": 28,
+  "full_movie_native_and_audio_exact": true,
+  "edge_native_and_audio_exact": true,
+  "all_173_install_hashes_rebuilt": true,
+  "all_historical_validators_passed": true,
+  "preview_full_decode_passed": true,
+  "earlier_164_assets_unchanged": true,
+  "green_enemy_standby_unchanged": true,
+  "next": "User review, then requested cleanup elsewhere before the completed release",
+  "pushed": false,
+  "merged": false,
+  "release_created": false
+}
