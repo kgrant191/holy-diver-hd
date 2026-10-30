@@ -13,8 +13,10 @@
   "installed_files_preserved": 174,
   "push_authorized": true,
   "merge_authorized": true,
-  "merge_status": "pending PR checks and actual artifact verification",
+  "merge_status": "merged through PR #30 after passing PR checks and actual artifact verification",
   "remote_main": "ca33fa293cf7ce42c4d63a5f3899d9a8370cc317",
   "remote_feature_branch_present": true,
-  "release_requested_now": false
+  "release_requested_now": false,
+  "merge_commit": "a903b111f5f101d78f59b2f402143d27bf78a659",
+  "post_merge_validation_record": "https://github.com/kgrant191/holy-diver-hd/pull/30"
 }

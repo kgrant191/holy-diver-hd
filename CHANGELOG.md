@@ -1,6 +1,6 @@
-# 0.32.0 — approved; merge authorized
+# 0.32.0 — approved and merged
 
-Approved on 2026-10-30. The exact reviewed source is pushed; PR checks and artifact verification precede the authorized merge. All 174 installation files remain frozen. Approval bookkeeping changes source documentation only.
+Approved and merged through PR #30 on 2026-10-30. The exact reviewed source and merge tree are verified. The PR build and downloaded artifact pass all 174 approved hashes, CRCs and flat layout. Post-merge validation is recorded in the PR description. All installation files remain frozen; adoption bookkeeping changes source documentation only.
 
 - Replace the later Demonic Palace masonry with silver, violet and green stone matching native room palettes. Preserve earlier opening scenery and all distant backgrounds.
 - Correct the Level 3 Overdrive acquisition sprite to a crimson spell book.

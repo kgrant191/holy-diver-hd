@@ -1,6 +1,8 @@
 # Palace masonry and Overdrive book — approved 0.32.0
 
-The user approved 0.32.0 on 2026-10-30 and explicitly authorized push and merge. The pushed artwork commit is `ac5f6fdde59cb19c56c4d2d6f6b607522c5fceec`. Preserve all 174 reviewed installation files, including INSTALL.txt and the installed README. This approval update changes source documentation only. Verify the PR checks and actual downloaded artifact before the authorized merge; no further merge approval is needed. Main remains approved 0.31.0 until adoption. No release/tag is requested. See `docs/PALACE_SURFACES.md` and `evidence/palace_surfaces/approval.json`.
+PR [#30](https://github.com/kgrant191/holy-diver-hd/pull/30) is merged, adopting the approved later Level 5 masonry and Level 3 Overdrive spell book. The pushed artwork commit and merge tree match the reviewed source. The PR build and independently downloaded artifact pass all 174 approved hashes, CRCs and flat installation layout. Preserve every reviewed installation byte, including INSTALL.txt and the installed README. Follow the PR description for main validation runs and artifact checks; see `docs/PALACE_SURFACES_ADOPTION.md` and `evidence/palace_surfaces_adoption/`.
+
+Continue final cleanup before preparing the completed release. No release/tag was created. Historical review and pending-merge labels below are superseded by this adoption.
 
 The user clarified that the opening Level 5 screens are liked, and identified
 the repetitive floor, wall and stair material as the unwanted artwork. The
@@ -58,9 +60,9 @@ Source inputs and emulator binaries remain outside Git. No RAM edits stage
 the evidence. Exact replay results and coverage are recorded in
 `evidence/palace_surfaces/`.
 
-The install and source handoff are approved. Push and merge are authorized;
-PR checks and actual artifact verification precede adoption. No release/tag
-is requested.
+The approved change is merged through PR #30. The PR build and actual artifact
+are verified against all 174 pinned files. See PALACE_SURFACES_ADOPTION.md
+and the PR description for post-merge validation. No release/tag was created.
 
 ### Completed verification
 

@@ -1,0 +1,14 @@
+{
+  "version": "0.32.0",
+  "pr": 30,
+  "run_id": 41044145510,
+  "head_sha": "eb196858945e00843c6384b4ea26be9c8749212d",
+  "artifact_id": 12971244577,
+  "archive_sha256": "f82d8e01dc8b9adcf8a8d497ba33eff63f5a8e9722ebb8dc85f47689ca37f169",
+  "github_digest_matches": true,
+  "root_file_count": 174,
+  "all_expected_hashes_match": true,
+  "crc_valid": true,
+  "nested_zip": false,
+  "downloaded_and_independently_verified": true
+}

@@ -1,6 +1,6 @@
 # Repository workflow
 
-**0.32.0 is approved; push and merge are authorized on 2026-10-30.** The pushed artwork commit is `ac5f6fdde59cb19c56c4d2d6f6b607522c5fceec`. Verify PR checks and the downloaded artifact before merging. Preserve all 174 reviewed installation files, including the installed README and INSTALL.txt. Main remains 0.31.0 until adoption. No release/tag is requested. See PALACE_SURFACES.md and evidence/palace_surfaces/approval.json.
+Current approved main is **0.32.0**, adopted through PR #30 on 2026-10-30. Preserve all 174 reviewed installation files. The PR build and downloaded artifact are verified; post-merge validation is recorded in the PR description. Next: final cleanup before the completed release. No release/tag was created. See PALACE_SURFACES_ADOPTION.md. Historical baselines below remain for provenance.
 
 Current approved main is **0.31.0**, adopted through PR #29 on 2026-10-29. Both builds and independently downloaded artifacts pass all 173 approved hashes and flat layout. Preserve reviewed installation bytes. Next: final cleanup before the completed release; no release/tag was created. See LEVEL6_MISSED_ADOPTION.md. Historical baselines below remain for provenance.
 
