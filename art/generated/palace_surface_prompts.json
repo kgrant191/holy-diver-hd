@@ -1,0 +1,21 @@
+{
+  "generator": "built-in image_gen",
+  "prompts": [
+    [
+      "palace_surface_silver",
+      "Use case: stylized-concept. Asset type: seamless repeating foreground masonry texture for a polished 16-bit Gothic side-scrolling game. One square texture only, perfectly straight-on orthographic wall surface, filled edge to edge with staggered courses of large aged limestone ashlar bricks. Cool SILVER GRAY stones, charcoal recessed narrow mortar seams, pale gray chipped bevels. Clear readable stone faces, restrained cracks, subtle medieval chisel wear, crisp pixel clusters. Four rows with about two large blocks across each row, alternating offset. Texturing must repeat at all edges. Even frontal lighting, no directional gradient. Opaque image. No gold, no luminous stripes, no metal panels, no inset rectangles, no ornate vertical ribs, no scenery, no border, no text. Gray stone mass with readable top edges for floors and stairs. Must remain attractive when reduced to 64x64."
+    ],
+    [
+      "palace_surface_violet",
+      "Use case: stylized-concept. Asset type: seamless foreground masonry texture for a polished 16-bit Gothic side-scrolling game. One square texture only, perfectly straight-on orthographic wall surface, filled edge to edge with staggered courses of large aged amethyst-gray ashlar stone. Muted medium LAVENDER PURPLE / plum stone faces and slightly lighter violet chipped bevels, near-black plum narrow mortar. Four rows about two large blocks across each row, alternating offset. Crisp readable pixel clusters, restrained ancient chisel wear and cracks. Even frontal illumination. Opaque seamless repeating edges. No gold, no metallic panels, no luminous stripes, no inset frames, no scenery, no border or lettering. This is physical traversable palace stone, visibly purple but subdued enough for sprites. Must remain attractive at 64x64."
+    ],
+    [
+      "palace_surface_green",
+      "Use case: stylized-concept. Asset type: seamless foreground masonry texture for a polished 16-bit Gothic side-scrolling game. One square texture only, perfectly straight-on orthographic wall surface, filled edge to edge with staggered courses of large aged GREEN stone ashlar blocks. Deep jade green faces, pale mint chipped bevels and edges, dark green narrow recessed mortar. Four rows about two large blocks across each row, alternating offset. Crisp readable pixel clusters, restrained ancient chisel wear and small cracks. Even frontal illumination. Opaque seamless repeating edges. No gold, no luminous stripes, no metal panels, no inset frames, no plants obscuring edges, no scenery, no border or text. Clear substantial stone mass for floors, stairs and walls. Must remain attractive at 64x64."
+    ],
+    [
+      "overdrive_spellbook",
+      "Use case: stylized-concept. Asset type: single inventory pickup sprite for a polished 16-bit Gothic side-scrolling game. A CLOSED SQUARE SPELL BOOK, viewed almost straight-on with a slight view of ivory page edges at right and bottom, full object centered with generous transparent margins. Deep crimson leather cover, bright aged gold corner guards, ivory page block, simple circular flame/sun seal in orange and gold on the cover, dark leather spine left. Strong readable rectangular book silhouette. Cover emblem much smaller than the book; the book must be clearly recognizable at 32x32 pixels. No floating halo, no rays outside the cover, no loose flame, no lettering, no background, no shadows outside the book. Crisp rich pixel-art shading that matches a Castlevania-like 16-bit HD remake. True transparent background."
+    ]
+  ]
+}

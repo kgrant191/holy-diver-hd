@@ -1,0 +1,17 @@
+{
+  "candidate": "0.32.0",
+  "base": "ca33fa293cf7ce42c4d63a5f3899d9a8370cc317",
+  "routes": 7,
+  "full_movie_frames": 58334,
+  "paired_native_samples_per_type": 9505,
+  "all_sampled_native_exact": true,
+  "all_full_movie_apu_pcm_exact": true,
+  "clean_build_and_historical_validators_pass": true,
+  "flat_zip_files": 174,
+  "all_zip_crc_and_member_hashes_exact": true,
+  "opening_stable_images_exact": 1050,
+  "complete_book_matches": 46,
+  "complete_lift_matches": 57,
+  "complete_edge_platform_matches": 46,
+  "visual_review_pending": true
+}

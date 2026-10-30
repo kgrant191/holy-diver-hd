@@ -1,3 +1,7 @@
+## Current review — 0.32.0 Palace surfaces and Overdrive book
+
+The user clarified that the first Level 5 rooms are liked. Preserve 850A, 8672, 86EA and 8762 exactly as approved 0.31.0. Replace only later floor/wall/stair and moving-lift material, using native silver/violet/green palettes. All backgrounds stay exact. Correct Level 3 088B–088E to a spell book: the historical orb identification was mistaken. Keep the actual Overdrive cast unchanged. This focused branch starts from approved main ca33fa2. The earlier opening redesign is withdrawn and checkpointed separately. Candidate requires visual review; no publication/merge/release authorization. See docs/PALACE_SURFACES.md.
+
 ## Final recorded Level 6 rooms — 0.31.0
 
 9CA7 retains ivory architectural trim but replaces blue brick mass with the accepted red material and a new crimson gallery. 9D5B uses a closed dark violet chapel; 9DD3 uses a spacious layered amethyst arcade. Shared violet structural material follows exact native contours and whole registered groups. Returning enemies use already finished sources. No old cave panoramas.

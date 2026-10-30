@@ -1,0 +1,42 @@
+{
+  "climb": {
+    "movie_sha256": "56f2511c877ab227b07f612b6eedc952db9bfec16d8df48c42a2e03a78212c51",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 1215,
+    "captured_frames": 21,
+    "movie_completed": true
+  },
+  "next": {
+    "movie_sha256": "197f7725772cb6a5540519616036fca047d3ac5b47a3b244cc0b3ea714347f49",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 10206,
+    "captured_frames": 171,
+    "movie_completed": true
+  },
+  "late": {
+    "movie_sha256": "36de8a08dcc84610fe5567c01530cf8038816c4607536b304a38929ce3cf9699",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 14595,
+    "captured_frames": 244,
+    "movie_completed": true
+  },
+  "finale": {
+    "movie_sha256": "0328029ecdc68941515093d8f03efafdf0cd0a2c4bffa937cf42d2151610c77a",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 15585,
+    "captured_frames": 260,
+    "movie_completed": true
+  },
+  "book": {
+    "movie_sha256": "32f2d9617ca290845983ab67918a8f0f9ed312ee7cd5a4ec5881ff51d299db42",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 4812,
+    "captured_frames": 81,
+    "movie_completed": true
+  }
+}

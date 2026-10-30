@@ -1,3 +1,7 @@
+## Current review — 0.32.0 Palace surfaces and Overdrive book
+
+The user clarified that the first Level 5 rooms are liked. Preserve 850A, 8672, 86EA and 8762 exactly as approved 0.31.0. Replace only later floor/wall/stair and moving-lift material, using native silver/violet/green palettes. All backgrounds stay exact. Correct Level 3 088B–088E to a spell book: the historical orb identification was mistaken. Keep the actual Overdrive cast unchanged. This focused branch starts from approved main ca33fa2. The earlier opening redesign is withdrawn and checkpointed separately. Candidate requires visual review; no publication/merge/release authorization. See docs/PALACE_SURFACES.md.
+
 # Approved main — Level 6 0.31.0
 
 PR [#29](https://github.com/kgrant191/holy-diver-hd/pull/29) is merged, adopting the approved final recorded Level 6 rooms in 0.31.0. The pushed head and merge tree match the reviewed handoff. PR and main builds pass; both independently downloaded artifacts match all 173 approved SHA-256 hashes, CRCs and flat installation layout. Preserve every reviewed installation file, including the installed README and original green enemy standby.

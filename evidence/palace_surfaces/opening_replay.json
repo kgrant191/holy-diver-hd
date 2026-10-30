@@ -1,0 +1,38 @@
+{
+  "movie": {
+    "movie_sha256": "b87a147a8ec569edc72819b5dd9b567bd2f340f55d1e1bf457acbc0067a5e4bb",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 1241,
+    "seconds_wall": 180.68154202600272,
+    "stride": 8,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 9921
+  },
+  "native_samples_per_type": 1241,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "3c1d801397d744fc77ea2417fc5a17e7bd800054ac86de5f59521fec8741bac3",
+  "pcm_sha256": "7dc0b8ce343dec3718cecb939a27166cd4d109a6fb953b70b3f800529c7f8d45",
+  "statistics": {
+    "identical_images": 1236,
+    "opening_images_exact": 1050,
+    "menus_cards_exact": 131,
+    "blackouts_exact": 50,
+    "changed_images": 5,
+    "surface_bounds_pass": 5
+  },
+  "rooms": {
+    "850A": 556,
+    "FFFF": 132,
+    "8672": 315,
+    "0000": 24,
+    "86EA": 102,
+    "8762": 106,
+    "8816": 6
+  },
+  "book_source_matches": [],
+  "changed_pixel_bounds_failures": []
+}

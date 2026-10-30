@@ -1,3 +1,5 @@
+> Correction in 0.32.0: original 088B–088E is a rectangular spell book bearing an emblem. Historical references below calling the acquisition item an orb were mistaken. The active Overdrive orbiting effect remains correctly identified and unchanged.
+
 # Poison Moss Land finale — approved 0.15.0
 
 Approved on 2026-10-26 with authorization to create PRs and merge the complete Level 3 chain. The reviewed source is 1710edc9d6d1fb78ade9af05cd9286b293e811c2. All 106 delivered installation files stay exact, including the historical review wording in installed README. See evidence/level3_finale/approval.json. PRs #13–#17 are now merged into main, with all PR/main builds and ten downloaded install artifacts verified. Every merge tree matches its reviewed branch head; the final merge is 034c602121ec96854e04e0ad413e17f615241478. See evidence/stage3_adoption/. Historical review notes below describe the original delivery. Level 4 scenery is next.

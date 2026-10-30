@@ -1,0 +1,58 @@
+{
+  "movie": {
+    "movie_sha256": "0328029ecdc68941515093d8f03efafdf0cd0a2c4bffa937cf42d2151610c77a",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 1949,
+    "seconds_wall": 293.89344180500484,
+    "stride": 8,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 15585
+  },
+  "native_samples_per_type": 1949,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "6d83fd16ee5b43ee05ee99116c8c6b57c95dcac9d31282ba590d8808aeadccd4",
+  "pcm_sha256": "5fe9e7daf14815c307a9c2c2a48bd65c1521ba45ade77876812beafe20007015",
+  "statistics": {
+    "changed_images": 1691,
+    "surface_bounds_pass": 1689,
+    "identical_images": 258,
+    "menus_cards_exact": 121,
+    "blackouts_exact": 10,
+    "exact_surface_source_pair_pass": 2
+  },
+  "rooms": {
+    "8D3E": 860,
+    "0000": 98,
+    "8C4E": 3,
+    "8E6A": 798,
+    "FFFF": 43,
+    "8EE2": 120,
+    "9A8B": 27
+  },
+  "book_source_matches": [],
+  "camera_source_pair_checks": [
+    {
+      "frame": 9520,
+      "changed_pixels": 51036,
+      "tile_grid_phase": [
+        4,
+        8
+      ],
+      "every_changed_pixel_exact_old_and_new_source": true
+    },
+    {
+      "frame": 9528,
+      "changed_pixels": 50741,
+      "tile_grid_phase": [
+        4,
+        8
+      ],
+      "every_changed_pixel_exact_old_and_new_source": true
+    }
+  ],
+  "changed_pixel_bounds_failures": []
+}
