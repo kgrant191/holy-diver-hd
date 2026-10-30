@@ -1,4 +1,6 @@
-# Palace masonry and Overdrive book — 0.32.0 review
+# Palace masonry and Overdrive book — approved 0.32.0
+
+The user approved 0.32.0 on 2026-10-30 and explicitly authorized push and merge. The pushed artwork commit is `ac5f6fdde59cb19c56c4d2d6f6b607522c5fceec`. Preserve all 174 reviewed installation files, including INSTALL.txt and the installed README. This approval update changes source documentation only. Verify the PR checks and actual downloaded artifact before the authorized merge; no further merge approval is needed. Main remains approved 0.31.0 until adoption. No release/tag is requested. See `docs/PALACE_SURFACES.md` and `evidence/palace_surfaces/approval.json`.
 
 The user clarified that the opening Level 5 screens are liked, and identified
 the repetitive floor, wall and stair material as the unwanted artwork. The
@@ -44,8 +46,8 @@ All 171 earlier non-text installation assets remain exact. One atlas adds 80
 registered cells; the flat install has 174 files. Removing the image declaration
 and reversing the documented substitutions recovers the exact approved 0.31.0
 mapping hash. The historical validator chain runs on that recovered baseline.
-The file named `approved-pack-sha256.json` is a candidate build manifest here;
-it does not imply visual approval.
+`approved-pack-sha256.json` and `0.32.0-pack-sha256.json` now pin all 174
+user-approved installation files. Their bytes remain unchanged by approval.
 
 ## Verification
 
@@ -56,8 +58,9 @@ Source inputs and emulator binaries remain outside Git. No RAM edits stage
 the evidence. Exact replay results and coverage are recorded in
 `evidence/palace_surfaces/`.
 
-The install and source handoff are review candidates. No push, PR, merge, tag
-or completed release is authorized by this change.
+The install and source handoff are approved. Push and merge are authorized;
+PR checks and actual artifact verification precede adoption. No release/tag
+is requested.
 
 ### Completed verification
 

@@ -1,0 +1,20 @@
+{
+  "version": "0.32.0",
+  "approved": true,
+  "approval_date": "2026-10-30",
+  "timezone": "America/New_York",
+  "user_statement": "approved, lets push and merge",
+  "push_confirmation": "pushed",
+  "artwork_commit": "ac5f6fdde59cb19c56c4d2d6f6b607522c5fceec",
+  "artwork_tree": "a95aff9e1ae4d3e168720b82bbf19f543a788579",
+  "pushed_head_matches_reviewed": true,
+  "approved_manifest": "evidence/0.32.0-pack-sha256.json",
+  "approved_manifest_sha256": "f62db903700914b4a252d65dd4cfdd31ea8c6911b5bc6d93d467c0e7a3c33401",
+  "installed_files_preserved": 174,
+  "push_authorized": true,
+  "merge_authorized": true,
+  "merge_status": "pending PR checks and actual artifact verification",
+  "remote_main": "ca33fa293cf7ce42c4d63a5f3899d9a8370cc317",
+  "remote_feature_branch_present": true,
+  "release_requested_now": false
+}
