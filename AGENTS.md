@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Current candidate — Level 6 finale 0.30.0
+
+Cover A49F, A553, A58F and B01C/mode04 from the 20261029-225605 movie. Preserve all 150 prior art/audio/patch assets and exact removable 0.29.1 mappings. Keep native platform geometry, boss movement/damage, menus, blackouts, ending typography and audio. Whole-body interior fills use unique stable tile anchors with four ordered bounds, following the detached form through scrolling and lateral motion. Preserve the original green orb standby. Full paired native/audio replay, earlier exact-image regression and isolated build are required. No push/merge/release authorization. Skipped earlier Level 6 rooms remain unfinished. See docs/LEVEL6_FINALE.md.
+
 ## Approved continuation — 0.29.1; finale next
 
 The user approved 0.29.1, including the mucus blob and higher-contrast wall face, and supplied the 20261029-225605 movie for the final screen, two boss rooms and ending. Preserve all 152 approved install files, original orb standby, native gameplay and audio. Main remains 0.24.0; no push, PR, merge, tag or release is authorized. The skipped earlier Level 6 rooms remain unfinished even after this movie is covered. See evidence/level6_enemy_revision/approval.json.

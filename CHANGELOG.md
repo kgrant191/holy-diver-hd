@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.30.0 — Level 6 finale (review)
+
+- Distinct crimson final climb, red first-boss sanctum and dark blue-violet second arena.
+- Registered attached and detached final demon, articulated joints, attacks, damage/fades and original movement.
+- Two updated ending dragon poses; preserve finished story lettering and logo.
+- Reuse approved actors, player dragon, blob spores, chitin geometry and earlier assets.
+- Continue approved 0.29.1; skipped earlier Level 6 rooms remain unfinished.
+- Verify the installed README with an atomic write to prevent a stale seed note on mounted filesystems.
+
 ## 0.29.1
 
 Replaces both green rock poses with a glossy boogery blob and recolors the wall face for visibility. Retains the exact old orb and an independent restore choice. Native face outlines, gameplay and all prior assets remain unchanged.

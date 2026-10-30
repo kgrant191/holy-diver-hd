@@ -203,3 +203,9 @@ Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-fra
 ## Level 6 organic hall input
 
 `Holy_Diver_HD(20261029-215619).mmo` contains 4,761 controller frames; SHA-256 `30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067`. It covers the accepted shaft exit and A3AF/mode10, including Overdrive, Blizzard and pauses. Input bytes and raw captures remain outside Git. `make_level6_organic_edge.py` derives the controller-only platform route with unchanged embedded state; its metadata is saved with the compact evidence.
+
+## Level 6 finale input — 20261029-225605
+
+Local file: `Holy_Diver_HD(20261029-225605).mmo` (19,215 controller frames).
+SHA-256: `fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629`.
+Embedded starting state covers final climb A49F, attached boss A553, detached boss A58F and ending B01C through the final logo. Input/ROM/state bytes are local-only and excluded from Git. Target ROM and core checksums are recorded in the paired replay evidence.

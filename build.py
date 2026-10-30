@@ -63,7 +63,15 @@ subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_late.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_organic.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_enemy_revision.py')],cwd=r,check=True)
-pack=r/'build/Holy_Diver_(Tr)';shutil.copy2(r/'INSTALL.txt',pack/'README.txt')
+subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_finale.py')],cwd=r,check=True)
+pack=r/'build/Holy_Diver_(Tr)'
+# Use the same verified atomic-output discipline as the asset builders.
+# A fast copy can retain the seed README on mounted filesystems.
+note=(r/'INSTALL.txt').read_bytes();note_temp=pack/'README.writing'
+with note_temp.open('wb')as output:
+ assert output.write(note)==len(note);output.flush();os.fsync(output.fileno())
+os.replace(note_temp,pack/'README.txt')
+assert (pack/'README.txt').read_bytes()==note
 subprocess.run([sys.executable,str(r/'scripts/validate_pack.py'),str(pack)],check=True)
 archive=r/f'build/Holy_Diver_HD_v{version}.zip'
 buffer=io.BytesIO()

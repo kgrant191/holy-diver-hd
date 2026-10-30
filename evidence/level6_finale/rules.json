@@ -1,0 +1,42 @@
+{
+  "prior_assets_exact": 150,
+  "exact_0291_mapping_recovery": true,
+  "new_install_files": 13,
+  "room_scopes": {
+    "A49F": "finaleA49FMode&finaleA49FLo&finaleA49FHi",
+    "A553": "finaleA553Mode&finaleA553Lo&finaleA553Hi",
+    "A58F": "finaleA58FMode&finaleA58FLo&finaleA58FHi",
+    "B01C": "finaleB01CMode&finaleB01CLo&finaleB01CHi"
+  },
+  "mappings": {
+    "final ascent decorative wall": 132,
+    "dragon transformation and fade": 55,
+    "boss1 body": 21240,
+    "boss1 static interior fill": 1560,
+    "boss2 body": 13920,
+    "boss2 static interior fill": 2280,
+    "native ceiling attachment": 120,
+    "boss joint0": 20,
+    "boss joint1": 20,
+    "boss joint2": 4,
+    "boss joint3": 8,
+    "boss connector": 30,
+    "boss shot": 1,
+    "boss arc0": 2,
+    "boss arc1": 4,
+    "boss arc2": 3,
+    "approved green blob": 8,
+    "red boss spore": 4,
+    "native empty space": 120,
+    "ending dragon": 465
+  },
+  "alias_rules": 9739,
+  "native_aliases_exact": true,
+  "whole_component_bounds_exact": true,
+  "ending_poses": 2,
+  "ending_shared_tail_exact": true,
+  "ending_lettering_unchanged": true,
+  "static_fills_never_destroyed_parts": true,
+  "original_orb_standby_exact": true,
+  "bounded_unique_body_neighbor_probes": 32
+}

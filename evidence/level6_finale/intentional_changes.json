@@ -1,0 +1,25 @@
+{
+  "version": "0.30.0",
+  "status": "review candidate, not approved",
+  "baseline": "0.29.1",
+  "preserved_assets": 150,
+  "changed_files": {
+    "README.txt": "Version, final climb, two boss forms and ending scope; earlier skipped rooms remain unfinished.",
+    "hires.txt": "Removable room-scoped final climb, both boss forms, attacks, native fades and ending dragon. Finished ending font/logo unchanged. Final guards preserve the five-frame boss transition blackout and eight-frame all-black ending dragon fade."
+  },
+  "added_files": [
+    "Final_Citadel_Finale_2x.png",
+    "Final_Citadel_Last_Ascent.png",
+    "Final_Citadel_Last_Ascent_flash.png",
+    "Final_Citadel_Last_Chamber.png",
+    "Final_Citadel_Last_Chamber_fade1.png",
+    "Final_Citadel_Last_Chamber_fade2.png",
+    "Final_Citadel_Last_Chamber_fade3.png",
+    "Final_Citadel_Last_Chamber_flash.png",
+    "Final_Citadel_Last_Void.png",
+    "Final_Citadel_Last_Void_fade1.png",
+    "Final_Citadel_Last_Void_fade2.png",
+    "Final_Citadel_Last_Void_fade3.png",
+    "Final_Citadel_Last_Void_flash.png"
+  ]
+}

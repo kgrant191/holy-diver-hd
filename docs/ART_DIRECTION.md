@@ -1,5 +1,9 @@
 # Art direction
 
+## Level 6 finale
+
+Use distinct open crimson ascent, enclosed red sanctum and blue-violet void. Both boss forms share the same crimson brain, amber eyes and ivory ridges; preserve native dismemberment and attacks. The ending dragon follows the approved green/gold identity. Keep completed Gothic ending lettering and logo. See LEVEL6_FINALE.md.
+
 ## Level 6 enemy revision 0.29.1
 
 See [enemy revision](LEVEL6_ENEMY_REVISION.md) for the scoped two-pose blob, bone-gray face and independent original-orb restoration.

@@ -1,0 +1,12 @@
+{
+  "version": "0.30.0",
+  "isolated_source_copy": true,
+  "all_165_files_exact": true,
+  "all_historical_validators_passed": true,
+  "flat_archive": true,
+  "zip_crc_passed": true,
+  "archive_sha256": "c9b980f7e9325e36564b15260fc547c608cd6a3758004b065aee212a7a3b047b",
+  "archive_bytes": 39777633,
+  "build_scripts_identical_to_delivery": true,
+  "install_note_io_repair": "The fresh asset build and full historical validation passed. Fast copy retained the seed README. build.py now writes the note atomically, verifies its bytes, then packages. That corrected note/archive tail was rerun on the freshly built assets; all 165 hashes now pass."
+}

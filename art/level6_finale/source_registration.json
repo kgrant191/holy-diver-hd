@@ -1,0 +1,38 @@
+{
+  "boss1": {
+    "size": [
+      320,
+      208
+    ],
+    "box": [
+      96,
+      32,
+      416,
+      240
+    ],
+    "unique_cells": 177,
+    "static_interior_fill_cells": 13,
+    "native_dynamic_blank_cells_preserved": true
+  },
+  "boss2": {
+    "size": [
+      224,
+      192
+    ],
+    "box": [
+      144,
+      144,
+      368,
+      336
+    ],
+    "unique_cells": 116,
+    "static_interior_fill_cells": 19,
+    "native_dynamic_blank_cells_preserved": true
+  },
+  "ending_dragon": {
+    "poses": 2,
+    "shared_tail_cells": 3,
+    "clipped_pixels": 0,
+    "native_cell_unions_exact": true
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "movie": {
+    "movie_sha256": "30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 4761,
+    "seconds_wall": 236.05587411799934,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 4761
+  },
+  "native_samples_per_type": 4761,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "5d7300524056cb10bae638d00623cc99b19c52a9fb422480b51d4d85a1c96ca7",
+  "pcm_sha256": "98ba2c377d094b989b6fb13595d1bcd00150dfe93559b560d23d4d037076cb95",
+  "final_manifest_verified": true,
+  "final_scope_replay": {
+    "movie_sha256": "fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 1801,
+    "seconds_wall": 392.0383628710042,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 19215,
+    "capture_windows": [
+      [
+        7400,
+        9200
+      ]
+    ]
+  },
+  "full_capture_manifest": "pre_blackout_fix-pack-sha256.json",
+  "final_scope_proof": "blackout_repair.json",
+  "ending_second_pose_whole_visible": false,
+  "ending_second_pose_note": "Both pose mappings and shared tail are statically verified. The second pose has native behind-background priority during scrolling text; do not force it forward to manufacture a whole-source match.",
+  "images": {
+    "empty_initial": 1,
+    "identical": 4760
+  },
+  "rooms": {},
+  "live_whole_source_matches": {},
+  "source_names_not_observed": [
+    "arc0",
+    "arc1",
+    "arc2",
+    "boss1",
+    "boss2",
+    "connector",
+    "ending_dragon0",
+    "ending_dragon1",
+    "joint0",
+    "joint1",
+    "joint2",
+    "joint3",
+    "shot"
+  ],
+  "backdrop_exceptions": [],
+  "ending_changes_outside_native_dragon_bounds": [],
+  "earlier_images_exact": true
+}

@@ -1,5 +1,7 @@
 # Holy Diver HD
 
+**Level 6 finale — 0.30.0 review.** Final crimson climb, two complete boss forms, separate red sanctum and blue-violet void, and updated ending dragon. Includes approved 0.29.1. Earlier skipped Level 6 rooms remain unfinished. [Scope and checks](docs/LEVEL6_FINALE.md).
+
 **Approved continuation: 0.29.1.** The blob and wall-face revision is accepted. Next: final screen, both boss rooms and ending; skipped earlier Level 6 rooms remain unfinished. Main stays 0.24.0.
 
 **Level 6 enemy revision — 0.29.1 review.** The green enemy is now a glossy mucus blob in both animation poses. The wall face has bone-gray plates and pale ridges for contrast against the red room. The exact original green orb remains on standby and can be restored without reverting the face. Latest accepted continuation is 0.28.0; 0.29.0 and this revision are review candidates. Main remains 0.24.0. No push, PR, merge, tag or release is authorized. See docs/LEVEL6_ENEMY_REVISION.md.

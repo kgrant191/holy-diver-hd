@@ -1,5 +1,9 @@
 # Current status
 
+## Current candidate — Level 6 finale 0.30.0
+
+Final climb, both boss rooms and ending implemented and verified. The 19,215-frame native/audio comparison, 1,801-frame final blackout window, 4,761-frame earlier-room regression, 165-file isolated build/package and full preview decode pass. All 4,760 earlier rendered images remain exact; native blackouts and distinct backdrops pass. Approved continuation is 0.29.1; main remains 0.24.0. Earlier skipped Level 6 rooms remain unfinished. No push, PR, merge, tag or release. See docs/LEVEL6_FINALE.md.
+
 ## Approved continuation — 0.29.1; finale next
 
 The user approved 0.29.1, including the mucus blob and higher-contrast wall face, and supplied the 20261029-225605 movie for the final screen, two boss rooms and ending. Preserve all 152 approved install files, original orb standby, native gameplay and audio. Main remains 0.24.0; no push, PR, merge, tag or release is authorized. The skipped earlier Level 6 rooms remain unfinished even after this movie is covered. See evidence/level6_enemy_revision/approval.json.

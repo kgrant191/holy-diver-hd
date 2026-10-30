@@ -1,5 +1,9 @@
 # Build and live testing
 
+## Level 6 finale 0.30.0
+
+Pair the full 19,215-frame final-screen/boss/ending movie against approved 0.29.1 at stride one. Require exact RAM/PPU/OAM/view/APU/full PCM, menus/blackouts, connected whole boss forms during native scrolling and lateral motion, and the visible complete ending pose. Verify both ending pose mappings statically and preserve the second pose's native behind-background priority during text. Check all bounded relative body anchors with the native observer. Pair the prior 4,761-frame movie as an exact-image regression; run an isolated build, all historical validators, 165-file manifest, preview decode and fresh main-only source-bundle import. See LEVEL6_FINALE.md.
+
 ## Level 6 enemy revision 0.29.1
 
 See [enemy revision](LEVEL6_ENEMY_REVISION.md) for the scoped two-pose blob, bone-gray face and independent original-orb restoration.
