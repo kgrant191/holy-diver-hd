@@ -1,4 +1,10 @@
-# Current candidate — 0.31.0: final recorded Level 6 rooms
+# Approved continuation — 0.31.0; push and merge authorized
+
+On 2026-10-29 the user approved the delivered final recorded Level 6 rooms and requested push and merge. All 173 reviewed installation files remain frozen. Approval bookkeeping changes source documentation only; the installed README and INSTALL.txt are unchanged. The feature branch is not yet on GitHub, so source push, PR checks, actual artifact verification and merge remain pending. No further merge approval is needed. Approved main is still 0.30.1 at 56ee5aaa until adoption.
+
+After adoption, the remaining work is final cleanup before preparing the completed release. No release/tag is requested now. See evidence/level6_missed/approval.json. The prior review status below is retained as history and superseded by this approval.
+
+# Reviewed scope — 0.31.0: final recorded Level 6 rooms
 
 The user supplied Holy_Diver_HD(20261030-015933).mmo for the final skipped rooms and requests checking the first room too. Work on feature/level6-missed-rooms from approved main 56ee5aaa (0.30.1, PR #28). Scope 9CA7/mode0C, 9D5B/mode08 and 9DD3/mode18. Preserve all 164 previous art/audio/patch files and exact removable 0.30.1 mappings. Complete the first corridor with red brick and a distinct crimson gallery; use distinct purple chapel/arcade backgrounds and violet material for the two new rooms. Preserve native terrain hulls, lava/ice animation, player pose conditions, native timing/audio, menus/death cards and blackouts. Reuse approved eye/tear art for FF060C30 and exact serpent/dragon art for the newly observed palettes. No new neighbor probes. Full paired 8998-frame replay must cover Thunder, dragon flash, deaths/retries and both room transitions. Preserve the final 9F3B images. This is a new review candidate; the prior merge approval does not approve these new changes. Cleanup and completed release follow user approval.
 

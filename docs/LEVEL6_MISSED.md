@@ -5,9 +5,14 @@ and asked whether its first room needed changes too. The first corridor still
 had blue-gray brick mass despite its original red palette, and its eyes were
 missing the native `FF060C30` palette. Both are corrected.
 
-This is a new review candidate on `feature/level6-missed-rooms`, based on
-approved main `56ee5aaa20d392ac916f32160d31c64a4c1ea22a` (0.30.1, PR #28).
-No push, PR, merge or release has been performed for this candidate.
+The user approved this update on 2026-10-29 and authorized push and merge.
+The reviewed artwork commit is `f09f68269a02ceefbacbd2534f3c682570478a7d`
+on `feature/level6-missed-rooms`, based on approved main
+`56ee5aaa20d392ac916f32160d31c64a4c1ea22a` (0.30.1, PR #28).
+Approval bookkeeping preserves all 173 reviewed installation files, including
+the installed README and its INSTALL.txt source. Source push, PR checks,
+actual artifact verification and merge are pending. No further merge approval
+is needed. See `evidence/level6_missed/approval.json`.
 
 | Native room | Recorded frames | Updated treatment |
 | --- | --- | --- |
@@ -78,5 +83,6 @@ samples, APU writes and complete PCM audio match the approved baseline.
 Evidence is in `evidence/level6_missed/`, including the replay, edge route,
 clean build, static rules, preview and actual-capture contact sheet.
 
-Next: user review of this update, then the requested cleanup elsewhere before
-the completed release. Version1.0.0 remains reserved for that finished pack.
+Next: adopt this approved update, then final cleanup before the completed
+release. No release/tag is requested now. Version1.0.0 remains reserved for
+the finished, tested pack.
