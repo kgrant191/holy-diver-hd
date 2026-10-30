@@ -6,4 +6,4 @@ Generated source images are retained in art/generated/. Registration metadata, a
 
 The DejaVu font is accompanied by art/fonts/LICENSE-DejaVu.txt.
 
-No general open-source license has been selected for this private project. Distribution and licensing can be decided separately before public publication.
+No general open-source license has been selected for this project.
