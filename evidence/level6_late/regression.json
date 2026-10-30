@@ -1,0 +1,56 @@
+{
+  "movie": {
+    "movie_sha256": "d1e51fb31777afcf0be5c69671281532106a6abcb82b6ecc29ffdf2b97c1e7f0",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 3393,
+    "seconds_wall": 162.41397411899743,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 3393
+  },
+  "native_samples_per_type": 3393,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "729b3b21c7a138c532d49560f988454255e42a793a512a7ab9c063988fa8b554",
+  "pcm_sha256": "8f2a23c1e14765b9c3752179a85e24fabb8100975782eacd42e78d057fec3a33",
+  "delivered_runtime_exact": true,
+  "images": {
+    "empty_initial": 1,
+    "identical": 3392
+  },
+  "rooms": {
+    "9F3B": 341,
+    "A02B": 1156,
+    "A0DF": 1819,
+    "FFFF": 60,
+    "0000": 16
+  },
+  "backgrounds": {},
+  "missing_backgrounds": [],
+  "live_whole_source_matches": {},
+  "sources_not_observed_whole": [
+    "crawler_leap",
+    "crawler_rest",
+    "eye",
+    "floating_ledge",
+    "flying_skull_0",
+    "flying_skull_1",
+    "green_crypt_ceiling",
+    "green_crypt_floor",
+    "green_shaft_center",
+    "green_shaft_floor",
+    "green_shaft_pillar",
+    "green_upper_ceiling",
+    "skull",
+    "tear_02DC",
+    "tear_02DD"
+  ],
+  "first_changed": null,
+  "last_changed": null,
+  "outgoing_room_boundaries": [],
+  "regression": true,
+  "live_new_room_Thunder_or_dragon_flash_coverage": false
+}

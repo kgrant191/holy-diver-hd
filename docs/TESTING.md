@@ -1,4 +1,50 @@
+## Level 6 finale repair verification
+
+Run `python3 scripts/verify_level6_finale_repair_rules.py` and the full historical chain through `python3 scripts/validate_pack.py "build/Holy_Diver_(Tr)"`. The two full replays are checked by `verify_level6_finale_repair_replay.py`, using the final 0.30.0 composite PNGs for the finale and the approved enemy-revision capture for the earlier face room. Use `--earlier` for the latter. Actual image changes must stay inside the requested native cell unions; boss images, blackouts and full state/audio remain exact. See `docs/LEVEL6_FINALE_REPAIR.md`.
+
 # Build and live testing
+
+## Level 6 finale 0.30.0
+
+Pair the full 19,215-frame final-screen/boss/ending movie against approved 0.29.1 at stride one. Require exact RAM/PPU/OAM/view/APU/full PCM, menus/blackouts, connected whole boss forms during native scrolling and lateral motion, and the visible complete ending pose. Verify both ending pose mappings statically and preserve the second pose's native behind-background priority during text. Check all bounded relative body anchors with the native observer. Pair the prior 4,761-frame movie as an exact-image regression; run an isolated build, all historical validators, 165-file manifest, preview decode and fresh main-only source-bundle import. See LEVEL6_FINALE.md.
+
+## Level 6 enemy revision 0.29.1
+
+See [enemy revision](LEVEL6_ENEMY_REVISION.md) for the scoped two-pose blob, bone-gray face and independent original-orb restoration.
+
+## Level 6 crimson organic hall — 0.29.0
+
+Completed validation: the full 4,761-frame new-room replay, 731-frame platform route and 7,648-frame earlier-room regression preserve native state and complete audio. All 7,647 earlier rendered images remain exact. New terrain, face and orb sources, accepted lava/ice/projectile sources, backdrop continuity, isolated clean build and all 151 install hashes pass. See `evidence/level6_organic/`.
+
+Pair the 4,761-frame movie against frozen 0.28.0 at stride one, checking every native state sample, APU/full PCM, room backdrop continuity, menus/blackouts and whole registered terrain/face/orb sources. Pair the previous 7,648-frame movie as an exact-image regression. Use the controller-only edge branch for a left-edge stop and slow right walk-off. Run the isolated clean build, historical validators, 151-file manifest, archive CRCs and source-bundle import. Coverage and results are in LEVEL6_ORGANIC.md and evidence/level6_organic/.
+
+## Level 6 green hall and descent — 0.28.0
+
+Completed: all three paired routes pass native state and full audio checks; the earlier route also passes exact-image regression. All 15 inspected whole sources and both scrolling panoramas pass. The isolated clean build, historical validators, 148-file manifest, archive CRCs and full preview decode pass. Evidence is in `evidence/level6_late/`.
+
+Pair all 7,648 frames of the new movie against accepted 0.27.0, comparing native RAM/PPU/OAM/view/APU/full PCM, menu/blackout images, room-specific panoramas and complete actor/terrain sources. Pair the earlier 3,393-frame movie as an exact-image regression. The 700-frame controller branch tests the entry floor left stop and slow right walk-off. Run an isolated clean build, full historical validators, archive CRCs, manifest checks and source-bundle import verification.
+
+## Level 6 room variety — 0.27.0
+
+Completed validation: full new-room and opening replays plus the corridor edge route match native execution and full audio. Both sentinel hit colors match whole HD sources in both directions. The isolated build passes all historical validators; all 143 install file hashes match. See `evidence/level6_variety/` for results.
+
+Pair the complete 3,393-frame movie with exact 0.26.0, checking both damage palettes, the full climb, A0DF combat, pause and death/card transition. Pair the original 6,427-frame opening movie and the 367 captured edge-route frames. Native RAM/PPU/OAM/view/APU and full PCM must match. Inspect actual whole-source matches, both mirrored hit sources, source masks and room-specific panorama coverage. The new recording contains no Thunder/dragon flash cast; normal/resume/30/31 rules are statically complete. Run the full historical validator chain and isolated clean build.
+
+## Level 6 skull corridor — 0.26.0
+
+Replay all 2528 frames of 20261029-181929 at stride one against 0.25.1 and the candidate. `verify_level6_next_replay.py` requires identical native RAM/PPU/OAM/view, APU/full PCM, exact menus/blackouts and source matches for whole terrain, four sentinel poses, flying skull and both crawler poses. The first full capture predates only the install-note correction from "ghouls" to "flying skulls"; its retained note must match exactly and every runtime byte stays frozen. Edge and original-movie regression use the final complete manifest.
+
+`make_level6_next_edge.py` preserves the original state and first 1400 controller frames, then walks left, stops and slowly walks right off the full 144-native-pixel corridor platform. Pair its 1400–1766 window at stride one with the stock-core neighbor observer. `verify_level6_next_edge.py` compares native state/full audio and the complete 288×160 HD platform. Replay the original 6427-frame Level 6 movie with `--regression`; every screenshot must stay identical. New-room spell flashes have static rule/source coverage only. Keep the complete historical validator chain and 136-file manifest. See LEVEL6_NEXT.md.
+
+## Level 6 ceiling and 1-up — 0.25.1
+
+Pair the complete 1147-frame 20261029-173117 recording at stride 1 against 0.25.0. `verify_level6_repair_replay.py` requires exact RAM/PPU/OAM/view, APU and full PCM; all changed pixels must be inside the newly exposed native ceiling or 1-up footprint, with exact existing stone pixels and complete figurine source matches. Verify the life count changes at native frame 858. Replay the original 6427-frame Level 6 movie against the repair with `--regression` and allow only the requested 1-up changes, with all other rendered pixels exact. Keep the stock-core neighbor observer active. The static validator preserves all 132 earlier assets and projects exact 0.25.0 through the historical chain. See LEVEL6_REPAIR.md.
+
+## Level 6 opening — 0.25.0
+
+Replay the complete 6427-frame 20261029-152041 movie at stride 1 against approved 0.24.0 and the candidate. Compare RAM/PPU/OAM/view, APU writes and full PCM using verify_level6_opening_replay.py. Check the new panoramas in every rendered gameplay frame, including dragon acquisition and Thunder, exact menus outside the cape, native blackouts and complete registered stone/skull/cape source matches. The full-movie capture predates only the versioned README; require every delivered runtime byte to match.
+
+make_level6_edge.py changes only controller input in the original movie: stop at the opening platform’s left edge, walk right slowly and fall naturally. Pair it at stride 1 with check_hd_neighbor_bounds.cpp active. Verify the full platform span and first descent against native state. No RAM edits. validate_pack.py must recover exact 0.24.0 and pass every historical validator; verify_release.py must match all 134 delivered hashes. See LEVEL6_OPENING.md and evidence/level6_opening/.
 
 Palace baseline projections copy unchanged assets into their temporary packs.
 Do not hard-link them: GitHub runners may mount the checkout and `/tmp` on

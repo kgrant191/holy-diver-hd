@@ -1,0 +1,59 @@
+{
+  "matches": {
+    "flying_skull_1_mirrored": {
+      "frame": 956,
+      "positions": [
+        [
+          150,
+          142
+        ]
+      ]
+    },
+    "flying_skull_0_mirrored": {
+      "frame": 960,
+      "positions": [
+        [
+          156,
+          156
+        ]
+      ]
+    },
+    "sentinel_2_mirrored": {
+      "frame": 1268,
+      "positions": [
+        [
+          236,
+          356
+        ]
+      ]
+    },
+    "sentinel_0_mirrored": {
+      "frame": 1892,
+      "positions": [
+        [
+          234,
+          288
+        ]
+      ]
+    },
+    "sentinel_3_mirrored": {
+      "frame": 1916,
+      "positions": [
+        [
+          260,
+          288
+        ]
+      ]
+    },
+    "sentinel_1_mirrored": {
+      "frame": 1940,
+      "positions": [
+        [
+          268,
+          288
+        ]
+      ]
+    }
+  },
+  "unobserved": []
+}

@@ -1,0 +1,8 @@
+{
+  "version": "0.29.1",
+  "isolated_source_copy": true,
+  "install_files": 152,
+  "all_manifest_hashes_exact": true,
+  "all_historical_validators_passed": true,
+  "verify_release_passed": true
+}

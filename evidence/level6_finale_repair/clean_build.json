@@ -1,0 +1,8 @@
+{
+  "isolated_build_passed": true,
+  "all_166_files_exact": true,
+  "complete_historical_validator_chain_passed": true,
+  "flat_zip_crc_passed": true,
+  "zip_sha256": "ef65fadc45e092d379a0a183bded67152140055f704c7a5f6c2a29cd9197d20f",
+  "final_face_priority_change_included": true
+}

@@ -1,0 +1,2062 @@
+{
+  "atlas_index": 68,
+  "scope": "organicMode&organicLo&organicHi",
+  "choice": "blob",
+  "mappings": [
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,0F162638,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,0F162638,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,0F162638,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,0F162638,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,0F162638,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,0F162638,32,96,1,N",
+      "tile": "1B80",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,0F162638,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,0F162638,16,96,1,N",
+      "tile": "1B81",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,0F162638,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,0F162638,32,80,1,N",
+      "tile": "1B82",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,0F162638,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,0F162638,16,80,1,N",
+      "tile": "1B83",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,0F162638,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,0F162638,32,64,1,N",
+      "tile": "1B84",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,0F162638,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,0F162638,16,64,1,N",
+      "tile": "1B85",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,0F162638,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,0F162638,32,48,1,N",
+      "tile": "1B86",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,0F162638,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,0F162638,16,48,1,N",
+      "tile": "1B87",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,0F162638,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,0F162638,32,32,1,N",
+      "tile": "1B88",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,0F162638,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,0F162638,16,32,1,N",
+      "tile": "1B89",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,0F162638,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,0F162638,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "0F162638",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,0F162638,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,0F162638,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,0F162638,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,0F162638,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,0F162638,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,0F162638,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "0F162638",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,0F162638,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,0F162638,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "0F162638",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,0F162638,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,0F162638,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "0F162638",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,0F162638,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,0F162638,0,0,1,N",
+      "tile": "1B90",
+      "palette": "0F162638",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,0F072830,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,0F072830,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,0F072830,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,0F072830,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,0F072830,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,0F072830,32,96,1,N",
+      "tile": "1B80",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,0F072830,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,0F072830,16,96,1,N",
+      "tile": "1B81",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,0F072830,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,0F072830,32,80,1,N",
+      "tile": "1B82",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,0F072830,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,0F072830,16,80,1,N",
+      "tile": "1B83",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,0F072830,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,0F072830,32,64,1,N",
+      "tile": "1B84",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,0F072830,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,0F072830,16,64,1,N",
+      "tile": "1B85",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,0F072830,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,0F072830,32,48,1,N",
+      "tile": "1B86",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,0F072830,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,0F072830,16,48,1,N",
+      "tile": "1B87",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,0F072830,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,0F072830,32,32,1,N",
+      "tile": "1B88",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,0F072830,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,0F072830,16,32,1,N",
+      "tile": "1B89",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,0F072830,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,0F072830,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,0F072830,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,0F072830,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,0F072830,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,0F072830,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,0F072830,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,0F072830,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,0F072830,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,0F072830,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "0F072830",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,0F072830,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,0F072830,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "0F072830",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,0F072830,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,0F072830,0,0,1,N",
+      "tile": "1B90",
+      "palette": "0F072830",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,0F0A1A39,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,0F0A1A39,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,0F0A1A39,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,0F0A1A39,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,0F0A1A39,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,0F0A1A39,32,96,1,N",
+      "tile": "1B80",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,0F0A1A39,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,0F0A1A39,16,96,1,N",
+      "tile": "1B81",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,0F0A1A39,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,0F0A1A39,32,80,1,N",
+      "tile": "1B82",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,0F0A1A39,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,0F0A1A39,16,80,1,N",
+      "tile": "1B83",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,0F0A1A39,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,0F0A1A39,32,64,1,N",
+      "tile": "1B84",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,0F0A1A39,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,0F0A1A39,16,64,1,N",
+      "tile": "1B85",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,0F0A1A39,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,0F0A1A39,32,48,1,N",
+      "tile": "1B86",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,0F0A1A39,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,0F0A1A39,16,48,1,N",
+      "tile": "1B87",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,0F0A1A39,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,0F0A1A39,32,32,1,N",
+      "tile": "1B88",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,0F0A1A39,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,0F0A1A39,16,32,1,N",
+      "tile": "1B89",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,0F0A1A39,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,0F0A1A39,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "0F0A1A39",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,0F0A1A39,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,0F0A1A39,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,0F0A1A39,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,0F0A1A39,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,0F0A1A39,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,0F0A1A39,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "0F0A1A39",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,0F0A1A39,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,0F0A1A39,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "0F0A1A39",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,0F0A1A39,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,0F0A1A39,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "0F0A1A39",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,0F0A1A39,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,0F0A1A39,0,0,1,N",
+      "tile": "1B90",
+      "palette": "0F0A1A39",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,30162638,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,30162638,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "30162638",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,30162638,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,30162638,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "30162638",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,30162638,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,30162638,32,96,1,N",
+      "tile": "1B80",
+      "palette": "30162638",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,30162638,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,30162638,16,96,1,N",
+      "tile": "1B81",
+      "palette": "30162638",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,30162638,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,30162638,32,80,1,N",
+      "tile": "1B82",
+      "palette": "30162638",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,30162638,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,30162638,16,80,1,N",
+      "tile": "1B83",
+      "palette": "30162638",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,30162638,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,30162638,32,64,1,N",
+      "tile": "1B84",
+      "palette": "30162638",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,30162638,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,30162638,16,64,1,N",
+      "tile": "1B85",
+      "palette": "30162638",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,30162638,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,30162638,32,48,1,N",
+      "tile": "1B86",
+      "palette": "30162638",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,30162638,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,30162638,16,48,1,N",
+      "tile": "1B87",
+      "palette": "30162638",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,30162638,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,30162638,32,32,1,N",
+      "tile": "1B88",
+      "palette": "30162638",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,30162638,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,30162638,16,32,1,N",
+      "tile": "1B89",
+      "palette": "30162638",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,30162638,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,30162638,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "30162638",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,30162638,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,30162638,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "30162638",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,30162638,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,30162638,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "30162638",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,30162638,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,30162638,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "30162638",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,30162638,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,30162638,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "30162638",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,30162638,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,30162638,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "30162638",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,30162638,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,30162638,0,0,1,N",
+      "tile": "1B90",
+      "palette": "30162638",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,30072830,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,30072830,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "30072830",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,30072830,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,30072830,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "30072830",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,30072830,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,30072830,32,96,1,N",
+      "tile": "1B80",
+      "palette": "30072830",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,30072830,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,30072830,16,96,1,N",
+      "tile": "1B81",
+      "palette": "30072830",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,30072830,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,30072830,32,80,1,N",
+      "tile": "1B82",
+      "palette": "30072830",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,30072830,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,30072830,16,80,1,N",
+      "tile": "1B83",
+      "palette": "30072830",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,30072830,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,30072830,32,64,1,N",
+      "tile": "1B84",
+      "palette": "30072830",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,30072830,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,30072830,16,64,1,N",
+      "tile": "1B85",
+      "palette": "30072830",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,30072830,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,30072830,32,48,1,N",
+      "tile": "1B86",
+      "palette": "30072830",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,30072830,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,30072830,16,48,1,N",
+      "tile": "1B87",
+      "palette": "30072830",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,30072830,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,30072830,32,32,1,N",
+      "tile": "1B88",
+      "palette": "30072830",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,30072830,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,30072830,16,32,1,N",
+      "tile": "1B89",
+      "palette": "30072830",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,30072830,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,30072830,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "30072830",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,30072830,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,30072830,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "30072830",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,30072830,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,30072830,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "30072830",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,30072830,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,30072830,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "30072830",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,30072830,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,30072830,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "30072830",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,30072830,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,30072830,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "30072830",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,30072830,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,30072830,0,0,1,N",
+      "tile": "1B90",
+      "palette": "30072830",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,300A1A39,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,300A1A39,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,300A1A39,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,300A1A39,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,300A1A39,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,300A1A39,32,96,1,N",
+      "tile": "1B80",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,300A1A39,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,300A1A39,16,96,1,N",
+      "tile": "1B81",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,300A1A39,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,300A1A39,32,80,1,N",
+      "tile": "1B82",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,300A1A39,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,300A1A39,16,80,1,N",
+      "tile": "1B83",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,300A1A39,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,300A1A39,32,64,1,N",
+      "tile": "1B84",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,300A1A39,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,300A1A39,16,64,1,N",
+      "tile": "1B85",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,300A1A39,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,300A1A39,32,48,1,N",
+      "tile": "1B86",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,300A1A39,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,300A1A39,16,48,1,N",
+      "tile": "1B87",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,300A1A39,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,300A1A39,32,32,1,N",
+      "tile": "1B88",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,300A1A39,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,300A1A39,16,32,1,N",
+      "tile": "1B89",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,300A1A39,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,300A1A39,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "300A1A39",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,300A1A39,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,300A1A39,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,300A1A39,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,300A1A39,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,300A1A39,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,300A1A39,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "300A1A39",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,300A1A39,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,300A1A39,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "300A1A39",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,300A1A39,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,300A1A39,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "300A1A39",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,300A1A39,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,300A1A39,0,0,1,N",
+      "tile": "1B90",
+      "palette": "300A1A39",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,31162638,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,31162638,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "31162638",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,31162638,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,31162638,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "31162638",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,31162638,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,31162638,32,96,1,N",
+      "tile": "1B80",
+      "palette": "31162638",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,31162638,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,31162638,16,96,1,N",
+      "tile": "1B81",
+      "palette": "31162638",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,31162638,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,31162638,32,80,1,N",
+      "tile": "1B82",
+      "palette": "31162638",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,31162638,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,31162638,16,80,1,N",
+      "tile": "1B83",
+      "palette": "31162638",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,31162638,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,31162638,32,64,1,N",
+      "tile": "1B84",
+      "palette": "31162638",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,31162638,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,31162638,16,64,1,N",
+      "tile": "1B85",
+      "palette": "31162638",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,31162638,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,31162638,32,48,1,N",
+      "tile": "1B86",
+      "palette": "31162638",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,31162638,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,31162638,16,48,1,N",
+      "tile": "1B87",
+      "palette": "31162638",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,31162638,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,31162638,32,32,1,N",
+      "tile": "1B88",
+      "palette": "31162638",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,31162638,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,31162638,16,32,1,N",
+      "tile": "1B89",
+      "palette": "31162638",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,31162638,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,31162638,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "31162638",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,31162638,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,31162638,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "31162638",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,31162638,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,31162638,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "31162638",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,31162638,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,31162638,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "31162638",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,31162638,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,31162638,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "31162638",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,31162638,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,31162638,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "31162638",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,31162638,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,31162638,0,0,1,N",
+      "tile": "1B90",
+      "palette": "31162638",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,31072830,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,31072830,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "31072830",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,31072830,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,31072830,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "31072830",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,31072830,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,31072830,32,96,1,N",
+      "tile": "1B80",
+      "palette": "31072830",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,31072830,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,31072830,16,96,1,N",
+      "tile": "1B81",
+      "palette": "31072830",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,31072830,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,31072830,32,80,1,N",
+      "tile": "1B82",
+      "palette": "31072830",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,31072830,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,31072830,16,80,1,N",
+      "tile": "1B83",
+      "palette": "31072830",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,31072830,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,31072830,32,64,1,N",
+      "tile": "1B84",
+      "palette": "31072830",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,31072830,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,31072830,16,64,1,N",
+      "tile": "1B85",
+      "palette": "31072830",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,31072830,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,31072830,32,48,1,N",
+      "tile": "1B86",
+      "palette": "31072830",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,31072830,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,31072830,16,48,1,N",
+      "tile": "1B87",
+      "palette": "31072830",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,31072830,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,31072830,32,32,1,N",
+      "tile": "1B88",
+      "palette": "31072830",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,31072830,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,31072830,16,32,1,N",
+      "tile": "1B89",
+      "palette": "31072830",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,31072830,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,31072830,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "31072830",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,31072830,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,31072830,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "31072830",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,31072830,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,31072830,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "31072830",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,31072830,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,31072830,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "31072830",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,31072830,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,31072830,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "31072830",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,31072830,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,31072830,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "31072830",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,31072830,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,31072830,0,0,1,N",
+      "tile": "1B90",
+      "palette": "31072830",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7E,310A1A39,240,48,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7E,310A1A39,32,112,1,N",
+      "tile": "1B7E",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B7F,310A1A39,0,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B7F,310A1A39,16,112,1,N",
+      "tile": "1B7F",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        112
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B80,310A1A39,16,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B80,310A1A39,32,96,1,N",
+      "tile": "1B80",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B81,310A1A39,32,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B81,310A1A39,16,96,1,N",
+      "tile": "1B81",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        96
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B82,310A1A39,48,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B82,310A1A39,32,80,1,N",
+      "tile": "1B82",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B83,310A1A39,64,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B83,310A1A39,16,80,1,N",
+      "tile": "1B83",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        80
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B84,310A1A39,80,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B84,310A1A39,32,64,1,N",
+      "tile": "1B84",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B85,310A1A39,96,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B85,310A1A39,16,64,1,N",
+      "tile": "1B85",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        64
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B86,310A1A39,112,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B86,310A1A39,32,48,1,N",
+      "tile": "1B86",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B87,310A1A39,128,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B87,310A1A39,16,48,1,N",
+      "tile": "1B87",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        48
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B88,310A1A39,144,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B88,310A1A39,32,32,1,N",
+      "tile": "1B88",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B89,310A1A39,160,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B89,310A1A39,16,32,1,N",
+      "tile": "1B89",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8A,310A1A39,176,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8A,310A1A39,0,32,1,N",
+      "tile": "1B8A",
+      "palette": "310A1A39",
+      "xy": [
+        0,
+        32
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8B,310A1A39,192,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8B,310A1A39,32,16,1,N",
+      "tile": "1B8B",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8C,310A1A39,208,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8C,310A1A39,16,16,1,N",
+      "tile": "1B8C",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8D,310A1A39,224,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8D,310A1A39,0,16,1,N",
+      "tile": "1B8D",
+      "palette": "310A1A39",
+      "xy": [
+        0,
+        16
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8E,310A1A39,240,64,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8E,310A1A39,32,0,1,N",
+      "tile": "1B8E",
+      "palette": "310A1A39",
+      "xy": [
+        32,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B8F,310A1A39,0,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B8F,310A1A39,16,0,1,N",
+      "tile": "1B8F",
+      "palette": "310A1A39",
+      "xy": [
+        16,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1B90,310A1A39,16,80,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1B90,310A1A39,0,0,1,N",
+      "tile": "1B90",
+      "palette": "310A1A39",
+      "xy": [
+        0,
+        0
+      ],
+      "kind": "wall face color"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1A9C,FF0A1930,128,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1A9C,FF0A1930,48,0,1,N",
+      "tile": "1A9C",
+      "palette": "FF0A1930",
+      "xy": [
+        48,
+        0
+      ],
+      "kind": "mucus blob"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1A9D,FF0A1930,144,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1A9D,FF0A1930,64,0,1,N",
+      "tile": "1A9D",
+      "palette": "FF0A1930",
+      "xy": [
+        64,
+        0
+      ],
+      "kind": "mucus blob"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1A9E,FF0A1930,160,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1A9E,FF0A1930,48,16,1,N",
+      "tile": "1A9E",
+      "palette": "FF0A1930",
+      "xy": [
+        48,
+        16
+      ],
+      "kind": "mucus blob"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1A9F,FF0A1930,176,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1A9F,FF0A1930,64,16,1,N",
+      "tile": "1A9F",
+      "palette": "FF0A1930",
+      "xy": [
+        64,
+        16
+      ],
+      "kind": "mucus blob"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1AA0,FF0A1930,192,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1AA0,FF0A1930,80,0,1,N",
+      "tile": "1AA0",
+      "palette": "FF0A1930",
+      "xy": [
+        80,
+        0
+      ],
+      "kind": "mucus blob"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1AA1,FF0A1930,208,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1AA1,FF0A1930,96,0,1,N",
+      "tile": "1AA1",
+      "palette": "FF0A1930",
+      "xy": [
+        96,
+        0
+      ],
+      "kind": "mucus blob"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1AA2,FF0A1930,224,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1AA2,FF0A1930,80,16,1,N",
+      "tile": "1AA2",
+      "palette": "FF0A1930",
+      "xy": [
+        80,
+        16
+      ],
+      "kind": "mucus blob"
+    },
+    {
+      "source_rule": "[organicMode&organicLo&organicHi]<tile>67,1AA3,FF0A1930,240,128,1,N",
+      "rule": "[organicMode&organicLo&organicHi]<tile>68,1AA3,FF0A1930,96,16,1,N",
+      "tile": "1AA3",
+      "palette": "FF0A1930",
+      "xy": [
+        96,
+        16
+      ],
+      "kind": "mucus blob"
+    }
+  ],
+  "face_layout": [
+    [
+      7056,
+      7055,
+      7054
+    ],
+    [
+      7053,
+      7052,
+      7051
+    ],
+    [
+      7050,
+      7049,
+      7048
+    ],
+    [
+      7053,
+      7047,
+      7046
+    ],
+    [
+      7050,
+      7045,
+      7044
+    ],
+    [
+      7053,
+      7043,
+      7042
+    ],
+    [
+      7050,
+      7041,
+      7040
+    ],
+    [
+      7053,
+      7039,
+      7038
+    ]
+  ],
+  "poses": [
+    {
+      "name": "blob_0",
+      "layout": [
+        [
+          6812,
+          6813
+        ],
+        [
+          6814,
+          6815
+        ]
+      ],
+      "xy": [
+        48,
+        0
+      ],
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "name": "blob_1",
+      "layout": [
+        [
+          6816,
+          6817
+        ],
+        [
+          6818,
+          6819
+        ]
+      ],
+      "xy": [
+        80,
+        0
+      ],
+      "size": [
+        32,
+        32
+      ]
+    }
+  ]
+}

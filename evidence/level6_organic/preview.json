@@ -1,0 +1,15 @@
+{
+  "filename": "Holy_Diver_Level6_v0.29.0_Preview.mp4",
+  "sha256": "97f258cca7a9bd9e9ae4d0765c978ad21179919102d897d68512ccf2dd9e8535",
+  "size": 12413618,
+  "frames": 4760,
+  "source_frames": [
+    2,
+    4761
+  ],
+  "source": "actual frozen 0.29.0 MesenCE capture",
+  "fps": 60.0988138974405,
+  "original_game_audio": true,
+  "synthetic_gameplay": false,
+  "full_video_decode_passed": true
+}

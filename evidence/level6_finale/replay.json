@@ -1,0 +1,170 @@
+{
+  "movie": {
+    "movie_sha256": "fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 19215,
+    "seconds_wall": 836.1250746559999,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 19215
+  },
+  "native_samples_per_type": 19215,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "b90dfa0bec21239ff8a0e8ff9d0bd6eb30f395aa359733642375733adb9ad529",
+  "pcm_sha256": "f940097e61c9df6c45319140ed815089a297341fa115b7ff960682e6e5a7c83a",
+  "final_manifest_verified": true,
+  "final_scope_replay": {
+    "movie_sha256": "fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 1801,
+    "seconds_wall": 392.0383628710042,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 19215,
+    "capture_windows": [
+      [
+        7400,
+        9200
+      ]
+    ]
+  },
+  "full_capture_manifest": "pre_blackout_fix-pack-sha256.json",
+  "final_scope_proof": "blackout_repair.json",
+  "ending_second_pose_whole_visible": false,
+  "ending_second_pose_note": "Both pose mappings and shared tail are statically verified. The second pose has native behind-background priority during scrolling text; do not force it forward to manufacture a whole-source match.",
+  "images": {
+    "empty_initial": 1,
+    "identical": 5401,
+    "menus_exact": 751,
+    "blackouts_exact": 1229,
+    "changed": 13813,
+    "backdrop_visible_A49F": 3282,
+    "backdrop_visible_A553": 2696,
+    "backdrop_visible_A58F": 1195,
+    "ending_frames_with_only_dragon_changes": 10047
+  },
+  "rooms": {
+    "FFFF": 733,
+    "A49F": 3804,
+    "A553": 2927,
+    "A58F": 1411,
+    "B01C": 10339
+  },
+  "live_whole_source_matches": {
+    "boss1": {
+      "frame": 4453,
+      "unoccluded_opaque_pixels": 30321,
+      "complete_native_layout": true,
+      "native_OAM_occlusion_only": true
+    },
+    "joint0": {
+      "frame": 4539,
+      "mirrored": false,
+      "positions": [
+        [
+          240,
+          180
+        ]
+      ]
+    },
+    "arc2": {
+      "frame": 4561,
+      "mirrored": true,
+      "positions": [
+        [
+          370,
+          178
+        ]
+      ]
+    },
+    "arc1": {
+      "frame": 4595,
+      "mirrored": false,
+      "positions": [
+        [
+          150,
+          256
+        ]
+      ]
+    },
+    "arc0": {
+      "frame": 4613,
+      "mirrored": false,
+      "positions": [
+        [
+          214,
+          366
+        ]
+      ]
+    },
+    "shot": {
+      "frame": 4613,
+      "mirrored": false,
+      "positions": [
+        [
+          214,
+          350
+        ]
+      ]
+    },
+    "connector": {
+      "frame": 4645,
+      "mirrored": true,
+      "positions": [
+        [
+          358,
+          160
+        ]
+      ]
+    },
+    "joint2": {
+      "frame": 4997,
+      "mirrored": false,
+      "positions": [
+        [
+          266,
+          160
+        ]
+      ]
+    },
+    "joint3": {
+      "frame": 5012,
+      "mirrored": true,
+      "positions": [
+        [
+          326,
+          210
+        ]
+      ]
+    },
+    "boss2": {
+      "frame": 7517,
+      "unoccluded_opaque_pixels": 29267,
+      "complete_native_layout": true,
+      "native_OAM_occlusion_only": true
+    },
+    "ending_dragon0": {
+      "frame": 9162,
+      "mirrored": false,
+      "positions": [
+        [
+          192,
+          212
+        ]
+      ]
+    }
+  },
+  "source_names_not_observed": [
+    "ending_dragon1",
+    "joint1"
+  ],
+  "backdrop_exceptions": [],
+  "ending_changes_outside_native_dragon_bounds": [],
+  "earlier_images_exact": false
+}

@@ -1,5 +1,17 @@
 # Local emulator test inputs
 
+## Level 6 green hall and descent — 0.28.0
+
+`Holy_Diver_HD(20261029-204125).mmo`: 7,648 frames; SHA-256 `c5451de99dfbadd8002cb88ca0b10ea6ec105870df7cf827d385c4fb7dc7ba05`. Covers the outgoing accepted A0DF room, A20B horizontal hall, death/restart, menus, Blizzard/Overdrive, and the recorded A2FB descent. No new-room Thunder/dragon cast or boss. `make_level6_late_edge.py` retains its state and first 280 frames, then creates a controller-only 700-frame left-stop/right-walk-off route. Input bytes stay outside Git.
+
+## Level 6 room variety movie — 0.27.0
+
+`Holy_Diver_HD(20261029-190811).mmo`: 3,393 controller frames; SHA-256 `d1e51fb31777afcf0be5c69671281532106a6abcb82b6ecc29ffdf2b97c1e7f0`. Covers sentinel normal/silver/blue hit palettes, 9F3B corridor, full A02B shaft, A0DF green room, pause/resume, Overdrive, death and the Stage 6 card transition. Use exact 0.26.0 as the paired baseline. Input bytes remain outside Git.
+
+## Level 6 skull corridor movie — 0.26.0
+
+`Holy_Diver_HD(20261029-181929).mmo`: 2,528 controller frames; SHA-256 `298aa05c6ec3073d4db22596b5072721836d008a591e527b69e85b5d687c6bb9`. Traverses 9F3B, pauses/resumes, and enters A02B before the final pause. `make_level6_next_edge.py` preserves its state and first 1,400 input frames, then tests the corridor platform using controller input only. The full 6,427-frame `Holy_Diver_HD(20261029-152041).mmo` supplies the unchanged-image regression. Input bytes remain outside Git.
+
 ## Background continuity movie — 0.20.5
 
 `Holy_Diver_HD(20261027-183338).mmo`: 2,856 controller frames; SHA-256 `5d45de08c3a9bf5bc72086363855f087557b593f695346122553b03208a18649`. Covers room 9DEE, scrolling in both directions, Blizzard casts, menus, player death and restart. All native state/full audio is paired at stride 1. Input bytes remain outside Git.
@@ -188,3 +200,12 @@ Both unchanged states start before the dragon pickup in ACD9/mode18. The 987-fra
 ## Palace finale — 0.24.0
 
 `Holy_Diver_HD(20261028-142617).mmo`: 15,585 frames; SHA-256 `0328029ecdc68941515093d8f03efafdf0cd0a2c4bffa937cf42d2151610c77a`. Covers 8D3E, 8E6A, 8EE2 and the 9A8B threshold. The embedded state and unchanged controller input are replayed with stock MesenCE 2.2.1 and the synchronized native capture observer. Input bytes remain excluded from Git. See docs/LEVEL5_FINALE.md.
+## Level 6 organic hall input
+
+`Holy_Diver_HD(20261029-215619).mmo` contains 4,761 controller frames; SHA-256 `30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067`. It covers the accepted shaft exit and A3AF/mode10, including Overdrive, Blizzard and pauses. Input bytes and raw captures remain outside Git. `make_level6_organic_edge.py` derives the controller-only platform route with unchanged embedded state; its metadata is saved with the compact evidence.
+
+## Level 6 finale input — 20261029-225605
+
+Local file: `Holy_Diver_HD(20261029-225605).mmo` (19,215 controller frames).
+SHA-256: `fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629`.
+Embedded starting state covers final climb A49F, attached boss A553, detached boss A58F and ending B01C through the final logo. Input/ROM/state bytes are local-only and excluded from Git. Target ROM and core checksums are recorded in the paired replay evidence.

@@ -1,0 +1,27 @@
+{
+  "file": "Holy_Diver_Level6_v0.30.1_Preview.mp4",
+  "sha256": "54935f14d6eb1c58ff44928c9eba7465e800bd488d271145e63b226305f817c1",
+  "bytes": 30405997,
+  "frames": 19815,
+  "size": [
+    512,
+    480
+  ],
+  "fps": "719503/11972",
+  "duration_seconds": 329.707006,
+  "full_av_decode_passed": true,
+  "actual_capture_pngs_only": true,
+  "segments": [
+    {
+      "movie": "20261029-215619",
+      "first": 550,
+      "last": 1150
+    },
+    {
+      "movie": "20261029-225605",
+      "first": 2,
+      "last": 19215
+    }
+  ],
+  "audio_source": "Verified original Mesen PCM, AAC stereo 48 kHz; native one-frame capture offset retained."
+}

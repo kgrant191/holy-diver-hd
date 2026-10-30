@@ -1,0 +1,17 @@
+{
+  "version": "0.30.0",
+  "status": "validated review candidate; not approved",
+  "full_native_frames": 19215,
+  "final_scope_capture_frames": 1801,
+  "exact_native_state": true,
+  "full_original_APU_and_PCM_exact": true,
+  "all_blackouts_preserved": true,
+  "backdrop_exceptions": 0,
+  "earlier_native_frames": 4761,
+  "earlier_images_exact": 4760,
+  "all_165_install_hashes_exact": true,
+  "preview_full_decode_passed": true,
+  "original_green_orb_standby_preserved": true,
+  "earlier_skipped_level6_rooms_unfinished": true,
+  "push_PR_merge_release_performed": false
+}

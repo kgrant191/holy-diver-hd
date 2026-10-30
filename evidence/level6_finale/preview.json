@@ -1,0 +1,18 @@
+{
+  "file": "Holy_Diver_Level6_v0.30.0_Preview.mp4",
+  "sha256": "04bff10e58dc21ca8d01811428ed1d07c99735c06e8304a3d44a212edd6a85ff",
+  "bytes": 24150411,
+  "frames": 19214,
+  "size": [
+    512,
+    480
+  ],
+  "fps": "719503/11972",
+  "duration_seconds": 319.706809,
+  "full_av_decode_passed": true,
+  "actual_capture_pngs_only": true,
+  "blackout_repair_source": "blackout_repair.json",
+  "first_capture_frame": 2,
+  "last_capture_frame": 19215,
+  "audio_source": "Verified original Mesen PCM; encoded AAC stereo 48 kHz with one-frame capture offset."
+}

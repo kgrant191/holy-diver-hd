@@ -1,4 +1,36 @@
+## Level 6 finale repair direction, 0.30.1
+
+The wall face follows the supplied ivory skeletal reference with only a narrow red attachment spine; do not fill its silhouette with wall material. Blue enemies share the approved green mucus design. The final ledge has a readable bone-framed portal visible during approach. Ending wings must remain connected in both poses; black font-cell padding must not obscure dragons.
+
 # Art direction
+
+## Level 6 finale
+
+Use distinct open crimson ascent, enclosed red sanctum and blue-violet void. Both boss forms share the same crimson brain, amber eyes and ivory ridges; preserve native dismemberment and attacks. The ending dragon follows the approved green/gold identity. Keep completed Gothic ending lettering and logo. See LEVEL6_FINALE.md.
+
+## Level 6 enemy revision 0.29.1
+
+See [enemy revision](LEVEL6_ENEMY_REVISION.md) for the scoped two-pose blob, bone-gray face and independent original-orb restoration.
+
+## Level 6 green hall and descent — 0.28.0
+
+Keep the original green families. A20B gets dense olive skull-relief architecture; A2FB gets a spacious dark green vertical tower. Use accepted green foreground stone, ivory skull blocks and all matching finished enemy art. The new small ledge uses the measured 2×2 native union.
+
+## Level 6 room variety — 0.27.0
+
+The user explicitly replaces the uniform cold-stone direction with original-inspired room colors. Use newly generated red, amber and green masonry and distinct amber ossuary, crimson shaft and verdant crypt backgrounds. Preserve earlier exterior/hall compositions, ivory skulls and carved ornaments. Native structural hulls and complete registered groups control every platform edge. Do not reuse old cave panoramas.
+
+## Level 6 skull corridor — 0.26.0
+
+Continue the existing enclosed Gothic citadel and cool stone. Register the corridor body, inset, hanging edge, corner and floor as whole native groups. Reuse the silver sentinel and blue flying skull exactly. The small new crawler has bronze armor, ivory ridges and a cyan eye; its resting and leaping bodies are registered whole into their distinct native unions. Keep the new projectile readable with the existing round fireball art.
+
+## Level 6 ceiling repair — 0.25.1
+
+The upper ceiling belongs to the existing cool rock structure. Reuse the accepted rock material and preserve its native outline; do not introduce a red accent or repaint the scene. The 1-up uses the already finished ivory/gold or blue figurine, including the ivory artwork for the native dragon palette.
+
+## Level 6 opening — 0.25.0
+
+Use an entirely new cool palette: blue-violet ruined cathedral spires for the opening shaft, then a dark enclosed hall with tall Gothic ribs and sparse cyan windows. Dark blue-gray stone keeps solid surfaces distinct; inset ivory skull blocks remain recognizable as breakable objects. Register complete brick/skull/cornice units and keep their native collision hulls. The cape is royal violet with ivory lining and antique-gold trim. Preserve the approved returning actors and lava/ice; native flashes blend through matching panorama RGB at alpha 176.
 
 ## Palace finale — 0.24.0
 
@@ -186,3 +218,6 @@ Dark navy/plum Gothic cavern arches, pale olive-gray limestone, crimson spiral c
 ### Palace ceiling refinement
 
 Use muted forest/olive-green wet slime on the cavern ceiling, distinct from the existing gray-olive rocky floor. Keep native ceiling contours. Source registration uses complete two-by-two ceiling motifs. Preserve the existing cathedral panoramas, crimson columns and finished serpent.
+## Level 6 organic hall
+
+A3AF follows its original crimson organic palette with dark ribbed cathedral depth, lighter chitin terrain, wall-mounted demonic faces and small green orbs. Keep native foreground hulls and original lava/ice animation. Preserve all accepted earlier room art. Whole sources and prompts are in art/level6_organic/ and art/generated/level6_organic_prompts.json.

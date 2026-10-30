@@ -1,0 +1,14 @@
+{
+  "method": "built-in image generation for blue variant, portal and connected dragon poses; supplied face reference registered directly",
+  "sources": {
+    "level6_blue_blob.png": "f3faa7582e6bf214bd49615b3d5fb535797ea671e46bd9ddac3bc411599fd1f8",
+    "level6_boss_portal.png": "6305a96d548178f6283b90431f48cd67d3a4b7efff60fe0c180949fadd75ba7a",
+    "level6_ending_dragon_repair.png": "a08a3347d7dd550cab5998e8a86bc5b23c97c139418b11559d0c0d4bfdd35369"
+  },
+  "face_reference_sha256": "1920df0d0b1b890733440158de532f4aecd096daa0212e4f156b5da432d4d4c4",
+  "prompt_intent": {
+    "blue": "Recolor only the two approved green mucus sprites to cobalt/cerulean with pale cyan highlights; preserve identity, silhouettes, bubbles, poses and transparency.",
+    "portal": "Front-facing Gothic boss portal, ivory bone frame, restrained crimson detail, amber runes, open dark recess; readable at 64x96, no surrounding wall.",
+    "dragon": "Two stacked connected front-view emerald/gold dragon poses matching native silhouette references: steep raised V wings and lowered wings; preserve compact head/body, curled tail, and clear upper central gap."
+  }
+}

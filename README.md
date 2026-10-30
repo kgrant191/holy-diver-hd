@@ -1,4 +1,24 @@
+**0.30.1 is approved; merge is authorized.** All delivered Level 6 work is accepted. The source branch still needs to be pushed before PR checks and merge; main remains 0.24.0. Next: skipped Level 6 rooms, cleanup, then the completed release. The 166 reviewed installation files and original green orb standby remain unchanged. [Scope and verification](docs/LEVEL6_FINALE_REPAIR.md).
+
 # Holy Diver HD
+
+**Level 6 finale — 0.30.0 review.** Final crimson climb, two complete boss forms, separate red sanctum and blue-violet void, and updated ending dragon. Includes approved 0.29.1. Earlier skipped Level 6 rooms remain unfinished. [Scope and checks](docs/LEVEL6_FINALE.md).
+
+**Approved continuation: 0.29.1.** The blob and wall-face revision is accepted. Next: final screen, both boss rooms and ending; skipped earlier Level 6 rooms remain unfinished. Main stays 0.24.0.
+
+**Level 6 enemy revision — 0.29.1 review.** The green enemy is now a glossy mucus blob in both animation poses. The wall face has bone-gray plates and pale ridges for contrast against the red room. The exact original green orb remains on standby and can be restored without reverting the face. Latest accepted continuation is 0.28.0; 0.29.0 and this revision are review candidates. Main remains 0.24.0. No push, PR, merge, tag or release is authorized. See docs/LEVEL6_ENEMY_REVISION.md.
+
+**Level 6 crimson organic hall — 0.29.0 review.** New red chitin terrain, ribbed chamber, wall faces and green orbs; completed Randy/HUD/spells and native lava/ice restored. [Scope and verification](docs/LEVEL6_ORGANIC.md). Accepted continuation is 0.28.0; main remains 0.24.0.
+
+**Level 6 green hall and descent — 0.28.0 review.** Extends the accepted artwork into a green skull-relief reliquary and a separate shadowed tower shaft. Reuses the finished enemies, stone and skull blocks, including the eye and falling tears. [Scope and verification](docs/LEVEL6_LATE.md). 0.27.0 is accepted; main remains 0.24.0.
+
+**Level 6 room variety and hit frames — 0.27.0 review.** Distinct amber ossuary, crimson climbing shaft and green/blue crypt follow the original room palettes. Opening rooms regain red foreground stone while retaining separate backdrops. Sentinels keep HD art in both damage palettes. Includes all prior cape, ceiling and 1-up fixes. [Scope and verification](docs/LEVEL6_VARIETY.md).
+
+**Level 6 skull corridor — 0.26.0 review.** Extends the enclosed citadel through the next recorded corridor and the following room's entrance. Reuses the finished Randy/HUD, flying skulls and silver armored sentinel; adds two bronze crawler poses. Preserves earlier scenery, cape, ceiling and 1-up repairs. [Scope and verification](docs/LEVEL6_NEXT.md).
+
+**Level 6 ceiling and 1-up — 0.25.1 review.** Corrects the old red ceiling exposed by an immediate jump and restores the finished 1-up figurine. Existing citadel scenery, stone, actors and cape stay unchanged. [Repair and verification](docs/LEVEL6_REPAIR.md).
+
+**Level 6 screens 1–2 — 0.25.0 review.** A blue-violet ruined citadel and enclosed Gothic hall replace the reused red cave scenery. Adds dark stonework, ivory skull blocks and the purple/gold cape in the Start menu; returning actors and spells reuse their finished artwork. [Scope and verification](docs/LEVEL6_OPENING.md). Local branch `feature/level6-opening`; approved main remains 0.24.0.
 
 **Demonic Palace 0.24.0 is approved and merged on main.** [PR #27](https://github.com/kgrant191/holy-diver-hd/pull/27) includes the late rooms, moving platforms, boss, victory sequence and Level 6 threshold. All 129 reviewed installation files remain frozen. Next development is Level 6. [Adoption record](docs/LEVEL5_FINALE_ADOPTION.md).
 

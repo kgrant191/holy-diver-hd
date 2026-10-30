@@ -1,0 +1,682 @@
+{
+  "movie": {
+    "movie_sha256": "298aa05c6ec3073d4db22596b5072721836d008a591e527b69e85b5d687c6bb9",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 2528,
+    "seconds_wall": 122.67147716399995,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 2528
+  },
+  "native_samples_per_type": 2528,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "fb915c73c585a6db46dc844ed0172747a50cf2a2b09aa21496dcc54df292658b",
+  "pcm_sha256": "18bdcdf18ecb9e45f5e8bdfee2079043ed45b6c4f687cb85c5a7442b52d57312",
+  "delivered_runtime_exact": true,
+  "install_note_only_differences": [
+    "README.txt"
+  ],
+  "images": {
+    "empty_initial": 1,
+    "identical": 719,
+    "native_black_exact": 104,
+    "changed": 1808,
+    "menus_exact": 537
+  },
+  "rooms": {
+    "9BB7": 59,
+    "9F3B": 1881,
+    "FFFF": 552,
+    "A02B": 35
+  },
+  "backgrounds": {
+    "samples": 1808,
+    "minimum_pixels": 101475
+  },
+  "missing_backgrounds": [],
+  "live_whole_source_matches": {
+    "corridor_body": {
+      "frame": 68,
+      "mirrored": false,
+      "positions": [
+        [
+          64,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          192,
+          0
+        ],
+        [
+          320,
+          0
+        ],
+        [
+          352,
+          0
+        ],
+        [
+          384,
+          0
+        ],
+        [
+          416,
+          0
+        ],
+        [
+          192,
+          32
+        ],
+        [
+          384,
+          32
+        ],
+        [
+          416,
+          32
+        ],
+        [
+          0,
+          64
+        ],
+        [
+          448,
+          64
+        ],
+        [
+          480,
+          64
+        ],
+        [
+          480,
+          96
+        ],
+        [
+          480,
+          128
+        ],
+        [
+          480,
+          160
+        ],
+        [
+          480,
+          192
+        ],
+        [
+          384,
+          224
+        ],
+        [
+          416,
+          224
+        ],
+        [
+          448,
+          224
+        ],
+        [
+          480,
+          224
+        ],
+        [
+          448,
+          256
+        ],
+        [
+          480,
+          256
+        ],
+        [
+          448,
+          288
+        ],
+        [
+          480,
+          288
+        ],
+        [
+          448,
+          320
+        ],
+        [
+          480,
+          320
+        ],
+        [
+          0,
+          352
+        ],
+        [
+          32,
+          352
+        ],
+        [
+          64,
+          352
+        ],
+        [
+          96,
+          352
+        ],
+        [
+          128,
+          352
+        ],
+        [
+          160,
+          352
+        ],
+        [
+          192,
+          352
+        ],
+        [
+          224,
+          352
+        ],
+        [
+          448,
+          352
+        ],
+        [
+          480,
+          352
+        ],
+        [
+          64,
+          384
+        ],
+        [
+          96,
+          384
+        ],
+        [
+          192,
+          384
+        ],
+        [
+          224,
+          384
+        ],
+        [
+          448,
+          384
+        ],
+        [
+          480,
+          384
+        ],
+        [
+          64,
+          416
+        ],
+        [
+          96,
+          416
+        ],
+        [
+          192,
+          416
+        ],
+        [
+          224,
+          416
+        ],
+        [
+          384,
+          416
+        ],
+        [
+          416,
+          416
+        ],
+        [
+          448,
+          416
+        ],
+        [
+          480,
+          416
+        ],
+        [
+          0,
+          448
+        ],
+        [
+          32,
+          448
+        ],
+        [
+          128,
+          448
+        ],
+        [
+          160,
+          448
+        ],
+        [
+          352,
+          448
+        ],
+        [
+          384,
+          448
+        ],
+        [
+          416,
+          448
+        ],
+        [
+          448,
+          448
+        ],
+        [
+          480,
+          448
+        ]
+      ]
+    },
+    "corridor_inset": {
+      "frame": 68,
+      "mirrored": false,
+      "positions": [
+        [
+          16,
+          16
+        ],
+        [
+          144,
+          16
+        ],
+        [
+          464,
+          16
+        ],
+        [
+          16,
+          400
+        ],
+        [
+          144,
+          400
+        ]
+      ]
+    },
+    "corridor_ceiling": {
+      "frame": 68,
+      "mirrored": false,
+      "positions": [
+        [
+          320,
+          32
+        ],
+        [
+          128,
+          64
+        ],
+        [
+          384,
+          64
+        ],
+        [
+          0,
+          96
+        ],
+        [
+          64,
+          96
+        ]
+      ]
+    },
+    "corridor_corner": {
+      "frame": 68,
+      "mirrored": false,
+      "positions": [
+        [
+          224,
+          64
+        ],
+        [
+          256,
+          96
+        ],
+        [
+          288,
+          128
+        ],
+        [
+          320,
+          160
+        ]
+      ]
+    },
+    "corridor_floor": {
+      "frame": 68,
+      "mirrored": false,
+      "positions": [
+        [
+          288,
+          192
+        ],
+        [
+          320,
+          192
+        ],
+        [
+          352,
+          192
+        ],
+        [
+          384,
+          192
+        ],
+        [
+          416,
+          192
+        ],
+        [
+          448,
+          192
+        ],
+        [
+          0,
+          320
+        ],
+        [
+          32,
+          320
+        ],
+        [
+          64,
+          320
+        ],
+        [
+          96,
+          320
+        ],
+        [
+          128,
+          320
+        ],
+        [
+          160,
+          320
+        ],
+        [
+          192,
+          320
+        ],
+        [
+          224,
+          320
+        ],
+        [
+          384,
+          384
+        ],
+        [
+          416,
+          384
+        ],
+        [
+          352,
+          416
+        ],
+        [
+          320,
+          448
+        ]
+      ]
+    },
+    "skull": {
+      "frame": 68,
+      "mirrored": false,
+      "positions": [
+        [
+          320,
+          256
+        ],
+        [
+          352,
+          256
+        ],
+        [
+          384,
+          256
+        ],
+        [
+          416,
+          256
+        ],
+        [
+          320,
+          288
+        ],
+        [
+          352,
+          288
+        ],
+        [
+          384,
+          288
+        ],
+        [
+          416,
+          288
+        ],
+        [
+          256,
+          320
+        ],
+        [
+          288,
+          320
+        ],
+        [
+          320,
+          320
+        ],
+        [
+          352,
+          320
+        ],
+        [
+          384,
+          320
+        ],
+        [
+          416,
+          320
+        ],
+        [
+          384,
+          352
+        ],
+        [
+          416,
+          352
+        ]
+      ]
+    },
+    "flying_skull_0": {
+      "frame": 416,
+      "mirrored": false,
+      "positions": [
+        [
+          2,
+          144
+        ]
+      ]
+    },
+    "sentinel_0": {
+      "frame": 844,
+      "mirrored": false,
+      "positions": [
+        [
+          56,
+          168
+        ]
+      ]
+    },
+    "sentinel_1": {
+      "frame": 856,
+      "mirrored": false,
+      "positions": [
+        [
+          82,
+          216
+        ]
+      ]
+    },
+    "sentinel_2": {
+      "frame": 888,
+      "mirrored": false,
+      "positions": [
+        [
+          126,
+          224
+        ]
+      ]
+    },
+    "sentinel_3": {
+      "frame": 956,
+      "mirrored": false,
+      "positions": [
+        [
+          118,
+          224
+        ]
+      ]
+    },
+    "flying_skull_1": {
+      "frame": 956,
+      "mirrored": true,
+      "positions": [
+        [
+          150,
+          142
+        ]
+      ]
+    },
+    "entry_base": {
+      "frame": 2048,
+      "mirrored": false,
+      "positions": [
+        [
+          0,
+          432
+        ],
+        [
+          32,
+          432
+        ],
+        [
+          64,
+          432
+        ],
+        [
+          96,
+          432
+        ],
+        [
+          128,
+          432
+        ],
+        [
+          160,
+          432
+        ],
+        [
+          192,
+          432
+        ],
+        [
+          224,
+          432
+        ],
+        [
+          256,
+          432
+        ],
+        [
+          288,
+          432
+        ],
+        [
+          320,
+          432
+        ],
+        [
+          352,
+          432
+        ],
+        [
+          384,
+          432
+        ],
+        [
+          416,
+          432
+        ],
+        [
+          448,
+          432
+        ],
+        [
+          480,
+          432
+        ]
+      ]
+    },
+    "crawler_leap": {
+      "frame": 2049,
+      "mirrored": false,
+      "positions": [
+        [
+          164,
+          348
+        ]
+      ]
+    },
+    "crawler_rest": {
+      "frame": 2069,
+      "mirrored": false,
+      "positions": [
+        [
+          252,
+          352
+        ]
+      ]
+    }
+  },
+  "sources_not_observed_whole": [],
+  "first_changed": 66,
+  "last_changed": 2078,
+  "outgoing_room_boundaries": [
+    {
+      "frame": 81,
+      "rendered_room": "9F3B",
+      "ram_room": "FFFF"
+    },
+    {
+      "frame": 573,
+      "rendered_room": "9F3B",
+      "ram_room": "FFFF"
+    },
+    {
+      "frame": 2078,
+      "rendered_room": "A02B",
+      "ram_room": "FFFF"
+    }
+  ],
+  "live_new_room_spell_flash_coverage": false
+}

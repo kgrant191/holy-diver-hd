@@ -1,0 +1,14 @@
+{
+  "version": "0.25.1",
+  "isolated_clean_build_passed": true,
+  "historical_validators_passed": true,
+  "installed_files": 135,
+  "all_installed_hashes_match": true,
+  "flat_zip": true,
+  "zip_crc_verified": true,
+  "zip_bytes": 28692361,
+  "zip_sha256": "6f307f514e2e11c9473cd9a58062be381c561f61773c1411f03eed21d0cf4097",
+  "previous_art_audio_patch_files_unchanged": 132,
+  "exact_0250_mapping_recovery": true,
+  "atomic_output_wrapper": true
+}

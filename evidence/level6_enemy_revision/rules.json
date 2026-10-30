@@ -1,0 +1,15 @@
+{
+  "prior_assets_exact": 149,
+  "exact_0290_mapping_recovery": true,
+  "face_cells": 19,
+  "face_native_alpha_exact": true,
+  "mappings": {
+    "wall face color": 171,
+    "mucus blob": 8
+  },
+  "whole_blob_poses": 2,
+  "original_orb_standby_exact": true,
+  "independent_orb_restore_verified": true,
+  "new_neighbor_probes": 0,
+  "original_orb_source_commit_files_exact": true
+}

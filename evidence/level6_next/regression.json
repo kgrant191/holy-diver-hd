@@ -1,0 +1,58 @@
+{
+  "movie": {
+    "movie_sha256": "dc34b2903fe282ebe33c115f845803638dca33f4b6bbb2cc67e852f1ecdcbeed",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 6427,
+    "seconds_wall": 323.0364760320008,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 6427
+  },
+  "native_samples_per_type": 6427,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "f9be0830dda087a8c5ac45fe09eb8f03a381e39bd59dc6008e52ed38f9fca8f9",
+  "pcm_sha256": "e744c93db27c3c5247e0574062aa4d71665eea8798488985b3a3eda2bf4269bd",
+  "delivered_runtime_exact": true,
+  "install_note_only_differences": [],
+  "images": {
+    "empty_initial": 1,
+    "identical": 6426
+  },
+  "rooms": {
+    "9A8B": 2439,
+    "FFFF": 694,
+    "9CA7": 26,
+    "9BB7": 3267
+  },
+  "backgrounds": {
+    "samples": 0,
+    "minimum_pixels": null
+  },
+  "missing_backgrounds": [],
+  "live_whole_source_matches": {},
+  "sources_not_observed_whole": [
+    "corridor_body",
+    "corridor_ceiling",
+    "corridor_corner",
+    "corridor_floor",
+    "corridor_inset",
+    "crawler_leap",
+    "crawler_rest",
+    "entry_base",
+    "flying_skull_0",
+    "flying_skull_1",
+    "sentinel_0",
+    "sentinel_1",
+    "sentinel_2",
+    "sentinel_3",
+    "skull"
+  ],
+  "first_changed": null,
+  "last_changed": null,
+  "outgoing_room_boundaries": [],
+  "live_new_room_spell_flash_coverage": false
+}

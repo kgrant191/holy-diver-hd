@@ -1,0 +1,19 @@
+{
+  "prior_assets_exact": 134,
+  "exact_0260_mapping_recovery": true,
+  "native_structural_masks": 10170,
+  "whole_terrain_cells_checked": 222,
+  "complete_sentinel_hit_rules": 318,
+  "hit_palettes": [
+    "FF102030",
+    "FF122232"
+  ],
+  "background_substitutions": 36864,
+  "new_background_guards": 21504,
+  "background_bank_copies": [
+    "1700",
+    "1900"
+  ],
+  "new_neighbor_probes": 0,
+  "original_red_amber_green_room_colors": true
+}

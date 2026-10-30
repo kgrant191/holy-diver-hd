@@ -1,0 +1,11 @@
+{
+  "isolated_clean_build": true,
+  "files": 151,
+  "all_install_sha256_exact": true,
+  "all_historical_validators_passed": true,
+  "archive": "Holy_Diver_HD_v0.29.0.zip",
+  "archive_sha256": "2e64839b8f021bbf0e890dd52f2ed03c7a68422f7aae1c099d46c7867dcbd97b",
+  "archive_size": 35611892,
+  "flat_archive": true,
+  "zip_crc_valid": true
+}

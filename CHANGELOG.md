@@ -1,4 +1,61 @@
+## 0.30.1 — Level 6 finale visual repairs (approved; merge pending)
+
+Approved with merge authorization on 2026-10-29, including all preceding Level 6 work. All 166 reviewed install files remain frozen. Skipped rooms and later cleanup precede the completed release.
+
+- Register the full clean ivory wall-face reference without red wall fill.
+- Apply blue versions of both approved mucus-blob poses.
+- Show a bone-framed boss portal above the last ledge before arrival and through activation.
+- Register connected dragon wing poses; clear opaque black ending-font backgrounds so both dragons remain visible around letters.
+- Preserve previous art, native gameplay/audio, both boss rooms, green slime and original orb standby.
+
 # Changelog
+
+## 0.30.0 — Level 6 finale (review)
+
+- Distinct crimson final climb, red first-boss sanctum and dark blue-violet second arena.
+- Registered attached and detached final demon, articulated joints, attacks, damage/fades and original movement.
+- Two updated ending dragon poses; preserve finished story lettering and logo.
+- Reuse approved actors, player dragon, blob spores, chitin geometry and earlier assets.
+- Continue approved 0.29.1; skipped earlier Level 6 rooms remain unfinished.
+- Verify the installed README with an atomic write to prevent a stale seed note on mounted filesystems.
+
+## 0.29.1
+
+Replaces both green rock poses with a glossy boogery blob and recolors the wall face for visibility. Retains the exact old orb and an independent restore choice. Native face outlines, gameplay and all prior assets remain unchanged.
+
+## 0.29.0
+
+Extends Level 6 into the crimson organic hall with distinct scenery, native terrain outlines, whole wall faces and green orb poses. Restores finished player/HUD/spells/projectiles and approved lava/ice in the new banks. Preserves accepted 0.28.0 assets and native execution.
+
+## 0.28.0 — Level 6 green hall and descent (review)
+
+Adds distinct green reliquary/tower scenery, a registered floating ledge, and exact finished-art reuse for both rooms and the returning eye/tear. Preserves all accepted 0.27.0 art, native geometry, timing and audio.
+
+## 0.27.0 — Level 6 room variety and hit frames (review)
+
+Adds distinct amber ossuary, crimson shaft and green/blue crypt scenery with original-inspired stone colors. Restores red-toned opening stone without changing the separate exterior/hall panoramas. Completes sentinel hit palettes and the green room actors/projectiles. Preserves native gameplay, audio and earlier assets; no publication or merge.
+
+## 0.26.0 — Level 6 skull corridor (review)
+
+- Extend the enclosed citadel through the next recorded corridor and following-room entrance, preserving native floor and ceiling shapes.
+- Restore finished Randy/HUD/effects, flying skulls and all four silver sentinel poses in the new actor bank.
+- Add two complete bronze crawler poses and reuse the finished small projectile artwork.
+- Preserve all 133 prior art/audio/patch files, exact recoverable 0.25.1 rules, gameplay, audio and earlier Level 6 visuals.
+
+## 0.25.1 — Level 6 ceiling and 1-up (review)
+
+- Replace the accidental red upper ceiling exposed by jumping with existing citadel stone, keeping its native silhouette.
+- Restore the finished 1-up figurine and verify its native life increase in the supplied recording.
+- Preserve all existing Level 6 artwork and the complete 0.25.0 mapping layer.
+- Write builder PNG/text outputs atomically from complete data, avoiding truncated or partially read files without changing their bytes.
+
+## 0.25.0 — Level 6 screens 1–2 (review)
+
+- Replace the reused red cave with separate blue-violet citadel and enclosed Gothic hall scenery.
+- Add native-shaped dark masonry, carved cornices and ivory skull blocks.
+- Replace the lower-right Start-menu cape with purple/gold artwork.
+- Reuse finished enemies, dragon forms, Thunder and animated lava/frozen ice through native palette changes.
+- Preserve all 127 previous art/audio/patch files, removable 0.24.0 mappings and native execution/audio. Approved main remains 0.24.0; later Level 6 content is unfinished.
 
 ## 0.24.0 — Palace finale (approved and merged)
 

@@ -1,0 +1,41 @@
+{
+  "tool": "image_gen.imagegen",
+  "note": "Retained generated sources and art-direction descriptions; these descriptions summarize intent and are not a verbatim prompt log.",
+  "sources": [
+    {
+      "file": "level6_final_ascent.png",
+      "sha256": "329a0cd72f12554f5d1b82e64a07f1c628bd76ec94d825dadb7451ae56460c12",
+      "direction": "Open vertical crimson Gothic root cathedral, distinct from earlier cave rooms."
+    },
+    {
+      "file": "level6_final_boss.png",
+      "sha256": "a3e144215e3a4156f2bae88a7c3de81a6eba233b0deca201b913b03bcd6dda36",
+      "direction": "Ceiling-attached crimson brain/root demon with a central amber eye and ivory ridges."
+    },
+    {
+      "file": "level6_final_components.png",
+      "sha256": "6c1fabfda210d03a7a57c9ffcbb50e6889d64c38740942f1aba421fbf6bf0853",
+      "direction": "Four articulated red joint poses, diagonal connector and fiery burst."
+    },
+    {
+      "file": "level6_final_chamber.png",
+      "sha256": "2f83f783dae42fcb68130391b5d70de38e5a2fcf2b44f08d83b860109aff4267",
+      "direction": "Dark crimson sanctum with empty combat space."
+    },
+    {
+      "file": "level6_final_void.png",
+      "sha256": "c7de941b2d5c46ffa54061cb6b0cbdba3bcdaf2939f219286be3dfb8083c3b15",
+      "direction": "Nearly black blue-violet void with distant wisps and ruins."
+    },
+    {
+      "file": "level6_ending_dragon.png",
+      "sha256": "9b406952ab3ead63936fb0779ded766aa40b9e650999a0d42bff7346bdae8981",
+      "direction": "Two front-facing green and gold dragon flight poses, consistent with the approved side-view dragon."
+    },
+    {
+      "file": "level6_final_boss_detached.png",
+      "sha256": "0d3f6063e0374857969ee90f94f24b4d033a01d2c674720d902b674a51240bff",
+      "direction": "Detached compact brain demon retaining the same eye, bone and flesh design, without roots or hanging limbs."
+    }
+  ]
+}

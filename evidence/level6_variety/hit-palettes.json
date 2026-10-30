@@ -1,0 +1,116 @@
+{
+  "native_hit_palette_frame_counts": {
+    "FF102030": 189,
+    "FF122232": 75
+  },
+  "whole_hit_source_matches": {
+    "FF102030_pose0_left": {
+      "frame": 128,
+      "positions": [
+        [
+          272,
+          288
+        ]
+      ],
+      "native_palette": "FF102030"
+    },
+    "FF102030_pose1_left": {
+      "frame": 154,
+      "positions": [
+        [
+          250,
+          288
+        ]
+      ],
+      "native_palette": "FF102030"
+    },
+    "FF102030_pose2_left": {
+      "frame": 177,
+      "positions": [
+        [
+          220,
+          288
+        ]
+      ],
+      "native_palette": "FF102030"
+    },
+    "FF122232_pose2_left": {
+      "frame": 185,
+      "positions": [
+        [
+          220,
+          288
+        ]
+      ],
+      "native_palette": "FF122232"
+    },
+    "FF102030_pose1_right": {
+      "frame": 2421,
+      "positions": [
+        [
+          120,
+          256
+        ]
+      ],
+      "native_palette": "FF102030"
+    },
+    "FF102030_pose0_right": {
+      "frame": 2435,
+      "positions": [
+        [
+          142,
+          256
+        ]
+      ],
+      "native_palette": "FF102030"
+    },
+    "FF102030_pose2_right": {
+      "frame": 2451,
+      "positions": [
+        [
+          158,
+          256
+        ]
+      ],
+      "native_palette": "FF102030"
+    },
+    "FF122232_pose1_right": {
+      "frame": 2582,
+      "positions": [
+        [
+          88,
+          256
+        ]
+      ],
+      "native_palette": "FF122232"
+    },
+    "FF102030_pose3_right": {
+      "frame": 2635,
+      "positions": [
+        [
+          42,
+          256
+        ]
+      ],
+      "native_palette": "FF102030"
+    },
+    "FF122232_pose2_right": {
+      "frame": 2902,
+      "positions": [
+        [
+          64,
+          256
+        ]
+      ],
+      "native_palette": "FF122232"
+    }
+  },
+  "unobserved_whole_sources": [
+    "FF102030_pose3_left",
+    "FF122232_pose0_left",
+    "FF122232_pose0_right",
+    "FF122232_pose1_left",
+    "FF122232_pose3_left",
+    "FF122232_pose3_right"
+  ]
+}

@@ -1,4 +1,66 @@
+# Approved 0.30.1 — merge authorized; source push pending
+
+All delivered Level 6 artwork through the finale and repairs is approved. GitHub still has no Level 6 feature branch; main remains 0.24.0. The 166 reviewed install files are unchanged. After the user pushes the approved handoff, verify PR checks and the actual Actions artifact, merge, then verify the main build and artifact. Next: skipped Level 6 rooms, cleanup elsewhere, then the completed release. No further merge approval is needed. See `evidence/level6_finale_repair/approval.json`.
+
 # Current status
+
+## Current candidate — Level 6 finale 0.30.0
+
+Final climb, both boss rooms and ending implemented and verified. The 19,215-frame native/audio comparison, 1,801-frame final blackout window, 4,761-frame earlier-room regression, 165-file isolated build/package and full preview decode pass. All 4,760 earlier rendered images remain exact; native blackouts and distinct backdrops pass. Approved continuation is 0.29.1; main remains 0.24.0. Earlier skipped Level 6 rooms remain unfinished. No push, PR, merge, tag or release. See docs/LEVEL6_FINALE.md.
+
+## Approved continuation — 0.29.1; finale next
+
+The user approved 0.29.1, including the mucus blob and higher-contrast wall face, and supplied the 20261029-225605 movie for the final screen, two boss rooms and ending. Preserve all 152 approved install files, original orb standby, native gameplay and audio. Main remains 0.24.0; no push, PR, merge, tag or release is authorized. The skipped earlier Level 6 rooms remain unfinished even after this movie is covered. See evidence/level6_enemy_revision/approval.json.
+
+## Current revision — Level 6 enemies 0.29.1
+
+Full 4,761-frame paired replay passes with native state and audio exact. All 3,012 changed images are confined to the face and blob; 1,748 other images remain exact. Whole face and both blob poses match actual source pixels. Original orb restoration and all historical validators pass.
+
+The green enemy is now a glossy mucus blob in both animation poses. The wall face has bone-gray plates and pale ridges for contrast against the red room. The exact original green orb remains on standby and can be restored without reverting the face. Latest accepted continuation is 0.28.0; 0.29.0 and this revision are review candidates. Main remains 0.24.0. No push, PR, merge, tag or release is authorized. See docs/LEVEL6_ENEMY_REVISION.md.
+
+## Current continuation — Level 6 crimson organic hall 0.29.0
+
+Completed validation: the full 4,761-frame new-room replay, 731-frame platform route and 7,648-frame earlier-room regression preserve native state and complete audio. All 7,647 earlier rendered images remain exact. New terrain, face and orb sources, accepted lava/ice/projectile sources, backdrop continuity, isolated clean build and all 151 install hashes pass. See `evidence/level6_organic/`.
+
+The user accepted 0.28.0 and supplied the 20261029-215619 movie. Work stays on feature/level6-opening; main remains approved 0.24.0. No push, PR, merge or release is authorized.
+
+Cover only A3AF/mode10, background bank1B and actors1A. Preserve all 146 previous art/audio/patch assets and exact removable 0.28.0 mapping text. Use a dark crimson organic cathedral, red chitin terrain, a complete registered wall face and two green orb poses. Keep native terrain hulls, player/sprite footprints, original lava/Blizzard ice animation, menu/blackout behavior and full audio. Player/HUD/effect aliases retain every specific pose condition and remap sprite-neighbor identities. No new tileNearby probes. Later rooms and boss remain unfinished. See docs/LEVEL6_ORGANIC.md.
+
+## Current continuation — Level 6 green hall and descent 0.28.0
+
+Completed validation: the full 7,648-frame replay, 3,393-frame earlier-room regression and 700-frame edge route preserve native state and complete audio. Both new panoramas remain visible, all 15 inspected whole sources match, and all earlier regression images stay exact. The isolated build and historical validators pass; all 148 install hashes match. See `evidence/level6_late/`.
+
+The user accepted 0.27.0 ("this looks great") and supplied the 20261029-204125 movie. Preserve all 143 accepted install files as the baseline; main remains 0.24.0. No push, PR, merge or release is authorized.
+
+Cover A20B/mode10 and the recorded A2FB/mode04 descent. Use separate dark green skull-relief reliquary and open green tower backgrounds, with the accepted green stone and ivory skull blocks. Native palettes are 0B1B3B (hall solid), 0A1A29 (decorative hall wall), 0A1A39 (shaft solid), and 081030/1B2B3B (skulls). Both 1700/1900 bank copies and normal/resume/30/31 guards are required. Exclude death/card palettes 213029/041424 from room guards.
+
+Reuse complete ordered A0DF actor/terrain rules, retaining native masks and every sprite pose condition. 18F3–18F8 equals 02D8–02DD: approved eye/tear atlas 34 applies. 17F6/17F7 over 17F8/17F9 forms a complete 32×32 HD floating ledge from the accepted green material. Add no new neighbor probes or gameplay/audio edits. Keep exact removable 0.27.0 mappings and the full historical validator chain. See docs/LEVEL6_LATE.md. Later rooms and boss remain unfinished.
+
+## Current continuation — Level 6 room variety and hit frames 0.27.0
+
+Completed validation: full new-room and opening replays plus the corridor edge route match native execution and full audio. Both sentinel hit colors match whole HD sources in both directions. The isolated build passes all historical validators; all 143 install file hashes match. See `evidence/level6_variety/` for results.
+
+The user requests distinct rooms that retain the original color families. This supersedes the earlier uniform cold-stone direction: opening rooms use red stone with their separate exterior/hall backdrops; 9F3B is an amber ossuary; A02B is a crimson vertical shaft; A0DF is a green crypt with blue accents. The 20261029-190811 movie traverses the full shaft and green room. Preserve native structural hulls, carved ornaments, skull blocks, lava/ice, menus, blackouts, timing and audio.
+
+Both sentinel damage palettes (FF102030 and FF122232) reuse all 53 byte-identical cells from finished atlas 51. The projectile follows both hit palettes; the returning spark also reuses its approved source. The green room inherits complete actor rules and normal/resume/30/31 bank guards for 1700/1900. Clear only its measured decorative blue wall palette. New room art is a removable layer plus reversible corridor/shaft panorama substitutions; all 134 previous art/audio/patch files remain exact. See docs/LEVEL6_VARIETY.md.
+
+Work remains local on `feature/level6-opening`; approved main stays 0.24.0. Later Level 6 rooms and the final boss remain unfinished. No push, PR, merge, tag or release has occurred.
+
+## Current continuation — Level 6 skull corridor 0.26.0
+
+The 20261029-181929 movie supplies 9F3B/mode10 and the recorded entrance of A02B/mode04. Both now use the enclosed blue-violet citadel and existing cold stone/skulls. The new actor bank restores finished Randy, HUD, flying skulls, silver sentinels and projectiles. Two new bronze crawler poses fit the following room's native footprints. Every prior art/audio/patch asset and removable 0.25.1 mapping stays exact.
+
+Work remains local on `feature/level6-opening`; approved main is 0.24.0. No push, PR, merge, tag or release has occurred. The rest of A02B, later rooms and final boss are outside this recording. See docs/LEVEL6_NEXT.md and evidence/level6_next/.
+
+## Current repair — Level 6 ceiling and 1-up 0.25.1
+
+The 20261029-173117 movie exposes four upper-ceiling identities absent from the original recording, plus the native 1-up. The repair reuses the existing cold stone in the ceiling and approved ivory/blue figurines for the Level 6 bank. All 132 earlier art/audio/patch files and exact removable 0.25.0 mappings remain unchanged. Work continues locally on `feature/level6-opening`; approved main remains 0.24.0. See docs/LEVEL6_REPAIR.md and evidence/level6_repair/. No publication or merge performed.
+
+## Current review — Level 6 opening 0.25.0
+
+The 20261029-152041 movie supplies screens 1 and 2. This candidate replaces the inherited red cave with separate cold citadel exterior/interior panoramas, native-shaped dark masonry and ivory skull blocks. The lower-right Start-menu cape uses new purple/gold artwork. Returning actors, dragon forms, Thunder and lava/ice reuse byte-proven approved sources. All 127 prior art/audio/patch files and removable 0.24.0 mappings are preserved.
+
+Work is local on `feature/level6-opening` from approved main f716c2a. No push, PR, merge, tag or release has been performed. Later Level 6 rooms/boss remain unfinished; 9CA7 is only a brief outgoing-room transition in this recording. See docs/LEVEL6_OPENING.md and evidence/level6_opening/.
 
 ## Approved main — Demonic Palace 0.24.0
 
@@ -437,3 +499,5 @@ The user has authorized adoption through PR #2. Use 0.1.1 as the baseline for th
 - Full historical capture runs/videos and original savestates remain in the prior source/handoff archives. The repository keeps compact evidence and exact rollback inputs.
 
 Historical 0.11.0 limitation: the spinning creature was left native. The 0.11.1 review now adds its 0695–06AF frames and corrects the projectiles, flyer and bark. Other native effects and later-room scenery remain future work; the existing recording covers the next corridor.
+
+Isolated clean build: all 152 files reproduce exactly, historical validators and release verification pass. The 4,760-frame preview decodes completely; install ZIP hashes and CRCs pass.

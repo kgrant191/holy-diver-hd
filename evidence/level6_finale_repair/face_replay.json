@@ -1,0 +1,40 @@
+{
+  "movie": {
+    "movie_sha256": "30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 4761,
+    "seconds_wall": 242.619115513,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 4761
+  },
+  "native_samples_per_type": 4761,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "pcm_sha256": "98ba2c377d094b989b6fb13595d1bcd00150dfe93559b560d23d4d037076cb95",
+  "render_assets_match_final_manifest": true,
+  "final_runtime_verified": true,
+  "earlier_room_only_rule_delta": false,
+  "statistics": {
+    "initial_empty": 1,
+    "identical": 2056,
+    "blackouts_exact": 115,
+    "changed": 2704,
+    "bounded_changed_frames": 2704
+  },
+  "all_image_changes_within_requested_scope": true,
+  "whole_source_hits": {
+    "wall_face": {
+      "frame": 590,
+      "positions": [
+        [
+          8,
+          256
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "final_manifest_verified": true,
+  "only_changed_install_file": "hires.txt",
+  "exact_rule_delta_verified": true,
+  "changed_rule_scopes": [
+    "A58F background visibility",
+    "B01C FF0F0F07 ending dragon blackout"
+  ],
+  "full_candidate_capture_frames": 19215,
+  "final_scope_capture_frames": 1801,
+  "all_affected_room_frames_covered": 1411,
+  "all_affected_ending_fade_frames_covered": 8,
+  "changed_images": [
+    7856,
+    7857,
+    7858,
+    7859,
+    7860,
+    9146,
+    9147,
+    9148,
+    9149,
+    9150,
+    9151,
+    9152,
+    9153
+  ],
+  "all_other_scope_images_exact": true,
+  "native_scope_samples_exact": true,
+  "full_APU_and_PCM_exact": true,
+  "final_scope_movie": {
+    "movie_sha256": "fd5f2b697a6c61e7237cf555bfdf10d7699ae888724aa26a49af5cc94af70629",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 1801,
+    "seconds_wall": 392.0383628710042,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 19215,
+    "capture_windows": [
+      [
+        7400,
+        9200
+      ]
+    ]
+  },
+  "preview_method": "Unmodified actual PNGs from the full capture, with the 1801 affected-window frames replaced by actual final-pack captures; exactly 13 images change."
+}

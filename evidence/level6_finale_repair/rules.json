@@ -1,0 +1,17 @@
+{
+  "prior_assets_exact": 163,
+  "exact_0300_rules_recovery": true,
+  "mappings": {
+    "clean wall face": 432,
+    "blue mucus blob": 8,
+    "boss entrance": 72,
+    "entrance activation": 132,
+    "connected ending dragon": 465,
+    "ending transparent text": 649
+  },
+  "bounded_probes": 55,
+  "connected_dragon_poses": 2,
+  "shared_tail_exact": true,
+  "ending_glyph_colors_exact": true,
+  "green_orb_standby_exact": true
+}

@@ -1,0 +1,6 @@
+{
+  "unique_body_anchors": 32,
+  "all_anchors_unique_across_complete_native_nametable": true,
+  "all_probes_preceded_by_four_ordered_bounds": true,
+  "source": "native_reference_nametables.json; complete captured frames 5000 and 8000"
+}

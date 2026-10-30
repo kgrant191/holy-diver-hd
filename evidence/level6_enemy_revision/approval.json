@@ -1,0 +1,11 @@
+{
+  "version": "0.29.1",
+  "approved": true,
+  "user_statement": "approved. Now for the final screen and then the 2 boss rooms and the ending. Then we will be finished except for some rooms earlier in the level that I skipped.",
+  "artwork_commit": "57ac96b1a0d818e5fe30c3931c2300a92731478f",
+  "approved_manifest": "evidence/0.29.1-pack-sha256.json",
+  "installed_files_preserved": 152,
+  "main": "0.24.0",
+  "merge_authorized": false,
+  "remaining_scope": "Final screen, two boss rooms and ending; skipped earlier Level 6 rooms remain unfinished."
+}

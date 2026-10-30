@@ -1,0 +1,21 @@
+{
+  "frames": 731,
+  "original_prefix": 548,
+  "left_walk": [
+    549,
+    565
+  ],
+  "left_stop": [
+    566,
+    575
+  ],
+  "slow_right": [
+    576,
+    711
+  ],
+  "source_sha256": "30efe77656e6b464c92d1dd7f9dda448f1eb69ccc96bac1710a2ad7fa7e2d067",
+  "sha256": "fb0364e0e40c6e6ecc887cdc20a140961a0c3549e691af99b5391176a466ce7b",
+  "controller_only": true,
+  "unchanged_embedded_state": true,
+  "no_jump_after_branch": true
+}
