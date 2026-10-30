@@ -1,3 +1,5 @@
+> Correction in 0.32.0: original 088B–088E is a rectangular spell book bearing an emblem. Historical references below calling the acquisition item an orb were mistaken. The active Overdrive orbiting effect remains correctly identified and unchanged.
+
 # Golden Temple — 0.16.0 review
 
 The supplied Level 4 recording opens outdoors in room A865, then enters the temple in AA09 and continues through the recorded portion of AA81. This candidate gives that approach an open twilight sky and distant golden temple, then switches to enclosed navy masonry and gold arches. Native collision tiles retain bright, readable gold stone. Columns, the doorway, stairs, rolling boulders, flying gargoyles and horned guardians now follow the same direction.

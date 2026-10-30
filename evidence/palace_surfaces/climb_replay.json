@@ -1,0 +1,31 @@
+{
+  "movie": {
+    "movie_sha256": "56f2511c877ab227b07f612b6eedc952db9bfec16d8df48c42a2e03a78212c51",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 607,
+    "seconds_wall": 40.56786416700197,
+    "stride": 2,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 1215
+  },
+  "native_samples_per_type": 607,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "f7950ef3c5d17fdaba35dfe2f8a9ccaec2acc4a88c3f0859eb95a747815c1df9",
+  "pcm_sha256": "5acab3dc05df1d544e9c568347dda5ea2f561d023295dfba1cf7514df65173c7",
+  "statistics": {
+    "changed_images": 605,
+    "surface_bounds_pass": 605,
+    "identical_images": 2,
+    "blackouts_exact": 2
+  },
+  "rooms": {
+    "8816": 438,
+    "888E": 169
+  },
+  "book_source_matches": [],
+  "changed_pixel_bounds_failures": []
+}

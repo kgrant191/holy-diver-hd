@@ -1,0 +1,16 @@
+{
+  "frame": 2560,
+  "recording": "20261027-235225",
+  "source": "art/level4/overdrive_orb.png",
+  "positions": [
+    [
+      304,
+      192
+    ],
+    [
+      152,
+      312
+    ]
+  ],
+  "unchanged_cast": true
+}

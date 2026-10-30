@@ -1,3 +1,7 @@
+## Approved continuation — 0.32.0 Palace surfaces and Overdrive book
+
+The user approved 0.32.0 on 2026-10-30 and explicitly authorized push and merge. The pushed artwork commit is `ac5f6fdde59cb19c56c4d2d6f6b607522c5fceec`. Preserve all 174 reviewed installation files, including INSTALL.txt and the installed README. This approval update changes source documentation only. Verify the PR checks and actual downloaded artifact before the authorized merge; no further merge approval is needed. Main remains approved 0.31.0 until adoption. No release/tag is requested. See `docs/PALACE_SURFACES.md` and `evidence/palace_surfaces/approval.json`.
+
 # Holy Diver HD working instructions
 
 ## Approved main — Level 6 0.31.0

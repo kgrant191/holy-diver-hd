@@ -1,3 +1,7 @@
+## Approved continuation — 0.32.0 Palace surfaces and Overdrive book
+
+The user approved 0.32.0 on 2026-10-30 and explicitly authorized push and merge. The pushed artwork commit is `ac5f6fdde59cb19c56c4d2d6f6b607522c5fceec`. Preserve all 174 reviewed installation files, including INSTALL.txt and the installed README. This approval update changes source documentation only. Verify the PR checks and actual downloaded artifact before the authorized merge; no further merge approval is needed. Main remains approved 0.31.0 until adoption. No release/tag is requested. See `docs/PALACE_SURFACES.md` and `evidence/palace_surfaces/approval.json`.
+
 # Approved main — Level 6 0.31.0
 
 PR [#29](https://github.com/kgrant191/holy-diver-hd/pull/29) is merged, adopting the approved final recorded Level 6 rooms in 0.31.0. The pushed head and merge tree match the reviewed handoff. PR and main builds pass; both independently downloaded artifacts match all 173 approved SHA-256 hashes, CRCs and flat installation layout. Preserve every reviewed installation file, including the installed README and original green enemy standby.

@@ -1,3 +1,10 @@
+# 0.32.0 — approved; merge authorized
+
+Approved on 2026-10-30. The exact reviewed source is pushed; PR checks and artifact verification precede the authorized merge. All 174 installation files remain frozen. Approval bookkeeping changes source documentation only.
+
+- Replace the later Demonic Palace masonry with silver, violet and green stone matching native room palettes. Preserve earlier opening scenery and all distant backgrounds.
+- Correct the Level 3 Overdrive acquisition sprite to a crimson spell book.
+
 ## 0.31.0 — missed Level 6 rooms (approved and merged)
 
 Approved and merged through PR #29 on 2026-10-29. PR/main builds and both independently downloaded artifacts pass all 173 approved hashes, CRCs and flat layout. Installation files remain frozen. Final cleanup follows before the completed release.

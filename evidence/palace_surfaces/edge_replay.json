@@ -1,0 +1,513 @@
+{
+  "movie": {
+    "movie_sha256": "d7c410bb8fbb20ae92f7301e5e185d7702b0563557b746cbc4bd08f41f9e8039",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 201,
+    "seconds_wall": 34.68366318599874,
+    "stride": 1,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 2000
+  },
+  "paired_native_samples": 201,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "13cd0b1c62dbe92c88a424f3850299c9c42bd8c878b498b3428f3901646f2c2e",
+  "pcm_sha256": "7cfb9727509c5b9445f0d3368518260a4355b9f25ccb421548da510f3ae016cd",
+  "controller_only": true,
+  "left_stop": {
+    "frames": [
+      1840,
+      1850
+    ],
+    "world_position": [
+      607,
+      80
+    ]
+  },
+  "platform_native_world_bounds": {
+    "left": 608,
+    "right_exclusive": 640,
+    "screen_y": 96
+  },
+  "native_fall_start": {
+    "frame": 1905,
+    "world_position": [
+      648,
+      80
+    ]
+  },
+  "native_first_descent": {
+    "frame": 1909,
+    "world_position": [
+      652,
+      81
+    ]
+  },
+  "complete_platform_source_matches": [
+    {
+      "frame": 1905,
+      "positions": [
+        [
+          180,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1906,
+      "positions": [
+        [
+          178,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1907,
+      "positions": [
+        [
+          176,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1908,
+      "positions": [
+        [
+          174,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1909,
+      "positions": [
+        [
+          172,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1910,
+      "positions": [
+        [
+          170,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1911,
+      "positions": [
+        [
+          168,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1912,
+      "positions": [
+        [
+          166,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1913,
+      "positions": [
+        [
+          164,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1914,
+      "positions": [
+        [
+          162,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1915,
+      "positions": [
+        [
+          160,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1916,
+      "positions": [
+        [
+          158,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1917,
+      "positions": [
+        [
+          156,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1918,
+      "positions": [
+        [
+          154,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1919,
+      "positions": [
+        [
+          152,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1920,
+      "positions": [
+        [
+          150,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1921,
+      "positions": [
+        [
+          148,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1922,
+      "positions": [
+        [
+          146,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1923,
+      "positions": [
+        [
+          144,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1924,
+      "positions": [
+        [
+          142,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1925,
+      "positions": [
+        [
+          140,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1926,
+      "positions": [
+        [
+          138,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1927,
+      "positions": [
+        [
+          136,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1928,
+      "positions": [
+        [
+          134,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1929,
+      "positions": [
+        [
+          132,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1930,
+      "positions": [
+        [
+          130,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1931,
+      "positions": [
+        [
+          128,
+          192
+        ],
+        [
+          448,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1932,
+      "positions": [
+        [
+          126,
+          192
+        ],
+        [
+          446,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1933,
+      "positions": [
+        [
+          124,
+          192
+        ],
+        [
+          444,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1934,
+      "positions": [
+        [
+          122,
+          192
+        ],
+        [
+          442,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1935,
+      "positions": [
+        [
+          120,
+          192
+        ],
+        [
+          440,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1936,
+      "positions": [
+        [
+          118,
+          192
+        ],
+        [
+          438,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1937,
+      "positions": [
+        [
+          116,
+          192
+        ],
+        [
+          436,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1938,
+      "positions": [
+        [
+          114,
+          192
+        ],
+        [
+          434,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1939,
+      "positions": [
+        [
+          112,
+          192
+        ],
+        [
+          432,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1940,
+      "positions": [
+        [
+          110,
+          192
+        ],
+        [
+          430,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1941,
+      "positions": [
+        [
+          108,
+          192
+        ],
+        [
+          428,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1942,
+      "positions": [
+        [
+          106,
+          192
+        ],
+        [
+          426,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1943,
+      "positions": [
+        [
+          424,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1944,
+      "positions": [
+        [
+          422,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1945,
+      "positions": [
+        [
+          420,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1946,
+      "positions": [
+        [
+          418,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1947,
+      "positions": [
+        [
+          416,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1948,
+      "positions": [
+        [
+          414,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1949,
+      "positions": [
+        [
+          412,
+          192
+        ]
+      ]
+    },
+    {
+      "frame": 1950,
+      "positions": [
+        [
+          412,
+          192
+        ]
+      ]
+    }
+  ]
+}

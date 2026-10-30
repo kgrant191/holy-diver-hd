@@ -1,0 +1,28 @@
+{
+  "actual_emulator_frames": true,
+  "no_imagegen_gameplay": true,
+  "panels": [
+    [
+      "climb",
+      2,
+      "Silver stair hall"
+    ],
+    [
+      "next",
+      2560,
+      "Violet lava corridor"
+    ],
+    [
+      "late",
+      10800,
+      "Green hall"
+    ],
+    [
+      "book",
+      4260,
+      "Overdrive spell book"
+    ]
+  ],
+  "comparison_frame": 2,
+  "book_crop_frame": 4260
+}

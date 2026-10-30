@@ -1,0 +1,451 @@
+{
+  "movie": {
+    "movie_sha256": "32f2d9617ca290845983ab67918a8f0f9ed312ee7cd5a4ec5881ff51d299db42",
+    "rom_sha1": "fe2fcd0ad334d792db16535d09f3ab9fb2bea3ac",
+    "emulator_version": "2.2.1",
+    "movie_completed": true,
+    "captured_frames": 2406,
+    "seconds_wall": 146.17389165700297,
+    "stride": 2,
+    "core_sha256": "f45cd3fd53d48176f66a1d2ff9713394e4428fae98bee53df69bed5a442e7e79",
+    "movie_frames": 4812
+  },
+  "native_samples_per_type": 2406,
+  "native_exact": true,
+  "apu_exact": true,
+  "pcm_exact": true,
+  "apu_sha256": "66fe0df590adb59c6f586ad09a1b7d2f230163f018f485099abd601122fe4514",
+  "pcm_sha256": "cb113aac017ae53e092e67e4844d8b17b3480a6c6ed93760a744d35d06d0b670",
+  "statistics": {
+    "identical_images": 2343,
+    "menus_cards_exact": 209,
+    "blackouts_exact": 73,
+    "changed_images": 63,
+    "surface_bounds_pass": 63
+  },
+  "rooms": {
+    "9DEE": 77,
+    "FFFF": 19,
+    "9F1A": 618,
+    "9F92": 1478,
+    "0000": 194,
+    "A865": 20
+  },
+  "book_source_matches": [
+    {
+      "frame": 4208,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4210,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4212,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4214,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4216,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4218,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4220,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4222,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4224,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4226,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4228,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4230,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4232,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4234,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4236,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4238,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4240,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4242,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4244,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4246,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4248,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4250,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4252,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4254,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4256,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4258,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4260,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4262,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4264,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4266,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4268,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4270,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4272,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4274,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4276,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4278,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4280,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4282,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4284,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4286,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4288,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4290,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4292,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4294,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4296,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    },
+    {
+      "frame": 4298,
+      "positions": [
+        [
+          240,
+          256
+        ]
+      ]
+    }
+  ],
+  "changed_pixel_bounds_failures": []
+}

@@ -1,3 +1,7 @@
+## Palace surfaces and Overdrive pickup — 0.32.0
+
+Run `verify_palace_surfaces_rules.py` and the complete historical validator chain on the recovered 0.31.0 baseline. Pair the supplied Level 5 climb, next rooms, late rooms and finale movies, plus the Level 3 finale movie; compare all captured native RAM/PPU/OAM/view and full APU/PCM. The opening movie is an exact-image regression through the unchanged early rooms. Check the controller-only continuation edge route from frame 1800 through the full walk-off at stride one. Require the complete book source in actual captures and unchanged active Overdrive artwork. See PALACE_SURFACES.md and evidence/palace_surfaces/.
+
 ## Final recorded Level 6 rooms — 0.31.0
 
 Run the full 8998-frame movie against frozen 0.30.1 and 0.31.0 with synchronized screenshots and the stock-core neighbor bounds observer. `verify_level6_missed_replay.py` requires all native RAM/PPU/OAM/view samples, APU and full PCM to match; actual images must change only in the three requested rooms and retain the selected normal/flash backdrop. Menus, deaths, blackouts and stable 9F3B stay exact. Run the paired controller-only ledge route and `verify_level6_missed_edge.py` for the right wall stop, slow left walk-off and complete source/mask verification. Clean isolated build and `verify_release.py` must reproduce all 173 file hashes and the full historical validator chain. See LEVEL6_MISSED.md.

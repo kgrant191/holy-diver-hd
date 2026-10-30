@@ -1,3 +1,7 @@
+## Approved continuation — 0.32.0 Palace surfaces and Overdrive book
+
+The user approved 0.32.0 on 2026-10-30 and explicitly authorized push and merge. The pushed artwork commit is `ac5f6fdde59cb19c56c4d2d6f6b607522c5fceec`. Preserve all 174 reviewed installation files, including INSTALL.txt and the installed README. This approval update changes source documentation only. Verify the PR checks and actual downloaded artifact before the authorized merge; no further merge approval is needed. Main remains approved 0.31.0 until adoption. No release/tag is requested. See `docs/PALACE_SURFACES.md` and `evidence/palace_surfaces/approval.json`.
+
 **0.31.0 is approved and merged on main.** [PR #29](https://github.com/kgrant191/holy-diver-hd/pull/29) completes the recorded red corridor and two distinct purple rooms. PR/main builds and both downloaded artifacts pass all 173 approved file hashes and flat layout. Next: final cleanup before the completed release. [Adoption record](docs/LEVEL6_MISSED_ADOPTION.md). Historical review labels below are superseded by the current approvals.
 
 **Level 6 0.30.1 is approved and merged on main.** [PR #28](https://github.com/kgrant191/holy-diver-hd/pull/28) adopts the recorded rooms, bosses, ending and requested repairs. All 166 reviewed install files remain frozen. Next: the newly supplied skipped-room movie, cleanup, then the completed release. [Adoption record](docs/LEVEL6_ADOPTION.md).
