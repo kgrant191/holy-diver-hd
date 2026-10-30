@@ -1,0 +1,21 @@
+{
+  "version": "0.30.1",
+  "approved": true,
+  "approval_date": "2026-10-29",
+  "timezone": "America/New_York",
+  "user_statement": "all approved. lets merge it then work on the final level 6 changes from rooms I missed. Then we can do some cleanup on other parts after then we can create a release.",
+  "artwork_commit": "6e6cccc2e94468430b7beaa4ec2e64e5d7492dca",
+  "approved_manifest": "evidence/0.30.1-pack-sha256.json",
+  "approved_manifest_sha256": "d754fece06303e1698f287c4257e3c2617cd6190940973a3117a83b35594800a",
+  "installed_files_preserved": 166,
+  "merge_authorized": true,
+  "merge_status": "pending user source push, PR checks and artifact verification",
+  "remote_main": "f716c2a7071bf6344e2e52b10b6df8b61d3e929b",
+  "remote_feature_branch_present": false,
+  "follow_up": [
+    "Finish skipped Level 6 rooms from new recordings",
+    "Cleanup elsewhere in the pack",
+    "Prepare the completed release after those remaining tasks"
+  ],
+  "release_requested_now": false
+}

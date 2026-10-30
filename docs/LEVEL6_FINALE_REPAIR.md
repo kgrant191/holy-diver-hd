@@ -4,9 +4,13 @@ The user requested four corrections to 0.30.0: less wall material in the face,
 the approved slime design in blue, a visible entrance before the final platform,
 and connected ending dragons that remain visible around the story text.
 
-This is a local review candidate on `feature/level6-opening`. Main stays at
-0.24.0. No push, PR, merge, tag or release is authorized. Earlier skipped
-Level 6 rooms remain unfinished.
+The user approved all delivered work through 0.30.1 and authorized merging on
+2026-10-29. Source push is pending; GitHub main remains 0.24.0. No further merge
+approval is needed. All 166 reviewed installation files remain unchanged,
+including the installed README whose review wording predates this approval.
+Next come the skipped Level 6 rooms, then cleanup elsewhere, then the completed
+release. No release or tag is requested at this stage. See the approval record
+in `evidence/level6_finale_repair/approval.json`.
 
 ## Rendering changes
 

@@ -1,5 +1,9 @@
 # Holy Diver HD working instructions
 
+## Approved continuation — 0.30.1; merge authorized
+
+The user approved all delivered Level 6 work through 0.30.1 on 2026-10-29 and explicitly authorized merging. Preserve all 166 reviewed install files, including the frozen installed README and INSTALL.txt build input. Approval bookkeeping changes source documentation only. GitHub main is f716c2a/0.24.0; feature/level6-opening has not yet been pushed. Follow the established user-push bundle workflow, then verify the exact approved head, PR checks and actual artifact before merging. No further merge approval is needed. After adoption, cover the skipped Level 6 rooms using new recordings, then perform requested cleanup elsewhere, then prepare the completed release. Do not create a release/tag now. Original green orb standby remains intact. See evidence/level6_finale_repair/approval.json. Earlier no-merge and review labels below are historical and superseded.
+
 ## Current repair — Level 6 finale 0.30.1
 
 The user requests a clean wall face matching their reference, the approved slime design in blue, a visible boss entrance before landing, and connected ending dragons visible around the text. These requested repairs supersede the prior face-alpha and opaque ending-background preservation constraints. Preserve all 163 existing art/audio/patch files; add a removable repair layer. Keep native gameplay, audio, boss rooms, blackouts, green slime and original green orb standby. Two-anchor portal rules and repeated face cells require ordered screen bounds. Compare original graphics with the same audio patch retained to avoid input-movie desynchronization. Verify full finale native/audio, earlier face-room replay, exact image-change bounds and isolated build. No push, merge, PR, tag or release authorization. Skipped earlier Level 6 rooms remain unfinished. See docs/LEVEL6_FINALE_REPAIR.md.

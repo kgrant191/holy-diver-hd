@@ -1,6 +1,6 @@
-# Current candidate: 0.30.1 — requested Level 6 finale repairs
+# Approved 0.30.1 — merge authorized; source push pending
 
-Clean reference-based wall face, matching blue mucus enemy, visible boss entrance before landing, connected ending wings and transparent ending text backgrounds. Local review candidate on `feature/level6-opening`; main remains 0.24.0. Original green orb standby remains intact. Earlier skipped rooms are still unfinished. See `docs/LEVEL6_FINALE_REPAIR.md`.
+All delivered Level 6 artwork through the finale and repairs is approved. GitHub still has no Level 6 feature branch; main remains 0.24.0. The 166 reviewed install files are unchanged. After the user pushes the approved handoff, verify PR checks and the actual Actions artifact, merge, then verify the main build and artifact. Next: skipped Level 6 rooms, cleanup elsewhere, then the completed release. No further merge approval is needed. See `evidence/level6_finale_repair/approval.json`.
 
 # Current status
 

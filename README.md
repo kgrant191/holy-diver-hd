@@ -1,4 +1,4 @@
-Current development candidate: **0.30.1**, the requested Level 6 face, blue slime, boss entrance and ending repairs. See [repair details](docs/LEVEL6_FINALE_REPAIR.md). Earlier skipped rooms remain unfinished; no publication or merge has been performed.
+**0.30.1 is approved; merge is authorized.** All delivered Level 6 work is accepted. The source branch still needs to be pushed before PR checks and merge; main remains 0.24.0. Next: skipped Level 6 rooms, cleanup, then the completed release. The 166 reviewed installation files and original green orb standby remain unchanged. [Scope and verification](docs/LEVEL6_FINALE_REPAIR.md).
 
 # Holy Diver HD
 
