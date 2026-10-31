@@ -1,0 +1,1719 @@
+{
+  "room": "9DEE",
+  "mode": "14",
+  "atlas_index": 73,
+  "new_image": "Moss_Curtain_Fix_2x.png",
+  "tile_rules": 212,
+  "prior_hires_sha256": "5fe8f14d98d517631f763a8c25d3a7bb5e16c09256ea9cba1b9f59b5c3c780e2",
+  "native_aliases": {
+    "074F": "038E",
+    "0750": "038D",
+    "0751": "038C",
+    "0771": "038B",
+    "0772": "038A",
+    "0773": "0389",
+    "073E": "0345",
+    "073F": "0344",
+    "0740": "0343",
+    "0741": "0342",
+    "0742": "0341",
+    "0743": "0334"
+  },
+  "mappings": [
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038E,0F161606,128,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,074F,0F161606,128,0,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038E,0F161606,192,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,074F,0F161606,192,0,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038E,0F161606,0,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,074F,0F161606,0,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038E,0F161606,64,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,074F,0F161606,64,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038E,0F161606,128,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,074F,0F161606,128,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038E,0F161606,192,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,074F,0F161606,192,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038E,0F161606,0,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,074F,0F161606,0,32,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038E,0F161606,64,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,074F,0F161606,64,32,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038E,0F161606,160,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,074F,0F161606,160,0,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038E,0F161606,224,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,074F,0F161606,224,0,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038E,0F161606,32,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,074F,0F161606,32,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038E,0F161606,96,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,074F,0F161606,96,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038E,0F161606,160,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,074F,0F161606,160,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038E,0F161606,224,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,074F,0F161606,224,16,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038E,0F161606,32,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,074F,0F161606,32,32,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038E,0F161606,96,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,074F,0F161606,96,32,1,N",
+      "identity": "074F",
+      "palette": "0F161606",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038E,0F060616,128,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,074F,0F060616,128,32,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038E,0F060616,192,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,074F,0F060616,192,32,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038E,0F060616,0,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,074F,0F060616,0,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038E,0F060616,64,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,074F,0F060616,64,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038E,0F060616,128,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,074F,0F060616,128,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038E,0F060616,192,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,074F,0F060616,192,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038E,0F060616,0,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,074F,0F060616,0,64,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038E,0F060616,64,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,074F,0F060616,64,64,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038E,0F060616,160,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,074F,0F060616,160,32,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038E,0F060616,224,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,074F,0F060616,224,32,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038E,0F060616,32,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,074F,0F060616,32,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038E,0F060616,96,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,074F,0F060616,96,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038E,0F060616,160,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,074F,0F060616,160,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038E,0F060616,224,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,074F,0F060616,224,48,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038E,0F060616,32,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,074F,0F060616,32,64,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038E,0F060616,96,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,074F,0F060616,96,64,1,N",
+      "identity": "074F",
+      "palette": "0F060616",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038E,0F122131,160,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,074F,0F122131,160,64,1,N",
+      "identity": "074F",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038D,0F161606,112,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0750,0F161606,112,0,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038D,0F161606,176,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0750,0F161606,176,0,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038D,0F161606,240,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0750,0F161606,240,0,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038D,0F161606,48,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0750,0F161606,48,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038D,0F161606,112,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0750,0F161606,112,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038D,0F161606,176,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0750,0F161606,176,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038D,0F161606,240,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0750,0F161606,240,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038D,0F161606,48,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0750,0F161606,48,32,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038D,0F161606,144,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0750,0F161606,144,0,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038D,0F161606,208,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0750,0F161606,208,0,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038D,0F161606,16,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0750,0F161606,16,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038D,0F161606,80,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0750,0F161606,80,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038D,0F161606,144,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0750,0F161606,144,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038D,0F161606,208,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0750,0F161606,208,16,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038D,0F161606,16,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0750,0F161606,16,32,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038D,0F161606,80,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0750,0F161606,80,32,1,N",
+      "identity": "0750",
+      "palette": "0F161606",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038D,0F060616,112,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0750,0F060616,112,32,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038D,0F060616,176,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0750,0F060616,176,32,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038D,0F060616,240,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0750,0F060616,240,32,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038D,0F060616,48,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0750,0F060616,48,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038D,0F060616,112,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0750,0F060616,112,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038D,0F060616,176,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0750,0F060616,176,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038D,0F060616,240,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0750,0F060616,240,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038D,0F060616,48,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0750,0F060616,48,64,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038D,0F060616,144,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0750,0F060616,144,32,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038D,0F060616,208,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0750,0F060616,208,32,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038D,0F060616,16,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0750,0F060616,16,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038D,0F060616,80,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0750,0F060616,80,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038D,0F060616,144,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0750,0F060616,144,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038D,0F060616,208,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0750,0F060616,208,48,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038D,0F060616,16,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0750,0F060616,16,64,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038D,0F060616,80,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0750,0F060616,80,64,1,N",
+      "identity": "0750",
+      "palette": "0F060616",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038D,0F122131,144,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0750,0F122131,144,64,1,N",
+      "identity": "0750",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038C,0F161606,160,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0751,0F161606,160,0,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038C,0F161606,224,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0751,0F161606,224,0,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038C,0F161606,32,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0751,0F161606,32,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038C,0F161606,96,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0751,0F161606,96,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038C,0F161606,160,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0751,0F161606,160,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038C,0F161606,224,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0751,0F161606,224,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038C,0F161606,32,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0751,0F161606,32,32,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038C,0F161606,96,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0751,0F161606,96,32,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038C,0F161606,128,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0751,0F161606,128,0,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038C,0F161606,192,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0751,0F161606,192,0,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038C,0F161606,0,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0751,0F161606,0,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038C,0F161606,64,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0751,0F161606,64,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038C,0F161606,128,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0751,0F161606,128,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038C,0F161606,192,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0751,0F161606,192,16,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038C,0F161606,0,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0751,0F161606,0,32,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038C,0F161606,64,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0751,0F161606,64,32,1,N",
+      "identity": "0751",
+      "palette": "0F161606",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038C,0F060616,160,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0751,0F060616,160,32,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038C,0F060616,224,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0751,0F060616,224,32,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038C,0F060616,32,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0751,0F060616,32,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038C,0F060616,96,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0751,0F060616,96,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038C,0F060616,160,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0751,0F060616,160,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038C,0F060616,224,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0751,0F060616,224,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038C,0F060616,32,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0751,0F060616,32,64,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038C,0F060616,96,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0751,0F060616,96,64,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038C,0F060616,128,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0751,0F060616,128,32,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038C,0F060616,192,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0751,0F060616,192,32,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038C,0F060616,0,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0751,0F060616,0,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038C,0F060616,64,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0751,0F060616,64,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038C,0F060616,128,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0751,0F060616,128,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038C,0F060616,192,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0751,0F060616,192,48,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038C,0F060616,0,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0751,0F060616,0,64,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038C,0F060616,64,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0751,0F060616,64,64,1,N",
+      "identity": "0751",
+      "palette": "0F060616",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038C,0F122131,128,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0751,0F122131,128,64,1,N",
+      "identity": "0751",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038B,0F161606,144,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0771,0F161606,144,0,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038B,0F161606,208,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0771,0F161606,208,0,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038B,0F161606,16,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0771,0F161606,16,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038B,0F161606,80,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0771,0F161606,80,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038B,0F161606,144,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0771,0F161606,144,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038B,0F161606,208,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0771,0F161606,208,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038B,0F161606,16,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0771,0F161606,16,32,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038B,0F161606,80,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0771,0F161606,80,32,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038B,0F161606,112,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0771,0F161606,112,0,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038B,0F161606,176,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0771,0F161606,176,0,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038B,0F161606,240,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0771,0F161606,240,0,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038B,0F161606,48,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0771,0F161606,48,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038B,0F161606,112,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0771,0F161606,112,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038B,0F161606,176,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0771,0F161606,176,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038B,0F161606,240,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0771,0F161606,240,16,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038B,0F161606,48,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0771,0F161606,48,32,1,N",
+      "identity": "0771",
+      "palette": "0F161606",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038B,0F060616,144,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0771,0F060616,144,32,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038B,0F060616,208,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0771,0F060616,208,32,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038B,0F060616,16,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0771,0F060616,16,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038B,0F060616,80,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0771,0F060616,80,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038B,0F060616,144,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0771,0F060616,144,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038B,0F060616,208,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0771,0F060616,208,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038B,0F060616,16,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0771,0F060616,16,64,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038B,0F060616,80,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0771,0F060616,80,64,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038B,0F060616,112,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0771,0F060616,112,32,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038B,0F060616,176,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0771,0F060616,176,32,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038B,0F060616,240,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0771,0F060616,240,32,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038B,0F060616,48,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0771,0F060616,48,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038B,0F060616,112,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0771,0F060616,112,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038B,0F060616,176,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0771,0F060616,176,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038B,0F060616,240,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0771,0F060616,240,48,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038B,0F060616,48,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0771,0F060616,48,64,1,N",
+      "identity": "0771",
+      "palette": "0F060616",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038B,0F122131,112,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0771,0F122131,112,64,1,N",
+      "identity": "0771",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038A,0F161606,128,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0772,0F161606,128,0,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038A,0F161606,192,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0772,0F161606,192,0,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038A,0F161606,0,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0772,0F161606,0,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038A,0F161606,64,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0772,0F161606,64,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038A,0F161606,128,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0772,0F161606,128,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038A,0F161606,192,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0772,0F161606,192,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038A,0F161606,0,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0772,0F161606,0,32,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038A,0F161606,64,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0772,0F161606,64,32,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038A,0F161606,160,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0772,0F161606,160,0,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038A,0F161606,224,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0772,0F161606,224,0,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038A,0F161606,32,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0772,0F161606,32,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038A,0F161606,96,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0772,0F161606,96,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038A,0F161606,160,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0772,0F161606,160,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038A,0F161606,224,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0772,0F161606,224,16,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038A,0F161606,32,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0772,0F161606,32,32,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038A,0F161606,96,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0772,0F161606,96,32,1,N",
+      "identity": "0772",
+      "palette": "0F161606",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,038A,0F060616,128,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0772,0F060616,128,32,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,038A,0F060616,192,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0772,0F060616,192,32,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,038A,0F060616,0,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0772,0F060616,0,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,038A,0F060616,64,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0772,0F060616,64,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,038A,0F060616,128,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0772,0F060616,128,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,038A,0F060616,192,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0772,0F060616,192,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,038A,0F060616,0,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0772,0F060616,0,64,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,038A,0F060616,64,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0772,0F060616,64,64,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,038A,0F060616,160,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0772,0F060616,160,32,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,038A,0F060616,224,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0772,0F060616,224,32,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,038A,0F060616,32,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0772,0F060616,32,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,038A,0F060616,96,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0772,0F060616,96,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,038A,0F060616,160,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0772,0F060616,160,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,038A,0F060616,224,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0772,0F060616,224,48,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,038A,0F060616,32,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0772,0F060616,32,64,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038A,0F060616,96,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0772,0F060616,96,64,1,N",
+      "identity": "0772",
+      "palette": "0F060616",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,038A,0F122131,128,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0772,0F122131,128,64,1,N",
+      "identity": "0772",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,0389,0F161606,112,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0773,0F161606,112,0,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,0389,0F161606,176,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0773,0F161606,176,0,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,0389,0F161606,240,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0773,0F161606,240,0,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,0389,0F161606,48,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0773,0F161606,48,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,0389,0F161606,112,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0773,0F161606,112,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,0389,0F161606,176,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0773,0F161606,176,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,0389,0F161606,240,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0773,0F161606,240,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,0389,0F161606,48,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0773,0F161606,48,32,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,0389,0F161606,144,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0773,0F161606,144,0,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,0389,0F161606,208,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0773,0F161606,208,0,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,0389,0F161606,16,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0773,0F161606,16,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,0389,0F161606,80,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0773,0F161606,80,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,0389,0F161606,144,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0773,0F161606,144,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,0389,0F161606,208,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0773,0F161606,208,16,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,0389,0F161606,16,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0773,0F161606,16,32,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,0389,0F161606,80,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0773,0F161606,80,32,1,N",
+      "identity": "0773",
+      "palette": "0F161606",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase15]<tile>33,0389,0F060616,112,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase15]<tile>33,0773,0F060616,112,32,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase15"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase14]<tile>33,0389,0F060616,176,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase14]<tile>33,0773,0F060616,176,32,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase14"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase13]<tile>33,0389,0F060616,240,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase13]<tile>33,0773,0F060616,240,32,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase13"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase12]<tile>33,0389,0F060616,48,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase12]<tile>33,0773,0F060616,48,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase12"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase11]<tile>33,0389,0F060616,112,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase11]<tile>33,0773,0F060616,112,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase11"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase10]<tile>33,0389,0F060616,176,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase10]<tile>33,0773,0F060616,176,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase10"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase9]<tile>33,0389,0F060616,240,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase9]<tile>33,0773,0F060616,240,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase9"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase8]<tile>33,0389,0F060616,48,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase8]<tile>33,0773,0F060616,48,64,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase8"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase7]<tile>33,0389,0F060616,144,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase7]<tile>33,0773,0F060616,144,32,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase7"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase6]<tile>33,0389,0F060616,208,32,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase6]<tile>33,0773,0F060616,208,32,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase6"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase5]<tile>33,0389,0F060616,16,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase5]<tile>33,0773,0F060616,16,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase5"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase4]<tile>33,0389,0F060616,80,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase4]<tile>33,0773,0F060616,80,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase4"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase3]<tile>33,0389,0F060616,144,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase3]<tile>33,0773,0F060616,144,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase3"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase2]<tile>33,0389,0F060616,208,48,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase2]<tile>33,0773,0F060616,208,48,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase2"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi&s22FallPhase1]<tile>33,0389,0F060616,16,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi&s22FallPhase1]<tile>33,0773,0F060616,16,64,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": "s22FallPhase1"
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,0389,0F060616,80,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0773,0F060616,80,64,1,N",
+      "identity": "0773",
+      "palette": "0F060616",
+      "phase": ""
+    },
+    {
+      "kind": "approved animated lava/ice curtain",
+      "source_rule": "[s25Room&s25DataLo&s25DataHi]<tile>33,0389,0F122131,112,64,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>33,0773,0F122131,112,64,1,N",
+      "identity": "0773",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved frozen lava pool",
+      "source_rule": "[s21Room&s21DataLo&s21DataHi]<tile>32,0345,0F122131,48,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>32,073E,0F122131,48,16,1,N",
+      "identity": "073E",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved frozen lava pool",
+      "source_rule": "[s21Room&s21DataLo&s21DataHi]<tile>32,0344,0F122131,64,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>32,073F,0F122131,64,16,1,N",
+      "identity": "073F",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved frozen lava pool",
+      "source_rule": "[s21Room&s21DataLo&s21DataHi]<tile>32,0343,0F122131,80,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>32,0740,0F122131,80,16,1,N",
+      "identity": "0740",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved frozen lava pool",
+      "source_rule": "[s21Room&s21DataLo&s21DataHi]<tile>32,0342,0F122131,96,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>32,0741,0F122131,96,16,1,N",
+      "identity": "0741",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved frozen lava pool",
+      "source_rule": "[s21Room&s21DataLo&s21DataHi]<tile>32,0341,0F122131,112,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>32,0742,0F122131,112,16,1,N",
+      "identity": "0742",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved frozen lava pool",
+      "source_rule": "[s21Room&s21DataLo&s21DataHi]<tile>32,0334,0F122131,128,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>32,0743,0F122131,128,16,1,N",
+      "identity": "0743",
+      "palette": "0F122131",
+      "phase": ""
+    },
+    {
+      "kind": "approved moss ceiling detail",
+      "source_rule": "[l3c9B96Mode&l3c9B96Lo&l3c9B96Hi]<tile>45,074B,0F0A1A29,320,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>45,074B,0F091929,320,0,1,N",
+      "identity": "074B",
+      "palette": "0F091929",
+      "phase": ""
+    },
+    {
+      "kind": "approved moss ceiling detail",
+      "source_rule": "[l3c9B96Mode&l3c9B96Lo&l3c9B96Hi]<tile>45,074C,0F0A1A29,272,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>45,074C,0F091929,272,0,1,N",
+      "identity": "074C",
+      "palette": "0F091929",
+      "phase": ""
+    },
+    {
+      "kind": "approved moss ceiling detail",
+      "source_rule": "[l3c9B96Mode&l3c9B96Lo&l3c9B96Hi]<tile>45,074D,0F0A1A29,288,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>45,074D,0F091929,288,0,1,N",
+      "identity": "074D",
+      "palette": "0F091929",
+      "phase": ""
+    },
+    {
+      "kind": "approved moss ceiling detail",
+      "source_rule": "[l3c9B96Mode&l3c9B96Lo&l3c9B96Hi]<tile>45,074E,0F0A1A29,304,0,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>45,074E,0F091929,304,0,1,N",
+      "identity": "074E",
+      "palette": "0F091929",
+      "phase": ""
+    },
+    {
+      "kind": "approved moss native contour",
+      "source_rule": "[l3_forestRoom&l3_forestLo&l3_forestHi]<tile>45,078F,0F081827,80,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>45,078F,0F0A1A29,80,16,1,N",
+      "identity": "078F",
+      "palette": "0F0A1A29",
+      "phase": ""
+    },
+    {
+      "kind": "approved moss native contour",
+      "source_rule": "[l3_forestRoom&l3_forestLo&l3_forestHi]<tile>45,0790,0F081827,96,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>45,0790,0F0A1A29,96,16,1,N",
+      "identity": "0790",
+      "palette": "0F0A1A29",
+      "phase": ""
+    },
+    {
+      "kind": "approved moss native contour",
+      "source_rule": "[l3_forestRoom&l3_forestLo&l3_forestHi]<tile>45,0791,0F081827,112,16,1,N",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>45,0791,0F0A1A29,112,16,1,N",
+      "identity": "0791",
+      "palette": "0F0A1A29",
+      "phase": ""
+    },
+    {
+      "kind": "missing moss native contour",
+      "identity": "078E",
+      "palette": "0F0A1A29",
+      "rule": "[l3c9DEEMode&l3c9DEELo&l3c9DEEHi]<tile>73,078E,0F0A1A29,0,0,1,N",
+      "pattern_sha256": "8d0e3208517327fe2374e704a9e40a79e120c8612a3aee970f5afc6ca7cc311c"
+    }
+  ]
+}

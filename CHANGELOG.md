@@ -1,5 +1,12 @@
 # Release history
 
+## 1.0.1
+
+- Fix original NES tiles appearing in the later Poison Moss Land lava-curtain corridor.
+- Apply the existing HD lava animation and matching frozen form to the vertical curtain and frozen lava pool.
+- Complete mossy ceiling details and platform contours with the existing HD materials.
+- Preserve native gameplay, collision, timing and sound.
+
 ## 1.0.0
 
 - HD characters, enemies, environments, items and effects across all six stages.

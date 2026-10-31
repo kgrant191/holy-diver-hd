@@ -1,11 +1,11 @@
-# Installation — Holy Diver HD v1.0.0
+# Installation — Holy Diver HD v1.0.1
 
 ## Requirements
 
 - **Mesen emulator with NES HD pack support.** This pack was tested with **MesenCE 2.2.1**. Download MesenCE for your operating system from the [official releases](https://github.com/nesdev-org/MesenCE/releases/tag/2.2.1), and follow its platform requirements.
 - **The supported Holy Diver translated ROM**, as an uncompressed `.nes` file. Its full-file **SHA-1** must be:
   `FE2FCD0AD334D792DB16535D09F3AB9FB2BEA3AC`
-- **Holy_Diver_HD_v1.0.0.zip** from this project's [Releases page](https://github.com/kgrant191/holy-diver-hd/releases).
+- **Holy_Diver_HD_v1.0.1.zip** from this project's [Releases page](https://github.com/kgrant191/holy-diver-hd/releases).
 
 The ROM and emulator are supplied separately. Renaming a ROM changes its filename, not its checksum.
 
@@ -28,11 +28,11 @@ For `HolyDiverHD.nes`, the main pack file must be at:
 
 `<Mesen data folder>/HdPacks/HolyDiverHD/hires.txt`
 
-All the other extracted files belong beside `hires.txt`. The ZIP contains the pack files directly. If your extraction tool creates a folder named `Holy_Diver_HD_v1.0.0`, copy the **files inside it** into your ROM-named folder.
+All the other extracted files belong beside `hires.txt`. The ZIP contains the pack files directly. If your extraction tool creates a folder named `Holy_Diver_HD_v1.0.1`, copy the **files inside it** into your ROM-named folder.
 
 ## Windows
 
-1. Download `Holy_Diver_HD_v1.0.0.zip`.
+1. Download `Holy_Diver_HD_v1.0.1.zip`.
 2. Right-click the ZIP in File Explorer and choose **Extract All…**, then **Extract**.
 3. Find MesenCE's data folder as described above. Paste that location into File Explorer's address bar and press Enter.
 4. Open or create `HdPacks`, then create the folder matching your ROM name. For `HolyDiverHD.nes`, create `HolyDiverHD`.
@@ -42,7 +42,7 @@ All the other extracted files belong beside `hires.txt`. The ZIP contains the pa
 
 ## macOS
 
-1. Download `Holy_Diver_HD_v1.0.0.zip`.
+1. Download `Holy_Diver_HD_v1.0.1.zip`.
 2. Double-click the ZIP in Finder to extract it. If your browser extracted it automatically, use the resulting folder.
 3. Find MesenCE's data folder as described above. In Finder choose **Go → Go to Folder…** (Shift-Command-G), paste that location, and press Return.
 4. Open or create `HdPacks`, then create the folder matching your ROM name. For `HolyDiverHD.nes`, create `HolyDiverHD`.

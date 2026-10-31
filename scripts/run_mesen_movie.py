@@ -45,6 +45,7 @@ declare('LoadScript',[C.c_char_p,C.c_char_p,C.c_char_p,C.c_int],C.c_int)
 declare('GetScriptLog',[C.c_int,C.c_void_p,C.c_uint32]);declare('GetLog',[C.c_void_p,C.c_uint32])
 declare('SetEmulationFlag',[C.c_int,C.c_bool]);declare('IsRunning',restype=C.c_bool)
 for name in ('Pause','Resume','Stop','Release','InitializeDebugger','TakeScreenshot'):declare(name)
+declare('WaveStop');declare('WaveIsRecording',restype=C.c_bool)
 script=r'''
 local root='__OUT__/'
 local frame=0
@@ -101,7 +102,12 @@ try:
  a.GetLog(b,len(b));(OUT/'emulator.log').write_bytes(b.value)
  info={'movie_sha256':hashlib.sha256(MOVIE.read_bytes()).hexdigest(),'rom_sha1':hashlib.sha1(ROM.read_bytes()).hexdigest(),'emulator_version':'2.2.1','movie_completed':ended,'captured_frames':len(list((OUT/'frames').glob('*.png'))),'seconds_wall':time.monotonic()-started,'stride':args.stride,'core_sha256':hashlib.sha256(Path(args.core).read_bytes()).hexdigest()}
  (OUT/'result.json').write_text(json.dumps(info,indent=2)+'\n');print(json.dumps(info),flush=True);print((OUT/'script.log').read_text(),flush=True)
-finally:a.Stop();a.Release()
+finally:
+ a.Stop()
+ # Finalize the native recorder explicitly; process/library teardown can
+ # otherwise leave a buffered WAV with its placeholder length header.
+ if a.WaveIsRecording():a.WaveStop()
+ a.Release()
 info['movie_frames']=movie_frames
 if args.capture_windows:info['capture_windows']=windows
 info['captured_frames']=len(list((OUT/'frames').glob('*.png')))

@@ -2,9 +2,9 @@
 
 Player-facing requirements and setup are in the [public README](../../README.md) and [installation guide](../INSTALLATION.md).
 
-## Current release preparation
+## Current maintenance
 
-[1.0.0 preparation](RELEASE_1.0.0.md) records the version change, packaging scope and verification.
+[1.0.1 repair and release](RELEASE_1.0.1.md) records the lava-curtain fix and publication workflow. [1.0.0 preparation](RELEASE_1.0.0.md) records the initial public documentation cleanup.
 
 ## Archived history
 

@@ -1,10 +1,10 @@
 # Holy Diver HD
 
-**Version 1.0.0** — an HD graphics pack for Holy Diver on the NES, with updated characters, enemies, scenery, items and effects throughout all six stages.
+**Version 1.0.1** — an HD graphics pack for Holy Diver on the NES, with updated characters, enemies, scenery, items and effects throughout all six stages.
 
 ## Download
 
-Get **Holy_Diver_HD_v1.0.0.zip** from [Releases](https://github.com/kgrant191/holy-diver-hd/releases). This is the installable HD pack. GitHub's automatic source-code archives are for the project source.
+Get **Holy_Diver_HD_v1.0.1.zip** from [Releases](https://github.com/kgrant191/holy-diver-hd/releases). This is the installable HD pack. GitHub's automatic source-code archives are for the project source.
 
 ## Requirements
 
