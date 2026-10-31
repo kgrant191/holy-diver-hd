@@ -67,6 +67,7 @@ subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_finale_repair.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_level6_missed.py')],cwd=r,check=True)
 subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_palace_surfaces.py')],cwd=r,check=True)
+subprocess.run([sys.executable,str(r/'scripts/run_build_step.py'),str(r/'scripts/build_moss_curtain_fix.py')],cwd=r,check=True)
 pack=r/'build/Holy_Diver_(Tr)'
 # Use the same verified atomic-output discipline as the asset builders.
 # A fast copy can retain the seed README on mounted filesystems.

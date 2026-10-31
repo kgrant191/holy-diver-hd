@@ -1,4 +1,4 @@
-HOLY DIVER HD v1.0.0
+HOLY DIVER HD v1.0.1
 Requirements and installation
 
 REQUIREMENTS
@@ -29,11 +29,11 @@ Folder: <Mesen data folder>/HdPacks/Holy_Diver_(Tr)/
 
 All extracted pack files go directly inside that ROM-named folder, beside
 hires.txt. The release ZIP contains the pack files directly. If your extraction
-tool creates a Holy_Diver_HD_v1.0.0 folder, copy the files inside it into your
+tool creates a Holy_Diver_HD_v1.0.1 folder, copy the files inside it into your
 ROM-named folder.
 
 WINDOWS
-1. Download Holy_Diver_HD_v1.0.0.zip.
+1. Download Holy_Diver_HD_v1.0.1.zip.
 2. In File Explorer, right-click the ZIP, choose Extract All, then Extract.
 3. Find the active data folder in MesenCE's Preferences > Files.
    Paste that location into File Explorer's address bar and press Enter.
@@ -46,7 +46,7 @@ WINDOWS
    and then reopen it.
 
 MACOS
-1. Download Holy_Diver_HD_v1.0.0.zip.
+1. Download Holy_Diver_HD_v1.0.1.zip.
 2. Double-click the ZIP in Finder to extract it. If your browser extracted it
    automatically, use the resulting folder.
 3. Find the active data folder in MesenCE's Preferences > Files.

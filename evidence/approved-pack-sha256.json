@@ -108,6 +108,7 @@
   "Lives_Lives_7.png": "8c6bcb1f532bcc32ad27ea5cf2f600ee24e27a8830b8d5bb98ec0cf9d40fea5d",
   "Lives_Lives_8.png": "457b904aa3f6b196c763b7b6a2a12d58843f9d63d350e86725bfa8e81d4809b7",
   "Lives_Lives_9.png": "68519f7d8fed39b916627ddd8748800dd3aca1a8a45630aeb4a934d7f16d618d",
+  "Moss_Curtain_Fix_2x.png": "ba5ac665a20285a85765f6556bfc753b01bdba33b2ad30fee6234cc55817aba3",
   "Nave_Background.png": "865db833ec3e690b8cbb48c45a03fd997aa179e91cbc3d87f6dad395a0d43dbe",
   "Nave_Tiles_2x.png": "8796de7817b6624a03a1b8ee116357d3827b791eb7ed2ea686ea0c41d9721069",
   "Overdrive_Acquired.png": "1a3f82c408af6041600dd329fae1be72b8db522369e779de817c1763fc7a8b0d",
@@ -116,7 +117,7 @@
   "Poison_Moss_Forest_Background.png": "2dc0da73c30d74717e8c584ec7a23425739d1c21a4859fad5872f1f6126af813",
   "Poison_Moss_Ruins_Background.png": "8f592f6b0b078e87186dd258e5a3f6c986a0f7fba5cd91c3c02219341695b1b7",
   "Poison_Moss_Tiles_2x.png": "d6c08a1b474bb44f97cc3ea6af2db973dfab1a468c8c5d0bbadf7906407f53b1",
-  "README.txt": "f81db7b3edbc9b7b05074b9e9d6ec13e20c549395254d73ed49df6490ff28004",
+  "README.txt": "9aedbba26425d2cf8acefd08910a2d16649e8cd0b102c50a5b0e0e54a401c148",
   "Randy_Entrance_2x.png": "8df23c818fa9460fe0c58e6985d08b56be60f6a8e04b5c008f7922a4e89e843f",
   "Randy_Equipped_2x.png": "49c4d9ec24aec369f562b791c98d880cfa55d394c721c4de40d65664a408d69f",
   "Randy_Upward_2x.png": "e186290d126125ea90adab942e178899a8664a7c979cacd0dd197c7b922208cf",
@@ -172,5 +173,5 @@
   "Tree_Potion_Cleanup_2x.png": "7c6f07bd476ff76275bc496fee58542548bb29b817622f1711010fe42ede7041",
   "Weapon_Effects_2x.png": "4375a39a6ac002b1f68262c4cc140bd3f8fda56c7598947a24f1a205af454d57",
   "Weapon_Upward_2x.png": "0b0e9b521f36ee812b566d2dbe1777e620cba42e36368396a4d1965431a92577",
-  "hires.txt": "5fe8f14d98d517631f763a8c25d3a7bb5e16c09256ea9cba1b9f59b5c3c780e2"
+  "hires.txt": "649c1fabab1ec968f2145bb13da899e7581669620b873a181270a1cf70c6bcea"
 }

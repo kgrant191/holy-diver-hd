@@ -1,0 +1,17 @@
+{
+  "version": "1.0.1",
+  "movies": 2,
+  "full_movie_frames": 3457,
+  "native_samples_per_type": 2029,
+  "native_exact": true,
+  "full_audio_exact": true,
+  "changed_pixels_only_inside_repaired_native_cells": true,
+  "old_nontext_assets_exact": 172,
+  "install_files": 175,
+  "scoped_rules": 212,
+  "whole_source_matches": 213,
+  "all_16_animation_phases": true,
+  "hot_palette_variants": 2,
+  "frozen_palette_samples": 572,
+  "publication_authorized": true
+}

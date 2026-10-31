@@ -1,7 +1,7 @@
 # Project status
 
-Version **1.0.0 is approved and merged on main** through [PR #31](https://github.com/kgrant191/holy-diver-hd/pull/31). The public README, installation guide and release history are approved. The PR build and actual artifact are verified; post-merge validation is recorded in the PR description. All 174 approved installation files remain frozen.
+Version **1.0.1** repairs original NES graphics in the later Poison Moss Land lava-curtain corridor. It is based on released 1.0.0; all 172 old art/audio/patch assets remain exact. The user requested both repair and release publication on 2026-10-31.
 
-The v1.0.0 tag and GitHub Release have not been published.
+The repair, validation and version-gated publication workflow are described in [development notes](docs/development/RELEASE_1.0.1.md). The workflow publishes the verified install ZIP after a successful main build. Release and post-merge verification are recorded in the corresponding PR.
 
-Development status and archived implementation history are maintained in [docs/development](docs/development/README.md).
+Public requirements and installation are in [README.md](README.md) and the [Windows/macOS guide](docs/INSTALLATION.md). Historical development notes remain under [docs/development](docs/development/README.md).

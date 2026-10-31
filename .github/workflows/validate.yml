@@ -13,6 +13,8 @@ jobs:
   pack:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      version: ${{ steps.version.outputs.value }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -37,3 +39,43 @@ jobs:
           path: build/Holy_Diver_(Tr)/
           if-no-files-found: error
           retention-days: 30
+  release:
+    name: Publish approved v1.0.1
+    needs: pack
+    # This repair and publication were requested together. Only a validated
+    # main push at this exact version may publish; PRs and later versions cannot.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && needs.pack.outputs.version == '1.0.1'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+    concurrency:
+      group: release-v1.0.1
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Download and package the verified installation files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh run download "$GITHUB_RUN_ID" --name Holy-Diver-HD-v1.0.1 --dir release-pack
+          python scripts/package_release.py --pack release-pack --out build/Holy_Diver_HD_v1.0.1.zip
+      - name: Publish v1.0.1 release and install ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_COMMIT: ${{ github.sha }}
+        run: |
+          if gh release view v1.0.1 >/dev/null 2>&1; then
+            echo "v1.0.1 already exists; leaving the published release unchanged."
+            exit 0
+          fi
+          gh release create v1.0.1 build/Holy_Diver_HD_v1.0.1.zip \
+            --target "$RELEASE_COMMIT" \
+            --title "Holy Diver HD v1.0.1" \
+            --notes-file RELEASE_NOTES.md \
+            --latest
