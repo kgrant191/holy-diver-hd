@@ -6,6 +6,16 @@
 
 Get **Holy_Diver_HD_v1.0.1.zip** from [Releases](https://github.com/kgrant191/holy-diver-hd/releases). This is the installable HD pack. GitHub's automatic source-code archives are for the project source.
 
+## Before and after
+
+Original NES graphics and the Holy Diver HD v1.0.1 pack, captured at matching gameplay moments. Click any image to view the full-size comparison.
+
+| Gothic Chapel | Sunset Lava |
+| --- | --- |
+| [![Gothic Chapel: original NES graphics above, Holy Diver HD below](docs/images/Holy_Diver_HD_Before_After_01_Gothic_Chapel.png)](docs/images/Holy_Diver_HD_Before_After_01_Gothic_Chapel.png) | [![Sunset Lava: original NES graphics above, Holy Diver HD below](docs/images/Holy_Diver_HD_Before_After_02_Sunset_Lava.png)](docs/images/Holy_Diver_HD_Before_After_02_Sunset_Lava.png) |
+| **Poison Moss** | **Golden Temple** |
+| [![Poison Moss: original NES graphics above, Holy Diver HD below](docs/images/Holy_Diver_HD_Before_After_03_Poison_Moss.png)](docs/images/Holy_Diver_HD_Before_After_03_Poison_Moss.png) | [![Golden Temple: original NES graphics above, Holy Diver HD below](docs/images/Holy_Diver_HD_Before_After_04_Golden_Temple.png)](docs/images/Holy_Diver_HD_Before_After_04_Golden_Temple.png) |
+
 ## Requirements
 
 - **Mesen with NES HD pack support. Tested with MesenCE 2.2.1.** [Download MesenCE](https://github.com/nesdev-org/MesenCE/releases/tag/2.2.1).
