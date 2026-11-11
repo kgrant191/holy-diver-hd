@@ -1,60 +1,55 @@
-# Installation — Holy Diver HD v1.0.1
+# Install Holy Diver HD
 
-## Requirements
+Use **standalone MesenCE 2.2.1**, the tested emulator for these packs. [Download MesenCE](https://github.com/nesdev-org/MesenCE/releases/tag/2.2.1). These packs use modern Mesen 2 / MesenCE HD-pack features; original Mesen 0.9.x and RetroArch’s **legacy Mesen core** are not compatible. That core supports pack format 106, while these projects use newer features. A separate MesenCE-based RetroArch core now exists, but these releases have not been validated with it. Standalone MesenCE is the supported setup described here.
 
-- **Mesen emulator with NES HD pack support.** This pack was tested with **MesenCE 2.2.1**. Download MesenCE for your operating system from the [official releases](https://github.com/nesdev-org/MesenCE/releases/tag/2.2.1), and follow its platform requirements.
-- **The supported Holy Diver translated ROM**, as an uncompressed `.nes` file. Its full-file **SHA-1** must be:
-  `FE2FCD0AD334D792DB16535D09F3AB9FB2BEA3AC`
-- **Holy_Diver_HD_v1.0.1.zip** from this project's [Releases page](https://github.com/kgrant191/holy-diver-hd/releases).
+## Install
 
-The ROM and emulator are supplied separately. Renaming a ROM changes its filename, not its checksum.
+1. Download **Holy_Diver_HD_v1.0.1.zip** from the game’s Releases page. Leave the ZIP compressed.
+2. Open your own supported **ROM in MesenCE**.
+3. Choose **Tools > HD Packs (NES) > Install HD Pack** and select the downloaded ZIP.
+4. When MesenCE reports that installation succeeded, click **OK** to reset the game and load the HD pack.
 
-## Find MesenCE's data folder
+No manual extraction or folder renaming is needed for this normal installation. To update a pack, open the same ROM and install the newer release ZIP through the same menu.
 
-In MesenCE, open **Preferences → Files** and look for **Data storage location**. Use the folder shown there. This is the active location for your installation, including portable installations or setups migrated from Mesen2.
+## Troubleshooting
 
-Inside that folder, open or create **HdPacks**.
+### Original graphics still appear
 
-## The folder name must match the ROM
+- Open **Settings > NES > General**, turn on **Enable HD packs**, and apply the change.
+- Close and reopen the ROM after changing settings or pack files. After installation, choose **OK** when asked to reset the game and load the pack.
+- Use the game’s **release HD-pack ZIP**, not GitHub’s automatic source-code ZIP or a screenshots ZIP. Keep the downloaded ZIP intact for the installer. If your browser automatically extracts downloads, download it again with automatic extraction disabled.
+- Confirm that you opened the supported ROM for that pack. Different regions, revisions, translations, patches and file headers can produce different SHA-1 hashes.
 
-Create a folder inside `HdPacks` with **exactly the ROM filename, minus the .nes extension**. Preserve spaces, punctuation and capitalization.
+### Check the active HD pack folder
 
-| ROM filename | HD pack folder |
+In MesenCE, open **Settings > Preferences > Files** and check **Data storage location**. The `HdPacks` folder inside that location is authoritative; portable installations, redirected Documents folders and migrated Mesen2 setups can use another path.
+
+| System | Default MesenCE HD pack folder |
 | --- | --- |
-| `HolyDiverHD.nes` | `HdPacks/HolyDiverHD/` |
-| `Holy_Diver_(Tr).nes` | `HdPacks/Holy_Diver_(Tr)/` |
+| Windows | `%USERPROFILE%\Documents\MesenCE\HdPacks\` |
+| macOS | `~/Library/Application Support/MesenCE/HdPacks/` |
 
-For `HolyDiverHD.nes`, the main pack file must be at:
+On Windows, paste the path into File Explorer’s address bar. On Mac, use Finder **Go > Go to Folder…** (Shift–Command–G). Older or migrated setups may instead use `Documents\Mesen2\HdPacks` on Windows, `~/Library/Application Support/Mesen2/HdPacks/` on Mac, or an older `~/.config/Mesen2/HdPacks/` location. Use the location shown in Preferences rather than creating folders in all of these places.
 
-`<Mesen data folder>/HdPacks/HolyDiverHD/hires.txt`
+The folder inside `HdPacks` must match the ROM’s filename **exactly, without `.nes`**, including spaces, punctuation and capitalization. For example:
 
-All the other extracted files belong beside `hires.txt`. The ZIP contains the pack files directly. If your extraction tool creates a folder named `Holy_Diver_HD_v1.0.1`, copy the **files inside it** into your ROM-named folder.
+| ROM filename | Required pack file |
+| --- | --- |
+| `Bad Dudes (NES).nes` | `HdPacks/Bad Dudes (NES)/hires.txt` |
 
-## Windows
+This is a naming example, not a different supported ROM version. Renaming a ROM does not change its contents or hash. The installer normally handles the folder name for the ROM you have open. If you rename the ROM later, reinstall the pack with that ROM open or rename its pack folder to match.
 
-1. Download `Holy_Diver_HD_v1.0.1.zip`.
-2. Right-click the ZIP in File Explorer and choose **Extract All…**, then **Extract**.
-3. Find MesenCE's data folder as described above. Paste that location into File Explorer's address bar and press Enter.
-4. Open or create `HdPacks`, then create the folder matching your ROM name. For `HolyDiverHD.nes`, create `HolyDiverHD`.
-5. Copy **all extracted pack files** into that folder. Confirm that `hires.txt` is directly inside `HdPacks\HolyDiverHD\`.
-6. In MesenCE's **NES settings → General**, enable **HD packs**. Apply the setting.
-7. Open the matching `.nes` ROM. If it was already running, fully close the game and open it again.
+Make sure `hires.txt` is directly inside the ROM-named folder, alongside all the pack assets, with no extra nested pack folder. Keep the asset filenames unchanged. If an installation is incomplete, download the release ZIP again and reinstall it through the menu.
 
-## macOS
+### Check the ROM’s SHA-1
 
-1. Download `Holy_Diver_HD_v1.0.1.zip`.
-2. Double-click the ZIP in Finder to extract it. If your browser extracted it automatically, use the resulting folder.
-3. Find MesenCE's data folder as described above. In Finder choose **Go → Go to Folder…** (Shift-Command-G), paste that location, and press Return.
-4. Open or create `HdPacks`, then create the folder matching your ROM name. For `HolyDiverHD.nes`, create `HolyDiverHD`.
-5. Copy **all extracted pack files** into that folder. Confirm that `hires.txt` is directly inside `HdPacks/HolyDiverHD/`.
-6. In MesenCE's **NES settings → General**, enable **HD packs**. Apply the setting.
-7. Open the matching `.nes` ROM. If it was already running, fully close the game and open it again.
+Hash the **extracted `.nes` file itself**, not the ROM ZIP or the HD-pack ZIP. Compare all 40 characters against the tested hash below; uppercase versus lowercase does not matter. A different hash means the file is not the exact tested ROM, even when its title or filename looks right. Compatibility with other dumps is not guaranteed. Do not try to fix a mismatch by renaming the file.
 
-For an upgrade, back up the old pack folder before replacing its contents.
+**Tested full-file SHA-1:** `FE2FCD0AD334D792DB16535D09F3AB9FB2BEA3AC`
 
-## Check your ROM's SHA-1
+Holy Diver requires the supported **translated ROM** with this hash.
 
-Windows PowerShell:
+Windows PowerShell (replace the example path with your ROM):
 
 ```powershell
 Get-FileHash -Algorithm SHA1 -LiteralPath "C:\path\to\HolyDiverHD.nes"
@@ -66,14 +61,6 @@ macOS Terminal:
 shasum -a 1 "/path/to/HolyDiverHD.nes"
 ```
 
-Compare the result with the required SHA-1 above. Letter case in the hash does not matter. Hash the extracted `.nes` file itself.
+### Still having trouble?
 
-## If the original graphics still appear
-
-- Confirm that HD packs are enabled in NES settings.
-- Check the ROM's SHA-1 and the active data folder.
-- Check that the pack folder matches the ROM name without `.nes`.
-- Check that `hires.txt` is directly inside that folder, alongside all the pack assets.
-- Fully close the game and reopen it after changing the files or settings.
-
-Keep all files from the install ZIP together; the pack uses their existing filenames.
+Report the pack version, emulator version, operating system, ROM SHA-1 and a screenshot in this project’s GitHub Issues. Do not upload your ROM.

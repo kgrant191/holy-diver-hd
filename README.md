@@ -26,19 +26,22 @@ The ROM and emulator are supplied separately.
 
 ## Install
 
-Extract the pack into a folder inside MesenCE's `HdPacks` directory. **That folder must match your ROM filename exactly, without the .nes extension.**
+Use **standalone MesenCE 2.2.1**, the tested emulator for these packs. [Download MesenCE](https://github.com/nesdev-org/MesenCE/releases/tag/2.2.1). These packs use modern Mesen 2 / MesenCE HD-pack features; original Mesen 0.9.x and RetroArch’s **legacy Mesen core** are not compatible. That core supports pack format 106, while these projects use newer features. A separate MesenCE-based RetroArch core now exists, but these releases have not been validated with it. Standalone MesenCE is the supported setup described here.
 
-| Your ROM | Pack's main file |
-| --- | --- |
-| `HolyDiverHD.nes` | `HdPacks/HolyDiverHD/hires.txt` |
-| `Holy_Diver_(Tr).nes` | `HdPacks/Holy_Diver_(Tr)/hires.txt` |
+1. Download **Holy_Diver_HD_v1.0.1.zip** from the game’s Releases page. Leave the ZIP compressed.
+2. Open your own supported **ROM in MesenCE**.
+3. Choose **Tools > HD Packs (NES) > Install HD Pack** and select the downloaded ZIP.
+4. When MesenCE reports that installation succeeded, click **OK** to reset the game and load the HD pack.
 
-Place all the extracted files beside `hires.txt`, enable HD packs in MesenCE's NES settings, then reopen the ROM.
+No manual extraction or folder renaming is needed for this normal installation. To update a pack, open the same ROM and install the newer release ZIP through the same menu.
 
-**[Windows and macOS installation instructions](docs/INSTALLATION.md)** explain how to find your emulator's active data folder, extract the ZIP, check your ROM's SHA-1 and troubleshoot installation. The same instructions are included as `README.txt` inside the install ZIP.
+[Full installation guide and troubleshooting](docs/INSTALLATION.md).
+
+No ROM or emulator is included. Supply your own supported ROM.
 
 ## Project information
 
 - [Release history](CHANGELOG.md)
 - [Development documentation and archived notes](docs/development/README.md)
 - [Contents and provenance](NOTICE.md)
+
